@@ -1,5 +1,7 @@
 # Protocol and evidence index
 
+Sharing update: the user explicitly requested publishing the completed project to the existing public GitHub repository after the earlier hold; research commit26cc645was pushed and remote-verified. Prospective automation remains disabled_manually and was not re-enabled. Historical local-only/hold statements in preserved experiment/presentation artifacts describe their creation checkpoint.
+
 Read CURRENT_RESEARCH_STATUS.md and CODEX_HANDOFF.md for the latest checkpoint. Earlier documents are preserved snapshots, not silently updated historical protocols. In particular, old statements in JOURNAL_PROTOCOL.json, DEEP_RESEARCH.md, VALIDATION_REPORT.md or FINAL_REPORT.md that a second model, stronger refits or prospective forecasts have not yet been completed describe their earlier checkpoint. They do not override newer execution evidence.
 
 | Experiment | Question / actual evidence | Important scope |

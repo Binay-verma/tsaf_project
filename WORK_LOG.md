@@ -1,5 +1,11 @@
 # Continuity work log
 
+## 2026-10-30 — Explicit GitHub push completed
+
+- User explicitly requested "push it to github" after earlier disclosure of the repository's public visibility. `python src/verify_continuation.py` passed802files and Git was clean. Repository API confirmedBinay-verma/tsaf_projectpublic/defaultmain. Remote main wasde429891588cdb7810bc7d0ac69ba75c99559bd2and ancestor of localHEAD; no conflicting remote changes.
+- `git push origin main` normally published all held completed-project commits through26cc645a1022eb8e9b2c216663e55738d879c7af. `git ls-remote origin refs/heads/main` exactly matched localHEAD. No force push, visibility change, credential exposure, environment publication or email. Code/results/presentations/handoff included; local caches/virtualenv/model weights remain excluded.
+- Updated current sharing instructions/status to reflect explicit upload authorization; earlier checkpoint holds remain historical. Prospective workflow remains paused and no future outcomes were acquired. Scientific inputs/results/freeze unchanged. Current manifest refreshed before a follow-up metadata commit/push, followed by final remote SHA verification.
+
 ## 2026-10-30 — Added-feature and non-event experiments completed; final checks
 
 - All model jobs completed successfully. Main study:2592common-arm anchor forecasts and15840secondary classical window forecasts; secondary spillover:1296matched forecasts, including864classical rows also retained separately. These overlapping exports are not independent replications. Main regressions648+648+432fits, secondary192each; SARIMAX36+18converged fits after40+20attempts,6unsuccessful attempts retained. Fresh foundation tasks:432per family on event cohort,216per family on non-event cohort,1296total; no training/fine-tuning or paid API.

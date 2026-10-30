@@ -2,6 +2,10 @@
 
 Updated 30 October 2026. This is a portable project-state summary, not a verbatim chat export. Use repository files and recorded outputs as evidence. Codex should not need access to the original ChatGPT conversation to resume useful work.
 
+## Latest synchronization — explicit GitHub push completed
+
+After the earlier sharing hold and disclosure that the repository is public, the user explicitly requested "push it to github". Verified repositoryBinay-verma/tsaf_projectis public and remote main wasde42989, an ancestor of local completed work. Normal push published the held research/college commits through26cc645a1022eb8e9b2c216663e55738d879c7af; `git ls-remote origin refs/heads/main` exactly matched local HEAD. No force push or visibility change. The earlier upload hold is superseded for this completed-project synchronization; historical notes below retain the status at their checkpoint. Source reuse response remains pending, and no new data licence is inferred. No email, future-outcome collection or environment publication occurred. Prospective automation remains paused and is not re-enabled by this push. This documentation/manifest synchronization is committed and pushed as a follow-up, with final remote SHA verification.
+
 ## Latest completed checkpoint — festival-feature intervention and spillover checks
 
 User explicitly authorized testing added festival identities and checking missed steps. `results/festival_features_v1/protocol.json` freezes58named2022–2025anchors,48family/state/year groups,72common anchor-target cases and528secondary window cases. Six common arms: ordinary calendar,5zeros,5family-specific day pulses/windows and same-size day/window placebos. Ridge/stable-tree additionally test35offset/zero/placebo channels. Original rich-calendar pre-year parameters are reused unchanged across arms; a separately reported tree leaf-size2regime checks sparse-event capacity. Foundation models run fresh six-arm inference only on72common anchors; do not compare their scores with unmatched528window classical scores.

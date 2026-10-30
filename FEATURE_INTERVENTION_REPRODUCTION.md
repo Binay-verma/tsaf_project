@@ -1,6 +1,6 @@
 # Explicit festival-feature intervention
 
-This continues the existing project. Original source data, historical result directories, college decks and prospective forecasts remain unchanged. New public uploads are held under the current college-only sharing instruction. Use Python3.12and the existing pinned environment; no new scientific dependencies or online model downloads are required here.
+This continues the existing project. Original source data, historical result directories, college decks and prospective forecasts remain unchanged. Following the earlier sharing hold, the user explicitly requested pushing the completed project to the existing public repository; research commit26cc645was pushed and verified. Prospective automation remains paused and source reuse permission remains pending. Use Python3.12and the existing pinned environment; no new scientific dependencies or online model downloads are required here.
 
 ## What is different from the previous benchmark?
 
