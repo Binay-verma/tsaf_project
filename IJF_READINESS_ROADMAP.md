@@ -1,0 +1,51 @@
+# Assessment for an International Journal of Forecasting submission
+
+30 October 2026. This is a study-specific assessment, not an editorial decision, acceptance prediction or formal journal checklist. The user has now named IJF as the intended level/target. Current venue quartile still requires a specified ranking database/year/category; scope and scientific quality matter separately.
+
+The project has substantial implementation and exploratory evidence: stronger local baselines, two audited foundation models, calendar/feature-count/placebo controls, pooled-versus-typed features, supervised family-label exclusion, native uncertainty, past-only interval calibration, immutable future forecasts and 53 passing tests in two environments. The main weaknesses are the generality and distinctiveness of the forecasting contribution, independence/confirmation of the evidence, and unresolved data/calendar provenance. More related forecast rows alone do not strengthen those aspects.
+
+## Verified journal policies versus our recommendations
+
+The official International Institute of Forecasters IJF page explicitly includes forecasting methods, applications, implementation and evaluation. Its stated aim includes connecting theory/practice and usefulness for decisions. An empirical evaluation is therefore a possible route; this does not imply the present contribution is sufficient.
+
+The same page states that data/code sharing has been mandatory since July2023 unless the editor accepts a justification for restrictions, and acceptance is conditional on a reproducibility check. The official author page requests enough method/data detail for replication and code/data as online supplements. These are actual journal policies. There is no verified numerical rule here requiring a particular number of states/models/datasets, a certain MASE, a universal winner or a new architecture.
+
+Sources checked30October2026:
+
+- https://forecasters.org/ijf/
+- https://forecasters.org/ijf/authors/
+
+The author page's linked detailed PDF at https://pierrepinson.com/IJF/IJFauthorguidelines.pdf returned404 during this assessment. Earlier ScienceDirect guide access was rejected by the session proxy. No access bypass or unverified detailed requirement is inferred. The accessible official pages support the policy statements above.
+
+## Priority gaps and completion evidence
+
+| Priority | Current weakness | Recommended work | Evidence needed before a stronger claim |
+| --- | --- | --- | --- |
+| 1. One distinct contribution | The draft combines calendar quality, model rankings, transfer, numerical precision and calibration; generic calendar features/CQR already have close prior work | Choose one primary forecasting question; compare directly with nearest event/calendar approaches and explain what the study adds | A precise contribution and a result/limitation that teaches a forecasting lesson beyond the three-state application |
+| 2. Matched evaluation breadth | Added-festival foundation inference mainly uses72anchor/lead cases; classical sensitivities cover528window cases; broader two-model daily panel has44targetdates | Extend fixed pooled/typed/control arms to the same full event windows and wider ordinary-day coverage for both TSFMs/locals | Complete identical cases and declared availability/adaptation budgets; whole-window and ordinary-day costs, all years/states, no favourable forecast-success intersection |
+| 3. Generalisation and independence | Most new multi-festival/two-model results use two historical event years and three related states from one source lineage | Audit more event/state/year coverage and at least one genuinely separate primary-provider dataset with suitable usage terms and model-exposure audit | Core findings repeat or have explained failure conditions beyond the original source; national/shared-source derivatives are not counted as independent data |
+| 4. Untouched and operational confirmation | Historical outcomes were inspected; original freeze and interval annex are one episode/source; the annex repeats existing TimesFM cases | Predeclare a new rolling-origin study including both foundation families and strong locals; retain actual source publication vintages and issued forecasts | Predictions publicly/immutably recorded before eligible outcomes, source availability timestamps, no outcome-based arm selection, multiple meaningful episodes; do not relabel inspected historical splits as clean tests |
+| 5. Closest comparator methods | Many model families are covered, but nearest calendar/event-encoding methods are not fully reproduced under the same budget | Add justified past-only target/learned event representation and classical holiday-effect comparators from the nearest primary work; verify implementations and temporal availability | Fair matched comparisons against the closest ideas, with past-only selection/encodings and sparse-support logs; a stronger originality argument than model-name variety |
+| 6. Statistical and uncertainty evidence | Two main event-year clusters, related states/leads and small calibration blocks; coverage increases can worsen width/WIS | Obtain more independent evidence, then use paired event/year/series block analyses appropriate to dependence; report failures and effect uncertainty | Uncertainty reflects actual sampling units. No row-count-based significance, independent-observation t-tests, or claim that bootstrapping two years manufactures generality. Coverage accompanies proper scores and width |
+| 7. Source/calendar credibility | Reuse/processing/report-day clarification pending;58used anchors crosswalked but no full amendment certification/human sign-off | Verify observation-date versus report-date conventions against primary reports, revisions/imputation and applicable access/sharing terms; complete relevant amendments and regional review | Defensible data-availability statement and auditable actually-used calendar definitions; no assumption that public access grants redistribution or office closure equals statewide electricity response |
+| 8. Reproduction and coherent paper | Strong internal audits and53tests, but no full independent clean-room main-result reproduction; numerical discrepancies retained | Have another researcher rerun main tables/figures using documented packages/model/source identities and justified tolerances; consolidate one main paper with appendices | Reproducible main conclusions, documented tolerance/sensitivity and reviewer-accessible evidence. Internal software checks and author/coauthor review are accurately distinguished from independent review |
+
+These are recommendations for this particular study, not claims that IJF formally mandates this exact design. A numerical byte mismatch need not imply scientifically different forecasts; the relevant reproduction must assess whether main results/conclusions are stable within justified tolerance. The earlier failed comparisons must remain available.
+
+## Proposed central question
+
+**When does pooling sparse event information help compared with separate festival identities in covariate-informed foundation forecasting, and how do channel allocation and local adaptation change that value?**
+
+This is a candidate framing, not an established novel discovery. Existing results already show a useful qualification: pooled day flags help some foundation/tree configurations, while typed flags can help Ridge/SARIMAX; ordinary calendar, windows, sparse support and longer leads can reverse effects. The paper should test the conditions behind that pattern and establish its relation to the nearest encoding/event-covariate work.
+
+If a mechanism claim is pursued, a prespecified simulation varying event frequency, response heterogeneity and date errors can complement the real-data evidence. It should test declared hypotheses across fixed scenarios/seeds and suitable comparator methods, rather than be constructed to favour our result. It cannot replace independent real-data confirmation. Pooling/shrinkage/event encodings are established ideas; do not rename them as inventions.
+
+## Recommended next sequence
+
+1. **Fix the question and experiment matrix.** Select one main claim, primary metrics/cohorts and nearest-method comparators. Keep calendar provenance, numerical sensitivity and CQR as supporting analyses unless one becomes the actual primary contribution. Freeze choices before new outcomes.
+2. **Complete full-window and ordinary-day matched comparisons.** Preserve the existing anchor results, extend the same registered information/representation controls to both foundation models and local baselines, and label these historical additions exploratory. Do not select favourable events or years after new errors.
+3. **Audit independent data and prepare rolling confirmation.** Select a primary provider with compatible target/unit/calendar coverage and auditable terms. Freeze both-model/strong-local rolling issuance and source-vintage rules before new observations. Existing prospective files and the paused workflow remain untouched; a new study needs its own named protocol and explicit execution status.
+4. **Review the main scientific claim with the professor and an independent reviewer.** Ask whether it is sufficiently distinct and general for IJF. If the professor becomes a coauthor, record their real contribution and do not automatically call their review independent. Resolve data/calendar evidence in parallel.
+5. **Consolidate and submit only supported claims.** Integrate the main result, robustness and limitations into one focused manuscript, with all controls/negative results in reproducible supplements. Verify current journal instructions, declarations, source access terms and target ranking before submission.
+
+Several activities are executable now: the matrix, full-window extension, nearest-comparator implementation, data-source audit, reproducibility tooling and paper consolidation. Other gates require an actual rightsholder/authoritative source response, human review or future observations. Waiting for the31October–11Novemberepisode alone will not turn the study into independent multi-event confirmation. No submission, contact, acceptance or workflow activation is authorised or performed by this assessment.
