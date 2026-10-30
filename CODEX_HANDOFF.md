@@ -2,7 +2,19 @@
 
 Updated 30 October 2026. This is a portable project-state summary, not a verbatim chat export. Use repository files and recorded outputs as evidence. Codex should not need access to the original ChatGPT conversation to resume useful work.
 
-## Current continuation checkpoint — 30 October 2026
+## Phase-two completed checkpoint — 30 October 2026
+
+New results in `results/strong_refit_v1/`: 891 pre-year validation fits, 162 selected configurations, 1,998 annual/monthly deployment fits and 107,244 forecasts; no failed fits. Rich causal history, ordinary calendar and regional modes for Ridge/LightGBM, 2024/25/partial26; parameters frozen within year. Exact 8,937 matched historical Chronos cases per configuration. Monthly updates improve several aggregate scores but harm some festival-year cases. Full reports and independent audits retained.
+
+`results/regional_transfer_v1/`: 162 fixed-Ridge fits, 53,622 predictions; local, pooled-all and leave-region-out arms. Target historical context/normalization is allowed; held-region regression/scaler fitting is excluded and tested. Transfer generally degrades; pooled-all often helps but is not unseen-region fitting.
+
+`results/second_model_audit_v1/`: TimesFM3 pinned code/weights, first weight upload 2026-08-24, actual 1.32 GB SHA-256 verified and matched first upload, forty installed code files match pinned source. Noncommercial academic research terms retained; weights/vendor package outside checkout. Eighteen fixed CPU API tasks produced 252 forecast days and 2,268 native quantiles. This is a successful small API fixture, not broad second-model/festival replication. Network access now works for formerly blocked domains. Twenty-five total unit tests pass; phase-two persisted-output audits pass; historical sources/results remain unchanged.
+
+**Prospective forecasts now exist:** `results/prospective_20261030_v1/` freezes 252 predictions from six fixed configurations across three states, using the unchanged data through 28 October. Issued 30 October; first-unseen origin 29 October. Only 216 predictions targeting 31 October–11 November qualify as future at issuance. Oct29/30 are explicitly ineligible. No outcome retrieval/scoring occurred. Ordinary calendar only; no unverified 2026 regional anchors used. Model/selection/fit/forecast hashes and audit saved. Push this checkpoint to GitHub before those outcomes; never overwrite the frozen predictions. Their later scores, source revisions and single-episode limitations remain open. This supersedes older statements that no prospective forecasts have been made.
+
+Next: complete evidence-linked manuscript draft/updated gap matrix and research-source follow-up; run full matched multi-model calendar controls before new-method claims. Acquire prospective actuals only after target dates, preserve first-retrieval/vintage evidence and score into a new directory. Calendar amendments, explicit data reuse terms, independent source/human review and adequate independent event evidence remain journal gates.
+
+## Earlier continuation checkpoint — 30 October 2026
 
 The split archives were verified (180 transfer entries, 179 checkpoint file hashes) before edits. Python 3.12.14 `.venv` reuses installed numerical packages and installs holidays 0.107/statsmodels 0.15.0. The 11 original unit tests and 5 new controlled-experiment tests pass. `src/audit_checkpoint.py` independently reconstructs labels, scales, matched cases, saved MAE/MASE and LightGBM selection boundaries for all 103,254 historical rows without rewriting original results.
 

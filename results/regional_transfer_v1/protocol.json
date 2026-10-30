@@ -1,0 +1,44 @@
+{
+  "experiment": "regional_transfer_v1",
+  "created_utc": "2026-10-30T05:24:58.555048+00:00",
+  "status": "exploratory; protocol fixed before new transfer outcomes; not external preregistration",
+  "years": [
+    2024,
+    2025,
+    2026
+  ],
+  "leads": [
+    1,
+    7,
+    14
+  ],
+  "modes": [
+    "rich_calendar",
+    "rich_regional"
+  ],
+  "models": [
+    "ridge"
+  ],
+  "ridge_alpha": 10.0,
+  "training_context_days": 730,
+  "refit": "annual, label dates <= previous Dec31; purge by direct horizon",
+  "arms": [
+    "local",
+    "pooled_all",
+    "leave_region_out"
+  ],
+  "transfer_definition": "For each held-out state, fit regression coefficients and feature standardization only to other two states. Historical target-state context and its fixed pre-year mean/std normalization are permitted. This is held-out-regression-region transfer, not no-history cold start or wholly unseen target information. No state identity code.",
+  "normalization": "For each state use mean/std from preceding 730 recorded-label days before year; normalize its historical level features/target with these values; std/trend features divide by std without centering. Target state scaling is permitted historical context and not source fitting.",
+  "hyperparameter_selection": "None; alpha=10 fixed for every arm and state; no held-out-region errors select features/parameters. Source and destination data all precede held-out year; no future-year data are pooled.",
+  "history_features": "same prespecified rich design as strong_refit_v1; do not modify after baseline outcomes",
+  "cases": "same historical expanded daily origins, three states, leads 1/7/14, 2024-26 partial. All arms share recorded labels/cases.",
+  "scaling": "same fixed pre-year observed weekly-difference MASE scale",
+  "reporting": "compare leave_region_out versus local and pooled_all for each mode/state/year/lead/all/event/non-event; save training state identities, label cutoff and normalizers; no claim of zero-shot foundation-model transfer",
+  "limits": [
+    "three related regions from same source, not independent source replication",
+    "only two primary historical event years",
+    "future event-year extrapolation is forward-only, not leave-future-year-in-training",
+    "historical target context and normalization are allowed; not a strict geographic cold start",
+    "all current data exploratory"
+  ]
+}

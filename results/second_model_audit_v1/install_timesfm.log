@@ -1,0 +1,52 @@
+WARNING: The directory '/home/agent/.cache/pip' or its parent directory is not owned or is not writable by the current user. The cache has been disabled. Check the permissions and owner of that directory. If executing pip with sudo, you should use sudo's -H flag.
+Processing /workspace/model-code/timesfm-e51928e27119cb17bebc005be2696b75e0a9e688
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Collecting huggingface-hub==2.4.0
+  Downloading huggingface_hub-2.4.0-py3-none-any.whl.metadata (16 kB)
+Collecting safetensors>=0.5.3
+  Downloading safetensors-0.8.0-cp310-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (4.2 kB)
+Requirement already satisfied: click<9.0.0,>=8.4.2 in /opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages (from huggingface-hub==2.4.0) (8.4.2)
+Requirement already satisfied: filelock>=3.10.0 in ./.venv/lib/python3.12/site-packages (from huggingface-hub==2.4.0) (4.2.4)
+Requirement already satisfied: fsspec>=2023.5.0 in ./.venv/lib/python3.12/site-packages (from huggingface-hub==2.4.0) (2026.9.0)
+Collecting hf-xet<2.0.0,>=1.6.0 (from huggingface-hub==2.4.0)
+  Downloading hf_xet-1.7.1-cp38-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (4.9 kB)
+Collecting httpx2<3,>=2.0.0 (from huggingface-hub==2.4.0)
+  Downloading httpx2-2.16.0-py3-none-any.whl.metadata (10 kB)
+Requirement already satisfied: packaging>=20.9 in /opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages (from huggingface-hub==2.4.0) (26.3)
+Requirement already satisfied: pyyaml>=5.1 in /opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages (from huggingface-hub==2.4.0) (6.0.3)
+Collecting tqdm>=4.42.1 (from huggingface-hub==2.4.0)
+  Downloading tqdm-4.70.1-py3-none-any.whl.metadata (57 kB)
+Requirement already satisfied: typing-extensions>=4.1.0 in /opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages (from huggingface-hub==2.4.0) (4.16.0)
+Requirement already satisfied: numpy>=1.26.4 in /opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages (from timesfm==3.0.2) (2.3.5)
+Requirement already satisfied: anyio>=4.10 in /opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages (from httpx2<3,>=2.0.0->huggingface-hub==2.4.0) (4.14.2)
+Collecting httpcore2==2.16.0 (from httpx2<3,>=2.0.0->huggingface-hub==2.4.0)
+  Downloading httpcore2-2.16.0-py3-none-any.whl.metadata (27 kB)
+Requirement already satisfied: idna>=3.18 in /opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages (from httpx2<3,>=2.0.0->huggingface-hub==2.4.0) (3.18)
+Collecting truststore>=0.10 (from httpx2<3,>=2.0.0->huggingface-hub==2.4.0)
+  Downloading truststore-0.10.5-py3-none-any.whl.metadata (4.5 kB)
+Requirement already satisfied: h11>=0.16 in /opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages (from httpcore2==2.16.0->httpx2<3,>=2.0.0->huggingface-hub==2.4.0) (0.16.0)
+Downloading huggingface_hub-2.4.0-py3-none-any.whl (857 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 857.0/857.0 kB 27.9 MB/s eta 0:00:00
+Downloading safetensors-0.8.0-cp310-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (516 kB)
+Downloading hf_xet-1.7.1-cp38-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (4.2 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.2/4.2 MB 33.0 MB/s eta 0:00:00
+Downloading httpx2-2.16.0-py3-none-any.whl (97 kB)
+Downloading httpcore2-2.16.0-py3-none-any.whl (85 kB)
+Downloading tqdm-4.70.1-py3-none-any.whl (80 kB)
+Downloading truststore-0.10.5-py3-none-any.whl (19 kB)
+Building wheels for collected packages: timesfm
+  Building wheel for timesfm (pyproject.toml): started
+  Building wheel for timesfm (pyproject.toml): finished with status 'done'
+  Created wheel for timesfm: filename=timesfm-3.0.2-py3-none-any.whl size=130261 sha256=180c1202b755b5a05d1b1e224925485bbba801aacef30cb3f928d094fddf84e7
+  Stored in directory: /tmp/pip-ephem-wheel-cache-v5qx7bue/wheels/49/17/81/5083a3a8556c09d92687c0eaa61a1692e818a6f6f67f8de69c
+Successfully built timesfm
+Installing collected packages: truststore, tqdm, safetensors, hf-xet, httpcore2, httpx2, huggingface-hub, timesfm
+Successfully installed hf-xet-1.7.1 httpcore2-2.16.0 httpx2-2.16.0 huggingface-hub-2.4.0 safetensors-0.8.0 timesfm-3.0.2 tqdm-4.70.1 truststore-0.10.5
+
+[notice] A new release of pip is available: 25.0.1 -> 26.2.2
+[notice] To update, run: python -m pip install --upgrade pip

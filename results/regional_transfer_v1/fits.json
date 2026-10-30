@@ -1,0 +1,6482 @@
+[
+  {
+    "held": "Karnataka",
+    "year": 2024,
+    "horizon": 1,
+    "mode": "rich_calendar",
+    "arm": "local",
+    "training_states": [
+      "Karnataka"
+    ],
+    "training": [
+      {
+        "state": "Karnataka",
+        "training_n": 730,
+        "training_target_max": "2023-12-31",
+        "training_origin_max": "2023-12-31"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 229.27605479452058,
+        "scale": 38.9312595429327
+      },
+      "Delhi": {
+        "center": 95.1696712328767,
+        "scale": 26.33301903029329
+      },
+      "Maharashtra": {
+        "center": 532.4329178082191,
+        "scale": 52.38041759184548
+      }
+    },
+    "seconds": 0.0687769969999863
+  },
+  {
+    "held": "Karnataka",
+    "year": 2024,
+    "horizon": 1,
+    "mode": "rich_calendar",
+    "arm": "pooled_all",
+    "training_states": [
+      "Karnataka",
+      "Delhi",
+      "Maharashtra"
+    ],
+    "training": [
+      {
+        "state": "Karnataka",
+        "training_n": 730,
+        "training_target_max": "2023-12-31",
+        "training_origin_max": "2023-12-31"
+      },
+      {
+        "state": "Delhi",
+        "training_n": 730,
+        "training_target_max": "2023-12-31",
+        "training_origin_max": "2023-12-31"
+      },
+      {
+        "state": "Maharashtra",
+        "training_n": 730,
+        "training_target_max": "2023-12-31",
+        "training_origin_max": "2023-12-31"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 229.27605479452058,
+        "scale": 38.9312595429327
+      },
+      "Delhi": {
+        "center": 95.1696712328767,
+        "scale": 26.33301903029329
+      },
+      "Maharashtra": {
+        "center": 532.4329178082191,
+        "scale": 52.38041759184548
+      }
+    },
+    "seconds": 0.0441645260000314
+  },
+  {
+    "held": "Karnataka",
+    "year": 2024,
+    "horizon": 1,
+    "mode": "rich_calendar",
+    "arm": "leave_region_out",
+    "training_states": [
+      "Delhi",
+      "Maharashtra"
+    ],
+    "training": [
+      {
+        "state": "Delhi",
+        "training_n": 730,
+        "training_target_max": "2023-12-31",
+        "training_origin_max": "2023-12-31"
+      },
+      {
+        "state": "Maharashtra",
+        "training_n": 730,
+        "training_target_max": "2023-12-31",
+        "training_origin_max": "2023-12-31"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 229.27605479452058,
+        "scale": 38.9312595429327
+      },
+      "Delhi": {
+        "center": 95.1696712328767,
+        "scale": 26.33301903029329
+      },
+      "Maharashtra": {
+        "center": 532.4329178082191,
+        "scale": 52.38041759184548
+      }
+    },
+    "seconds": 0.04078980799999954
+  },
+  {
+    "held": "Karnataka",
+    "year": 2024,
+    "horizon": 1,
+    "mode": "rich_regional",
+    "arm": "local",
+    "training_states": [
+      "Karnataka"
+    ],
+    "training": [
+      {
+        "state": "Karnataka",
+        "training_n": 730,
+        "training_target_max": "2023-12-31",
+        "training_origin_max": "2023-12-31"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 229.27605479452058,
+        "scale": 38.9312595429327
+      },
+      "Delhi": {
+        "center": 95.1696712328767,
+        "scale": 26.33301903029329
+      },
+      "Maharashtra": {
+        "center": 532.4329178082191,
+        "scale": 52.38041759184548
+      }
+    },
+    "seconds": 0.033178002999989076
+  },
+  {
+    "held": "Karnataka",
+    "year": 2024,
+    "horizon": 1,
+    "mode": "rich_regional",
+    "arm": "pooled_all",
+    "training_states": [
+      "Karnataka",
+      "Delhi",
+      "Maharashtra"
+    ],
+    "training": [
+      {
+        "state": "Karnataka",
+        "training_n": 730,
+        "training_target_max": "2023-12-31",
+        "training_origin_max": "2023-12-31"
+      },
+      {
+        "state": "Delhi",
+        "training_n": 730,
+        "training_target_max": "2023-12-31",
+        "training_origin_max": "2023-12-31"
+      },
+      {
+        "state": "Maharashtra",
+        "training_n": 730,
+        "training_target_max": "2023-12-31",
+        "training_origin_max": "2023-12-31"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 229.27605479452058,
+        "scale": 38.9312595429327
+      },
+      "Delhi": {
+        "center": 95.1696712328767,
+        "scale": 26.33301903029329
+      },
+      "Maharashtra": {
+        "center": 532.4329178082191,
+        "scale": 52.38041759184548
+      }
+    },
+    "seconds": 0.03491030899999714
+  },
+  {
+    "held": "Karnataka",
+    "year": 2024,
+    "horizon": 1,
+    "mode": "rich_regional",
+    "arm": "leave_region_out",
+    "training_states": [
+      "Delhi",
+      "Maharashtra"
+    ],
+    "training": [
+      {
+        "state": "Delhi",
+        "training_n": 730,
+        "training_target_max": "2023-12-31",
+        "training_origin_max": "2023-12-31"
+      },
+      {
+        "state": "Maharashtra",
+        "training_n": 730,
+        "training_target_max": "2023-12-31",
+        "training_origin_max": "2023-12-31"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 229.27605479452058,
+        "scale": 38.9312595429327
+      },
+      "Delhi": {
+        "center": 95.1696712328767,
+        "scale": 26.33301903029329
+      },
+      "Maharashtra": {
+        "center": 532.4329178082191,
+        "scale": 52.38041759184548
+      }
+    },
+    "seconds": 0.03339064800002234
+  },
+  {
+    "held": "Karnataka",
+    "year": 2024,
+    "horizon": 7,
+    "mode": "rich_calendar",
+    "arm": "local",
+    "training_states": [
+      "Karnataka"
+    ],
+    "training": [
+      {
+        "state": "Karnataka",
+        "training_n": 724,
+        "training_target_max": "2023-12-31",
+        "training_origin_max": "2023-12-25"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 229.27605479452058,
+        "scale": 38.9312595429327
+      },
+      "Delhi": {
+        "center": 95.1696712328767,
+        "scale": 26.33301903029329
+      },
+      "Maharashtra": {
+        "center": 532.4329178082191,
+        "scale": 52.38041759184548
+      }
+    },
+    "seconds": 0.041324939999981325
+  },
+  {
+    "held": "Karnataka",
+    "year": 2024,
+    "horizon": 7,
+    "mode": "rich_calendar",
+    "arm": "pooled_all",
+    "training_states": [
+      "Karnataka",
+      "Delhi",
+      "Maharashtra"
+    ],
+    "training": [
+      {
+        "state": "Karnataka",
+        "training_n": 724,
+        "training_target_max": "2023-12-31",
+        "training_origin_max": "2023-12-25"
+      },
+      {
+        "state": "Delhi",
+        "training_n": 724,
+        "training_target_max": "2023-12-31",
+        "training_origin_max": "2023-12-25"
+      },
+      {
+        "state": "Maharashtra",
+        "training_n": 724,
+        "training_target_max": "2023-12-31",
+        "training_origin_max": "2023-12-25"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 229.27605479452058,
+        "scale": 38.9312595429327
+      },
+      "Delhi": {
+        "center": 95.1696712328767,
+        "scale": 26.33301903029329
+      },
+      "Maharashtra": {
+        "center": 532.4329178082191,
+        "scale": 52.38041759184548
+      }
+    },
+    "seconds": 0.04377534899998636
+  },
+  {
+    "held": "Karnataka",
+    "year": 2024,
+    "horizon": 7,
+    "mode": "rich_calendar",
+    "arm": "leave_region_out",
+    "training_states": [
+      "Delhi",
+      "Maharashtra"
+    ],
+    "training": [
+      {
+        "state": "Delhi",
+        "training_n": 724,
+        "training_target_max": "2023-12-31",
+        "training_origin_max": "2023-12-25"
+      },
+      {
+        "state": "Maharashtra",
+        "training_n": 724,
+        "training_target_max": "2023-12-31",
+        "training_origin_max": "2023-12-25"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 229.27605479452058,
+        "scale": 38.9312595429327
+      },
+      "Delhi": {
+        "center": 95.1696712328767,
+        "scale": 26.33301903029329
+      },
+      "Maharashtra": {
+        "center": 532.4329178082191,
+        "scale": 52.38041759184548
+      }
+    },
+    "seconds": 0.04262523599999213
+  },
+  {
+    "held": "Karnataka",
+    "year": 2024,
+    "horizon": 7,
+    "mode": "rich_regional",
+    "arm": "local",
+    "training_states": [
+      "Karnataka"
+    ],
+    "training": [
+      {
+        "state": "Karnataka",
+        "training_n": 724,
+        "training_target_max": "2023-12-31",
+        "training_origin_max": "2023-12-25"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 229.27605479452058,
+        "scale": 38.9312595429327
+      },
+      "Delhi": {
+        "center": 95.1696712328767,
+        "scale": 26.33301903029329
+      },
+      "Maharashtra": {
+        "center": 532.4329178082191,
+        "scale": 52.38041759184548
+      }
+    },
+    "seconds": 0.038815583000030074
+  },
+  {
+    "held": "Karnataka",
+    "year": 2024,
+    "horizon": 7,
+    "mode": "rich_regional",
+    "arm": "pooled_all",
+    "training_states": [
+      "Karnataka",
+      "Delhi",
+      "Maharashtra"
+    ],
+    "training": [
+      {
+        "state": "Karnataka",
+        "training_n": 724,
+        "training_target_max": "2023-12-31",
+        "training_origin_max": "2023-12-25"
+      },
+      {
+        "state": "Delhi",
+        "training_n": 724,
+        "training_target_max": "2023-12-31",
+        "training_origin_max": "2023-12-25"
+      },
+      {
+        "state": "Maharashtra",
+        "training_n": 724,
+        "training_target_max": "2023-12-31",
+        "training_origin_max": "2023-12-25"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 229.27605479452058,
+        "scale": 38.9312595429327
+      },
+      "Delhi": {
+        "center": 95.1696712328767,
+        "scale": 26.33301903029329
+      },
+      "Maharashtra": {
+        "center": 532.4329178082191,
+        "scale": 52.38041759184548
+      }
+    },
+    "seconds": 0.03581205500000806
+  },
+  {
+    "held": "Karnataka",
+    "year": 2024,
+    "horizon": 7,
+    "mode": "rich_regional",
+    "arm": "leave_region_out",
+    "training_states": [
+      "Delhi",
+      "Maharashtra"
+    ],
+    "training": [
+      {
+        "state": "Delhi",
+        "training_n": 724,
+        "training_target_max": "2023-12-31",
+        "training_origin_max": "2023-12-25"
+      },
+      {
+        "state": "Maharashtra",
+        "training_n": 724,
+        "training_target_max": "2023-12-31",
+        "training_origin_max": "2023-12-25"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 229.27605479452058,
+        "scale": 38.9312595429327
+      },
+      "Delhi": {
+        "center": 95.1696712328767,
+        "scale": 26.33301903029329
+      },
+      "Maharashtra": {
+        "center": 532.4329178082191,
+        "scale": 52.38041759184548
+      }
+    },
+    "seconds": 0.034944219000010435
+  },
+  {
+    "held": "Karnataka",
+    "year": 2024,
+    "horizon": 14,
+    "mode": "rich_calendar",
+    "arm": "local",
+    "training_states": [
+      "Karnataka"
+    ],
+    "training": [
+      {
+        "state": "Karnataka",
+        "training_n": 717,
+        "training_target_max": "2023-12-31",
+        "training_origin_max": "2023-12-18"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 229.27605479452058,
+        "scale": 38.9312595429327
+      },
+      "Delhi": {
+        "center": 95.1696712328767,
+        "scale": 26.33301903029329
+      },
+      "Maharashtra": {
+        "center": 532.4329178082191,
+        "scale": 52.38041759184548
+      }
+    },
+    "seconds": 0.03556179399998882
+  },
+  {
+    "held": "Karnataka",
+    "year": 2024,
+    "horizon": 14,
+    "mode": "rich_calendar",
+    "arm": "pooled_all",
+    "training_states": [
+      "Karnataka",
+      "Delhi",
+      "Maharashtra"
+    ],
+    "training": [
+      {
+        "state": "Karnataka",
+        "training_n": 717,
+        "training_target_max": "2023-12-31",
+        "training_origin_max": "2023-12-18"
+      },
+      {
+        "state": "Delhi",
+        "training_n": 717,
+        "training_target_max": "2023-12-31",
+        "training_origin_max": "2023-12-18"
+      },
+      {
+        "state": "Maharashtra",
+        "training_n": 717,
+        "training_target_max": "2023-12-31",
+        "training_origin_max": "2023-12-18"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 229.27605479452058,
+        "scale": 38.9312595429327
+      },
+      "Delhi": {
+        "center": 95.1696712328767,
+        "scale": 26.33301903029329
+      },
+      "Maharashtra": {
+        "center": 532.4329178082191,
+        "scale": 52.38041759184548
+      }
+    },
+    "seconds": 0.040893197999992026
+  },
+  {
+    "held": "Karnataka",
+    "year": 2024,
+    "horizon": 14,
+    "mode": "rich_calendar",
+    "arm": "leave_region_out",
+    "training_states": [
+      "Delhi",
+      "Maharashtra"
+    ],
+    "training": [
+      {
+        "state": "Delhi",
+        "training_n": 717,
+        "training_target_max": "2023-12-31",
+        "training_origin_max": "2023-12-18"
+      },
+      {
+        "state": "Maharashtra",
+        "training_n": 717,
+        "training_target_max": "2023-12-31",
+        "training_origin_max": "2023-12-18"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 229.27605479452058,
+        "scale": 38.9312595429327
+      },
+      "Delhi": {
+        "center": 95.1696712328767,
+        "scale": 26.33301903029329
+      },
+      "Maharashtra": {
+        "center": 532.4329178082191,
+        "scale": 52.38041759184548
+      }
+    },
+    "seconds": 0.0479272609999839
+  },
+  {
+    "held": "Karnataka",
+    "year": 2024,
+    "horizon": 14,
+    "mode": "rich_regional",
+    "arm": "local",
+    "training_states": [
+      "Karnataka"
+    ],
+    "training": [
+      {
+        "state": "Karnataka",
+        "training_n": 717,
+        "training_target_max": "2023-12-31",
+        "training_origin_max": "2023-12-18"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 229.27605479452058,
+        "scale": 38.9312595429327
+      },
+      "Delhi": {
+        "center": 95.1696712328767,
+        "scale": 26.33301903029329
+      },
+      "Maharashtra": {
+        "center": 532.4329178082191,
+        "scale": 52.38041759184548
+      }
+    },
+    "seconds": 0.041163713999992524
+  },
+  {
+    "held": "Karnataka",
+    "year": 2024,
+    "horizon": 14,
+    "mode": "rich_regional",
+    "arm": "pooled_all",
+    "training_states": [
+      "Karnataka",
+      "Delhi",
+      "Maharashtra"
+    ],
+    "training": [
+      {
+        "state": "Karnataka",
+        "training_n": 717,
+        "training_target_max": "2023-12-31",
+        "training_origin_max": "2023-12-18"
+      },
+      {
+        "state": "Delhi",
+        "training_n": 717,
+        "training_target_max": "2023-12-31",
+        "training_origin_max": "2023-12-18"
+      },
+      {
+        "state": "Maharashtra",
+        "training_n": 717,
+        "training_target_max": "2023-12-31",
+        "training_origin_max": "2023-12-18"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 229.27605479452058,
+        "scale": 38.9312595429327
+      },
+      "Delhi": {
+        "center": 95.1696712328767,
+        "scale": 26.33301903029329
+      },
+      "Maharashtra": {
+        "center": 532.4329178082191,
+        "scale": 52.38041759184548
+      }
+    },
+    "seconds": 0.04266784999998663
+  },
+  {
+    "held": "Karnataka",
+    "year": 2024,
+    "horizon": 14,
+    "mode": "rich_regional",
+    "arm": "leave_region_out",
+    "training_states": [
+      "Delhi",
+      "Maharashtra"
+    ],
+    "training": [
+      {
+        "state": "Delhi",
+        "training_n": 717,
+        "training_target_max": "2023-12-31",
+        "training_origin_max": "2023-12-18"
+      },
+      {
+        "state": "Maharashtra",
+        "training_n": 717,
+        "training_target_max": "2023-12-31",
+        "training_origin_max": "2023-12-18"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 229.27605479452058,
+        "scale": 38.9312595429327
+      },
+      "Delhi": {
+        "center": 95.1696712328767,
+        "scale": 26.33301903029329
+      },
+      "Maharashtra": {
+        "center": 532.4329178082191,
+        "scale": 52.38041759184548
+      }
+    },
+    "seconds": 0.03358466100002033
+  },
+  {
+    "held": "Karnataka",
+    "year": 2025,
+    "horizon": 1,
+    "mode": "rich_calendar",
+    "arm": "local",
+    "training_states": [
+      "Karnataka"
+    ],
+    "training": [
+      {
+        "state": "Karnataka",
+        "training_n": 730,
+        "training_target_max": "2024-12-31",
+        "training_origin_max": "2024-12-31"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 251.02582191780823,
+        "scale": 37.879953367925
+      },
+      "Delhi": {
+        "center": 100.07093150684932,
+        "scale": 28.30738674377097
+      },
+      "Maharashtra": {
+        "center": 554.6691260273973,
+        "scale": 42.80152846905412
+      }
+    },
+    "seconds": 0.03220381500000258
+  },
+  {
+    "held": "Karnataka",
+    "year": 2025,
+    "horizon": 1,
+    "mode": "rich_calendar",
+    "arm": "pooled_all",
+    "training_states": [
+      "Karnataka",
+      "Delhi",
+      "Maharashtra"
+    ],
+    "training": [
+      {
+        "state": "Karnataka",
+        "training_n": 730,
+        "training_target_max": "2024-12-31",
+        "training_origin_max": "2024-12-31"
+      },
+      {
+        "state": "Delhi",
+        "training_n": 730,
+        "training_target_max": "2024-12-31",
+        "training_origin_max": "2024-12-31"
+      },
+      {
+        "state": "Maharashtra",
+        "training_n": 730,
+        "training_target_max": "2024-12-31",
+        "training_origin_max": "2024-12-31"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 251.02582191780823,
+        "scale": 37.879953367925
+      },
+      "Delhi": {
+        "center": 100.07093150684932,
+        "scale": 28.30738674377097
+      },
+      "Maharashtra": {
+        "center": 554.6691260273973,
+        "scale": 42.80152846905412
+      }
+    },
+    "seconds": 0.037493807999965156
+  },
+  {
+    "held": "Karnataka",
+    "year": 2025,
+    "horizon": 1,
+    "mode": "rich_calendar",
+    "arm": "leave_region_out",
+    "training_states": [
+      "Delhi",
+      "Maharashtra"
+    ],
+    "training": [
+      {
+        "state": "Delhi",
+        "training_n": 730,
+        "training_target_max": "2024-12-31",
+        "training_origin_max": "2024-12-31"
+      },
+      {
+        "state": "Maharashtra",
+        "training_n": 730,
+        "training_target_max": "2024-12-31",
+        "training_origin_max": "2024-12-31"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 251.02582191780823,
+        "scale": 37.879953367925
+      },
+      "Delhi": {
+        "center": 100.07093150684932,
+        "scale": 28.30738674377097
+      },
+      "Maharashtra": {
+        "center": 554.6691260273973,
+        "scale": 42.80152846905412
+      }
+    },
+    "seconds": 0.043264644000032604
+  },
+  {
+    "held": "Karnataka",
+    "year": 2025,
+    "horizon": 1,
+    "mode": "rich_regional",
+    "arm": "local",
+    "training_states": [
+      "Karnataka"
+    ],
+    "training": [
+      {
+        "state": "Karnataka",
+        "training_n": 730,
+        "training_target_max": "2024-12-31",
+        "training_origin_max": "2024-12-31"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 251.02582191780823,
+        "scale": 37.879953367925
+      },
+      "Delhi": {
+        "center": 100.07093150684932,
+        "scale": 28.30738674377097
+      },
+      "Maharashtra": {
+        "center": 554.6691260273973,
+        "scale": 42.80152846905412
+      }
+    },
+    "seconds": 0.04130573300000151
+  },
+  {
+    "held": "Karnataka",
+    "year": 2025,
+    "horizon": 1,
+    "mode": "rich_regional",
+    "arm": "pooled_all",
+    "training_states": [
+      "Karnataka",
+      "Delhi",
+      "Maharashtra"
+    ],
+    "training": [
+      {
+        "state": "Karnataka",
+        "training_n": 730,
+        "training_target_max": "2024-12-31",
+        "training_origin_max": "2024-12-31"
+      },
+      {
+        "state": "Delhi",
+        "training_n": 730,
+        "training_target_max": "2024-12-31",
+        "training_origin_max": "2024-12-31"
+      },
+      {
+        "state": "Maharashtra",
+        "training_n": 730,
+        "training_target_max": "2024-12-31",
+        "training_origin_max": "2024-12-31"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 251.02582191780823,
+        "scale": 37.879953367925
+      },
+      "Delhi": {
+        "center": 100.07093150684932,
+        "scale": 28.30738674377097
+      },
+      "Maharashtra": {
+        "center": 554.6691260273973,
+        "scale": 42.80152846905412
+      }
+    },
+    "seconds": 0.045375929999977416
+  },
+  {
+    "held": "Karnataka",
+    "year": 2025,
+    "horizon": 1,
+    "mode": "rich_regional",
+    "arm": "leave_region_out",
+    "training_states": [
+      "Delhi",
+      "Maharashtra"
+    ],
+    "training": [
+      {
+        "state": "Delhi",
+        "training_n": 730,
+        "training_target_max": "2024-12-31",
+        "training_origin_max": "2024-12-31"
+      },
+      {
+        "state": "Maharashtra",
+        "training_n": 730,
+        "training_target_max": "2024-12-31",
+        "training_origin_max": "2024-12-31"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 251.02582191780823,
+        "scale": 37.879953367925
+      },
+      "Delhi": {
+        "center": 100.07093150684932,
+        "scale": 28.30738674377097
+      },
+      "Maharashtra": {
+        "center": 554.6691260273973,
+        "scale": 42.80152846905412
+      }
+    },
+    "seconds": 0.04341968400001406
+  },
+  {
+    "held": "Karnataka",
+    "year": 2025,
+    "horizon": 7,
+    "mode": "rich_calendar",
+    "arm": "local",
+    "training_states": [
+      "Karnataka"
+    ],
+    "training": [
+      {
+        "state": "Karnataka",
+        "training_n": 724,
+        "training_target_max": "2024-12-31",
+        "training_origin_max": "2024-12-25"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 251.02582191780823,
+        "scale": 37.879953367925
+      },
+      "Delhi": {
+        "center": 100.07093150684932,
+        "scale": 28.30738674377097
+      },
+      "Maharashtra": {
+        "center": 554.6691260273973,
+        "scale": 42.80152846905412
+      }
+    },
+    "seconds": 0.0407894339999757
+  },
+  {
+    "held": "Karnataka",
+    "year": 2025,
+    "horizon": 7,
+    "mode": "rich_calendar",
+    "arm": "pooled_all",
+    "training_states": [
+      "Karnataka",
+      "Delhi",
+      "Maharashtra"
+    ],
+    "training": [
+      {
+        "state": "Karnataka",
+        "training_n": 724,
+        "training_target_max": "2024-12-31",
+        "training_origin_max": "2024-12-25"
+      },
+      {
+        "state": "Delhi",
+        "training_n": 724,
+        "training_target_max": "2024-12-31",
+        "training_origin_max": "2024-12-25"
+      },
+      {
+        "state": "Maharashtra",
+        "training_n": 724,
+        "training_target_max": "2024-12-31",
+        "training_origin_max": "2024-12-25"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 251.02582191780823,
+        "scale": 37.879953367925
+      },
+      "Delhi": {
+        "center": 100.07093150684932,
+        "scale": 28.30738674377097
+      },
+      "Maharashtra": {
+        "center": 554.6691260273973,
+        "scale": 42.80152846905412
+      }
+    },
+    "seconds": 0.04256995100001859
+  },
+  {
+    "held": "Karnataka",
+    "year": 2025,
+    "horizon": 7,
+    "mode": "rich_calendar",
+    "arm": "leave_region_out",
+    "training_states": [
+      "Delhi",
+      "Maharashtra"
+    ],
+    "training": [
+      {
+        "state": "Delhi",
+        "training_n": 724,
+        "training_target_max": "2024-12-31",
+        "training_origin_max": "2024-12-25"
+      },
+      {
+        "state": "Maharashtra",
+        "training_n": 724,
+        "training_target_max": "2024-12-31",
+        "training_origin_max": "2024-12-25"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 251.02582191780823,
+        "scale": 37.879953367925
+      },
+      "Delhi": {
+        "center": 100.07093150684932,
+        "scale": 28.30738674377097
+      },
+      "Maharashtra": {
+        "center": 554.6691260273973,
+        "scale": 42.80152846905412
+      }
+    },
+    "seconds": 0.03029208399999561
+  },
+  {
+    "held": "Karnataka",
+    "year": 2025,
+    "horizon": 7,
+    "mode": "rich_regional",
+    "arm": "local",
+    "training_states": [
+      "Karnataka"
+    ],
+    "training": [
+      {
+        "state": "Karnataka",
+        "training_n": 724,
+        "training_target_max": "2024-12-31",
+        "training_origin_max": "2024-12-25"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 251.02582191780823,
+        "scale": 37.879953367925
+      },
+      "Delhi": {
+        "center": 100.07093150684932,
+        "scale": 28.30738674377097
+      },
+      "Maharashtra": {
+        "center": 554.6691260273973,
+        "scale": 42.80152846905412
+      }
+    },
+    "seconds": 0.0377199540000106
+  },
+  {
+    "held": "Karnataka",
+    "year": 2025,
+    "horizon": 7,
+    "mode": "rich_regional",
+    "arm": "pooled_all",
+    "training_states": [
+      "Karnataka",
+      "Delhi",
+      "Maharashtra"
+    ],
+    "training": [
+      {
+        "state": "Karnataka",
+        "training_n": 724,
+        "training_target_max": "2024-12-31",
+        "training_origin_max": "2024-12-25"
+      },
+      {
+        "state": "Delhi",
+        "training_n": 724,
+        "training_target_max": "2024-12-31",
+        "training_origin_max": "2024-12-25"
+      },
+      {
+        "state": "Maharashtra",
+        "training_n": 724,
+        "training_target_max": "2024-12-31",
+        "training_origin_max": "2024-12-25"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 251.02582191780823,
+        "scale": 37.879953367925
+      },
+      "Delhi": {
+        "center": 100.07093150684932,
+        "scale": 28.30738674377097
+      },
+      "Maharashtra": {
+        "center": 554.6691260273973,
+        "scale": 42.80152846905412
+      }
+    },
+    "seconds": 0.040082561999952304
+  },
+  {
+    "held": "Karnataka",
+    "year": 2025,
+    "horizon": 7,
+    "mode": "rich_regional",
+    "arm": "leave_region_out",
+    "training_states": [
+      "Delhi",
+      "Maharashtra"
+    ],
+    "training": [
+      {
+        "state": "Delhi",
+        "training_n": 724,
+        "training_target_max": "2024-12-31",
+        "training_origin_max": "2024-12-25"
+      },
+      {
+        "state": "Maharashtra",
+        "training_n": 724,
+        "training_target_max": "2024-12-31",
+        "training_origin_max": "2024-12-25"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 251.02582191780823,
+        "scale": 37.879953367925
+      },
+      "Delhi": {
+        "center": 100.07093150684932,
+        "scale": 28.30738674377097
+      },
+      "Maharashtra": {
+        "center": 554.6691260273973,
+        "scale": 42.80152846905412
+      }
+    },
+    "seconds": 0.0375349290000031
+  },
+  {
+    "held": "Karnataka",
+    "year": 2025,
+    "horizon": 14,
+    "mode": "rich_calendar",
+    "arm": "local",
+    "training_states": [
+      "Karnataka"
+    ],
+    "training": [
+      {
+        "state": "Karnataka",
+        "training_n": 717,
+        "training_target_max": "2024-12-31",
+        "training_origin_max": "2024-12-18"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 251.02582191780823,
+        "scale": 37.879953367925
+      },
+      "Delhi": {
+        "center": 100.07093150684932,
+        "scale": 28.30738674377097
+      },
+      "Maharashtra": {
+        "center": 554.6691260273973,
+        "scale": 42.80152846905412
+      }
+    },
+    "seconds": 0.04269251699997767
+  },
+  {
+    "held": "Karnataka",
+    "year": 2025,
+    "horizon": 14,
+    "mode": "rich_calendar",
+    "arm": "pooled_all",
+    "training_states": [
+      "Karnataka",
+      "Delhi",
+      "Maharashtra"
+    ],
+    "training": [
+      {
+        "state": "Karnataka",
+        "training_n": 717,
+        "training_target_max": "2024-12-31",
+        "training_origin_max": "2024-12-18"
+      },
+      {
+        "state": "Delhi",
+        "training_n": 717,
+        "training_target_max": "2024-12-31",
+        "training_origin_max": "2024-12-18"
+      },
+      {
+        "state": "Maharashtra",
+        "training_n": 717,
+        "training_target_max": "2024-12-31",
+        "training_origin_max": "2024-12-18"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 251.02582191780823,
+        "scale": 37.879953367925
+      },
+      "Delhi": {
+        "center": 100.07093150684932,
+        "scale": 28.30738674377097
+      },
+      "Maharashtra": {
+        "center": 554.6691260273973,
+        "scale": 42.80152846905412
+      }
+    },
+    "seconds": 0.04398351800000455
+  },
+  {
+    "held": "Karnataka",
+    "year": 2025,
+    "horizon": 14,
+    "mode": "rich_calendar",
+    "arm": "leave_region_out",
+    "training_states": [
+      "Delhi",
+      "Maharashtra"
+    ],
+    "training": [
+      {
+        "state": "Delhi",
+        "training_n": 717,
+        "training_target_max": "2024-12-31",
+        "training_origin_max": "2024-12-18"
+      },
+      {
+        "state": "Maharashtra",
+        "training_n": 717,
+        "training_target_max": "2024-12-31",
+        "training_origin_max": "2024-12-18"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 251.02582191780823,
+        "scale": 37.879953367925
+      },
+      "Delhi": {
+        "center": 100.07093150684932,
+        "scale": 28.30738674377097
+      },
+      "Maharashtra": {
+        "center": 554.6691260273973,
+        "scale": 42.80152846905412
+      }
+    },
+    "seconds": 0.03889115800001264
+  },
+  {
+    "held": "Karnataka",
+    "year": 2025,
+    "horizon": 14,
+    "mode": "rich_regional",
+    "arm": "local",
+    "training_states": [
+      "Karnataka"
+    ],
+    "training": [
+      {
+        "state": "Karnataka",
+        "training_n": 717,
+        "training_target_max": "2024-12-31",
+        "training_origin_max": "2024-12-18"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 251.02582191780823,
+        "scale": 37.879953367925
+      },
+      "Delhi": {
+        "center": 100.07093150684932,
+        "scale": 28.30738674377097
+      },
+      "Maharashtra": {
+        "center": 554.6691260273973,
+        "scale": 42.80152846905412
+      }
+    },
+    "seconds": 0.033222864999970625
+  },
+  {
+    "held": "Karnataka",
+    "year": 2025,
+    "horizon": 14,
+    "mode": "rich_regional",
+    "arm": "pooled_all",
+    "training_states": [
+      "Karnataka",
+      "Delhi",
+      "Maharashtra"
+    ],
+    "training": [
+      {
+        "state": "Karnataka",
+        "training_n": 717,
+        "training_target_max": "2024-12-31",
+        "training_origin_max": "2024-12-18"
+      },
+      {
+        "state": "Delhi",
+        "training_n": 717,
+        "training_target_max": "2024-12-31",
+        "training_origin_max": "2024-12-18"
+      },
+      {
+        "state": "Maharashtra",
+        "training_n": 717,
+        "training_target_max": "2024-12-31",
+        "training_origin_max": "2024-12-18"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 251.02582191780823,
+        "scale": 37.879953367925
+      },
+      "Delhi": {
+        "center": 100.07093150684932,
+        "scale": 28.30738674377097
+      },
+      "Maharashtra": {
+        "center": 554.6691260273973,
+        "scale": 42.80152846905412
+      }
+    },
+    "seconds": 0.03766138600002478
+  },
+  {
+    "held": "Karnataka",
+    "year": 2025,
+    "horizon": 14,
+    "mode": "rich_regional",
+    "arm": "leave_region_out",
+    "training_states": [
+      "Delhi",
+      "Maharashtra"
+    ],
+    "training": [
+      {
+        "state": "Delhi",
+        "training_n": 717,
+        "training_target_max": "2024-12-31",
+        "training_origin_max": "2024-12-18"
+      },
+      {
+        "state": "Maharashtra",
+        "training_n": 717,
+        "training_target_max": "2024-12-31",
+        "training_origin_max": "2024-12-18"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 251.02582191780823,
+        "scale": 37.879953367925
+      },
+      "Delhi": {
+        "center": 100.07093150684932,
+        "scale": 28.30738674377097
+      },
+      "Maharashtra": {
+        "center": 554.6691260273973,
+        "scale": 42.80152846905412
+      }
+    },
+    "seconds": 0.033874969999999394
+  },
+  {
+    "held": "Karnataka",
+    "year": 2026,
+    "horizon": 1,
+    "mode": "rich_calendar",
+    "arm": "local",
+    "training_states": [
+      "Karnataka"
+    ],
+    "training": [
+      {
+        "state": "Karnataka",
+        "training_n": 730,
+        "training_target_max": "2025-12-31",
+        "training_origin_max": "2025-12-31"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 257.33752054794525,
+        "scale": 45.37125823185975
+      },
+      "Delhi": {
+        "center": 104.40073972602741,
+        "scale": 28.477743996948888
+      },
+      "Maharashtra": {
+        "center": 565.8824136986301,
+        "scale": 51.36399153531991
+      }
+    },
+    "seconds": 0.040892420000034235
+  },
+  {
+    "held": "Karnataka",
+    "year": 2026,
+    "horizon": 1,
+    "mode": "rich_calendar",
+    "arm": "pooled_all",
+    "training_states": [
+      "Karnataka",
+      "Delhi",
+      "Maharashtra"
+    ],
+    "training": [
+      {
+        "state": "Karnataka",
+        "training_n": 730,
+        "training_target_max": "2025-12-31",
+        "training_origin_max": "2025-12-31"
+      },
+      {
+        "state": "Delhi",
+        "training_n": 730,
+        "training_target_max": "2025-12-31",
+        "training_origin_max": "2025-12-31"
+      },
+      {
+        "state": "Maharashtra",
+        "training_n": 730,
+        "training_target_max": "2025-12-31",
+        "training_origin_max": "2025-12-31"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 257.33752054794525,
+        "scale": 45.37125823185975
+      },
+      "Delhi": {
+        "center": 104.40073972602741,
+        "scale": 28.477743996948888
+      },
+      "Maharashtra": {
+        "center": 565.8824136986301,
+        "scale": 51.36399153531991
+      }
+    },
+    "seconds": 0.04589681700002757
+  },
+  {
+    "held": "Karnataka",
+    "year": 2026,
+    "horizon": 1,
+    "mode": "rich_calendar",
+    "arm": "leave_region_out",
+    "training_states": [
+      "Delhi",
+      "Maharashtra"
+    ],
+    "training": [
+      {
+        "state": "Delhi",
+        "training_n": 730,
+        "training_target_max": "2025-12-31",
+        "training_origin_max": "2025-12-31"
+      },
+      {
+        "state": "Maharashtra",
+        "training_n": 730,
+        "training_target_max": "2025-12-31",
+        "training_origin_max": "2025-12-31"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 257.33752054794525,
+        "scale": 45.37125823185975
+      },
+      "Delhi": {
+        "center": 104.40073972602741,
+        "scale": 28.477743996948888
+      },
+      "Maharashtra": {
+        "center": 565.8824136986301,
+        "scale": 51.36399153531991
+      }
+    },
+    "seconds": 0.04035601700002189
+  },
+  {
+    "held": "Karnataka",
+    "year": 2026,
+    "horizon": 1,
+    "mode": "rich_regional",
+    "arm": "local",
+    "training_states": [
+      "Karnataka"
+    ],
+    "training": [
+      {
+        "state": "Karnataka",
+        "training_n": 730,
+        "training_target_max": "2025-12-31",
+        "training_origin_max": "2025-12-31"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 257.33752054794525,
+        "scale": 45.37125823185975
+      },
+      "Delhi": {
+        "center": 104.40073972602741,
+        "scale": 28.477743996948888
+      },
+      "Maharashtra": {
+        "center": 565.8824136986301,
+        "scale": 51.36399153531991
+      }
+    },
+    "seconds": 0.034184318000029634
+  },
+  {
+    "held": "Karnataka",
+    "year": 2026,
+    "horizon": 1,
+    "mode": "rich_regional",
+    "arm": "pooled_all",
+    "training_states": [
+      "Karnataka",
+      "Delhi",
+      "Maharashtra"
+    ],
+    "training": [
+      {
+        "state": "Karnataka",
+        "training_n": 730,
+        "training_target_max": "2025-12-31",
+        "training_origin_max": "2025-12-31"
+      },
+      {
+        "state": "Delhi",
+        "training_n": 730,
+        "training_target_max": "2025-12-31",
+        "training_origin_max": "2025-12-31"
+      },
+      {
+        "state": "Maharashtra",
+        "training_n": 730,
+        "training_target_max": "2025-12-31",
+        "training_origin_max": "2025-12-31"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 257.33752054794525,
+        "scale": 45.37125823185975
+      },
+      "Delhi": {
+        "center": 104.40073972602741,
+        "scale": 28.477743996948888
+      },
+      "Maharashtra": {
+        "center": 565.8824136986301,
+        "scale": 51.36399153531991
+      }
+    },
+    "seconds": 0.03339465899995275
+  },
+  {
+    "held": "Karnataka",
+    "year": 2026,
+    "horizon": 1,
+    "mode": "rich_regional",
+    "arm": "leave_region_out",
+    "training_states": [
+      "Delhi",
+      "Maharashtra"
+    ],
+    "training": [
+      {
+        "state": "Delhi",
+        "training_n": 730,
+        "training_target_max": "2025-12-31",
+        "training_origin_max": "2025-12-31"
+      },
+      {
+        "state": "Maharashtra",
+        "training_n": 730,
+        "training_target_max": "2025-12-31",
+        "training_origin_max": "2025-12-31"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 257.33752054794525,
+        "scale": 45.37125823185975
+      },
+      "Delhi": {
+        "center": 104.40073972602741,
+        "scale": 28.477743996948888
+      },
+      "Maharashtra": {
+        "center": 565.8824136986301,
+        "scale": 51.36399153531991
+      }
+    },
+    "seconds": 0.03094140600001083
+  },
+  {
+    "held": "Karnataka",
+    "year": 2026,
+    "horizon": 7,
+    "mode": "rich_calendar",
+    "arm": "local",
+    "training_states": [
+      "Karnataka"
+    ],
+    "training": [
+      {
+        "state": "Karnataka",
+        "training_n": 724,
+        "training_target_max": "2025-12-31",
+        "training_origin_max": "2025-12-25"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 257.33752054794525,
+        "scale": 45.37125823185975
+      },
+      "Delhi": {
+        "center": 104.40073972602741,
+        "scale": 28.477743996948888
+      },
+      "Maharashtra": {
+        "center": 565.8824136986301,
+        "scale": 51.36399153531991
+      }
+    },
+    "seconds": 0.03121447099999841
+  },
+  {
+    "held": "Karnataka",
+    "year": 2026,
+    "horizon": 7,
+    "mode": "rich_calendar",
+    "arm": "pooled_all",
+    "training_states": [
+      "Karnataka",
+      "Delhi",
+      "Maharashtra"
+    ],
+    "training": [
+      {
+        "state": "Karnataka",
+        "training_n": 724,
+        "training_target_max": "2025-12-31",
+        "training_origin_max": "2025-12-25"
+      },
+      {
+        "state": "Delhi",
+        "training_n": 724,
+        "training_target_max": "2025-12-31",
+        "training_origin_max": "2025-12-25"
+      },
+      {
+        "state": "Maharashtra",
+        "training_n": 724,
+        "training_target_max": "2025-12-31",
+        "training_origin_max": "2025-12-25"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 257.33752054794525,
+        "scale": 45.37125823185975
+      },
+      "Delhi": {
+        "center": 104.40073972602741,
+        "scale": 28.477743996948888
+      },
+      "Maharashtra": {
+        "center": 565.8824136986301,
+        "scale": 51.36399153531991
+      }
+    },
+    "seconds": 0.03371820799998204
+  },
+  {
+    "held": "Karnataka",
+    "year": 2026,
+    "horizon": 7,
+    "mode": "rich_calendar",
+    "arm": "leave_region_out",
+    "training_states": [
+      "Delhi",
+      "Maharashtra"
+    ],
+    "training": [
+      {
+        "state": "Delhi",
+        "training_n": 724,
+        "training_target_max": "2025-12-31",
+        "training_origin_max": "2025-12-25"
+      },
+      {
+        "state": "Maharashtra",
+        "training_n": 724,
+        "training_target_max": "2025-12-31",
+        "training_origin_max": "2025-12-25"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 257.33752054794525,
+        "scale": 45.37125823185975
+      },
+      "Delhi": {
+        "center": 104.40073972602741,
+        "scale": 28.477743996948888
+      },
+      "Maharashtra": {
+        "center": 565.8824136986301,
+        "scale": 51.36399153531991
+      }
+    },
+    "seconds": 0.030787567999993826
+  },
+  {
+    "held": "Karnataka",
+    "year": 2026,
+    "horizon": 7,
+    "mode": "rich_regional",
+    "arm": "local",
+    "training_states": [
+      "Karnataka"
+    ],
+    "training": [
+      {
+        "state": "Karnataka",
+        "training_n": 724,
+        "training_target_max": "2025-12-31",
+        "training_origin_max": "2025-12-25"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 257.33752054794525,
+        "scale": 45.37125823185975
+      },
+      "Delhi": {
+        "center": 104.40073972602741,
+        "scale": 28.477743996948888
+      },
+      "Maharashtra": {
+        "center": 565.8824136986301,
+        "scale": 51.36399153531991
+      }
+    },
+    "seconds": 0.035401405000015984
+  },
+  {
+    "held": "Karnataka",
+    "year": 2026,
+    "horizon": 7,
+    "mode": "rich_regional",
+    "arm": "pooled_all",
+    "training_states": [
+      "Karnataka",
+      "Delhi",
+      "Maharashtra"
+    ],
+    "training": [
+      {
+        "state": "Karnataka",
+        "training_n": 724,
+        "training_target_max": "2025-12-31",
+        "training_origin_max": "2025-12-25"
+      },
+      {
+        "state": "Delhi",
+        "training_n": 724,
+        "training_target_max": "2025-12-31",
+        "training_origin_max": "2025-12-25"
+      },
+      {
+        "state": "Maharashtra",
+        "training_n": 724,
+        "training_target_max": "2025-12-31",
+        "training_origin_max": "2025-12-25"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 257.33752054794525,
+        "scale": 45.37125823185975
+      },
+      "Delhi": {
+        "center": 104.40073972602741,
+        "scale": 28.477743996948888
+      },
+      "Maharashtra": {
+        "center": 565.8824136986301,
+        "scale": 51.36399153531991
+      }
+    },
+    "seconds": 0.04716750300002559
+  },
+  {
+    "held": "Karnataka",
+    "year": 2026,
+    "horizon": 7,
+    "mode": "rich_regional",
+    "arm": "leave_region_out",
+    "training_states": [
+      "Delhi",
+      "Maharashtra"
+    ],
+    "training": [
+      {
+        "state": "Delhi",
+        "training_n": 724,
+        "training_target_max": "2025-12-31",
+        "training_origin_max": "2025-12-25"
+      },
+      {
+        "state": "Maharashtra",
+        "training_n": 724,
+        "training_target_max": "2025-12-31",
+        "training_origin_max": "2025-12-25"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 257.33752054794525,
+        "scale": 45.37125823185975
+      },
+      "Delhi": {
+        "center": 104.40073972602741,
+        "scale": 28.477743996948888
+      },
+      "Maharashtra": {
+        "center": 565.8824136986301,
+        "scale": 51.36399153531991
+      }
+    },
+    "seconds": 0.04471655399999008
+  },
+  {
+    "held": "Karnataka",
+    "year": 2026,
+    "horizon": 14,
+    "mode": "rich_calendar",
+    "arm": "local",
+    "training_states": [
+      "Karnataka"
+    ],
+    "training": [
+      {
+        "state": "Karnataka",
+        "training_n": 717,
+        "training_target_max": "2025-12-31",
+        "training_origin_max": "2025-12-18"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 257.33752054794525,
+        "scale": 45.37125823185975
+      },
+      "Delhi": {
+        "center": 104.40073972602741,
+        "scale": 28.477743996948888
+      },
+      "Maharashtra": {
+        "center": 565.8824136986301,
+        "scale": 51.36399153531991
+      }
+    },
+    "seconds": 0.04338328000000047
+  },
+  {
+    "held": "Karnataka",
+    "year": 2026,
+    "horizon": 14,
+    "mode": "rich_calendar",
+    "arm": "pooled_all",
+    "training_states": [
+      "Karnataka",
+      "Delhi",
+      "Maharashtra"
+    ],
+    "training": [
+      {
+        "state": "Karnataka",
+        "training_n": 717,
+        "training_target_max": "2025-12-31",
+        "training_origin_max": "2025-12-18"
+      },
+      {
+        "state": "Delhi",
+        "training_n": 717,
+        "training_target_max": "2025-12-31",
+        "training_origin_max": "2025-12-18"
+      },
+      {
+        "state": "Maharashtra",
+        "training_n": 717,
+        "training_target_max": "2025-12-31",
+        "training_origin_max": "2025-12-18"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 257.33752054794525,
+        "scale": 45.37125823185975
+      },
+      "Delhi": {
+        "center": 104.40073972602741,
+        "scale": 28.477743996948888
+      },
+      "Maharashtra": {
+        "center": 565.8824136986301,
+        "scale": 51.36399153531991
+      }
+    },
+    "seconds": 0.04372207099999059
+  },
+  {
+    "held": "Karnataka",
+    "year": 2026,
+    "horizon": 14,
+    "mode": "rich_calendar",
+    "arm": "leave_region_out",
+    "training_states": [
+      "Delhi",
+      "Maharashtra"
+    ],
+    "training": [
+      {
+        "state": "Delhi",
+        "training_n": 717,
+        "training_target_max": "2025-12-31",
+        "training_origin_max": "2025-12-18"
+      },
+      {
+        "state": "Maharashtra",
+        "training_n": 717,
+        "training_target_max": "2025-12-31",
+        "training_origin_max": "2025-12-18"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 257.33752054794525,
+        "scale": 45.37125823185975
+      },
+      "Delhi": {
+        "center": 104.40073972602741,
+        "scale": 28.477743996948888
+      },
+      "Maharashtra": {
+        "center": 565.8824136986301,
+        "scale": 51.36399153531991
+      }
+    },
+    "seconds": 0.05076972699998805
+  },
+  {
+    "held": "Karnataka",
+    "year": 2026,
+    "horizon": 14,
+    "mode": "rich_regional",
+    "arm": "local",
+    "training_states": [
+      "Karnataka"
+    ],
+    "training": [
+      {
+        "state": "Karnataka",
+        "training_n": 717,
+        "training_target_max": "2025-12-31",
+        "training_origin_max": "2025-12-18"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 257.33752054794525,
+        "scale": 45.37125823185975
+      },
+      "Delhi": {
+        "center": 104.40073972602741,
+        "scale": 28.477743996948888
+      },
+      "Maharashtra": {
+        "center": 565.8824136986301,
+        "scale": 51.36399153531991
+      }
+    },
+    "seconds": 0.04365099599999667
+  },
+  {
+    "held": "Karnataka",
+    "year": 2026,
+    "horizon": 14,
+    "mode": "rich_regional",
+    "arm": "pooled_all",
+    "training_states": [
+      "Karnataka",
+      "Delhi",
+      "Maharashtra"
+    ],
+    "training": [
+      {
+        "state": "Karnataka",
+        "training_n": 717,
+        "training_target_max": "2025-12-31",
+        "training_origin_max": "2025-12-18"
+      },
+      {
+        "state": "Delhi",
+        "training_n": 717,
+        "training_target_max": "2025-12-31",
+        "training_origin_max": "2025-12-18"
+      },
+      {
+        "state": "Maharashtra",
+        "training_n": 717,
+        "training_target_max": "2025-12-31",
+        "training_origin_max": "2025-12-18"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 257.33752054794525,
+        "scale": 45.37125823185975
+      },
+      "Delhi": {
+        "center": 104.40073972602741,
+        "scale": 28.477743996948888
+      },
+      "Maharashtra": {
+        "center": 565.8824136986301,
+        "scale": 51.36399153531991
+      }
+    },
+    "seconds": 0.04735955799998237
+  },
+  {
+    "held": "Karnataka",
+    "year": 2026,
+    "horizon": 14,
+    "mode": "rich_regional",
+    "arm": "leave_region_out",
+    "training_states": [
+      "Delhi",
+      "Maharashtra"
+    ],
+    "training": [
+      {
+        "state": "Delhi",
+        "training_n": 717,
+        "training_target_max": "2025-12-31",
+        "training_origin_max": "2025-12-18"
+      },
+      {
+        "state": "Maharashtra",
+        "training_n": 717,
+        "training_target_max": "2025-12-31",
+        "training_origin_max": "2025-12-18"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 257.33752054794525,
+        "scale": 45.37125823185975
+      },
+      "Delhi": {
+        "center": 104.40073972602741,
+        "scale": 28.477743996948888
+      },
+      "Maharashtra": {
+        "center": 565.8824136986301,
+        "scale": 51.36399153531991
+      }
+    },
+    "seconds": 0.0453127569999765
+  },
+  {
+    "held": "Delhi",
+    "year": 2024,
+    "horizon": 1,
+    "mode": "rich_calendar",
+    "arm": "local",
+    "training_states": [
+      "Delhi"
+    ],
+    "training": [
+      {
+        "state": "Delhi",
+        "training_n": 730,
+        "training_target_max": "2023-12-31",
+        "training_origin_max": "2023-12-31"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 229.27605479452058,
+        "scale": 38.9312595429327
+      },
+      "Delhi": {
+        "center": 95.1696712328767,
+        "scale": 26.33301903029329
+      },
+      "Maharashtra": {
+        "center": 532.4329178082191,
+        "scale": 52.38041759184548
+      }
+    },
+    "seconds": 0.03990861400001222
+  },
+  {
+    "held": "Delhi",
+    "year": 2024,
+    "horizon": 1,
+    "mode": "rich_calendar",
+    "arm": "pooled_all",
+    "training_states": [
+      "Karnataka",
+      "Delhi",
+      "Maharashtra"
+    ],
+    "training": [
+      {
+        "state": "Karnataka",
+        "training_n": 730,
+        "training_target_max": "2023-12-31",
+        "training_origin_max": "2023-12-31"
+      },
+      {
+        "state": "Delhi",
+        "training_n": 730,
+        "training_target_max": "2023-12-31",
+        "training_origin_max": "2023-12-31"
+      },
+      {
+        "state": "Maharashtra",
+        "training_n": 730,
+        "training_target_max": "2023-12-31",
+        "training_origin_max": "2023-12-31"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 229.27605479452058,
+        "scale": 38.9312595429327
+      },
+      "Delhi": {
+        "center": 95.1696712328767,
+        "scale": 26.33301903029329
+      },
+      "Maharashtra": {
+        "center": 532.4329178082191,
+        "scale": 52.38041759184548
+      }
+    },
+    "seconds": 0.03559274399998458
+  },
+  {
+    "held": "Delhi",
+    "year": 2024,
+    "horizon": 1,
+    "mode": "rich_calendar",
+    "arm": "leave_region_out",
+    "training_states": [
+      "Karnataka",
+      "Maharashtra"
+    ],
+    "training": [
+      {
+        "state": "Karnataka",
+        "training_n": 730,
+        "training_target_max": "2023-12-31",
+        "training_origin_max": "2023-12-31"
+      },
+      {
+        "state": "Maharashtra",
+        "training_n": 730,
+        "training_target_max": "2023-12-31",
+        "training_origin_max": "2023-12-31"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 229.27605479452058,
+        "scale": 38.9312595429327
+      },
+      "Delhi": {
+        "center": 95.1696712328767,
+        "scale": 26.33301903029329
+      },
+      "Maharashtra": {
+        "center": 532.4329178082191,
+        "scale": 52.38041759184548
+      }
+    },
+    "seconds": 0.031435176999991654
+  },
+  {
+    "held": "Delhi",
+    "year": 2024,
+    "horizon": 1,
+    "mode": "rich_regional",
+    "arm": "local",
+    "training_states": [
+      "Delhi"
+    ],
+    "training": [
+      {
+        "state": "Delhi",
+        "training_n": 730,
+        "training_target_max": "2023-12-31",
+        "training_origin_max": "2023-12-31"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 229.27605479452058,
+        "scale": 38.9312595429327
+      },
+      "Delhi": {
+        "center": 95.1696712328767,
+        "scale": 26.33301903029329
+      },
+      "Maharashtra": {
+        "center": 532.4329178082191,
+        "scale": 52.38041759184548
+      }
+    },
+    "seconds": 0.03273995000000696
+  },
+  {
+    "held": "Delhi",
+    "year": 2024,
+    "horizon": 1,
+    "mode": "rich_regional",
+    "arm": "pooled_all",
+    "training_states": [
+      "Karnataka",
+      "Delhi",
+      "Maharashtra"
+    ],
+    "training": [
+      {
+        "state": "Karnataka",
+        "training_n": 730,
+        "training_target_max": "2023-12-31",
+        "training_origin_max": "2023-12-31"
+      },
+      {
+        "state": "Delhi",
+        "training_n": 730,
+        "training_target_max": "2023-12-31",
+        "training_origin_max": "2023-12-31"
+      },
+      {
+        "state": "Maharashtra",
+        "training_n": 730,
+        "training_target_max": "2023-12-31",
+        "training_origin_max": "2023-12-31"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 229.27605479452058,
+        "scale": 38.9312595429327
+      },
+      "Delhi": {
+        "center": 95.1696712328767,
+        "scale": 26.33301903029329
+      },
+      "Maharashtra": {
+        "center": 532.4329178082191,
+        "scale": 52.38041759184548
+      }
+    },
+    "seconds": 0.033452775000000656
+  },
+  {
+    "held": "Delhi",
+    "year": 2024,
+    "horizon": 1,
+    "mode": "rich_regional",
+    "arm": "leave_region_out",
+    "training_states": [
+      "Karnataka",
+      "Maharashtra"
+    ],
+    "training": [
+      {
+        "state": "Karnataka",
+        "training_n": 730,
+        "training_target_max": "2023-12-31",
+        "training_origin_max": "2023-12-31"
+      },
+      {
+        "state": "Maharashtra",
+        "training_n": 730,
+        "training_target_max": "2023-12-31",
+        "training_origin_max": "2023-12-31"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 229.27605479452058,
+        "scale": 38.9312595429327
+      },
+      "Delhi": {
+        "center": 95.1696712328767,
+        "scale": 26.33301903029329
+      },
+      "Maharashtra": {
+        "center": 532.4329178082191,
+        "scale": 52.38041759184548
+      }
+    },
+    "seconds": 0.0348959519999994
+  },
+  {
+    "held": "Delhi",
+    "year": 2024,
+    "horizon": 7,
+    "mode": "rich_calendar",
+    "arm": "local",
+    "training_states": [
+      "Delhi"
+    ],
+    "training": [
+      {
+        "state": "Delhi",
+        "training_n": 724,
+        "training_target_max": "2023-12-31",
+        "training_origin_max": "2023-12-25"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 229.27605479452058,
+        "scale": 38.9312595429327
+      },
+      "Delhi": {
+        "center": 95.1696712328767,
+        "scale": 26.33301903029329
+      },
+      "Maharashtra": {
+        "center": 532.4329178082191,
+        "scale": 52.38041759184548
+      }
+    },
+    "seconds": 0.03219992999999022
+  },
+  {
+    "held": "Delhi",
+    "year": 2024,
+    "horizon": 7,
+    "mode": "rich_calendar",
+    "arm": "pooled_all",
+    "training_states": [
+      "Karnataka",
+      "Delhi",
+      "Maharashtra"
+    ],
+    "training": [
+      {
+        "state": "Karnataka",
+        "training_n": 724,
+        "training_target_max": "2023-12-31",
+        "training_origin_max": "2023-12-25"
+      },
+      {
+        "state": "Delhi",
+        "training_n": 724,
+        "training_target_max": "2023-12-31",
+        "training_origin_max": "2023-12-25"
+      },
+      {
+        "state": "Maharashtra",
+        "training_n": 724,
+        "training_target_max": "2023-12-31",
+        "training_origin_max": "2023-12-25"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 229.27605479452058,
+        "scale": 38.9312595429327
+      },
+      "Delhi": {
+        "center": 95.1696712328767,
+        "scale": 26.33301903029329
+      },
+      "Maharashtra": {
+        "center": 532.4329178082191,
+        "scale": 52.38041759184548
+      }
+    },
+    "seconds": 0.03791262900000447
+  },
+  {
+    "held": "Delhi",
+    "year": 2024,
+    "horizon": 7,
+    "mode": "rich_calendar",
+    "arm": "leave_region_out",
+    "training_states": [
+      "Karnataka",
+      "Maharashtra"
+    ],
+    "training": [
+      {
+        "state": "Karnataka",
+        "training_n": 724,
+        "training_target_max": "2023-12-31",
+        "training_origin_max": "2023-12-25"
+      },
+      {
+        "state": "Maharashtra",
+        "training_n": 724,
+        "training_target_max": "2023-12-31",
+        "training_origin_max": "2023-12-25"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 229.27605479452058,
+        "scale": 38.9312595429327
+      },
+      "Delhi": {
+        "center": 95.1696712328767,
+        "scale": 26.33301903029329
+      },
+      "Maharashtra": {
+        "center": 532.4329178082191,
+        "scale": 52.38041759184548
+      }
+    },
+    "seconds": 0.03178927199996906
+  },
+  {
+    "held": "Delhi",
+    "year": 2024,
+    "horizon": 7,
+    "mode": "rich_regional",
+    "arm": "local",
+    "training_states": [
+      "Delhi"
+    ],
+    "training": [
+      {
+        "state": "Delhi",
+        "training_n": 724,
+        "training_target_max": "2023-12-31",
+        "training_origin_max": "2023-12-25"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 229.27605479452058,
+        "scale": 38.9312595429327
+      },
+      "Delhi": {
+        "center": 95.1696712328767,
+        "scale": 26.33301903029329
+      },
+      "Maharashtra": {
+        "center": 532.4329178082191,
+        "scale": 52.38041759184548
+      }
+    },
+    "seconds": 0.03466724399999066
+  },
+  {
+    "held": "Delhi",
+    "year": 2024,
+    "horizon": 7,
+    "mode": "rich_regional",
+    "arm": "pooled_all",
+    "training_states": [
+      "Karnataka",
+      "Delhi",
+      "Maharashtra"
+    ],
+    "training": [
+      {
+        "state": "Karnataka",
+        "training_n": 724,
+        "training_target_max": "2023-12-31",
+        "training_origin_max": "2023-12-25"
+      },
+      {
+        "state": "Delhi",
+        "training_n": 724,
+        "training_target_max": "2023-12-31",
+        "training_origin_max": "2023-12-25"
+      },
+      {
+        "state": "Maharashtra",
+        "training_n": 724,
+        "training_target_max": "2023-12-31",
+        "training_origin_max": "2023-12-25"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 229.27605479452058,
+        "scale": 38.9312595429327
+      },
+      "Delhi": {
+        "center": 95.1696712328767,
+        "scale": 26.33301903029329
+      },
+      "Maharashtra": {
+        "center": 532.4329178082191,
+        "scale": 52.38041759184548
+      }
+    },
+    "seconds": 0.03636332499996797
+  },
+  {
+    "held": "Delhi",
+    "year": 2024,
+    "horizon": 7,
+    "mode": "rich_regional",
+    "arm": "leave_region_out",
+    "training_states": [
+      "Karnataka",
+      "Maharashtra"
+    ],
+    "training": [
+      {
+        "state": "Karnataka",
+        "training_n": 724,
+        "training_target_max": "2023-12-31",
+        "training_origin_max": "2023-12-25"
+      },
+      {
+        "state": "Maharashtra",
+        "training_n": 724,
+        "training_target_max": "2023-12-31",
+        "training_origin_max": "2023-12-25"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 229.27605479452058,
+        "scale": 38.9312595429327
+      },
+      "Delhi": {
+        "center": 95.1696712328767,
+        "scale": 26.33301903029329
+      },
+      "Maharashtra": {
+        "center": 532.4329178082191,
+        "scale": 52.38041759184548
+      }
+    },
+    "seconds": 0.034837424999977884
+  },
+  {
+    "held": "Delhi",
+    "year": 2024,
+    "horizon": 14,
+    "mode": "rich_calendar",
+    "arm": "local",
+    "training_states": [
+      "Delhi"
+    ],
+    "training": [
+      {
+        "state": "Delhi",
+        "training_n": 717,
+        "training_target_max": "2023-12-31",
+        "training_origin_max": "2023-12-18"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 229.27605479452058,
+        "scale": 38.9312595429327
+      },
+      "Delhi": {
+        "center": 95.1696712328767,
+        "scale": 26.33301903029329
+      },
+      "Maharashtra": {
+        "center": 532.4329178082191,
+        "scale": 52.38041759184548
+      }
+    },
+    "seconds": 0.03716576200002919
+  },
+  {
+    "held": "Delhi",
+    "year": 2024,
+    "horizon": 14,
+    "mode": "rich_calendar",
+    "arm": "pooled_all",
+    "training_states": [
+      "Karnataka",
+      "Delhi",
+      "Maharashtra"
+    ],
+    "training": [
+      {
+        "state": "Karnataka",
+        "training_n": 717,
+        "training_target_max": "2023-12-31",
+        "training_origin_max": "2023-12-18"
+      },
+      {
+        "state": "Delhi",
+        "training_n": 717,
+        "training_target_max": "2023-12-31",
+        "training_origin_max": "2023-12-18"
+      },
+      {
+        "state": "Maharashtra",
+        "training_n": 717,
+        "training_target_max": "2023-12-31",
+        "training_origin_max": "2023-12-18"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 229.27605479452058,
+        "scale": 38.9312595429327
+      },
+      "Delhi": {
+        "center": 95.1696712328767,
+        "scale": 26.33301903029329
+      },
+      "Maharashtra": {
+        "center": 532.4329178082191,
+        "scale": 52.38041759184548
+      }
+    },
+    "seconds": 0.03979103099999293
+  },
+  {
+    "held": "Delhi",
+    "year": 2024,
+    "horizon": 14,
+    "mode": "rich_calendar",
+    "arm": "leave_region_out",
+    "training_states": [
+      "Karnataka",
+      "Maharashtra"
+    ],
+    "training": [
+      {
+        "state": "Karnataka",
+        "training_n": 717,
+        "training_target_max": "2023-12-31",
+        "training_origin_max": "2023-12-18"
+      },
+      {
+        "state": "Maharashtra",
+        "training_n": 717,
+        "training_target_max": "2023-12-31",
+        "training_origin_max": "2023-12-18"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 229.27605479452058,
+        "scale": 38.9312595429327
+      },
+      "Delhi": {
+        "center": 95.1696712328767,
+        "scale": 26.33301903029329
+      },
+      "Maharashtra": {
+        "center": 532.4329178082191,
+        "scale": 52.38041759184548
+      }
+    },
+    "seconds": 0.038823287000013806
+  },
+  {
+    "held": "Delhi",
+    "year": 2024,
+    "horizon": 14,
+    "mode": "rich_regional",
+    "arm": "local",
+    "training_states": [
+      "Delhi"
+    ],
+    "training": [
+      {
+        "state": "Delhi",
+        "training_n": 717,
+        "training_target_max": "2023-12-31",
+        "training_origin_max": "2023-12-18"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 229.27605479452058,
+        "scale": 38.9312595429327
+      },
+      "Delhi": {
+        "center": 95.1696712328767,
+        "scale": 26.33301903029329
+      },
+      "Maharashtra": {
+        "center": 532.4329178082191,
+        "scale": 52.38041759184548
+      }
+    },
+    "seconds": 0.03837766700002021
+  },
+  {
+    "held": "Delhi",
+    "year": 2024,
+    "horizon": 14,
+    "mode": "rich_regional",
+    "arm": "pooled_all",
+    "training_states": [
+      "Karnataka",
+      "Delhi",
+      "Maharashtra"
+    ],
+    "training": [
+      {
+        "state": "Karnataka",
+        "training_n": 717,
+        "training_target_max": "2023-12-31",
+        "training_origin_max": "2023-12-18"
+      },
+      {
+        "state": "Delhi",
+        "training_n": 717,
+        "training_target_max": "2023-12-31",
+        "training_origin_max": "2023-12-18"
+      },
+      {
+        "state": "Maharashtra",
+        "training_n": 717,
+        "training_target_max": "2023-12-31",
+        "training_origin_max": "2023-12-18"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 229.27605479452058,
+        "scale": 38.9312595429327
+      },
+      "Delhi": {
+        "center": 95.1696712328767,
+        "scale": 26.33301903029329
+      },
+      "Maharashtra": {
+        "center": 532.4329178082191,
+        "scale": 52.38041759184548
+      }
+    },
+    "seconds": 0.037680935999958365
+  },
+  {
+    "held": "Delhi",
+    "year": 2024,
+    "horizon": 14,
+    "mode": "rich_regional",
+    "arm": "leave_region_out",
+    "training_states": [
+      "Karnataka",
+      "Maharashtra"
+    ],
+    "training": [
+      {
+        "state": "Karnataka",
+        "training_n": 717,
+        "training_target_max": "2023-12-31",
+        "training_origin_max": "2023-12-18"
+      },
+      {
+        "state": "Maharashtra",
+        "training_n": 717,
+        "training_target_max": "2023-12-31",
+        "training_origin_max": "2023-12-18"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 229.27605479452058,
+        "scale": 38.9312595429327
+      },
+      "Delhi": {
+        "center": 95.1696712328767,
+        "scale": 26.33301903029329
+      },
+      "Maharashtra": {
+        "center": 532.4329178082191,
+        "scale": 52.38041759184548
+      }
+    },
+    "seconds": 0.038136070000007294
+  },
+  {
+    "held": "Delhi",
+    "year": 2025,
+    "horizon": 1,
+    "mode": "rich_calendar",
+    "arm": "local",
+    "training_states": [
+      "Delhi"
+    ],
+    "training": [
+      {
+        "state": "Delhi",
+        "training_n": 730,
+        "training_target_max": "2024-12-31",
+        "training_origin_max": "2024-12-31"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 251.02582191780823,
+        "scale": 37.879953367925
+      },
+      "Delhi": {
+        "center": 100.07093150684932,
+        "scale": 28.30738674377097
+      },
+      "Maharashtra": {
+        "center": 554.6691260273973,
+        "scale": 42.80152846905412
+      }
+    },
+    "seconds": 0.037132684999960475
+  },
+  {
+    "held": "Delhi",
+    "year": 2025,
+    "horizon": 1,
+    "mode": "rich_calendar",
+    "arm": "pooled_all",
+    "training_states": [
+      "Karnataka",
+      "Delhi",
+      "Maharashtra"
+    ],
+    "training": [
+      {
+        "state": "Karnataka",
+        "training_n": 730,
+        "training_target_max": "2024-12-31",
+        "training_origin_max": "2024-12-31"
+      },
+      {
+        "state": "Delhi",
+        "training_n": 730,
+        "training_target_max": "2024-12-31",
+        "training_origin_max": "2024-12-31"
+      },
+      {
+        "state": "Maharashtra",
+        "training_n": 730,
+        "training_target_max": "2024-12-31",
+        "training_origin_max": "2024-12-31"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 251.02582191780823,
+        "scale": 37.879953367925
+      },
+      "Delhi": {
+        "center": 100.07093150684932,
+        "scale": 28.30738674377097
+      },
+      "Maharashtra": {
+        "center": 554.6691260273973,
+        "scale": 42.80152846905412
+      }
+    },
+    "seconds": 0.04145526399997834
+  },
+  {
+    "held": "Delhi",
+    "year": 2025,
+    "horizon": 1,
+    "mode": "rich_calendar",
+    "arm": "leave_region_out",
+    "training_states": [
+      "Karnataka",
+      "Maharashtra"
+    ],
+    "training": [
+      {
+        "state": "Karnataka",
+        "training_n": 730,
+        "training_target_max": "2024-12-31",
+        "training_origin_max": "2024-12-31"
+      },
+      {
+        "state": "Maharashtra",
+        "training_n": 730,
+        "training_target_max": "2024-12-31",
+        "training_origin_max": "2024-12-31"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 251.02582191780823,
+        "scale": 37.879953367925
+      },
+      "Delhi": {
+        "center": 100.07093150684932,
+        "scale": 28.30738674377097
+      },
+      "Maharashtra": {
+        "center": 554.6691260273973,
+        "scale": 42.80152846905412
+      }
+    },
+    "seconds": 0.03926941299999953
+  },
+  {
+    "held": "Delhi",
+    "year": 2025,
+    "horizon": 1,
+    "mode": "rich_regional",
+    "arm": "local",
+    "training_states": [
+      "Delhi"
+    ],
+    "training": [
+      {
+        "state": "Delhi",
+        "training_n": 730,
+        "training_target_max": "2024-12-31",
+        "training_origin_max": "2024-12-31"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 251.02582191780823,
+        "scale": 37.879953367925
+      },
+      "Delhi": {
+        "center": 100.07093150684932,
+        "scale": 28.30738674377097
+      },
+      "Maharashtra": {
+        "center": 554.6691260273973,
+        "scale": 42.80152846905412
+      }
+    },
+    "seconds": 0.03937937000000602
+  },
+  {
+    "held": "Delhi",
+    "year": 2025,
+    "horizon": 1,
+    "mode": "rich_regional",
+    "arm": "pooled_all",
+    "training_states": [
+      "Karnataka",
+      "Delhi",
+      "Maharashtra"
+    ],
+    "training": [
+      {
+        "state": "Karnataka",
+        "training_n": 730,
+        "training_target_max": "2024-12-31",
+        "training_origin_max": "2024-12-31"
+      },
+      {
+        "state": "Delhi",
+        "training_n": 730,
+        "training_target_max": "2024-12-31",
+        "training_origin_max": "2024-12-31"
+      },
+      {
+        "state": "Maharashtra",
+        "training_n": 730,
+        "training_target_max": "2024-12-31",
+        "training_origin_max": "2024-12-31"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 251.02582191780823,
+        "scale": 37.879953367925
+      },
+      "Delhi": {
+        "center": 100.07093150684932,
+        "scale": 28.30738674377097
+      },
+      "Maharashtra": {
+        "center": 554.6691260273973,
+        "scale": 42.80152846905412
+      }
+    },
+    "seconds": 0.041895045999979175
+  },
+  {
+    "held": "Delhi",
+    "year": 2025,
+    "horizon": 1,
+    "mode": "rich_regional",
+    "arm": "leave_region_out",
+    "training_states": [
+      "Karnataka",
+      "Maharashtra"
+    ],
+    "training": [
+      {
+        "state": "Karnataka",
+        "training_n": 730,
+        "training_target_max": "2024-12-31",
+        "training_origin_max": "2024-12-31"
+      },
+      {
+        "state": "Maharashtra",
+        "training_n": 730,
+        "training_target_max": "2024-12-31",
+        "training_origin_max": "2024-12-31"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 251.02582191780823,
+        "scale": 37.879953367925
+      },
+      "Delhi": {
+        "center": 100.07093150684932,
+        "scale": 28.30738674377097
+      },
+      "Maharashtra": {
+        "center": 554.6691260273973,
+        "scale": 42.80152846905412
+      }
+    },
+    "seconds": 0.03980624300004365
+  },
+  {
+    "held": "Delhi",
+    "year": 2025,
+    "horizon": 7,
+    "mode": "rich_calendar",
+    "arm": "local",
+    "training_states": [
+      "Delhi"
+    ],
+    "training": [
+      {
+        "state": "Delhi",
+        "training_n": 724,
+        "training_target_max": "2024-12-31",
+        "training_origin_max": "2024-12-25"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 251.02582191780823,
+        "scale": 37.879953367925
+      },
+      "Delhi": {
+        "center": 100.07093150684932,
+        "scale": 28.30738674377097
+      },
+      "Maharashtra": {
+        "center": 554.6691260273973,
+        "scale": 42.80152846905412
+      }
+    },
+    "seconds": 0.036989683000001605
+  },
+  {
+    "held": "Delhi",
+    "year": 2025,
+    "horizon": 7,
+    "mode": "rich_calendar",
+    "arm": "pooled_all",
+    "training_states": [
+      "Karnataka",
+      "Delhi",
+      "Maharashtra"
+    ],
+    "training": [
+      {
+        "state": "Karnataka",
+        "training_n": 724,
+        "training_target_max": "2024-12-31",
+        "training_origin_max": "2024-12-25"
+      },
+      {
+        "state": "Delhi",
+        "training_n": 724,
+        "training_target_max": "2024-12-31",
+        "training_origin_max": "2024-12-25"
+      },
+      {
+        "state": "Maharashtra",
+        "training_n": 724,
+        "training_target_max": "2024-12-31",
+        "training_origin_max": "2024-12-25"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 251.02582191780823,
+        "scale": 37.879953367925
+      },
+      "Delhi": {
+        "center": 100.07093150684932,
+        "scale": 28.30738674377097
+      },
+      "Maharashtra": {
+        "center": 554.6691260273973,
+        "scale": 42.80152846905412
+      }
+    },
+    "seconds": 0.03035883300003661
+  },
+  {
+    "held": "Delhi",
+    "year": 2025,
+    "horizon": 7,
+    "mode": "rich_calendar",
+    "arm": "leave_region_out",
+    "training_states": [
+      "Karnataka",
+      "Maharashtra"
+    ],
+    "training": [
+      {
+        "state": "Karnataka",
+        "training_n": 724,
+        "training_target_max": "2024-12-31",
+        "training_origin_max": "2024-12-25"
+      },
+      {
+        "state": "Maharashtra",
+        "training_n": 724,
+        "training_target_max": "2024-12-31",
+        "training_origin_max": "2024-12-25"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 251.02582191780823,
+        "scale": 37.879953367925
+      },
+      "Delhi": {
+        "center": 100.07093150684932,
+        "scale": 28.30738674377097
+      },
+      "Maharashtra": {
+        "center": 554.6691260273973,
+        "scale": 42.80152846905412
+      }
+    },
+    "seconds": 0.039390036999975564
+  },
+  {
+    "held": "Delhi",
+    "year": 2025,
+    "horizon": 7,
+    "mode": "rich_regional",
+    "arm": "local",
+    "training_states": [
+      "Delhi"
+    ],
+    "training": [
+      {
+        "state": "Delhi",
+        "training_n": 724,
+        "training_target_max": "2024-12-31",
+        "training_origin_max": "2024-12-25"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 251.02582191780823,
+        "scale": 37.879953367925
+      },
+      "Delhi": {
+        "center": 100.07093150684932,
+        "scale": 28.30738674377097
+      },
+      "Maharashtra": {
+        "center": 554.6691260273973,
+        "scale": 42.80152846905412
+      }
+    },
+    "seconds": 0.040938825000012
+  },
+  {
+    "held": "Delhi",
+    "year": 2025,
+    "horizon": 7,
+    "mode": "rich_regional",
+    "arm": "pooled_all",
+    "training_states": [
+      "Karnataka",
+      "Delhi",
+      "Maharashtra"
+    ],
+    "training": [
+      {
+        "state": "Karnataka",
+        "training_n": 724,
+        "training_target_max": "2024-12-31",
+        "training_origin_max": "2024-12-25"
+      },
+      {
+        "state": "Delhi",
+        "training_n": 724,
+        "training_target_max": "2024-12-31",
+        "training_origin_max": "2024-12-25"
+      },
+      {
+        "state": "Maharashtra",
+        "training_n": 724,
+        "training_target_max": "2024-12-31",
+        "training_origin_max": "2024-12-25"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 251.02582191780823,
+        "scale": 37.879953367925
+      },
+      "Delhi": {
+        "center": 100.07093150684932,
+        "scale": 28.30738674377097
+      },
+      "Maharashtra": {
+        "center": 554.6691260273973,
+        "scale": 42.80152846905412
+      }
+    },
+    "seconds": 0.039255057000048055
+  },
+  {
+    "held": "Delhi",
+    "year": 2025,
+    "horizon": 7,
+    "mode": "rich_regional",
+    "arm": "leave_region_out",
+    "training_states": [
+      "Karnataka",
+      "Maharashtra"
+    ],
+    "training": [
+      {
+        "state": "Karnataka",
+        "training_n": 724,
+        "training_target_max": "2024-12-31",
+        "training_origin_max": "2024-12-25"
+      },
+      {
+        "state": "Maharashtra",
+        "training_n": 724,
+        "training_target_max": "2024-12-31",
+        "training_origin_max": "2024-12-25"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 251.02582191780823,
+        "scale": 37.879953367925
+      },
+      "Delhi": {
+        "center": 100.07093150684932,
+        "scale": 28.30738674377097
+      },
+      "Maharashtra": {
+        "center": 554.6691260273973,
+        "scale": 42.80152846905412
+      }
+    },
+    "seconds": 0.03508095499995534
+  },
+  {
+    "held": "Delhi",
+    "year": 2025,
+    "horizon": 14,
+    "mode": "rich_calendar",
+    "arm": "local",
+    "training_states": [
+      "Delhi"
+    ],
+    "training": [
+      {
+        "state": "Delhi",
+        "training_n": 717,
+        "training_target_max": "2024-12-31",
+        "training_origin_max": "2024-12-18"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 251.02582191780823,
+        "scale": 37.879953367925
+      },
+      "Delhi": {
+        "center": 100.07093150684932,
+        "scale": 28.30738674377097
+      },
+      "Maharashtra": {
+        "center": 554.6691260273973,
+        "scale": 42.80152846905412
+      }
+    },
+    "seconds": 0.037649740000006204
+  },
+  {
+    "held": "Delhi",
+    "year": 2025,
+    "horizon": 14,
+    "mode": "rich_calendar",
+    "arm": "pooled_all",
+    "training_states": [
+      "Karnataka",
+      "Delhi",
+      "Maharashtra"
+    ],
+    "training": [
+      {
+        "state": "Karnataka",
+        "training_n": 717,
+        "training_target_max": "2024-12-31",
+        "training_origin_max": "2024-12-18"
+      },
+      {
+        "state": "Delhi",
+        "training_n": 717,
+        "training_target_max": "2024-12-31",
+        "training_origin_max": "2024-12-18"
+      },
+      {
+        "state": "Maharashtra",
+        "training_n": 717,
+        "training_target_max": "2024-12-31",
+        "training_origin_max": "2024-12-18"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 251.02582191780823,
+        "scale": 37.879953367925
+      },
+      "Delhi": {
+        "center": 100.07093150684932,
+        "scale": 28.30738674377097
+      },
+      "Maharashtra": {
+        "center": 554.6691260273973,
+        "scale": 42.80152846905412
+      }
+    },
+    "seconds": 0.044531930000005104
+  },
+  {
+    "held": "Delhi",
+    "year": 2025,
+    "horizon": 14,
+    "mode": "rich_calendar",
+    "arm": "leave_region_out",
+    "training_states": [
+      "Karnataka",
+      "Maharashtra"
+    ],
+    "training": [
+      {
+        "state": "Karnataka",
+        "training_n": 717,
+        "training_target_max": "2024-12-31",
+        "training_origin_max": "2024-12-18"
+      },
+      {
+        "state": "Maharashtra",
+        "training_n": 717,
+        "training_target_max": "2024-12-31",
+        "training_origin_max": "2024-12-18"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 251.02582191780823,
+        "scale": 37.879953367925
+      },
+      "Delhi": {
+        "center": 100.07093150684932,
+        "scale": 28.30738674377097
+      },
+      "Maharashtra": {
+        "center": 554.6691260273973,
+        "scale": 42.80152846905412
+      }
+    },
+    "seconds": 0.04037531599999511
+  },
+  {
+    "held": "Delhi",
+    "year": 2025,
+    "horizon": 14,
+    "mode": "rich_regional",
+    "arm": "local",
+    "training_states": [
+      "Delhi"
+    ],
+    "training": [
+      {
+        "state": "Delhi",
+        "training_n": 717,
+        "training_target_max": "2024-12-31",
+        "training_origin_max": "2024-12-18"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 251.02582191780823,
+        "scale": 37.879953367925
+      },
+      "Delhi": {
+        "center": 100.07093150684932,
+        "scale": 28.30738674377097
+      },
+      "Maharashtra": {
+        "center": 554.6691260273973,
+        "scale": 42.80152846905412
+      }
+    },
+    "seconds": 0.038413590999994085
+  },
+  {
+    "held": "Delhi",
+    "year": 2025,
+    "horizon": 14,
+    "mode": "rich_regional",
+    "arm": "pooled_all",
+    "training_states": [
+      "Karnataka",
+      "Delhi",
+      "Maharashtra"
+    ],
+    "training": [
+      {
+        "state": "Karnataka",
+        "training_n": 717,
+        "training_target_max": "2024-12-31",
+        "training_origin_max": "2024-12-18"
+      },
+      {
+        "state": "Delhi",
+        "training_n": 717,
+        "training_target_max": "2024-12-31",
+        "training_origin_max": "2024-12-18"
+      },
+      {
+        "state": "Maharashtra",
+        "training_n": 717,
+        "training_target_max": "2024-12-31",
+        "training_origin_max": "2024-12-18"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 251.02582191780823,
+        "scale": 37.879953367925
+      },
+      "Delhi": {
+        "center": 100.07093150684932,
+        "scale": 28.30738674377097
+      },
+      "Maharashtra": {
+        "center": 554.6691260273973,
+        "scale": 42.80152846905412
+      }
+    },
+    "seconds": 0.04046449700001631
+  },
+  {
+    "held": "Delhi",
+    "year": 2025,
+    "horizon": 14,
+    "mode": "rich_regional",
+    "arm": "leave_region_out",
+    "training_states": [
+      "Karnataka",
+      "Maharashtra"
+    ],
+    "training": [
+      {
+        "state": "Karnataka",
+        "training_n": 717,
+        "training_target_max": "2024-12-31",
+        "training_origin_max": "2024-12-18"
+      },
+      {
+        "state": "Maharashtra",
+        "training_n": 717,
+        "training_target_max": "2024-12-31",
+        "training_origin_max": "2024-12-18"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 251.02582191780823,
+        "scale": 37.879953367925
+      },
+      "Delhi": {
+        "center": 100.07093150684932,
+        "scale": 28.30738674377097
+      },
+      "Maharashtra": {
+        "center": 554.6691260273973,
+        "scale": 42.80152846905412
+      }
+    },
+    "seconds": 0.034854189999975915
+  },
+  {
+    "held": "Delhi",
+    "year": 2026,
+    "horizon": 1,
+    "mode": "rich_calendar",
+    "arm": "local",
+    "training_states": [
+      "Delhi"
+    ],
+    "training": [
+      {
+        "state": "Delhi",
+        "training_n": 730,
+        "training_target_max": "2025-12-31",
+        "training_origin_max": "2025-12-31"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 257.33752054794525,
+        "scale": 45.37125823185975
+      },
+      "Delhi": {
+        "center": 104.40073972602741,
+        "scale": 28.477743996948888
+      },
+      "Maharashtra": {
+        "center": 565.8824136986301,
+        "scale": 51.36399153531991
+      }
+    },
+    "seconds": 0.0626086870000222
+  },
+  {
+    "held": "Delhi",
+    "year": 2026,
+    "horizon": 1,
+    "mode": "rich_calendar",
+    "arm": "pooled_all",
+    "training_states": [
+      "Karnataka",
+      "Delhi",
+      "Maharashtra"
+    ],
+    "training": [
+      {
+        "state": "Karnataka",
+        "training_n": 730,
+        "training_target_max": "2025-12-31",
+        "training_origin_max": "2025-12-31"
+      },
+      {
+        "state": "Delhi",
+        "training_n": 730,
+        "training_target_max": "2025-12-31",
+        "training_origin_max": "2025-12-31"
+      },
+      {
+        "state": "Maharashtra",
+        "training_n": 730,
+        "training_target_max": "2025-12-31",
+        "training_origin_max": "2025-12-31"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 257.33752054794525,
+        "scale": 45.37125823185975
+      },
+      "Delhi": {
+        "center": 104.40073972602741,
+        "scale": 28.477743996948888
+      },
+      "Maharashtra": {
+        "center": 565.8824136986301,
+        "scale": 51.36399153531991
+      }
+    },
+    "seconds": 0.03454592899998943
+  },
+  {
+    "held": "Delhi",
+    "year": 2026,
+    "horizon": 1,
+    "mode": "rich_calendar",
+    "arm": "leave_region_out",
+    "training_states": [
+      "Karnataka",
+      "Maharashtra"
+    ],
+    "training": [
+      {
+        "state": "Karnataka",
+        "training_n": 730,
+        "training_target_max": "2025-12-31",
+        "training_origin_max": "2025-12-31"
+      },
+      {
+        "state": "Maharashtra",
+        "training_n": 730,
+        "training_target_max": "2025-12-31",
+        "training_origin_max": "2025-12-31"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 257.33752054794525,
+        "scale": 45.37125823185975
+      },
+      "Delhi": {
+        "center": 104.40073972602741,
+        "scale": 28.477743996948888
+      },
+      "Maharashtra": {
+        "center": 565.8824136986301,
+        "scale": 51.36399153531991
+      }
+    },
+    "seconds": 0.04151100699999688
+  },
+  {
+    "held": "Delhi",
+    "year": 2026,
+    "horizon": 1,
+    "mode": "rich_regional",
+    "arm": "local",
+    "training_states": [
+      "Delhi"
+    ],
+    "training": [
+      {
+        "state": "Delhi",
+        "training_n": 730,
+        "training_target_max": "2025-12-31",
+        "training_origin_max": "2025-12-31"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 257.33752054794525,
+        "scale": 45.37125823185975
+      },
+      "Delhi": {
+        "center": 104.40073972602741,
+        "scale": 28.477743996948888
+      },
+      "Maharashtra": {
+        "center": 565.8824136986301,
+        "scale": 51.36399153531991
+      }
+    },
+    "seconds": 0.040515963999951055
+  },
+  {
+    "held": "Delhi",
+    "year": 2026,
+    "horizon": 1,
+    "mode": "rich_regional",
+    "arm": "pooled_all",
+    "training_states": [
+      "Karnataka",
+      "Delhi",
+      "Maharashtra"
+    ],
+    "training": [
+      {
+        "state": "Karnataka",
+        "training_n": 730,
+        "training_target_max": "2025-12-31",
+        "training_origin_max": "2025-12-31"
+      },
+      {
+        "state": "Delhi",
+        "training_n": 730,
+        "training_target_max": "2025-12-31",
+        "training_origin_max": "2025-12-31"
+      },
+      {
+        "state": "Maharashtra",
+        "training_n": 730,
+        "training_target_max": "2025-12-31",
+        "training_origin_max": "2025-12-31"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 257.33752054794525,
+        "scale": 45.37125823185975
+      },
+      "Delhi": {
+        "center": 104.40073972602741,
+        "scale": 28.477743996948888
+      },
+      "Maharashtra": {
+        "center": 565.8824136986301,
+        "scale": 51.36399153531991
+      }
+    },
+    "seconds": 0.042661509999959435
+  },
+  {
+    "held": "Delhi",
+    "year": 2026,
+    "horizon": 1,
+    "mode": "rich_regional",
+    "arm": "leave_region_out",
+    "training_states": [
+      "Karnataka",
+      "Maharashtra"
+    ],
+    "training": [
+      {
+        "state": "Karnataka",
+        "training_n": 730,
+        "training_target_max": "2025-12-31",
+        "training_origin_max": "2025-12-31"
+      },
+      {
+        "state": "Maharashtra",
+        "training_n": 730,
+        "training_target_max": "2025-12-31",
+        "training_origin_max": "2025-12-31"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 257.33752054794525,
+        "scale": 45.37125823185975
+      },
+      "Delhi": {
+        "center": 104.40073972602741,
+        "scale": 28.477743996948888
+      },
+      "Maharashtra": {
+        "center": 565.8824136986301,
+        "scale": 51.36399153531991
+      }
+    },
+    "seconds": 0.040955825999958506
+  },
+  {
+    "held": "Delhi",
+    "year": 2026,
+    "horizon": 7,
+    "mode": "rich_calendar",
+    "arm": "local",
+    "training_states": [
+      "Delhi"
+    ],
+    "training": [
+      {
+        "state": "Delhi",
+        "training_n": 724,
+        "training_target_max": "2025-12-31",
+        "training_origin_max": "2025-12-25"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 257.33752054794525,
+        "scale": 45.37125823185975
+      },
+      "Delhi": {
+        "center": 104.40073972602741,
+        "scale": 28.477743996948888
+      },
+      "Maharashtra": {
+        "center": 565.8824136986301,
+        "scale": 51.36399153531991
+      }
+    },
+    "seconds": 0.0345112219999919
+  },
+  {
+    "held": "Delhi",
+    "year": 2026,
+    "horizon": 7,
+    "mode": "rich_calendar",
+    "arm": "pooled_all",
+    "training_states": [
+      "Karnataka",
+      "Delhi",
+      "Maharashtra"
+    ],
+    "training": [
+      {
+        "state": "Karnataka",
+        "training_n": 724,
+        "training_target_max": "2025-12-31",
+        "training_origin_max": "2025-12-25"
+      },
+      {
+        "state": "Delhi",
+        "training_n": 724,
+        "training_target_max": "2025-12-31",
+        "training_origin_max": "2025-12-25"
+      },
+      {
+        "state": "Maharashtra",
+        "training_n": 724,
+        "training_target_max": "2025-12-31",
+        "training_origin_max": "2025-12-25"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 257.33752054794525,
+        "scale": 45.37125823185975
+      },
+      "Delhi": {
+        "center": 104.40073972602741,
+        "scale": 28.477743996948888
+      },
+      "Maharashtra": {
+        "center": 565.8824136986301,
+        "scale": 51.36399153531991
+      }
+    },
+    "seconds": 0.043372669000007136
+  },
+  {
+    "held": "Delhi",
+    "year": 2026,
+    "horizon": 7,
+    "mode": "rich_calendar",
+    "arm": "leave_region_out",
+    "training_states": [
+      "Karnataka",
+      "Maharashtra"
+    ],
+    "training": [
+      {
+        "state": "Karnataka",
+        "training_n": 724,
+        "training_target_max": "2025-12-31",
+        "training_origin_max": "2025-12-25"
+      },
+      {
+        "state": "Maharashtra",
+        "training_n": 724,
+        "training_target_max": "2025-12-31",
+        "training_origin_max": "2025-12-25"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 257.33752054794525,
+        "scale": 45.37125823185975
+      },
+      "Delhi": {
+        "center": 104.40073972602741,
+        "scale": 28.477743996948888
+      },
+      "Maharashtra": {
+        "center": 565.8824136986301,
+        "scale": 51.36399153531991
+      }
+    },
+    "seconds": 0.037818499000024985
+  },
+  {
+    "held": "Delhi",
+    "year": 2026,
+    "horizon": 7,
+    "mode": "rich_regional",
+    "arm": "local",
+    "training_states": [
+      "Delhi"
+    ],
+    "training": [
+      {
+        "state": "Delhi",
+        "training_n": 724,
+        "training_target_max": "2025-12-31",
+        "training_origin_max": "2025-12-25"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 257.33752054794525,
+        "scale": 45.37125823185975
+      },
+      "Delhi": {
+        "center": 104.40073972602741,
+        "scale": 28.477743996948888
+      },
+      "Maharashtra": {
+        "center": 565.8824136986301,
+        "scale": 51.36399153531991
+      }
+    },
+    "seconds": 0.03568505000004052
+  },
+  {
+    "held": "Delhi",
+    "year": 2026,
+    "horizon": 7,
+    "mode": "rich_regional",
+    "arm": "pooled_all",
+    "training_states": [
+      "Karnataka",
+      "Delhi",
+      "Maharashtra"
+    ],
+    "training": [
+      {
+        "state": "Karnataka",
+        "training_n": 724,
+        "training_target_max": "2025-12-31",
+        "training_origin_max": "2025-12-25"
+      },
+      {
+        "state": "Delhi",
+        "training_n": 724,
+        "training_target_max": "2025-12-31",
+        "training_origin_max": "2025-12-25"
+      },
+      {
+        "state": "Maharashtra",
+        "training_n": 724,
+        "training_target_max": "2025-12-31",
+        "training_origin_max": "2025-12-25"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 257.33752054794525,
+        "scale": 45.37125823185975
+      },
+      "Delhi": {
+        "center": 104.40073972602741,
+        "scale": 28.477743996948888
+      },
+      "Maharashtra": {
+        "center": 565.8824136986301,
+        "scale": 51.36399153531991
+      }
+    },
+    "seconds": 0.039798090000033426
+  },
+  {
+    "held": "Delhi",
+    "year": 2026,
+    "horizon": 7,
+    "mode": "rich_regional",
+    "arm": "leave_region_out",
+    "training_states": [
+      "Karnataka",
+      "Maharashtra"
+    ],
+    "training": [
+      {
+        "state": "Karnataka",
+        "training_n": 724,
+        "training_target_max": "2025-12-31",
+        "training_origin_max": "2025-12-25"
+      },
+      {
+        "state": "Maharashtra",
+        "training_n": 724,
+        "training_target_max": "2025-12-31",
+        "training_origin_max": "2025-12-25"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 257.33752054794525,
+        "scale": 45.37125823185975
+      },
+      "Delhi": {
+        "center": 104.40073972602741,
+        "scale": 28.477743996948888
+      },
+      "Maharashtra": {
+        "center": 565.8824136986301,
+        "scale": 51.36399153531991
+      }
+    },
+    "seconds": 0.038920651000012185
+  },
+  {
+    "held": "Delhi",
+    "year": 2026,
+    "horizon": 14,
+    "mode": "rich_calendar",
+    "arm": "local",
+    "training_states": [
+      "Delhi"
+    ],
+    "training": [
+      {
+        "state": "Delhi",
+        "training_n": 717,
+        "training_target_max": "2025-12-31",
+        "training_origin_max": "2025-12-18"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 257.33752054794525,
+        "scale": 45.37125823185975
+      },
+      "Delhi": {
+        "center": 104.40073972602741,
+        "scale": 28.477743996948888
+      },
+      "Maharashtra": {
+        "center": 565.8824136986301,
+        "scale": 51.36399153531991
+      }
+    },
+    "seconds": 0.031758084999978564
+  },
+  {
+    "held": "Delhi",
+    "year": 2026,
+    "horizon": 14,
+    "mode": "rich_calendar",
+    "arm": "pooled_all",
+    "training_states": [
+      "Karnataka",
+      "Delhi",
+      "Maharashtra"
+    ],
+    "training": [
+      {
+        "state": "Karnataka",
+        "training_n": 717,
+        "training_target_max": "2025-12-31",
+        "training_origin_max": "2025-12-18"
+      },
+      {
+        "state": "Delhi",
+        "training_n": 717,
+        "training_target_max": "2025-12-31",
+        "training_origin_max": "2025-12-18"
+      },
+      {
+        "state": "Maharashtra",
+        "training_n": 717,
+        "training_target_max": "2025-12-31",
+        "training_origin_max": "2025-12-18"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 257.33752054794525,
+        "scale": 45.37125823185975
+      },
+      "Delhi": {
+        "center": 104.40073972602741,
+        "scale": 28.477743996948888
+      },
+      "Maharashtra": {
+        "center": 565.8824136986301,
+        "scale": 51.36399153531991
+      }
+    },
+    "seconds": 0.03627879999999095
+  },
+  {
+    "held": "Delhi",
+    "year": 2026,
+    "horizon": 14,
+    "mode": "rich_calendar",
+    "arm": "leave_region_out",
+    "training_states": [
+      "Karnataka",
+      "Maharashtra"
+    ],
+    "training": [
+      {
+        "state": "Karnataka",
+        "training_n": 717,
+        "training_target_max": "2025-12-31",
+        "training_origin_max": "2025-12-18"
+      },
+      {
+        "state": "Maharashtra",
+        "training_n": 717,
+        "training_target_max": "2025-12-31",
+        "training_origin_max": "2025-12-18"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 257.33752054794525,
+        "scale": 45.37125823185975
+      },
+      "Delhi": {
+        "center": 104.40073972602741,
+        "scale": 28.477743996948888
+      },
+      "Maharashtra": {
+        "center": 565.8824136986301,
+        "scale": 51.36399153531991
+      }
+    },
+    "seconds": 0.034934187999965616
+  },
+  {
+    "held": "Delhi",
+    "year": 2026,
+    "horizon": 14,
+    "mode": "rich_regional",
+    "arm": "local",
+    "training_states": [
+      "Delhi"
+    ],
+    "training": [
+      {
+        "state": "Delhi",
+        "training_n": 717,
+        "training_target_max": "2025-12-31",
+        "training_origin_max": "2025-12-18"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 257.33752054794525,
+        "scale": 45.37125823185975
+      },
+      "Delhi": {
+        "center": 104.40073972602741,
+        "scale": 28.477743996948888
+      },
+      "Maharashtra": {
+        "center": 565.8824136986301,
+        "scale": 51.36399153531991
+      }
+    },
+    "seconds": 0.03704926500000738
+  },
+  {
+    "held": "Delhi",
+    "year": 2026,
+    "horizon": 14,
+    "mode": "rich_regional",
+    "arm": "pooled_all",
+    "training_states": [
+      "Karnataka",
+      "Delhi",
+      "Maharashtra"
+    ],
+    "training": [
+      {
+        "state": "Karnataka",
+        "training_n": 717,
+        "training_target_max": "2025-12-31",
+        "training_origin_max": "2025-12-18"
+      },
+      {
+        "state": "Delhi",
+        "training_n": 717,
+        "training_target_max": "2025-12-31",
+        "training_origin_max": "2025-12-18"
+      },
+      {
+        "state": "Maharashtra",
+        "training_n": 717,
+        "training_target_max": "2025-12-31",
+        "training_origin_max": "2025-12-18"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 257.33752054794525,
+        "scale": 45.37125823185975
+      },
+      "Delhi": {
+        "center": 104.40073972602741,
+        "scale": 28.477743996948888
+      },
+      "Maharashtra": {
+        "center": 565.8824136986301,
+        "scale": 51.36399153531991
+      }
+    },
+    "seconds": 0.04216241199998194
+  },
+  {
+    "held": "Delhi",
+    "year": 2026,
+    "horizon": 14,
+    "mode": "rich_regional",
+    "arm": "leave_region_out",
+    "training_states": [
+      "Karnataka",
+      "Maharashtra"
+    ],
+    "training": [
+      {
+        "state": "Karnataka",
+        "training_n": 717,
+        "training_target_max": "2025-12-31",
+        "training_origin_max": "2025-12-18"
+      },
+      {
+        "state": "Maharashtra",
+        "training_n": 717,
+        "training_target_max": "2025-12-31",
+        "training_origin_max": "2025-12-18"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 257.33752054794525,
+        "scale": 45.37125823185975
+      },
+      "Delhi": {
+        "center": 104.40073972602741,
+        "scale": 28.477743996948888
+      },
+      "Maharashtra": {
+        "center": 565.8824136986301,
+        "scale": 51.36399153531991
+      }
+    },
+    "seconds": 0.04128272399998423
+  },
+  {
+    "held": "Maharashtra",
+    "year": 2024,
+    "horizon": 1,
+    "mode": "rich_calendar",
+    "arm": "local",
+    "training_states": [
+      "Maharashtra"
+    ],
+    "training": [
+      {
+        "state": "Maharashtra",
+        "training_n": 730,
+        "training_target_max": "2023-12-31",
+        "training_origin_max": "2023-12-31"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 229.27605479452058,
+        "scale": 38.9312595429327
+      },
+      "Delhi": {
+        "center": 95.1696712328767,
+        "scale": 26.33301903029329
+      },
+      "Maharashtra": {
+        "center": 532.4329178082191,
+        "scale": 52.38041759184548
+      }
+    },
+    "seconds": 0.041448173999981464
+  },
+  {
+    "held": "Maharashtra",
+    "year": 2024,
+    "horizon": 1,
+    "mode": "rich_calendar",
+    "arm": "pooled_all",
+    "training_states": [
+      "Karnataka",
+      "Delhi",
+      "Maharashtra"
+    ],
+    "training": [
+      {
+        "state": "Karnataka",
+        "training_n": 730,
+        "training_target_max": "2023-12-31",
+        "training_origin_max": "2023-12-31"
+      },
+      {
+        "state": "Delhi",
+        "training_n": 730,
+        "training_target_max": "2023-12-31",
+        "training_origin_max": "2023-12-31"
+      },
+      {
+        "state": "Maharashtra",
+        "training_n": 730,
+        "training_target_max": "2023-12-31",
+        "training_origin_max": "2023-12-31"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 229.27605479452058,
+        "scale": 38.9312595429327
+      },
+      "Delhi": {
+        "center": 95.1696712328767,
+        "scale": 26.33301903029329
+      },
+      "Maharashtra": {
+        "center": 532.4329178082191,
+        "scale": 52.38041759184548
+      }
+    },
+    "seconds": 0.044390320999980304
+  },
+  {
+    "held": "Maharashtra",
+    "year": 2024,
+    "horizon": 1,
+    "mode": "rich_calendar",
+    "arm": "leave_region_out",
+    "training_states": [
+      "Karnataka",
+      "Delhi"
+    ],
+    "training": [
+      {
+        "state": "Karnataka",
+        "training_n": 730,
+        "training_target_max": "2023-12-31",
+        "training_origin_max": "2023-12-31"
+      },
+      {
+        "state": "Delhi",
+        "training_n": 730,
+        "training_target_max": "2023-12-31",
+        "training_origin_max": "2023-12-31"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 229.27605479452058,
+        "scale": 38.9312595429327
+      },
+      "Delhi": {
+        "center": 95.1696712328767,
+        "scale": 26.33301903029329
+      },
+      "Maharashtra": {
+        "center": 532.4329178082191,
+        "scale": 52.38041759184548
+      }
+    },
+    "seconds": 0.04181104200000618
+  },
+  {
+    "held": "Maharashtra",
+    "year": 2024,
+    "horizon": 1,
+    "mode": "rich_regional",
+    "arm": "local",
+    "training_states": [
+      "Maharashtra"
+    ],
+    "training": [
+      {
+        "state": "Maharashtra",
+        "training_n": 730,
+        "training_target_max": "2023-12-31",
+        "training_origin_max": "2023-12-31"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 229.27605479452058,
+        "scale": 38.9312595429327
+      },
+      "Delhi": {
+        "center": 95.1696712328767,
+        "scale": 26.33301903029329
+      },
+      "Maharashtra": {
+        "center": 532.4329178082191,
+        "scale": 52.38041759184548
+      }
+    },
+    "seconds": 0.04180531399998699
+  },
+  {
+    "held": "Maharashtra",
+    "year": 2024,
+    "horizon": 1,
+    "mode": "rich_regional",
+    "arm": "pooled_all",
+    "training_states": [
+      "Karnataka",
+      "Delhi",
+      "Maharashtra"
+    ],
+    "training": [
+      {
+        "state": "Karnataka",
+        "training_n": 730,
+        "training_target_max": "2023-12-31",
+        "training_origin_max": "2023-12-31"
+      },
+      {
+        "state": "Delhi",
+        "training_n": 730,
+        "training_target_max": "2023-12-31",
+        "training_origin_max": "2023-12-31"
+      },
+      {
+        "state": "Maharashtra",
+        "training_n": 730,
+        "training_target_max": "2023-12-31",
+        "training_origin_max": "2023-12-31"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 229.27605479452058,
+        "scale": 38.9312595429327
+      },
+      "Delhi": {
+        "center": 95.1696712328767,
+        "scale": 26.33301903029329
+      },
+      "Maharashtra": {
+        "center": 532.4329178082191,
+        "scale": 52.38041759184548
+      }
+    },
+    "seconds": 0.0430396400000177
+  },
+  {
+    "held": "Maharashtra",
+    "year": 2024,
+    "horizon": 1,
+    "mode": "rich_regional",
+    "arm": "leave_region_out",
+    "training_states": [
+      "Karnataka",
+      "Delhi"
+    ],
+    "training": [
+      {
+        "state": "Karnataka",
+        "training_n": 730,
+        "training_target_max": "2023-12-31",
+        "training_origin_max": "2023-12-31"
+      },
+      {
+        "state": "Delhi",
+        "training_n": 730,
+        "training_target_max": "2023-12-31",
+        "training_origin_max": "2023-12-31"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 229.27605479452058,
+        "scale": 38.9312595429327
+      },
+      "Delhi": {
+        "center": 95.1696712328767,
+        "scale": 26.33301903029329
+      },
+      "Maharashtra": {
+        "center": 532.4329178082191,
+        "scale": 52.38041759184548
+      }
+    },
+    "seconds": 0.04204229399999804
+  },
+  {
+    "held": "Maharashtra",
+    "year": 2024,
+    "horizon": 7,
+    "mode": "rich_calendar",
+    "arm": "local",
+    "training_states": [
+      "Maharashtra"
+    ],
+    "training": [
+      {
+        "state": "Maharashtra",
+        "training_n": 724,
+        "training_target_max": "2023-12-31",
+        "training_origin_max": "2023-12-25"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 229.27605479452058,
+        "scale": 38.9312595429327
+      },
+      "Delhi": {
+        "center": 95.1696712328767,
+        "scale": 26.33301903029329
+      },
+      "Maharashtra": {
+        "center": 532.4329178082191,
+        "scale": 52.38041759184548
+      }
+    },
+    "seconds": 0.04102270399999952
+  },
+  {
+    "held": "Maharashtra",
+    "year": 2024,
+    "horizon": 7,
+    "mode": "rich_calendar",
+    "arm": "pooled_all",
+    "training_states": [
+      "Karnataka",
+      "Delhi",
+      "Maharashtra"
+    ],
+    "training": [
+      {
+        "state": "Karnataka",
+        "training_n": 724,
+        "training_target_max": "2023-12-31",
+        "training_origin_max": "2023-12-25"
+      },
+      {
+        "state": "Delhi",
+        "training_n": 724,
+        "training_target_max": "2023-12-31",
+        "training_origin_max": "2023-12-25"
+      },
+      {
+        "state": "Maharashtra",
+        "training_n": 724,
+        "training_target_max": "2023-12-31",
+        "training_origin_max": "2023-12-25"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 229.27605479452058,
+        "scale": 38.9312595429327
+      },
+      "Delhi": {
+        "center": 95.1696712328767,
+        "scale": 26.33301903029329
+      },
+      "Maharashtra": {
+        "center": 532.4329178082191,
+        "scale": 52.38041759184548
+      }
+    },
+    "seconds": 0.04350778400004174
+  },
+  {
+    "held": "Maharashtra",
+    "year": 2024,
+    "horizon": 7,
+    "mode": "rich_calendar",
+    "arm": "leave_region_out",
+    "training_states": [
+      "Karnataka",
+      "Delhi"
+    ],
+    "training": [
+      {
+        "state": "Karnataka",
+        "training_n": 724,
+        "training_target_max": "2023-12-31",
+        "training_origin_max": "2023-12-25"
+      },
+      {
+        "state": "Delhi",
+        "training_n": 724,
+        "training_target_max": "2023-12-31",
+        "training_origin_max": "2023-12-25"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 229.27605479452058,
+        "scale": 38.9312595429327
+      },
+      "Delhi": {
+        "center": 95.1696712328767,
+        "scale": 26.33301903029329
+      },
+      "Maharashtra": {
+        "center": 532.4329178082191,
+        "scale": 52.38041759184548
+      }
+    },
+    "seconds": 0.04252336100000775
+  },
+  {
+    "held": "Maharashtra",
+    "year": 2024,
+    "horizon": 7,
+    "mode": "rich_regional",
+    "arm": "local",
+    "training_states": [
+      "Maharashtra"
+    ],
+    "training": [
+      {
+        "state": "Maharashtra",
+        "training_n": 724,
+        "training_target_max": "2023-12-31",
+        "training_origin_max": "2023-12-25"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 229.27605479452058,
+        "scale": 38.9312595429327
+      },
+      "Delhi": {
+        "center": 95.1696712328767,
+        "scale": 26.33301903029329
+      },
+      "Maharashtra": {
+        "center": 532.4329178082191,
+        "scale": 52.38041759184548
+      }
+    },
+    "seconds": 0.041904609999960485
+  },
+  {
+    "held": "Maharashtra",
+    "year": 2024,
+    "horizon": 7,
+    "mode": "rich_regional",
+    "arm": "pooled_all",
+    "training_states": [
+      "Karnataka",
+      "Delhi",
+      "Maharashtra"
+    ],
+    "training": [
+      {
+        "state": "Karnataka",
+        "training_n": 724,
+        "training_target_max": "2023-12-31",
+        "training_origin_max": "2023-12-25"
+      },
+      {
+        "state": "Delhi",
+        "training_n": 724,
+        "training_target_max": "2023-12-31",
+        "training_origin_max": "2023-12-25"
+      },
+      {
+        "state": "Maharashtra",
+        "training_n": 724,
+        "training_target_max": "2023-12-31",
+        "training_origin_max": "2023-12-25"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 229.27605479452058,
+        "scale": 38.9312595429327
+      },
+      "Delhi": {
+        "center": 95.1696712328767,
+        "scale": 26.33301903029329
+      },
+      "Maharashtra": {
+        "center": 532.4329178082191,
+        "scale": 52.38041759184548
+      }
+    },
+    "seconds": 0.045885515000009036
+  },
+  {
+    "held": "Maharashtra",
+    "year": 2024,
+    "horizon": 7,
+    "mode": "rich_regional",
+    "arm": "leave_region_out",
+    "training_states": [
+      "Karnataka",
+      "Delhi"
+    ],
+    "training": [
+      {
+        "state": "Karnataka",
+        "training_n": 724,
+        "training_target_max": "2023-12-31",
+        "training_origin_max": "2023-12-25"
+      },
+      {
+        "state": "Delhi",
+        "training_n": 724,
+        "training_target_max": "2023-12-31",
+        "training_origin_max": "2023-12-25"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 229.27605479452058,
+        "scale": 38.9312595429327
+      },
+      "Delhi": {
+        "center": 95.1696712328767,
+        "scale": 26.33301903029329
+      },
+      "Maharashtra": {
+        "center": 532.4329178082191,
+        "scale": 52.38041759184548
+      }
+    },
+    "seconds": 0.04377113400005328
+  },
+  {
+    "held": "Maharashtra",
+    "year": 2024,
+    "horizon": 14,
+    "mode": "rich_calendar",
+    "arm": "local",
+    "training_states": [
+      "Maharashtra"
+    ],
+    "training": [
+      {
+        "state": "Maharashtra",
+        "training_n": 717,
+        "training_target_max": "2023-12-31",
+        "training_origin_max": "2023-12-18"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 229.27605479452058,
+        "scale": 38.9312595429327
+      },
+      "Delhi": {
+        "center": 95.1696712328767,
+        "scale": 26.33301903029329
+      },
+      "Maharashtra": {
+        "center": 532.4329178082191,
+        "scale": 52.38041759184548
+      }
+    },
+    "seconds": 0.04093329099998755
+  },
+  {
+    "held": "Maharashtra",
+    "year": 2024,
+    "horizon": 14,
+    "mode": "rich_calendar",
+    "arm": "pooled_all",
+    "training_states": [
+      "Karnataka",
+      "Delhi",
+      "Maharashtra"
+    ],
+    "training": [
+      {
+        "state": "Karnataka",
+        "training_n": 717,
+        "training_target_max": "2023-12-31",
+        "training_origin_max": "2023-12-18"
+      },
+      {
+        "state": "Delhi",
+        "training_n": 717,
+        "training_target_max": "2023-12-31",
+        "training_origin_max": "2023-12-18"
+      },
+      {
+        "state": "Maharashtra",
+        "training_n": 717,
+        "training_target_max": "2023-12-31",
+        "training_origin_max": "2023-12-18"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 229.27605479452058,
+        "scale": 38.9312595429327
+      },
+      "Delhi": {
+        "center": 95.1696712328767,
+        "scale": 26.33301903029329
+      },
+      "Maharashtra": {
+        "center": 532.4329178082191,
+        "scale": 52.38041759184548
+      }
+    },
+    "seconds": 0.0391054350000104
+  },
+  {
+    "held": "Maharashtra",
+    "year": 2024,
+    "horizon": 14,
+    "mode": "rich_calendar",
+    "arm": "leave_region_out",
+    "training_states": [
+      "Karnataka",
+      "Delhi"
+    ],
+    "training": [
+      {
+        "state": "Karnataka",
+        "training_n": 717,
+        "training_target_max": "2023-12-31",
+        "training_origin_max": "2023-12-18"
+      },
+      {
+        "state": "Delhi",
+        "training_n": 717,
+        "training_target_max": "2023-12-31",
+        "training_origin_max": "2023-12-18"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 229.27605479452058,
+        "scale": 38.9312595429327
+      },
+      "Delhi": {
+        "center": 95.1696712328767,
+        "scale": 26.33301903029329
+      },
+      "Maharashtra": {
+        "center": 532.4329178082191,
+        "scale": 52.38041759184548
+      }
+    },
+    "seconds": 0.03183201500002042
+  },
+  {
+    "held": "Maharashtra",
+    "year": 2024,
+    "horizon": 14,
+    "mode": "rich_regional",
+    "arm": "local",
+    "training_states": [
+      "Maharashtra"
+    ],
+    "training": [
+      {
+        "state": "Maharashtra",
+        "training_n": 717,
+        "training_target_max": "2023-12-31",
+        "training_origin_max": "2023-12-18"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 229.27605479452058,
+        "scale": 38.9312595429327
+      },
+      "Delhi": {
+        "center": 95.1696712328767,
+        "scale": 26.33301903029329
+      },
+      "Maharashtra": {
+        "center": 532.4329178082191,
+        "scale": 52.38041759184548
+      }
+    },
+    "seconds": 0.03315849000000526
+  },
+  {
+    "held": "Maharashtra",
+    "year": 2024,
+    "horizon": 14,
+    "mode": "rich_regional",
+    "arm": "pooled_all",
+    "training_states": [
+      "Karnataka",
+      "Delhi",
+      "Maharashtra"
+    ],
+    "training": [
+      {
+        "state": "Karnataka",
+        "training_n": 717,
+        "training_target_max": "2023-12-31",
+        "training_origin_max": "2023-12-18"
+      },
+      {
+        "state": "Delhi",
+        "training_n": 717,
+        "training_target_max": "2023-12-31",
+        "training_origin_max": "2023-12-18"
+      },
+      {
+        "state": "Maharashtra",
+        "training_n": 717,
+        "training_target_max": "2023-12-31",
+        "training_origin_max": "2023-12-18"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 229.27605479452058,
+        "scale": 38.9312595429327
+      },
+      "Delhi": {
+        "center": 95.1696712328767,
+        "scale": 26.33301903029329
+      },
+      "Maharashtra": {
+        "center": 532.4329178082191,
+        "scale": 52.38041759184548
+      }
+    },
+    "seconds": 0.036512635999997656
+  },
+  {
+    "held": "Maharashtra",
+    "year": 2024,
+    "horizon": 14,
+    "mode": "rich_regional",
+    "arm": "leave_region_out",
+    "training_states": [
+      "Karnataka",
+      "Delhi"
+    ],
+    "training": [
+      {
+        "state": "Karnataka",
+        "training_n": 717,
+        "training_target_max": "2023-12-31",
+        "training_origin_max": "2023-12-18"
+      },
+      {
+        "state": "Delhi",
+        "training_n": 717,
+        "training_target_max": "2023-12-31",
+        "training_origin_max": "2023-12-18"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 229.27605479452058,
+        "scale": 38.9312595429327
+      },
+      "Delhi": {
+        "center": 95.1696712328767,
+        "scale": 26.33301903029329
+      },
+      "Maharashtra": {
+        "center": 532.4329178082191,
+        "scale": 52.38041759184548
+      }
+    },
+    "seconds": 0.04163141000003634
+  },
+  {
+    "held": "Maharashtra",
+    "year": 2025,
+    "horizon": 1,
+    "mode": "rich_calendar",
+    "arm": "local",
+    "training_states": [
+      "Maharashtra"
+    ],
+    "training": [
+      {
+        "state": "Maharashtra",
+        "training_n": 730,
+        "training_target_max": "2024-12-31",
+        "training_origin_max": "2024-12-31"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 251.02582191780823,
+        "scale": 37.879953367925
+      },
+      "Delhi": {
+        "center": 100.07093150684932,
+        "scale": 28.30738674377097
+      },
+      "Maharashtra": {
+        "center": 554.6691260273973,
+        "scale": 42.80152846905412
+      }
+    },
+    "seconds": 0.03364646199997878
+  },
+  {
+    "held": "Maharashtra",
+    "year": 2025,
+    "horizon": 1,
+    "mode": "rich_calendar",
+    "arm": "pooled_all",
+    "training_states": [
+      "Karnataka",
+      "Delhi",
+      "Maharashtra"
+    ],
+    "training": [
+      {
+        "state": "Karnataka",
+        "training_n": 730,
+        "training_target_max": "2024-12-31",
+        "training_origin_max": "2024-12-31"
+      },
+      {
+        "state": "Delhi",
+        "training_n": 730,
+        "training_target_max": "2024-12-31",
+        "training_origin_max": "2024-12-31"
+      },
+      {
+        "state": "Maharashtra",
+        "training_n": 730,
+        "training_target_max": "2024-12-31",
+        "training_origin_max": "2024-12-31"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 251.02582191780823,
+        "scale": 37.879953367925
+      },
+      "Delhi": {
+        "center": 100.07093150684932,
+        "scale": 28.30738674377097
+      },
+      "Maharashtra": {
+        "center": 554.6691260273973,
+        "scale": 42.80152846905412
+      }
+    },
+    "seconds": 0.039270609000027434
+  },
+  {
+    "held": "Maharashtra",
+    "year": 2025,
+    "horizon": 1,
+    "mode": "rich_calendar",
+    "arm": "leave_region_out",
+    "training_states": [
+      "Karnataka",
+      "Delhi"
+    ],
+    "training": [
+      {
+        "state": "Karnataka",
+        "training_n": 730,
+        "training_target_max": "2024-12-31",
+        "training_origin_max": "2024-12-31"
+      },
+      {
+        "state": "Delhi",
+        "training_n": 730,
+        "training_target_max": "2024-12-31",
+        "training_origin_max": "2024-12-31"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 251.02582191780823,
+        "scale": 37.879953367925
+      },
+      "Delhi": {
+        "center": 100.07093150684932,
+        "scale": 28.30738674377097
+      },
+      "Maharashtra": {
+        "center": 554.6691260273973,
+        "scale": 42.80152846905412
+      }
+    },
+    "seconds": 0.03478057099999887
+  },
+  {
+    "held": "Maharashtra",
+    "year": 2025,
+    "horizon": 1,
+    "mode": "rich_regional",
+    "arm": "local",
+    "training_states": [
+      "Maharashtra"
+    ],
+    "training": [
+      {
+        "state": "Maharashtra",
+        "training_n": 730,
+        "training_target_max": "2024-12-31",
+        "training_origin_max": "2024-12-31"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 251.02582191780823,
+        "scale": 37.879953367925
+      },
+      "Delhi": {
+        "center": 100.07093150684932,
+        "scale": 28.30738674377097
+      },
+      "Maharashtra": {
+        "center": 554.6691260273973,
+        "scale": 42.80152846905412
+      }
+    },
+    "seconds": 0.03556786699999748
+  },
+  {
+    "held": "Maharashtra",
+    "year": 2025,
+    "horizon": 1,
+    "mode": "rich_regional",
+    "arm": "pooled_all",
+    "training_states": [
+      "Karnataka",
+      "Delhi",
+      "Maharashtra"
+    ],
+    "training": [
+      {
+        "state": "Karnataka",
+        "training_n": 730,
+        "training_target_max": "2024-12-31",
+        "training_origin_max": "2024-12-31"
+      },
+      {
+        "state": "Delhi",
+        "training_n": 730,
+        "training_target_max": "2024-12-31",
+        "training_origin_max": "2024-12-31"
+      },
+      {
+        "state": "Maharashtra",
+        "training_n": 730,
+        "training_target_max": "2024-12-31",
+        "training_origin_max": "2024-12-31"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 251.02582191780823,
+        "scale": 37.879953367925
+      },
+      "Delhi": {
+        "center": 100.07093150684932,
+        "scale": 28.30738674377097
+      },
+      "Maharashtra": {
+        "center": 554.6691260273973,
+        "scale": 42.80152846905412
+      }
+    },
+    "seconds": 0.0419606279999698
+  },
+  {
+    "held": "Maharashtra",
+    "year": 2025,
+    "horizon": 1,
+    "mode": "rich_regional",
+    "arm": "leave_region_out",
+    "training_states": [
+      "Karnataka",
+      "Delhi"
+    ],
+    "training": [
+      {
+        "state": "Karnataka",
+        "training_n": 730,
+        "training_target_max": "2024-12-31",
+        "training_origin_max": "2024-12-31"
+      },
+      {
+        "state": "Delhi",
+        "training_n": 730,
+        "training_target_max": "2024-12-31",
+        "training_origin_max": "2024-12-31"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 251.02582191780823,
+        "scale": 37.879953367925
+      },
+      "Delhi": {
+        "center": 100.07093150684932,
+        "scale": 28.30738674377097
+      },
+      "Maharashtra": {
+        "center": 554.6691260273973,
+        "scale": 42.80152846905412
+      }
+    },
+    "seconds": 0.04054109100002279
+  },
+  {
+    "held": "Maharashtra",
+    "year": 2025,
+    "horizon": 7,
+    "mode": "rich_calendar",
+    "arm": "local",
+    "training_states": [
+      "Maharashtra"
+    ],
+    "training": [
+      {
+        "state": "Maharashtra",
+        "training_n": 724,
+        "training_target_max": "2024-12-31",
+        "training_origin_max": "2024-12-25"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 251.02582191780823,
+        "scale": 37.879953367925
+      },
+      "Delhi": {
+        "center": 100.07093150684932,
+        "scale": 28.30738674377097
+      },
+      "Maharashtra": {
+        "center": 554.6691260273973,
+        "scale": 42.80152846905412
+      }
+    },
+    "seconds": 0.039293133000001035
+  },
+  {
+    "held": "Maharashtra",
+    "year": 2025,
+    "horizon": 7,
+    "mode": "rich_calendar",
+    "arm": "pooled_all",
+    "training_states": [
+      "Karnataka",
+      "Delhi",
+      "Maharashtra"
+    ],
+    "training": [
+      {
+        "state": "Karnataka",
+        "training_n": 724,
+        "training_target_max": "2024-12-31",
+        "training_origin_max": "2024-12-25"
+      },
+      {
+        "state": "Delhi",
+        "training_n": 724,
+        "training_target_max": "2024-12-31",
+        "training_origin_max": "2024-12-25"
+      },
+      {
+        "state": "Maharashtra",
+        "training_n": 724,
+        "training_target_max": "2024-12-31",
+        "training_origin_max": "2024-12-25"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 251.02582191780823,
+        "scale": 37.879953367925
+      },
+      "Delhi": {
+        "center": 100.07093150684932,
+        "scale": 28.30738674377097
+      },
+      "Maharashtra": {
+        "center": 554.6691260273973,
+        "scale": 42.80152846905412
+      }
+    },
+    "seconds": 0.036217319000002135
+  },
+  {
+    "held": "Maharashtra",
+    "year": 2025,
+    "horizon": 7,
+    "mode": "rich_calendar",
+    "arm": "leave_region_out",
+    "training_states": [
+      "Karnataka",
+      "Delhi"
+    ],
+    "training": [
+      {
+        "state": "Karnataka",
+        "training_n": 724,
+        "training_target_max": "2024-12-31",
+        "training_origin_max": "2024-12-25"
+      },
+      {
+        "state": "Delhi",
+        "training_n": 724,
+        "training_target_max": "2024-12-31",
+        "training_origin_max": "2024-12-25"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 251.02582191780823,
+        "scale": 37.879953367925
+      },
+      "Delhi": {
+        "center": 100.07093150684932,
+        "scale": 28.30738674377097
+      },
+      "Maharashtra": {
+        "center": 554.6691260273973,
+        "scale": 42.80152846905412
+      }
+    },
+    "seconds": 0.03900203599999941
+  },
+  {
+    "held": "Maharashtra",
+    "year": 2025,
+    "horizon": 7,
+    "mode": "rich_regional",
+    "arm": "local",
+    "training_states": [
+      "Maharashtra"
+    ],
+    "training": [
+      {
+        "state": "Maharashtra",
+        "training_n": 724,
+        "training_target_max": "2024-12-31",
+        "training_origin_max": "2024-12-25"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 251.02582191780823,
+        "scale": 37.879953367925
+      },
+      "Delhi": {
+        "center": 100.07093150684932,
+        "scale": 28.30738674377097
+      },
+      "Maharashtra": {
+        "center": 554.6691260273973,
+        "scale": 42.80152846905412
+      }
+    },
+    "seconds": 0.044511901000021226
+  },
+  {
+    "held": "Maharashtra",
+    "year": 2025,
+    "horizon": 7,
+    "mode": "rich_regional",
+    "arm": "pooled_all",
+    "training_states": [
+      "Karnataka",
+      "Delhi",
+      "Maharashtra"
+    ],
+    "training": [
+      {
+        "state": "Karnataka",
+        "training_n": 724,
+        "training_target_max": "2024-12-31",
+        "training_origin_max": "2024-12-25"
+      },
+      {
+        "state": "Delhi",
+        "training_n": 724,
+        "training_target_max": "2024-12-31",
+        "training_origin_max": "2024-12-25"
+      },
+      {
+        "state": "Maharashtra",
+        "training_n": 724,
+        "training_target_max": "2024-12-31",
+        "training_origin_max": "2024-12-25"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 251.02582191780823,
+        "scale": 37.879953367925
+      },
+      "Delhi": {
+        "center": 100.07093150684932,
+        "scale": 28.30738674377097
+      },
+      "Maharashtra": {
+        "center": 554.6691260273973,
+        "scale": 42.80152846905412
+      }
+    },
+    "seconds": 0.04525768399997787
+  },
+  {
+    "held": "Maharashtra",
+    "year": 2025,
+    "horizon": 7,
+    "mode": "rich_regional",
+    "arm": "leave_region_out",
+    "training_states": [
+      "Karnataka",
+      "Delhi"
+    ],
+    "training": [
+      {
+        "state": "Karnataka",
+        "training_n": 724,
+        "training_target_max": "2024-12-31",
+        "training_origin_max": "2024-12-25"
+      },
+      {
+        "state": "Delhi",
+        "training_n": 724,
+        "training_target_max": "2024-12-31",
+        "training_origin_max": "2024-12-25"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 251.02582191780823,
+        "scale": 37.879953367925
+      },
+      "Delhi": {
+        "center": 100.07093150684932,
+        "scale": 28.30738674377097
+      },
+      "Maharashtra": {
+        "center": 554.6691260273973,
+        "scale": 42.80152846905412
+      }
+    },
+    "seconds": 0.04057640299998866
+  },
+  {
+    "held": "Maharashtra",
+    "year": 2025,
+    "horizon": 14,
+    "mode": "rich_calendar",
+    "arm": "local",
+    "training_states": [
+      "Maharashtra"
+    ],
+    "training": [
+      {
+        "state": "Maharashtra",
+        "training_n": 717,
+        "training_target_max": "2024-12-31",
+        "training_origin_max": "2024-12-18"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 251.02582191780823,
+        "scale": 37.879953367925
+      },
+      "Delhi": {
+        "center": 100.07093150684932,
+        "scale": 28.30738674377097
+      },
+      "Maharashtra": {
+        "center": 554.6691260273973,
+        "scale": 42.80152846905412
+      }
+    },
+    "seconds": 0.030123394999975517
+  },
+  {
+    "held": "Maharashtra",
+    "year": 2025,
+    "horizon": 14,
+    "mode": "rich_calendar",
+    "arm": "pooled_all",
+    "training_states": [
+      "Karnataka",
+      "Delhi",
+      "Maharashtra"
+    ],
+    "training": [
+      {
+        "state": "Karnataka",
+        "training_n": 717,
+        "training_target_max": "2024-12-31",
+        "training_origin_max": "2024-12-18"
+      },
+      {
+        "state": "Delhi",
+        "training_n": 717,
+        "training_target_max": "2024-12-31",
+        "training_origin_max": "2024-12-18"
+      },
+      {
+        "state": "Maharashtra",
+        "training_n": 717,
+        "training_target_max": "2024-12-31",
+        "training_origin_max": "2024-12-18"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 251.02582191780823,
+        "scale": 37.879953367925
+      },
+      "Delhi": {
+        "center": 100.07093150684932,
+        "scale": 28.30738674377097
+      },
+      "Maharashtra": {
+        "center": 554.6691260273973,
+        "scale": 42.80152846905412
+      }
+    },
+    "seconds": 0.03333654300001854
+  },
+  {
+    "held": "Maharashtra",
+    "year": 2025,
+    "horizon": 14,
+    "mode": "rich_calendar",
+    "arm": "leave_region_out",
+    "training_states": [
+      "Karnataka",
+      "Delhi"
+    ],
+    "training": [
+      {
+        "state": "Karnataka",
+        "training_n": 717,
+        "training_target_max": "2024-12-31",
+        "training_origin_max": "2024-12-18"
+      },
+      {
+        "state": "Delhi",
+        "training_n": 717,
+        "training_target_max": "2024-12-31",
+        "training_origin_max": "2024-12-18"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 251.02582191780823,
+        "scale": 37.879953367925
+      },
+      "Delhi": {
+        "center": 100.07093150684932,
+        "scale": 28.30738674377097
+      },
+      "Maharashtra": {
+        "center": 554.6691260273973,
+        "scale": 42.80152846905412
+      }
+    },
+    "seconds": 0.03088192899997466
+  },
+  {
+    "held": "Maharashtra",
+    "year": 2025,
+    "horizon": 14,
+    "mode": "rich_regional",
+    "arm": "local",
+    "training_states": [
+      "Maharashtra"
+    ],
+    "training": [
+      {
+        "state": "Maharashtra",
+        "training_n": 717,
+        "training_target_max": "2024-12-31",
+        "training_origin_max": "2024-12-18"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 251.02582191780823,
+        "scale": 37.879953367925
+      },
+      "Delhi": {
+        "center": 100.07093150684932,
+        "scale": 28.30738674377097
+      },
+      "Maharashtra": {
+        "center": 554.6691260273973,
+        "scale": 42.80152846905412
+      }
+    },
+    "seconds": 0.031135621999965224
+  },
+  {
+    "held": "Maharashtra",
+    "year": 2025,
+    "horizon": 14,
+    "mode": "rich_regional",
+    "arm": "pooled_all",
+    "training_states": [
+      "Karnataka",
+      "Delhi",
+      "Maharashtra"
+    ],
+    "training": [
+      {
+        "state": "Karnataka",
+        "training_n": 717,
+        "training_target_max": "2024-12-31",
+        "training_origin_max": "2024-12-18"
+      },
+      {
+        "state": "Delhi",
+        "training_n": 717,
+        "training_target_max": "2024-12-31",
+        "training_origin_max": "2024-12-18"
+      },
+      {
+        "state": "Maharashtra",
+        "training_n": 717,
+        "training_target_max": "2024-12-31",
+        "training_origin_max": "2024-12-18"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 251.02582191780823,
+        "scale": 37.879953367925
+      },
+      "Delhi": {
+        "center": 100.07093150684932,
+        "scale": 28.30738674377097
+      },
+      "Maharashtra": {
+        "center": 554.6691260273973,
+        "scale": 42.80152846905412
+      }
+    },
+    "seconds": 0.03664140699999052
+  },
+  {
+    "held": "Maharashtra",
+    "year": 2025,
+    "horizon": 14,
+    "mode": "rich_regional",
+    "arm": "leave_region_out",
+    "training_states": [
+      "Karnataka",
+      "Delhi"
+    ],
+    "training": [
+      {
+        "state": "Karnataka",
+        "training_n": 717,
+        "training_target_max": "2024-12-31",
+        "training_origin_max": "2024-12-18"
+      },
+      {
+        "state": "Delhi",
+        "training_n": 717,
+        "training_target_max": "2024-12-31",
+        "training_origin_max": "2024-12-18"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 251.02582191780823,
+        "scale": 37.879953367925
+      },
+      "Delhi": {
+        "center": 100.07093150684932,
+        "scale": 28.30738674377097
+      },
+      "Maharashtra": {
+        "center": 554.6691260273973,
+        "scale": 42.80152846905412
+      }
+    },
+    "seconds": 0.030665986000030898
+  },
+  {
+    "held": "Maharashtra",
+    "year": 2026,
+    "horizon": 1,
+    "mode": "rich_calendar",
+    "arm": "local",
+    "training_states": [
+      "Maharashtra"
+    ],
+    "training": [
+      {
+        "state": "Maharashtra",
+        "training_n": 730,
+        "training_target_max": "2025-12-31",
+        "training_origin_max": "2025-12-31"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 257.33752054794525,
+        "scale": 45.37125823185975
+      },
+      "Delhi": {
+        "center": 104.40073972602741,
+        "scale": 28.477743996948888
+      },
+      "Maharashtra": {
+        "center": 565.8824136986301,
+        "scale": 51.36399153531991
+      }
+    },
+    "seconds": 0.040963707999992494
+  },
+  {
+    "held": "Maharashtra",
+    "year": 2026,
+    "horizon": 1,
+    "mode": "rich_calendar",
+    "arm": "pooled_all",
+    "training_states": [
+      "Karnataka",
+      "Delhi",
+      "Maharashtra"
+    ],
+    "training": [
+      {
+        "state": "Karnataka",
+        "training_n": 730,
+        "training_target_max": "2025-12-31",
+        "training_origin_max": "2025-12-31"
+      },
+      {
+        "state": "Delhi",
+        "training_n": 730,
+        "training_target_max": "2025-12-31",
+        "training_origin_max": "2025-12-31"
+      },
+      {
+        "state": "Maharashtra",
+        "training_n": 730,
+        "training_target_max": "2025-12-31",
+        "training_origin_max": "2025-12-31"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 257.33752054794525,
+        "scale": 45.37125823185975
+      },
+      "Delhi": {
+        "center": 104.40073972602741,
+        "scale": 28.477743996948888
+      },
+      "Maharashtra": {
+        "center": 565.8824136986301,
+        "scale": 51.36399153531991
+      }
+    },
+    "seconds": 0.04332169999997859
+  },
+  {
+    "held": "Maharashtra",
+    "year": 2026,
+    "horizon": 1,
+    "mode": "rich_calendar",
+    "arm": "leave_region_out",
+    "training_states": [
+      "Karnataka",
+      "Delhi"
+    ],
+    "training": [
+      {
+        "state": "Karnataka",
+        "training_n": 730,
+        "training_target_max": "2025-12-31",
+        "training_origin_max": "2025-12-31"
+      },
+      {
+        "state": "Delhi",
+        "training_n": 730,
+        "training_target_max": "2025-12-31",
+        "training_origin_max": "2025-12-31"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 257.33752054794525,
+        "scale": 45.37125823185975
+      },
+      "Delhi": {
+        "center": 104.40073972602741,
+        "scale": 28.477743996948888
+      },
+      "Maharashtra": {
+        "center": 565.8824136986301,
+        "scale": 51.36399153531991
+      }
+    },
+    "seconds": 0.0427863220000404
+  },
+  {
+    "held": "Maharashtra",
+    "year": 2026,
+    "horizon": 1,
+    "mode": "rich_regional",
+    "arm": "local",
+    "training_states": [
+      "Maharashtra"
+    ],
+    "training": [
+      {
+        "state": "Maharashtra",
+        "training_n": 730,
+        "training_target_max": "2025-12-31",
+        "training_origin_max": "2025-12-31"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 257.33752054794525,
+        "scale": 45.37125823185975
+      },
+      "Delhi": {
+        "center": 104.40073972602741,
+        "scale": 28.477743996948888
+      },
+      "Maharashtra": {
+        "center": 565.8824136986301,
+        "scale": 51.36399153531991
+      }
+    },
+    "seconds": 0.036761965000039254
+  },
+  {
+    "held": "Maharashtra",
+    "year": 2026,
+    "horizon": 1,
+    "mode": "rich_regional",
+    "arm": "pooled_all",
+    "training_states": [
+      "Karnataka",
+      "Delhi",
+      "Maharashtra"
+    ],
+    "training": [
+      {
+        "state": "Karnataka",
+        "training_n": 730,
+        "training_target_max": "2025-12-31",
+        "training_origin_max": "2025-12-31"
+      },
+      {
+        "state": "Delhi",
+        "training_n": 730,
+        "training_target_max": "2025-12-31",
+        "training_origin_max": "2025-12-31"
+      },
+      {
+        "state": "Maharashtra",
+        "training_n": 730,
+        "training_target_max": "2025-12-31",
+        "training_origin_max": "2025-12-31"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 257.33752054794525,
+        "scale": 45.37125823185975
+      },
+      "Delhi": {
+        "center": 104.40073972602741,
+        "scale": 28.477743996948888
+      },
+      "Maharashtra": {
+        "center": 565.8824136986301,
+        "scale": 51.36399153531991
+      }
+    },
+    "seconds": 0.04288492299997415
+  },
+  {
+    "held": "Maharashtra",
+    "year": 2026,
+    "horizon": 1,
+    "mode": "rich_regional",
+    "arm": "leave_region_out",
+    "training_states": [
+      "Karnataka",
+      "Delhi"
+    ],
+    "training": [
+      {
+        "state": "Karnataka",
+        "training_n": 730,
+        "training_target_max": "2025-12-31",
+        "training_origin_max": "2025-12-31"
+      },
+      {
+        "state": "Delhi",
+        "training_n": 730,
+        "training_target_max": "2025-12-31",
+        "training_origin_max": "2025-12-31"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 257.33752054794525,
+        "scale": 45.37125823185975
+      },
+      "Delhi": {
+        "center": 104.40073972602741,
+        "scale": 28.477743996948888
+      },
+      "Maharashtra": {
+        "center": 565.8824136986301,
+        "scale": 51.36399153531991
+      }
+    },
+    "seconds": 0.0416926320000357
+  },
+  {
+    "held": "Maharashtra",
+    "year": 2026,
+    "horizon": 7,
+    "mode": "rich_calendar",
+    "arm": "local",
+    "training_states": [
+      "Maharashtra"
+    ],
+    "training": [
+      {
+        "state": "Maharashtra",
+        "training_n": 724,
+        "training_target_max": "2025-12-31",
+        "training_origin_max": "2025-12-25"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 257.33752054794525,
+        "scale": 45.37125823185975
+      },
+      "Delhi": {
+        "center": 104.40073972602741,
+        "scale": 28.477743996948888
+      },
+      "Maharashtra": {
+        "center": 565.8824136986301,
+        "scale": 51.36399153531991
+      }
+    },
+    "seconds": 0.04135874300004616
+  },
+  {
+    "held": "Maharashtra",
+    "year": 2026,
+    "horizon": 7,
+    "mode": "rich_calendar",
+    "arm": "pooled_all",
+    "training_states": [
+      "Karnataka",
+      "Delhi",
+      "Maharashtra"
+    ],
+    "training": [
+      {
+        "state": "Karnataka",
+        "training_n": 724,
+        "training_target_max": "2025-12-31",
+        "training_origin_max": "2025-12-25"
+      },
+      {
+        "state": "Delhi",
+        "training_n": 724,
+        "training_target_max": "2025-12-31",
+        "training_origin_max": "2025-12-25"
+      },
+      {
+        "state": "Maharashtra",
+        "training_n": 724,
+        "training_target_max": "2025-12-31",
+        "training_origin_max": "2025-12-25"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 257.33752054794525,
+        "scale": 45.37125823185975
+      },
+      "Delhi": {
+        "center": 104.40073972602741,
+        "scale": 28.477743996948888
+      },
+      "Maharashtra": {
+        "center": 565.8824136986301,
+        "scale": 51.36399153531991
+      }
+    },
+    "seconds": 0.04890877399998317
+  },
+  {
+    "held": "Maharashtra",
+    "year": 2026,
+    "horizon": 7,
+    "mode": "rich_calendar",
+    "arm": "leave_region_out",
+    "training_states": [
+      "Karnataka",
+      "Delhi"
+    ],
+    "training": [
+      {
+        "state": "Karnataka",
+        "training_n": 724,
+        "training_target_max": "2025-12-31",
+        "training_origin_max": "2025-12-25"
+      },
+      {
+        "state": "Delhi",
+        "training_n": 724,
+        "training_target_max": "2025-12-31",
+        "training_origin_max": "2025-12-25"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 257.33752054794525,
+        "scale": 45.37125823185975
+      },
+      "Delhi": {
+        "center": 104.40073972602741,
+        "scale": 28.477743996948888
+      },
+      "Maharashtra": {
+        "center": 565.8824136986301,
+        "scale": 51.36399153531991
+      }
+    },
+    "seconds": 0.044579292000037185
+  },
+  {
+    "held": "Maharashtra",
+    "year": 2026,
+    "horizon": 7,
+    "mode": "rich_regional",
+    "arm": "local",
+    "training_states": [
+      "Maharashtra"
+    ],
+    "training": [
+      {
+        "state": "Maharashtra",
+        "training_n": 724,
+        "training_target_max": "2025-12-31",
+        "training_origin_max": "2025-12-25"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 257.33752054794525,
+        "scale": 45.37125823185975
+      },
+      "Delhi": {
+        "center": 104.40073972602741,
+        "scale": 28.477743996948888
+      },
+      "Maharashtra": {
+        "center": 565.8824136986301,
+        "scale": 51.36399153531991
+      }
+    },
+    "seconds": 0.04115574200000083
+  },
+  {
+    "held": "Maharashtra",
+    "year": 2026,
+    "horizon": 7,
+    "mode": "rich_regional",
+    "arm": "pooled_all",
+    "training_states": [
+      "Karnataka",
+      "Delhi",
+      "Maharashtra"
+    ],
+    "training": [
+      {
+        "state": "Karnataka",
+        "training_n": 724,
+        "training_target_max": "2025-12-31",
+        "training_origin_max": "2025-12-25"
+      },
+      {
+        "state": "Delhi",
+        "training_n": 724,
+        "training_target_max": "2025-12-31",
+        "training_origin_max": "2025-12-25"
+      },
+      {
+        "state": "Maharashtra",
+        "training_n": 724,
+        "training_target_max": "2025-12-31",
+        "training_origin_max": "2025-12-25"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 257.33752054794525,
+        "scale": 45.37125823185975
+      },
+      "Delhi": {
+        "center": 104.40073972602741,
+        "scale": 28.477743996948888
+      },
+      "Maharashtra": {
+        "center": 565.8824136986301,
+        "scale": 51.36399153531991
+      }
+    },
+    "seconds": 0.044572291999998015
+  },
+  {
+    "held": "Maharashtra",
+    "year": 2026,
+    "horizon": 7,
+    "mode": "rich_regional",
+    "arm": "leave_region_out",
+    "training_states": [
+      "Karnataka",
+      "Delhi"
+    ],
+    "training": [
+      {
+        "state": "Karnataka",
+        "training_n": 724,
+        "training_target_max": "2025-12-31",
+        "training_origin_max": "2025-12-25"
+      },
+      {
+        "state": "Delhi",
+        "training_n": 724,
+        "training_target_max": "2025-12-31",
+        "training_origin_max": "2025-12-25"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 257.33752054794525,
+        "scale": 45.37125823185975
+      },
+      "Delhi": {
+        "center": 104.40073972602741,
+        "scale": 28.477743996948888
+      },
+      "Maharashtra": {
+        "center": 565.8824136986301,
+        "scale": 51.36399153531991
+      }
+    },
+    "seconds": 0.03897719999997662
+  },
+  {
+    "held": "Maharashtra",
+    "year": 2026,
+    "horizon": 14,
+    "mode": "rich_calendar",
+    "arm": "local",
+    "training_states": [
+      "Maharashtra"
+    ],
+    "training": [
+      {
+        "state": "Maharashtra",
+        "training_n": 717,
+        "training_target_max": "2025-12-31",
+        "training_origin_max": "2025-12-18"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 257.33752054794525,
+        "scale": 45.37125823185975
+      },
+      "Delhi": {
+        "center": 104.40073972602741,
+        "scale": 28.477743996948888
+      },
+      "Maharashtra": {
+        "center": 565.8824136986301,
+        "scale": 51.36399153531991
+      }
+    },
+    "seconds": 0.03861370699996769
+  },
+  {
+    "held": "Maharashtra",
+    "year": 2026,
+    "horizon": 14,
+    "mode": "rich_calendar",
+    "arm": "pooled_all",
+    "training_states": [
+      "Karnataka",
+      "Delhi",
+      "Maharashtra"
+    ],
+    "training": [
+      {
+        "state": "Karnataka",
+        "training_n": 717,
+        "training_target_max": "2025-12-31",
+        "training_origin_max": "2025-12-18"
+      },
+      {
+        "state": "Delhi",
+        "training_n": 717,
+        "training_target_max": "2025-12-31",
+        "training_origin_max": "2025-12-18"
+      },
+      {
+        "state": "Maharashtra",
+        "training_n": 717,
+        "training_target_max": "2025-12-31",
+        "training_origin_max": "2025-12-18"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 257.33752054794525,
+        "scale": 45.37125823185975
+      },
+      "Delhi": {
+        "center": 104.40073972602741,
+        "scale": 28.477743996948888
+      },
+      "Maharashtra": {
+        "center": 565.8824136986301,
+        "scale": 51.36399153531991
+      }
+    },
+    "seconds": 0.043922715000007884
+  },
+  {
+    "held": "Maharashtra",
+    "year": 2026,
+    "horizon": 14,
+    "mode": "rich_calendar",
+    "arm": "leave_region_out",
+    "training_states": [
+      "Karnataka",
+      "Delhi"
+    ],
+    "training": [
+      {
+        "state": "Karnataka",
+        "training_n": 717,
+        "training_target_max": "2025-12-31",
+        "training_origin_max": "2025-12-18"
+      },
+      {
+        "state": "Delhi",
+        "training_n": 717,
+        "training_target_max": "2025-12-31",
+        "training_origin_max": "2025-12-18"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 257.33752054794525,
+        "scale": 45.37125823185975
+      },
+      "Delhi": {
+        "center": 104.40073972602741,
+        "scale": 28.477743996948888
+      },
+      "Maharashtra": {
+        "center": 565.8824136986301,
+        "scale": 51.36399153531991
+      }
+    },
+    "seconds": 0.04073552999994945
+  },
+  {
+    "held": "Maharashtra",
+    "year": 2026,
+    "horizon": 14,
+    "mode": "rich_regional",
+    "arm": "local",
+    "training_states": [
+      "Maharashtra"
+    ],
+    "training": [
+      {
+        "state": "Maharashtra",
+        "training_n": 717,
+        "training_target_max": "2025-12-31",
+        "training_origin_max": "2025-12-18"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 257.33752054794525,
+        "scale": 45.37125823185975
+      },
+      "Delhi": {
+        "center": 104.40073972602741,
+        "scale": 28.477743996948888
+      },
+      "Maharashtra": {
+        "center": 565.8824136986301,
+        "scale": 51.36399153531991
+      }
+    },
+    "seconds": 0.04083060599998589
+  },
+  {
+    "held": "Maharashtra",
+    "year": 2026,
+    "horizon": 14,
+    "mode": "rich_regional",
+    "arm": "pooled_all",
+    "training_states": [
+      "Karnataka",
+      "Delhi",
+      "Maharashtra"
+    ],
+    "training": [
+      {
+        "state": "Karnataka",
+        "training_n": 717,
+        "training_target_max": "2025-12-31",
+        "training_origin_max": "2025-12-18"
+      },
+      {
+        "state": "Delhi",
+        "training_n": 717,
+        "training_target_max": "2025-12-31",
+        "training_origin_max": "2025-12-18"
+      },
+      {
+        "state": "Maharashtra",
+        "training_n": 717,
+        "training_target_max": "2025-12-31",
+        "training_origin_max": "2025-12-18"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 257.33752054794525,
+        "scale": 45.37125823185975
+      },
+      "Delhi": {
+        "center": 104.40073972602741,
+        "scale": 28.477743996948888
+      },
+      "Maharashtra": {
+        "center": 565.8824136986301,
+        "scale": 51.36399153531991
+      }
+    },
+    "seconds": 0.038962178000019776
+  },
+  {
+    "held": "Maharashtra",
+    "year": 2026,
+    "horizon": 14,
+    "mode": "rich_regional",
+    "arm": "leave_region_out",
+    "training_states": [
+      "Karnataka",
+      "Delhi"
+    ],
+    "training": [
+      {
+        "state": "Karnataka",
+        "training_n": 717,
+        "training_target_max": "2025-12-31",
+        "training_origin_max": "2025-12-18"
+      },
+      {
+        "state": "Delhi",
+        "training_n": 717,
+        "training_target_max": "2025-12-31",
+        "training_origin_max": "2025-12-18"
+      }
+    ],
+    "normalizers": {
+      "Karnataka": {
+        "center": 257.33752054794525,
+        "scale": 45.37125823185975
+      },
+      "Delhi": {
+        "center": 104.40073972602741,
+        "scale": 28.477743996948888
+      },
+      "Maharashtra": {
+        "center": 565.8824136986301,
+        "scale": 51.36399153531991
+      }
+    },
+    "seconds": 0.04342124700002614
+  }
+]

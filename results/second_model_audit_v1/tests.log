@@ -1,0 +1,6 @@
+test_inputs_exclude_all_unseen_targets (__main__.FoundationInputChecks.test_inputs_exclude_all_unseen_targets) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.079s
+
+OK

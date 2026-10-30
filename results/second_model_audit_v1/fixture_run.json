@@ -1,0 +1,23 @@
+{
+  "tasks": 18,
+  "forecast_days": 252,
+  "quantile_values": 2268,
+  "seconds": 32.186841114,
+  "native_adjacent_quantile_crossings": 0,
+  "packages": {
+    "torch": "2.15.0+cpu",
+    "timesfm": "3.0.2",
+    "numpy": "2.3.5",
+    "huggingface-hub": "2.4.0",
+    "safetensors": "0.8.0"
+  },
+  "code_revision": "e51928e27119cb17bebc005be2696b75e0a9e688",
+  "weight_revision": "43046b85ec22d584a13f8098c2ed39c889e129c2",
+  "weight_sha256": "a7592b0a8432baee54483254e5647856911ce69e09d09a9bb65904b2d98f17da",
+  "hashes": {
+    "src/timesfm_fixture.py": "bf4ec7d0ce09c241b0d463470e68149418e50705503823a2b023b60c847cfd6f",
+    "results/second_model_audit_v1/fixture_protocol.json": "94cc054a0a5c45fa4ed91a1c02c7ba46ab0f88f78f12a0683dd93ccafbc8b1ef",
+    "data/external/latest_state_energy_GWh.csv": "74d22d5e85b022db13d97dad7c84dca5b9dc8e38d23570bf095d870e71a2f690"
+  },
+  "warning": "Small fixed API fixture; no broad superiority, festival or clean final-test claim"
+}

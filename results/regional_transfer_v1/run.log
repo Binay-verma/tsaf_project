@@ -1,0 +1,30 @@
+Completed transfer Karnataka 2024
+Completed transfer Karnataka 2025
+Completed transfer Karnataka 2026
+Completed transfer Delhi 2024
+Completed transfer Delhi 2025
+Completed transfer Delhi 2026
+Completed transfer Maharashtra 2024
+Completed transfer Maharashtra 2025
+Completed transfer Maharashtra 2026
+{
+  "rows": 53622,
+  "fits": 162,
+  "seconds": 9.595731496999974,
+  "checks": {
+    "scored_rows": 53622,
+    "cases_per_configuration": 8937,
+    "checks": [
+      "finite/unique predictions",
+      "matched cases",
+      "source labels",
+      "lead/date alignment"
+    ]
+  },
+  "hashes": {
+    "src/regional_transfer.py": "e281437cd97aaaed1eaf376471332e7350e03857631b24d26dc493cb51059d46",
+    "src/robust_baselines.py": "568152c6351826389ae8248fe50fe5bcde5f8db82dfe715c691d6a5f63bca88c",
+    "results/regional_transfer_v1/protocol.json": "55cfc21d1b6cfa1a3f64de9e403822a348282ed226e0ae1d31cd3df89e0fe052",
+    "data/external/latest_state_energy_GWh.csv": "74d22d5e85b022db13d97dad7c84dca5b9dc8e38d23570bf095d870e71a2f690"
+  }
+}

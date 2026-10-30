@@ -1,0 +1,16 @@
+{
+  "issued_utc": "2026-10-30T05:35:15.929383+00:00",
+  "rows": 252,
+  "eligible_rows": 216,
+  "eligible_start": "2026-10-31",
+  "eligible_end": "2026-11-11",
+  "selection_fits": 462,
+  "deployment_fits": 84,
+  "source_sha256": "74d22d5e85b022db13d97dad7c84dca5b9dc8e38d23570bf095d870e71a2f690",
+  "code_sha256": "eceb93a3ef126fb335c7c7925eceb8d8a619eef3a6afc8289473ed29df3507c2",
+  "protocol_sha256": "8abe04c1be21ca9b410df2038994e6e93fb5a03787a0e47eb0c5258f311523fa",
+  "predictions_sha256": "ad084279882ffd3a65e290541f1e6cd5771cb4eb09d5f01ac84b694756eaf663",
+  "weight_sha256": "a7592b0a8432baee54483254e5647856911ce69e09d09a9bb65904b2d98f17da",
+  "outcomes_fetched": false,
+  "scores_status": "pending future observations"
+}

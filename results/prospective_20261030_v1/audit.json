@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "rows": 252,
+  "prospective_eligible_rows": 216,
+  "selection_fits": 462,
+  "deployment_fits": 84,
+  "checks": [
+    "pre-2026 selection minima and purge",
+    "pre-Oct1 deployment labels",
+    "known leads reproduce baseline parameter selections",
+    "finite unique predictions",
+    "eligibility excludes issue/past target dates",
+    "forecast hash matches frozen record"
+  ],
+  "outcome_scores": "not available; no future observations acquired"
+}

@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "rows": 107244,
+  "exact_matched_chronos_cases": 8937,
+  "checks": [
+    "source labels",
+    "fixed pre-year scales",
+    "unique finite predictions",
+    "lead/date alignment",
+    "saved MASE reconstructed",
+    "past-only fit/selection bounds",
+    "training identities and schedules"
+  ]
+}

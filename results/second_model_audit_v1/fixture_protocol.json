@@ -1,0 +1,56 @@
+{
+  "experiment": "timesfm3_api_fixture_v1",
+  "created_utc": "2026-10-30T05:28:53.843314+00:00",
+  "status": "Fixed API/evidence fixture and small descriptive comparison; NOT broad model replication, final confirmation or festival test",
+  "code_revision": "e51928e27119cb17bebc005be2696b75e0a9e688",
+  "model": "google/timesfm-3.0-pytorch",
+  "weight_revision": "43046b85ec22d584a13f8098c2ed39c889e129c2",
+  "expected_sha256": "a7592b0a8432baee54483254e5647856911ce69e09d09a9bb65904b2d98f17da",
+  "device": "cpu",
+  "torch_threads": 2,
+  "per_core_batch_size": 1,
+  "context_days": 730,
+  "prediction_length": 14,
+  "states": [
+    "Karnataka",
+    "Delhi",
+    "Maharashtra"
+  ],
+  "origins": [
+    "2026-09-01",
+    "2026-10-01"
+  ],
+  "modes": [
+    "history",
+    "calendar",
+    "regional"
+  ],
+  "point_leads": [
+    1,
+    7,
+    14
+  ],
+  "native_quantiles": [
+    0.1,
+    0.2,
+    0.3,
+    0.4,
+    0.5,
+    0.6,
+    0.7,
+    0.8,
+    0.9
+  ],
+  "symmetric_averaging": false,
+  "covariates": "same ordinary calendar and 7 documented regional channels as existing features, over past context and future horizon; no future target values are supplied",
+  "weights": "noncommercial academic research only; never commit downloaded weights or vendor package to project Git history",
+  "evaluation": "All 18 tasks fixed before outcomes. Save native quantiles and any crossing; no output sorting/clipping to improve scores. Exact matched history-only Chronos cases may be compared descriptively. No festival outcomes occur at these origins.",
+  "checks": [
+    "actual weight SHA256 match current and earliest weight object",
+    "finite forecasts, documented API shapes",
+    "future-target-perturbation does not alter constructed inputs",
+    "future-known covariate API accepted",
+    "native 80% interval coverage/pinball saved as descriptive fixture only"
+  ],
+  "failure_policy": "Record failures, do not silently shorten context/change settings. Inspect actual compatibility/resource errors; version any material experiment change."
+}

@@ -1,0 +1,8 @@
+test_all_origin_features_ignore_future_targets (__main__.RichBaselineChecks.test_all_origin_features_ignore_future_targets) ... ok
+test_label_purge_and_missing_fit_labels (__main__.RichBaselineChecks.test_label_purge_and_missing_fit_labels) ... ok
+test_target_aligned_annual_lag (__main__.RichBaselineChecks.test_target_aligned_annual_lag) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.237s
+
+OK

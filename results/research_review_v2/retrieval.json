@@ -1,0 +1,43 @@
+{
+  "utc": "2026-10-30T05:31:01.226351+00:00",
+  "requests": [
+    {
+      "name": "calendar_primary",
+      "url": "https://arxiv.org/html/2610.13676v1",
+      "status": 200,
+      "file": "calendar_primary.html",
+      "sha256": "e36b98ea65317423a6e5702a0f48860a3240fe5963ab48a68605f37aa4a63263"
+    },
+    {
+      "name": "overlap_primary",
+      "url": "https://arxiv.org/abs/2510.13654",
+      "status": 200,
+      "file": "overlap_primary.html",
+      "sha256": "5be3ea41ce05ebb5fed315730f70aa047b6a1b8bb01a706b8d7200ae761dd0ec"
+    },
+    {
+      "name": "load_covariates_primary",
+      "url": "https://arxiv.org/abs/2610.07232",
+      "status": 200,
+      "file": "load_covariates_primary.html",
+      "sha256": "bb49b7e10c2488c66682aaba49248712925d4d92cef5723124ced3190d3b0d91"
+    },
+    {
+      "name": "event_covariates_primary",
+      "url": "https://www.amazon.science/publications/impact-driven-event-covariates-for-time-series-foundation-models",
+      "status": 200,
+      "file": "event_covariates_primary.html",
+      "sha256": "f5e0087155e792f4752748b386e389939d7163cd18beb550cdd65becf9621538"
+    },
+    {
+      "name": "source_repository",
+      "url": "https://api.github.com/repos/robbieandrew/india",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "name": "source_root",
+      "url": "https://api.github.com/repos/robbieandrew/india/contents/",
+      "error": "HTTP Error 404: Not Found"
+    }
+  ]
+}

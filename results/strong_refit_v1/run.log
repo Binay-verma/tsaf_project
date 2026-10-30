@@ -1,0 +1,40 @@
+Completed rich refits Karnataka 2024
+Completed rich refits Karnataka 2025
+Completed rich refits Karnataka 2026
+Completed rich refits Delhi 2024
+Completed rich refits Delhi 2025
+Completed rich refits Delhi 2026
+Completed rich refits Maharashtra 2024
+Completed rich refits Maharashtra 2025
+Completed rich refits Maharashtra 2026
+{
+  "seconds": 288.23080573499993,
+  "rows": 107244,
+  "selection_fits": 891,
+  "deployment_fits": 1998,
+  "selected": 162,
+  "failures": [],
+  "checks": {
+    "scored_rows": 107244,
+    "cases_per_configuration": 8937,
+    "checks": [
+      "finite/unique predictions",
+      "matched cases",
+      "source labels",
+      "lead/date alignment"
+    ]
+  },
+  "packages": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scikit-learn": "1.8.0",
+    "lightgbm": "4.7.0"
+  },
+  "hashes": {
+    "src/robust_baselines.py": "568152c6351826389ae8248fe50fe5bcde5f8db82dfe715c691d6a5f63bca88c",
+    "src/forecasting.py": "8a6b9b1e8632a2bf77d9855a1d370ed23c350ffe731138787e30c609a59ec21e",
+    "src/extended_validation.py": "2312ef9ef5f78ad8bf47b47999576cd0875c7ba3adca53acfb5434b83b2f8218",
+    "results/strong_refit_v1/protocol.json": "e0c7d8532de5faf31d16c6d8552e78ecc7f60eedfc3c977f0f93990ad8d37324",
+    "data/external/latest_state_energy_GWh.csv": "74d22d5e85b022db13d97dad7c84dca5b9dc8e38d23570bf095d870e71a2f690"
+  }
+}

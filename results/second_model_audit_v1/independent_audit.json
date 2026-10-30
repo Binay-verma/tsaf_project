@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "first_weight_upload": "2026-08-24T22:41:42Z",
+  "same_first_and_evaluated_weights": true,
+  "sha256": "a7592b0a8432baee54483254e5647856911ce69e09d09a9bb65904b2d98f17da",
+  "fixture_forecast_days": 252,
+  "warning": "API fixture, not broad model replication"
+}

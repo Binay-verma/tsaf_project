@@ -1,0 +1,44 @@
+{
+  "experiment": "prospective_20261030_v1",
+  "protocol_utc": "2026-10-30T05:35:13.249553+00:00",
+  "status": "Protocol saved before forecasting; no future outcome retrieval. GitHub push before target dates provides an externally visible freeze. Scores remain pending.",
+  "context_snapshot": "data/external/latest_state_energy_GWh.csv",
+  "context_sha256": "74d22d5e85b022db13d97dad7c84dca5b9dc8e38d23570bf095d870e71a2f690",
+  "context_last_observation": "2026-10-28",
+  "first_unseen_origin": "2026-10-29",
+  "forecast_targets": [
+    "2026-10-29",
+    "2026-11-11"
+  ],
+  "prospective_eligible_targets": [
+    "2026-10-31",
+    "2026-11-11"
+  ],
+  "eligibility": "Only full daily targets strictly after the UTC issue date. Oct29/30 are archived but excluded from prospective scores. Forecast issue time differs from first-unseen origin; missing Oct29/30 context is an explicit data-lag limitation.",
+  "states": [
+    "Karnataka",
+    "Delhi",
+    "Maharashtra"
+  ],
+  "configurations": [
+    "timesfm3_history",
+    "timesfm3_calendar",
+    "ridge_rich_calendar_monthly",
+    "lightgbm_rich_calendar_monthly",
+    "last_value",
+    "weekly_repeat"
+  ],
+  "foundation_model": "Exactly the TimesFM3 code/weight revision, verified SHA and settings in second_model_audit_v1; context730, CPU, native .1-.9 quantiles, no symmetry averaging",
+  "local_models": "Same rich feature definition and grids as strong_refit_v1; for EACH lead1..14 choose parameters with the same pre-2026 180-day validation/purge; fit at Oct1 using preceding730 days with training labels through Sep30, and use daily causal history through Oct28 at Oct29 origin. No tuning on any 2026 error.",
+  "calendar": "Ordinary weekday and annual harmonic features only. No unverified 2026 regional holiday inputs. Festival-specific subgroup analysis is secondary and conditional on independently verified 2026 event definitions; primary prospective scoring uses all eligible dates.",
+  "primary_metric": "Mean state MAE divided by fixed pre-2026 730-day observed weekly-difference scale on identical eligible recorded targets; all six fixed configurations, no selected winner claim",
+  "probabilistic": "TimesFM3 native .1-.9 pinball/80%coverage/width on eligible targets; no calibration to these future outcomes",
+  "limits": [
+    "One forecast episode, correlated states and neighbouring days; weak generalisation evidence",
+    "Same source as historical work, not independent source replication",
+    "Source revisions/imputation/publication lag not reconstructed",
+    "Historical method design exploratory; prospective outcomes alone not whole study confirmation",
+    "No scores or acceptance claims until outcomes acquired after dates with source hashes and retrieval timestamps"
+  ],
+  "freeze_policy": "Preserve protocol, predictions, issue timestamp and file hashes. Do not overwrite forecasts or choose feature/parameter settings after outcomes. Push immutable Git commit now, score later into a new directory with an actual-source audit."
+}
