@@ -21,7 +21,7 @@ Current sequence:
 | Recentered window/weekday controls |648newlocalrows complete/audited; fullfoundation/pure additions queued|Samecorrected528cases fororiginal/aligned features; restoredweekdayplacebo; separateaudit|
 | Independent NYC holiday replication |4,032local+252naive complete/audited; complete isolated rerun byte-identical,72validationMAEs identical; both foundations queued|Newprotocol before target acquisition; two2026events/two relatedmodes, not twoindependentcities|
 | Focused manuscript |Builder waits for completed/audited breadth; integrate later registered evidence in a new version|Readable MD/DOCX/PDF, verified numbers/figures and current claims|
-| Future rolling confirmation |Plan/contract only; not activated; old future freeze has no Chronos/festival-feature test|Dated ledger and full capture/runner/scorer/time guards before future issuances; later observations required|
+| Future rolling confirmation |Manual rolling plan not activated; separate Chronos competitor protocol registered, not issued; festival-feature confirmation still absent|Dated ledger and full capture/runner/scorer/time guards before future issuances; later observations required|
 | Named-calendar semantic correction |KA2025Dussehra mismatch found by document review; old results preserved; v2locals1,200freshrows audited; foundations queued; all58semanticreview retains1mismatch/1evidencegap|Same-case document-aligned sensitivity; no error-selected dates|
 | Source rights, calendar amendments, independent review |Open external/provenance gates|Actual authoritative evidence or human review, not another model fit|
 

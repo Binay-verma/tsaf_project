@@ -1,0 +1,65 @@
+{
+  "created_utc": "2026-10-30T22:03:46.091454+00:00",
+  "status": "Newcompetitor registered before its predictions or any futurelabels. Historicalcomparisons alreadyinspected; not a retrospectively untouched method claim.",
+  "configurations": [
+    "chronos2_history",
+    "chronos2_calendar"
+  ],
+  "states": [
+    "Karnataka",
+    "Delhi",
+    "Maharashtra"
+  ],
+  "context_snapshot": "data/external/latest_state_energy_GWh.csv",
+  "context_sha256": "74d22d5e85b022db13d97dad7c84dca5b9dc8e38d23570bf095d870e71a2f690",
+  "context_last_observation": "2026-10-28",
+  "first_unseen_origin": "2026-10-29",
+  "model_steps": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "targets": [
+    "2026-10-29",
+    "2026-11-11"
+  ],
+  "first_eligible": "2026-11-01",
+  "last_eligible": "2026-11-11",
+  "expected_rows": 84,
+  "expected_eligible_rows": 66,
+  "expected_common_parent_rows": 198,
+  "eligibility": "Actualcompletion and firstpubliccommit must precede1November00:00India. Issue31OctoberIndia only; fullNov1\u201311targets. Modelsteps4\u201314 under sameoldcontext asparent; no assumption ofequalissuance times orreal-timelead1.",
+  "input": "Same730recorded/causallyfilled past target days and ordinary13weekday/annualharmonic channels asoriginalTimesFM. No named2026festivalflags or guessedcalendar. Allfuturetargets NaN; perturb at/afterorigin and verifyinputbytes. No datarefresh.",
+  "foundation": "Exactly pinnedChronos2 revision29ec3766d36d6f73f0696f85560a422f50e8498c/actualweightddcda3c7508bf2528087723e98a20707cc04b7f370ae275a9fd88078ddba4f42. CPU2threads/seed42/context730/h14/batch3states/cross_learningFalse/pipelinebatch128. No finetuning orerror-selectedsettings.",
+  "points": "Use nativeChronosmedian; retainall21nativequantiles/crossings, common.1\u2013.9forpairedprobabilityscores. Batchversussoloall6tasks checked withunchangedhistoricalrtol2e-4/atol1e-3GWh; norepair.",
+  "parent_comparison": "Reuseunchangedall6parentconfigurations onexactcommonNov1\u201311states/dates/modelsteps4\u201314. Eighttotalconfigs/264pointrows,4foundationconfigs/132nativecommonquantilecases. Differentactualissuances butidenticalsource/context/forecaststeps; not twoindependentepisodes.",
+  "scoring": "Onlyafter11NovemberendsUTC; use SAMEcompletedfirstoriginalactualcollection/vintage, no alternativecapture. Fixedpre2026weeklyscale fromoriginal. State/date/step pointMAE/MASE and equalstatemeans; unchangednativecommonquantiles meanpinball/80coverage/width/WISmedian, invalidendpoints propagateundefined. Allconfigs, no winnerdeployment/retuning/rowindependenttests.",
+  "guards": "Freeze completedpredictions/timestamps/inputbytes/actualweights/protocol/sourcehashes, then normalpublicpush beforefirsteligibleIndia-day. No overwrite ofoldfuture/annex, no workflowactivation orautoactualfetch.",
+  "limitations": "Oneadditionalcompetitor in SAMEsource/episode/stalecontext, not independentyear/source or a prospectivefestival-featuretest. Oldfloat64tree remainsasissued. Calendaramendments/Indianreuse/humanreview/proxyexposure/futureoutcomes remain separategates.",
+  "source_hashes": {
+    "src/freeze_chronos_competitor.py": "319de076f58d864b5fa96d4844e9b9fa96cfaf6d07c7f21c9ffc47ee69400aee",
+    "src/score_chronos_competitor.py": "a6b165c4635d1854d3eeeb2460e8af7b7af867811b9b3a8e9fd66b5089b4fa20",
+    "src/audit_chronos_competitor.py": "0d92029bfe4fd376b1280cb4ade58928428ca4a816e07a105f71af3cbc3b4476",
+    "src/test_chronos_competitor.py": "bebd5e4848c7d835554a597651405a00a678d6ac289b92dd1be71cb209e7100b",
+    "src/run_chronos_competitor_after_mta.py": "1a44985c3dba115411aebe40793abf2cd5a19d9f943a17aa81543f4b6018c92a",
+    "src/timesfm_fixture.py": "bf4ec7d0ce09c241b0d463470e68149418e50705503823a2b023b60c847cfd6f",
+    "src/extended_validation.py": "2312ef9ef5f78ad8bf47b47999576cd0875c7ba3adca53acfb5434b83b2f8218",
+    "src/forecasting.py": "8a6b9b1e8632a2bf77d9855a1d370ed23c350ffe731138787e30c609a59ec21e",
+    "results/mechanism_controls_v1/chronos_download.json": "b7bc0b9b2f018de37b60148e226546dd15e47965efdc246f500062721f3f3c15",
+    "results/prospective_20261030_v1/protocol.json": "8abe04c1be21ca9b410df2038994e6e93fb5a03787a0e47eb0c5258f311523fa",
+    "results/prospective_20261030_v1/predictions.csv": "ad084279882ffd3a65e290541f1e6cd5771cb4eb09d5f01ac84b694756eaf663",
+    "results/prospective_20261030_v1/freeze.json": "b9700bbfba85e6ee8981a10576d35ba5d8a5c05d88d454815065404d2d5e712d",
+    "data/external/latest_state_energy_GWh.csv": "74d22d5e85b022db13d97dad7c84dca5b9dc8e38d23570bf095d870e71a2f690"
+  }
+}
