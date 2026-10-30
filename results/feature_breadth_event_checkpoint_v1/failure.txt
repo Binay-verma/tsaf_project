@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/workspace/tsaf_project/src/report_complete_breadth_event.py", line 75, in run
+    subprocess.run([sys.executable, '-c', code], cwd=ROOT,
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/workspace/tsaf_project/.venv/bin/python', '-c', 'import sys;sys.path.insert(0,"src");import audit_breadth_study as m;from pathlib import Path;m.OUT=Path(\'/workspace/tsaf_project/results/feature_breadth_event_checkpoint_v1\');m.main()']' returned non-zero exit status 1.

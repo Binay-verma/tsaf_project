@@ -1,0 +1,65 @@
+{
+  "created_utc": "2026-10-30T17:30:50.425501+00:00",
+  "cohorts": {
+    "event_window": "705c32713d427739ed872fb4dcaa7747393cb04f4f14562490554ac137af8a1b"
+  },
+  "models": [
+    "ridge",
+    "lightgbm",
+    "lightgbm_capacity2",
+    "sarimax",
+    "chronos",
+    "timesfm"
+  ],
+  "arms": [
+    "calendar",
+    "zero5",
+    "day5",
+    "pooled_day5",
+    "window5",
+    "pooled_window5",
+    "placebo_day5",
+    "placebo_window5"
+  ],
+  "planned_rows": 25344,
+  "primary_contrasts": [
+    [
+      "day5",
+      "pooled_day5"
+    ],
+    [
+      "window5",
+      "pooled_window5"
+    ]
+  ],
+  "control_contrasts": [
+    [
+      "day5",
+      "zero5"
+    ],
+    [
+      "window5",
+      "zero5"
+    ],
+    [
+      "day5",
+      "placebo_day5"
+    ],
+    [
+      "window5",
+      "placebo_window5"
+    ],
+    [
+      "pooled_day5",
+      "zero5"
+    ],
+    [
+      "pooled_window5",
+      "zero5"
+    ]
+  ],
+  "inference": "Descriptive paired event/state/year cells and both-year/leave-family-out sensitivity. No independent-row significance tests or bootstrap claim of many independent years.",
+  "note": "No new model outputs existed when this registration was created. Future freezes untouched.",
+  "derived_report_scope": "Complete event cohort only; original fullstudy continues",
+  "parent_registration_sha256": "88dc5eb2aa9dab7a70325e615e3dbafd718eac55ce1b38bcc905dd428cae2a14"
+}

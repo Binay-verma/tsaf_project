@@ -1,0 +1,14 @@
+{
+  "status": "completed",
+  "completed_utc": "2026-10-30T21:43:09.249884+00:00",
+  "registration_sha256": "235b0f7de4d40403494840120a1d35128402ca6079c3ef5c804a0b4223529073",
+  "cohorts": {
+    "event_window": {
+      "rows": 25344,
+      "cases_per_arm": 528,
+      "invalid80": 0,
+      "common_crossing_pairs": 0,
+      "predictions_sha256": "253eda901ee9dc6ac2665845b4f8cce1a6dca1add623f9bb9e8cacdb2eebe9df"
+    }
+  }
+}

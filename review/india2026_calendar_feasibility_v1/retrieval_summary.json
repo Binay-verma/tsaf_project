@@ -1,0 +1,171 @@
+[
+  {
+    "record": "DL_general_retrieval.json",
+    "url": "https://delhi.gov.in/page/holiday-list",
+    "utc": "2026-10-30T21:28:58.747546+00:00",
+    "error": "<HTTPError 503: 'Service Unavailable'>"
+  },
+  {
+    "record": "DL_services_retrieval.json",
+    "url": "https://services.delhi.gov.in/services/holidays",
+    "utc": "2026-10-30T21:36:23.751433+00:00",
+    "error": "<HTTPError 503: 'Service Unavailable'>"
+  },
+  {
+    "record": "Delhi2026_retrieval.json",
+    "url": "https://wcd.delhi.gov.in/sites/default/files/WCD/generic_multiple_files/holiday_list_2026.pdf",
+    "error": "<HTTPError 503: 'Service Unavailable'>",
+    "observed_utc": "2026-10-30T21:17:00.830862+00:00"
+  },
+  {
+    "record": "KA_CAG_retrieval.json",
+    "url": "https://cag.gov.in/ae/karnataka-i/en",
+    "utc": "2026-10-30T21:28:58.734899+00:00",
+    "error": "URLError(OSError('Tunnel connection failed: 403 Forbidden'))"
+  },
+  {
+    "record": "KA_secondary_retrieval.json",
+    "url": "https://www.karnataka.com/govt/karnataka-government-holidays-2026/",
+    "utc": "2026-10-30T21:28:58.730833+00:00",
+    "status": 200,
+    "final_url": "https://www.karnataka.com/govt/karnataka-government-holidays-2026/",
+    "sha256": "b6771d119270c8191e216f47848cb2a33893b3cde4ff4fce82174b67b70f16c5"
+  },
+  {
+    "record": "KA_simpliance_retrieval.json",
+    "url": "https://www.simpliance.in/holiday-list/karnataka",
+    "utc": "2026-10-30T21:36:23.735961+00:00",
+    "status": 200,
+    "final_url": "https://www.simpliance.in/India/LEI/holiday_list/karnataka/2025",
+    "sha256": "ff097e7fa2478b570d5e33029a37d8b7c94368993956bcec59ac5311c94ba10b"
+  },
+  {
+    "record": "Karnataka_index_retrieval.json",
+    "url": "https://cag.gov.in/ae/karnataka/en/page-ae-karnataka-holiday-list",
+    "error": "<HTTPError 404: 'Not Found'>",
+    "observed_utc": "2026-10-30T21:16:56.679319+00:00"
+  },
+  {
+    "record": "MH_gad_document_retrieval.json",
+    "url": "https://gad.maharashtra.gov.in/en/document/public-holidays-2026/",
+    "utc": "2026-10-30T21:36:23.743001+00:00",
+    "error": "<HTTPError 404: 'Not Found'>"
+  },
+  {
+    "record": "MH_gad_retrieval.json",
+    "url": "https://gad.maharashtra.gov.in/en/document-category/holidays/",
+    "utc": "2026-10-30T21:36:23.738784+00:00",
+    "error": "<HTTPError 404: 'Not Found'>"
+  },
+  {
+    "record": "MH_general_retrieval.json",
+    "url": "https://maharashtra.gov.in/en/holidays/",
+    "utc": "2026-10-30T21:28:58.735709+00:00",
+    "status": 200,
+    "final_url": "https://maharashtra.gov.in/App_ErrorPage/AppError",
+    "sha256": "961427544ba65ceeaaaecac8a0373505df90aef6838b11a0e427aad16fa84a1f"
+  },
+  {
+    "record": "Maharashtra2022_archive_retrieval.json",
+    "url": "https://web.archive.org/cdx/search/cdx?url=www.maharashtra.gov.in/site/Upload/pdf/Public_Holidays_2022.pdf&output=json&filter=statuscode:200&collapse=digest&limit=4",
+    "status": 200,
+    "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "bytes": 3,
+    "retrieved_utc": "2026-10-30T21:16:55.507181+00:00"
+  },
+  {
+    "record": "Maharashtra2026_retrieval.json",
+    "url": "https://www.maharashtra.gov.in/site/Upload/pdf/Maharashtra_Holiday_2026.pdf",
+    "error": "<HTTPError 503: 'Service Unavailable'>",
+    "observed_utc": "2026-10-30T21:17:00.322440+00:00"
+  },
+  {
+    "record": "delhi-holidays-list-for-the-year-2026_retrieval.json",
+    "url": "https://www.greythr.com/notifications/delhi-holidays-list-for-the-year-2026/",
+    "utc": "2026-10-30T21:48:18.658857+00:00",
+    "error": "<HTTPError 404: 'Not Found'>"
+  },
+  {
+    "record": "delhi-state-list-of-holidays-2026_retrieval.json",
+    "url": "https://www.greythr.com/notifications/delhi-state-list-of-holidays-2026/",
+    "utc": "2026-10-30T21:46:33.081086+00:00",
+    "error": "<HTTPError 404: 'Not Found'>"
+  },
+  {
+    "record": "delhi_greythr_2026_retrieval.json",
+    "url": "https://www.greythr.com/wiki/acts/st-delhi/holidays/2026/",
+    "retrieved_utc": "2026-10-30T21:51:58.241487+00:00",
+    "status": 200,
+    "final_url": "https://www.greythr.com/wiki/acts/st-delhi/holidays/2026/",
+    "sha256": "388e9ba1c438a8007696be35ad20b5df740cd78b2e6d9ae54be193731ed564c5",
+    "pdfs": []
+  },
+  {
+    "record": "greythr2026.html_retrieval.json",
+    "url": "https://www.greythr.com/holidays-list-2026/",
+    "retrieved_utc": "2026-10-30T21:49:49.722067+00:00",
+    "status": 200,
+    "final_url": "https://www.greythr.com/holidays-list-2026/",
+    "sha256": "81cd1e49d5d77f17cc3c643c24365d451b18bcc9f69c30673befb6d69949673d"
+  },
+  {
+    "record": "greythr_sitemap.xml_retrieval.json",
+    "url": "https://www.greythr.com/sitemap-index.xml",
+    "retrieved_utc": "2026-10-30T21:49:49.726816+00:00",
+    "error": "<HTTPError 404: 'Not Found'>"
+  },
+  {
+    "record": "karnataka-holidays-list-for-the-year-2026_retrieval.json",
+    "url": "https://www.greythr.com/notifications/karnataka-holidays-list-for-the-year-2026/",
+    "utc": "2026-10-30T21:48:18.654594+00:00",
+    "error": "<HTTPError 404: 'Not Found'>"
+  },
+  {
+    "record": "karnataka-state-list-of-holidays-2026_retrieval.json",
+    "url": "https://www.greythr.com/notifications/karnataka-state-list-of-holidays-2026/",
+    "utc": "2026-10-30T21:46:33.080600+00:00",
+    "error": "<HTTPError 404: 'Not Found'>"
+  },
+  {
+    "record": "karnataka_greythr_2026_retrieval.json",
+    "url": "https://www.greythr.com/wiki/acts/st-karnataka/holidays/2026/",
+    "retrieved_utc": "2026-10-30T21:51:58.242768+00:00",
+    "status": 200,
+    "final_url": "https://www.greythr.com/wiki/acts/st-karnataka/holidays/2026/",
+    "sha256": "1a04fd9a5a9572f3ccfd0581bf66bc8c8555e212591ee3265f82b1619e257d96",
+    "pdfs": []
+  },
+  {
+    "record": "maharashtra-holidays-list-for-the-year-2022_retrieval.json",
+    "url": "https://www.greythr.com/notifications/maharashtra-holidays-list-for-the-year-2022/",
+    "utc": "2026-10-30T21:48:18.646816+00:00",
+    "error": "<HTTPError 404: 'Not Found'>"
+  },
+  {
+    "record": "maharashtra-holidays-list-for-the-year-2026_retrieval.json",
+    "url": "https://www.greythr.com/notifications/maharashtra-holidays-list-for-the-year-2026/",
+    "utc": "2026-10-30T21:48:18.643261+00:00",
+    "error": "<HTTPError 404: 'Not Found'>"
+  },
+  {
+    "record": "maharashtra-state-list-of-holidays-2022_retrieval.json",
+    "url": "https://www.greythr.com/notifications/maharashtra-state-list-of-holidays-2022/",
+    "utc": "2026-10-30T21:46:33.080033+00:00",
+    "error": "<HTTPError 404: 'Not Found'>"
+  },
+  {
+    "record": "maharashtra-state-list-of-holidays-2026_retrieval.json",
+    "url": "https://www.greythr.com/notifications/maharashtra-state-list-of-holidays-2026/",
+    "utc": "2026-10-30T21:46:33.078884+00:00",
+    "error": "<HTTPError 404: 'Not Found'>"
+  },
+  {
+    "record": "maharashtra_greythr_2026_retrieval.json",
+    "url": "https://www.greythr.com/wiki/acts/st-maharashtra/holidays/2026/",
+    "retrieved_utc": "2026-10-30T21:51:58.246901+00:00",
+    "status": 200,
+    "final_url": "https://www.greythr.com/wiki/acts/st-maharashtra/holidays/2026/",
+    "sha256": "161a2219c48f6f4cee8488eab7f393247c29b98a6e1f08cc4f0e9c9e1665d37d",
+    "pdfs": []
+  }
+]

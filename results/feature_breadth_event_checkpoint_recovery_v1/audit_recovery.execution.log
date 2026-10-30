@@ -1,0 +1,47 @@
+{
+  "status": "pass",
+  "scope": "Internal separately implemented scalar/calendar/NumPy reconstruction; not external human review or full independent model rerun.",
+  "protected_prior_files": 1023,
+  "cohorts": {
+    "event_window": {
+      "rows": 25344,
+      "cases_per_arm": 528,
+      "workers": {
+        "chronos": {
+          "reconstructed_input_tasks": 3760,
+          "native_crossing_pairs": 42,
+          "max_solo_difference_GWh": 1.52587890625e-05
+        },
+        "timesfm": {
+          "reconstructed_input_tasks": 3760,
+          "native_crossing_pairs": 0,
+          "max_solo_difference_GWh": 0.0
+        },
+        "ridge": {
+          "fits": 576,
+          "same_selected_budgets": true,
+          "training_label_bytes_exact": true,
+          "support_reconstructed": true
+        },
+        "lightgbm": {
+          "fits": 576,
+          "same_selected_budgets": true,
+          "training_label_bytes_exact": true,
+          "support_reconstructed": true
+        },
+        "lightgbm_capacity2": {
+          "fits": 576,
+          "same_selected_budgets": true,
+          "training_label_bytes_exact": true,
+          "support_reconstructed": true
+        },
+        "sarimax": {
+          "converged_fits": 48,
+          "attempts": 52,
+          "unsuccessful_attempts_retained": 4
+        }
+      }
+    }
+  },
+  "native_crossing_pairs": 42
+}

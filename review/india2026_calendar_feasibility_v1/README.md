@@ -1,0 +1,5 @@
+# Bounded 2026 calendar-source feasibility check
+
+This records retrieval status and hashes, not a verified 2026 feature ledger. Initial Delhi/Maharashtra government URLs returned503, the candidate Karnataka page404/403, and several secondary notification URLs404. Search pages presented challenges; none were bypassed. A public secondary Karnataka page contains inconsistent weekday labels (21September2026 is Monday, not its printedSunday;1November isSunday, notSaturday). Its dates are not adopted as authoritative inputs.
+
+The accessible greytHR2026 index supplies actual state-page links; these are now being checked for government-authored PDFs. A secondary host is not a government publisher. Before any future festival-feature issuance, verify document authorship, year, named family/date, category, visible issue timing and weekend notes; retain scope and amendment limits. No dates are guessed, future outcomes retrieved, old forecasts changed or workflow activated by this lookup. An internal audit is not human certification.

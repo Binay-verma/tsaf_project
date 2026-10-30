@@ -1,0 +1,10 @@
+{
+  "status": "complete_event_cohort_audited",
+  "completed_utc": "2026-10-30T21:45:26.440005+00:00",
+  "new_forecasts": 0,
+  "reused_forecasts": 25344,
+  "byte_identical_scientific_csvs": 32,
+  "original_failure_retained": true,
+  "all_protected_files_restored": true,
+  "ordinary_or_corrected_results_included": false
+}

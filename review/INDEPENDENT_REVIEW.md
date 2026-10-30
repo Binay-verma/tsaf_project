@@ -23,15 +23,7 @@ Author/requester: **Binay Verma**. This does not fill the independent reviewer i
 - Current results and open gates in `CURRENT_RESEARCH_STATUS.md`.
 - Working manuscript and `manuscript/SUBMISSION_GATES.md`.
 - `PHASE2_REPRODUCTION.md`, package pins and current checkpoint checksum manifest.
-- Source permission draft in `review/SOURCE_PERMISSION_REQUEST.md`; the author reports sending the email manually. No assistant duplicate or permission reply is inferred.
-
-## Latest evidence to examine (31 October 2026 India time)
-
-- Start with CODEX_HANDOFF.md and the current named-protocol matrix. Some foundation extensions remain active; no review of unavailable results is implied.
-- Review `review/used_calendar_v4`: the Karnataka2025 Vijayadasami1October/Gandhi2October mismatch was real, while Maharashtra2022 GudiPadwa remains an evidence gap. Compare flag-only and recentered/weekday-control amendments separately; do not attribute cohort changes solely to features.
-- Review `MTA_HOLIDAY_REPLICATION_BRIEF.md` and exact pre-acquisition registration: two NYC occurrences/two related modes, million rides, decision1/7/14→model8/14/21, revised estimates, parking-observance scope, provider reuse statement and pre-year archive digests. Internal reruns of72selectionfits/624inputbytechecks are not independent human review.
-- Review `review/future_freeze_scope_v1`: original future evidence has noChronos orfestival-feature comparison; the later interval annex repeats the sameTimesFMepisode. Oldforecasts/workflow unchanged. Future outcomes cannot directly validate the primary festival pooling hypothesis.
-- Once complete, examine new `manuscript/integrated_review_v3` with its source manifest, all-case supplements and reporting audit. Before completion, use audited local briefs and historical drafts with their explicit cohort/version limits.
+- Source permission draft in `review/SOURCE_PERMISSION_REQUEST.md` (not sent).
 
 ## Reviewer response fields (unfilled)
 

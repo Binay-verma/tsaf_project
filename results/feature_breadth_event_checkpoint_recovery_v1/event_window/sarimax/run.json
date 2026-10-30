@@ -1,0 +1,20 @@
+{
+  "model": "sarimax",
+  "completed_utc": "2026-10-30T17:42:13.838361+00:00",
+  "fit_attempts": 52,
+  "rows": 4224,
+  "cases_per_arm": 528,
+  "arms": [
+    "calendar",
+    "zero5",
+    "day5",
+    "pooled_day5",
+    "window5",
+    "pooled_window5",
+    "placebo_day5",
+    "placebo_window5"
+  ],
+  "seconds": 215.76424696699542,
+  "predictions_sha256": "a4fddf4ec0bc4baab98605f9f7f45f16d5f1b306af9be88519ae50adc992e2e9",
+  "protocol_sha256": "705c32713d427739ed872fb4dcaa7747393cb04f4f14562490554ac137af8a1b"
+}
