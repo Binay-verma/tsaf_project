@@ -1,0 +1,70 @@
+{
+  "status": "pass",
+  "completed_utc": "2026-10-30T21:38:43.631467+00:00",
+  "scope": "All72past-onlyselectionfits and4032localforecasts in a no-system-packages Python environment on the SAME machine; not independent human/model implementation or foundation rerun.",
+  "workers": {
+    "event_window/ridge": {
+      "rows": 672,
+      "maximum_absolute_difference_million_rides": 0.0,
+      "prediction_csv_byte_identical": true,
+      "original_sha256": "221a7c28b6727f6d3c80b30bbf47f6118b42810922128dff70f882bf38fa72c8",
+      "reproduced_sha256": "221a7c28b6727f6d3c80b30bbf47f6118b42810922128dff70f882bf38fa72c8"
+    },
+    "event_window/lightgbm": {
+      "rows": 672,
+      "maximum_absolute_difference_million_rides": 0.0,
+      "prediction_csv_byte_identical": true,
+      "original_sha256": "a9d0a2d3ee9c8e858c87089e82f152a8cf4a5e8d5a5ecc7b34bb638d1cdef68b",
+      "reproduced_sha256": "a9d0a2d3ee9c8e858c87089e82f152a8cf4a5e8d5a5ecc7b34bb638d1cdef68b"
+    },
+    "event_window/lightgbm_capacity2": {
+      "rows": 672,
+      "maximum_absolute_difference_million_rides": 0.0,
+      "prediction_csv_byte_identical": true,
+      "original_sha256": "1cc2cf0e0f8e6cb35b42e2bfd4a15e27c9e5839f737403113bad83badf58bcb6",
+      "reproduced_sha256": "1cc2cf0e0f8e6cb35b42e2bfd4a15e27c9e5839f737403113bad83badf58bcb6"
+    },
+    "event_window/sarimax": {
+      "rows": 672,
+      "maximum_absolute_difference_million_rides": 0.0,
+      "prediction_csv_byte_identical": true,
+      "original_sha256": "d8e3a7cfdf10afc9753bdf0b9c1e1aae83de8d103a93f64319b78193368f7ba3",
+      "reproduced_sha256": "d8e3a7cfdf10afc9753bdf0b9c1e1aae83de8d103a93f64319b78193368f7ba3"
+    },
+    "ordinary/ridge": {
+      "rows": 336,
+      "maximum_absolute_difference_million_rides": 0.0,
+      "prediction_csv_byte_identical": true,
+      "original_sha256": "7ee87c7843b267f39c1c1a4eae47f4e6292fcc9ebbc58b869022fa2a043dcc92",
+      "reproduced_sha256": "7ee87c7843b267f39c1c1a4eae47f4e6292fcc9ebbc58b869022fa2a043dcc92"
+    },
+    "ordinary/lightgbm": {
+      "rows": 336,
+      "maximum_absolute_difference_million_rides": 0.0,
+      "prediction_csv_byte_identical": true,
+      "original_sha256": "20a0a04df02f1b58507c73d3ff9ee0ea6d3f3bbcbb1f70b13680b20e430d6064",
+      "reproduced_sha256": "20a0a04df02f1b58507c73d3ff9ee0ea6d3f3bbcbb1f70b13680b20e430d6064"
+    },
+    "ordinary/lightgbm_capacity2": {
+      "rows": 336,
+      "maximum_absolute_difference_million_rides": 0.0,
+      "prediction_csv_byte_identical": true,
+      "original_sha256": "a769aec716043d6f860b76749afbc1bb042ae13ad3ee0a7bc476eed968073d7d",
+      "reproduced_sha256": "a769aec716043d6f860b76749afbc1bb042ae13ad3ee0a7bc476eed968073d7d"
+    },
+    "ordinary/sarimax": {
+      "rows": 336,
+      "maximum_absolute_difference_million_rides": 0.0,
+      "prediction_csv_byte_identical": true,
+      "original_sha256": "c7d797c242856563bf26c4501a745e8b35d88311a9012e29e6d0992880c593c9",
+      "reproduced_sha256": "c7d797c242856563bf26c4501a745e8b35d88311a9012e29e6d0992880c593c9"
+    }
+  },
+  "rows": 4032,
+  "selection_fits": 72,
+  "maximum_validation_MAE_difference_million_rides": 0.0,
+  "selected_parameters_identical": true,
+  "failures": [],
+  "registration_sha256": "d1e0df2aa7183996d95c4f1e92f4e89a15441360b42d0063e6e5e963a451e7ec",
+  "source_copies_reverified": true
+}

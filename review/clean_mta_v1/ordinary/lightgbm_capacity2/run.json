@@ -1,0 +1,8 @@
+{
+  "model": "lightgbm_capacity2",
+  "completed_utc": "2026-10-30T21:37:41.960712+00:00",
+  "rows": 336,
+  "fits": 112,
+  "predictions_sha256": "a769aec716043d6f860b76749afbc1bb042ae13ad3ee0a7bc476eed968073d7d",
+  "protocol_sha256": "d6604dfd9340876489deef5ce33a55bae120f62dd7ae9c5a0cef2558410a22e8"
+}

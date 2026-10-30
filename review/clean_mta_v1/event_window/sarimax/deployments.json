@@ -1,0 +1,4482 @@
+[
+  {
+    "arm": "calendar",
+    "state": "MTA_Bus",
+    "origin": "2026-08-29",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-28"
+  },
+  {
+    "arm": "calendar",
+    "state": "MTA_Bus",
+    "origin": "2026-08-30",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-29"
+  },
+  {
+    "arm": "calendar",
+    "state": "MTA_Bus",
+    "origin": "2026-08-31",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-30"
+  },
+  {
+    "arm": "zero5",
+    "state": "MTA_Bus",
+    "origin": "2026-08-29",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-28"
+  },
+  {
+    "arm": "zero5",
+    "state": "MTA_Bus",
+    "origin": "2026-08-30",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-29"
+  },
+  {
+    "arm": "zero5",
+    "state": "MTA_Bus",
+    "origin": "2026-08-31",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-30"
+  },
+  {
+    "arm": "day5",
+    "state": "MTA_Bus",
+    "origin": "2026-08-29",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-28"
+  },
+  {
+    "arm": "day5",
+    "state": "MTA_Bus",
+    "origin": "2026-08-30",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-29"
+  },
+  {
+    "arm": "day5",
+    "state": "MTA_Bus",
+    "origin": "2026-08-31",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-30"
+  },
+  {
+    "arm": "pooled_day5",
+    "state": "MTA_Bus",
+    "origin": "2026-08-29",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-28"
+  },
+  {
+    "arm": "pooled_day5",
+    "state": "MTA_Bus",
+    "origin": "2026-08-30",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-29"
+  },
+  {
+    "arm": "pooled_day5",
+    "state": "MTA_Bus",
+    "origin": "2026-08-31",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-30"
+  },
+  {
+    "arm": "window5",
+    "state": "MTA_Bus",
+    "origin": "2026-08-29",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-28"
+  },
+  {
+    "arm": "window5",
+    "state": "MTA_Bus",
+    "origin": "2026-08-30",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-29"
+  },
+  {
+    "arm": "window5",
+    "state": "MTA_Bus",
+    "origin": "2026-08-31",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-30"
+  },
+  {
+    "arm": "pooled_window5",
+    "state": "MTA_Bus",
+    "origin": "2026-08-29",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-28"
+  },
+  {
+    "arm": "pooled_window5",
+    "state": "MTA_Bus",
+    "origin": "2026-08-30",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-29"
+  },
+  {
+    "arm": "pooled_window5",
+    "state": "MTA_Bus",
+    "origin": "2026-08-31",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-30"
+  },
+  {
+    "arm": "placebo_day5",
+    "state": "MTA_Bus",
+    "origin": "2026-08-29",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-28"
+  },
+  {
+    "arm": "placebo_day5",
+    "state": "MTA_Bus",
+    "origin": "2026-08-30",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-29"
+  },
+  {
+    "arm": "placebo_day5",
+    "state": "MTA_Bus",
+    "origin": "2026-08-31",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-30"
+  },
+  {
+    "arm": "placebo_window5",
+    "state": "MTA_Bus",
+    "origin": "2026-08-29",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-28"
+  },
+  {
+    "arm": "placebo_window5",
+    "state": "MTA_Bus",
+    "origin": "2026-08-30",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-29"
+  },
+  {
+    "arm": "placebo_window5",
+    "state": "MTA_Bus",
+    "origin": "2026-08-31",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-30"
+  },
+  {
+    "arm": "calendar",
+    "state": "MTA_Bus",
+    "origin": "2026-09-01",
+    "training_end": "2026-08-31",
+    "context_end": "2026-08-31"
+  },
+  {
+    "arm": "calendar",
+    "state": "MTA_Bus",
+    "origin": "2026-09-02",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-01"
+  },
+  {
+    "arm": "calendar",
+    "state": "MTA_Bus",
+    "origin": "2026-09-03",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-02"
+  },
+  {
+    "arm": "calendar",
+    "state": "MTA_Bus",
+    "origin": "2026-09-04",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-03"
+  },
+  {
+    "arm": "calendar",
+    "state": "MTA_Bus",
+    "origin": "2026-09-05",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-04"
+  },
+  {
+    "arm": "calendar",
+    "state": "MTA_Bus",
+    "origin": "2026-09-06",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-05"
+  },
+  {
+    "arm": "calendar",
+    "state": "MTA_Bus",
+    "origin": "2026-09-07",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-06"
+  },
+  {
+    "arm": "calendar",
+    "state": "MTA_Bus",
+    "origin": "2026-09-08",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-07"
+  },
+  {
+    "arm": "calendar",
+    "state": "MTA_Bus",
+    "origin": "2026-09-09",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-08"
+  },
+  {
+    "arm": "calendar",
+    "state": "MTA_Bus",
+    "origin": "2026-09-10",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-09"
+  },
+  {
+    "arm": "calendar",
+    "state": "MTA_Bus",
+    "origin": "2026-09-11",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-10"
+  },
+  {
+    "arm": "calendar",
+    "state": "MTA_Bus",
+    "origin": "2026-09-12",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-11"
+  },
+  {
+    "arm": "calendar",
+    "state": "MTA_Bus",
+    "origin": "2026-09-13",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-12"
+  },
+  {
+    "arm": "calendar",
+    "state": "MTA_Bus",
+    "origin": "2026-09-14",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-13"
+  },
+  {
+    "arm": "calendar",
+    "state": "MTA_Bus",
+    "origin": "2026-09-15",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-14"
+  },
+  {
+    "arm": "calendar",
+    "state": "MTA_Bus",
+    "origin": "2026-09-16",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-15"
+  },
+  {
+    "arm": "calendar",
+    "state": "MTA_Bus",
+    "origin": "2026-09-17",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-16"
+  },
+  {
+    "arm": "calendar",
+    "state": "MTA_Bus",
+    "origin": "2026-09-19",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-18"
+  },
+  {
+    "arm": "calendar",
+    "state": "MTA_Bus",
+    "origin": "2026-09-20",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-19"
+  },
+  {
+    "arm": "calendar",
+    "state": "MTA_Bus",
+    "origin": "2026-09-21",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-20"
+  },
+  {
+    "arm": "calendar",
+    "state": "MTA_Bus",
+    "origin": "2026-09-22",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-21"
+  },
+  {
+    "arm": "calendar",
+    "state": "MTA_Bus",
+    "origin": "2026-09-23",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-22"
+  },
+  {
+    "arm": "calendar",
+    "state": "MTA_Bus",
+    "origin": "2026-09-24",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-23"
+  },
+  {
+    "arm": "calendar",
+    "state": "MTA_Bus",
+    "origin": "2026-09-25",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-24"
+  },
+  {
+    "arm": "calendar",
+    "state": "MTA_Bus",
+    "origin": "2026-09-26",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-25"
+  },
+  {
+    "arm": "calendar",
+    "state": "MTA_Bus",
+    "origin": "2026-09-27",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-26"
+  },
+  {
+    "arm": "calendar",
+    "state": "MTA_Bus",
+    "origin": "2026-09-28",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-27"
+  },
+  {
+    "arm": "calendar",
+    "state": "MTA_Bus",
+    "origin": "2026-09-29",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-28"
+  },
+  {
+    "arm": "calendar",
+    "state": "MTA_Bus",
+    "origin": "2026-09-30",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-29"
+  },
+  {
+    "arm": "zero5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-01",
+    "training_end": "2026-08-31",
+    "context_end": "2026-08-31"
+  },
+  {
+    "arm": "zero5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-02",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-01"
+  },
+  {
+    "arm": "zero5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-03",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-02"
+  },
+  {
+    "arm": "zero5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-04",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-03"
+  },
+  {
+    "arm": "zero5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-05",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-04"
+  },
+  {
+    "arm": "zero5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-06",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-05"
+  },
+  {
+    "arm": "zero5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-07",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-06"
+  },
+  {
+    "arm": "zero5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-08",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-07"
+  },
+  {
+    "arm": "zero5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-09",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-08"
+  },
+  {
+    "arm": "zero5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-10",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-09"
+  },
+  {
+    "arm": "zero5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-11",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-10"
+  },
+  {
+    "arm": "zero5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-12",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-11"
+  },
+  {
+    "arm": "zero5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-13",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-12"
+  },
+  {
+    "arm": "zero5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-14",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-13"
+  },
+  {
+    "arm": "zero5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-15",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-14"
+  },
+  {
+    "arm": "zero5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-16",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-15"
+  },
+  {
+    "arm": "zero5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-17",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-16"
+  },
+  {
+    "arm": "zero5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-19",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-18"
+  },
+  {
+    "arm": "zero5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-20",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-19"
+  },
+  {
+    "arm": "zero5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-21",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-20"
+  },
+  {
+    "arm": "zero5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-22",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-21"
+  },
+  {
+    "arm": "zero5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-23",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-22"
+  },
+  {
+    "arm": "zero5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-24",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-23"
+  },
+  {
+    "arm": "zero5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-25",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-24"
+  },
+  {
+    "arm": "zero5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-26",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-25"
+  },
+  {
+    "arm": "zero5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-27",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-26"
+  },
+  {
+    "arm": "zero5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-28",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-27"
+  },
+  {
+    "arm": "zero5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-29",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-28"
+  },
+  {
+    "arm": "zero5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-30",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-29"
+  },
+  {
+    "arm": "day5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-01",
+    "training_end": "2026-08-31",
+    "context_end": "2026-08-31"
+  },
+  {
+    "arm": "day5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-02",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-01"
+  },
+  {
+    "arm": "day5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-03",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-02"
+  },
+  {
+    "arm": "day5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-04",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-03"
+  },
+  {
+    "arm": "day5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-05",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-04"
+  },
+  {
+    "arm": "day5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-06",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-05"
+  },
+  {
+    "arm": "day5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-07",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-06"
+  },
+  {
+    "arm": "day5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-08",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-07"
+  },
+  {
+    "arm": "day5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-09",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-08"
+  },
+  {
+    "arm": "day5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-10",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-09"
+  },
+  {
+    "arm": "day5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-11",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-10"
+  },
+  {
+    "arm": "day5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-12",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-11"
+  },
+  {
+    "arm": "day5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-13",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-12"
+  },
+  {
+    "arm": "day5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-14",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-13"
+  },
+  {
+    "arm": "day5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-15",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-14"
+  },
+  {
+    "arm": "day5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-16",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-15"
+  },
+  {
+    "arm": "day5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-17",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-16"
+  },
+  {
+    "arm": "day5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-19",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-18"
+  },
+  {
+    "arm": "day5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-20",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-19"
+  },
+  {
+    "arm": "day5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-21",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-20"
+  },
+  {
+    "arm": "day5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-22",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-21"
+  },
+  {
+    "arm": "day5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-23",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-22"
+  },
+  {
+    "arm": "day5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-24",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-23"
+  },
+  {
+    "arm": "day5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-25",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-24"
+  },
+  {
+    "arm": "day5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-26",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-25"
+  },
+  {
+    "arm": "day5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-27",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-26"
+  },
+  {
+    "arm": "day5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-28",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-27"
+  },
+  {
+    "arm": "day5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-29",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-28"
+  },
+  {
+    "arm": "day5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-30",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-29"
+  },
+  {
+    "arm": "pooled_day5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-01",
+    "training_end": "2026-08-31",
+    "context_end": "2026-08-31"
+  },
+  {
+    "arm": "pooled_day5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-02",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-01"
+  },
+  {
+    "arm": "pooled_day5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-03",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-02"
+  },
+  {
+    "arm": "pooled_day5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-04",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-03"
+  },
+  {
+    "arm": "pooled_day5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-05",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-04"
+  },
+  {
+    "arm": "pooled_day5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-06",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-05"
+  },
+  {
+    "arm": "pooled_day5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-07",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-06"
+  },
+  {
+    "arm": "pooled_day5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-08",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-07"
+  },
+  {
+    "arm": "pooled_day5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-09",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-08"
+  },
+  {
+    "arm": "pooled_day5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-10",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-09"
+  },
+  {
+    "arm": "pooled_day5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-11",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-10"
+  },
+  {
+    "arm": "pooled_day5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-12",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-11"
+  },
+  {
+    "arm": "pooled_day5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-13",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-12"
+  },
+  {
+    "arm": "pooled_day5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-14",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-13"
+  },
+  {
+    "arm": "pooled_day5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-15",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-14"
+  },
+  {
+    "arm": "pooled_day5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-16",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-15"
+  },
+  {
+    "arm": "pooled_day5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-17",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-16"
+  },
+  {
+    "arm": "pooled_day5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-19",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-18"
+  },
+  {
+    "arm": "pooled_day5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-20",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-19"
+  },
+  {
+    "arm": "pooled_day5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-21",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-20"
+  },
+  {
+    "arm": "pooled_day5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-22",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-21"
+  },
+  {
+    "arm": "pooled_day5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-23",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-22"
+  },
+  {
+    "arm": "pooled_day5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-24",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-23"
+  },
+  {
+    "arm": "pooled_day5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-25",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-24"
+  },
+  {
+    "arm": "pooled_day5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-26",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-25"
+  },
+  {
+    "arm": "pooled_day5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-27",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-26"
+  },
+  {
+    "arm": "pooled_day5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-28",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-27"
+  },
+  {
+    "arm": "pooled_day5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-29",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-28"
+  },
+  {
+    "arm": "pooled_day5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-30",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-29"
+  },
+  {
+    "arm": "window5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-01",
+    "training_end": "2026-08-31",
+    "context_end": "2026-08-31"
+  },
+  {
+    "arm": "window5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-02",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-01"
+  },
+  {
+    "arm": "window5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-03",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-02"
+  },
+  {
+    "arm": "window5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-04",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-03"
+  },
+  {
+    "arm": "window5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-05",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-04"
+  },
+  {
+    "arm": "window5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-06",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-05"
+  },
+  {
+    "arm": "window5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-07",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-06"
+  },
+  {
+    "arm": "window5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-08",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-07"
+  },
+  {
+    "arm": "window5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-09",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-08"
+  },
+  {
+    "arm": "window5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-10",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-09"
+  },
+  {
+    "arm": "window5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-11",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-10"
+  },
+  {
+    "arm": "window5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-12",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-11"
+  },
+  {
+    "arm": "window5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-13",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-12"
+  },
+  {
+    "arm": "window5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-14",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-13"
+  },
+  {
+    "arm": "window5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-15",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-14"
+  },
+  {
+    "arm": "window5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-16",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-15"
+  },
+  {
+    "arm": "window5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-17",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-16"
+  },
+  {
+    "arm": "window5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-19",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-18"
+  },
+  {
+    "arm": "window5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-20",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-19"
+  },
+  {
+    "arm": "window5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-21",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-20"
+  },
+  {
+    "arm": "window5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-22",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-21"
+  },
+  {
+    "arm": "window5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-23",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-22"
+  },
+  {
+    "arm": "window5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-24",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-23"
+  },
+  {
+    "arm": "window5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-25",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-24"
+  },
+  {
+    "arm": "window5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-26",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-25"
+  },
+  {
+    "arm": "window5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-27",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-26"
+  },
+  {
+    "arm": "window5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-28",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-27"
+  },
+  {
+    "arm": "window5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-29",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-28"
+  },
+  {
+    "arm": "window5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-30",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-29"
+  },
+  {
+    "arm": "pooled_window5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-01",
+    "training_end": "2026-08-31",
+    "context_end": "2026-08-31"
+  },
+  {
+    "arm": "pooled_window5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-02",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-01"
+  },
+  {
+    "arm": "pooled_window5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-03",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-02"
+  },
+  {
+    "arm": "pooled_window5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-04",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-03"
+  },
+  {
+    "arm": "pooled_window5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-05",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-04"
+  },
+  {
+    "arm": "pooled_window5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-06",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-05"
+  },
+  {
+    "arm": "pooled_window5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-07",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-06"
+  },
+  {
+    "arm": "pooled_window5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-08",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-07"
+  },
+  {
+    "arm": "pooled_window5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-09",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-08"
+  },
+  {
+    "arm": "pooled_window5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-10",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-09"
+  },
+  {
+    "arm": "pooled_window5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-11",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-10"
+  },
+  {
+    "arm": "pooled_window5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-12",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-11"
+  },
+  {
+    "arm": "pooled_window5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-13",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-12"
+  },
+  {
+    "arm": "pooled_window5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-14",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-13"
+  },
+  {
+    "arm": "pooled_window5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-15",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-14"
+  },
+  {
+    "arm": "pooled_window5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-16",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-15"
+  },
+  {
+    "arm": "pooled_window5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-17",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-16"
+  },
+  {
+    "arm": "pooled_window5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-19",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-18"
+  },
+  {
+    "arm": "pooled_window5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-20",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-19"
+  },
+  {
+    "arm": "pooled_window5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-21",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-20"
+  },
+  {
+    "arm": "pooled_window5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-22",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-21"
+  },
+  {
+    "arm": "pooled_window5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-23",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-22"
+  },
+  {
+    "arm": "pooled_window5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-24",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-23"
+  },
+  {
+    "arm": "pooled_window5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-25",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-24"
+  },
+  {
+    "arm": "pooled_window5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-26",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-25"
+  },
+  {
+    "arm": "pooled_window5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-27",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-26"
+  },
+  {
+    "arm": "pooled_window5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-28",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-27"
+  },
+  {
+    "arm": "pooled_window5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-29",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-28"
+  },
+  {
+    "arm": "pooled_window5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-30",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-29"
+  },
+  {
+    "arm": "placebo_day5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-01",
+    "training_end": "2026-08-31",
+    "context_end": "2026-08-31"
+  },
+  {
+    "arm": "placebo_day5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-02",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-01"
+  },
+  {
+    "arm": "placebo_day5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-03",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-02"
+  },
+  {
+    "arm": "placebo_day5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-04",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-03"
+  },
+  {
+    "arm": "placebo_day5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-05",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-04"
+  },
+  {
+    "arm": "placebo_day5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-06",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-05"
+  },
+  {
+    "arm": "placebo_day5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-07",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-06"
+  },
+  {
+    "arm": "placebo_day5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-08",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-07"
+  },
+  {
+    "arm": "placebo_day5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-09",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-08"
+  },
+  {
+    "arm": "placebo_day5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-10",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-09"
+  },
+  {
+    "arm": "placebo_day5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-11",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-10"
+  },
+  {
+    "arm": "placebo_day5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-12",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-11"
+  },
+  {
+    "arm": "placebo_day5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-13",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-12"
+  },
+  {
+    "arm": "placebo_day5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-14",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-13"
+  },
+  {
+    "arm": "placebo_day5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-15",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-14"
+  },
+  {
+    "arm": "placebo_day5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-16",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-15"
+  },
+  {
+    "arm": "placebo_day5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-17",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-16"
+  },
+  {
+    "arm": "placebo_day5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-19",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-18"
+  },
+  {
+    "arm": "placebo_day5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-20",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-19"
+  },
+  {
+    "arm": "placebo_day5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-21",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-20"
+  },
+  {
+    "arm": "placebo_day5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-22",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-21"
+  },
+  {
+    "arm": "placebo_day5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-23",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-22"
+  },
+  {
+    "arm": "placebo_day5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-24",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-23"
+  },
+  {
+    "arm": "placebo_day5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-25",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-24"
+  },
+  {
+    "arm": "placebo_day5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-26",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-25"
+  },
+  {
+    "arm": "placebo_day5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-27",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-26"
+  },
+  {
+    "arm": "placebo_day5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-28",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-27"
+  },
+  {
+    "arm": "placebo_day5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-29",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-28"
+  },
+  {
+    "arm": "placebo_day5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-30",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-29"
+  },
+  {
+    "arm": "placebo_window5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-01",
+    "training_end": "2026-08-31",
+    "context_end": "2026-08-31"
+  },
+  {
+    "arm": "placebo_window5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-02",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-01"
+  },
+  {
+    "arm": "placebo_window5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-03",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-02"
+  },
+  {
+    "arm": "placebo_window5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-04",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-03"
+  },
+  {
+    "arm": "placebo_window5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-05",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-04"
+  },
+  {
+    "arm": "placebo_window5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-06",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-05"
+  },
+  {
+    "arm": "placebo_window5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-07",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-06"
+  },
+  {
+    "arm": "placebo_window5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-08",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-07"
+  },
+  {
+    "arm": "placebo_window5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-09",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-08"
+  },
+  {
+    "arm": "placebo_window5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-10",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-09"
+  },
+  {
+    "arm": "placebo_window5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-11",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-10"
+  },
+  {
+    "arm": "placebo_window5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-12",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-11"
+  },
+  {
+    "arm": "placebo_window5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-13",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-12"
+  },
+  {
+    "arm": "placebo_window5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-14",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-13"
+  },
+  {
+    "arm": "placebo_window5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-15",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-14"
+  },
+  {
+    "arm": "placebo_window5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-16",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-15"
+  },
+  {
+    "arm": "placebo_window5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-17",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-16"
+  },
+  {
+    "arm": "placebo_window5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-19",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-18"
+  },
+  {
+    "arm": "placebo_window5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-20",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-19"
+  },
+  {
+    "arm": "placebo_window5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-21",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-20"
+  },
+  {
+    "arm": "placebo_window5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-22",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-21"
+  },
+  {
+    "arm": "placebo_window5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-23",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-22"
+  },
+  {
+    "arm": "placebo_window5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-24",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-23"
+  },
+  {
+    "arm": "placebo_window5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-25",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-24"
+  },
+  {
+    "arm": "placebo_window5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-26",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-25"
+  },
+  {
+    "arm": "placebo_window5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-27",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-26"
+  },
+  {
+    "arm": "placebo_window5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-28",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-27"
+  },
+  {
+    "arm": "placebo_window5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-29",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-28"
+  },
+  {
+    "arm": "placebo_window5",
+    "state": "MTA_Bus",
+    "origin": "2026-09-30",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-29"
+  },
+  {
+    "arm": "calendar",
+    "state": "MTA_Bus",
+    "origin": "2026-10-01",
+    "training_end": "2026-09-30",
+    "context_end": "2026-09-30"
+  },
+  {
+    "arm": "calendar",
+    "state": "MTA_Bus",
+    "origin": "2026-10-02",
+    "training_end": "2026-09-30",
+    "context_end": "2026-10-01"
+  },
+  {
+    "arm": "calendar",
+    "state": "MTA_Bus",
+    "origin": "2026-10-03",
+    "training_end": "2026-09-30",
+    "context_end": "2026-10-02"
+  },
+  {
+    "arm": "calendar",
+    "state": "MTA_Bus",
+    "origin": "2026-10-04",
+    "training_end": "2026-09-30",
+    "context_end": "2026-10-03"
+  },
+  {
+    "arm": "calendar",
+    "state": "MTA_Bus",
+    "origin": "2026-10-05",
+    "training_end": "2026-09-30",
+    "context_end": "2026-10-04"
+  },
+  {
+    "arm": "calendar",
+    "state": "MTA_Bus",
+    "origin": "2026-10-06",
+    "training_end": "2026-09-30",
+    "context_end": "2026-10-05"
+  },
+  {
+    "arm": "calendar",
+    "state": "MTA_Bus",
+    "origin": "2026-10-07",
+    "training_end": "2026-09-30",
+    "context_end": "2026-10-06"
+  },
+  {
+    "arm": "calendar",
+    "state": "MTA_Bus",
+    "origin": "2026-10-08",
+    "training_end": "2026-09-30",
+    "context_end": "2026-10-07"
+  },
+  {
+    "arm": "zero5",
+    "state": "MTA_Bus",
+    "origin": "2026-10-01",
+    "training_end": "2026-09-30",
+    "context_end": "2026-09-30"
+  },
+  {
+    "arm": "zero5",
+    "state": "MTA_Bus",
+    "origin": "2026-10-02",
+    "training_end": "2026-09-30",
+    "context_end": "2026-10-01"
+  },
+  {
+    "arm": "zero5",
+    "state": "MTA_Bus",
+    "origin": "2026-10-03",
+    "training_end": "2026-09-30",
+    "context_end": "2026-10-02"
+  },
+  {
+    "arm": "zero5",
+    "state": "MTA_Bus",
+    "origin": "2026-10-04",
+    "training_end": "2026-09-30",
+    "context_end": "2026-10-03"
+  },
+  {
+    "arm": "zero5",
+    "state": "MTA_Bus",
+    "origin": "2026-10-05",
+    "training_end": "2026-09-30",
+    "context_end": "2026-10-04"
+  },
+  {
+    "arm": "zero5",
+    "state": "MTA_Bus",
+    "origin": "2026-10-06",
+    "training_end": "2026-09-30",
+    "context_end": "2026-10-05"
+  },
+  {
+    "arm": "zero5",
+    "state": "MTA_Bus",
+    "origin": "2026-10-07",
+    "training_end": "2026-09-30",
+    "context_end": "2026-10-06"
+  },
+  {
+    "arm": "zero5",
+    "state": "MTA_Bus",
+    "origin": "2026-10-08",
+    "training_end": "2026-09-30",
+    "context_end": "2026-10-07"
+  },
+  {
+    "arm": "day5",
+    "state": "MTA_Bus",
+    "origin": "2026-10-01",
+    "training_end": "2026-09-30",
+    "context_end": "2026-09-30"
+  },
+  {
+    "arm": "day5",
+    "state": "MTA_Bus",
+    "origin": "2026-10-02",
+    "training_end": "2026-09-30",
+    "context_end": "2026-10-01"
+  },
+  {
+    "arm": "day5",
+    "state": "MTA_Bus",
+    "origin": "2026-10-03",
+    "training_end": "2026-09-30",
+    "context_end": "2026-10-02"
+  },
+  {
+    "arm": "day5",
+    "state": "MTA_Bus",
+    "origin": "2026-10-04",
+    "training_end": "2026-09-30",
+    "context_end": "2026-10-03"
+  },
+  {
+    "arm": "day5",
+    "state": "MTA_Bus",
+    "origin": "2026-10-05",
+    "training_end": "2026-09-30",
+    "context_end": "2026-10-04"
+  },
+  {
+    "arm": "day5",
+    "state": "MTA_Bus",
+    "origin": "2026-10-06",
+    "training_end": "2026-09-30",
+    "context_end": "2026-10-05"
+  },
+  {
+    "arm": "day5",
+    "state": "MTA_Bus",
+    "origin": "2026-10-07",
+    "training_end": "2026-09-30",
+    "context_end": "2026-10-06"
+  },
+  {
+    "arm": "day5",
+    "state": "MTA_Bus",
+    "origin": "2026-10-08",
+    "training_end": "2026-09-30",
+    "context_end": "2026-10-07"
+  },
+  {
+    "arm": "pooled_day5",
+    "state": "MTA_Bus",
+    "origin": "2026-10-01",
+    "training_end": "2026-09-30",
+    "context_end": "2026-09-30"
+  },
+  {
+    "arm": "pooled_day5",
+    "state": "MTA_Bus",
+    "origin": "2026-10-02",
+    "training_end": "2026-09-30",
+    "context_end": "2026-10-01"
+  },
+  {
+    "arm": "pooled_day5",
+    "state": "MTA_Bus",
+    "origin": "2026-10-03",
+    "training_end": "2026-09-30",
+    "context_end": "2026-10-02"
+  },
+  {
+    "arm": "pooled_day5",
+    "state": "MTA_Bus",
+    "origin": "2026-10-04",
+    "training_end": "2026-09-30",
+    "context_end": "2026-10-03"
+  },
+  {
+    "arm": "pooled_day5",
+    "state": "MTA_Bus",
+    "origin": "2026-10-05",
+    "training_end": "2026-09-30",
+    "context_end": "2026-10-04"
+  },
+  {
+    "arm": "pooled_day5",
+    "state": "MTA_Bus",
+    "origin": "2026-10-06",
+    "training_end": "2026-09-30",
+    "context_end": "2026-10-05"
+  },
+  {
+    "arm": "pooled_day5",
+    "state": "MTA_Bus",
+    "origin": "2026-10-07",
+    "training_end": "2026-09-30",
+    "context_end": "2026-10-06"
+  },
+  {
+    "arm": "pooled_day5",
+    "state": "MTA_Bus",
+    "origin": "2026-10-08",
+    "training_end": "2026-09-30",
+    "context_end": "2026-10-07"
+  },
+  {
+    "arm": "window5",
+    "state": "MTA_Bus",
+    "origin": "2026-10-01",
+    "training_end": "2026-09-30",
+    "context_end": "2026-09-30"
+  },
+  {
+    "arm": "window5",
+    "state": "MTA_Bus",
+    "origin": "2026-10-02",
+    "training_end": "2026-09-30",
+    "context_end": "2026-10-01"
+  },
+  {
+    "arm": "window5",
+    "state": "MTA_Bus",
+    "origin": "2026-10-03",
+    "training_end": "2026-09-30",
+    "context_end": "2026-10-02"
+  },
+  {
+    "arm": "window5",
+    "state": "MTA_Bus",
+    "origin": "2026-10-04",
+    "training_end": "2026-09-30",
+    "context_end": "2026-10-03"
+  },
+  {
+    "arm": "window5",
+    "state": "MTA_Bus",
+    "origin": "2026-10-05",
+    "training_end": "2026-09-30",
+    "context_end": "2026-10-04"
+  },
+  {
+    "arm": "window5",
+    "state": "MTA_Bus",
+    "origin": "2026-10-06",
+    "training_end": "2026-09-30",
+    "context_end": "2026-10-05"
+  },
+  {
+    "arm": "window5",
+    "state": "MTA_Bus",
+    "origin": "2026-10-07",
+    "training_end": "2026-09-30",
+    "context_end": "2026-10-06"
+  },
+  {
+    "arm": "window5",
+    "state": "MTA_Bus",
+    "origin": "2026-10-08",
+    "training_end": "2026-09-30",
+    "context_end": "2026-10-07"
+  },
+  {
+    "arm": "pooled_window5",
+    "state": "MTA_Bus",
+    "origin": "2026-10-01",
+    "training_end": "2026-09-30",
+    "context_end": "2026-09-30"
+  },
+  {
+    "arm": "pooled_window5",
+    "state": "MTA_Bus",
+    "origin": "2026-10-02",
+    "training_end": "2026-09-30",
+    "context_end": "2026-10-01"
+  },
+  {
+    "arm": "pooled_window5",
+    "state": "MTA_Bus",
+    "origin": "2026-10-03",
+    "training_end": "2026-09-30",
+    "context_end": "2026-10-02"
+  },
+  {
+    "arm": "pooled_window5",
+    "state": "MTA_Bus",
+    "origin": "2026-10-04",
+    "training_end": "2026-09-30",
+    "context_end": "2026-10-03"
+  },
+  {
+    "arm": "pooled_window5",
+    "state": "MTA_Bus",
+    "origin": "2026-10-05",
+    "training_end": "2026-09-30",
+    "context_end": "2026-10-04"
+  },
+  {
+    "arm": "pooled_window5",
+    "state": "MTA_Bus",
+    "origin": "2026-10-06",
+    "training_end": "2026-09-30",
+    "context_end": "2026-10-05"
+  },
+  {
+    "arm": "pooled_window5",
+    "state": "MTA_Bus",
+    "origin": "2026-10-07",
+    "training_end": "2026-09-30",
+    "context_end": "2026-10-06"
+  },
+  {
+    "arm": "pooled_window5",
+    "state": "MTA_Bus",
+    "origin": "2026-10-08",
+    "training_end": "2026-09-30",
+    "context_end": "2026-10-07"
+  },
+  {
+    "arm": "placebo_day5",
+    "state": "MTA_Bus",
+    "origin": "2026-10-01",
+    "training_end": "2026-09-30",
+    "context_end": "2026-09-30"
+  },
+  {
+    "arm": "placebo_day5",
+    "state": "MTA_Bus",
+    "origin": "2026-10-02",
+    "training_end": "2026-09-30",
+    "context_end": "2026-10-01"
+  },
+  {
+    "arm": "placebo_day5",
+    "state": "MTA_Bus",
+    "origin": "2026-10-03",
+    "training_end": "2026-09-30",
+    "context_end": "2026-10-02"
+  },
+  {
+    "arm": "placebo_day5",
+    "state": "MTA_Bus",
+    "origin": "2026-10-04",
+    "training_end": "2026-09-30",
+    "context_end": "2026-10-03"
+  },
+  {
+    "arm": "placebo_day5",
+    "state": "MTA_Bus",
+    "origin": "2026-10-05",
+    "training_end": "2026-09-30",
+    "context_end": "2026-10-04"
+  },
+  {
+    "arm": "placebo_day5",
+    "state": "MTA_Bus",
+    "origin": "2026-10-06",
+    "training_end": "2026-09-30",
+    "context_end": "2026-10-05"
+  },
+  {
+    "arm": "placebo_day5",
+    "state": "MTA_Bus",
+    "origin": "2026-10-07",
+    "training_end": "2026-09-30",
+    "context_end": "2026-10-06"
+  },
+  {
+    "arm": "placebo_day5",
+    "state": "MTA_Bus",
+    "origin": "2026-10-08",
+    "training_end": "2026-09-30",
+    "context_end": "2026-10-07"
+  },
+  {
+    "arm": "placebo_window5",
+    "state": "MTA_Bus",
+    "origin": "2026-10-01",
+    "training_end": "2026-09-30",
+    "context_end": "2026-09-30"
+  },
+  {
+    "arm": "placebo_window5",
+    "state": "MTA_Bus",
+    "origin": "2026-10-02",
+    "training_end": "2026-09-30",
+    "context_end": "2026-10-01"
+  },
+  {
+    "arm": "placebo_window5",
+    "state": "MTA_Bus",
+    "origin": "2026-10-03",
+    "training_end": "2026-09-30",
+    "context_end": "2026-10-02"
+  },
+  {
+    "arm": "placebo_window5",
+    "state": "MTA_Bus",
+    "origin": "2026-10-04",
+    "training_end": "2026-09-30",
+    "context_end": "2026-10-03"
+  },
+  {
+    "arm": "placebo_window5",
+    "state": "MTA_Bus",
+    "origin": "2026-10-05",
+    "training_end": "2026-09-30",
+    "context_end": "2026-10-04"
+  },
+  {
+    "arm": "placebo_window5",
+    "state": "MTA_Bus",
+    "origin": "2026-10-06",
+    "training_end": "2026-09-30",
+    "context_end": "2026-10-05"
+  },
+  {
+    "arm": "placebo_window5",
+    "state": "MTA_Bus",
+    "origin": "2026-10-07",
+    "training_end": "2026-09-30",
+    "context_end": "2026-10-06"
+  },
+  {
+    "arm": "placebo_window5",
+    "state": "MTA_Bus",
+    "origin": "2026-10-08",
+    "training_end": "2026-09-30",
+    "context_end": "2026-10-07"
+  },
+  {
+    "arm": "calendar",
+    "state": "MTA_Subway",
+    "origin": "2026-08-29",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-28"
+  },
+  {
+    "arm": "calendar",
+    "state": "MTA_Subway",
+    "origin": "2026-08-30",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-29"
+  },
+  {
+    "arm": "calendar",
+    "state": "MTA_Subway",
+    "origin": "2026-08-31",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-30"
+  },
+  {
+    "arm": "zero5",
+    "state": "MTA_Subway",
+    "origin": "2026-08-29",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-28"
+  },
+  {
+    "arm": "zero5",
+    "state": "MTA_Subway",
+    "origin": "2026-08-30",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-29"
+  },
+  {
+    "arm": "zero5",
+    "state": "MTA_Subway",
+    "origin": "2026-08-31",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-30"
+  },
+  {
+    "arm": "day5",
+    "state": "MTA_Subway",
+    "origin": "2026-08-29",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-28"
+  },
+  {
+    "arm": "day5",
+    "state": "MTA_Subway",
+    "origin": "2026-08-30",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-29"
+  },
+  {
+    "arm": "day5",
+    "state": "MTA_Subway",
+    "origin": "2026-08-31",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-30"
+  },
+  {
+    "arm": "pooled_day5",
+    "state": "MTA_Subway",
+    "origin": "2026-08-29",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-28"
+  },
+  {
+    "arm": "pooled_day5",
+    "state": "MTA_Subway",
+    "origin": "2026-08-30",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-29"
+  },
+  {
+    "arm": "pooled_day5",
+    "state": "MTA_Subway",
+    "origin": "2026-08-31",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-30"
+  },
+  {
+    "arm": "window5",
+    "state": "MTA_Subway",
+    "origin": "2026-08-29",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-28"
+  },
+  {
+    "arm": "window5",
+    "state": "MTA_Subway",
+    "origin": "2026-08-30",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-29"
+  },
+  {
+    "arm": "window5",
+    "state": "MTA_Subway",
+    "origin": "2026-08-31",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-30"
+  },
+  {
+    "arm": "pooled_window5",
+    "state": "MTA_Subway",
+    "origin": "2026-08-29",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-28"
+  },
+  {
+    "arm": "pooled_window5",
+    "state": "MTA_Subway",
+    "origin": "2026-08-30",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-29"
+  },
+  {
+    "arm": "pooled_window5",
+    "state": "MTA_Subway",
+    "origin": "2026-08-31",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-30"
+  },
+  {
+    "arm": "placebo_day5",
+    "state": "MTA_Subway",
+    "origin": "2026-08-29",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-28"
+  },
+  {
+    "arm": "placebo_day5",
+    "state": "MTA_Subway",
+    "origin": "2026-08-30",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-29"
+  },
+  {
+    "arm": "placebo_day5",
+    "state": "MTA_Subway",
+    "origin": "2026-08-31",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-30"
+  },
+  {
+    "arm": "placebo_window5",
+    "state": "MTA_Subway",
+    "origin": "2026-08-29",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-28"
+  },
+  {
+    "arm": "placebo_window5",
+    "state": "MTA_Subway",
+    "origin": "2026-08-30",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-29"
+  },
+  {
+    "arm": "placebo_window5",
+    "state": "MTA_Subway",
+    "origin": "2026-08-31",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-30"
+  },
+  {
+    "arm": "calendar",
+    "state": "MTA_Subway",
+    "origin": "2026-09-01",
+    "training_end": "2026-08-31",
+    "context_end": "2026-08-31"
+  },
+  {
+    "arm": "calendar",
+    "state": "MTA_Subway",
+    "origin": "2026-09-02",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-01"
+  },
+  {
+    "arm": "calendar",
+    "state": "MTA_Subway",
+    "origin": "2026-09-03",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-02"
+  },
+  {
+    "arm": "calendar",
+    "state": "MTA_Subway",
+    "origin": "2026-09-04",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-03"
+  },
+  {
+    "arm": "calendar",
+    "state": "MTA_Subway",
+    "origin": "2026-09-05",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-04"
+  },
+  {
+    "arm": "calendar",
+    "state": "MTA_Subway",
+    "origin": "2026-09-06",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-05"
+  },
+  {
+    "arm": "calendar",
+    "state": "MTA_Subway",
+    "origin": "2026-09-07",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-06"
+  },
+  {
+    "arm": "calendar",
+    "state": "MTA_Subway",
+    "origin": "2026-09-08",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-07"
+  },
+  {
+    "arm": "calendar",
+    "state": "MTA_Subway",
+    "origin": "2026-09-09",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-08"
+  },
+  {
+    "arm": "calendar",
+    "state": "MTA_Subway",
+    "origin": "2026-09-10",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-09"
+  },
+  {
+    "arm": "calendar",
+    "state": "MTA_Subway",
+    "origin": "2026-09-11",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-10"
+  },
+  {
+    "arm": "calendar",
+    "state": "MTA_Subway",
+    "origin": "2026-09-12",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-11"
+  },
+  {
+    "arm": "calendar",
+    "state": "MTA_Subway",
+    "origin": "2026-09-13",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-12"
+  },
+  {
+    "arm": "calendar",
+    "state": "MTA_Subway",
+    "origin": "2026-09-14",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-13"
+  },
+  {
+    "arm": "calendar",
+    "state": "MTA_Subway",
+    "origin": "2026-09-15",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-14"
+  },
+  {
+    "arm": "calendar",
+    "state": "MTA_Subway",
+    "origin": "2026-09-16",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-15"
+  },
+  {
+    "arm": "calendar",
+    "state": "MTA_Subway",
+    "origin": "2026-09-17",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-16"
+  },
+  {
+    "arm": "calendar",
+    "state": "MTA_Subway",
+    "origin": "2026-09-19",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-18"
+  },
+  {
+    "arm": "calendar",
+    "state": "MTA_Subway",
+    "origin": "2026-09-20",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-19"
+  },
+  {
+    "arm": "calendar",
+    "state": "MTA_Subway",
+    "origin": "2026-09-21",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-20"
+  },
+  {
+    "arm": "calendar",
+    "state": "MTA_Subway",
+    "origin": "2026-09-22",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-21"
+  },
+  {
+    "arm": "calendar",
+    "state": "MTA_Subway",
+    "origin": "2026-09-23",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-22"
+  },
+  {
+    "arm": "calendar",
+    "state": "MTA_Subway",
+    "origin": "2026-09-24",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-23"
+  },
+  {
+    "arm": "calendar",
+    "state": "MTA_Subway",
+    "origin": "2026-09-25",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-24"
+  },
+  {
+    "arm": "calendar",
+    "state": "MTA_Subway",
+    "origin": "2026-09-26",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-25"
+  },
+  {
+    "arm": "calendar",
+    "state": "MTA_Subway",
+    "origin": "2026-09-27",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-26"
+  },
+  {
+    "arm": "calendar",
+    "state": "MTA_Subway",
+    "origin": "2026-09-28",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-27"
+  },
+  {
+    "arm": "calendar",
+    "state": "MTA_Subway",
+    "origin": "2026-09-29",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-28"
+  },
+  {
+    "arm": "calendar",
+    "state": "MTA_Subway",
+    "origin": "2026-09-30",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-29"
+  },
+  {
+    "arm": "zero5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-01",
+    "training_end": "2026-08-31",
+    "context_end": "2026-08-31"
+  },
+  {
+    "arm": "zero5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-02",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-01"
+  },
+  {
+    "arm": "zero5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-03",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-02"
+  },
+  {
+    "arm": "zero5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-04",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-03"
+  },
+  {
+    "arm": "zero5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-05",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-04"
+  },
+  {
+    "arm": "zero5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-06",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-05"
+  },
+  {
+    "arm": "zero5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-07",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-06"
+  },
+  {
+    "arm": "zero5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-08",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-07"
+  },
+  {
+    "arm": "zero5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-09",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-08"
+  },
+  {
+    "arm": "zero5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-10",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-09"
+  },
+  {
+    "arm": "zero5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-11",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-10"
+  },
+  {
+    "arm": "zero5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-12",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-11"
+  },
+  {
+    "arm": "zero5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-13",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-12"
+  },
+  {
+    "arm": "zero5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-14",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-13"
+  },
+  {
+    "arm": "zero5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-15",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-14"
+  },
+  {
+    "arm": "zero5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-16",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-15"
+  },
+  {
+    "arm": "zero5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-17",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-16"
+  },
+  {
+    "arm": "zero5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-19",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-18"
+  },
+  {
+    "arm": "zero5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-20",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-19"
+  },
+  {
+    "arm": "zero5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-21",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-20"
+  },
+  {
+    "arm": "zero5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-22",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-21"
+  },
+  {
+    "arm": "zero5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-23",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-22"
+  },
+  {
+    "arm": "zero5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-24",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-23"
+  },
+  {
+    "arm": "zero5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-25",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-24"
+  },
+  {
+    "arm": "zero5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-26",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-25"
+  },
+  {
+    "arm": "zero5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-27",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-26"
+  },
+  {
+    "arm": "zero5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-28",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-27"
+  },
+  {
+    "arm": "zero5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-29",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-28"
+  },
+  {
+    "arm": "zero5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-30",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-29"
+  },
+  {
+    "arm": "day5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-01",
+    "training_end": "2026-08-31",
+    "context_end": "2026-08-31"
+  },
+  {
+    "arm": "day5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-02",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-01"
+  },
+  {
+    "arm": "day5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-03",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-02"
+  },
+  {
+    "arm": "day5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-04",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-03"
+  },
+  {
+    "arm": "day5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-05",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-04"
+  },
+  {
+    "arm": "day5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-06",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-05"
+  },
+  {
+    "arm": "day5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-07",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-06"
+  },
+  {
+    "arm": "day5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-08",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-07"
+  },
+  {
+    "arm": "day5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-09",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-08"
+  },
+  {
+    "arm": "day5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-10",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-09"
+  },
+  {
+    "arm": "day5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-11",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-10"
+  },
+  {
+    "arm": "day5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-12",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-11"
+  },
+  {
+    "arm": "day5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-13",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-12"
+  },
+  {
+    "arm": "day5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-14",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-13"
+  },
+  {
+    "arm": "day5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-15",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-14"
+  },
+  {
+    "arm": "day5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-16",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-15"
+  },
+  {
+    "arm": "day5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-17",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-16"
+  },
+  {
+    "arm": "day5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-19",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-18"
+  },
+  {
+    "arm": "day5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-20",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-19"
+  },
+  {
+    "arm": "day5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-21",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-20"
+  },
+  {
+    "arm": "day5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-22",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-21"
+  },
+  {
+    "arm": "day5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-23",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-22"
+  },
+  {
+    "arm": "day5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-24",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-23"
+  },
+  {
+    "arm": "day5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-25",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-24"
+  },
+  {
+    "arm": "day5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-26",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-25"
+  },
+  {
+    "arm": "day5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-27",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-26"
+  },
+  {
+    "arm": "day5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-28",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-27"
+  },
+  {
+    "arm": "day5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-29",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-28"
+  },
+  {
+    "arm": "day5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-30",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-29"
+  },
+  {
+    "arm": "pooled_day5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-01",
+    "training_end": "2026-08-31",
+    "context_end": "2026-08-31"
+  },
+  {
+    "arm": "pooled_day5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-02",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-01"
+  },
+  {
+    "arm": "pooled_day5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-03",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-02"
+  },
+  {
+    "arm": "pooled_day5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-04",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-03"
+  },
+  {
+    "arm": "pooled_day5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-05",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-04"
+  },
+  {
+    "arm": "pooled_day5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-06",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-05"
+  },
+  {
+    "arm": "pooled_day5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-07",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-06"
+  },
+  {
+    "arm": "pooled_day5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-08",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-07"
+  },
+  {
+    "arm": "pooled_day5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-09",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-08"
+  },
+  {
+    "arm": "pooled_day5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-10",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-09"
+  },
+  {
+    "arm": "pooled_day5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-11",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-10"
+  },
+  {
+    "arm": "pooled_day5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-12",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-11"
+  },
+  {
+    "arm": "pooled_day5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-13",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-12"
+  },
+  {
+    "arm": "pooled_day5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-14",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-13"
+  },
+  {
+    "arm": "pooled_day5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-15",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-14"
+  },
+  {
+    "arm": "pooled_day5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-16",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-15"
+  },
+  {
+    "arm": "pooled_day5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-17",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-16"
+  },
+  {
+    "arm": "pooled_day5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-19",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-18"
+  },
+  {
+    "arm": "pooled_day5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-20",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-19"
+  },
+  {
+    "arm": "pooled_day5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-21",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-20"
+  },
+  {
+    "arm": "pooled_day5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-22",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-21"
+  },
+  {
+    "arm": "pooled_day5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-23",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-22"
+  },
+  {
+    "arm": "pooled_day5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-24",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-23"
+  },
+  {
+    "arm": "pooled_day5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-25",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-24"
+  },
+  {
+    "arm": "pooled_day5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-26",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-25"
+  },
+  {
+    "arm": "pooled_day5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-27",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-26"
+  },
+  {
+    "arm": "pooled_day5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-28",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-27"
+  },
+  {
+    "arm": "pooled_day5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-29",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-28"
+  },
+  {
+    "arm": "pooled_day5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-30",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-29"
+  },
+  {
+    "arm": "window5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-01",
+    "training_end": "2026-08-31",
+    "context_end": "2026-08-31"
+  },
+  {
+    "arm": "window5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-02",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-01"
+  },
+  {
+    "arm": "window5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-03",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-02"
+  },
+  {
+    "arm": "window5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-04",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-03"
+  },
+  {
+    "arm": "window5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-05",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-04"
+  },
+  {
+    "arm": "window5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-06",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-05"
+  },
+  {
+    "arm": "window5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-07",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-06"
+  },
+  {
+    "arm": "window5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-08",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-07"
+  },
+  {
+    "arm": "window5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-09",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-08"
+  },
+  {
+    "arm": "window5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-10",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-09"
+  },
+  {
+    "arm": "window5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-11",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-10"
+  },
+  {
+    "arm": "window5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-12",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-11"
+  },
+  {
+    "arm": "window5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-13",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-12"
+  },
+  {
+    "arm": "window5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-14",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-13"
+  },
+  {
+    "arm": "window5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-15",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-14"
+  },
+  {
+    "arm": "window5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-16",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-15"
+  },
+  {
+    "arm": "window5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-17",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-16"
+  },
+  {
+    "arm": "window5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-19",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-18"
+  },
+  {
+    "arm": "window5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-20",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-19"
+  },
+  {
+    "arm": "window5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-21",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-20"
+  },
+  {
+    "arm": "window5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-22",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-21"
+  },
+  {
+    "arm": "window5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-23",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-22"
+  },
+  {
+    "arm": "window5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-24",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-23"
+  },
+  {
+    "arm": "window5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-25",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-24"
+  },
+  {
+    "arm": "window5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-26",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-25"
+  },
+  {
+    "arm": "window5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-27",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-26"
+  },
+  {
+    "arm": "window5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-28",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-27"
+  },
+  {
+    "arm": "window5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-29",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-28"
+  },
+  {
+    "arm": "window5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-30",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-29"
+  },
+  {
+    "arm": "pooled_window5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-01",
+    "training_end": "2026-08-31",
+    "context_end": "2026-08-31"
+  },
+  {
+    "arm": "pooled_window5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-02",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-01"
+  },
+  {
+    "arm": "pooled_window5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-03",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-02"
+  },
+  {
+    "arm": "pooled_window5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-04",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-03"
+  },
+  {
+    "arm": "pooled_window5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-05",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-04"
+  },
+  {
+    "arm": "pooled_window5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-06",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-05"
+  },
+  {
+    "arm": "pooled_window5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-07",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-06"
+  },
+  {
+    "arm": "pooled_window5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-08",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-07"
+  },
+  {
+    "arm": "pooled_window5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-09",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-08"
+  },
+  {
+    "arm": "pooled_window5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-10",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-09"
+  },
+  {
+    "arm": "pooled_window5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-11",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-10"
+  },
+  {
+    "arm": "pooled_window5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-12",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-11"
+  },
+  {
+    "arm": "pooled_window5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-13",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-12"
+  },
+  {
+    "arm": "pooled_window5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-14",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-13"
+  },
+  {
+    "arm": "pooled_window5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-15",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-14"
+  },
+  {
+    "arm": "pooled_window5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-16",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-15"
+  },
+  {
+    "arm": "pooled_window5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-17",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-16"
+  },
+  {
+    "arm": "pooled_window5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-19",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-18"
+  },
+  {
+    "arm": "pooled_window5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-20",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-19"
+  },
+  {
+    "arm": "pooled_window5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-21",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-20"
+  },
+  {
+    "arm": "pooled_window5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-22",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-21"
+  },
+  {
+    "arm": "pooled_window5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-23",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-22"
+  },
+  {
+    "arm": "pooled_window5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-24",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-23"
+  },
+  {
+    "arm": "pooled_window5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-25",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-24"
+  },
+  {
+    "arm": "pooled_window5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-26",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-25"
+  },
+  {
+    "arm": "pooled_window5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-27",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-26"
+  },
+  {
+    "arm": "pooled_window5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-28",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-27"
+  },
+  {
+    "arm": "pooled_window5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-29",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-28"
+  },
+  {
+    "arm": "pooled_window5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-30",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-29"
+  },
+  {
+    "arm": "placebo_day5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-01",
+    "training_end": "2026-08-31",
+    "context_end": "2026-08-31"
+  },
+  {
+    "arm": "placebo_day5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-02",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-01"
+  },
+  {
+    "arm": "placebo_day5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-03",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-02"
+  },
+  {
+    "arm": "placebo_day5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-04",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-03"
+  },
+  {
+    "arm": "placebo_day5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-05",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-04"
+  },
+  {
+    "arm": "placebo_day5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-06",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-05"
+  },
+  {
+    "arm": "placebo_day5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-07",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-06"
+  },
+  {
+    "arm": "placebo_day5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-08",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-07"
+  },
+  {
+    "arm": "placebo_day5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-09",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-08"
+  },
+  {
+    "arm": "placebo_day5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-10",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-09"
+  },
+  {
+    "arm": "placebo_day5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-11",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-10"
+  },
+  {
+    "arm": "placebo_day5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-12",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-11"
+  },
+  {
+    "arm": "placebo_day5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-13",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-12"
+  },
+  {
+    "arm": "placebo_day5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-14",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-13"
+  },
+  {
+    "arm": "placebo_day5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-15",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-14"
+  },
+  {
+    "arm": "placebo_day5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-16",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-15"
+  },
+  {
+    "arm": "placebo_day5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-17",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-16"
+  },
+  {
+    "arm": "placebo_day5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-19",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-18"
+  },
+  {
+    "arm": "placebo_day5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-20",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-19"
+  },
+  {
+    "arm": "placebo_day5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-21",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-20"
+  },
+  {
+    "arm": "placebo_day5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-22",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-21"
+  },
+  {
+    "arm": "placebo_day5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-23",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-22"
+  },
+  {
+    "arm": "placebo_day5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-24",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-23"
+  },
+  {
+    "arm": "placebo_day5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-25",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-24"
+  },
+  {
+    "arm": "placebo_day5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-26",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-25"
+  },
+  {
+    "arm": "placebo_day5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-27",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-26"
+  },
+  {
+    "arm": "placebo_day5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-28",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-27"
+  },
+  {
+    "arm": "placebo_day5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-29",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-28"
+  },
+  {
+    "arm": "placebo_day5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-30",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-29"
+  },
+  {
+    "arm": "placebo_window5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-01",
+    "training_end": "2026-08-31",
+    "context_end": "2026-08-31"
+  },
+  {
+    "arm": "placebo_window5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-02",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-01"
+  },
+  {
+    "arm": "placebo_window5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-03",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-02"
+  },
+  {
+    "arm": "placebo_window5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-04",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-03"
+  },
+  {
+    "arm": "placebo_window5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-05",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-04"
+  },
+  {
+    "arm": "placebo_window5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-06",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-05"
+  },
+  {
+    "arm": "placebo_window5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-07",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-06"
+  },
+  {
+    "arm": "placebo_window5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-08",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-07"
+  },
+  {
+    "arm": "placebo_window5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-09",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-08"
+  },
+  {
+    "arm": "placebo_window5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-10",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-09"
+  },
+  {
+    "arm": "placebo_window5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-11",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-10"
+  },
+  {
+    "arm": "placebo_window5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-12",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-11"
+  },
+  {
+    "arm": "placebo_window5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-13",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-12"
+  },
+  {
+    "arm": "placebo_window5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-14",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-13"
+  },
+  {
+    "arm": "placebo_window5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-15",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-14"
+  },
+  {
+    "arm": "placebo_window5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-16",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-15"
+  },
+  {
+    "arm": "placebo_window5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-17",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-16"
+  },
+  {
+    "arm": "placebo_window5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-19",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-18"
+  },
+  {
+    "arm": "placebo_window5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-20",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-19"
+  },
+  {
+    "arm": "placebo_window5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-21",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-20"
+  },
+  {
+    "arm": "placebo_window5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-22",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-21"
+  },
+  {
+    "arm": "placebo_window5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-23",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-22"
+  },
+  {
+    "arm": "placebo_window5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-24",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-23"
+  },
+  {
+    "arm": "placebo_window5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-25",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-24"
+  },
+  {
+    "arm": "placebo_window5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-26",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-25"
+  },
+  {
+    "arm": "placebo_window5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-27",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-26"
+  },
+  {
+    "arm": "placebo_window5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-28",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-27"
+  },
+  {
+    "arm": "placebo_window5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-29",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-28"
+  },
+  {
+    "arm": "placebo_window5",
+    "state": "MTA_Subway",
+    "origin": "2026-09-30",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-29"
+  },
+  {
+    "arm": "calendar",
+    "state": "MTA_Subway",
+    "origin": "2026-10-01",
+    "training_end": "2026-09-30",
+    "context_end": "2026-09-30"
+  },
+  {
+    "arm": "calendar",
+    "state": "MTA_Subway",
+    "origin": "2026-10-02",
+    "training_end": "2026-09-30",
+    "context_end": "2026-10-01"
+  },
+  {
+    "arm": "calendar",
+    "state": "MTA_Subway",
+    "origin": "2026-10-03",
+    "training_end": "2026-09-30",
+    "context_end": "2026-10-02"
+  },
+  {
+    "arm": "calendar",
+    "state": "MTA_Subway",
+    "origin": "2026-10-04",
+    "training_end": "2026-09-30",
+    "context_end": "2026-10-03"
+  },
+  {
+    "arm": "calendar",
+    "state": "MTA_Subway",
+    "origin": "2026-10-05",
+    "training_end": "2026-09-30",
+    "context_end": "2026-10-04"
+  },
+  {
+    "arm": "calendar",
+    "state": "MTA_Subway",
+    "origin": "2026-10-06",
+    "training_end": "2026-09-30",
+    "context_end": "2026-10-05"
+  },
+  {
+    "arm": "calendar",
+    "state": "MTA_Subway",
+    "origin": "2026-10-07",
+    "training_end": "2026-09-30",
+    "context_end": "2026-10-06"
+  },
+  {
+    "arm": "calendar",
+    "state": "MTA_Subway",
+    "origin": "2026-10-08",
+    "training_end": "2026-09-30",
+    "context_end": "2026-10-07"
+  },
+  {
+    "arm": "zero5",
+    "state": "MTA_Subway",
+    "origin": "2026-10-01",
+    "training_end": "2026-09-30",
+    "context_end": "2026-09-30"
+  },
+  {
+    "arm": "zero5",
+    "state": "MTA_Subway",
+    "origin": "2026-10-02",
+    "training_end": "2026-09-30",
+    "context_end": "2026-10-01"
+  },
+  {
+    "arm": "zero5",
+    "state": "MTA_Subway",
+    "origin": "2026-10-03",
+    "training_end": "2026-09-30",
+    "context_end": "2026-10-02"
+  },
+  {
+    "arm": "zero5",
+    "state": "MTA_Subway",
+    "origin": "2026-10-04",
+    "training_end": "2026-09-30",
+    "context_end": "2026-10-03"
+  },
+  {
+    "arm": "zero5",
+    "state": "MTA_Subway",
+    "origin": "2026-10-05",
+    "training_end": "2026-09-30",
+    "context_end": "2026-10-04"
+  },
+  {
+    "arm": "zero5",
+    "state": "MTA_Subway",
+    "origin": "2026-10-06",
+    "training_end": "2026-09-30",
+    "context_end": "2026-10-05"
+  },
+  {
+    "arm": "zero5",
+    "state": "MTA_Subway",
+    "origin": "2026-10-07",
+    "training_end": "2026-09-30",
+    "context_end": "2026-10-06"
+  },
+  {
+    "arm": "zero5",
+    "state": "MTA_Subway",
+    "origin": "2026-10-08",
+    "training_end": "2026-09-30",
+    "context_end": "2026-10-07"
+  },
+  {
+    "arm": "day5",
+    "state": "MTA_Subway",
+    "origin": "2026-10-01",
+    "training_end": "2026-09-30",
+    "context_end": "2026-09-30"
+  },
+  {
+    "arm": "day5",
+    "state": "MTA_Subway",
+    "origin": "2026-10-02",
+    "training_end": "2026-09-30",
+    "context_end": "2026-10-01"
+  },
+  {
+    "arm": "day5",
+    "state": "MTA_Subway",
+    "origin": "2026-10-03",
+    "training_end": "2026-09-30",
+    "context_end": "2026-10-02"
+  },
+  {
+    "arm": "day5",
+    "state": "MTA_Subway",
+    "origin": "2026-10-04",
+    "training_end": "2026-09-30",
+    "context_end": "2026-10-03"
+  },
+  {
+    "arm": "day5",
+    "state": "MTA_Subway",
+    "origin": "2026-10-05",
+    "training_end": "2026-09-30",
+    "context_end": "2026-10-04"
+  },
+  {
+    "arm": "day5",
+    "state": "MTA_Subway",
+    "origin": "2026-10-06",
+    "training_end": "2026-09-30",
+    "context_end": "2026-10-05"
+  },
+  {
+    "arm": "day5",
+    "state": "MTA_Subway",
+    "origin": "2026-10-07",
+    "training_end": "2026-09-30",
+    "context_end": "2026-10-06"
+  },
+  {
+    "arm": "day5",
+    "state": "MTA_Subway",
+    "origin": "2026-10-08",
+    "training_end": "2026-09-30",
+    "context_end": "2026-10-07"
+  },
+  {
+    "arm": "pooled_day5",
+    "state": "MTA_Subway",
+    "origin": "2026-10-01",
+    "training_end": "2026-09-30",
+    "context_end": "2026-09-30"
+  },
+  {
+    "arm": "pooled_day5",
+    "state": "MTA_Subway",
+    "origin": "2026-10-02",
+    "training_end": "2026-09-30",
+    "context_end": "2026-10-01"
+  },
+  {
+    "arm": "pooled_day5",
+    "state": "MTA_Subway",
+    "origin": "2026-10-03",
+    "training_end": "2026-09-30",
+    "context_end": "2026-10-02"
+  },
+  {
+    "arm": "pooled_day5",
+    "state": "MTA_Subway",
+    "origin": "2026-10-04",
+    "training_end": "2026-09-30",
+    "context_end": "2026-10-03"
+  },
+  {
+    "arm": "pooled_day5",
+    "state": "MTA_Subway",
+    "origin": "2026-10-05",
+    "training_end": "2026-09-30",
+    "context_end": "2026-10-04"
+  },
+  {
+    "arm": "pooled_day5",
+    "state": "MTA_Subway",
+    "origin": "2026-10-06",
+    "training_end": "2026-09-30",
+    "context_end": "2026-10-05"
+  },
+  {
+    "arm": "pooled_day5",
+    "state": "MTA_Subway",
+    "origin": "2026-10-07",
+    "training_end": "2026-09-30",
+    "context_end": "2026-10-06"
+  },
+  {
+    "arm": "pooled_day5",
+    "state": "MTA_Subway",
+    "origin": "2026-10-08",
+    "training_end": "2026-09-30",
+    "context_end": "2026-10-07"
+  },
+  {
+    "arm": "window5",
+    "state": "MTA_Subway",
+    "origin": "2026-10-01",
+    "training_end": "2026-09-30",
+    "context_end": "2026-09-30"
+  },
+  {
+    "arm": "window5",
+    "state": "MTA_Subway",
+    "origin": "2026-10-02",
+    "training_end": "2026-09-30",
+    "context_end": "2026-10-01"
+  },
+  {
+    "arm": "window5",
+    "state": "MTA_Subway",
+    "origin": "2026-10-03",
+    "training_end": "2026-09-30",
+    "context_end": "2026-10-02"
+  },
+  {
+    "arm": "window5",
+    "state": "MTA_Subway",
+    "origin": "2026-10-04",
+    "training_end": "2026-09-30",
+    "context_end": "2026-10-03"
+  },
+  {
+    "arm": "window5",
+    "state": "MTA_Subway",
+    "origin": "2026-10-05",
+    "training_end": "2026-09-30",
+    "context_end": "2026-10-04"
+  },
+  {
+    "arm": "window5",
+    "state": "MTA_Subway",
+    "origin": "2026-10-06",
+    "training_end": "2026-09-30",
+    "context_end": "2026-10-05"
+  },
+  {
+    "arm": "window5",
+    "state": "MTA_Subway",
+    "origin": "2026-10-07",
+    "training_end": "2026-09-30",
+    "context_end": "2026-10-06"
+  },
+  {
+    "arm": "window5",
+    "state": "MTA_Subway",
+    "origin": "2026-10-08",
+    "training_end": "2026-09-30",
+    "context_end": "2026-10-07"
+  },
+  {
+    "arm": "pooled_window5",
+    "state": "MTA_Subway",
+    "origin": "2026-10-01",
+    "training_end": "2026-09-30",
+    "context_end": "2026-09-30"
+  },
+  {
+    "arm": "pooled_window5",
+    "state": "MTA_Subway",
+    "origin": "2026-10-02",
+    "training_end": "2026-09-30",
+    "context_end": "2026-10-01"
+  },
+  {
+    "arm": "pooled_window5",
+    "state": "MTA_Subway",
+    "origin": "2026-10-03",
+    "training_end": "2026-09-30",
+    "context_end": "2026-10-02"
+  },
+  {
+    "arm": "pooled_window5",
+    "state": "MTA_Subway",
+    "origin": "2026-10-04",
+    "training_end": "2026-09-30",
+    "context_end": "2026-10-03"
+  },
+  {
+    "arm": "pooled_window5",
+    "state": "MTA_Subway",
+    "origin": "2026-10-05",
+    "training_end": "2026-09-30",
+    "context_end": "2026-10-04"
+  },
+  {
+    "arm": "pooled_window5",
+    "state": "MTA_Subway",
+    "origin": "2026-10-06",
+    "training_end": "2026-09-30",
+    "context_end": "2026-10-05"
+  },
+  {
+    "arm": "pooled_window5",
+    "state": "MTA_Subway",
+    "origin": "2026-10-07",
+    "training_end": "2026-09-30",
+    "context_end": "2026-10-06"
+  },
+  {
+    "arm": "pooled_window5",
+    "state": "MTA_Subway",
+    "origin": "2026-10-08",
+    "training_end": "2026-09-30",
+    "context_end": "2026-10-07"
+  },
+  {
+    "arm": "placebo_day5",
+    "state": "MTA_Subway",
+    "origin": "2026-10-01",
+    "training_end": "2026-09-30",
+    "context_end": "2026-09-30"
+  },
+  {
+    "arm": "placebo_day5",
+    "state": "MTA_Subway",
+    "origin": "2026-10-02",
+    "training_end": "2026-09-30",
+    "context_end": "2026-10-01"
+  },
+  {
+    "arm": "placebo_day5",
+    "state": "MTA_Subway",
+    "origin": "2026-10-03",
+    "training_end": "2026-09-30",
+    "context_end": "2026-10-02"
+  },
+  {
+    "arm": "placebo_day5",
+    "state": "MTA_Subway",
+    "origin": "2026-10-04",
+    "training_end": "2026-09-30",
+    "context_end": "2026-10-03"
+  },
+  {
+    "arm": "placebo_day5",
+    "state": "MTA_Subway",
+    "origin": "2026-10-05",
+    "training_end": "2026-09-30",
+    "context_end": "2026-10-04"
+  },
+  {
+    "arm": "placebo_day5",
+    "state": "MTA_Subway",
+    "origin": "2026-10-06",
+    "training_end": "2026-09-30",
+    "context_end": "2026-10-05"
+  },
+  {
+    "arm": "placebo_day5",
+    "state": "MTA_Subway",
+    "origin": "2026-10-07",
+    "training_end": "2026-09-30",
+    "context_end": "2026-10-06"
+  },
+  {
+    "arm": "placebo_day5",
+    "state": "MTA_Subway",
+    "origin": "2026-10-08",
+    "training_end": "2026-09-30",
+    "context_end": "2026-10-07"
+  },
+  {
+    "arm": "placebo_window5",
+    "state": "MTA_Subway",
+    "origin": "2026-10-01",
+    "training_end": "2026-09-30",
+    "context_end": "2026-09-30"
+  },
+  {
+    "arm": "placebo_window5",
+    "state": "MTA_Subway",
+    "origin": "2026-10-02",
+    "training_end": "2026-09-30",
+    "context_end": "2026-10-01"
+  },
+  {
+    "arm": "placebo_window5",
+    "state": "MTA_Subway",
+    "origin": "2026-10-03",
+    "training_end": "2026-09-30",
+    "context_end": "2026-10-02"
+  },
+  {
+    "arm": "placebo_window5",
+    "state": "MTA_Subway",
+    "origin": "2026-10-04",
+    "training_end": "2026-09-30",
+    "context_end": "2026-10-03"
+  },
+  {
+    "arm": "placebo_window5",
+    "state": "MTA_Subway",
+    "origin": "2026-10-05",
+    "training_end": "2026-09-30",
+    "context_end": "2026-10-04"
+  },
+  {
+    "arm": "placebo_window5",
+    "state": "MTA_Subway",
+    "origin": "2026-10-06",
+    "training_end": "2026-09-30",
+    "context_end": "2026-10-05"
+  },
+  {
+    "arm": "placebo_window5",
+    "state": "MTA_Subway",
+    "origin": "2026-10-07",
+    "training_end": "2026-09-30",
+    "context_end": "2026-10-06"
+  },
+  {
+    "arm": "placebo_window5",
+    "state": "MTA_Subway",
+    "origin": "2026-10-08",
+    "training_end": "2026-09-30",
+    "context_end": "2026-10-07"
+  }
+]

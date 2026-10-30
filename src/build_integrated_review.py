@@ -59,6 +59,11 @@ def main():
     for name in GATES:
         assert json.loads((ROOT/name).read_text())['status'] == 'pass', name
 
+    clean_mta_path = ROOT/'review/clean_mta_v1/comparison.json'
+    clean_mta = json.loads(clean_mta_path.read_text())
+    assert clean_mta['status'] == 'pass' and clean_mta['rows'] == 4032
+    assert all(item['prediction_csv_byte_identical'] for item in clean_mta['workers'].values())
+
     # Load everything BEFORE creating outputs. An incomplete study is a hard stop.
     sources = {}
 
@@ -328,7 +333,7 @@ Both foundations are compared on unchanged common quantiles 0.1–0.9. Empirical
 
 {main_tables['native']}
 
-Separate audits reconstruct raw source transformations, primary dates, cohorts, weekly scales, actual inputs, local fit/query arrays, label purging, unchanged-forecast reuse and scalar/hierarchical metrics. NYC additionally reruns all 72 past-only validation fits from independently constructed matrices using the same numerical model libraries; maximum validation-MAE difference is zero. Complete clean-environment reruns of all 5,952 direct-comparator forecasts and 2,560 simulation cells are byte-identical. These are internal software checks on one machine, not independent human review or independent foundation reimplementation.
+Separate audits reconstruct raw source transformations, primary dates, cohorts, weekly scales, actual inputs, local fit/query arrays, label purging, unchanged-forecast reuse and scalar/hierarchical metrics. NYC additionally reruns all 72 past-only validation fits from independently constructed matrices using the same numerical model libraries; maximum validation-MAE difference is zero. Complete clean-environment reruns of all 5,952 direct-comparator forecasts and 2,560 simulation cells are byte-identical. A complete isolated-environment NYC rerun also reproduces all 4,032 local forecasts as byte-identical prediction files and all 72 validation MAEs exactly, including the declared SciPy 1.18.1 versus 1.17.0 package-drift sensitivity. These are internal software checks on one machine, not independent human review or independent foundation reimplementation.
 
 Earlier numerical failures remain material. A float64 tree reproduction failed before a separately named float32 revision. In the stricter scalar review, 135 forecasts agree within tolerance, but 15 of 45 Delhi lead-1 near-zero feature entries differ after float32 conversion. That discrepancy is not removed by later tests. Failed calendar preflight, interrupted report generation and output-directory-only recovery are retained with their original source and result hashes.
 
@@ -390,6 +395,7 @@ The supplementary source tables retain all leads, both cohorts, both feature vie
     format_docx(docx)
     assert len(Document(docx).tables) == len(tables) == 8
     inputs = {**{name: sha(ROOT/name) for name in GATES}, **sources,
+        'review/clean_mta_v1/comparison.json': sha(clean_mta_path),
         'src/build_integrated_review.py': sha(__file__)}
     dump(OUT/'build.json', dict(created_utc=datetime.now(timezone.utc).isoformat(),
         status='Integrated internal review draft; PDF/numeric/visual audit pending',
