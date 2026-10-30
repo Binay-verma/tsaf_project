@@ -1,4 +1,18 @@
-# Current status — 30 October 2026
+# Current status — 31 October 2026 India time
+
+## Current review loop: completed evidence versus active work
+
+The latest completed checkpoint is independent NYC holiday locals:4,032model+252naive forecasts, all72past-onlyvalidation fits independently rerun with zeroMAEdifference,624fit/querybytechecks and full source/calendar/point/contrast audit. Read MTA_HOLIDAY_REPLICATION_BRIEF.md. This supplies two independent-source holiday occurrences, not two independent cities or prospective/first-vintage confirmation. Seven-dayobservationbuffer means decisionlead1 uses actualmodelstep8. At that lead SARIMAX calendar/typedday/pooledday MASE=.99947/.79417/1.04067, a counterexample to universalpooling gains. Othermodels/leads/control/ordinary/negative results remain available.
+
+Recentered document-aligned Indian locals are complete/audited:648newrows; both matched528event/216ordinarycase views,240fit/querybytechecks/684unchangedplaceboproofs/all28pairedcontrasts. Flag-onlycorrection separately preserves1,200newlocalrows. All58calendarsemanticreview found KA2025Dussehra1Oct versus old2Oct, plus an MH2022GudiPadwa evidencegap; original ledger/results preserved. No full amendments/human certification.
+
+Foundation work is ACTIVE: Chronos bothoriginalbreadthcohorts complete; TimesFMwholewindow complete/ordinaryrunning. Chronospureencodingrunning; providerqueues continue serially throughNESO→semanticcorrection→recenter→MTA. Fullcombinedaudits and rankings are stillpending. Do not interpret the historical 'no model job remains' statements below as current status. A new integratedv3builder waits for all10fullaudits/gates; no draft is manufactured from missing foundation results. PDF/visual/numericalpresentation QA follows.
+
+Existing5,952directcomparators/512simulationdatasets/2,560methodcells and complete cleanreruns are audited. A complete isolated-environment MTA reproduction is newly registered before its outputs (review/clean_mta_v1):all72selectionfits/all4,032localpredictions, fixed tolerances, no extra foundationlane. CleanSciPy1.18.1 versus original1.17.0 drift is explicit; discrepancies will be retained.77tests pass in the working environment; no new main-result clean-human claim.
+
+Prospective scope audit (review/future_freeze_scope_v1) verifies exactfirstGitblobs, source/issuance/fullIndia-dayeligibility and liveGitHubdisabled_manuallystate. The oldfreeze has TimesFM/Ridge/originalfloat64tree/naives, **noChronos orfestivalfeaturearms**. The laterannex repeatsTimesFMcases; neither directlyconfirms typed/pooling hypotheses. No futurelabels/data-providerrequests/newfutureinference. Primary2026regionalcalendarretrieval currentlyunverified; do not guessfeaturedates. Author affiliation/email intentionallyblank; Indianreuse/humanreview/amendments/futureoutcomes remain external/clockgates.
+
+The following sections retain earlier checkpoint details and results on different cohorts; they do not supersede this current summary.
 
 ## Latest completed phase: past-only interval calibration
 

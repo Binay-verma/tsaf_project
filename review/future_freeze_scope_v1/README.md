@@ -1,0 +1,7 @@
+# Actual scope of the frozen future evidence
+
+The original six-configuration episode and later interval annex remain byte-identical to their first prediction commits. Both were actually issued before the beginning of their eligible full Indian daily targets. The context snapshot hash and live GitHub workflow state pass their checks. The workflow remains disabled_manually; activation is server-side state, not a YAML marker. The only network request reads GitHub workflow metadata; no actual labels, data-provider request or new inference is part of this audit.
+
+The original episode includes **TimesFM history/calendar, Ridge, the original float64 LightGBM and two naive baselines**. It contains **no Chronos or festival-feature comparison**. The interval annex adds three interval arms to the same TimesFM cases with an actual later issue time; it does not add an independent episode. Thus later outcomes cannot directly confirm the main typed-versus-pooled festival hypothesis.
+
+Any new issuance needs a new named protocol and genuinely available covariates, an actual completion time, full India-day eligibility and a public pre-outcome freeze. Do not backdate or modify old forecasts, guess unverified regional dates, activate the paused workflow or treat Git metadata alone as independent server-time certification. Detailed hashes/configurations/timestamps are in audit.json. This is an internal audit, not human approval or future accuracy.

@@ -1,0 +1,66 @@
+{
+  "status": "pass",
+  "audited_utc": "2026-10-30T21:32:15.334378+00:00",
+  "scope": "Exact first-Git-blob preservation, configuration scope, source hash, actual issuance/full India-day chronology and read-only live GitHub workflow state; no actual labels/data-provider request/model inference or independent human review.",
+  "episodes": {
+    "prospective_20261030_v1": {
+      "first_prediction_git_commit": "cabd5982e1948652b9841d6c31a2380f6f314198",
+      "guarded_files": {
+        "protocol.json": "8abe04c1be21ca9b410df2038994e6e93fb5a03787a0e47eb0c5258f311523fa",
+        "predictions.csv": "ad084279882ffd3a65e290541f1e6cd5771cb4eb09d5f01ac84b694756eaf663",
+        "freeze.json": "b9700bbfba85e6ee8981a10576d35ba5d8a5c05d88d454815065404d2d5e712d",
+        "fits.json": "63af1abe6cf6389db9eb4aaa37b2d12d2b6ee9dd6336856b11f4399545afbca4",
+        "selection.json": "e9a19543713c1354eb008df5747fde3af484eab26fa587ca59d999510a3e745f"
+      },
+      "issued_utc": "2026-10-30T05:35:15.929383+00:00",
+      "issued_india": "2026-10-30T11:05:15.929383+05:30",
+      "rows": 252,
+      "eligible_rows": 216,
+      "eligible_start": "2026-10-31",
+      "eligible_end": "2026-11-11",
+      "models": [
+        "last_value",
+        "lightgbm_rich_calendar_monthly",
+        "ridge_rich_calendar_monthly",
+        "timesfm3_calendar",
+        "timesfm3_history",
+        "weekly_repeat"
+      ],
+      "eligible_full_india_days_after_issue": true
+    },
+    "prospective_interval_20261030_v1": {
+      "first_prediction_git_commit": "29bdd984770904a032cebe9efcd2a12a8d5ffc17",
+      "guarded_files": {
+        "registration.json": "f0b9122b5e02f081cb6320effd20e2894177bd13a3517f057a72c04c22a23364",
+        "predictions.csv": "a84520081a1f612f484cbb291d4569d9f8652f4893eb6ae81f74e2b922e70f44",
+        "freeze.json": "b34ebb20607acd626183f856f6d33266a36af074ebb1e96890be76f58b22060a",
+        "calibration_log.json": "313bb1f727cb93a20f3947932eacf6ed412c8cd50dd0f91e4c0bb13fedf0f118",
+        "scoring_registration.json": "ad31d00ba5a8d17e3ef1c8bb433c9b70f51a23584bb3cb4b49b1478dda97c594"
+      },
+      "issued_utc": "2026-10-30T15:12:14.014369+00:00",
+      "issued_india": "2026-10-30T20:42:14.014369+05:30",
+      "rows": 252,
+      "eligible_rows": 216,
+      "eligible_start": "2026-10-31",
+      "eligible_end": "2026-11-11",
+      "models": [
+        "timesfm3_calendar",
+        "timesfm3_history"
+      ],
+      "eligible_full_india_days_after_issue": true
+    }
+  },
+  "source_sha256": "74d22d5e85b022db13d97dad7c84dca5b9dc8e38d23570bf095d870e71a2f690",
+  "workflow_sha256": "c0bbe903d75456a5f1fc7e82fcaabc29df2bbd59c75117e24be6670138795739",
+  "workflow_metadata": {
+    "id": 401464611,
+    "name": "Score frozen 2026 prospective forecasts",
+    "path": ".github/workflows/prospective-evaluation.yml",
+    "state": "disabled_manually",
+    "updated_at": "2026-10-30T08:02:33.000Z"
+  },
+  "chronos_future_forecasts_present": false,
+  "festival_feature_future_comparison_present": false,
+  "interpretation": "The original episode and later interval annex do not directly confirm typed/pooling festival-feature hypotheses. A new competitor or feature issuance requires its own registered protocol, verified future covariates, actual completion time, full local-day eligibility and pre-outcome public freeze. Old forecasts stay immutable.",
+  "public_time_limit": "First committed blobs and prior recorded remote verifications are retained; local Git alone does not independently certify the time of first public server visibility."
+}
