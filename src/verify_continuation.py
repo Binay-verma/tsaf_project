@@ -1,5 +1,6 @@
 """Verify the current continuation checkpoint without external dependencies."""
 from pathlib import Path
+import argparse
 import hashlib
 import json
 import sys
@@ -7,7 +8,13 @@ import sys
 
 def main():
     root = Path(__file__).resolve().parents[1]
-    manifest = json.loads((root/'CONTINUATION_CHECKSUMS_20261030.json').read_text())
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--manifest', type=Path)
+    args = parser.parse_args()
+    default = ('GITHUB_CHECKSUMS_20261030.json' if
+               (root/'GITHUB_CHECKSUMS_20261030.json').is_file()
+               else 'CONTINUATION_CHECKSUMS_20261030.json')
+    manifest = json.loads((args.manifest or root/default).read_text())
     bad = []
     for name, expected in manifest['files'].items():
         path = root/name

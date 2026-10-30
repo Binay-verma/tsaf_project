@@ -20,7 +20,7 @@ Next: freeze and run stronger causal local histories/refit comparisons in a new 
 
 ## GitHub synchronization preference
 
-The user requests pushes after completed tasks and explicitly authorized the full project, including data/results/evidence, to `Binay-verma/tsaf_project`. The Git checkout is `/workspace/tsaf_project`; `/workspace/tsfm_india` remains the original working copy. The remote was empty at preparation. Complete normal commits/pushes from the Git checkout, verify remote SHA, preserve attribution and do not force-push. Prefer the Git checkout for subsequent development so it does not diverge from the original working copy.
+The user requests pushes after completed tasks and explicitly authorized the full project, including data/results/evidence, to `Binay-verma/tsaf_project`. The Git checkout is `/workspace/tsaf_project`; `/workspace/tsfm_india` remains the original working copy. The initial full-project push to `main` was verified at commit `eb6e9b0b9cc8c4dcc0778cc82d3af65b1dd8d223`. A follow-up metadata commit records this result. `src/verify_continuation.py` now defaults to `GITHUB_CHECKSUMS_20261030.json` when present; older manifests remain historical. Complete normal commits/pushes from the Git checkout, verify remote SHA, preserve attribution and do not force-push. Prefer the Git checkout for subsequent development so it does not diverge from the original working copy.
 
 ## Goal and user intent
 

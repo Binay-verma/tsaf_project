@@ -63,4 +63,4 @@ cd /workspace/tsfm_india
 python src/verify_continuation.py
 ```
 
-The last verifier uses a new versioned continuation manifest. Original transfer manifests are preserved as historical evidence; they will flag intentional handoff/work-log edits. Completed experiment runners refuse to overwrite predictions. Use new versioned protocols/directories for changed methods, and treat subsequent artifact changes as a new checkpoint.
+The last verifier uses the current GitHub checkpoint manifest when present, otherwise the earlier continuation manifest. The full project was pushed to `Binay-verma/tsaf_project` on `main`, with local/remote SHA equality verified. Use `/workspace/tsaf_project` for subsequent Git-tracked development. Original transfer manifests are preserved as historical evidence; they will flag intentional handoff/work-log edits. Completed experiment runners refuse to overwrite predictions. Use new versioned protocols/directories for changed methods, and treat subsequent artifact changes as a new checkpoint.
