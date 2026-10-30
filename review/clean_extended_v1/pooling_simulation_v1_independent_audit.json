@@ -1,0 +1,7 @@
+{
+  "status": "pass",
+  "cells": 2560,
+  "datasets": 512,
+  "max_metric_difference": 1.0658141036401503e-14,
+  "scope": "Separate normal-equation estimator, test-mask and score/paired-MonteCarlo arithmetic. Shares registered generator; does not independently validate generator assumptions or real-data claims."
+}

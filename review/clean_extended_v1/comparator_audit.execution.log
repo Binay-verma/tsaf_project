@@ -1,0 +1,11 @@
+{
+  "status": "pass",
+  "scope": "Internal separately implemented scalar/calendar forecast, cutoff and metric audit; not independent human review or exact closest-paper replication.",
+  "rows": 5952,
+  "contexts": 686,
+  "max_scalar_prediction_difference_GWh": 2.2737367544323206e-13,
+  "tolerance_GWh": 1e-07,
+  "no_future_labels": true,
+  "recorded_labels_only": true,
+  "all_planned_cases": true
+}

@@ -1,0 +1,32 @@
+{
+  "status": "completed_local_only",
+  "completed_utc": "2026-10-30T18:09:23.876605+00:00",
+  "rows": 23808,
+  "cohorts": {
+    "event_window": {
+      "rows": 16896,
+      "cases_per_arm": 528,
+      "models": [
+        "ridge",
+        "lightgbm",
+        "lightgbm_capacity2",
+        "sarimax"
+      ],
+      "source_scale_metric_audit": "pass",
+      "predictions_sha256": "9ed099206e721b2716cc23070c1701de27c4d8c1230628ea7306519977130a3c"
+    },
+    "ordinary": {
+      "rows": 6912,
+      "cases_per_arm": 216,
+      "models": [
+        "ridge",
+        "lightgbm",
+        "lightgbm_capacity2",
+        "sarimax"
+      ],
+      "source_scale_metric_audit": "pass",
+      "predictions_sha256": "c38cface7df695a8dba582a38097f74ae70dad7c050aad78a669d03d0ea37d0e"
+    }
+  },
+  "note": "Independent scalar metric/source check; full fitting/support/input audit runs after all six models finish. Not complete main comparison."
+}

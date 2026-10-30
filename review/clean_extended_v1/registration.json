@@ -1,0 +1,17 @@
+{
+  "created_utc": "2026-10-30T17:48:50.077027+00:00",
+  "status": "Registered before clean rerun outputs; complete original forecast/seed cells, no selected subset.",
+  "source_root": "/tmp/tsfm-clean-extended-v1",
+  "python": "/workspace/tsfm-clean-review/bin/python",
+  "scope": "Clean no-system-package environment rerun of5952daily comparator forecasts and2560simulation cells using exact source/input copies. Plus separate scalar/estimator audits already done. Same machine; not independent human or full foundation-model rerun.",
+  "absolute_prediction_tolerance_GWh": 1e-07,
+  "absolute_simulation_metric_tolerance": 1e-10,
+  "record_exact_hash_and_last_decimal_differences": true,
+  "packages": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.8.0",
+    "lightgbm": "4.7.0"
+  }
+}

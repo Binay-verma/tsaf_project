@@ -1,0 +1,41 @@
+{
+  "status": "pass",
+  "completed_utc": "2026-10-30T18:04:46.028631+00:00",
+  "comparisons": {
+    "event_comparators_v1": {
+      "rows": 5952,
+      "source_file": "predictions.csv",
+      "original_sha256": "3bf699cca7f120409e29a91a2cccebbbac2262d6e60a2a7a071577eace9b0ee3",
+      "clean_sha256": "3bf699cca7f120409e29a91a2cccebbbac2262d6e60a2a7a071577eace9b0ee3",
+      "exact_file_equal": true,
+      "numeric_rows_with_any_difference": 0,
+      "max_absolute_differences": {
+        "prediction": 0.0,
+        "actual": 0.0,
+        "mase_scale": 0.0,
+        "encoding_category_n": 0.0,
+        "baseline_GWh": 0.0
+      },
+      "tolerance": 1e-07
+    },
+    "pooling_simulation_v1": {
+      "rows": 2560,
+      "source_file": "seed_results.csv",
+      "original_sha256": "13e985f2004f3aa007042d47cb3a53ab42360d6e910b64094086baaa9ec45dae",
+      "clean_sha256": "13e985f2004f3aa007042d47cb3a53ab42360d6e910b64094086baaa9ec45dae",
+      "exact_file_equal": true,
+      "numeric_rows_with_any_difference": 0,
+      "max_absolute_differences": {
+        "MAE_all": 0.0,
+        "MAE_event": 0.0,
+        "MAE_ordinary": 0.0,
+        "coefficient_MSE": 0.0,
+        "event_test_days": 0.0,
+        "train_events": 0.0,
+        "test_events": 0.0
+      },
+      "tolerance": 1e-10
+    }
+  },
+  "scope": "Full exact-source/input reruns in separate no-system-package environment plus separately implemented scalar/estimator audits. Same machine, no independent human and no new foundation-model rerun. Original stricter pooled matrix discrepancy remains unchanged."
+}

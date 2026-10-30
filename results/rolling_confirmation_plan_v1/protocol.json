@@ -1,0 +1,61 @@
+{
+  "created_utc": "2026-10-30T17:52:29.055053+00:00",
+  "status": "Future manual study PLAN/contract only; not activated, no forecasts or source captures issued. Existing workflow stays paused.",
+  "scientific_question": "Prospective persistence/failure of typed versus pooled sparse-event representation under an explicit publication-availability bridge.",
+  "first_issuance": "2026-11-16T09:00:00+00:00",
+  "last_issuance": "2027-11-08T09:00:00+00:00",
+  "issuances": 52,
+  "schedule": "EveryMonday09:00UTC,16November2026\u20138November2027; actual publication no later09:59UTC. Missed/late/incomplete runs are recorded and never backdated/replaced by hindsight forecasts.",
+  "availability": "At each decision dateD inAsia/Kolkata, use only source labels throughD-2.730calendar-day context endingD-2; causal history fill allowed but score only recorded labels. Models forecast16steps fromD-1; decision leads1/7/14 targetD+1/D+7/D+14, corresponding model steps3/9/16. This differs explicitly from ideal-lag historical leads; no past-day lead1 score.",
+  "models": [
+    "ridge_fixed10",
+    "tree_leaf20_fixed",
+    "tree_leaf2_fixed",
+    "sarimax_fixed",
+    "chronos",
+    "timesfm"
+  ],
+  "arms": [
+    "calendar",
+    "zero5",
+    "day5",
+    "pooled_day5",
+    "window5",
+    "pooled_window5",
+    "placebo_day5",
+    "placebo_window5"
+  ],
+  "states": [
+    "Delhi",
+    "Karnataka",
+    "Maharashtra"
+  ],
+  "decision_leads": [
+    1,
+    7,
+    14
+  ],
+  "model_steps": [
+    3,
+    9,
+    16
+  ],
+  "weights": "Exact unchanged pinned Chronos2 andTimesFM3 identities from existing audits; no new checkpoint/fine-tuning or outcome-selected configuration. Context730; native quantiles retained.",
+  "local_budgets": "Refit everyissuance on available730calendar days. Rich27history+13calendar+declaredextra. Ridgealpha10; deterministic float32tree7leaves/200estimators/learning_rate.05/L2=10, minleaf20and2reported separately; fixed SARIMAX(1,0,0)x(1,0,0,7), no trend. Direct local regressions use actual model leads3/9/16, not historical1/7/14. No prospective hyperparameter search.",
+  "calendar": "Before activation, complete state-scoped named calendar and placebo ledger for every used2024\u20132027context/forecast date, with primary document and notice timestamp. Annual-as-issued definition; retain both declared main/subsidiary dates. Register dated amendments before issuance, hash full used ledger perissuance, never alter past covariates. Missing futureyear coverage blocks issuance rather than silently assigningzero. No assertion allamendments/humansignoffcomplete.",
+  "data": "SameIndianprimarylineage, so this is prospective, NOT source-independent. Eachactualinputsnapshot/time/hash archived asobserved. Source permission/report-day/unit/revision issues must be disclosed; publication-vintage tracking does not resolve historical imputation.",
+  "outputs": "Before eligible targets, write append-only points/nativequantiles, actual issuancetime, input/model/package/datehashes, support/failure logs; normalGitpush and remotecommit verification. Preserve failedfits and missedissuances; no favourable-case intersection or rescheduled hindsightissue.",
+  "scoring": "Separate collector implementation required before activation: after full14day targetperiod, preserve first complete actual snapshot with provenance. Score exact issued cases, bothmodels/locals/allarms, ordinarydays and datedfamilywindows; sharedsourcevintage, fixedpreyearweeklyscale. Native80coverage/width/pinball/WIS, crossingsunmodified. No selection on errors or calibration retuning. FirstforecastGitblob guards and actual timestamp checks mandatory.",
+  "dependence": "Weekly overlappinghorizons and3states share events. Report perissuance/state/family/year cases; use event/series blocks only when enough independent clusters, otherwise descriptive contrasts. Onefutureeventyear does not create manyindependent annual events.",
+  "prerequisites": [
+    "dated2026\u20132027ledger and final target/reportday/unit/source terms audit",
+    "model runner plus source capture/score adapters implemented and fixturetested underthisavailabilitybridge",
+    "actualmanualissuance atscheduledfuturetime with firstGitcommit/time guards; contractvalidator alone is not an operational runner"
+  ],
+  "external_gates": "Humanreview, rightsholderresponse and futureobservations are not created by thisplan.",
+  "input_hashes": {
+    "src/rolling_confirmation_plan.py": "313c49dcd90f875452243db9f8bf95b75719084c3cf887216453d38240405e5c",
+    "src/test_rolling_confirmation_plan.py": "e89ca7ec5e71e7ba7c6af27f5f743e7f11d3e7126b921955b11a2b5bfb5e9ba0"
+  },
+  "schedule_sha256": "310c63d57341b38a452f654281c7c007fd07f1621f3851beb2fde25d9c37bf84"
+}
