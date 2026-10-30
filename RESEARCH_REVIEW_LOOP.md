@@ -20,7 +20,7 @@ Current sequence:
 | Independent NESO source and archive-delay sensitivity |3,072local+192naive rows complete and separately audited; both foundation lanes queued after encodings|Actual-only DST-checked source, past-only selection,4,608model+192naive rows, separate audit|
 | Focused manuscript |Builder waits for completed/audited breadth; integrate later registered evidence in a new version|Readable MD/DOCX/PDF, verified numbers/figures and current claims|
 | Future rolling confirmation |Plan/contract only; not activated|Dated ledger and full capture/runner/scorer/time guards before future issuances; later observations required|
-| Named-calendar semantic correction |KA2025Dussehra mismatch found by document review; old results preserved, new correction comparison next|Same-case document-aligned sensitivity; no error-selected dates|
+| Named-calendar semantic correction |KA2025Dussehra mismatch found by document review; old results preserved; v2correction protocol frozen before outputs (2,640plannedrows); v1preflightfailure retained|Same-case document-aligned sensitivity; no error-selected dates|
 | Source rights, calendar amendments, independent review |Open external/provenance gates|Actual authoritative evidence or human review, not another model fit|
 
 College/department and corresponding-author email remain intentionally blank at the author’s request. A research loop cannot guarantee journal acceptance or create future observations. Continue executable gaps and report the actual boundary when the remaining work depends on those prerequisites.

@@ -1,0 +1,5 @@
+{
+  "observed_utc": "2026-10-30T19:13:40.097261+00:00",
+  "status": "stopped_before_any_model_outputs",
+  "reason": "New pooled channel names used pooled_day/window instead of original event_day/window. Numeric checks passed but complete input-key identity outside corrected dates was not preserved. No corrected inference/score inspected. Retain version1registration/source, use separately registered version2 with names preserved."
+}

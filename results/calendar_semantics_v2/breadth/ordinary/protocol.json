@@ -1,0 +1,103 @@
+{
+  "experiment": "calendar_semantics_v2/breadth/ordinary",
+  "created_utc": "2026-10-30T19:13:41.530533+00:00",
+  "status": "Exploratory document-aligned correction fixed before correctedoutcomes. Preserve original known-mismatch results, no result-driven date selection.",
+  "primary": "Same528parent event-window cases for ALL six variants and eight arms, not just anchor targets. Equal states within year, years within family, families overall.",
+  "secondary": "216ordinary cases:12target dates/state/year, three leads. First eligible requested weekday in each month; weekday=(month-1+3*(year-2024))mod7. Exclude+/-3days around every annual-as-issued and named holiday. Targets14January\u201318December keep every730+14context within2022\u20132025. No target magnitude/error selects dates. This is a seasonally spread bounded sample, not all daily cases.",
+  "years": [
+    2024,
+    2025
+  ],
+  "ledger_years": [
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "families": [
+    "Holi",
+    "Dussehra",
+    "Ganesh_Chaturthi",
+    "Ugadi_Gudi_Padwa",
+    "Diwali"
+  ],
+  "arms": [
+    "calendar",
+    "day5",
+    "pooled_day5",
+    "window5",
+    "pooled_window5"
+  ],
+  "regression_extra_arms": [],
+  "features": "Same frozen parent named dates and placebo shifts. Typed5 versus pooled5 has equal18totalchannels (13calendar+5event); pooled5=unionflag+4zeros. Calendar13 and zero5 are dimension controls. Both day/window and active placebos retained; no arm selected using new errors. One-vs-five padding is already separately tested and is not rerun here.",
+  "controls": "Same5/35zero channels; same-size active placebo day/window/offset channels. One seeded family/state/year shift by a multiple of7within28\u201342days; no overlap of placebo windows with any registered true window in that state/year. Not a randomization distribution.",
+  "local_models": "Rich27history+13ordinary-calendar monthly Ridge/LightGBM; retain each state/year/lead original rich_calendar pre-year-selected parameters for ALL new arms. No new feature/parameter search. Tree interface float32, deterministic1thread. Capacity sensitivity changes only min_child_samples to2 for all6arms; report separately, never select it by evaluated errors.",
+  "sparse_events": "Day indicators may have only1\u20132prior examples, below tree leaf constraints. Log training/context support; weak/ignored indicators are not evidence of intrinsic irrelevance. Additive features can also affect non-event days.",
+  "sarimax": "Fixed(1,0,0)x(1,0,0,7), no trend with13calendar plus0/5event channels. Annual pre-year730day fit; causal past fill and state updates only. Training-only L-BFGS150,500thenPowell500 convergence retries; retain failures.",
+  "foundation_models": "Same pinned weights and inference settings as parent except batch16 to amortise wider-panel overhead;2threads/seed42/730context/14leads. First batch everyarm checked against solo forecasts. Native quantiles retained unchanged. Actual-input hashes and future-target perturbation every task.",
+  "batch": 16,
+  "threads": 2,
+  "seed": 42,
+  "context": 730,
+  "horizon": 14,
+  "availability": "All used event covariate dates in training or inference must lie within2022\u20132025ledger coverage. Reused pre-year hyperparameters were selected WITHOUT these new event identities. This avoids needing an unaudited2021event-feature fitting block. No claim of fully reconstructed historical publication availability.",
+  "metrics": "Same original hierarchical MAE/MASE and nativecommon9quantile/80coverage/width/WIS, allleads/arms. Report paired corrected-minus-original on fixedsubset AND fullreusedmatrix; no choosing date fromerrors, no causal/effectiveness/finalamendmentclaim.",
+  "limits": [
+    "Two historical years; source/proxy overlap and publication revisions unresolved",
+    "Annual-as-issued dates, not complete amendment certification or statewide closure evidence",
+    "Dussehra2025/Gandhi and spring2025/Eid overlap",
+    "Legacy Diwali subset is not every named Diwali-office holiday",
+    "One placebo seed and fixed representation are bounded controls",
+    "Ordinary monthly targets are not independent replications or exhaustive all-day coverage",
+    "Two historical event years; all outcomes remain exploratory",
+    "No source permission, external human review, new future outcome or automation change"
+  ],
+  "input_hashes": {
+    "src/calendar_semantics_study_v2.py": "0bdbbfd084d65bc8b3d346fe9257e701ed8ef084bc09bc3168a50eb2cd913411",
+    "src/semantics_encoding_engine_v2.py": "0e9c8f5e67d47327a624acfcdec5f33cc54f53c2697d37210b2893a425fd1ef7",
+    "src/test_calendar_semantics_study_v2.py": "c7e8aa0041a660cce2f5f58b78c01296e2a7bc5981a223b1526a37beaabbe713",
+    "src/breadth_model_engine_v1.py": "051861ddc30513087ec726a8215f42d700a4c26ca43584031cdcc41026e6914d",
+    "src/calendar_encoding_study.py": "2ef96ce72b30d8b0cb7835f9d12f0752aef09e2623a77c8b7d9cba82a584ccc3",
+    "src/forecasting.py": "8a6b9b1e8632a2bf77d9855a1d370ed23c350ffe731138787e30c609a59ec21e",
+    "src/robust_baselines.py": "568152c6351826389ae8248fe50fe5bcde5f8db82dfe715c691d6a5f63bca88c",
+    "src/festival_feature_design.py": "54e9dd42e3784b5f20208f08eb54ff823914fd342237b0fccda28bf08cb271c2",
+    "src/pooled_festival_experiment.py": "b64ed6421651e4fcd749b7d009d57045bcb279aaba754e2baa379155dd905971",
+    "src/breadth_study.py": "6ef402265b893ffed4ee5049d53ab3191829b43cf9e34c83dfd3d0e2814a887d",
+    "results/calendar_semantics_v2/anchors_2022_2025.csv": "8b4ff85104ee7cfd525f3f0b221995d57db43e12583de1897b28c2cea25f68ff",
+    "results/festival_features_v1/anchors_2022_2025.csv": "7542c6a6a3d84dcf6011872d3cdfa9e45bcca36e90a8746241e41800f19596ec",
+    "results/festival_features_v1/placebo_anchors.csv": "8968decf13055b0abb3fead79390fa6889c6d27899c7168e47fd2f0eb9c7a0a0",
+    "data/external/latest_state_energy_GWh.csv": "74d22d5e85b022db13d97dad7c84dca5b9dc8e38d23570bf095d870e71a2f690",
+    "results/strong_refit_v1/selected.csv": "431807cdd1a9bea5a8df7081e90fe099d34128a6924fae23faa24ef2d85bb087",
+    "results/stable_tree_refit_v2/selected.csv": "e041729975c40faa74d5d4ac27b82f9f5edecc26d3fde441124606a130ce448c",
+    "results/strong_refit_v1/protocol.json": "e0c7d8532de5faf31d16c6d8552e78ecc7f60eedfc3c977f0f93990ad8d37324",
+    "results/stable_tree_refit_v2/protocol.json": "4da8160ce45801e1b9e8ca134334a46bfd9d29f1f5ed6d28e76a988cb1fe34c3",
+    "review/used_calendar_v3/KA2025_indexed_mirror.pdf": "a8dfbaddab5a9e2c634507b258059cd53cf1d610ac2423525369b60df708f31d",
+    "review/used_calendar_v3/all58_used_anchor_review.csv": "20634b95ec7a3c1297497ff6f9d78de6ac1638a30f7ff3c19492f03cf5f65eee"
+  },
+  "design_hashes": {
+    "primary_cases.csv": "1d4c417402041d5ac312f26fee49b4af8fbaac8dad0299f15854a760adfb3a58",
+    "window_cases.csv": "1d4c417402041d5ac312f26fee49b4af8fbaac8dad0299f15854a760adfb3a58"
+  },
+  "packages": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scikit-learn": "1.8.0",
+    "lightgbm": "4.7.0",
+    "statsmodels": "0.15.0",
+    "torch": "2.15.0+cpu",
+    "chronos-forecasting": "2.3.2",
+    "timesfm": "3.0.2"
+  },
+  "question": "Do sparse typed-versus-pooled feature effects persist across complete festival windows, and what costs occur on a seasonal ordinary-day sample?",
+  "cohort": "ordinary",
+  "expected_tasks": 12,
+  "cases_per_arm": 12,
+  "execution_overrides": "Versioned derived engine copies parent logic, removes72-task restriction using protocol expected_tasks, and checks local calendar predictions against original full-daily references. Both case files identical; all6models run all8arms fresh. No parent output reused or overwritten. No hyperparameter search.",
+  "protection_manifest_sha256": "285a69636501c3866b864337882b65a5624c6ac7ee1c8af6d59265d8bc0a7432",
+  "correction": "Exactly one namedanchor: Karnataka2025Dussehra2October to notificationVijayadasami1October. Distinct religiousobservance/officeholiday definitions; mirrorhost/authenticity and finalamendments require review. No claim of final corrected groundtruth.",
+  "cases": "Keep original case/family labels and targetdates. Recompute all Karnataka2025 targetdates>=1September for the fixedarms. All other rows reuse original forecasts only after source/protocol and completeinput equality checks. This is feature-date sensitivity on SAME oldwindow sample, not a newly centered completewindow cohort.",
+  "reuse": "Outside this subset, no source target/covariate changes in730+14foundation blocks, nor localtraining/query blocks or preyearSARIMAXstate-updateexog. Purehistory/zero1/weekdayTE and breadthcalendar/zero/placebos unaffected. Copy unchanged parent predictions with exacthash provenance; do not call them fresh inference.",
+  "selection": "No search/refallback/recalibration. Same weights/context/batch16/2threads/seed42, unchanged past-selected localparameters. Retain five breadtharms including repeatedcalendar as a source/numerical check; seven H-dependent pureencodings.",
+  "parent_protocol_sha256": "652eaf738b8edec4dc41f0c42779b461b2d90272b2443b5d754ebb7f429de225",
+  "parent_cases_sha256": "ebeaa1cdd98ec5c8b76afd92e46974b925131b3e2e466c04795abc7a6dea970a"
+}

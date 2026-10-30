@@ -1,0 +1,14 @@
+{
+  "created_utc": "2026-10-30T19:12:57.984865+00:00",
+  "protocols": {
+    "breadth/event_window": "9982c4f9f68fea3f2dae753e1d4e829f7fd1ba20c09ab86a1c05db3398e1c494",
+    "breadth/ordinary": "6860d32e4cfa376164c4f3babade62bb22b2ac5164f3d9bc6e5b55f09a3e7392",
+    "encoding/event_window": "7957d3ee61b63d22135e680d7aa1335d02fb24967df1191363a73731a9758eee",
+    "encoding/ordinary": "675d5ee3e1108d8110fceaf8652390531f66b7b838455fa6e6664c46ce3cf045"
+  },
+  "new_breadth_rows": 1800,
+  "new_encoding_rows": 840,
+  "new_rows": 2640,
+  "old_forecasts_unchanged": true,
+  "decision": "Source/date-only correction following visualgovernment-document review; no correctedscore inspected. Originalprimarycohort/windowlabels stayfixed; boundedoldwindow limitation explicit."
+}
