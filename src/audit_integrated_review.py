@@ -13,7 +13,7 @@ from docx import Document
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT/'manuscript/integrated_review_v3'
-BASE = ROOT/'results/calendar_recenter_v1/analysis'
+BASE = ROOT/'results/calendar_recenter_recovery_v1/analysis'
 MODELS = ['ridge', 'sarimax', 'lightgbm', 'lightgbm_capacity2', 'chronos', 'timesfm']
 LABELS = {'ridge': 'Rich Ridge', 'sarimax': 'SARIMAX', 'lightgbm': 'Stable LightGBM',
           'lightgbm_capacity2': 'Tree leaf minimum 2', 'chronos': 'Chronos-2', 'timesfm': 'TimesFM-3'}
@@ -56,6 +56,10 @@ def main():
         assert sha(ROOT/name) == expected, name
     for name, expected in build['outputs'].items():
         assert sha(OUT/name) == expected, name
+    source_index = json.loads((OUT/'supplement/source_index.json').read_text())
+    for name, info in source_index.items():
+        assert build['inputs'][info['original']] == info['sha256']
+        assert sha(ROOT/info['original']) == sha(OUT/name) == info['sha256']
     expected = {}
     for cohort, name in [('event_window', 'india_event'), ('ordinary', 'india_ordinary')]:
         expected[name] = scores(read(BASE/'breadth'/cohort/'metrics_balanced.csv'), version=True)
@@ -85,9 +89,17 @@ def main():
         [method]+[fmt(select(comparator, cohort='event_window', method=method,
                             horizon=lead)['MASE']) for lead in [1, 7, 14]]
         for method in ['response_none', 'response_partial', 'response_pooled', 'response_typed']]
+    support = read(ROOT/'results/event_support_v1/associations.csv')
+    expected['support_diagnostics'] = [['Model', 'Support rho', 'Support n', 'Response rho', 'Response n']]
+    for model in MODELS:
+        values = []
+        for metric in ['own_support_ratio', 'heterogeneity_scaled']:
+            row = select(support, model=model, representation='day', horizon=1, scope='all', moderator=metric)
+            values += [fmt(row['spearman']), str(int(row['defined_cells']))]
+        expected['support_diagnostics'].append([LABELS[model]]+values)
     doc = Document(OUT/'Integrated_Review_Binay_Verma.docx')
     metadata = json.loads((OUT/'tables.json').read_text())
-    assert len(doc.tables) == len(metadata) == len(expected) == 8
+    assert len(doc.tables) == len(metadata) == len(expected) == 9
     checked = 0
     for info, table in zip(metadata, doc.tables):
         truth = expected[info['name']]
@@ -98,7 +110,9 @@ def main():
         assert list(rows[0]) == truth[0]
         for record, wanted in zip(rows, truth[1:]):
             for key, value in zip(truth[0], wanted):
-                if value in ['undefined'] or key not in ['Model', 'Method', 'Arm', 'Encoding']:
+                if key in ['Support n', 'Response n']:
+                    assert str(int(record[key])) == value
+                elif value in ['undefined'] or key not in ['Model', 'Method', 'Arm', 'Encoding']:
                     assert fmt(record[key]) == value, (info['name'], key)
                 else:
                     assert record[key] == value
@@ -136,7 +150,7 @@ def main():
     assert 'not independent human review' in text
     audit = dict(status='pass', audited_utc=datetime.now(timezone.utc).isoformat(),
         scope='Internal independent CSV/scalar reconstruction of every integrated DOCX table cell and eight narrative claims; no independent human scientific/visual approval.',
-        tables=8, data_cells_checked=checked, numeric_claims=8, figures=3,
+        tables=9, data_cells_checked=checked, numeric_claims=8, figures=3,
         source_files_checked=len(build['inputs']), docx_sha256=sha(OUT/'Integrated_Review_Binay_Verma.docx'),
         manuscript_sha256=sha(OUT/'MANUSCRIPT.md'), audit_source_sha256=sha(__file__))
     (OUT/'independent_reporting_audit.json').write_text(json.dumps(audit, indent=2)+'\n')

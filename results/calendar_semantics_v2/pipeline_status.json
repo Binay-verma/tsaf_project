@@ -1,0 +1,20 @@
+{
+  "started_utc": "2026-10-30T19:19:35.926918+00:00",
+  "status": "waiting_for_workers_and_parent_audits",
+  "completed_steps": [],
+  "completed_workers": [
+    "breadth/event_window/ridge",
+    "breadth/event_window/lightgbm",
+    "breadth/event_window/lightgbm_capacity2",
+    "breadth/event_window/sarimax",
+    "breadth/event_window/chronos",
+    "breadth/ordinary/ridge",
+    "breadth/ordinary/lightgbm",
+    "breadth/ordinary/lightgbm_capacity2",
+    "breadth/ordinary/sarimax",
+    "breadth/ordinary/chronos",
+    "encoding/event_window/chronos",
+    "encoding/ordinary/chronos"
+  ],
+  "observed_utc": "2026-10-30T22:49:36.581220+00:00"
+}

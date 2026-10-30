@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "/workspace/tsaf_project/src/run_recenter_after_semantics.py", line 34, in <module>
+    p=argparse.ArgumentParser();p.add_argument('worker',choices=['chronos','timesfm']);main(p.parse_args().worker)
+                                                                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/tsaf_project/src/run_recenter_after_semantics.py", line 26, in main
+    subprocess.run([sys.executable,'src/calendar_recenter_study.py',worker,'--group',group],cwd=ROOT,stdout=stream,stderr=subprocess.STDOUT,check=True)
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/workspace/tsaf_project/.venv/bin/python', 'src/calendar_recenter_study.py', 'chronos', '--group', 'aligned_encoding_added']' returned non-zero exit status 1.

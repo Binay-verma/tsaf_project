@@ -1,0 +1,514 @@
+[
+  {
+    "arm": "calendar",
+    "max_abs_difference": 3.0517578125e-05
+  },
+  {
+    "arm": "calendar",
+    "max_abs_difference": 6.103515625e-05
+  },
+  {
+    "arm": "calendar",
+    "max_abs_difference": 3.0517578125e-05
+  },
+  {
+    "arm": "calendar",
+    "max_abs_difference": 6.103515625e-05
+  },
+  {
+    "arm": "calendar",
+    "max_abs_difference": 6.103515625e-05
+  },
+  {
+    "arm": "calendar",
+    "max_abs_difference": 6.103515625e-05
+  },
+  {
+    "arm": "calendar",
+    "max_abs_difference": 6.103515625e-05
+  },
+  {
+    "arm": "calendar",
+    "max_abs_difference": 6.103515625e-05
+  },
+  {
+    "arm": "calendar",
+    "max_abs_difference": 6.103515625e-05
+  },
+  {
+    "arm": "calendar",
+    "max_abs_difference": 6.103515625e-05
+  },
+  {
+    "arm": "calendar",
+    "max_abs_difference": 6.103515625e-05
+  },
+  {
+    "arm": "calendar",
+    "max_abs_difference": 3.0517578125e-05
+  },
+  {
+    "arm": "calendar",
+    "max_abs_difference": 6.103515625e-05
+  },
+  {
+    "arm": "calendar",
+    "max_abs_difference": 6.103515625e-05
+  },
+  {
+    "arm": "calendar",
+    "max_abs_difference": 3.0517578125e-05
+  },
+  {
+    "arm": "calendar",
+    "max_abs_difference": 6.103515625e-05
+  },
+  {
+    "arm": "zero6",
+    "max_abs_difference": 6.103515625e-05
+  },
+  {
+    "arm": "zero6",
+    "max_abs_difference": 3.0517578125e-05
+  },
+  {
+    "arm": "zero6",
+    "max_abs_difference": 3.0517578125e-05
+  },
+  {
+    "arm": "zero6",
+    "max_abs_difference": 6.103515625e-05
+  },
+  {
+    "arm": "zero6",
+    "max_abs_difference": 6.103515625e-05
+  },
+  {
+    "arm": "zero6",
+    "max_abs_difference": 6.103515625e-05
+  },
+  {
+    "arm": "zero6",
+    "max_abs_difference": 6.103515625e-05
+  },
+  {
+    "arm": "zero6",
+    "max_abs_difference": 6.103515625e-05
+  },
+  {
+    "arm": "zero6",
+    "max_abs_difference": 6.103515625e-05
+  },
+  {
+    "arm": "zero6",
+    "max_abs_difference": 6.103515625e-05
+  },
+  {
+    "arm": "zero6",
+    "max_abs_difference": 6.103515625e-05
+  },
+  {
+    "arm": "zero6",
+    "max_abs_difference": 6.103515625e-05
+  },
+  {
+    "arm": "zero6",
+    "max_abs_difference": 6.103515625e-05
+  },
+  {
+    "arm": "zero6",
+    "max_abs_difference": 6.103515625e-05
+  },
+  {
+    "arm": "zero6",
+    "max_abs_difference": 6.103515625e-05
+  },
+  {
+    "arm": "zero6",
+    "max_abs_difference": 6.103515625e-05
+  },
+  {
+    "arm": "day6",
+    "max_abs_difference": 3.0517578125e-05
+  },
+  {
+    "arm": "day6",
+    "max_abs_difference": 3.0517578125e-05
+  },
+  {
+    "arm": "day6",
+    "max_abs_difference": 6.103515625e-05
+  },
+  {
+    "arm": "day6",
+    "max_abs_difference": 6.103515625e-05
+  },
+  {
+    "arm": "day6",
+    "max_abs_difference": 6.103515625e-05
+  },
+  {
+    "arm": "day6",
+    "max_abs_difference": 6.103515625e-05
+  },
+  {
+    "arm": "day6",
+    "max_abs_difference": 6.103515625e-05
+  },
+  {
+    "arm": "day6",
+    "max_abs_difference": 6.103515625e-05
+  },
+  {
+    "arm": "day6",
+    "max_abs_difference": 6.103515625e-05
+  },
+  {
+    "arm": "day6",
+    "max_abs_difference": 3.0517578125e-05
+  },
+  {
+    "arm": "day6",
+    "max_abs_difference": 6.103515625e-05
+  },
+  {
+    "arm": "day6",
+    "max_abs_difference": 6.103515625e-05
+  },
+  {
+    "arm": "day6",
+    "max_abs_difference": 6.103515625e-05
+  },
+  {
+    "arm": "day6",
+    "max_abs_difference": 6.103515625e-05
+  },
+  {
+    "arm": "day6",
+    "max_abs_difference": 6.103515625e-05
+  },
+  {
+    "arm": "day6",
+    "max_abs_difference": 6.103515625e-05
+  },
+  {
+    "arm": "pooled_day6",
+    "max_abs_difference": 3.0517578125e-05
+  },
+  {
+    "arm": "pooled_day6",
+    "max_abs_difference": 3.0517578125e-05
+  },
+  {
+    "arm": "pooled_day6",
+    "max_abs_difference": 6.103515625e-05
+  },
+  {
+    "arm": "pooled_day6",
+    "max_abs_difference": 6.103515625e-05
+  },
+  {
+    "arm": "pooled_day6",
+    "max_abs_difference": 6.103515625e-05
+  },
+  {
+    "arm": "pooled_day6",
+    "max_abs_difference": 3.0517578125e-05
+  },
+  {
+    "arm": "pooled_day6",
+    "max_abs_difference": 6.103515625e-05
+  },
+  {
+    "arm": "pooled_day6",
+    "max_abs_difference": 6.103515625e-05
+  },
+  {
+    "arm": "pooled_day6",
+    "max_abs_difference": 6.103515625e-05
+  },
+  {
+    "arm": "pooled_day6",
+    "max_abs_difference": 6.103515625e-05
+  },
+  {
+    "arm": "pooled_day6",
+    "max_abs_difference": 6.103515625e-05
+  },
+  {
+    "arm": "pooled_day6",
+    "max_abs_difference": 6.103515625e-05
+  },
+  {
+    "arm": "pooled_day6",
+    "max_abs_difference": 6.103515625e-05
+  },
+  {
+    "arm": "pooled_day6",
+    "max_abs_difference": 6.103515625e-05
+  },
+  {
+    "arm": "pooled_day6",
+    "max_abs_difference": 6.103515625e-05
+  },
+  {
+    "arm": "pooled_day6",
+    "max_abs_difference": 6.103515625e-05
+  },
+  {
+    "arm": "window6",
+    "max_abs_difference": 6.103515625e-05
+  },
+  {
+    "arm": "window6",
+    "max_abs_difference": 3.0517578125e-05
+  },
+  {
+    "arm": "window6",
+    "max_abs_difference": 6.103515625e-05
+  },
+  {
+    "arm": "window6",
+    "max_abs_difference": 6.103515625e-05
+  },
+  {
+    "arm": "window6",
+    "max_abs_difference": 6.103515625e-05
+  },
+  {
+    "arm": "window6",
+    "max_abs_difference": 6.103515625e-05
+  },
+  {
+    "arm": "window6",
+    "max_abs_difference": 6.103515625e-05
+  },
+  {
+    "arm": "window6",
+    "max_abs_difference": 6.103515625e-05
+  },
+  {
+    "arm": "window6",
+    "max_abs_difference": 6.103515625e-05
+  },
+  {
+    "arm": "window6",
+    "max_abs_difference": 6.103515625e-05
+  },
+  {
+    "arm": "window6",
+    "max_abs_difference": 3.0517578125e-05
+  },
+  {
+    "arm": "window6",
+    "max_abs_difference": 6.103515625e-05
+  },
+  {
+    "arm": "window6",
+    "max_abs_difference": 6.103515625e-05
+  },
+  {
+    "arm": "window6",
+    "max_abs_difference": 6.103515625e-05
+  },
+  {
+    "arm": "window6",
+    "max_abs_difference": 6.103515625e-05
+  },
+  {
+    "arm": "window6",
+    "max_abs_difference": 6.103515625e-05
+  },
+  {
+    "arm": "pooled_window6",
+    "max_abs_difference": 3.0517578125e-05
+  },
+  {
+    "arm": "pooled_window6",
+    "max_abs_difference": 6.103515625e-05
+  },
+  {
+    "arm": "pooled_window6",
+    "max_abs_difference": 6.103515625e-05
+  },
+  {
+    "arm": "pooled_window6",
+    "max_abs_difference": 6.103515625e-05
+  },
+  {
+    "arm": "pooled_window6",
+    "max_abs_difference": 3.0517578125e-05
+  },
+  {
+    "arm": "pooled_window6",
+    "max_abs_difference": 3.0517578125e-05
+  },
+  {
+    "arm": "pooled_window6",
+    "max_abs_difference": 6.103515625e-05
+  },
+  {
+    "arm": "pooled_window6",
+    "max_abs_difference": 6.103515625e-05
+  },
+  {
+    "arm": "pooled_window6",
+    "max_abs_difference": 3.0517578125e-05
+  },
+  {
+    "arm": "pooled_window6",
+    "max_abs_difference": 6.103515625e-05
+  },
+  {
+    "arm": "pooled_window6",
+    "max_abs_difference": 6.103515625e-05
+  },
+  {
+    "arm": "pooled_window6",
+    "max_abs_difference": 6.103515625e-05
+  },
+  {
+    "arm": "pooled_window6",
+    "max_abs_difference": 3.0517578125e-05
+  },
+  {
+    "arm": "pooled_window6",
+    "max_abs_difference": 6.103515625e-05
+  },
+  {
+    "arm": "pooled_window6",
+    "max_abs_difference": 6.103515625e-05
+  },
+  {
+    "arm": "pooled_window6",
+    "max_abs_difference": 6.103515625e-05
+  },
+  {
+    "arm": "placebo_day6",
+    "max_abs_difference": 6.103515625e-05
+  },
+  {
+    "arm": "placebo_day6",
+    "max_abs_difference": 6.103515625e-05
+  },
+  {
+    "arm": "placebo_day6",
+    "max_abs_difference": 6.103515625e-05
+  },
+  {
+    "arm": "placebo_day6",
+    "max_abs_difference": 6.103515625e-05
+  },
+  {
+    "arm": "placebo_day6",
+    "max_abs_difference": 6.103515625e-05
+  },
+  {
+    "arm": "placebo_day6",
+    "max_abs_difference": 6.103515625e-05
+  },
+  {
+    "arm": "placebo_day6",
+    "max_abs_difference": 6.103515625e-05
+  },
+  {
+    "arm": "placebo_day6",
+    "max_abs_difference": 6.103515625e-05
+  },
+  {
+    "arm": "placebo_day6",
+    "max_abs_difference": 6.103515625e-05
+  },
+  {
+    "arm": "placebo_day6",
+    "max_abs_difference": 6.103515625e-05
+  },
+  {
+    "arm": "placebo_day6",
+    "max_abs_difference": 6.103515625e-05
+  },
+  {
+    "arm": "placebo_day6",
+    "max_abs_difference": 6.103515625e-05
+  },
+  {
+    "arm": "placebo_day6",
+    "max_abs_difference": 6.103515625e-05
+  },
+  {
+    "arm": "placebo_day6",
+    "max_abs_difference": 6.103515625e-05
+  },
+  {
+    "arm": "placebo_day6",
+    "max_abs_difference": 6.103515625e-05
+  },
+  {
+    "arm": "placebo_day6",
+    "max_abs_difference": 6.103515625e-05
+  },
+  {
+    "arm": "placebo_window6",
+    "max_abs_difference": 6.103515625e-05
+  },
+  {
+    "arm": "placebo_window6",
+    "max_abs_difference": 6.103515625e-05
+  },
+  {
+    "arm": "placebo_window6",
+    "max_abs_difference": 6.103515625e-05
+  },
+  {
+    "arm": "placebo_window6",
+    "max_abs_difference": 3.0517578125e-05
+  },
+  {
+    "arm": "placebo_window6",
+    "max_abs_difference": 6.103515625e-05
+  },
+  {
+    "arm": "placebo_window6",
+    "max_abs_difference": 6.103515625e-05
+  },
+  {
+    "arm": "placebo_window6",
+    "max_abs_difference": 6.103515625e-05
+  },
+  {
+    "arm": "placebo_window6",
+    "max_abs_difference": 6.103515625e-05
+  },
+  {
+    "arm": "placebo_window6",
+    "max_abs_difference": 6.103515625e-05
+  },
+  {
+    "arm": "placebo_window6",
+    "max_abs_difference": 3.0517578125e-05
+  },
+  {
+    "arm": "placebo_window6",
+    "max_abs_difference": 3.0517578125e-05
+  },
+  {
+    "arm": "placebo_window6",
+    "max_abs_difference": 6.103515625e-05
+  },
+  {
+    "arm": "placebo_window6",
+    "max_abs_difference": 6.103515625e-05
+  },
+  {
+    "arm": "placebo_window6",
+    "max_abs_difference": 3.0517578125e-05
+  },
+  {
+    "arm": "placebo_window6",
+    "max_abs_difference": 3.0517578125e-05
+  },
+  {
+    "arm": "placebo_window6",
+    "max_abs_difference": 6.103515625e-05
+  }
+]

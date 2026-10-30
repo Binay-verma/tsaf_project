@@ -1,0 +1,9 @@
+{
+  "status": "pass",
+  "completed_utc": "2026-10-30T22:48:47.218990+00:00",
+  "checked_commit": "05e4299b6e1b61e2d42ef58104b27936e2a59664",
+  "manifest_files": 2187,
+  "unit_tests": 87,
+  "scope": "Fresh PUBLIC GitHub clone, continuation manifest and complete unit tests in no-system-packages environment; no weights/privateexternalarchives or model rerun. Same machine, not independent human review.",
+  "limit": "Predates subsequently caught recenter integration error; passing units/hash integrity is not a complete scientific or integration proof. New all-ten-arm regression tests added separately."
+}

@@ -1,0 +1,14 @@
+{
+  "created_utc": "2026-10-30T19:36:29.392564+00:00",
+  "source_hashes": {
+    "src/finalize_calendar_recenter.py": "8f93c7eb4bebef07b364d9e81f34b4ee79b58b98b156e06910dcadab2fba78e1",
+    "src/finalize_calendar_semantics.py": "c40bf35437aebe7d0ae4748941eb74776703dd749e9a5dbbc60aecae7d097c29",
+    "src/finalize_breadth_study.py": "d4676e0c175df0d0b83b08f65ea4cb563ea7b8e9e44db9fe4f209cbd4ffda870"
+  },
+  "registration_sha256": "654b44d717f1bb25e0f0def2f72a55f9ceb0f62ddcd8d404957f961723aeed14",
+  "policy": "Fixedbefore newrecenteredaggregate scores. Completeoriginalfeature and alignedfeature views on identical528recentered/216ordinarycases. Allmodels/arms/leads retained; no selection by theseerrors.",
+  "metrics": "Same registeredstate/year/family hierarchy, recordedlabels/preyearweeklyscale, MAE/MASE and common9nativequantile pinball/80coverage/width/WISmedian. Invalid80propagatesundefined, no crossingrepair or rowindependenceinference.",
+  "composition": "Compare originalfeatures on recentered528cases versus originalfeatures on old528cases separately. This is3targetdates removed/added atsameleads, not an isolatedcalendarfeatureeffect.",
+  "reuse": "Validate everyworker prediction/protocolhash, source/input contracts and exactcase sets. Trueflag/7Hencodings come from v2exceptremovedcases; addedrows/placebos from thisstudy; allother forecasts unchanged. Encodingview adds unchanged13calendar reference from composedbreadth onexactcases/weights.",
+  "limits": "Document-aligned annual-as-issued sensitivity, not amendment-certified groundtruth. One remainingMH2022nameddate evidencegap/two sharedmainexceptions; no independenthuman/rights/firstvintage/untouchedclaim."
+}

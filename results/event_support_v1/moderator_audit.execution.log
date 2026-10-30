@@ -1,0 +1,8 @@
+{
+  "status": "pass",
+  "audited_utc": "2026-10-30T22:24:40.429321+00:00",
+  "scope": "Separate scalar datedcalendar/recordedsupport/excludedordinaryweekdaybaseline/scaledpastresponse/heterogeneity/availability audit; no causal or independent human claim.",
+  "moderator_rows": 1056,
+  "reconstructed_contexts": 942,
+  "source_hash": "493f3b78887cb6c3c5c755ee11e17441b7bd98c007a35417d714455927f0de70"
+}

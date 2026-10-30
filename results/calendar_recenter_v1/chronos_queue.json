@@ -1,0 +1,13 @@
+{
+  "created_utc": "2026-10-30T19:34:58.590457+00:00",
+  "worker": "chronos",
+  "status": "failed",
+  "completed": [
+    "old_added",
+    "aligned_added",
+    "aligned_placebo_event",
+    "aligned_placebo_ordinary",
+    "old_encoding_added"
+  ],
+  "traceback": "Traceback (most recent call last):\n  File \"/workspace/tsaf_project/src/run_recenter_after_semantics.py\", line 26, in main\n    subprocess.run([sys.executable,'src/calendar_recenter_study.py',worker,'--group',group],cwd=ROOT,stdout=stream,stderr=subprocess.STDOUT,check=True)\n  File \"/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/subprocess.py\", line 571, in run\n    raise CalledProcessError(retcode, process.args,\nsubprocess.CalledProcessError: Command '['/workspace/tsaf_project/.venv/bin/python', 'src/calendar_recenter_study.py', 'chronos', '--group', 'aligned_encoding_added']' returned non-zero exit status 1.\n"
+}

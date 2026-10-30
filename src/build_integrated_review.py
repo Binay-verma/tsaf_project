@@ -21,7 +21,7 @@ from festival_feature_design import ROOT, dump, sha
 from report_multifestival import markdown
 
 OUT = ROOT / 'manuscript/integrated_review_v3'
-RECENTER = ROOT / 'results/calendar_recenter_v1/analysis'
+RECENTER = ROOT / 'results/calendar_recenter_recovery_v1/analysis'
 MODELS = ['ridge', 'sarimax', 'lightgbm', 'lightgbm_capacity2', 'chronos', 'timesfm']
 ARMS = ['calendar', 'day5', 'pooled_day5', 'window5', 'pooled_window5']
 ARM_LABELS = {'calendar': 'Calendar', 'day5': 'Typed day',
@@ -32,8 +32,8 @@ GATES = [
     'results/calendar_encoding_v1/independent_audit.json',
     'results/neso_replication_v1/analysis/independent_audit.json',
     'results/calendar_semantics_v2/analysis/independent_audit.json',
-    'results/calendar_recenter_v1/analysis/independent_audit.json',
-    'results/calendar_recenter_v1/analysis/contrasts/audit.json',
+    'results/calendar_recenter_recovery_v1/analysis/independent_audit.json',
+    'results/calendar_recenter_recovery_v1/analysis/contrasts/audit.json',
     'results/mta_holiday_v1/analysis/independent_audit.json',
     'results/event_comparators_v1/independent_audit.json',
     'results/pooling_simulation_v1/independent_audit.json',
@@ -63,6 +63,9 @@ def main():
     clean_mta = json.loads(clean_mta_path.read_text())
     assert clean_mta['status'] == 'pass' and clean_mta['rows'] == 4032
     assert all(item['prediction_csv_byte_identical'] for item in clean_mta['workers'].values())
+    support_audit_path = ROOT/'results/event_support_v1/independent_audit.json'
+    support_audit = json.loads(support_audit_path.read_text())
+    assert support_audit['status'] == 'pass' and support_audit['paired_cases'] == 6336
 
     # Load everything BEFORE creating outputs. An incomplete study is a hard stop.
     sources = {}
@@ -87,6 +90,9 @@ def main():
     simulation = read(ROOT/'results/pooling_simulation_v1/paired_seed_contrasts.csv')
     changes = read(RECENTER/'breadth/event_window/changes_balanced.csv')
     composition = read(RECENTER/'breadth/event_window/composition_changes.csv')
+    support = read(ROOT/'results/event_support_v1/associations.csv')
+    for name in ['moderators.csv', 'paired_cases.csv', 'cells.csv']:
+        read(ROOT/'results/event_support_v1'/name)
     for collection in [india, encoding]:
         for cohort, frame in collection.items():
             selected = frame[frame.version.eq('document_aligned')]
@@ -162,12 +168,39 @@ def main():
     appendix += '\n'+add_table('response_comparators',
         'Table A2. Fixed response-profile comparators on the original Indian case ledger. This is a separate, unchanged sensitivity.',
         c.rename_axis('Method').reset_index())
+    rows = []
+    for model in MODELS:
+        records = []
+        for metric in ['own_support_ratio', 'heterogeneity_scaled']:
+            item = support[support.model.eq(model)&support.representation.eq('day')&
+                support.horizon.eq(1)&support.scope.eq('all')&support.moderator.eq(metric)]
+            assert len(item) == 1
+            records += [item.spearman.iloc[0], str(int(item.defined_cells.iloc[0]))]
+        rows.append([NAMES[model]]+records)
+    appendix += '\n'+add_table('support_diagnostics',
+        'Table A3. Prespecified day-representation, lead-1 Spearman diagnostics. Positive forecast contrasts favour pooling; n counts available family/state/year cells, not independent replications. Undefined means insufficient variation or support.',
+        pd.DataFrame(rows, columns=['Model', 'Support rho', 'Support n', 'Response rho', 'Response n']))
 
     # Export full audited metric/contrast tables, never just a favourable subset.
+    source_index = {}
     for index, (relative, expected) in enumerate(sources.items()):
         assert sha(ROOT/relative) == expected
         target = OUT/'supplement'/f'source_{index:02d}_{Path(relative).name}'
         target.write_bytes((ROOT/relative).read_bytes())
+        source_index[str(target.relative_to(OUT))] = dict(original=relative, sha256=expected)
+    dump(OUT/'supplement/source_index.json', source_index)
+    future_text = 'A separately registered Chronos history/calendar competitor follows the existing provider lane. Its new predictions/public issuance are not assumed complete here; it does not test festival features.'
+    future_inputs = {}
+    future_root = ROOT/'results/prospective_chronos_20261031_v1'
+    if all((future_root/name).exists() for name in ['freeze.json', 'independent_audit.json', 'public_receipt.json']):
+        from score_chronos_competitor import first_commit_guard
+        first_commit_guard()  # no labels/network; checks actual completion/public-receipt chronology
+        frozen = json.loads((future_root/'freeze.json').read_text())
+        audited = json.loads((future_root/'independent_audit.json').read_text())
+        assert audited['status'] == 'pass' and frozen['rows'] == 84 and frozen['eligible_rows'] == 66
+        future_text = f'A new, separately timed Chronos history/calendar competitor completed at {frozen["issued_utc"]}, with 84 stored forecasts and 66 eligible full 1–11 November cases. Its observed pre-outcome public receipt and separate input/India-day audit are retained. It uses the same stale source/context as the older episode but a later actual issuance; the paired comparison will reuse the original first actual vintage. It fills the missing Chronos competitor, not the prospective festival-feature gap or an independent episode.'
+        future_inputs = {str((future_root/name).relative_to(ROOT)): sha(future_root/name)
+                         for name in ['protocol.json', 'freeze.json', 'independent_audit.json', 'public_receipt.json']}
 
     def difference(frame, model, arm, reference, lead, lead_column):
         if 'version' in frame:
@@ -296,6 +329,8 @@ Ten pure daily encodings include history-only, a zero channel, ordinal weekday/H
 
 Eight direct daily comparators include conditional means and no-response/typed/pooled/fixed-partial residual profiles. The latter use a last-four-recorded-same-weekday baseline, a declared triangular ±3-day shape and fixed penalty 2. They are daily adaptations, not an exact replication of Alipour's residual tensors, learned 16-dimensional contrastive representations or past-occurrence prototypes. The primary paper's incomplete implementation details and the lack of a comparable account-level panel remain reproduction gaps.
 
+A separately registered explanatory diagnostic measures recorded support and past family residual heterogeneity within each exact 730-day pre-origin context. Its baseline uses four preceding recorded same-weekday labels outside all named ±3-day windows, with no residual until four exist. Family residual means are scaled by the fixed pre-year weekly scale; their population RMS dispersion requires at least two supported families. Prior-year and current-year support days are separated, and undefined moderators propagate to their cell without dropping forecast errors. Associations round cell variables to eight decimals to define numerical ties. These are observational proxies, not model-learned or causal effects.
+
 ## 4. Matched Indian evidence
 
 Tables 1–2 display the prespecified next-day comparison; Figure 1 includes all six variants, both representations and all three leads. Every zero/placebo arm remains in the supplement. Original four-year Chronos seven-channel Diwali deterioration is preserved as a different cohort/definition, not erased by later results.
@@ -327,6 +362,8 @@ The prespecified simulation has 16 combinations of event frequency, effect heter
 
 ![Figure 3. Synthetic pooling conditions. Intervals quantify Monte Carlo precision over generator seeds, not significance over Indian or NYC events.](figures/simulation.png)
 
+The past-support diagnostic reuses all 6,336 typed/pooled case contrasts, producing 864 family/state/year/lead cells and 1,728 descriptive association records across all variants, representations, leads, moderators and fixed scopes. Table A3 reports the prespecified next-day day-representation support-ratio and response-heterogeneity Spearman diagnostics; both years, all leads and leave-family-out results remain in the supplement. We do not pool models as independent observations or infer a mechanism from a correlation. State/family/year composition and earlier responses from the same event episode can confound these associations. Current-year past responses are legitimate available information, not evidence of forecasting a wholly unseen episode.
+
 ## 6. Native uncertainty and reproducibility
 
 Both foundations are compared on unchanged common quantiles 0.1–0.9. Empirical 80% coverage accompanies scaled width, mean marginal pinball and one-interval WIS: (0.5 × median absolute error + 0.1 × 80% interval score)/1.5. Native crossings are retained. Any invalid lower/upper endpoint makes the associated interval aggregate undefined rather than silently dropping cases. Native interval quality and point MASE are different criteria.
@@ -338,6 +375,8 @@ Separate audits reconstruct raw source transformations, primary dates, cohorts, 
 Earlier numerical failures remain material. A float64 tree reproduction failed before a separately named float32 revision. In the stricter scalar review, 135 forecasts agree within tolerance, but 15 of 45 Delhi lead-1 near-zero feature entries differ after float32 conversion. That discrepancy is not removed by later tests. Failed calendar preflight, interrupted report generation and output-directory-only recovery are retained with their original source and result hashes.
 
 The historical daily CQR study [8] improves some coverage at the cost of wider intervals and some worse longer-lead proper scores. Its cohort differs from festival-feature distributions; it is not presented as their calibration. The original 30 October future freeze contains TimesFM history/calendar, Ridge, the original float64 tree and naive forecasts, with no Chronos or festival-feature arms. Its later interval annex repeats the same TimesFM episode with actual later issuance. Both remain immutable and unscored until the registered collection date. They do not directly confirm the main typed-versus-pooled hypothesis. A separate manual rolling plan is not activated and has issued no forecasts.
+
+{future_text}
 
 ## 7. Limits, interpretation and submission gates
 
@@ -393,15 +432,18 @@ The supplementary source tables retain all leads, both cohorts, both feature vie
         '--resource-path', str(OUT), '--reference-doc',
         str(ROOT/'manuscript/journal_draft_v1/reference.docx')], check=True)
     format_docx(docx)
-    assert len(Document(docx).tables) == len(tables) == 8
+    assert len(Document(docx).tables) == len(tables) == 9
     inputs = {**{name: sha(ROOT/name) for name in GATES}, **sources,
         'review/clean_mta_v1/comparison.json': sha(clean_mta_path),
+        'results/event_support_v1/independent_audit.json': sha(support_audit_path),
+        'results/calendar_recenter_recovery_v1/recovery_registration.json': sha(ROOT/'results/calendar_recenter_recovery_v1/recovery_registration.json'),
+        **future_inputs,
         'src/build_integrated_review.py': sha(__file__)}
     dump(OUT/'build.json', dict(created_utc=datetime.now(timezone.utc).isoformat(),
         status='Integrated internal review draft; PDF/numeric/visual audit pending',
         tables=len(tables), figures=3, inputs=inputs,
         outputs={str(p.relative_to(OUT)): sha(p) for p in OUT.rglob('*') if p.is_file()}))
-    print('Built new integrated MD/DOCX; 8 tables, 3 figures; no old draft changed')
+    print('Built new integrated MD/DOCX; 9 tables, 3 figures; no old draft changed')
 
 
 if __name__ == '__main__':

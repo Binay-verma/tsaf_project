@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/workspace/tsaf_project/src/complete_event_support.py", line 42, in <module>
+    main()
+  File "/workspace/tsaf_project/src/complete_event_support.py", line 26, in main
+    raise RuntimeError('Preserve parent recenter failure')
+RuntimeError: Preserve parent recenter failure

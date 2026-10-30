@@ -1,0 +1,12 @@
+{
+  "started_utc": "2026-10-30T21:28:41.161056+00:00",
+  "status": "failed",
+  "completed_steps": [],
+  "observed_utc": "2026-10-30T22:26:26.331412+00:00",
+  "completed_gates": [
+    "results/event_comparators_v1/independent_audit.json",
+    "results/pooling_simulation_v1/independent_audit.json",
+    "review/clean_extended_v1/comparison.json"
+  ],
+  "traceback": "Traceback (most recent call last):\n  File \"/workspace/tsaf_project/src/complete_integrated_review.py\", line 45, in main\n    raise RuntimeError('Inspect retained study failure: '+str(path))\nRuntimeError: Inspect retained study failure: /workspace/tsaf_project/results/calendar_recenter_v1/chronos_queue.json\n"
+}

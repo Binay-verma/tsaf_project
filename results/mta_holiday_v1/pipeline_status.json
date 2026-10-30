@@ -1,0 +1,17 @@
+{
+  "started_utc": "2026-10-30T20:56:28.824910+00:00",
+  "status": "failed",
+  "completed_steps": [],
+  "completed_workers": [
+    "event_window/ridge",
+    "event_window/lightgbm",
+    "event_window/lightgbm_capacity2",
+    "event_window/sarimax",
+    "ordinary/ridge",
+    "ordinary/lightgbm",
+    "ordinary/lightgbm_capacity2",
+    "ordinary/sarimax"
+  ],
+  "observed_utc": "2026-10-30T22:26:29.091182+00:00",
+  "traceback": "Traceback (most recent call last):\n  File \"/workspace/tsaf_project/src/complete_mta_pipeline.py\", line 17, in main\n    if json.loads(p.read_text())['status']=='failed':raise RuntimeError('MTA provider queue failed')\n                                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: MTA provider queue failed\n"
+}

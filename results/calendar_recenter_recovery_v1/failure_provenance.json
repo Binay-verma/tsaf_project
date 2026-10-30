@@ -1,0 +1,13 @@
+{
+  "observed_utc": "2026-10-30T22:48:47.219170+00:00",
+  "preserved_original_failure_files": {
+    "results/calendar_recenter_v1/aligned_encoding_added/chronos/failure.txt": "e56b289c23497cecc95c9d1de439d88429aab5b6ee42940bf0a7286e43477b23",
+    "results/calendar_recenter_v1/chronos_queue.json": "366b65370d0642be704cfb06e47a9324ba141800f9be44674b9743f023c3ea56",
+    "results/calendar_recenter_v1/pipeline_status.json": "a867633671a116a833d7925bb9ad29cd0fb7c80094259123ec250546b6026f2a",
+    "results/mta_holiday_v1/chronos_queue.json": "7c89f455d37997f991e2a603e64535525ac92ea2008d7b59f3251ab6ada885db",
+    "results/mta_holiday_v1/pipeline_status.json": "a14162828cfa4eee9cdbcad5d996725fd26e2f925b365e84e7698dc7b8f95cbf",
+    "results/prospective_chronos_20261031_v1/queue.json": "8582fb3dd3bfc91bc71dbf469ac9b4f96220149284f815fce2afaa17a115e485",
+    "results/event_support_v1/pipeline_status.json": "71c8aa060ced0bec4e0e0d8df6f1d4425a62b921047c04bee91b5e3999a76807",
+    "review/integrated_review_v3_pipeline/status.json": "ad5e9a9c5f6b4d2a8c0994d0482d87f2ac943e8fbc01c9990921a09170fd3838"
+  }
+}

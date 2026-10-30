@@ -1,0 +1,27 @@
+{
+  "observed_utc": "2026-10-30T22:45:03.335915+00:00",
+  "processes": [
+    {
+      "pid": 48449,
+      "script": "src/run_recenter_after_semantics.py",
+      "prior_status": {
+        "created_utc": "2026-10-30T19:34:59.770171+00:00",
+        "worker": "timesfm",
+        "status": "waiting_for_semantics",
+        "completed": []
+      },
+      "action": "SIGTERMwaitingorchestratoronly; no modelworker stopped"
+    },
+    {
+      "pid": 51339,
+      "script": "src/run_mta_after_recenter.py",
+      "prior_status": {
+        "created_utc": "2026-10-30T20:24:54.662625+00:00",
+        "worker": "timesfm",
+        "status": "waiting_for_recenter",
+        "completed": []
+      },
+      "action": "SIGTERMwaitingorchestratoronly; no modelworker stopped"
+    }
+  ]
+}

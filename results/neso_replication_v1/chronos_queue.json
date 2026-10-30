@@ -1,0 +1,10 @@
+{
+  "created_utc": "2026-10-30T19:04:16.752989+00:00",
+  "worker": "chronos",
+  "status": "completed",
+  "completed_scenarios": [
+    "ideal",
+    "lag21"
+  ],
+  "completed_utc": "2026-10-30T22:01:50.959226+00:00"
+}

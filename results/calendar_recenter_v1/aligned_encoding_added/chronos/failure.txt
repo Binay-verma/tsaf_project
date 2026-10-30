@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/workspace/tsaf_project/src/semantics_encoding_engine_v2.py", line 88, in foundation
+    encoded = [encoded_input(data[t.state], t.state, arm, t.origin) for t in group]
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/tsaf_project/src/calendar_semantics_study_v2.py", line 54, in encoded_input
+    else:raise ValueError(arm)
+         ^^^^^^^^^^^^^^^^^^^^^
+ValueError: history

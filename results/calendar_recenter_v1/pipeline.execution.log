@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/workspace/tsaf_project/src/complete_recenter_pipeline.py", line 37, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/workspace/tsaf_project/src/complete_recenter_pipeline.py", line 18, in main
+    if any((p/'failure.txt').exists() for p in workers):raise RuntimeError('Registered worker failure')
+                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Registered worker failure

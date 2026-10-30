@@ -1,0 +1,92 @@
+[
+  {
+    "arm": "calendar",
+    "offset": 0,
+    "tasks": 16,
+    "seconds": 39.94731899600447
+  },
+  {
+    "arm": "calendar",
+    "offset": 16,
+    "tasks": 16,
+    "seconds": 22.510450121997565
+  },
+  {
+    "arm": "calendar",
+    "offset": 32,
+    "tasks": 8,
+    "seconds": 10.809530288002861
+  },
+  {
+    "arm": "day5",
+    "offset": 0,
+    "tasks": 16,
+    "seconds": 54.95594497600541
+  },
+  {
+    "arm": "day5",
+    "offset": 16,
+    "tasks": 16,
+    "seconds": 30.281621105998056
+  },
+  {
+    "arm": "day5",
+    "offset": 32,
+    "tasks": 8,
+    "seconds": 13.438881102003506
+  },
+  {
+    "arm": "pooled_day5",
+    "offset": 0,
+    "tasks": 16,
+    "seconds": 55.27524788000301
+  },
+  {
+    "arm": "pooled_day5",
+    "offset": 16,
+    "tasks": 16,
+    "seconds": 28.955805059995328
+  },
+  {
+    "arm": "pooled_day5",
+    "offset": 32,
+    "tasks": 8,
+    "seconds": 14.564705791999586
+  },
+  {
+    "arm": "window5",
+    "offset": 0,
+    "tasks": 16,
+    "seconds": 58.43733477099886
+  },
+  {
+    "arm": "window5",
+    "offset": 16,
+    "tasks": 16,
+    "seconds": 29.057137992000207
+  },
+  {
+    "arm": "window5",
+    "offset": 32,
+    "tasks": 8,
+    "seconds": 14.65533497800061
+  },
+  {
+    "arm": "pooled_window5",
+    "offset": 0,
+    "tasks": 16,
+    "seconds": 56.67906916599895
+  },
+  {
+    "arm": "pooled_window5",
+    "offset": 16,
+    "tasks": 16,
+    "seconds": 30.19335706200218
+  },
+  {
+    "arm": "pooled_window5",
+    "offset": 32,
+    "tasks": 8,
+    "seconds": 14.58251567100524
+  }
+]

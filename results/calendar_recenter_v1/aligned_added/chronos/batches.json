@@ -1,0 +1,50 @@
+[
+  {
+    "arm": "calendar",
+    "offset": 0,
+    "tasks": 3,
+    "seconds": 8.115437718006433
+  },
+  {
+    "arm": "zero5",
+    "offset": 0,
+    "tasks": 3,
+    "seconds": 10.553705040998466
+  },
+  {
+    "arm": "day5",
+    "offset": 0,
+    "tasks": 3,
+    "seconds": 9.906742834005854
+  },
+  {
+    "arm": "pooled_day5",
+    "offset": 0,
+    "tasks": 3,
+    "seconds": 10.232218222001393
+  },
+  {
+    "arm": "window5",
+    "offset": 0,
+    "tasks": 3,
+    "seconds": 10.333183677998022
+  },
+  {
+    "arm": "pooled_window5",
+    "offset": 0,
+    "tasks": 3,
+    "seconds": 12.898151079993113
+  },
+  {
+    "arm": "placebo_day5",
+    "offset": 0,
+    "tasks": 3,
+    "seconds": 11.948047112004133
+  },
+  {
+    "arm": "placebo_window5",
+    "offset": 0,
+    "tasks": 3,
+    "seconds": 14.080946615002176
+  }
+]

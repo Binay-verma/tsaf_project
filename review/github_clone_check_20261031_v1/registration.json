@@ -1,0 +1,8 @@
+{
+  "created_utc": "2026-10-30T22:31:13.362568+00:00",
+  "expected_commit": "05e4299b6e1b61e2d42ef58104b27936e2a59664",
+  "remote": "https://github.com/Binay-verma/tsaf_project.git",
+  "clone_path": "/tmp/tsfm-public-clone-review",
+  "python": "/workspace/tsfm-clean-review/bin/python",
+  "scope": "Fresh PUBLIC GitHub clone, continuation manifest and complete unit tests in no-system-packages environment; no weights/privateexternalarchives or model rerun. Same machine, not independent human review."
+}

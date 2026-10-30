@@ -1,0 +1,38 @@
+[
+  {
+    "arm": "placebo_day5",
+    "offset": 0,
+    "tasks": 16,
+    "seconds": 66.29257052500179
+  },
+  {
+    "arm": "placebo_day5",
+    "offset": 16,
+    "tasks": 16,
+    "seconds": 30.69212376500218
+  },
+  {
+    "arm": "placebo_day5",
+    "offset": 32,
+    "tasks": 7,
+    "seconds": 11.534314490003453
+  },
+  {
+    "arm": "placebo_window5",
+    "offset": 0,
+    "tasks": 16,
+    "seconds": 66.42619306800043
+  },
+  {
+    "arm": "placebo_window5",
+    "offset": 16,
+    "tasks": 16,
+    "seconds": 33.404649506999704
+  },
+  {
+    "arm": "placebo_window5",
+    "offset": 32,
+    "tasks": 7,
+    "seconds": 16.642081605001295
+  }
+]

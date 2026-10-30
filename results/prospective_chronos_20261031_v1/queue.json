@@ -1,0 +1,7 @@
+{
+  "started_utc": "2026-10-30T22:05:31.335602+00:00",
+  "status": "failed",
+  "completed_steps": [],
+  "observed_utc": "2026-10-30T22:26:31.360359+00:00",
+  "traceback": "Traceback (most recent call last):\n  File \"/workspace/tsaf_project/src/run_chronos_competitor_after_mta.py\", line 26, in main\n    raise RuntimeError('Preserve parent MTA provider failure')\nRuntimeError: Preserve parent MTA provider failure\n"
+}

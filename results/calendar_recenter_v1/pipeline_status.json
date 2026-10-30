@@ -1,0 +1,29 @@
+{
+  "started_utc": "2026-10-30T20:11:43.038825+00:00",
+  "status": "failed",
+  "completed_steps": [],
+  "completed_workers": [
+    "old_added/ridge",
+    "old_added/lightgbm",
+    "old_added/lightgbm_capacity2",
+    "old_added/sarimax",
+    "old_added/chronos",
+    "aligned_added/ridge",
+    "aligned_added/lightgbm",
+    "aligned_added/lightgbm_capacity2",
+    "aligned_added/sarimax",
+    "aligned_added/chronos",
+    "aligned_placebo_event/ridge",
+    "aligned_placebo_event/lightgbm",
+    "aligned_placebo_event/lightgbm_capacity2",
+    "aligned_placebo_event/sarimax",
+    "aligned_placebo_event/chronos",
+    "aligned_placebo_ordinary/ridge",
+    "aligned_placebo_ordinary/lightgbm",
+    "aligned_placebo_ordinary/lightgbm_capacity2",
+    "aligned_placebo_ordinary/sarimax",
+    "aligned_placebo_ordinary/chronos"
+  ],
+  "observed_utc": "2026-10-30T22:26:43.628092+00:00",
+  "traceback": "Traceback (most recent call last):\n  File \"/workspace/tsaf_project/src/complete_recenter_pipeline.py\", line 18, in main\n    if any((p/'failure.txt').exists() for p in workers):raise RuntimeError('Registered worker failure')\n                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: Registered worker failure\n"
+}

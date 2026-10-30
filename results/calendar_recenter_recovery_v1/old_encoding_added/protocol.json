@@ -1,0 +1,112 @@
+{
+  "created_utc": "2026-10-30T19:31:03.842349+00:00",
+  "experiment": "calendar_recenter_v1/old_encoding_added",
+  "status": "Exploratory source-defined recenteredwindow/weekdayplacebo amendment; fixedbefore these newoutputs. Same-case trueflag-only sensitivity remains a separate completed/queued v2experiment.",
+  "literature": "Kreusel etal., arXiv:2610.13676v1, Section3.1/Table1/AppendixA.1.1, primary fullHTML reread30October2026. Arithmetic context conditional means; no new method.",
+  "adaptation": "Daily data omit hour. Seven published encoding families: ordinal weekday+H, onehot weekday+H, cyclic weekday+H, target-mean Sunday mapping, separate holiday daytype, jointweekday/H, separateweekday/H channels. Add history, zero1 and weekday-only target-mean controls. H=any frozen state-scoped named festival anchor, not every public holiday. No13annual-calendar channels retained in these pureencodings.",
+  "rare_categories": "Paper assumes each horizon category appears in context. Daily sparse events violate this; fix unseen-category fallback to global mean of positive recorded context labels, and log every support/table/futurefallback count. No error-based smoothing/fallback selection.",
+  "target_encoding": "For each origin, fit category mean from positive recorded labels in preceding730calendar days only. Map each context/future calendar category to that table. Own past targets may contribute because they are already available in model context; no forecast-period target contributes. Model past target may use causal fill; encoding labels are never imputed.",
+  "controls": "Originalplaceboshift35days retained, moving onlyKarnataka2025Dussehraplacebo6November\u21925November, preserving correctedoriginalweekday and truewindowseparation. No seedsearch or error-selected shift. Full8breadth/10purearms retained.",
+  "arms": [
+    "history",
+    "zero1",
+    "ordinal",
+    "onehot",
+    "cyclic",
+    "te_weekday",
+    "te_sunday",
+    "te_holiday",
+    "te_joint",
+    "te_separate"
+  ],
+  "feature_names": {
+    "history": [],
+    "zero1": [
+      "zero"
+    ],
+    "ordinal": [
+      "weekday",
+      "holiday"
+    ],
+    "onehot": [
+      "dow_0",
+      "dow_1",
+      "dow_2",
+      "dow_3",
+      "dow_4",
+      "dow_5",
+      "dow_6",
+      "holiday"
+    ],
+    "cyclic": [
+      "weekday_sin",
+      "weekday_cos",
+      "holiday"
+    ],
+    "te_weekday": [
+      "weekday_target_mean"
+    ],
+    "te_sunday": [
+      "mapped_weekday_target_mean"
+    ],
+    "te_holiday": [
+      "holiday_daytype_target_mean"
+    ],
+    "te_joint": [
+      "weekday_holiday_target_mean"
+    ],
+    "te_separate": [
+      "weekday_target_mean",
+      "holiday_target_mean"
+    ]
+  },
+  "models": [
+    "chronos",
+    "timesfm"
+  ],
+  "batch": 16,
+  "threads": 2,
+  "seed": 42,
+  "context": 730,
+  "horizon": 14,
+  "expected_tasks": 3,
+  "cases_per_arm": 3,
+  "weights": "Exactly pinned parent weights/no fine-tuning, same source/context/tasks; fresh nativepoint/quantile inference for all10arms. Solo-batch and future-target perturbation checks retained.",
+  "metrics": "Same hierarchical MAE/MASE and common9native quantile pinball/80coverage/width/WIS. Report matched originalfeatures versusalignedfeatures on identicalcorrectedcohort, and separately document3datecompositiondifference. Allleads/arms/negativefindings. No rowindependencepvalues, universal or causalclaim.",
+  "execution": "Queued after corresponding foundation breadth lane finishes to respect CPU quota. Actual started/completed metadata, not assumed background continuation. No local model fits here; local comparators in the complete matched breadth panel.",
+  "input_hashes": {
+    "src/calendar_recenter_study.py": "55c8d6545cbde87bf880c66ca7a875518093547ffdea94b6d80fc6b05b20f850",
+    "src/test_calendar_recenter_study.py": "abfd0de5e791be1b8286cd2ee4247045f673dc29145439bc9b52f42234c93adc",
+    "src/breadth_model_engine_v1.py": "051861ddc30513087ec726a8215f42d700a4c26ca43584031cdcc41026e6914d",
+    "src/encoding_model_engine_v1.py": "4b3f55c178e6fd1ea51e684351878fed209f077411c1c45d21a107df4d4fd831",
+    "src/semantics_encoding_engine_v2.py": "0e9c8f5e67d47327a624acfcdec5f33cc54f53c2697d37210b2893a425fd1ef7",
+    "src/calendar_semantics_study_v2.py": "0bdbbfd084d65bc8b3d346fe9257e701ed8ef084bc09bc3168a50eb2cd913411",
+    "src/calendar_encoding_study.py": "2ef96ce72b30d8b0cb7835f9d12f0752aef09e2623a77c8b7d9cba82a584ccc3",
+    "src/festival_feature_design.py": "54e9dd42e3784b5f20208f08eb54ff823914fd342237b0fccda28bf08cb271c2",
+    "src/breadth_study.py": "6ef402265b893ffed4ee5049d53ab3191829b43cf9e34c83dfd3d0e2814a887d",
+    "src/pooled_festival_experiment.py": "b64ed6421651e4fcd749b7d009d57045bcb279aaba754e2baa379155dd905971",
+    "src/robust_baselines.py": "568152c6351826389ae8248fe50fe5bcde5f8db82dfe715c691d6a5f63bca88c",
+    "src/forecasting.py": "8a6b9b1e8632a2bf77d9855a1d370ed23c350ffe731138787e30c609a59ec21e",
+    "data/external/latest_state_energy_GWh.csv": "74d22d5e85b022db13d97dad7c84dca5b9dc8e38d23570bf095d870e71a2f690",
+    "results/calendar_semantics_v2/anchors_2022_2025.csv": "8b4ff85104ee7cfd525f3f0b221995d57db43e12583de1897b28c2cea25f68ff",
+    "results/festival_features_v1/anchors_2022_2025.csv": "7542c6a6a3d84dcf6011872d3cdfa9e45bcca36e90a8746241e41800f19596ec",
+    "results/festival_features_v1/placebo_anchors.csv": "8968decf13055b0abb3fead79390fa6889c6d27899c7168e47fd2f0eb9c7a0a0",
+    "results/calendar_recenter_v1/placebo_anchors.csv": "69ff738db63e26bcd0a4703e379077a3c2544bc1ecfdba7ff4fbe769b419c5c1",
+    "review/used_calendar_v4/all58_named_family_review.csv": "bb593d531863af74105c2d75d2baab09db6d40ac5ac8b60af52a2235fa0528b1",
+    "results/strong_refit_v1/selected.csv": "431807cdd1a9bea5a8df7081e90fe099d34128a6924fae23faa24ef2d85bb087",
+    "results/stable_tree_refit_v2/selected.csv": "e041729975c40faa74d5d4ac27b82f9f5edecc26d3fde441124606a130ce448c",
+    "results/strong_refit_v1/protocol.json": "e0c7d8532de5faf31d16c6d8552e78ecc7f60eedfc3c977f0f93990ad8d37324",
+    "results/stable_tree_refit_v2/protocol.json": "4da8160ce45801e1b9e8ca134334a46bfd9d29f1f5ed6d28e76a988cb1fe34c3"
+  },
+  "design_hashes": {
+    "primary_cases.csv": "66cc1f04ede2cc82a86960c133aacd088560203b7d9ed9d846f4307da83957c9",
+    "window_cases.csv": "66cc1f04ede2cc82a86960c133aacd088560203b7d9ed9d846f4307da83957c9"
+  },
+  "kind": "encoding",
+  "calendar_version": "original",
+  "cases": "Corrected eventpanel replaces only3Karnataka2025Dussehra5Octobercases with3cases28September. Complete affectedwindow now28September\u20134October around notification1October. Same528casecount, but datesdiffer; do not attribute oldcohort aggregatechanges only tofeatures. Originalfeature baseline also predicts added28Septembercases for a matched correctedcohort.",
+  "reuse": "Compose full corrected528event/216ordinary matrices from unchangedoriginalworkers, v2trueflag/encodingworkers, and these source-definedadded/placebo rows. Verify source/input/date/parameter/prediction hashes. Originalfeature view uses same correctedcohort with new3case originalfeature forecasts. No re-score of originalfuturefreeze.",
+  "selection": "Exactly unchanged past-selected parameters, fitting/weight/model/dtype/seed/batch/threads. No new hyperparameter/event/embedding/fallback/calibration choice from scores.",
+  "regression_extra_arms": [],
+  "limits": "Annual-as-issued document alignment, not final amendments/observance truth. One nameddate mismatch corrected; Maharashtra2022GudiPadwa retained with explicit documentgap, two nationalmain exceptions retained. Mirrors/rights/vintages/human/untouched confirmation remain open."
+}

@@ -1,0 +1,4207 @@
+[
+  {
+    "arm": "calendar",
+    "state": "England_Wales",
+    "origin": "2026-09-02",
+    "target_sha256": "7984a0f804e750890e8b62e02468bdbdeee8d52bd4f9c88b37caf52097a7d3cc",
+    "covariate_sha256": "ae4be8032810193d6831d6d7b158b24008b264f47be046ab042642ddef08f978",
+    "feature_count": 13,
+    "context_start": "2024-09-02",
+    "context_end": "2026-09-01",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": []
+  },
+  {
+    "arm": "calendar",
+    "state": "England_Wales",
+    "origin": "2026-09-03",
+    "target_sha256": "8a8eb0949e9e8b61f12d71fac4c5916a87f2ad8d1cc9b7e4a687a787943793ca",
+    "covariate_sha256": "05d8c200c595c365fe988786685c4ce10e5c39e60a0eda0036fa2cdf53db4513",
+    "feature_count": 13,
+    "context_start": "2024-09-03",
+    "context_end": "2026-09-02",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": []
+  },
+  {
+    "arm": "calendar",
+    "state": "England_Wales",
+    "origin": "2026-09-04",
+    "target_sha256": "a8c12f9e973067a8420cd31f52ed468d419c09641f65bccf13fcc0a0e17c462a",
+    "covariate_sha256": "0d03b4692cac6d3d5bcb32dc1417bc2e1f66b746d850deaee400032c293a3fa7",
+    "feature_count": 13,
+    "context_start": "2024-09-04",
+    "context_end": "2026-09-03",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": []
+  },
+  {
+    "arm": "calendar",
+    "state": "England_Wales",
+    "origin": "2026-09-05",
+    "target_sha256": "f36c944348d29c680541c4d8f8a843383ff6465cab090e3fffaae8a9afc0fd17",
+    "covariate_sha256": "b0b2e875782bc6cd5359640123cced31ba626fb5aa60b7f7316ce84bfa533d57",
+    "feature_count": 13,
+    "context_start": "2024-09-05",
+    "context_end": "2026-09-04",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": []
+  },
+  {
+    "arm": "calendar",
+    "state": "England_Wales",
+    "origin": "2026-09-06",
+    "target_sha256": "f32ddfa151ccfc87ce52d598aa8a2c549ea1f0992a1ac5b62e28b7723636f85c",
+    "covariate_sha256": "82af683268a651fb64eb2814f4c1f12cbe71225bb6558069f32a4d19f4d8157b",
+    "feature_count": 13,
+    "context_start": "2024-09-06",
+    "context_end": "2026-09-05",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": []
+  },
+  {
+    "arm": "calendar",
+    "state": "England_Wales",
+    "origin": "2026-09-07",
+    "target_sha256": "9b966a486e28385172697da62fc8325e615cdf2681fc1f0604a955c138e14331",
+    "covariate_sha256": "fb5d68ca5d304b628ef96ead95aba80033faa3650f085a90869954ac3e063468",
+    "feature_count": 13,
+    "context_start": "2024-09-07",
+    "context_end": "2026-09-06",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": []
+  },
+  {
+    "arm": "calendar",
+    "state": "England_Wales",
+    "origin": "2026-09-08",
+    "target_sha256": "8addc7b8c1cdbd20516a7cf1aab9b67eaec790b2f301c687431f271c5c57dc61",
+    "covariate_sha256": "6b7350c498b2f672e9ae0f068339dac58a3d7bc3883674ac5f934f16f9091fc8",
+    "feature_count": 13,
+    "context_start": "2024-09-08",
+    "context_end": "2026-09-07",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": []
+  },
+  {
+    "arm": "calendar",
+    "state": "England_Wales",
+    "origin": "2026-09-09",
+    "target_sha256": "950b97450da5aa97c788ffb98d34cf9d2eddf85395d49ef5a68d5687dd70334a",
+    "covariate_sha256": "55d41067eceb6def29100fe5f7217b9ed21ebb80f5a3e5b08a241b88a225cdfd",
+    "feature_count": 13,
+    "context_start": "2024-09-09",
+    "context_end": "2026-09-08",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": []
+  },
+  {
+    "arm": "calendar",
+    "state": "England_Wales",
+    "origin": "2026-09-10",
+    "target_sha256": "3fc58cc698e9ab32514689629f8612a9605bf0756c30c05458d998fea4bfab03",
+    "covariate_sha256": "3697b90c913b6831168b65e5cee0be653e3aab00bdd2c945d74f5ecaa1331e2a",
+    "feature_count": 13,
+    "context_start": "2024-09-10",
+    "context_end": "2026-09-09",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": []
+  },
+  {
+    "arm": "calendar",
+    "state": "England_Wales",
+    "origin": "2026-09-11",
+    "target_sha256": "0743750e4f5b7d1497876018461242d94bd2f801199d9c05b3a83761bdc28996",
+    "covariate_sha256": "7a8282730c2f44929df80446f1fe50fdec56d72ea7d9b2bf8aeb77ea21af1fbe",
+    "feature_count": 13,
+    "context_start": "2024-09-11",
+    "context_end": "2026-09-10",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": []
+  },
+  {
+    "arm": "calendar",
+    "state": "England_Wales",
+    "origin": "2026-09-12",
+    "target_sha256": "369b7a58bdb62335d5d791588d6be79b098946c8b4afabd70fc034c8e0302cbd",
+    "covariate_sha256": "edfbdf12eb419978298eabc9b9b38f14f919776a99787f96e66f0311086a4810",
+    "feature_count": 13,
+    "context_start": "2024-09-12",
+    "context_end": "2026-09-11",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": []
+  },
+  {
+    "arm": "calendar",
+    "state": "England_Wales",
+    "origin": "2026-09-13",
+    "target_sha256": "1f88fa9c20aa2805a13bfe134c8ca9ff0d3cec475d38c6d66663d6399e0243a2",
+    "covariate_sha256": "a108e3db34cb8911122d4523731012137acd42c747c5204ccd61a644ebaecbaa",
+    "feature_count": 13,
+    "context_start": "2024-09-13",
+    "context_end": "2026-09-12",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": []
+  },
+  {
+    "arm": "calendar",
+    "state": "England_Wales",
+    "origin": "2026-09-14",
+    "target_sha256": "5021affdc68701fbfc021f7ecb70c36dd166e4ac6b8ae4f68876820430e870f1",
+    "covariate_sha256": "293431a718cfd00a507df9048fa68bb10d482d9ced9c28b28dcab0479f4e9d5e",
+    "feature_count": 13,
+    "context_start": "2024-09-14",
+    "context_end": "2026-09-13",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": []
+  },
+  {
+    "arm": "calendar",
+    "state": "England_Wales",
+    "origin": "2026-09-15",
+    "target_sha256": "d5f64c9bfbfce818e32fb17c5402627d413a034674f7af9deaa0f4f2a85466de",
+    "covariate_sha256": "df0b6540085c9e41107df78f52e8545fd553b20304317525bd96e3601a3a564b",
+    "feature_count": 13,
+    "context_start": "2024-09-15",
+    "context_end": "2026-09-14",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": []
+  },
+  {
+    "arm": "calendar",
+    "state": "England_Wales",
+    "origin": "2026-09-16",
+    "target_sha256": "227b02d49dae77248d2d8fda61578ff85193fa5cab63f5cb63eaefd0543f0042",
+    "covariate_sha256": "3589f0f9ae18a6376b591aaee0ee08f39a7edc07151df47e355645cc31954f64",
+    "feature_count": 13,
+    "context_start": "2024-09-16",
+    "context_end": "2026-09-15",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": []
+  },
+  {
+    "arm": "calendar",
+    "state": "England_Wales",
+    "origin": "2026-09-17",
+    "target_sha256": "90bb4c65a73e909bf4146f9f7027429bc16e9920eab22d846cf0c86322df21fb",
+    "covariate_sha256": "0fc21712883e5e5620ae9420da057a110347a02624a93bec49b771d888a16075",
+    "feature_count": 13,
+    "context_start": "2024-09-17",
+    "context_end": "2026-09-16",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": []
+  },
+  {
+    "arm": "calendar",
+    "state": "England_Wales",
+    "origin": "2026-09-18",
+    "target_sha256": "0287eb178bc1604307037cdf64169368b5909fd7ba69789bce35a75eb2addaa4",
+    "covariate_sha256": "8faed9440c522156acbe8b77a50783059aea16c148a5c1d03e4348748e7c7a53",
+    "feature_count": 13,
+    "context_start": "2024-09-18",
+    "context_end": "2026-09-17",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": []
+  },
+  {
+    "arm": "calendar",
+    "state": "England_Wales",
+    "origin": "2026-09-19",
+    "target_sha256": "699e7b1a59e2d5c15e447a27b4b7d301853f6d7f0b3a3c70944668d1e006bda6",
+    "covariate_sha256": "4640d260cd6a8f460ffe00c107714b8be91c4c21f9cc94eceb840dc0f613e555",
+    "feature_count": 13,
+    "context_start": "2024-09-19",
+    "context_end": "2026-09-18",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": []
+  },
+  {
+    "arm": "calendar",
+    "state": "England_Wales",
+    "origin": "2026-09-20",
+    "target_sha256": "66bbcdf2ba8f4ce447b6b4729342a874a0a1620e278b6de6bc2a470e7f82b305",
+    "covariate_sha256": "1c2354020efb12d59639b2a91e581474ae9c9e738baa8225bfdbdaae4b33cffd",
+    "feature_count": 13,
+    "context_start": "2024-09-20",
+    "context_end": "2026-09-19",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": []
+  },
+  {
+    "arm": "calendar",
+    "state": "England_Wales",
+    "origin": "2026-09-21",
+    "target_sha256": "4051fd5ace4be6e1f113fbe1595489cee58deb0c6ba2cc4717e8f4ecbb649284",
+    "covariate_sha256": "f3d3272c2ab645a364f8e07637ed077fd8c0fb6d91bbc34e8142c305ba2c759d",
+    "feature_count": 13,
+    "context_start": "2024-09-21",
+    "context_end": "2026-09-20",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": []
+  },
+  {
+    "arm": "calendar",
+    "state": "England_Wales",
+    "origin": "2026-09-22",
+    "target_sha256": "0d25b36ce37c0332f5362334912c60f6e074b33c182f13bcf25a6ccddd4a300f",
+    "covariate_sha256": "49e8b9bdfd6aa4af6b5fd1c495ff727c222ee521b672cca0e77fe096f3a14342",
+    "feature_count": 13,
+    "context_start": "2024-09-22",
+    "context_end": "2026-09-21",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": []
+  },
+  {
+    "arm": "calendar",
+    "state": "England_Wales",
+    "origin": "2026-09-23",
+    "target_sha256": "50d2105cdf83723c15d3df4b90d26f5219c4f0840b18390c8f9cab778cd4acf4",
+    "covariate_sha256": "c1fa74f17f4279fb2502fc1d59d4e82b7f14a43b7e7927eebb84027fdfcd8cff",
+    "feature_count": 13,
+    "context_start": "2024-09-23",
+    "context_end": "2026-09-22",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": []
+  },
+  {
+    "arm": "calendar",
+    "state": "England_Wales",
+    "origin": "2026-09-24",
+    "target_sha256": "ef1aaf9d891c2dd62ad073ebedbeca125925e319efc28e1eaa0d7e1798adbcb9",
+    "covariate_sha256": "3b62136d4e897bdf8f1e3f5ef4ce7ac6aaed2ca50ccf735ac1f119c4b163a8e5",
+    "feature_count": 13,
+    "context_start": "2024-09-24",
+    "context_end": "2026-09-23",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": []
+  },
+  {
+    "arm": "calendar",
+    "state": "England_Wales",
+    "origin": "2026-09-25",
+    "target_sha256": "ef8d031a6074424058bb646ffa55c8a479cba6c304f95c39d46bf10fa7daae35",
+    "covariate_sha256": "e2707d86ea0709a1be74d2181c895a3c5d372f8f9ee58ec04a64cc4276cb9535",
+    "feature_count": 13,
+    "context_start": "2024-09-25",
+    "context_end": "2026-09-24",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": []
+  },
+  {
+    "arm": "calendar",
+    "state": "England_Wales",
+    "origin": "2026-09-26",
+    "target_sha256": "3907af80b59148c7f3614548ebce6d99a25a6aa4e33359f72350240a9c29cb20",
+    "covariate_sha256": "27f2048ce753634301d0c3fc75e04e4c5f40d85d5132fba11dec62c080636bcd",
+    "feature_count": 13,
+    "context_start": "2024-09-26",
+    "context_end": "2026-09-25",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": []
+  },
+  {
+    "arm": "calendar",
+    "state": "England_Wales",
+    "origin": "2026-09-27",
+    "target_sha256": "eda635f56e44936d3708ff68a71bf5cf1cade0088416a98ff18d21b01da5b8db",
+    "covariate_sha256": "3c137ed8107d12a3bf39287584a588c8408a8bbd4bbfbe94dbcee4872fc6b55e",
+    "feature_count": 13,
+    "context_start": "2024-09-27",
+    "context_end": "2026-09-26",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": []
+  },
+  {
+    "arm": "calendar",
+    "state": "England_Wales",
+    "origin": "2026-09-28",
+    "target_sha256": "61a9a0b3df09d9d1340d9cd097a98edc25f123df18f688361cab8d83fd65ae53",
+    "covariate_sha256": "bb039728b406f96c868f17195b440ad2938d4fa91343a087dfd66272a0864a2c",
+    "feature_count": 13,
+    "context_start": "2024-09-28",
+    "context_end": "2026-09-27",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": []
+  },
+  {
+    "arm": "calendar",
+    "state": "England_Wales",
+    "origin": "2026-09-29",
+    "target_sha256": "05ab7cf470cc95437b7f70eb755b2baaf69d0e17799fe0715988200070fbe9d5",
+    "covariate_sha256": "029b51190f1cec0e1d2d869f8a4e0927bce6d706153668cd6678fc5b9e8da6e0",
+    "feature_count": 13,
+    "context_start": "2024-09-29",
+    "context_end": "2026-09-28",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": []
+  },
+  {
+    "arm": "calendar",
+    "state": "England_Wales",
+    "origin": "2026-09-30",
+    "target_sha256": "df94e06ed51b877245b544df012c47b19cb537f9327d4efd454b4df88faaf3a4",
+    "covariate_sha256": "b948aef71a6e3d273346c903f8270ee226d7395719687eb1d96822928f3dacfd",
+    "feature_count": 13,
+    "context_start": "2024-09-30",
+    "context_end": "2026-09-29",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": []
+  },
+  {
+    "arm": "zero6",
+    "state": "England_Wales",
+    "origin": "2026-09-02",
+    "target_sha256": "7984a0f804e750890e8b62e02468bdbdeee8d52bd4f9c88b37caf52097a7d3cc",
+    "covariate_sha256": "79d70ffdc4adfb2161bb7fb9de7eda7ab653ec1ae4e5e18481d9f5f46db765ef",
+    "feature_count": 19,
+    "context_start": "2024-09-02",
+    "context_end": "2026-09-01",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "arm": "zero6",
+    "state": "England_Wales",
+    "origin": "2026-09-03",
+    "target_sha256": "8a8eb0949e9e8b61f12d71fac4c5916a87f2ad8d1cc9b7e4a687a787943793ca",
+    "covariate_sha256": "8cd07335cd519ad10e5a323252c81abb49976fee2e18d11ec92d390c181cf65f",
+    "feature_count": 19,
+    "context_start": "2024-09-03",
+    "context_end": "2026-09-02",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "arm": "zero6",
+    "state": "England_Wales",
+    "origin": "2026-09-04",
+    "target_sha256": "a8c12f9e973067a8420cd31f52ed468d419c09641f65bccf13fcc0a0e17c462a",
+    "covariate_sha256": "a939a013eeddc002b3eef4ec2ccc91fc3c3d1d97f5e7a51436c5c1286f4bdad9",
+    "feature_count": 19,
+    "context_start": "2024-09-04",
+    "context_end": "2026-09-03",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "arm": "zero6",
+    "state": "England_Wales",
+    "origin": "2026-09-05",
+    "target_sha256": "f36c944348d29c680541c4d8f8a843383ff6465cab090e3fffaae8a9afc0fd17",
+    "covariate_sha256": "c14c3d84479031b8cf8f7c81a0696884843e671f688a9fad0aa787b33ecbab22",
+    "feature_count": 19,
+    "context_start": "2024-09-05",
+    "context_end": "2026-09-04",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "arm": "zero6",
+    "state": "England_Wales",
+    "origin": "2026-09-06",
+    "target_sha256": "f32ddfa151ccfc87ce52d598aa8a2c549ea1f0992a1ac5b62e28b7723636f85c",
+    "covariate_sha256": "a5957ff848481c690d9684f5ad519cc85c3535d7411dfacc92d7dfcec28a7106",
+    "feature_count": 19,
+    "context_start": "2024-09-06",
+    "context_end": "2026-09-05",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "arm": "zero6",
+    "state": "England_Wales",
+    "origin": "2026-09-07",
+    "target_sha256": "9b966a486e28385172697da62fc8325e615cdf2681fc1f0604a955c138e14331",
+    "covariate_sha256": "72bcc8e3b760acc9fb4f7da42ccca86c8c5a0c439bd080c96998f32efc3c89eb",
+    "feature_count": 19,
+    "context_start": "2024-09-07",
+    "context_end": "2026-09-06",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "arm": "zero6",
+    "state": "England_Wales",
+    "origin": "2026-09-08",
+    "target_sha256": "8addc7b8c1cdbd20516a7cf1aab9b67eaec790b2f301c687431f271c5c57dc61",
+    "covariate_sha256": "af1b1d1c22c573d7490e3295ff0b1ba6b2a089d2623b9cbeb0b335d6a44c177a",
+    "feature_count": 19,
+    "context_start": "2024-09-08",
+    "context_end": "2026-09-07",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "arm": "zero6",
+    "state": "England_Wales",
+    "origin": "2026-09-09",
+    "target_sha256": "950b97450da5aa97c788ffb98d34cf9d2eddf85395d49ef5a68d5687dd70334a",
+    "covariate_sha256": "56ca407247b1b98671077b0823459c200ae33892af737653c6669485d0057605",
+    "feature_count": 19,
+    "context_start": "2024-09-09",
+    "context_end": "2026-09-08",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "arm": "zero6",
+    "state": "England_Wales",
+    "origin": "2026-09-10",
+    "target_sha256": "3fc58cc698e9ab32514689629f8612a9605bf0756c30c05458d998fea4bfab03",
+    "covariate_sha256": "b414dd01f2fa12fa8696cd89f1fde2c6398cd3c188fe6d1acf7cd5874083a6d4",
+    "feature_count": 19,
+    "context_start": "2024-09-10",
+    "context_end": "2026-09-09",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "arm": "zero6",
+    "state": "England_Wales",
+    "origin": "2026-09-11",
+    "target_sha256": "0743750e4f5b7d1497876018461242d94bd2f801199d9c05b3a83761bdc28996",
+    "covariate_sha256": "7e2ec3e92b37b4a6a35494a100ce4c964e63ebf88800a033dd9290d1ecefd857",
+    "feature_count": 19,
+    "context_start": "2024-09-11",
+    "context_end": "2026-09-10",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "arm": "zero6",
+    "state": "England_Wales",
+    "origin": "2026-09-12",
+    "target_sha256": "369b7a58bdb62335d5d791588d6be79b098946c8b4afabd70fc034c8e0302cbd",
+    "covariate_sha256": "97fac76d96b21c31d33a1bfbb815655c29185ff35abd49358fa373661d5272a0",
+    "feature_count": 19,
+    "context_start": "2024-09-12",
+    "context_end": "2026-09-11",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "arm": "zero6",
+    "state": "England_Wales",
+    "origin": "2026-09-13",
+    "target_sha256": "1f88fa9c20aa2805a13bfe134c8ca9ff0d3cec475d38c6d66663d6399e0243a2",
+    "covariate_sha256": "8b5045526d93df287e63b34949575b1738d3283de8e82d360ab62ee13a88eb95",
+    "feature_count": 19,
+    "context_start": "2024-09-13",
+    "context_end": "2026-09-12",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "arm": "zero6",
+    "state": "England_Wales",
+    "origin": "2026-09-14",
+    "target_sha256": "5021affdc68701fbfc021f7ecb70c36dd166e4ac6b8ae4f68876820430e870f1",
+    "covariate_sha256": "f7a5dcb7e24dcce19b179d7f2495a7f699799790417debc938ff59bec40d62cd",
+    "feature_count": 19,
+    "context_start": "2024-09-14",
+    "context_end": "2026-09-13",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "arm": "zero6",
+    "state": "England_Wales",
+    "origin": "2026-09-15",
+    "target_sha256": "d5f64c9bfbfce818e32fb17c5402627d413a034674f7af9deaa0f4f2a85466de",
+    "covariate_sha256": "62fba6a816246c02fc0cb2b835503793a05a71d25b06b70de685abbb37528599",
+    "feature_count": 19,
+    "context_start": "2024-09-15",
+    "context_end": "2026-09-14",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "arm": "zero6",
+    "state": "England_Wales",
+    "origin": "2026-09-16",
+    "target_sha256": "227b02d49dae77248d2d8fda61578ff85193fa5cab63f5cb63eaefd0543f0042",
+    "covariate_sha256": "fb7e0f4395e2b79f96fd5204a5ca919a5ab79f0ae5fec787d0c94dd4e9ad84d8",
+    "feature_count": 19,
+    "context_start": "2024-09-16",
+    "context_end": "2026-09-15",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "arm": "zero6",
+    "state": "England_Wales",
+    "origin": "2026-09-17",
+    "target_sha256": "90bb4c65a73e909bf4146f9f7027429bc16e9920eab22d846cf0c86322df21fb",
+    "covariate_sha256": "f48e5b32252bbcb2560fed54130279c97dc6163aaa4001f4edf79cb10fbe742a",
+    "feature_count": 19,
+    "context_start": "2024-09-17",
+    "context_end": "2026-09-16",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "arm": "zero6",
+    "state": "England_Wales",
+    "origin": "2026-09-18",
+    "target_sha256": "0287eb178bc1604307037cdf64169368b5909fd7ba69789bce35a75eb2addaa4",
+    "covariate_sha256": "e3d49dfcd40d7853b0f0a0510c4e9648d93317a819f3f9606f7c3f7ac9821f09",
+    "feature_count": 19,
+    "context_start": "2024-09-18",
+    "context_end": "2026-09-17",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "arm": "zero6",
+    "state": "England_Wales",
+    "origin": "2026-09-19",
+    "target_sha256": "699e7b1a59e2d5c15e447a27b4b7d301853f6d7f0b3a3c70944668d1e006bda6",
+    "covariate_sha256": "1591d7bd7174a98d8093fcfc49048fb616c6c7feeb9a0f1a0bc8b9bb73313035",
+    "feature_count": 19,
+    "context_start": "2024-09-19",
+    "context_end": "2026-09-18",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "arm": "zero6",
+    "state": "England_Wales",
+    "origin": "2026-09-20",
+    "target_sha256": "66bbcdf2ba8f4ce447b6b4729342a874a0a1620e278b6de6bc2a470e7f82b305",
+    "covariate_sha256": "89d8a625b5683f2705ab7899e909d3a3f8b5ac304a2c95c3f9a8646ff5f6f8f8",
+    "feature_count": 19,
+    "context_start": "2024-09-20",
+    "context_end": "2026-09-19",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "arm": "zero6",
+    "state": "England_Wales",
+    "origin": "2026-09-21",
+    "target_sha256": "4051fd5ace4be6e1f113fbe1595489cee58deb0c6ba2cc4717e8f4ecbb649284",
+    "covariate_sha256": "b8cd5bf571b8016ce3678ef049af6db92ec1d74b34728243fb736ffcb0a1ff4d",
+    "feature_count": 19,
+    "context_start": "2024-09-21",
+    "context_end": "2026-09-20",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "arm": "zero6",
+    "state": "England_Wales",
+    "origin": "2026-09-22",
+    "target_sha256": "0d25b36ce37c0332f5362334912c60f6e074b33c182f13bcf25a6ccddd4a300f",
+    "covariate_sha256": "9f1af8f0a725639768782e8eb68c5d38c47050a7316f18d68aaa5810a5cd14fe",
+    "feature_count": 19,
+    "context_start": "2024-09-22",
+    "context_end": "2026-09-21",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "arm": "zero6",
+    "state": "England_Wales",
+    "origin": "2026-09-23",
+    "target_sha256": "50d2105cdf83723c15d3df4b90d26f5219c4f0840b18390c8f9cab778cd4acf4",
+    "covariate_sha256": "c6bc341966dce3aa3879afec1eccc977ac06a7e2a42bcb495da71e76c5b069c7",
+    "feature_count": 19,
+    "context_start": "2024-09-23",
+    "context_end": "2026-09-22",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "arm": "zero6",
+    "state": "England_Wales",
+    "origin": "2026-09-24",
+    "target_sha256": "ef1aaf9d891c2dd62ad073ebedbeca125925e319efc28e1eaa0d7e1798adbcb9",
+    "covariate_sha256": "063de94cc252681251caeb40151065f15eaa40ef745a3a27258b3532e479c4ed",
+    "feature_count": 19,
+    "context_start": "2024-09-24",
+    "context_end": "2026-09-23",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "arm": "zero6",
+    "state": "England_Wales",
+    "origin": "2026-09-25",
+    "target_sha256": "ef8d031a6074424058bb646ffa55c8a479cba6c304f95c39d46bf10fa7daae35",
+    "covariate_sha256": "f60ce4b3ff2e150567f8836b9de00e740a46f2d0ac9a6bd088af5e9b111b2d89",
+    "feature_count": 19,
+    "context_start": "2024-09-25",
+    "context_end": "2026-09-24",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "arm": "zero6",
+    "state": "England_Wales",
+    "origin": "2026-09-26",
+    "target_sha256": "3907af80b59148c7f3614548ebce6d99a25a6aa4e33359f72350240a9c29cb20",
+    "covariate_sha256": "9b92b2142c44b26933baf7c23b852b9a4ff8fc84fb5236043427b818e6f0face",
+    "feature_count": 19,
+    "context_start": "2024-09-26",
+    "context_end": "2026-09-25",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "arm": "zero6",
+    "state": "England_Wales",
+    "origin": "2026-09-27",
+    "target_sha256": "eda635f56e44936d3708ff68a71bf5cf1cade0088416a98ff18d21b01da5b8db",
+    "covariate_sha256": "23134756a95331bf8742c50309c251558c545d07da13cf40257c0aae04727203",
+    "feature_count": 19,
+    "context_start": "2024-09-27",
+    "context_end": "2026-09-26",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "arm": "zero6",
+    "state": "England_Wales",
+    "origin": "2026-09-28",
+    "target_sha256": "61a9a0b3df09d9d1340d9cd097a98edc25f123df18f688361cab8d83fd65ae53",
+    "covariate_sha256": "9e78ec030227e100160bb2e5a6ca0e43910463701645a873464c0d1f2842d00b",
+    "feature_count": 19,
+    "context_start": "2024-09-28",
+    "context_end": "2026-09-27",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "arm": "zero6",
+    "state": "England_Wales",
+    "origin": "2026-09-29",
+    "target_sha256": "05ab7cf470cc95437b7f70eb755b2baaf69d0e17799fe0715988200070fbe9d5",
+    "covariate_sha256": "4cd7f5c1981a58494c71722de5c6c36b50d6bba8001c5f5f276499757c664452",
+    "feature_count": 19,
+    "context_start": "2024-09-29",
+    "context_end": "2026-09-28",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "arm": "zero6",
+    "state": "England_Wales",
+    "origin": "2026-09-30",
+    "target_sha256": "df94e06ed51b877245b544df012c47b19cb537f9327d4efd454b4df88faaf3a4",
+    "covariate_sha256": "3f93e31d57dea928f66501f7a15bdc804464e853560c3a7d927672936d476d94",
+    "feature_count": 19,
+    "context_start": "2024-09-30",
+    "context_end": "2026-09-29",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "arm": "day6",
+    "state": "England_Wales",
+    "origin": "2026-09-02",
+    "target_sha256": "7984a0f804e750890e8b62e02468bdbdeee8d52bd4f9c88b37caf52097a7d3cc",
+    "covariate_sha256": "b5fb9d5675541224019a3a5af62d42aa629a66cfdb157bf1fcc400086a1608f2",
+    "feature_count": 19,
+    "context_start": "2024-09-02",
+    "context_end": "2026-09-01",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      2,
+      4,
+      2,
+      2,
+      2,
+      4
+    ]
+  },
+  {
+    "arm": "day6",
+    "state": "England_Wales",
+    "origin": "2026-09-03",
+    "target_sha256": "8a8eb0949e9e8b61f12d71fac4c5916a87f2ad8d1cc9b7e4a687a787943793ca",
+    "covariate_sha256": "fcda76b915172ea93142807bde1721a421d4cba7835366b23c1502aa7cb8b70c",
+    "feature_count": 19,
+    "context_start": "2024-09-03",
+    "context_end": "2026-09-02",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      2,
+      4,
+      2,
+      2,
+      2,
+      4
+    ]
+  },
+  {
+    "arm": "day6",
+    "state": "England_Wales",
+    "origin": "2026-09-04",
+    "target_sha256": "a8c12f9e973067a8420cd31f52ed468d419c09641f65bccf13fcc0a0e17c462a",
+    "covariate_sha256": "ccc9e365839cc33b5e870757f070873db555f30db2b6c1d990bb046ffe443c23",
+    "feature_count": 19,
+    "context_start": "2024-09-04",
+    "context_end": "2026-09-03",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      2,
+      4,
+      2,
+      2,
+      2,
+      4
+    ]
+  },
+  {
+    "arm": "day6",
+    "state": "England_Wales",
+    "origin": "2026-09-05",
+    "target_sha256": "f36c944348d29c680541c4d8f8a843383ff6465cab090e3fffaae8a9afc0fd17",
+    "covariate_sha256": "5c8968214c93d6420aa52451a8b877d72f531627da793389eb87af11d8305e07",
+    "feature_count": 19,
+    "context_start": "2024-09-05",
+    "context_end": "2026-09-04",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      2,
+      4,
+      2,
+      2,
+      2,
+      4
+    ]
+  },
+  {
+    "arm": "day6",
+    "state": "England_Wales",
+    "origin": "2026-09-06",
+    "target_sha256": "f32ddfa151ccfc87ce52d598aa8a2c549ea1f0992a1ac5b62e28b7723636f85c",
+    "covariate_sha256": "1a0bc6bdb5eac3a1fcbeada4afea6e4b6758369f565de6f57947e1e0659888fe",
+    "feature_count": 19,
+    "context_start": "2024-09-06",
+    "context_end": "2026-09-05",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      2,
+      4,
+      2,
+      2,
+      2,
+      4
+    ]
+  },
+  {
+    "arm": "day6",
+    "state": "England_Wales",
+    "origin": "2026-09-07",
+    "target_sha256": "9b966a486e28385172697da62fc8325e615cdf2681fc1f0604a955c138e14331",
+    "covariate_sha256": "96ab9443c3ca8b6ff972e0325a0243a8feafa04949eec9d3edefd681bfe60824",
+    "feature_count": 19,
+    "context_start": "2024-09-07",
+    "context_end": "2026-09-06",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      2,
+      4,
+      2,
+      2,
+      2,
+      4
+    ]
+  },
+  {
+    "arm": "day6",
+    "state": "England_Wales",
+    "origin": "2026-09-08",
+    "target_sha256": "8addc7b8c1cdbd20516a7cf1aab9b67eaec790b2f301c687431f271c5c57dc61",
+    "covariate_sha256": "068e2ea186498e95b5fdc4ae34da947fc2d02020027be882ad1f66b8ca13abb8",
+    "feature_count": 19,
+    "context_start": "2024-09-08",
+    "context_end": "2026-09-07",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      2,
+      4,
+      2,
+      2,
+      2,
+      4
+    ]
+  },
+  {
+    "arm": "day6",
+    "state": "England_Wales",
+    "origin": "2026-09-09",
+    "target_sha256": "950b97450da5aa97c788ffb98d34cf9d2eddf85395d49ef5a68d5687dd70334a",
+    "covariate_sha256": "c44665a93bd852a8f655f1a063ef383ab858ad40868044713c197bab63db33f3",
+    "feature_count": 19,
+    "context_start": "2024-09-09",
+    "context_end": "2026-09-08",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      2,
+      4,
+      2,
+      2,
+      2,
+      4
+    ]
+  },
+  {
+    "arm": "day6",
+    "state": "England_Wales",
+    "origin": "2026-09-10",
+    "target_sha256": "3fc58cc698e9ab32514689629f8612a9605bf0756c30c05458d998fea4bfab03",
+    "covariate_sha256": "5439aa82ce2f649c6a961febc53d746565b6c2cb6a7b0c355f45c82e25970e59",
+    "feature_count": 19,
+    "context_start": "2024-09-10",
+    "context_end": "2026-09-09",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      2,
+      4,
+      2,
+      2,
+      2,
+      4
+    ]
+  },
+  {
+    "arm": "day6",
+    "state": "England_Wales",
+    "origin": "2026-09-11",
+    "target_sha256": "0743750e4f5b7d1497876018461242d94bd2f801199d9c05b3a83761bdc28996",
+    "covariate_sha256": "577c4cb91624c679c2afef0cfd2f9bb5fe27765bb24e86fcfda3043b4601fea5",
+    "feature_count": 19,
+    "context_start": "2024-09-11",
+    "context_end": "2026-09-10",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      2,
+      4,
+      2,
+      2,
+      2,
+      4
+    ]
+  },
+  {
+    "arm": "day6",
+    "state": "England_Wales",
+    "origin": "2026-09-12",
+    "target_sha256": "369b7a58bdb62335d5d791588d6be79b098946c8b4afabd70fc034c8e0302cbd",
+    "covariate_sha256": "f9577ef12a86e541c100819e122c99ad663e92799493e43f0b141b258f517c87",
+    "feature_count": 19,
+    "context_start": "2024-09-12",
+    "context_end": "2026-09-11",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      2,
+      4,
+      2,
+      2,
+      2,
+      4
+    ]
+  },
+  {
+    "arm": "day6",
+    "state": "England_Wales",
+    "origin": "2026-09-13",
+    "target_sha256": "1f88fa9c20aa2805a13bfe134c8ca9ff0d3cec475d38c6d66663d6399e0243a2",
+    "covariate_sha256": "d386df4c7150b180c97cc34e27f1105d968f7c7c1f8255b0d28658d7e83b5433",
+    "feature_count": 19,
+    "context_start": "2024-09-13",
+    "context_end": "2026-09-12",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      2,
+      4,
+      2,
+      2,
+      2,
+      4
+    ]
+  },
+  {
+    "arm": "day6",
+    "state": "England_Wales",
+    "origin": "2026-09-14",
+    "target_sha256": "5021affdc68701fbfc021f7ecb70c36dd166e4ac6b8ae4f68876820430e870f1",
+    "covariate_sha256": "d118f7a9228c1ec8910839eedd68bffae59b0644035e02891a640f8431dcc739",
+    "feature_count": 19,
+    "context_start": "2024-09-14",
+    "context_end": "2026-09-13",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      2,
+      4,
+      2,
+      2,
+      2,
+      4
+    ]
+  },
+  {
+    "arm": "day6",
+    "state": "England_Wales",
+    "origin": "2026-09-15",
+    "target_sha256": "d5f64c9bfbfce818e32fb17c5402627d413a034674f7af9deaa0f4f2a85466de",
+    "covariate_sha256": "a6fd6be7083325ff3369eade207a06507fa15df00dffff295d9efd0f268ed0af",
+    "feature_count": 19,
+    "context_start": "2024-09-15",
+    "context_end": "2026-09-14",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      2,
+      4,
+      2,
+      2,
+      2,
+      4
+    ]
+  },
+  {
+    "arm": "day6",
+    "state": "England_Wales",
+    "origin": "2026-09-16",
+    "target_sha256": "227b02d49dae77248d2d8fda61578ff85193fa5cab63f5cb63eaefd0543f0042",
+    "covariate_sha256": "dfd3f55cdc99f2d0f54f44fcce019ad87c4b530214e75a40a3cb21fc13f84051",
+    "feature_count": 19,
+    "context_start": "2024-09-16",
+    "context_end": "2026-09-15",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      2,
+      4,
+      2,
+      2,
+      2,
+      4
+    ]
+  },
+  {
+    "arm": "day6",
+    "state": "England_Wales",
+    "origin": "2026-09-17",
+    "target_sha256": "90bb4c65a73e909bf4146f9f7027429bc16e9920eab22d846cf0c86322df21fb",
+    "covariate_sha256": "a20feb5ca1e79fa279e0c3359a64d6fe809cc77a8b4d5e3963c82831253ecc11",
+    "feature_count": 19,
+    "context_start": "2024-09-17",
+    "context_end": "2026-09-16",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      2,
+      4,
+      2,
+      2,
+      2,
+      4
+    ]
+  },
+  {
+    "arm": "day6",
+    "state": "England_Wales",
+    "origin": "2026-09-18",
+    "target_sha256": "0287eb178bc1604307037cdf64169368b5909fd7ba69789bce35a75eb2addaa4",
+    "covariate_sha256": "95aafae60a64d11ebf8d75c93cca088ef891a7f58a670c4abc83b9f44acdf271",
+    "feature_count": 19,
+    "context_start": "2024-09-18",
+    "context_end": "2026-09-17",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      2,
+      4,
+      2,
+      2,
+      2,
+      4
+    ]
+  },
+  {
+    "arm": "day6",
+    "state": "England_Wales",
+    "origin": "2026-09-19",
+    "target_sha256": "699e7b1a59e2d5c15e447a27b4b7d301853f6d7f0b3a3c70944668d1e006bda6",
+    "covariate_sha256": "197b19633ffd7b120e06efd1e0c8890483b038c6a6882d88aabdaad0ac93bae0",
+    "feature_count": 19,
+    "context_start": "2024-09-19",
+    "context_end": "2026-09-18",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      2,
+      4,
+      2,
+      2,
+      2,
+      4
+    ]
+  },
+  {
+    "arm": "day6",
+    "state": "England_Wales",
+    "origin": "2026-09-20",
+    "target_sha256": "66bbcdf2ba8f4ce447b6b4729342a874a0a1620e278b6de6bc2a470e7f82b305",
+    "covariate_sha256": "7110205b44078172c40aede2bfc0645a13732cc9f3d50381eb21ee0d0e8d675c",
+    "feature_count": 19,
+    "context_start": "2024-09-20",
+    "context_end": "2026-09-19",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      2,
+      4,
+      2,
+      2,
+      2,
+      4
+    ]
+  },
+  {
+    "arm": "day6",
+    "state": "England_Wales",
+    "origin": "2026-09-21",
+    "target_sha256": "4051fd5ace4be6e1f113fbe1595489cee58deb0c6ba2cc4717e8f4ecbb649284",
+    "covariate_sha256": "0ea87aaf2bb2d900a1f81656e3f9d6f7df885efd84f87fd57604164e3dd932c3",
+    "feature_count": 19,
+    "context_start": "2024-09-21",
+    "context_end": "2026-09-20",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      2,
+      4,
+      2,
+      2,
+      2,
+      4
+    ]
+  },
+  {
+    "arm": "day6",
+    "state": "England_Wales",
+    "origin": "2026-09-22",
+    "target_sha256": "0d25b36ce37c0332f5362334912c60f6e074b33c182f13bcf25a6ccddd4a300f",
+    "covariate_sha256": "da7f8f060a67f3828ea182c16476b2fe6b19cf6aec941046b492d35ed65db783",
+    "feature_count": 19,
+    "context_start": "2024-09-22",
+    "context_end": "2026-09-21",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      2,
+      4,
+      2,
+      2,
+      2,
+      4
+    ]
+  },
+  {
+    "arm": "day6",
+    "state": "England_Wales",
+    "origin": "2026-09-23",
+    "target_sha256": "50d2105cdf83723c15d3df4b90d26f5219c4f0840b18390c8f9cab778cd4acf4",
+    "covariate_sha256": "f6b312aa26b457346b206d8ba509513b613fbb36ba114dff4444a2db06728c94",
+    "feature_count": 19,
+    "context_start": "2024-09-23",
+    "context_end": "2026-09-22",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      2,
+      4,
+      2,
+      2,
+      2,
+      4
+    ]
+  },
+  {
+    "arm": "day6",
+    "state": "England_Wales",
+    "origin": "2026-09-24",
+    "target_sha256": "ef1aaf9d891c2dd62ad073ebedbeca125925e319efc28e1eaa0d7e1798adbcb9",
+    "covariate_sha256": "1b6fea624dce2762fae3a2c56e27152abbf5273846233b361ef487adef0e83ea",
+    "feature_count": 19,
+    "context_start": "2024-09-24",
+    "context_end": "2026-09-23",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      2,
+      4,
+      2,
+      2,
+      2,
+      4
+    ]
+  },
+  {
+    "arm": "day6",
+    "state": "England_Wales",
+    "origin": "2026-09-25",
+    "target_sha256": "ef8d031a6074424058bb646ffa55c8a479cba6c304f95c39d46bf10fa7daae35",
+    "covariate_sha256": "90a7ec0d7915b4412de9372c03306101ce883497e3ec67cc5f6072412f04481c",
+    "feature_count": 19,
+    "context_start": "2024-09-25",
+    "context_end": "2026-09-24",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      2,
+      4,
+      2,
+      2,
+      2,
+      4
+    ]
+  },
+  {
+    "arm": "day6",
+    "state": "England_Wales",
+    "origin": "2026-09-26",
+    "target_sha256": "3907af80b59148c7f3614548ebce6d99a25a6aa4e33359f72350240a9c29cb20",
+    "covariate_sha256": "9af47ceb20dd084b4888a46275be59b27ac320bc2cd0687f79b7a170e8ac25b0",
+    "feature_count": 19,
+    "context_start": "2024-09-26",
+    "context_end": "2026-09-25",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      2,
+      4,
+      2,
+      2,
+      2,
+      4
+    ]
+  },
+  {
+    "arm": "day6",
+    "state": "England_Wales",
+    "origin": "2026-09-27",
+    "target_sha256": "eda635f56e44936d3708ff68a71bf5cf1cade0088416a98ff18d21b01da5b8db",
+    "covariate_sha256": "d79440a6e320fbfa9aab112996abf5654b29e36c8aa31636ef92f6fe92cac246",
+    "feature_count": 19,
+    "context_start": "2024-09-27",
+    "context_end": "2026-09-26",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      2,
+      4,
+      2,
+      2,
+      2,
+      4
+    ]
+  },
+  {
+    "arm": "day6",
+    "state": "England_Wales",
+    "origin": "2026-09-28",
+    "target_sha256": "61a9a0b3df09d9d1340d9cd097a98edc25f123df18f688361cab8d83fd65ae53",
+    "covariate_sha256": "59c790e7c8db64dc7265a82c22decef4fc32a756c296360879c2e79618335e1b",
+    "feature_count": 19,
+    "context_start": "2024-09-28",
+    "context_end": "2026-09-27",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      2,
+      4,
+      2,
+      2,
+      2,
+      4
+    ]
+  },
+  {
+    "arm": "day6",
+    "state": "England_Wales",
+    "origin": "2026-09-29",
+    "target_sha256": "05ab7cf470cc95437b7f70eb755b2baaf69d0e17799fe0715988200070fbe9d5",
+    "covariate_sha256": "ccb461657f11176d27da61424e7286ed4ad5386a89ad2b17684f8be1e68badc7",
+    "feature_count": 19,
+    "context_start": "2024-09-29",
+    "context_end": "2026-09-28",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      2,
+      4,
+      2,
+      2,
+      2,
+      4
+    ]
+  },
+  {
+    "arm": "day6",
+    "state": "England_Wales",
+    "origin": "2026-09-30",
+    "target_sha256": "df94e06ed51b877245b544df012c47b19cb537f9327d4efd454b4df88faaf3a4",
+    "covariate_sha256": "3506af88f980a5a3c245e62e8563f4c850ed34ea4b72d0ead6ee91b51fff0d4d",
+    "feature_count": 19,
+    "context_start": "2024-09-30",
+    "context_end": "2026-09-29",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      2,
+      4,
+      2,
+      2,
+      2,
+      4
+    ]
+  },
+  {
+    "arm": "pooled_day6",
+    "state": "England_Wales",
+    "origin": "2026-09-02",
+    "target_sha256": "7984a0f804e750890e8b62e02468bdbdeee8d52bd4f9c88b37caf52097a7d3cc",
+    "covariate_sha256": "fbdeeda63650ba66137b1a561cd6bae9540db1ea558daf1425b7108102787d50",
+    "feature_count": 19,
+    "context_start": "2024-09-02",
+    "context_end": "2026-09-01",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      16,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "arm": "pooled_day6",
+    "state": "England_Wales",
+    "origin": "2026-09-03",
+    "target_sha256": "8a8eb0949e9e8b61f12d71fac4c5916a87f2ad8d1cc9b7e4a687a787943793ca",
+    "covariate_sha256": "8ca7ce7c0535669f1fa650e7c76a580bf7d295f2a544b860a2f8d047bbb7e408",
+    "feature_count": 19,
+    "context_start": "2024-09-03",
+    "context_end": "2026-09-02",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      16,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "arm": "pooled_day6",
+    "state": "England_Wales",
+    "origin": "2026-09-04",
+    "target_sha256": "a8c12f9e973067a8420cd31f52ed468d419c09641f65bccf13fcc0a0e17c462a",
+    "covariate_sha256": "ca17966b2f9a810e9c12d551558bd42646b5193a8d1500102d13ac97f2b159ea",
+    "feature_count": 19,
+    "context_start": "2024-09-04",
+    "context_end": "2026-09-03",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      16,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "arm": "pooled_day6",
+    "state": "England_Wales",
+    "origin": "2026-09-05",
+    "target_sha256": "f36c944348d29c680541c4d8f8a843383ff6465cab090e3fffaae8a9afc0fd17",
+    "covariate_sha256": "8d2f1d73f1d86149eb0bb6cbad908cc8b34e1cd893cf6c851fa21e10cf4d9804",
+    "feature_count": 19,
+    "context_start": "2024-09-05",
+    "context_end": "2026-09-04",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      16,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "arm": "pooled_day6",
+    "state": "England_Wales",
+    "origin": "2026-09-06",
+    "target_sha256": "f32ddfa151ccfc87ce52d598aa8a2c549ea1f0992a1ac5b62e28b7723636f85c",
+    "covariate_sha256": "0d80968bac83318ade483af0b1fd2bf6e9643715e2837c7a8ba8aa07dfdf5aa1",
+    "feature_count": 19,
+    "context_start": "2024-09-06",
+    "context_end": "2026-09-05",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      16,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "arm": "pooled_day6",
+    "state": "England_Wales",
+    "origin": "2026-09-07",
+    "target_sha256": "9b966a486e28385172697da62fc8325e615cdf2681fc1f0604a955c138e14331",
+    "covariate_sha256": "1acc71b845217b9a71d2b159e4b5933eebf09c4efa2f077027ab9b3edd457a3c",
+    "feature_count": 19,
+    "context_start": "2024-09-07",
+    "context_end": "2026-09-06",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      16,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "arm": "pooled_day6",
+    "state": "England_Wales",
+    "origin": "2026-09-08",
+    "target_sha256": "8addc7b8c1cdbd20516a7cf1aab9b67eaec790b2f301c687431f271c5c57dc61",
+    "covariate_sha256": "93e61764446ceba24f7a92ed7df249e5416cda4622bd2635fe24ee701cea6ddc",
+    "feature_count": 19,
+    "context_start": "2024-09-08",
+    "context_end": "2026-09-07",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      16,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "arm": "pooled_day6",
+    "state": "England_Wales",
+    "origin": "2026-09-09",
+    "target_sha256": "950b97450da5aa97c788ffb98d34cf9d2eddf85395d49ef5a68d5687dd70334a",
+    "covariate_sha256": "39294e097989960b231352ec1c88255f44dd6bab8f0941e994636f74e659a249",
+    "feature_count": 19,
+    "context_start": "2024-09-09",
+    "context_end": "2026-09-08",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      16,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "arm": "pooled_day6",
+    "state": "England_Wales",
+    "origin": "2026-09-10",
+    "target_sha256": "3fc58cc698e9ab32514689629f8612a9605bf0756c30c05458d998fea4bfab03",
+    "covariate_sha256": "4b9af22378810126cdf84a7181d3bcad769950e37888799a3aa952536f505edb",
+    "feature_count": 19,
+    "context_start": "2024-09-10",
+    "context_end": "2026-09-09",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      16,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "arm": "pooled_day6",
+    "state": "England_Wales",
+    "origin": "2026-09-11",
+    "target_sha256": "0743750e4f5b7d1497876018461242d94bd2f801199d9c05b3a83761bdc28996",
+    "covariate_sha256": "56c8c51854669ef6aa21a982a3ff135316ba04864a2faf94aac6412111500053",
+    "feature_count": 19,
+    "context_start": "2024-09-11",
+    "context_end": "2026-09-10",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      16,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "arm": "pooled_day6",
+    "state": "England_Wales",
+    "origin": "2026-09-12",
+    "target_sha256": "369b7a58bdb62335d5d791588d6be79b098946c8b4afabd70fc034c8e0302cbd",
+    "covariate_sha256": "e20e585a2d530c9c4da9975be43d0bab1dc806cce3c135c14d5e0b5cbda704af",
+    "feature_count": 19,
+    "context_start": "2024-09-12",
+    "context_end": "2026-09-11",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      16,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "arm": "pooled_day6",
+    "state": "England_Wales",
+    "origin": "2026-09-13",
+    "target_sha256": "1f88fa9c20aa2805a13bfe134c8ca9ff0d3cec475d38c6d66663d6399e0243a2",
+    "covariate_sha256": "2a983ad91239584911b917ebfb20abc7c93c716c6a361e0f5128167a30992c14",
+    "feature_count": 19,
+    "context_start": "2024-09-13",
+    "context_end": "2026-09-12",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      16,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "arm": "pooled_day6",
+    "state": "England_Wales",
+    "origin": "2026-09-14",
+    "target_sha256": "5021affdc68701fbfc021f7ecb70c36dd166e4ac6b8ae4f68876820430e870f1",
+    "covariate_sha256": "62ec34f068e9ef59bcc7783f4cdd7190b851bd3cc7b022077a63cd4e56464725",
+    "feature_count": 19,
+    "context_start": "2024-09-14",
+    "context_end": "2026-09-13",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      16,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "arm": "pooled_day6",
+    "state": "England_Wales",
+    "origin": "2026-09-15",
+    "target_sha256": "d5f64c9bfbfce818e32fb17c5402627d413a034674f7af9deaa0f4f2a85466de",
+    "covariate_sha256": "2ad482cc6dde81311a8d5f8bcec5d44bbc286ce24d7f06c91bfe8a3ecdec2318",
+    "feature_count": 19,
+    "context_start": "2024-09-15",
+    "context_end": "2026-09-14",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      16,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "arm": "pooled_day6",
+    "state": "England_Wales",
+    "origin": "2026-09-16",
+    "target_sha256": "227b02d49dae77248d2d8fda61578ff85193fa5cab63f5cb63eaefd0543f0042",
+    "covariate_sha256": "6f861b5c3f58bdb805e696cd95122bc681f268c5a4e48cd4d182ee2160b58725",
+    "feature_count": 19,
+    "context_start": "2024-09-16",
+    "context_end": "2026-09-15",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      16,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "arm": "pooled_day6",
+    "state": "England_Wales",
+    "origin": "2026-09-17",
+    "target_sha256": "90bb4c65a73e909bf4146f9f7027429bc16e9920eab22d846cf0c86322df21fb",
+    "covariate_sha256": "7e5116091b804ad617bbcac5f14e74b3cb6cb21e55779556c4d86b78cc0d7fca",
+    "feature_count": 19,
+    "context_start": "2024-09-17",
+    "context_end": "2026-09-16",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      16,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "arm": "pooled_day6",
+    "state": "England_Wales",
+    "origin": "2026-09-18",
+    "target_sha256": "0287eb178bc1604307037cdf64169368b5909fd7ba69789bce35a75eb2addaa4",
+    "covariate_sha256": "8f03762c1d329ba4972fbaf03893ce57c31b4941b8d65130dc803a8b682a539b",
+    "feature_count": 19,
+    "context_start": "2024-09-18",
+    "context_end": "2026-09-17",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      16,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "arm": "pooled_day6",
+    "state": "England_Wales",
+    "origin": "2026-09-19",
+    "target_sha256": "699e7b1a59e2d5c15e447a27b4b7d301853f6d7f0b3a3c70944668d1e006bda6",
+    "covariate_sha256": "5cfa223e00d793fe968e8d59e5e4e7280e63b20b257a980a37574d8486d8e537",
+    "feature_count": 19,
+    "context_start": "2024-09-19",
+    "context_end": "2026-09-18",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      16,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "arm": "pooled_day6",
+    "state": "England_Wales",
+    "origin": "2026-09-20",
+    "target_sha256": "66bbcdf2ba8f4ce447b6b4729342a874a0a1620e278b6de6bc2a470e7f82b305",
+    "covariate_sha256": "bcb9e6a63afce3ce14f4e940295355958c6ec5a4587190ca509be392f59ec0a2",
+    "feature_count": 19,
+    "context_start": "2024-09-20",
+    "context_end": "2026-09-19",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      16,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "arm": "pooled_day6",
+    "state": "England_Wales",
+    "origin": "2026-09-21",
+    "target_sha256": "4051fd5ace4be6e1f113fbe1595489cee58deb0c6ba2cc4717e8f4ecbb649284",
+    "covariate_sha256": "abe315e07bdf763d6aebb4d40b13fbb7bb571eda2c82be4d799e7f23abe1e556",
+    "feature_count": 19,
+    "context_start": "2024-09-21",
+    "context_end": "2026-09-20",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      16,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "arm": "pooled_day6",
+    "state": "England_Wales",
+    "origin": "2026-09-22",
+    "target_sha256": "0d25b36ce37c0332f5362334912c60f6e074b33c182f13bcf25a6ccddd4a300f",
+    "covariate_sha256": "5615efb759f0b3f686da50a926d1638ea7a44c6cb7f7ca40e98da8d275014772",
+    "feature_count": 19,
+    "context_start": "2024-09-22",
+    "context_end": "2026-09-21",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      16,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "arm": "pooled_day6",
+    "state": "England_Wales",
+    "origin": "2026-09-23",
+    "target_sha256": "50d2105cdf83723c15d3df4b90d26f5219c4f0840b18390c8f9cab778cd4acf4",
+    "covariate_sha256": "327e29359211a7bf06870d4cbfa112ab2c29bfd0c01f374bdcf7e20507175faf",
+    "feature_count": 19,
+    "context_start": "2024-09-23",
+    "context_end": "2026-09-22",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      16,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "arm": "pooled_day6",
+    "state": "England_Wales",
+    "origin": "2026-09-24",
+    "target_sha256": "ef1aaf9d891c2dd62ad073ebedbeca125925e319efc28e1eaa0d7e1798adbcb9",
+    "covariate_sha256": "6d15c63c0e9fd718cbc821658615ff5f1ebfcecc209594ab65e81c2288f77800",
+    "feature_count": 19,
+    "context_start": "2024-09-24",
+    "context_end": "2026-09-23",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      16,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "arm": "pooled_day6",
+    "state": "England_Wales",
+    "origin": "2026-09-25",
+    "target_sha256": "ef8d031a6074424058bb646ffa55c8a479cba6c304f95c39d46bf10fa7daae35",
+    "covariate_sha256": "3075584ec8a361de936dd04bdde4aac87a2468a012c284fb4b6e8644bbf7cc70",
+    "feature_count": 19,
+    "context_start": "2024-09-25",
+    "context_end": "2026-09-24",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      16,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "arm": "pooled_day6",
+    "state": "England_Wales",
+    "origin": "2026-09-26",
+    "target_sha256": "3907af80b59148c7f3614548ebce6d99a25a6aa4e33359f72350240a9c29cb20",
+    "covariate_sha256": "4dc061f57edcafeb58b230ffcd62ff25602653629d52084cdd320bb6067b4a02",
+    "feature_count": 19,
+    "context_start": "2024-09-26",
+    "context_end": "2026-09-25",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      16,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "arm": "pooled_day6",
+    "state": "England_Wales",
+    "origin": "2026-09-27",
+    "target_sha256": "eda635f56e44936d3708ff68a71bf5cf1cade0088416a98ff18d21b01da5b8db",
+    "covariate_sha256": "e140b08833a43f2425e67016a8a9d24e729617b7c268b564455df87bf4022011",
+    "feature_count": 19,
+    "context_start": "2024-09-27",
+    "context_end": "2026-09-26",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      16,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "arm": "pooled_day6",
+    "state": "England_Wales",
+    "origin": "2026-09-28",
+    "target_sha256": "61a9a0b3df09d9d1340d9cd097a98edc25f123df18f688361cab8d83fd65ae53",
+    "covariate_sha256": "1e8a1b6abf96872e7149addb8ca3d0bc4dfecf1076e20af280d320b66ab1ab77",
+    "feature_count": 19,
+    "context_start": "2024-09-28",
+    "context_end": "2026-09-27",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      16,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "arm": "pooled_day6",
+    "state": "England_Wales",
+    "origin": "2026-09-29",
+    "target_sha256": "05ab7cf470cc95437b7f70eb755b2baaf69d0e17799fe0715988200070fbe9d5",
+    "covariate_sha256": "26d216790e5ba71db4771e659d99cd6c7db59e16aced08168f526b0823d99a07",
+    "feature_count": 19,
+    "context_start": "2024-09-29",
+    "context_end": "2026-09-28",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      16,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "arm": "pooled_day6",
+    "state": "England_Wales",
+    "origin": "2026-09-30",
+    "target_sha256": "df94e06ed51b877245b544df012c47b19cb537f9327d4efd454b4df88faaf3a4",
+    "covariate_sha256": "104f1fcb5d805ed19182c2dd15c54b513c28ee1d35741fb386a3c567185dd3d5",
+    "feature_count": 19,
+    "context_start": "2024-09-30",
+    "context_end": "2026-09-29",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      16,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "arm": "window6",
+    "state": "England_Wales",
+    "origin": "2026-09-02",
+    "target_sha256": "7984a0f804e750890e8b62e02468bdbdeee8d52bd4f9c88b37caf52097a7d3cc",
+    "covariate_sha256": "fa7213253d61390b22b8b3b3179904afb79b418aae06cf5842916f696e7bb1d6",
+    "feature_count": 19,
+    "context_start": "2024-09-02",
+    "context_end": "2026-09-01",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      14,
+      20,
+      14,
+      14,
+      12,
+      16
+    ]
+  },
+  {
+    "arm": "window6",
+    "state": "England_Wales",
+    "origin": "2026-09-03",
+    "target_sha256": "8a8eb0949e9e8b61f12d71fac4c5916a87f2ad8d1cc9b7e4a687a787943793ca",
+    "covariate_sha256": "8af75553a1650eeaa89f900324118225da281f5e46b32dd91ea7e7c3c98ef7ec",
+    "feature_count": 19,
+    "context_start": "2024-09-03",
+    "context_end": "2026-09-02",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      14,
+      20,
+      14,
+      14,
+      13,
+      16
+    ]
+  },
+  {
+    "arm": "window6",
+    "state": "England_Wales",
+    "origin": "2026-09-04",
+    "target_sha256": "a8c12f9e973067a8420cd31f52ed468d419c09641f65bccf13fcc0a0e17c462a",
+    "covariate_sha256": "cabeeeac85a80837ffce83a87b0e8b79c520d713cee74f8dd207b14970d8914f",
+    "feature_count": 19,
+    "context_start": "2024-09-04",
+    "context_end": "2026-09-03",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      14,
+      20,
+      14,
+      14,
+      14,
+      16
+    ]
+  },
+  {
+    "arm": "window6",
+    "state": "England_Wales",
+    "origin": "2026-09-05",
+    "target_sha256": "f36c944348d29c680541c4d8f8a843383ff6465cab090e3fffaae8a9afc0fd17",
+    "covariate_sha256": "8521c3aeb0e48101d27604cbee7fab1ca96fd0f2806f266bedc32d5f5e0eeb2d",
+    "feature_count": 19,
+    "context_start": "2024-09-05",
+    "context_end": "2026-09-04",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      14,
+      20,
+      14,
+      14,
+      14,
+      16
+    ]
+  },
+  {
+    "arm": "window6",
+    "state": "England_Wales",
+    "origin": "2026-09-06",
+    "target_sha256": "f32ddfa151ccfc87ce52d598aa8a2c549ea1f0992a1ac5b62e28b7723636f85c",
+    "covariate_sha256": "4225c9f12bd0475c77944f906ae2ab0033d095f72746c6f1c2d194a1d8da8b0c",
+    "feature_count": 19,
+    "context_start": "2024-09-06",
+    "context_end": "2026-09-05",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      14,
+      20,
+      14,
+      14,
+      14,
+      16
+    ]
+  },
+  {
+    "arm": "window6",
+    "state": "England_Wales",
+    "origin": "2026-09-07",
+    "target_sha256": "9b966a486e28385172697da62fc8325e615cdf2681fc1f0604a955c138e14331",
+    "covariate_sha256": "9b7eacc5a4e6e9a1842560c393e4f2e43e1b50a6490594eaf61aba00ca3eb5c3",
+    "feature_count": 19,
+    "context_start": "2024-09-07",
+    "context_end": "2026-09-06",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      14,
+      20,
+      14,
+      14,
+      14,
+      16
+    ]
+  },
+  {
+    "arm": "window6",
+    "state": "England_Wales",
+    "origin": "2026-09-08",
+    "target_sha256": "8addc7b8c1cdbd20516a7cf1aab9b67eaec790b2f301c687431f271c5c57dc61",
+    "covariate_sha256": "1bae2aa90264098e2b0be5a56dde231de193eacbaa7a58eabb3208a7ff49d938",
+    "feature_count": 19,
+    "context_start": "2024-09-08",
+    "context_end": "2026-09-07",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      14,
+      20,
+      14,
+      14,
+      14,
+      16
+    ]
+  },
+  {
+    "arm": "window6",
+    "state": "England_Wales",
+    "origin": "2026-09-09",
+    "target_sha256": "950b97450da5aa97c788ffb98d34cf9d2eddf85395d49ef5a68d5687dd70334a",
+    "covariate_sha256": "520e73b14dc9d4f6e37b9731f41ce2d9937eca5854ea98322e2313ecc454eac1",
+    "feature_count": 19,
+    "context_start": "2024-09-09",
+    "context_end": "2026-09-08",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      14,
+      20,
+      14,
+      14,
+      14,
+      16
+    ]
+  },
+  {
+    "arm": "window6",
+    "state": "England_Wales",
+    "origin": "2026-09-10",
+    "target_sha256": "3fc58cc698e9ab32514689629f8612a9605bf0756c30c05458d998fea4bfab03",
+    "covariate_sha256": "ecfeae2275d2f36a8dc1391e4e5ea9470a13606264712111f9f0178873d356d4",
+    "feature_count": 19,
+    "context_start": "2024-09-10",
+    "context_end": "2026-09-09",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      14,
+      20,
+      14,
+      14,
+      14,
+      16
+    ]
+  },
+  {
+    "arm": "window6",
+    "state": "England_Wales",
+    "origin": "2026-09-11",
+    "target_sha256": "0743750e4f5b7d1497876018461242d94bd2f801199d9c05b3a83761bdc28996",
+    "covariate_sha256": "385701ac57c1c584cdf171970c5c232b15cb4cf6b557c248a2ed9499f5e08b80",
+    "feature_count": 19,
+    "context_start": "2024-09-11",
+    "context_end": "2026-09-10",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      14,
+      20,
+      14,
+      14,
+      14,
+      16
+    ]
+  },
+  {
+    "arm": "window6",
+    "state": "England_Wales",
+    "origin": "2026-09-12",
+    "target_sha256": "369b7a58bdb62335d5d791588d6be79b098946c8b4afabd70fc034c8e0302cbd",
+    "covariate_sha256": "6947c4457591660f3a22199d4dd3ce0f2220e18b7ae10d8c4198f3a8382a987b",
+    "feature_count": 19,
+    "context_start": "2024-09-12",
+    "context_end": "2026-09-11",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      14,
+      20,
+      14,
+      14,
+      14,
+      16
+    ]
+  },
+  {
+    "arm": "window6",
+    "state": "England_Wales",
+    "origin": "2026-09-13",
+    "target_sha256": "1f88fa9c20aa2805a13bfe134c8ca9ff0d3cec475d38c6d66663d6399e0243a2",
+    "covariate_sha256": "bcf31c48eebd5ca86b83a71b678f2cfa2e2b5d8c4fe68ec07c5258c9fa481a3a",
+    "feature_count": 19,
+    "context_start": "2024-09-13",
+    "context_end": "2026-09-12",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      14,
+      20,
+      14,
+      14,
+      14,
+      16
+    ]
+  },
+  {
+    "arm": "window6",
+    "state": "England_Wales",
+    "origin": "2026-09-14",
+    "target_sha256": "5021affdc68701fbfc021f7ecb70c36dd166e4ac6b8ae4f68876820430e870f1",
+    "covariate_sha256": "b8dd2eddb3232fbf986ac932ea5c8c9151dd9d761ff01415004c7817d761a772",
+    "feature_count": 19,
+    "context_start": "2024-09-14",
+    "context_end": "2026-09-13",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      14,
+      20,
+      14,
+      14,
+      14,
+      16
+    ]
+  },
+  {
+    "arm": "window6",
+    "state": "England_Wales",
+    "origin": "2026-09-15",
+    "target_sha256": "d5f64c9bfbfce818e32fb17c5402627d413a034674f7af9deaa0f4f2a85466de",
+    "covariate_sha256": "183939881643f499e53cd7d8d4f56aff5748665346d7ee49a6b1f123de851827",
+    "feature_count": 19,
+    "context_start": "2024-09-15",
+    "context_end": "2026-09-14",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      14,
+      20,
+      14,
+      14,
+      14,
+      16
+    ]
+  },
+  {
+    "arm": "window6",
+    "state": "England_Wales",
+    "origin": "2026-09-16",
+    "target_sha256": "227b02d49dae77248d2d8fda61578ff85193fa5cab63f5cb63eaefd0543f0042",
+    "covariate_sha256": "1fd81006578db66b0045417e050ab055e501d99793a88ba363a6dcb158fc1acb",
+    "feature_count": 19,
+    "context_start": "2024-09-16",
+    "context_end": "2026-09-15",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      14,
+      20,
+      14,
+      14,
+      14,
+      16
+    ]
+  },
+  {
+    "arm": "window6",
+    "state": "England_Wales",
+    "origin": "2026-09-17",
+    "target_sha256": "90bb4c65a73e909bf4146f9f7027429bc16e9920eab22d846cf0c86322df21fb",
+    "covariate_sha256": "1ce6397d59f54108cb369f53e263e82cddf7f11058e8492cc31cd253eaf7813c",
+    "feature_count": 19,
+    "context_start": "2024-09-17",
+    "context_end": "2026-09-16",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      14,
+      20,
+      14,
+      14,
+      14,
+      16
+    ]
+  },
+  {
+    "arm": "window6",
+    "state": "England_Wales",
+    "origin": "2026-09-18",
+    "target_sha256": "0287eb178bc1604307037cdf64169368b5909fd7ba69789bce35a75eb2addaa4",
+    "covariate_sha256": "08aa67e56e499becde0a3398dca5b792f7ba8dcc9a8dd807bfe62d79f219d7d6",
+    "feature_count": 19,
+    "context_start": "2024-09-18",
+    "context_end": "2026-09-17",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      14,
+      20,
+      14,
+      14,
+      14,
+      16
+    ]
+  },
+  {
+    "arm": "window6",
+    "state": "England_Wales",
+    "origin": "2026-09-19",
+    "target_sha256": "699e7b1a59e2d5c15e447a27b4b7d301853f6d7f0b3a3c70944668d1e006bda6",
+    "covariate_sha256": "9d88de95847389bea925f5dd73dbf1927a65200051b458e76f214bfdf6fd7889",
+    "feature_count": 19,
+    "context_start": "2024-09-19",
+    "context_end": "2026-09-18",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      14,
+      20,
+      14,
+      14,
+      14,
+      16
+    ]
+  },
+  {
+    "arm": "window6",
+    "state": "England_Wales",
+    "origin": "2026-09-20",
+    "target_sha256": "66bbcdf2ba8f4ce447b6b4729342a874a0a1620e278b6de6bc2a470e7f82b305",
+    "covariate_sha256": "cc6a781e293f898ca63155cbb6bcd76f7d21986b803db21b88ede393035ec4de",
+    "feature_count": 19,
+    "context_start": "2024-09-20",
+    "context_end": "2026-09-19",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      14,
+      20,
+      14,
+      14,
+      14,
+      16
+    ]
+  },
+  {
+    "arm": "window6",
+    "state": "England_Wales",
+    "origin": "2026-09-21",
+    "target_sha256": "4051fd5ace4be6e1f113fbe1595489cee58deb0c6ba2cc4717e8f4ecbb649284",
+    "covariate_sha256": "822b4df07b8196e299823880105622c2a573f77ad8ef5195f62fac83dc1cc32c",
+    "feature_count": 19,
+    "context_start": "2024-09-21",
+    "context_end": "2026-09-20",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      14,
+      20,
+      14,
+      14,
+      14,
+      16
+    ]
+  },
+  {
+    "arm": "window6",
+    "state": "England_Wales",
+    "origin": "2026-09-22",
+    "target_sha256": "0d25b36ce37c0332f5362334912c60f6e074b33c182f13bcf25a6ccddd4a300f",
+    "covariate_sha256": "a189772ee270669afad59693f0b44188a5ef66a00be0970eae5130dc8309099e",
+    "feature_count": 19,
+    "context_start": "2024-09-22",
+    "context_end": "2026-09-21",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      14,
+      20,
+      14,
+      14,
+      14,
+      16
+    ]
+  },
+  {
+    "arm": "window6",
+    "state": "England_Wales",
+    "origin": "2026-09-23",
+    "target_sha256": "50d2105cdf83723c15d3df4b90d26f5219c4f0840b18390c8f9cab778cd4acf4",
+    "covariate_sha256": "18738f94b5c10dce0934bbf84fb1cb03be9160ff93a1fb07c9f73fc596f6061d",
+    "feature_count": 19,
+    "context_start": "2024-09-23",
+    "context_end": "2026-09-22",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      14,
+      20,
+      14,
+      14,
+      14,
+      16
+    ]
+  },
+  {
+    "arm": "window6",
+    "state": "England_Wales",
+    "origin": "2026-09-24",
+    "target_sha256": "ef1aaf9d891c2dd62ad073ebedbeca125925e319efc28e1eaa0d7e1798adbcb9",
+    "covariate_sha256": "1bea858f073524b13a8a0c84c9754a4559034e129befec4c518f5d9d69104aea",
+    "feature_count": 19,
+    "context_start": "2024-09-24",
+    "context_end": "2026-09-23",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      14,
+      20,
+      14,
+      14,
+      14,
+      16
+    ]
+  },
+  {
+    "arm": "window6",
+    "state": "England_Wales",
+    "origin": "2026-09-25",
+    "target_sha256": "ef8d031a6074424058bb646ffa55c8a479cba6c304f95c39d46bf10fa7daae35",
+    "covariate_sha256": "fa12ba46e4775c6336254745931ef87d46a5b979ce57e241fb0dd4f400db59a0",
+    "feature_count": 19,
+    "context_start": "2024-09-25",
+    "context_end": "2026-09-24",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      14,
+      20,
+      14,
+      14,
+      14,
+      16
+    ]
+  },
+  {
+    "arm": "window6",
+    "state": "England_Wales",
+    "origin": "2026-09-26",
+    "target_sha256": "3907af80b59148c7f3614548ebce6d99a25a6aa4e33359f72350240a9c29cb20",
+    "covariate_sha256": "c3a0a1c6c3700ecfde81f7baa8cfc016f2b4d5d8e366d3ac6b0e981b4026c21d",
+    "feature_count": 19,
+    "context_start": "2024-09-26",
+    "context_end": "2026-09-25",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      14,
+      20,
+      14,
+      14,
+      14,
+      16
+    ]
+  },
+  {
+    "arm": "window6",
+    "state": "England_Wales",
+    "origin": "2026-09-27",
+    "target_sha256": "eda635f56e44936d3708ff68a71bf5cf1cade0088416a98ff18d21b01da5b8db",
+    "covariate_sha256": "4892c560387c4e96c1342353e750821ab06605878143d37fc30f0d72a5605b34",
+    "feature_count": 19,
+    "context_start": "2024-09-27",
+    "context_end": "2026-09-26",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      14,
+      20,
+      14,
+      14,
+      14,
+      16
+    ]
+  },
+  {
+    "arm": "window6",
+    "state": "England_Wales",
+    "origin": "2026-09-28",
+    "target_sha256": "61a9a0b3df09d9d1340d9cd097a98edc25f123df18f688361cab8d83fd65ae53",
+    "covariate_sha256": "a3ad80fb5b6f1dc6ac2a100395773b558fd29b2c4ac3953eb364c071837c3159",
+    "feature_count": 19,
+    "context_start": "2024-09-28",
+    "context_end": "2026-09-27",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      14,
+      20,
+      14,
+      14,
+      14,
+      16
+    ]
+  },
+  {
+    "arm": "window6",
+    "state": "England_Wales",
+    "origin": "2026-09-29",
+    "target_sha256": "05ab7cf470cc95437b7f70eb755b2baaf69d0e17799fe0715988200070fbe9d5",
+    "covariate_sha256": "b803a36f4b335382a9d93bd7930b19e6a5967f6d85709311f6e142ae0e70ac8a",
+    "feature_count": 19,
+    "context_start": "2024-09-29",
+    "context_end": "2026-09-28",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      14,
+      20,
+      14,
+      14,
+      14,
+      16
+    ]
+  },
+  {
+    "arm": "window6",
+    "state": "England_Wales",
+    "origin": "2026-09-30",
+    "target_sha256": "df94e06ed51b877245b544df012c47b19cb537f9327d4efd454b4df88faaf3a4",
+    "covariate_sha256": "ec6e4130c3b74dcd5148e3af73fb809b22c2fb8fb8a420910078e09dd93873d9",
+    "feature_count": 19,
+    "context_start": "2024-09-30",
+    "context_end": "2026-09-29",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      14,
+      20,
+      14,
+      14,
+      14,
+      16
+    ]
+  },
+  {
+    "arm": "pooled_window6",
+    "state": "England_Wales",
+    "origin": "2026-09-02",
+    "target_sha256": "7984a0f804e750890e8b62e02468bdbdeee8d52bd4f9c88b37caf52097a7d3cc",
+    "covariate_sha256": "165a278b882262aa66a649f0908d1e8cbc7b59735f6f08dc17cea9480c595ab8",
+    "feature_count": 19,
+    "context_start": "2024-09-02",
+    "context_end": "2026-09-01",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      88,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "arm": "pooled_window6",
+    "state": "England_Wales",
+    "origin": "2026-09-03",
+    "target_sha256": "8a8eb0949e9e8b61f12d71fac4c5916a87f2ad8d1cc9b7e4a687a787943793ca",
+    "covariate_sha256": "3f802f66d9aab5e1534a10885e533b57ff9497b951c0766c6b3b95b8e9518343",
+    "feature_count": 19,
+    "context_start": "2024-09-03",
+    "context_end": "2026-09-02",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      89,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "arm": "pooled_window6",
+    "state": "England_Wales",
+    "origin": "2026-09-04",
+    "target_sha256": "a8c12f9e973067a8420cd31f52ed468d419c09641f65bccf13fcc0a0e17c462a",
+    "covariate_sha256": "e76b456743594f7f86ec9291365b68a0a4413ecbce475bd6ceaf602f74db80bb",
+    "feature_count": 19,
+    "context_start": "2024-09-04",
+    "context_end": "2026-09-03",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      90,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "arm": "pooled_window6",
+    "state": "England_Wales",
+    "origin": "2026-09-05",
+    "target_sha256": "f36c944348d29c680541c4d8f8a843383ff6465cab090e3fffaae8a9afc0fd17",
+    "covariate_sha256": "6e93c52d870acfa17399124358d7fe37100cbda59004ff3199275e12d789ab38",
+    "feature_count": 19,
+    "context_start": "2024-09-05",
+    "context_end": "2026-09-04",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      90,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "arm": "pooled_window6",
+    "state": "England_Wales",
+    "origin": "2026-09-06",
+    "target_sha256": "f32ddfa151ccfc87ce52d598aa8a2c549ea1f0992a1ac5b62e28b7723636f85c",
+    "covariate_sha256": "97dc36e0741deaa04a6799bebbeac567534eb2596231948ea34d4ece7915ce84",
+    "feature_count": 19,
+    "context_start": "2024-09-06",
+    "context_end": "2026-09-05",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      90,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "arm": "pooled_window6",
+    "state": "England_Wales",
+    "origin": "2026-09-07",
+    "target_sha256": "9b966a486e28385172697da62fc8325e615cdf2681fc1f0604a955c138e14331",
+    "covariate_sha256": "866babe2d692186a187d5e322196c266e3643d10b888f1a863e12858b7e5d8f8",
+    "feature_count": 19,
+    "context_start": "2024-09-07",
+    "context_end": "2026-09-06",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      90,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "arm": "pooled_window6",
+    "state": "England_Wales",
+    "origin": "2026-09-08",
+    "target_sha256": "8addc7b8c1cdbd20516a7cf1aab9b67eaec790b2f301c687431f271c5c57dc61",
+    "covariate_sha256": "efc70d209fa332aabfb3ec53390953f89e471b7fe2ad47f665119bc2a3d5d137",
+    "feature_count": 19,
+    "context_start": "2024-09-08",
+    "context_end": "2026-09-07",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      90,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "arm": "pooled_window6",
+    "state": "England_Wales",
+    "origin": "2026-09-09",
+    "target_sha256": "950b97450da5aa97c788ffb98d34cf9d2eddf85395d49ef5a68d5687dd70334a",
+    "covariate_sha256": "3b9ffb406ffd4a6638cdad561b65358eac47d4ee43f4923e9c04cfce1b9abbb9",
+    "feature_count": 19,
+    "context_start": "2024-09-09",
+    "context_end": "2026-09-08",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      90,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "arm": "pooled_window6",
+    "state": "England_Wales",
+    "origin": "2026-09-10",
+    "target_sha256": "3fc58cc698e9ab32514689629f8612a9605bf0756c30c05458d998fea4bfab03",
+    "covariate_sha256": "4437c09be5fae1d9d75accba14e05a60af6b6ec0929983cc88a3ab3558b1bf2d",
+    "feature_count": 19,
+    "context_start": "2024-09-10",
+    "context_end": "2026-09-09",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      90,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "arm": "pooled_window6",
+    "state": "England_Wales",
+    "origin": "2026-09-11",
+    "target_sha256": "0743750e4f5b7d1497876018461242d94bd2f801199d9c05b3a83761bdc28996",
+    "covariate_sha256": "9baf1f1b6dcaefa61a9c60afae64e772a14eb5d3d78c3e75f748124ade7f5d5a",
+    "feature_count": 19,
+    "context_start": "2024-09-11",
+    "context_end": "2026-09-10",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      90,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "arm": "pooled_window6",
+    "state": "England_Wales",
+    "origin": "2026-09-12",
+    "target_sha256": "369b7a58bdb62335d5d791588d6be79b098946c8b4afabd70fc034c8e0302cbd",
+    "covariate_sha256": "9ec060820fc46a0ef0117fd13fa7ebe613fff9c4df8ff3680b92c62673c5123c",
+    "feature_count": 19,
+    "context_start": "2024-09-12",
+    "context_end": "2026-09-11",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      90,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "arm": "pooled_window6",
+    "state": "England_Wales",
+    "origin": "2026-09-13",
+    "target_sha256": "1f88fa9c20aa2805a13bfe134c8ca9ff0d3cec475d38c6d66663d6399e0243a2",
+    "covariate_sha256": "58092e3ea034233986502e93c4b11ec9961138491f5620fd4bd3a3ef73a9cefa",
+    "feature_count": 19,
+    "context_start": "2024-09-13",
+    "context_end": "2026-09-12",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      90,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "arm": "pooled_window6",
+    "state": "England_Wales",
+    "origin": "2026-09-14",
+    "target_sha256": "5021affdc68701fbfc021f7ecb70c36dd166e4ac6b8ae4f68876820430e870f1",
+    "covariate_sha256": "67a711e9cf1f68dc511446d4aa040cfb5c2852565fad4f74fb26019966e6e736",
+    "feature_count": 19,
+    "context_start": "2024-09-14",
+    "context_end": "2026-09-13",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      90,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "arm": "pooled_window6",
+    "state": "England_Wales",
+    "origin": "2026-09-15",
+    "target_sha256": "d5f64c9bfbfce818e32fb17c5402627d413a034674f7af9deaa0f4f2a85466de",
+    "covariate_sha256": "c7497f668529acd16312caebd467f31181a0e1e2ac5d8ae6aeea0babd106a9ed",
+    "feature_count": 19,
+    "context_start": "2024-09-15",
+    "context_end": "2026-09-14",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      90,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "arm": "pooled_window6",
+    "state": "England_Wales",
+    "origin": "2026-09-16",
+    "target_sha256": "227b02d49dae77248d2d8fda61578ff85193fa5cab63f5cb63eaefd0543f0042",
+    "covariate_sha256": "bb91dd15d2b3e9d53a62a127756f170c6dc51128393c49a25a0c5bf297536fea",
+    "feature_count": 19,
+    "context_start": "2024-09-16",
+    "context_end": "2026-09-15",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      90,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "arm": "pooled_window6",
+    "state": "England_Wales",
+    "origin": "2026-09-17",
+    "target_sha256": "90bb4c65a73e909bf4146f9f7027429bc16e9920eab22d846cf0c86322df21fb",
+    "covariate_sha256": "c564b09b0cdfb91351a3b49d287cebfa662de415e31cc512928fbd0c21769460",
+    "feature_count": 19,
+    "context_start": "2024-09-17",
+    "context_end": "2026-09-16",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      90,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "arm": "pooled_window6",
+    "state": "England_Wales",
+    "origin": "2026-09-18",
+    "target_sha256": "0287eb178bc1604307037cdf64169368b5909fd7ba69789bce35a75eb2addaa4",
+    "covariate_sha256": "9676a0330c5e7cfe1d2d9d821ebb5cacfae5ec5d93430d4537be3d1bb51e58c9",
+    "feature_count": 19,
+    "context_start": "2024-09-18",
+    "context_end": "2026-09-17",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      90,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "arm": "pooled_window6",
+    "state": "England_Wales",
+    "origin": "2026-09-19",
+    "target_sha256": "699e7b1a59e2d5c15e447a27b4b7d301853f6d7f0b3a3c70944668d1e006bda6",
+    "covariate_sha256": "26cb0e48622f90685426e8aa72a7f3ba6dc584d08bf8d821b8f3c2ce2d710178",
+    "feature_count": 19,
+    "context_start": "2024-09-19",
+    "context_end": "2026-09-18",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      90,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "arm": "pooled_window6",
+    "state": "England_Wales",
+    "origin": "2026-09-20",
+    "target_sha256": "66bbcdf2ba8f4ce447b6b4729342a874a0a1620e278b6de6bc2a470e7f82b305",
+    "covariate_sha256": "cd3e08360fb94bb78e3957f701b211ebda0a636b5290105828b8f1636bb20a6b",
+    "feature_count": 19,
+    "context_start": "2024-09-20",
+    "context_end": "2026-09-19",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      90,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "arm": "pooled_window6",
+    "state": "England_Wales",
+    "origin": "2026-09-21",
+    "target_sha256": "4051fd5ace4be6e1f113fbe1595489cee58deb0c6ba2cc4717e8f4ecbb649284",
+    "covariate_sha256": "b3d512537f5095848d862e09bef84d6186f3605c18c688fa025832662e25de3c",
+    "feature_count": 19,
+    "context_start": "2024-09-21",
+    "context_end": "2026-09-20",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      90,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "arm": "pooled_window6",
+    "state": "England_Wales",
+    "origin": "2026-09-22",
+    "target_sha256": "0d25b36ce37c0332f5362334912c60f6e074b33c182f13bcf25a6ccddd4a300f",
+    "covariate_sha256": "e791254d1a9310c38eee1679cf0d6f52973099e87ff8e1d39bfbd988ea6db398",
+    "feature_count": 19,
+    "context_start": "2024-09-22",
+    "context_end": "2026-09-21",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      90,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "arm": "pooled_window6",
+    "state": "England_Wales",
+    "origin": "2026-09-23",
+    "target_sha256": "50d2105cdf83723c15d3df4b90d26f5219c4f0840b18390c8f9cab778cd4acf4",
+    "covariate_sha256": "5c0b685c4ece509199ee4161085c442855d52bedf9ab9809d525aa9a9e9f2996",
+    "feature_count": 19,
+    "context_start": "2024-09-23",
+    "context_end": "2026-09-22",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      90,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "arm": "pooled_window6",
+    "state": "England_Wales",
+    "origin": "2026-09-24",
+    "target_sha256": "ef1aaf9d891c2dd62ad073ebedbeca125925e319efc28e1eaa0d7e1798adbcb9",
+    "covariate_sha256": "52e8ce97a0407839be753b1825a713adad464d4fe4fa9e727219d5560dc2189e",
+    "feature_count": 19,
+    "context_start": "2024-09-24",
+    "context_end": "2026-09-23",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      90,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "arm": "pooled_window6",
+    "state": "England_Wales",
+    "origin": "2026-09-25",
+    "target_sha256": "ef8d031a6074424058bb646ffa55c8a479cba6c304f95c39d46bf10fa7daae35",
+    "covariate_sha256": "e7c7f28aa30106063436d30f8aabb9340beed942214f4e0b4961ce4100ac02e1",
+    "feature_count": 19,
+    "context_start": "2024-09-25",
+    "context_end": "2026-09-24",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      90,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "arm": "pooled_window6",
+    "state": "England_Wales",
+    "origin": "2026-09-26",
+    "target_sha256": "3907af80b59148c7f3614548ebce6d99a25a6aa4e33359f72350240a9c29cb20",
+    "covariate_sha256": "f813dc64b5936daf46be6f8fe0ab39de7538370d77c95b69f5d09006f9aeb3dd",
+    "feature_count": 19,
+    "context_start": "2024-09-26",
+    "context_end": "2026-09-25",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      90,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "arm": "pooled_window6",
+    "state": "England_Wales",
+    "origin": "2026-09-27",
+    "target_sha256": "eda635f56e44936d3708ff68a71bf5cf1cade0088416a98ff18d21b01da5b8db",
+    "covariate_sha256": "01acc28428ae16998a2a18258641501d91f4b67467288e192caf60957c89b847",
+    "feature_count": 19,
+    "context_start": "2024-09-27",
+    "context_end": "2026-09-26",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      90,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "arm": "pooled_window6",
+    "state": "England_Wales",
+    "origin": "2026-09-28",
+    "target_sha256": "61a9a0b3df09d9d1340d9cd097a98edc25f123df18f688361cab8d83fd65ae53",
+    "covariate_sha256": "70e696b24dc70ce9d400221bdac180da8beda6c54b5d3c594c98a68359f458ea",
+    "feature_count": 19,
+    "context_start": "2024-09-28",
+    "context_end": "2026-09-27",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      90,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "arm": "pooled_window6",
+    "state": "England_Wales",
+    "origin": "2026-09-29",
+    "target_sha256": "05ab7cf470cc95437b7f70eb755b2baaf69d0e17799fe0715988200070fbe9d5",
+    "covariate_sha256": "c93444db7ef3beb5a1a0679107b2ed03487b949ecb497479707bd745a2ee9ebe",
+    "feature_count": 19,
+    "context_start": "2024-09-29",
+    "context_end": "2026-09-28",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      90,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "arm": "pooled_window6",
+    "state": "England_Wales",
+    "origin": "2026-09-30",
+    "target_sha256": "df94e06ed51b877245b544df012c47b19cb537f9327d4efd454b4df88faaf3a4",
+    "covariate_sha256": "ce126e877b651b6474c3ae6baed85927724aa3159f9b669ebda9716da204a1fd",
+    "feature_count": 19,
+    "context_start": "2024-09-30",
+    "context_end": "2026-09-29",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      90,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "arm": "placebo_day6",
+    "state": "England_Wales",
+    "origin": "2026-09-02",
+    "target_sha256": "7984a0f804e750890e8b62e02468bdbdeee8d52bd4f9c88b37caf52097a7d3cc",
+    "covariate_sha256": "84647646fa7695cd3eeb3a52664bbc845a0caccf64142a571b11e7ffa8c70089",
+    "feature_count": 19,
+    "context_start": "2024-09-02",
+    "context_end": "2026-09-01",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      2,
+      4,
+      2,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "arm": "placebo_day6",
+    "state": "England_Wales",
+    "origin": "2026-09-03",
+    "target_sha256": "8a8eb0949e9e8b61f12d71fac4c5916a87f2ad8d1cc9b7e4a687a787943793ca",
+    "covariate_sha256": "d596f4b0f4d513d1ebf8427c88528440187f4d160bf85a0c07cb8cf02775a39c",
+    "feature_count": 19,
+    "context_start": "2024-09-03",
+    "context_end": "2026-09-02",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      2,
+      4,
+      2,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "arm": "placebo_day6",
+    "state": "England_Wales",
+    "origin": "2026-09-04",
+    "target_sha256": "a8c12f9e973067a8420cd31f52ed468d419c09641f65bccf13fcc0a0e17c462a",
+    "covariate_sha256": "533ae66b12edb50d8d5e403f7028119d85f87d7c35e1461fb36b5fd72f5210ce",
+    "feature_count": 19,
+    "context_start": "2024-09-04",
+    "context_end": "2026-09-03",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      2,
+      4,
+      2,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "arm": "placebo_day6",
+    "state": "England_Wales",
+    "origin": "2026-09-05",
+    "target_sha256": "f36c944348d29c680541c4d8f8a843383ff6465cab090e3fffaae8a9afc0fd17",
+    "covariate_sha256": "6897f677bfefaa8fd93b1e3d8982dc01f25adebe849c0352940948164504ae59",
+    "feature_count": 19,
+    "context_start": "2024-09-05",
+    "context_end": "2026-09-04",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      2,
+      4,
+      2,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "arm": "placebo_day6",
+    "state": "England_Wales",
+    "origin": "2026-09-06",
+    "target_sha256": "f32ddfa151ccfc87ce52d598aa8a2c549ea1f0992a1ac5b62e28b7723636f85c",
+    "covariate_sha256": "7c3142a0849c111ac1c5f77f6611c472becd8c1c03f050d0963bd8e49948416c",
+    "feature_count": 19,
+    "context_start": "2024-09-06",
+    "context_end": "2026-09-05",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      2,
+      4,
+      2,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "arm": "placebo_day6",
+    "state": "England_Wales",
+    "origin": "2026-09-07",
+    "target_sha256": "9b966a486e28385172697da62fc8325e615cdf2681fc1f0604a955c138e14331",
+    "covariate_sha256": "6696015b2a5780e2c53178e360e11a0f99e0eb4c9fb229fda27c96d702610743",
+    "feature_count": 19,
+    "context_start": "2024-09-07",
+    "context_end": "2026-09-06",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      2,
+      4,
+      2,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "arm": "placebo_day6",
+    "state": "England_Wales",
+    "origin": "2026-09-08",
+    "target_sha256": "8addc7b8c1cdbd20516a7cf1aab9b67eaec790b2f301c687431f271c5c57dc61",
+    "covariate_sha256": "ac22bf67bd5ea74400596eb97772c6ad84b5edff7d6e558831d8c8dcefac100e",
+    "feature_count": 19,
+    "context_start": "2024-09-08",
+    "context_end": "2026-09-07",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      2,
+      4,
+      2,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "arm": "placebo_day6",
+    "state": "England_Wales",
+    "origin": "2026-09-09",
+    "target_sha256": "950b97450da5aa97c788ffb98d34cf9d2eddf85395d49ef5a68d5687dd70334a",
+    "covariate_sha256": "0dd4868b5d4ee4c480ca3e6aba6593e6779cbd06c84b5789b47e21aa82a00887",
+    "feature_count": 19,
+    "context_start": "2024-09-09",
+    "context_end": "2026-09-08",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      2,
+      4,
+      2,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "arm": "placebo_day6",
+    "state": "England_Wales",
+    "origin": "2026-09-10",
+    "target_sha256": "3fc58cc698e9ab32514689629f8612a9605bf0756c30c05458d998fea4bfab03",
+    "covariate_sha256": "2032a4554304a096affac4e2d1296f89c6ad4b5da4ee21318eb10de4b0edfd4a",
+    "feature_count": 19,
+    "context_start": "2024-09-10",
+    "context_end": "2026-09-09",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      2,
+      4,
+      2,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "arm": "placebo_day6",
+    "state": "England_Wales",
+    "origin": "2026-09-11",
+    "target_sha256": "0743750e4f5b7d1497876018461242d94bd2f801199d9c05b3a83761bdc28996",
+    "covariate_sha256": "3b24fba9eb478de1a53a591630dcc28b6bce41fb10d1b0f1bb1e9dde727a6b0f",
+    "feature_count": 19,
+    "context_start": "2024-09-11",
+    "context_end": "2026-09-10",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      2,
+      4,
+      2,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "arm": "placebo_day6",
+    "state": "England_Wales",
+    "origin": "2026-09-12",
+    "target_sha256": "369b7a58bdb62335d5d791588d6be79b098946c8b4afabd70fc034c8e0302cbd",
+    "covariate_sha256": "90b167b47ff73bffc9c75d39f7aa27006350dc091529901cc4886b5d6e755bb8",
+    "feature_count": 19,
+    "context_start": "2024-09-12",
+    "context_end": "2026-09-11",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      2,
+      4,
+      2,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "arm": "placebo_day6",
+    "state": "England_Wales",
+    "origin": "2026-09-13",
+    "target_sha256": "1f88fa9c20aa2805a13bfe134c8ca9ff0d3cec475d38c6d66663d6399e0243a2",
+    "covariate_sha256": "15f3eda78ddf2c5ce2d51c45338955f9a13e17b31e3f878fdc2b91bd1f1d92d8",
+    "feature_count": 19,
+    "context_start": "2024-09-13",
+    "context_end": "2026-09-12",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      2,
+      4,
+      2,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "arm": "placebo_day6",
+    "state": "England_Wales",
+    "origin": "2026-09-14",
+    "target_sha256": "5021affdc68701fbfc021f7ecb70c36dd166e4ac6b8ae4f68876820430e870f1",
+    "covariate_sha256": "010c1a0118c6093ee0d5962d2eed5256dfc21409360f6400e7fe4294b76b20aa",
+    "feature_count": 19,
+    "context_start": "2024-09-14",
+    "context_end": "2026-09-13",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      2,
+      4,
+      2,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "arm": "placebo_day6",
+    "state": "England_Wales",
+    "origin": "2026-09-15",
+    "target_sha256": "d5f64c9bfbfce818e32fb17c5402627d413a034674f7af9deaa0f4f2a85466de",
+    "covariate_sha256": "ec4e2505bed5308b4b7736e9e65dde4b952d3bf80f47e75fca2f8657ebdc3756",
+    "feature_count": 19,
+    "context_start": "2024-09-15",
+    "context_end": "2026-09-14",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      2,
+      4,
+      2,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "arm": "placebo_day6",
+    "state": "England_Wales",
+    "origin": "2026-09-16",
+    "target_sha256": "227b02d49dae77248d2d8fda61578ff85193fa5cab63f5cb63eaefd0543f0042",
+    "covariate_sha256": "a13c78408fa15d38ef803c3a5758c9d1e929d3c4a452731b7b666169e9c70b39",
+    "feature_count": 19,
+    "context_start": "2024-09-16",
+    "context_end": "2026-09-15",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      2,
+      4,
+      2,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "arm": "placebo_day6",
+    "state": "England_Wales",
+    "origin": "2026-09-17",
+    "target_sha256": "90bb4c65a73e909bf4146f9f7027429bc16e9920eab22d846cf0c86322df21fb",
+    "covariate_sha256": "c76a129c41ad389384d3b5479c156bfdb1dade644d8d924050dd2609bc14b8c9",
+    "feature_count": 19,
+    "context_start": "2024-09-17",
+    "context_end": "2026-09-16",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      2,
+      4,
+      2,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "arm": "placebo_day6",
+    "state": "England_Wales",
+    "origin": "2026-09-18",
+    "target_sha256": "0287eb178bc1604307037cdf64169368b5909fd7ba69789bce35a75eb2addaa4",
+    "covariate_sha256": "2d3283825043f49f80d592342f4ad91616c544eb2aedd4ba7f788aabf2a00e35",
+    "feature_count": 19,
+    "context_start": "2024-09-18",
+    "context_end": "2026-09-17",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      2,
+      4,
+      2,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "arm": "placebo_day6",
+    "state": "England_Wales",
+    "origin": "2026-09-19",
+    "target_sha256": "699e7b1a59e2d5c15e447a27b4b7d301853f6d7f0b3a3c70944668d1e006bda6",
+    "covariate_sha256": "677771cb588ca072ffe7aced09c202853dad98f091e621e0646a02e5e323be41",
+    "feature_count": 19,
+    "context_start": "2024-09-19",
+    "context_end": "2026-09-18",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      2,
+      4,
+      2,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "arm": "placebo_day6",
+    "state": "England_Wales",
+    "origin": "2026-09-20",
+    "target_sha256": "66bbcdf2ba8f4ce447b6b4729342a874a0a1620e278b6de6bc2a470e7f82b305",
+    "covariate_sha256": "98ab58d81083f1afe1541a036f6d7cc7ec0e835045182da0e65475deeb230884",
+    "feature_count": 19,
+    "context_start": "2024-09-20",
+    "context_end": "2026-09-19",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      2,
+      4,
+      2,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "arm": "placebo_day6",
+    "state": "England_Wales",
+    "origin": "2026-09-21",
+    "target_sha256": "4051fd5ace4be6e1f113fbe1595489cee58deb0c6ba2cc4717e8f4ecbb649284",
+    "covariate_sha256": "bea4b661b4aef7fd262944740881685baf37ea04df0d5c4736d16fb093eaf905",
+    "feature_count": 19,
+    "context_start": "2024-09-21",
+    "context_end": "2026-09-20",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      2,
+      4,
+      2,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "arm": "placebo_day6",
+    "state": "England_Wales",
+    "origin": "2026-09-22",
+    "target_sha256": "0d25b36ce37c0332f5362334912c60f6e074b33c182f13bcf25a6ccddd4a300f",
+    "covariate_sha256": "986fc8c1f5ad64de4a58d1ec2f9e33e473792a7cded720ebcb8c51d2286d06e2",
+    "feature_count": 19,
+    "context_start": "2024-09-22",
+    "context_end": "2026-09-21",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      2,
+      4,
+      2,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "arm": "placebo_day6",
+    "state": "England_Wales",
+    "origin": "2026-09-23",
+    "target_sha256": "50d2105cdf83723c15d3df4b90d26f5219c4f0840b18390c8f9cab778cd4acf4",
+    "covariate_sha256": "51b553c8b64e5e951dc051e5199cb6b52b5c80dbe10b8a6af1d363358afa7c55",
+    "feature_count": 19,
+    "context_start": "2024-09-23",
+    "context_end": "2026-09-22",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      2,
+      4,
+      2,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "arm": "placebo_day6",
+    "state": "England_Wales",
+    "origin": "2026-09-24",
+    "target_sha256": "ef1aaf9d891c2dd62ad073ebedbeca125925e319efc28e1eaa0d7e1798adbcb9",
+    "covariate_sha256": "ec72793bdf52fd7e0c82223f433aef32c135b378db8832b9ca74abe6c5e3b14e",
+    "feature_count": 19,
+    "context_start": "2024-09-24",
+    "context_end": "2026-09-23",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      2,
+      4,
+      2,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "arm": "placebo_day6",
+    "state": "England_Wales",
+    "origin": "2026-09-25",
+    "target_sha256": "ef8d031a6074424058bb646ffa55c8a479cba6c304f95c39d46bf10fa7daae35",
+    "covariate_sha256": "dc3c0432c65c96df95ec419ffbc2b76089eadcbcae32ecffebb7ce32dbc2a495",
+    "feature_count": 19,
+    "context_start": "2024-09-25",
+    "context_end": "2026-09-24",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      2,
+      4,
+      2,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "arm": "placebo_day6",
+    "state": "England_Wales",
+    "origin": "2026-09-26",
+    "target_sha256": "3907af80b59148c7f3614548ebce6d99a25a6aa4e33359f72350240a9c29cb20",
+    "covariate_sha256": "bf2b22d006d773b264fa6e0cd5bb9b0369b22616658f64c8015e5f8173854b58",
+    "feature_count": 19,
+    "context_start": "2024-09-26",
+    "context_end": "2026-09-25",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      2,
+      4,
+      2,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "arm": "placebo_day6",
+    "state": "England_Wales",
+    "origin": "2026-09-27",
+    "target_sha256": "eda635f56e44936d3708ff68a71bf5cf1cade0088416a98ff18d21b01da5b8db",
+    "covariate_sha256": "f0c7e8031c07fb942f7badb3d2b25e94d988ad92e45e396e4758f541e7d4eb2d",
+    "feature_count": 19,
+    "context_start": "2024-09-27",
+    "context_end": "2026-09-26",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      2,
+      4,
+      2,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "arm": "placebo_day6",
+    "state": "England_Wales",
+    "origin": "2026-09-28",
+    "target_sha256": "61a9a0b3df09d9d1340d9cd097a98edc25f123df18f688361cab8d83fd65ae53",
+    "covariate_sha256": "6e3416661947cdec315e4f8a24b25e5019eb75271ab5accf3ad6d3d27cc30774",
+    "feature_count": 19,
+    "context_start": "2024-09-28",
+    "context_end": "2026-09-27",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      2,
+      4,
+      2,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "arm": "placebo_day6",
+    "state": "England_Wales",
+    "origin": "2026-09-29",
+    "target_sha256": "05ab7cf470cc95437b7f70eb755b2baaf69d0e17799fe0715988200070fbe9d5",
+    "covariate_sha256": "1d84764a900f9513e936a6850354cd0a04a87f2a87a8ae689048a2d3701cfaa3",
+    "feature_count": 19,
+    "context_start": "2024-09-29",
+    "context_end": "2026-09-28",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      2,
+      4,
+      2,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "arm": "placebo_day6",
+    "state": "England_Wales",
+    "origin": "2026-09-30",
+    "target_sha256": "df94e06ed51b877245b544df012c47b19cb537f9327d4efd454b4df88faaf3a4",
+    "covariate_sha256": "b81b567a5bced540cd50eca6a0d891653557af52157298b1592ba3d2ed2f7bac",
+    "feature_count": 19,
+    "context_start": "2024-09-30",
+    "context_end": "2026-09-29",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      2,
+      4,
+      2,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "arm": "placebo_window6",
+    "state": "England_Wales",
+    "origin": "2026-09-02",
+    "target_sha256": "7984a0f804e750890e8b62e02468bdbdeee8d52bd4f9c88b37caf52097a7d3cc",
+    "covariate_sha256": "e13597d8f8ffa1affbd4f5d7c6addd30c681663c7a0de31b4f6ea59f6023dbda",
+    "feature_count": 19,
+    "context_start": "2024-09-02",
+    "context_end": "2026-09-01",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      14,
+      20,
+      14,
+      14,
+      21,
+      16
+    ]
+  },
+  {
+    "arm": "placebo_window6",
+    "state": "England_Wales",
+    "origin": "2026-09-03",
+    "target_sha256": "8a8eb0949e9e8b61f12d71fac4c5916a87f2ad8d1cc9b7e4a687a787943793ca",
+    "covariate_sha256": "2e8af735c7f760a9d7ae92a54dbc4f6cc12358f7727cd06a7b0c79e2231ea6e4",
+    "feature_count": 19,
+    "context_start": "2024-09-03",
+    "context_end": "2026-09-02",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      14,
+      20,
+      14,
+      14,
+      21,
+      16
+    ]
+  },
+  {
+    "arm": "placebo_window6",
+    "state": "England_Wales",
+    "origin": "2026-09-04",
+    "target_sha256": "a8c12f9e973067a8420cd31f52ed468d419c09641f65bccf13fcc0a0e17c462a",
+    "covariate_sha256": "9721fee152ac65538addadef32ff65b7f6bf6b69b0bf663b8daedf60b463c42a",
+    "feature_count": 19,
+    "context_start": "2024-09-04",
+    "context_end": "2026-09-03",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      14,
+      20,
+      14,
+      14,
+      21,
+      16
+    ]
+  },
+  {
+    "arm": "placebo_window6",
+    "state": "England_Wales",
+    "origin": "2026-09-05",
+    "target_sha256": "f36c944348d29c680541c4d8f8a843383ff6465cab090e3fffaae8a9afc0fd17",
+    "covariate_sha256": "47d6d98d12f16d4a95f36f8ac6241b85f8a6760b1c0f73823df0a139b467f141",
+    "feature_count": 19,
+    "context_start": "2024-09-05",
+    "context_end": "2026-09-04",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      14,
+      20,
+      14,
+      14,
+      21,
+      16
+    ]
+  },
+  {
+    "arm": "placebo_window6",
+    "state": "England_Wales",
+    "origin": "2026-09-06",
+    "target_sha256": "f32ddfa151ccfc87ce52d598aa8a2c549ea1f0992a1ac5b62e28b7723636f85c",
+    "covariate_sha256": "74980ba9ffb0a58a7b6f65abd3221d329aa4e9e871a2234c5f42a4754654735e",
+    "feature_count": 19,
+    "context_start": "2024-09-06",
+    "context_end": "2026-09-05",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      14,
+      20,
+      14,
+      14,
+      21,
+      16
+    ]
+  },
+  {
+    "arm": "placebo_window6",
+    "state": "England_Wales",
+    "origin": "2026-09-07",
+    "target_sha256": "9b966a486e28385172697da62fc8325e615cdf2681fc1f0604a955c138e14331",
+    "covariate_sha256": "7ae7836b34148f7c4c5b73abc3af29529e538eb6604d4aca4a883366eca64069",
+    "feature_count": 19,
+    "context_start": "2024-09-07",
+    "context_end": "2026-09-06",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      14,
+      20,
+      14,
+      14,
+      21,
+      16
+    ]
+  },
+  {
+    "arm": "placebo_window6",
+    "state": "England_Wales",
+    "origin": "2026-09-08",
+    "target_sha256": "8addc7b8c1cdbd20516a7cf1aab9b67eaec790b2f301c687431f271c5c57dc61",
+    "covariate_sha256": "5265b4729d5fc7bf1b5a9811e7c54aa9bd9eec2a9ec0c5b51eefb65170f72d8e",
+    "feature_count": 19,
+    "context_start": "2024-09-08",
+    "context_end": "2026-09-07",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      14,
+      20,
+      14,
+      14,
+      21,
+      16
+    ]
+  },
+  {
+    "arm": "placebo_window6",
+    "state": "England_Wales",
+    "origin": "2026-09-09",
+    "target_sha256": "950b97450da5aa97c788ffb98d34cf9d2eddf85395d49ef5a68d5687dd70334a",
+    "covariate_sha256": "3f54e66b603fb1ca4fb14d8ecd043add0714478ae22b9d2ea42a81e86b4a694e",
+    "feature_count": 19,
+    "context_start": "2024-09-09",
+    "context_end": "2026-09-08",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      14,
+      20,
+      14,
+      14,
+      21,
+      16
+    ]
+  },
+  {
+    "arm": "placebo_window6",
+    "state": "England_Wales",
+    "origin": "2026-09-10",
+    "target_sha256": "3fc58cc698e9ab32514689629f8612a9605bf0756c30c05458d998fea4bfab03",
+    "covariate_sha256": "01ccaa95fe70f6155d1b927d6d6c0e0ed1eca5743ab21841d9fa4d70367b0b94",
+    "feature_count": 19,
+    "context_start": "2024-09-10",
+    "context_end": "2026-09-09",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      14,
+      20,
+      14,
+      14,
+      21,
+      16
+    ]
+  },
+  {
+    "arm": "placebo_window6",
+    "state": "England_Wales",
+    "origin": "2026-09-11",
+    "target_sha256": "0743750e4f5b7d1497876018461242d94bd2f801199d9c05b3a83761bdc28996",
+    "covariate_sha256": "671e480ef5afe45a408309ccfa8e3b64be3608d7453faa47d1f9cc4ba10035f7",
+    "feature_count": 19,
+    "context_start": "2024-09-11",
+    "context_end": "2026-09-10",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      14,
+      20,
+      14,
+      14,
+      21,
+      16
+    ]
+  },
+  {
+    "arm": "placebo_window6",
+    "state": "England_Wales",
+    "origin": "2026-09-12",
+    "target_sha256": "369b7a58bdb62335d5d791588d6be79b098946c8b4afabd70fc034c8e0302cbd",
+    "covariate_sha256": "e5d85d92957cdfa37f37abd357a42c04804f2a911d0e84081984ad2cbe7ebc9e",
+    "feature_count": 19,
+    "context_start": "2024-09-12",
+    "context_end": "2026-09-11",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      14,
+      20,
+      14,
+      14,
+      21,
+      16
+    ]
+  },
+  {
+    "arm": "placebo_window6",
+    "state": "England_Wales",
+    "origin": "2026-09-13",
+    "target_sha256": "1f88fa9c20aa2805a13bfe134c8ca9ff0d3cec475d38c6d66663d6399e0243a2",
+    "covariate_sha256": "792b5b00549dce23113cee2f806059108a78f642bed278a4111985637acd30ba",
+    "feature_count": 19,
+    "context_start": "2024-09-13",
+    "context_end": "2026-09-12",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      14,
+      20,
+      14,
+      14,
+      21,
+      16
+    ]
+  },
+  {
+    "arm": "placebo_window6",
+    "state": "England_Wales",
+    "origin": "2026-09-14",
+    "target_sha256": "5021affdc68701fbfc021f7ecb70c36dd166e4ac6b8ae4f68876820430e870f1",
+    "covariate_sha256": "adc39e2e965473dde17a8371c4419481d6ab1411556dc19de7ed4d6e73b686be",
+    "feature_count": 19,
+    "context_start": "2024-09-14",
+    "context_end": "2026-09-13",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      14,
+      20,
+      14,
+      14,
+      21,
+      16
+    ]
+  },
+  {
+    "arm": "placebo_window6",
+    "state": "England_Wales",
+    "origin": "2026-09-15",
+    "target_sha256": "d5f64c9bfbfce818e32fb17c5402627d413a034674f7af9deaa0f4f2a85466de",
+    "covariate_sha256": "e26beee4f268206b6368f5394ba6749bc0711995a9c87d287b88105a16605594",
+    "feature_count": 19,
+    "context_start": "2024-09-15",
+    "context_end": "2026-09-14",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      14,
+      20,
+      14,
+      14,
+      21,
+      16
+    ]
+  },
+  {
+    "arm": "placebo_window6",
+    "state": "England_Wales",
+    "origin": "2026-09-16",
+    "target_sha256": "227b02d49dae77248d2d8fda61578ff85193fa5cab63f5cb63eaefd0543f0042",
+    "covariate_sha256": "e883813cf7f12bfa163ef09f7d09ed4fd6e44c2dd68c5f72b7e7773a41c76f17",
+    "feature_count": 19,
+    "context_start": "2024-09-16",
+    "context_end": "2026-09-15",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      14,
+      20,
+      14,
+      14,
+      21,
+      16
+    ]
+  },
+  {
+    "arm": "placebo_window6",
+    "state": "England_Wales",
+    "origin": "2026-09-17",
+    "target_sha256": "90bb4c65a73e909bf4146f9f7027429bc16e9920eab22d846cf0c86322df21fb",
+    "covariate_sha256": "c9db1ce450e6d2b3c382d85f616c098f2b011344dea06779c3c9d76ef3aed9ec",
+    "feature_count": 19,
+    "context_start": "2024-09-17",
+    "context_end": "2026-09-16",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      14,
+      20,
+      14,
+      14,
+      21,
+      16
+    ]
+  },
+  {
+    "arm": "placebo_window6",
+    "state": "England_Wales",
+    "origin": "2026-09-18",
+    "target_sha256": "0287eb178bc1604307037cdf64169368b5909fd7ba69789bce35a75eb2addaa4",
+    "covariate_sha256": "44bc2318c9b5d6b2b7baf12bb06a52fc888c04b3aac00360e321b03ef18781b3",
+    "feature_count": 19,
+    "context_start": "2024-09-18",
+    "context_end": "2026-09-17",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      14,
+      20,
+      14,
+      14,
+      21,
+      16
+    ]
+  },
+  {
+    "arm": "placebo_window6",
+    "state": "England_Wales",
+    "origin": "2026-09-19",
+    "target_sha256": "699e7b1a59e2d5c15e447a27b4b7d301853f6d7f0b3a3c70944668d1e006bda6",
+    "covariate_sha256": "6c565021d111205e8d5764299d8717781e7d911f3c18865d1a51f4fa1098c8ba",
+    "feature_count": 19,
+    "context_start": "2024-09-19",
+    "context_end": "2026-09-18",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      14,
+      20,
+      14,
+      14,
+      21,
+      16
+    ]
+  },
+  {
+    "arm": "placebo_window6",
+    "state": "England_Wales",
+    "origin": "2026-09-20",
+    "target_sha256": "66bbcdf2ba8f4ce447b6b4729342a874a0a1620e278b6de6bc2a470e7f82b305",
+    "covariate_sha256": "9568852a214911ff822aad6b8714dae880738e838a37bd842c98e4f02ad61502",
+    "feature_count": 19,
+    "context_start": "2024-09-20",
+    "context_end": "2026-09-19",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      14,
+      20,
+      14,
+      14,
+      21,
+      16
+    ]
+  },
+  {
+    "arm": "placebo_window6",
+    "state": "England_Wales",
+    "origin": "2026-09-21",
+    "target_sha256": "4051fd5ace4be6e1f113fbe1595489cee58deb0c6ba2cc4717e8f4ecbb649284",
+    "covariate_sha256": "d157d1cf4be82730020e74c3772a835aa8b7f654555cd0302ba5ccbb4144caab",
+    "feature_count": 19,
+    "context_start": "2024-09-21",
+    "context_end": "2026-09-20",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      14,
+      20,
+      14,
+      14,
+      21,
+      16
+    ]
+  },
+  {
+    "arm": "placebo_window6",
+    "state": "England_Wales",
+    "origin": "2026-09-22",
+    "target_sha256": "0d25b36ce37c0332f5362334912c60f6e074b33c182f13bcf25a6ccddd4a300f",
+    "covariate_sha256": "cd3700edf8b504e7620e7790429fdc0f6af2c52b76bb426d5ee953f178c3e35d",
+    "feature_count": 19,
+    "context_start": "2024-09-22",
+    "context_end": "2026-09-21",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      14,
+      20,
+      14,
+      14,
+      21,
+      16
+    ]
+  },
+  {
+    "arm": "placebo_window6",
+    "state": "England_Wales",
+    "origin": "2026-09-23",
+    "target_sha256": "50d2105cdf83723c15d3df4b90d26f5219c4f0840b18390c8f9cab778cd4acf4",
+    "covariate_sha256": "0cd75f67ae1230a979f5a717ddf6d5a53858623d7a110bc8d72fde9ff47c9e9b",
+    "feature_count": 19,
+    "context_start": "2024-09-23",
+    "context_end": "2026-09-22",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      14,
+      20,
+      14,
+      14,
+      21,
+      16
+    ]
+  },
+  {
+    "arm": "placebo_window6",
+    "state": "England_Wales",
+    "origin": "2026-09-24",
+    "target_sha256": "ef1aaf9d891c2dd62ad073ebedbeca125925e319efc28e1eaa0d7e1798adbcb9",
+    "covariate_sha256": "3a5e07c429acd5ea5cb246526d8f7070a7dffaa4094b7fa2729e076dff45e8ce",
+    "feature_count": 19,
+    "context_start": "2024-09-24",
+    "context_end": "2026-09-23",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      14,
+      20,
+      14,
+      14,
+      21,
+      16
+    ]
+  },
+  {
+    "arm": "placebo_window6",
+    "state": "England_Wales",
+    "origin": "2026-09-25",
+    "target_sha256": "ef8d031a6074424058bb646ffa55c8a479cba6c304f95c39d46bf10fa7daae35",
+    "covariate_sha256": "43e3b340c05304e466c2e398509fbfbd2fcde42fe9ed191ac39003196e9b1a8b",
+    "feature_count": 19,
+    "context_start": "2024-09-25",
+    "context_end": "2026-09-24",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      14,
+      20,
+      14,
+      14,
+      21,
+      16
+    ]
+  },
+  {
+    "arm": "placebo_window6",
+    "state": "England_Wales",
+    "origin": "2026-09-26",
+    "target_sha256": "3907af80b59148c7f3614548ebce6d99a25a6aa4e33359f72350240a9c29cb20",
+    "covariate_sha256": "3552fcc7307f1c35f9ab69a473c1d6b746511903646ab5ceba948fa44667a990",
+    "feature_count": 19,
+    "context_start": "2024-09-26",
+    "context_end": "2026-09-25",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      14,
+      20,
+      14,
+      14,
+      21,
+      16
+    ]
+  },
+  {
+    "arm": "placebo_window6",
+    "state": "England_Wales",
+    "origin": "2026-09-27",
+    "target_sha256": "eda635f56e44936d3708ff68a71bf5cf1cade0088416a98ff18d21b01da5b8db",
+    "covariate_sha256": "ab53570396c47eeb36076e1bf9f304f094916fb51ea35585bfdac3ff7e17b4d5",
+    "feature_count": 19,
+    "context_start": "2024-09-27",
+    "context_end": "2026-09-26",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      14,
+      20,
+      14,
+      14,
+      21,
+      16
+    ]
+  },
+  {
+    "arm": "placebo_window6",
+    "state": "England_Wales",
+    "origin": "2026-09-28",
+    "target_sha256": "61a9a0b3df09d9d1340d9cd097a98edc25f123df18f688361cab8d83fd65ae53",
+    "covariate_sha256": "64c029ffa527ded06e55c1045e8f2924780076f2f63b5977448bb318920322df",
+    "feature_count": 19,
+    "context_start": "2024-09-28",
+    "context_end": "2026-09-27",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      14,
+      20,
+      14,
+      14,
+      21,
+      16
+    ]
+  },
+  {
+    "arm": "placebo_window6",
+    "state": "England_Wales",
+    "origin": "2026-09-29",
+    "target_sha256": "05ab7cf470cc95437b7f70eb755b2baaf69d0e17799fe0715988200070fbe9d5",
+    "covariate_sha256": "ed985971315239f273c4d7103fb60e069523e5b0a7362de7de1814635c93b65d",
+    "feature_count": 19,
+    "context_start": "2024-09-29",
+    "context_end": "2026-09-28",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      14,
+      20,
+      14,
+      14,
+      21,
+      16
+    ]
+  },
+  {
+    "arm": "placebo_window6",
+    "state": "England_Wales",
+    "origin": "2026-09-30",
+    "target_sha256": "df94e06ed51b877245b544df012c47b19cb537f9327d4efd454b4df88faaf3a4",
+    "covariate_sha256": "16f04ab771de1f845dc230e87ee455c8520246e087fe2eb733b1e3d43e96fc1e",
+    "feature_count": 19,
+    "context_start": "2024-09-30",
+    "context_end": "2026-09-29",
+    "future_target_perturbation_invariant": true,
+    "past_nonzero_counts": [
+      14,
+      20,
+      14,
+      14,
+      21,
+      16
+    ]
+  }
+]

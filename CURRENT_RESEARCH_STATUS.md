@@ -1,5 +1,11 @@
 # Current status — 31 October 2026 India time
 
+## Latest operational finding: targeted recovery registered
+
+A real integration error stopped the final aligned pure-encoding group before any forecast: the seven-arm holiday-dependent encoder was asked for history-only. The completed work is preserved. New `calendar_recenter_recovery_v1` carries 840 closed forecasts byte-for-byte and computes only 252 missing forecasts, with a registered adapter implementing the original ten-arm contract. Two all-arm regression checks pass; 89 tests in total. Original source, failures and statuses remain unchanged. New recovery queues and output-root redirects replace only failed/waiting orchestration; the active TimesFM upstream model was not stopped. See CODEX_HANDOFF.md for exact launch/state details.
+
+The past-support diagnostic's 1,056 rows pass a separate scalar audit; performance associations await the corrected full forecasts. A fresh public GitHub clone passes 2,187 checksum files and 87 pre-repair tests in the isolated environment. That check alone did not cover this integration error. Older scientific/numerical limitations and all external gates remain open. No future outcomes, workflow activation or environment publication occurred.
+
 ## Current review loop: completed evidence versus active work
 
 LatestoriginalIndianevent checkpoint:all25,344forecasts/auditcomplete (FULL_WINDOW_RESULTS_BRIEF.md); SARIMAXtypedday.41872,TimesFMpooledday.42256,Chronospooledday.51821atlead1. Originalcalendar withknownKA2025mismatch; correctedfullfoundationpanelstillpending. Firstprotected-reviewfileauditfailure preserved; originalreviewrestored/newupdateversioned, all1,023protectedfiles and32unchangedscientificCSVs verify.

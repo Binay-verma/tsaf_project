@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/workspace/tsaf_project/src/run_mta_after_recenter.py", line 35, in <module>
+    p=argparse.ArgumentParser();p.add_argument('worker',choices=['chronos','timesfm']);main(p.parse_args().worker)
+                                                                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/tsaf_project/src/run_mta_after_recenter.py", line 16, in main
+    if any((p/'failure.txt').exists() for p in parents):raise RuntimeError('Parent recenter worker failed')
+                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Parent recenter worker failed

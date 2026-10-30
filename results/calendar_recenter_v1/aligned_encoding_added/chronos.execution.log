@@ -1,0 +1,15 @@
+Loading weights:   0%|          | 0/170 [00:00<?, ?it/s]Loading weights: 100%|██████████| 170/170 [00:00<00:00, 8716.02it/s]
+Traceback (most recent call last):
+  File "/workspace/tsaf_project/src/calendar_recenter_study.py", line 97, in <module>
+    p=argparse.ArgumentParser();p.add_argument('action',choices=['prepare',*MODELS]);p.add_argument('--group');a=p.parse_args();prepare() if a.action=='prepare' else run(a.group,a.action)
+                                                                                                                                                                      ^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/tsaf_project/src/calendar_recenter_study.py", line 87, in run
+    engine.OUT=out;engine.ARMS=p['arms'];engine.foundation(worker)
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/tsaf_project/src/semantics_encoding_engine_v2.py", line 88, in foundation
+    encoded = [encoded_input(data[t.state], t.state, arm, t.origin) for t in group]
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/tsaf_project/src/calendar_semantics_study_v2.py", line 54, in encoded_input
+    else:raise ValueError(arm)
+         ^^^^^^^^^^^^^^^^^^^^^
+ValueError: history

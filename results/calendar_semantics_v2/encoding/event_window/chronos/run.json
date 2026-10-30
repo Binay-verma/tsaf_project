@@ -1,0 +1,21 @@
+{
+  "model": "chronos",
+  "completed_utc": "2026-10-30T22:16:03.239014+00:00",
+  "rows": 336,
+  "cases_per_arm": 48,
+  "arms": [
+    "ordinal",
+    "onehot",
+    "cyclic",
+    "te_sunday",
+    "te_holiday",
+    "te_joint",
+    "te_separate"
+  ],
+  "inference_tasks": 280,
+  "seconds": 147.41033207999862,
+  "weight_sha256": "ddcda3c7508bf2528087723e98a20707cc04b7f370ae275a9fd88078ddba4f42",
+  "native_quantile_crossings": 0,
+  "predictions_sha256": "f6a91b2d48b08278c75a5a7c337ab3f89a47f118def2d5616cfb52b68a5d3fae",
+  "protocol_sha256": "f0118e061e345878c5e84edd7c2d4dbf117573430dcccfa6e0906eed35e8ec03"
+}

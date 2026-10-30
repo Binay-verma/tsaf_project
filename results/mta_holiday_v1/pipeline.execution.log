@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/workspace/tsaf_project/src/complete_mta_pipeline.py", line 31, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/workspace/tsaf_project/src/complete_mta_pipeline.py", line 17, in main
+    if json.loads(p.read_text())['status']=='failed':raise RuntimeError('MTA provider queue failed')
+                                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: MTA provider queue failed
