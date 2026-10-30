@@ -1,0 +1,27 @@
+{
+  "identity": {
+    "files": {
+      "data/external/latest_state_energy_GWh.csv": "74d22d5e85b022db13d97dad7c84dca5b9dc8e38d23570bf095d870e71a2f690",
+      "src/forecasting.py": "8a6b9b1e8632a2bf77d9855a1d370ed23c350ffe731138787e30c609a59ec21e",
+      "src/extended_validation.py": "2312ef9ef5f78ad8bf47b47999576cd0875c7ba3adca53acfb5434b83b2f8218"
+    },
+    "model": "amazon/chronos-2",
+    "revision": "29ec3766d36d6f73f0696f85560a422f50e8498c",
+    "context": 730,
+    "prediction_length": 14,
+    "cross_learning": false,
+    "packages": {
+      "chronos-forecasting": "2.3.2",
+      "torch": "2.15.0+cpu",
+      "holidays": "0.107",
+      "numpy": "2.3.5",
+      "pandas": "2.2.3"
+    }
+  },
+  "cache_sha256": {
+    "chronos_A_history.csv": "e7b4e893978c19a94ffd2f44abb8421d97be40dbcf5fc53c7506ae8bdb09ee2b",
+    "chronos_B_calendar.csv": "012af0b86665622e22d0005e28b51040b88453f43d8af7b3afc1a7203f5fa14d",
+    "chronos_D_regional_festival.csv": "70740be8db0458b05548dbb4f4f58757057e9e9cf4035026947101a4d7c3ad52"
+  },
+  "attestation": "Reviewed existing completed run; identity manifest added afterwards, not a contemporaneous preregistration"
+}

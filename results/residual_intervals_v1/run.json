@@ -1,0 +1,15 @@
+{
+  "rows": 25380,
+  "cases_per_configuration": 6345,
+  "protocol_sha256": "64e14be0fd03627b4882c04ab58e669ccfdbbbbbf064aa2991a8d44c93935d7c",
+  "source_predictions_sha256": "33c0b690bbd621b062e6851717d6705a638f6d534be69771793a1838aa2aaf82",
+  "code_sha256": "90a5c935db0d57637131851ce3ec123fe1345e028ed1b053a9a15ee80fcf81f1",
+  "calibration_min_n": 704,
+  "checks": [
+    "strictly past target residuals",
+    "matched cases across four configurations",
+    "finite noncrossing quantiles",
+    "unique cases"
+  ],
+  "warning": "Retrospective exploratory residual intervals; not native TSFM distributions or guaranteed coverage"
+}

@@ -1,0 +1,37 @@
+      state       mode  horizon  train_samples  train_MAE_GWh  feature_count  alpha  evaluation_2022_MAE_GWh  evaluation_2023_MAE_GWh
+  Karnataka  A_history        1            667          7.887              6     10                    6.768                   13.706
+  Karnataka  A_history        7            661         14.511              6     10                   19.530                   18.710
+  Karnataka  A_history       14            654         19.205              6     10                   23.349                   26.674
+  Karnataka B_calendar        1            667          5.911             19     10                    7.759                    7.472
+  Karnataka B_calendar        7            661         11.966             19     10                   19.171                   25.147
+  Karnataka B_calendar       14            654         13.908             19     10                   22.885                   49.797
+  Karnataka  C_holiday        1            667          5.818             20     10                    7.696                    7.309
+  Karnataka  C_holiday        7            661         11.928             20     10                   19.173                   24.835
+  Karnataka  C_holiday       14            654         13.870             20     10                   22.984                   49.181
+  Karnataka D_festival        1            667          5.797             27     10                    7.307                    6.799
+  Karnataka D_festival        7            661         11.856             27     10                   20.014                   25.850
+  Karnataka D_festival       14            654         13.841             27     10                   23.554                   48.858
+      Delhi  A_history        1            667          4.057              6     10                    4.080                    3.731
+      Delhi  A_history        7            661          7.803              6     10                    8.672                    8.429
+      Delhi  A_history       14            654          9.679              6     10                    9.127                    7.008
+      Delhi B_calendar        1            667          3.422             19     10                    4.992                    3.603
+      Delhi B_calendar        7            661          6.476             19     10                    8.395                   11.452
+      Delhi B_calendar       14            654          6.920             19     10                   11.334                    8.287
+      Delhi  C_holiday        1            667          3.357             20     10                    4.848                    3.571
+      Delhi  C_holiday        7            661          6.427             20     10                    8.567                   11.288
+      Delhi  C_holiday       14            654          6.859             20     10                   11.152                    8.360
+      Delhi D_festival        1            667          3.329             27     10                    4.768                    3.467
+      Delhi D_festival        7            661          6.367             27     10                    8.236                   11.152
+      Delhi D_festival       14            654          6.794             27     10                   11.303                    8.360
+Maharashtra  A_history        1            667         11.415              6     10                    6.125                   12.856
+Maharashtra  A_history        7            661         23.612              6     10                   27.666                   30.039
+Maharashtra  A_history       14            654         27.253              6     10                   36.247                   37.667
+Maharashtra B_calendar        1            667          9.856             19     10                    6.967                   10.347
+Maharashtra B_calendar        7            661         22.048             19     10                   29.397                   29.614
+Maharashtra B_calendar       14            654         23.993             19     10                   35.438                   35.343
+Maharashtra  C_holiday        1            667          9.668             20     10                    6.540                   10.281
+Maharashtra  C_holiday        7            661         21.934             20     10                   29.700                   29.435
+Maharashtra  C_holiday       14            654         23.922             20     10                   34.313                   33.692
+Maharashtra D_festival        1            667          9.504             27     10                    6.457                   10.729
+Maharashtra D_festival        7            661         21.628             27     10                   28.082                   27.921
+Maharashtra D_festival       14            654         23.615             27     10                   35.007                   33.695

@@ -1,0 +1,95 @@
+title: "Daily Aggregate Energy Demand for India (2013-2024)"
+doi: "10.5281/zenodo.XXXXXXX"
+version: "1.0.0"
+publication_date:
+
+authors:
+  - name: "Oliver Coombes"
+    affiliation:
+    orcid: "0009-0005-1426-2890"
+
+description: >
+      Daily total energy demand (in MWh) for India.
+      Data were downloaded from Grid India PDFs reports
+
+keywords:
+  - electricity generation
+  - India
+  - electricity data
+  - data cleaning
+  - South Asia
+
+geographical_coverage:
+  regions:
+    - country: "India"
+      coordinates:
+        north: 37.1
+        south: 6.5
+        east: 97.4
+        west: 68.1
+      temporal_coverage:
+        start_date: "2013-01-01"
+        end_date: "2024-04-28"
+
+countries:
+  - code: "IND"
+    name: "India"
+
+data_source:
+  name: "Grid India"
+  access_description: >
+    Data were donwloaded as PDF from Grid India
+  URL: "https://report.grid-india.in"
+
+temporal_coverage:
+  start_date: "2013-01-01"
+  end_date: "2024-04-28"
+  resolution: "daily"
+
+spatial_coverage:
+  description: "National-level total energy demand for India"
+  coordinates:
+    north: 37.1
+    south: 6.5
+    east: 97.4
+    west: 68.1
+
+data_columns:
+  - name: "date"
+    type: "string"
+    format: "YYYY-MM-DD"
+    description: "Date of observation in ISO format"
+  - name: "demand_MWh"
+    type: "float"
+    unit: "MWh"
+    description: "Total daily energy demand"
+
+processing:
+  description: >
+    The Grid India report had demand data daily in million-units.
+    To convert to megawatt hours (MWh), each data point was multiplied by 1000.
+
+related_datasets:
+  - title: "Daily Energy Demand Dataset for Monsoonal South Asia (2014–2025)"
+    doi: "10.5281/zenodo.XXXXXXX"
+    relationship: "part_of"
+  - title: "Raw Energy Demand for India (2013-2024)"
+    doi:
+    relationship: "derived_from"
+
+license: "CC-BY-4.0"
+repository:
+file_format: "CSV"
+file_size:
+number_of_files: 1
+
+contact:
+  name: "Oliver Coombes"
+  email: "olivergcoombes@gmail.com"
+  institution:
+
+language: "en"
+
+citation:
+  text: >
+    To be added once DOI is registered.

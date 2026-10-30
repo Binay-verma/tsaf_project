@@ -1,0 +1,4 @@
+state,overlap_days,equal_within_0.01_GWh,median_absolute_difference_GWh,max_absolute_difference_GWh
+Karnataka,3887,3610,0.0,2.8799999999999955
+Delhi,3886,3582,0.0,6.799999999999997
+Maharashtra,3888,3875,0.0,259.1000000000001

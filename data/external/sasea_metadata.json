@@ -1,0 +1,141 @@
+{
+  "created": "2025-09-22T09:47:26.874993+00:00",
+  "modified": "2025-09-22T09:47:27.140008+00:00",
+  "id": 17175212,
+  "conceptrecid": "17175211",
+  "doi": "10.5281/zenodo.17175212",
+  "conceptdoi": "10.5281/zenodo.17175211",
+  "doi_url": "https://doi.org/10.5281/zenodo.17175212",
+  "metadata": {
+    "title": "SASEA Electricity Demand Data for 2013-2025",
+    "doi": "10.5281/zenodo.17175212",
+    "publication_date": "2025-09-22",
+    "description": "<p>This dataset provides harmonised electricity demand records for twelve South and Southeast Asian (SASEA) countries:<strong> </strong>Bangladesh, Bhutan, India, Malaysia, Myanmar, Nepal, Oman, Philippines, Singapore, Sri Lanka, Taiwan, and Thailand. The data cover the period 2013&ndash;2025, with availability varying by country.</p>\n<p>Raw demand data were collected from national utilities, regulators, and international agencies using online portals, automated retrieval scripts, and direct file downloads. All records were standardised to:</p>\n<ul>\n<li>\n<p>Units: megawatt-hours (MWh)</p>\n</li>\n<li>\n<p>Time format: ISO 8601 (daily or higher resolution)</p>\n</li>\n<li>\n<p>Country codes: ISO 3166-1</p>\n</li>\n</ul>\n<p>Processing steps included completeness checks, outlier detection, and adjustments for calendar and time-zone differences. Metadata and processing scripts are provided alongside the dataset to ensure reproducibility and transparency.</p>",
+    "access_right": "open",
+    "creators": [
+      {
+        "name": "Coombes, Oliver G",
+        "affiliation": "Imperial College London",
+        "orcid": "0009-0005-1426-2890"
+      },
+      {
+        "name": "Hunt, Kieran",
+        "affiliation": "University of Reading",
+        "orcid": "0000-0003-1480-3755"
+      },
+      {
+        "name": "Bloomfield, Hannah",
+        "affiliation": null,
+        "orcid": "0000-0002-5616-1503"
+      }
+    ],
+    "keywords": [
+      "electricity demand",
+      "South Asia",
+      "Southeast Asia"
+    ],
+    "language": "eng",
+    "custom": {
+      "code:codeRepository": "https://github.com/C4ntasaur/sasea-demand",
+      "code:programmingLanguage": [
+        {
+          "id": "python",
+          "title": {
+            "en": "Python"
+          }
+        }
+      ],
+      "code:developmentStatus": {
+        "id": "active",
+        "title": {
+          "en": "Active"
+        }
+      }
+    },
+    "resource_type": {
+      "title": "Dataset",
+      "type": "dataset"
+    },
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "relations": {
+      "version": [
+        {
+          "index": 0,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "17175211"
+          }
+        }
+      ]
+    }
+  },
+  "title": "SASEA Electricity Demand Data for 2013-2025",
+  "links": {
+    "self": "https://zenodo.org/api/records/17175212",
+    "self_html": "https://zenodo.org/records/17175212",
+    "preview_html": "https://zenodo.org/records/17175212?preview=1",
+    "doi": "https://doi.org/10.5281/zenodo.17175212",
+    "self_doi": "https://doi.org/10.5281/zenodo.17175212",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17175212",
+    "reserve_doi": "https://zenodo.org/api/records/17175212/draft/pids/doi",
+    "parent": "https://zenodo.org/api/records/17175211",
+    "parent_html": "https://zenodo.org/records/17175211",
+    "parent_doi": "https://doi.org/10.5281/zenodo.17175211",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17175211",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:17175212/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:17175212/sequence/default",
+    "files": "https://zenodo.org/api/records/17175212/files",
+    "media_files": "https://zenodo.org/api/records/17175212/media-files",
+    "latest": "https://zenodo.org/api/records/17175212/versions/latest",
+    "latest_html": "https://zenodo.org/records/17175212/latest",
+    "versions": "https://zenodo.org/api/records/17175212/versions",
+    "draft": "https://zenodo.org/api/records/17175212/draft",
+    "access_links": "https://zenodo.org/api/records/17175212/access/links",
+    "access_grants": "https://zenodo.org/api/records/17175212/access/grants",
+    "access_users": "https://zenodo.org/api/records/17175212/access/users",
+    "access_request": "https://zenodo.org/api/records/17175212/access/request",
+    "access": "https://zenodo.org/api/records/17175212/access",
+    "communities": "https://zenodo.org/api/records/17175212/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/17175212/communities-suggestions",
+    "request_deletion": "https://zenodo.org/api/records/17175212/request-deletion",
+    "file_modification": "https://zenodo.org/api/records/17175212/file-modification",
+    "quota_increase": "https://zenodo.org/api/records/17175212/quota-increase",
+    "requests": "https://zenodo.org/api/records/17175212/requests"
+  },
+  "updated": "2025-09-22T09:47:27.140008+00:00",
+  "recid": "17175212",
+  "revision": 4,
+  "files": [
+    {
+      "id": "e0821d13-0583-4bdf-9e84-425fc4e1d968",
+      "key": "data.zip",
+      "size": 15176981,
+      "checksum": "md5:22921011c0fdabea0df5f926f3372a9e",
+      "links": {
+        "self": "https://zenodo.org/api/records/17175212/files/data.zip/content"
+      }
+    }
+  ],
+  "swh": {},
+  "owners": [
+    {
+      "id": "1411088"
+    }
+  ],
+  "status": "published",
+  "stats": {
+    "downloads": 180,
+    "unique_downloads": 163,
+    "views": 724,
+    "unique_views": 642,
+    "version_downloads": 180,
+    "version_unique_downloads": 163,
+    "version_unique_views": 642,
+    "version_views": 724
+  },
+  "state": "done",
+  "submitted": true
+}

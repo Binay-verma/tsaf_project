@@ -1,0 +1,10 @@
+model,horizon,mean_state_year_improvement_pct,year_bootstrap_low,year_bootstrap_high,independent_years,warning
+chronos2,1,-4.6230109605001175,-6.9502912440226075,-2.295730676977629,4,"Only four years; descriptive uncertainty, not strong generalisation evidence"
+chronos2,7,-0.5611928426562967,-3.016028393467403,2.9504401223455403,4,"Only four years; descriptive uncertainty, not strong generalisation evidence"
+chronos2,14,-2.316717787793695,-5.97407430281959,0.7558951732290999,4,"Only four years; descriptive uncertainty, not strong generalisation evidence"
+ridge,1,22.006355993776793,9.224369514023348,31.837142077051283,4,"Only four years; descriptive uncertainty, not strong generalisation evidence"
+ridge,7,1.1017379812413797,-63.46580793218904,41.46394071114093,4,"Only four years; descriptive uncertainty, not strong generalisation evidence"
+ridge,14,-16.85089174513784,-91.94827255154166,30.631739561975774,4,"Only four years; descriptive uncertainty, not strong generalisation evidence"
+sarimax,1,24.240875358980507,16.469914113926873,29.687890318514714,4,"Only four years; descriptive uncertainty, not strong generalisation evidence"
+sarimax,7,13.056765933105646,-33.144601790012025,47.59303818697727,4,"Only four years; descriptive uncertainty, not strong generalisation evidence"
+sarimax,14,-4.01531525993768,-50.99304030596019,31.082224807987554,4,"Only four years; descriptive uncertainty, not strong generalisation evidence"

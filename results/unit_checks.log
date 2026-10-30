@@ -1,0 +1,11 @@
+test_causal_fill_does_not_use_future (__main__.ForecastChecks.test_causal_fill_does_not_use_future) ... ok
+test_fixed_origin_seasonal_repeat (__main__.ForecastChecks.test_fixed_origin_seasonal_repeat) ... ok
+test_future_target_changes_do_not_change_origin_features (__main__.ForecastChecks.test_future_target_changes_do_not_change_origin_features) ... ok
+test_horizon_calendar_uses_target_date (__main__.ForecastChecks.test_horizon_calendar_uses_target_date) ... ok
+test_no_holdout_labels_used_for_fit (__main__.ForecastChecks.test_no_holdout_labels_used_for_fit) ... ok
+test_verified_diwali_dates_and_window (__main__.ForecastChecks.test_verified_diwali_dates_and_window) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 1.060s
+
+OK

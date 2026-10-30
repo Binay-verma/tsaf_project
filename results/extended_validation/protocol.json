@@ -1,0 +1,38 @@
+{
+  "declared_on": "2026-10-30",
+  "source": "separate latest state energy snapshot; do not splice original data",
+  "years": [
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "states": [
+    "Karnataka",
+    "Delhi",
+    "Maharashtra"
+  ],
+  "origins": "every calendar day Jan1 through Dec18 of each year so 14-day forecasts stay in year",
+  "horizons": [
+    1,
+    7,
+    14
+  ],
+  "training": "annual refit on previous 730 calendar days; same span across classical models; no tuning",
+  "models": "ridge alpha10, SARIMAX (1,0,0)x(1,0,0,7), last value, weekly repeat, pinned Chronos-2",
+  "chronos_daily": "history-only mode on every origin; no fine-tuning",
+  "chronos_calendar": "matched predeclared Diwali windows only; not falsely reported as all-year calendar evaluation",
+  "festival_window": "union +/-3 days around national main Diwali anchor plus documented state main celebration dates; all observed event days score",
+  "calendar_verification": "every source and mismatch recorded; unverified state/year flags remain explicitly unverified",
+  "untouched_status": "2022/2023 previously examined; 2024/2025 not previously scored; no parameter tuning after this declaration",
+  "limitations": "overlap unknown pending audit; no global no-contamination guarantee; shared-source correlated states not independent festival replications",
+  "post_upload_supplement": {
+    "year": 2026,
+    "origins": "2026-01-01 through 2026-10-15",
+    "last_target": "2026-10-28",
+    "basis": "Pinned and first-upload model weight LFS hashes match; 2026 labels postdate 2025-10-30 upload",
+    "festival": "No 2026 Diwali observations yet; cannot claim post-upload Diwali validation"
+  },
+  "calendar_model_scope": "All-year ridge A/B/D; all-year Chronos A; matched event-target Chronos B/D only; no unverified generic holiday flags in expanded primary comparison",
+  "calendar_correction_before_feature_results": "2020/2021 main anchors explicitly included in rolling training context; 2022/2023 Balipadyami dates included. Numeric history-only forecasts are reusable; event membership recomputed. No calendar-model outputs inspected before correction."
+}

@@ -1,0 +1,10 @@
+Classical complete: Karnataka
+Classical complete: Delhi
+Classical complete: Maharashtra
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/170 [00:00<?, ?it/s]Loading weights: 100%|██████████| 170/170 [00:00<00:00, 1900.78it/s]
+Chronos complete: A_history
+Chronos complete: B_calendar
+Chronos complete: C_holiday
+Chronos complete: D_festival
+SAVED /workspace/scratch/661ea48e0ef8/tsfm_india/results/benchmark_original_s28

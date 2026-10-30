@@ -1,0 +1,8 @@
+test_future_labels_and_overlapping_future_targets_excluded (__main__.CalibrationChecks.test_future_labels_and_overlapping_future_targets_excluded) ... ok
+test_missing_and_insufficient_residuals (__main__.CalibrationChecks.test_missing_and_insufficient_residuals) ... ok
+test_quantiles_use_signed_past_errors (__main__.CalibrationChecks.test_quantiles_use_signed_past_errors) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.016s
+
+OK

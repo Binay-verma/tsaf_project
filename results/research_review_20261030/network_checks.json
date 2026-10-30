@@ -1,0 +1,17 @@
+{
+  "checked_utc": "2026-10-30T05:12:45.822206+00:00",
+  "requests": [
+    {
+      "url": "https://arxiv.org/abs/2610.13676",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "url": "https://robbieandrew.github.io/india/",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "url": "https://huggingface.co/api/models/google/timesfm-3.0-pytorch",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    }
+  ]
+}

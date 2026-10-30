@@ -1,0 +1,5 @@
+{
+  "data/clean_daily_energy_GWh.csv": "69fc12519e22e84699cd586bcca829f9b4e799226a3c62113ee7555edd3e0440",
+  "src/forecasting.py": "8a6b9b1e8632a2bf77d9855a1d370ed23c350ffe731138787e30c609a59ec21e",
+  "src/benchmark.py": "2fb02ca0cd8838408a2bf7fc5169ccfc1a73722cc12c3649bd10c4fb5b6c87cd"
+}

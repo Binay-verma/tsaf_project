@@ -1,0 +1,12 @@
+{
+  "rows": 25380,
+  "residual_quantile_reconstructions": 144,
+  "passed": [
+    "source labels",
+    "lead/date alignment",
+    "noncrossing quantiles",
+    "strict pre-origin calibration dates",
+    "coverage/width/interval score recomputed",
+    "first/event-origin calibration examples independently reconstructed"
+  ]
+}

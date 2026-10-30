@@ -1,0 +1,19 @@
+{
+  "passed": [
+    "unique_predictions",
+    "finite_forecasts",
+    "horizon_date_alignment",
+    "positive_training_scale",
+    "actuals_match_source",
+    "identical_model_origin_coverage"
+  ],
+  "predictions": 3528,
+  "scored": 3528,
+  "models": [
+    "chronos2",
+    "last_value",
+    "ridge",
+    "sarimax",
+    "seasonal_naive"
+  ]
+}

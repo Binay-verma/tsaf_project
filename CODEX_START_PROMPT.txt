@@ -1,0 +1,7 @@
+Continue this existing TSFM India research project from the current checkpoint. Do not restart from scratch.
+
+Read AGENTS.md, CODEX_HANDOFF.md, VALIDATION_REPORT.md, DEEP_RESEARCH.md, JOURNAL_PROTOCOL.json, REGIONAL_CALENDAR_AUDIT.md, PRETRAINING_AUDIT.md and WORK_LOG.md. Consult USER_LITERATURE_SURVEY.pdf for the original background and RESEARCH_REFERENCES.md for primary sources.
+
+First briefly confirm the current results, unresolved limitations and next concrete experiment. Verify package integrity before modifying files, then run the relevant existing checks. Continue with the next pending controlled experiment in a new result directory, recording the protocol before inspecting new outcomes. Preserve previous results and failed/negative findings.
+
+My goal is defensible journal-level research, not artificially high numbers. Avoid leakage and test-set tuning. Current outcomes are exploratory for new methods; do not call the study journal-ready or contamination-free. Work autonomously within this scope and report actual blockers clearly. Update CODEX_HANDOFF.md and WORK_LOG.md at each substantial checkpoint so another session can resume.

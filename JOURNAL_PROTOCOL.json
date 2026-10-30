@@ -1,0 +1,45 @@
+{
+  "status": "research design recorded after examining expanded historical and partial-2026 results; not an external preregistration",
+  "completed": [
+    "daily 2022-2026 evaluation",
+    "four-year matched festival evaluation",
+    "twelve annual state-year calendar audits",
+    "actual model weight identity audit",
+    "pre-2026 validation-selected exploratory LightGBM",
+    "independent case/label/date/selection checks"
+  ],
+  "open": [
+    "amendment-aware calendar dates for every used training/test event",
+    "explicit source reuse rights",
+    "second independently developed covariate-capable foundation model",
+    "richer local baselines and refit-frequency comparisons",
+    "equal-information and feature-count controls",
+    "unseen-region/event transfer",
+    "quantile/coverage analysis",
+    "independent clean rerun",
+    "untouched final confirmation"
+  ],
+  "proposed_primary_question": "Does documented regional calendar provenance improve event-balanced forecast accuracy relative to a generic calendar when event encoding and feature count are controlled?",
+  "proposed_primary_contrast": "documented regional versus generic date ledger; identical scalar encoding, matched targets and fixed model; final operationalisation depends on ledger audit",
+  "proposed_primary_metric": "mean within-event/year/state MAE divided by prior-year training weekly-difference scale, aggregated with explicit equal event-year weighting",
+  "negative_control_plan": {
+    "feature_count": "same number of zero-valued covariates",
+    "placebo": "weekday/season matched non-event dates, chosen independent of target values",
+    "date_perturbations_days": [
+      -2,
+      -1,
+      1,
+      2
+    ],
+    "seed": 42
+  },
+  "development": "all already examined 2022-2026 observations remain development/exploratory for new methods",
+  "confirmation": "new data/source with model-specific temporal exposure checks; model versions, exact dates and selection rules must be frozen before new outcomes are viewed; no present result called confirmatory",
+  "prospective_festival": "2026 Diwali absent from current snapshot; no prospective forecasts made in this checkpoint",
+  "stop_rules": [
+    "no claimed encoding mechanism if placebo/equal-dimensional controls explain the effect",
+    "no new-method claim without distinct literature contribution and unseen-event/region evidence",
+    "no public dataset release until reuse rights resolved"
+  ],
+  "mutability": "This is a draft next-study design. Final choices and changes must be versioned before confirmation; do not retroactively call it preregistered."
+}

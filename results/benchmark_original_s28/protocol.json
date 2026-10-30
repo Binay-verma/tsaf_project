@@ -1,0 +1,27 @@
+{
+  "source": "original",
+  "stride": 28,
+  "years": [
+    2022,
+    2023
+  ],
+  "horizons": [
+    1,
+    7,
+    14
+  ],
+  "context": 730,
+  "train_end": "2021-12-31",
+  "ridge_alpha": 10,
+  "calendar": "weekday+3 annual harmonics; state holiday; main Diwali +/-3",
+  "schedule": "every stride days Jan1-Dec18 plus main Diwali minus3; fixed before scoring",
+  "checkpoint": "amazon/chronos-2",
+  "revision": "29ec3766d36d6f73f0696f85560a422f50e8498c",
+  "limitations": [
+    "Historical state holidays only partially verified",
+    "Pretraining contamination unknown",
+    "Sampled forecast origins; not daily full-year scores",
+    "One main Diwali occurrence per held-out year",
+    "No weather inputs; retrospective source corrections possible"
+  ]
+}

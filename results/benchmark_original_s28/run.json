@@ -1,0 +1,13 @@
+{
+  "seconds": 77.14565687200002,
+  "chronos_included": true,
+  "python": "3.12.14",
+  "versions": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scikit-learn": "1.8.0",
+    "statsmodels": "0.15.0",
+    "holidays": "0.107"
+  },
+  "prediction_rows": 3528
+}

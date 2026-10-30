@@ -1,0 +1,61 @@
+{
+  "status": "exploratory: 2026 outcomes were already examined before adding this baseline",
+  "grid": [
+    {
+      "num_leaves": 7,
+      "n_estimators": 100,
+      "reg_lambda": 1.0
+    },
+    {
+      "num_leaves": 7,
+      "n_estimators": 100,
+      "reg_lambda": 10.0
+    },
+    {
+      "num_leaves": 7,
+      "n_estimators": 300,
+      "reg_lambda": 1.0
+    },
+    {
+      "num_leaves": 7,
+      "n_estimators": 300,
+      "reg_lambda": 10.0
+    },
+    {
+      "num_leaves": 15,
+      "n_estimators": 100,
+      "reg_lambda": 1.0
+    },
+    {
+      "num_leaves": 15,
+      "n_estimators": 100,
+      "reg_lambda": 10.0
+    },
+    {
+      "num_leaves": 15,
+      "n_estimators": 300,
+      "reg_lambda": 1.0
+    },
+    {
+      "num_leaves": 15,
+      "n_estimators": 300,
+      "reg_lambda": 10.0
+    }
+  ],
+  "fixed": {
+    "learning_rate": 0.05,
+    "min_child_samples": 20,
+    "random_state": 42
+  },
+  "selection": "lowest pre-2026 temporal validation MAE; no test-based selection",
+  "training_window": [
+    "2024-01-02",
+    "2025-12-31"
+  ],
+  "validation_start": "2025-07-05",
+  "purge": "training target strictly before validation start",
+  "test_origins": [
+    "2026-01-01",
+    "2026-10-15"
+  ]
+}

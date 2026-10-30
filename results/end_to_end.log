@@ -1,0 +1,85 @@
+test_causal_fill_does_not_use_future (__main__.ForecastChecks.test_causal_fill_does_not_use_future) ... ok
+test_fixed_origin_seasonal_repeat (__main__.ForecastChecks.test_fixed_origin_seasonal_repeat) ... ok
+test_future_target_changes_do_not_change_origin_features (__main__.ForecastChecks.test_future_target_changes_do_not_change_origin_features) ... ok
+test_horizon_calendar_uses_target_date (__main__.ForecastChecks.test_horizon_calendar_uses_target_date) ... ok
+test_no_holdout_labels_used_for_fit (__main__.ForecastChecks.test_no_holdout_labels_used_for_fit) ... ok
+test_verified_diwali_dates_and_window (__main__.ForecastChecks.test_verified_diwali_dates_and_window) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 1.272s
+
+OK
+Classical complete: Karnataka
+Classical complete: Delhi
+Classical complete: Maharashtra
+Loading weights:   0%|          | 0/170 [00:00<?, ?it/s]Loading weights: 100%|██████████| 170/170 [00:00<00:00, 1911.96it/s]
+Cached Chronos: A_history
+Cached Chronos: B_calendar
+Cached Chronos: C_holiday
+Cached Chronos: D_festival
+SAVED /workspace/scratch/661ea48e0ef8/tsfm_india/results/benchmark_original_s28
+# Completed benchmark
+
+Sampled rolling origins, not all days. 2022 development and 2023 held-out year use frozen parameters; historical target context updates as time advances. Chronos pretraining overlap is unknown. Dates are only partially officially verified. One Diwali per year; no causal or publication-ready claim. Newer source is not silently substituted.
+
+| year | horizon | model | mode | MASE |
+| --- | --- | --- | --- | --- |
+| 2022 | 1 | chronos2 | A_history | 0.3782 |
+| 2022 | 1 | chronos2 | B_calendar | 0.3995 |
+| 2022 | 1 | chronos2 | C_holiday | 0.3955 |
+| 2022 | 1 | chronos2 | D_festival | 0.388 |
+| 2022 | 1 | last_value | A_history | 0.413 |
+| 2022 | 1 | ridge | A_history | 0.4216 |
+| 2022 | 1 | ridge | B_calendar | 0.4964 |
+| 2022 | 1 | ridge | C_holiday | 0.4829 |
+| 2022 | 1 | ridge | D_festival | 0.4691 |
+| 2022 | 1 | sarimax | A_history | 0.4178 |
+| 2022 | 1 | sarimax | B_calendar | 0.4703 |
+| 2022 | 1 | sarimax | C_holiday | 0.4756 |
+| 2022 | 1 | sarimax | D_festival | 0.4693 |
+| 2022 | 1 | seasonal_naive | A_history | 0.9739 |
+| 2022 | 7 | chronos2 | A_history | 1.15 |
+| 2022 | 7 | chronos2 | B_calendar | 1.1037 |
+| 2022 | 7 | chronos2 | C_holiday | 1.0987 |
+| 2022 | 7 | chronos2 | D_festival | 1.1039 |
+| 2022 | 7 | last_value | A_history | 1.2174 |
+| 2022 | 7 | ridge | A_history | 1.2139 |
+| 2022 | 7 | ridge | B_calendar | 1.2163 |
+| 2022 | 7 | ridge | C_holiday | 1.228 |
+| 2022 | 7 | ridge | D_festival | 1.2119 |
+| 2022 | 7 | sarimax | A_history | 1.3616 |
+| 2022 | 7 | sarimax | B_calendar | 1.3124 |
+| 2022 | 7 | sarimax | C_holiday | 1.32 |
+| 2022 | 7 | sarimax | D_festival | 1.3035 |
+| 2022 | 7 | seasonal_naive | A_history | 1.2174 |
+| 2022 | 14 | chronos2 | A_history | 1.2469 |
+| 2022 | 14 | chronos2 | B_calendar | 1.2229 |
+| 2022 | 14 | chronos2 | C_holiday | 1.2389 |
+| 2022 | 14 | chronos2 | D_festival | 1.2434 |
+| 2022 | 14 | last_value | A_history | 1.3809 |
+| 2022 | 14 | ridge | A_history | 1.4392 |
+| 2022 | 14 | ridge | B_calendar | 1.5141 |
+| 2022 | 14 | ridge | C_holiday | 1.4935 |
+| 2022 | 14 | ridge | D_festival | 1.523 |
+| 2022 | 14 | sarimax | A_history | 1.8892 |
+| 2022 | 14 | sarimax | B_calendar | 1.766 |
+| 2022 | 14 | sarimax | C_holiday | 1.7506 |
+| 2022 | 14 | sarimax | D_festival | 1.7426 |
+| 2022 | 14 | seasonal_naive | A_history | 1.3809 |
+| 2023 | 1 | chronos2 | A_history | 0.4215 |
+| 2023 | 1 | chronos2 | B_calendar | 0.429 |
+| 2023 | 1 | chronos2 | C_holiday | 0.4271 |
+| 2023 | 1 | chronos2 | D_festival | 0.4198 |
+| 2023 | 1 | last_value | A_history | 0.81 |
+| 2023 | 1 | ridge | A_history | 0.6611 |
+| 2023 | 1 | ridge | B_calendar | 0.4738 |
+| 2023 | 1 | ridge | C_holiday | 0.4676 |
+| 2023 | 1 | ridge | D_festival | 0.4569 |
+| 2023 | 1 | sarimax | A_history | 0.45 |
+| 2023 | 1 | sarimax | B_calendar | 0.4739 |
+| 2023 | 1 | sarimax | C_holiday | 0.469 |
+| 2023 | 1 | sarimax | D_festival | 0.456 |
+| 2023 | 1 | seasonal_naive | A_history | 1.2133 |
+| 2023 | 7 | chronos2 | A_history | 1.0886 |
+| 2023 
+Finished. Open results/benchmark_original_s28/report.html

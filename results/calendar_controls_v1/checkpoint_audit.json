@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "scored_rows": 103254,
+  "raw_rows": 103254,
+  "checks": [
+    "unique/finite predictions",
+    "date and lead alignment",
+    "actual labels and observed flags match frozen source",
+    "event membership matches ledger",
+    "scales reconstructed from pre-year data",
+    "identical daily and event cases",
+    "state-year MAE and MASE independently reproduced",
+    "LightGBM validation minima and date purge"
+  ],
+  "limits": [
+    "Does not rerun model inference",
+    "Does not clear pretraining overlap",
+    "Does not reconstruct real-time data vintages"
+  ]
+}

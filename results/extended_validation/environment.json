@@ -1,0 +1,16 @@
+{
+  "python": "3.12.14",
+  "packages": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scikit-learn": "1.8.0",
+    "statsmodels": "0.15.0",
+    "holidays": "0.107",
+    "matplotlib": "3.10.8",
+    "lightgbm": "4.7.0",
+    "torch": "2.15.0+cpu",
+    "chronos-forecasting": "2.3.2"
+  },
+  "model": "amazon/chronos-2",
+  "revision": "29ec3766d36d6f73f0696f85560a422f50e8498c"
+}

@@ -1,0 +1,3 @@
+/root/.local/lib/python3.12/site-packages/statsmodels/tsa/statespace/mlemodel.py:737: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  mlefit = super().fit(
+[{'initial_converged_150': False, 'retry_maxiter': 500, 'state': 'Delhi', 'year': 2025, 'mode': 'B_calendar', 'converged': True, 'powell_training_only_retry': True, 'powell_converged': True, 'training_loglik_initial': 1177.6385284537323, 'training_loglik_powell': 1177.638565046394, 'final_optimizer': 'powell'}]

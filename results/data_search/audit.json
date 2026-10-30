@@ -1,0 +1,23 @@
+{
+  "latest": {
+    "raw_rows": 5048,
+    "columns": 144,
+    "start": "2013-01-02",
+    "end": "2026-10-28",
+    "missing_calendar_dates": 0,
+    "licence": "No explicit dataset reuse licence located in landing page or metadata; verify before public redistribution.",
+    "unit": "GWh/day energy met",
+    "all_positive_observed": true
+  },
+  "sasea_india": {
+    "rows": 3955,
+    "start": "2013-01-01",
+    "end": "2024-04-28",
+    "duplicate_extra_rows": 55,
+    "missing_calendar_dates": 236,
+    "licence": "CC BY 4.0 per repository metadata",
+    "overlap_compared": 3900,
+    "matching_original_national_total_after_unit_conversion": 3900,
+    "decision": "Not an independent external validation source; same historical dates and national totals largely coincide. Catalogue 2025 does not imply Indian coverage through 2025."
+  }
+}

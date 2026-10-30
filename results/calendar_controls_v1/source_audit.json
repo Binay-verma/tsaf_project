@@ -1,0 +1,60 @@
+{
+  "raw_dates_unique": true,
+  "raw_dates_monotone": true,
+  "rows": 5048,
+  "first_date": "2013-01-02",
+  "last_date": "2026-10-28",
+  "states": {
+    "Karnataka": {
+      "matches_raw_column": true,
+      "units": "GWh",
+      "missing": 112,
+      "nonpositive_recorded": 0,
+      "consecutive_equal_recorded_pairs": 27,
+      "metadata": {
+        "name": "Karnataka: EnergyMet",
+        "organisation": "Power System Operation Corporation Limited",
+        "URI": "https://posoco.in/reports/daily-reports/",
+        "title": "Karnataka Energy Met",
+        "source": "Daily Power Supply Position Report table C",
+        "units": "GWh"
+      }
+    },
+    "Delhi": {
+      "matches_raw_column": true,
+      "units": "GWh",
+      "missing": 112,
+      "nonpositive_recorded": 0,
+      "consecutive_equal_recorded_pairs": 47,
+      "metadata": {
+        "name": "Delhi: EnergyMet",
+        "organisation": "Power System Operation Corporation Limited",
+        "URI": "https://posoco.in/reports/daily-reports/",
+        "title": "Delhi Energy Met",
+        "source": "Daily Power Supply Position Report table C",
+        "units": "GWh"
+      }
+    },
+    "Maharashtra": {
+      "matches_raw_column": true,
+      "units": "GWh",
+      "missing": 112,
+      "nonpositive_recorded": 0,
+      "consecutive_equal_recorded_pairs": 35,
+      "metadata": {
+        "name": "Maharashtra: EnergyMet",
+        "organisation": "Power System Operation Corporation Limited",
+        "URI": "https://posoco.in/reports/daily-reports/",
+        "title": "Maharashtra Energy Met",
+        "source": "Daily Power Supply Position Report table C",
+        "units": "GWh"
+      }
+    }
+  },
+  "limits": [
+    "Positive recorded values are not proof of no upstream imputation",
+    "Retrospective revisions and publication lag unresolved",
+    "No anomalies removed using outcomes",
+    "Reuse rights not resolved by inspecting metadata"
+  ]
+}

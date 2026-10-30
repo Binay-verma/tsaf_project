@@ -1,0 +1,51 @@
+Completed Karnataka 2022
+Completed Karnataka 2023
+Completed Karnataka 2024
+Completed Karnataka 2025
+Completed Delhi 2022
+Completed Delhi 2023
+Completed Delhi 2024
+Completed Delhi 2025
+Completed Maharashtra 2022
+Completed Maharashtra 2023
+Completed Maharashtra 2024
+Completed Maharashtra 2025
+{
+  "seconds": 20.724678455999992,
+  "fits": 612,
+  "rows": 215577,
+  "python": "3.12.14",
+  "packages": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scikit-learn": "1.8.0",
+    "holidays": "0.107"
+  },
+  "input_hashes": {
+    "results/calendar_controls_v1/protocol.json": "541ed29a0ea1348580ec4d923dd37ff72e485e52f70c4e0ea18e1a65415f53cc",
+    "src/calendar_controls.py": "c6f83240b22a791b1d8b1ed179bee3e28907d8356531ae2a1579c0e84c7a7da6",
+    "src/forecasting.py": "8a6b9b1e8632a2bf77d9855a1d370ed23c350ffe731138787e30c609a59ec21e",
+    "src/extended_validation.py": "2312ef9ef5f78ad8bf47b47999576cd0875c7ba3adca53acfb5434b83b2f8218",
+    "data/external/latest_state_energy_GWh.csv": "74d22d5e85b022db13d97dad7c84dca5b9dc8e38d23570bf095d870e71a2f690"
+  },
+  "placebo_shifts": {
+    "2020": -42,
+    "2021": 35,
+    "2022": 28,
+    "2023": -28,
+    "2024": -28,
+    "2025": 42
+  },
+  "checks": {
+    "scored_rows": 215577,
+    "matched_cases_per_arm": 12681,
+    "checks": [
+      "unique/finite forecasts",
+      "matched cases",
+      "lead-date alignment",
+      "zero controls identical",
+      "historical B/D Ridge predictions reproduced"
+    ],
+    "historical_data_and_results_unchanged": 61
+  }
+}

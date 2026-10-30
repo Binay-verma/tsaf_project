@@ -1,0 +1,10 @@
+test_equal_dimensions_and_information (__main__.ControlChecks.test_equal_dimensions_and_information) ... ok
+test_future_outcomes_cannot_change_earlier_forecast (__main__.ControlChecks.test_future_outcomes_cannot_change_earlier_forecast) ... ok
+test_missing_labels_are_not_fitted_and_purge_is_strict (__main__.ControlChecks.test_missing_labels_are_not_fitted_and_purge_is_strict) ... ok
+test_placebo_is_weekday_matched_disjoint_and_shared (__main__.ControlChecks.test_placebo_is_weekday_matched_disjoint_and_shared) ... ok
+test_zero_control_and_date_perturbation (__main__.ControlChecks.test_zero_control_and_date_perturbation) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.202s
+
+OK

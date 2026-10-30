@@ -1,0 +1,51 @@
+{
+  "experiment": "residual_intervals_v1",
+  "created_utc": "2026-10-30T05:10:04.081355+00:00",
+  "status": "exploratory protocol frozen before interval outcomes; prior point results known; not external preregistration",
+  "purpose": "Evaluate whether simple past-only residual calibration provides useful uncertainty for saved point forecasts; this does not recover native model quantiles",
+  "models": {
+    "chronos2": [
+      "A_history"
+    ],
+    "ridge": [
+      "B_calendar",
+      "D_regional_festival"
+    ],
+    "last_value": [
+      "A_history"
+    ]
+  },
+  "years": [
+    2024,
+    2025
+  ],
+  "leads": [
+    1,
+    7,
+    14
+  ],
+  "calibration": "For each state/model/mode/lead and origin, use recorded signed residuals actual-prediction whose TARGET dates are in [origin-730 days, origin). Require at least 365 residuals. All residuals come from saved daily out-of-sample forecasts, not fitted training errors. Annual point-model refits remain different, so calibration distribution may shift. No outcome-dependent choice of window or method.",
+  "quantiles": [
+    0.05,
+    0.5,
+    0.95
+  ],
+  "estimator": "numpy.quantile on signed residuals, method=linear, add to current point forecast at every quantile. No nominal finite-sample/exchangeability coverage guarantee. Median may be bias-corrected; original point forecasts remain unchanged.",
+  "metrics": [
+    "empirical central 90% coverage",
+    "mean width divided by same past-training MASE scale",
+    "90% interval score divided by scale",
+    "mean pinball across 0.05/0.5/0.95 divided by scale",
+    "counts per state/year/lead and all/event/non_event"
+  ],
+  "event_membership": "same fixed unshifted regional windows as original checkpoint",
+  "comparisons": "identical recorded-label cases and calibration eligibility required across four configurations; never calibrate with target >= origin even for h=14",
+  "limits": [
+    "two annual clusters, state/day dependence",
+    "calendar-event coverage has very few dates; report counts and years",
+    "retrospective source revisions/publication lag unresolved",
+    "historical model overlap unresolved",
+    "no final untouched data and no native TSFM quantile forecasts",
+    "this tests a fixed calibration baseline, not every probabilistic method"
+  ]
+}

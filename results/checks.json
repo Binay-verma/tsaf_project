@@ -1,0 +1,23 @@
+{
+  "assertions_passed": [
+    "raw_checksum",
+    "chronological_split",
+    "positive_training_mase_scale",
+    "no_missing_predictions",
+    "no_2023_holdout_predictions"
+  ],
+  "model_checks": [
+    {
+      "state": "Karnataka",
+      "sarimax_converged": true
+    },
+    {
+      "state": "Delhi",
+      "sarimax_converged": true
+    },
+    {
+      "state": "Maharashtra",
+      "sarimax_converged": true
+    }
+  ]
+}

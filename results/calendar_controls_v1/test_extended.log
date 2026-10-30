@@ -1,0 +1,10 @@
+test_fast_design_matches_reference (__main__.ExtendedChecks.test_fast_design_matches_reference) ... ok
+test_festival_present_in_each_training_year (__main__.ExtendedChecks.test_festival_present_in_each_training_year) ... ok
+test_future_perturbation (__main__.ExtendedChecks.test_future_perturbation) ... ok
+test_known_regional_dates (__main__.ExtendedChecks.test_known_regional_dates) ... ok
+test_model_weight_identity (__main__.ExtendedChecks.test_model_weight_identity) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.263s
+
+OK

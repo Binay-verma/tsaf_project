@@ -1,0 +1,20 @@
+{
+  "first_weight_commit": "95a9710e2596287d08352589f42634fa5abdf0a7",
+  "upload_utc": "2025-10-30T14:58:57Z",
+  "evaluated_commit": "29ec3766d36d6f73f0696f85560a422f50e8498c",
+  "safetensors_sha256": "ddcda3c7508bf2528087723e98a20707cc04b7f370ae275a9fd88078ddba4f42",
+  "same_weights": true,
+  "direct_temporal_exposure_status": {
+    "2022_2025": "Not excluded by chronology alone",
+    "2026": "Targets postdate unchanged weight upload; direct inclusion of genuinely later observations is ruled out by chronology, conditional on source dates representing later observations"
+  },
+  "dataset_identity_check": "Disclosed Table 6 and corpus metadata inspected: no named POSOCO/GRID-INDIA/state energy dataset found. Not an exhaustive numeric deduplication or proof of no proxy exposure.",
+  "residuals": [
+    "Historical dataset aliases or correlated series",
+    "Unknown exact pretraining samples/cutoffs",
+    "Source retrospective corrections",
+    "No 2026 Diwali data before 2026-11-08; cannot claim post-upload Diwali validation"
+  ],
+  "locally_verified_weight_sha256": "ddcda3c7508bf2528087723e98a20707cc04b7f370ae275a9fd88078ddba4f42",
+  "local_weight_hash_matches_repository": true
+}

@@ -1,0 +1,295 @@
+[
+  {
+    "initial_converged_150": true,
+    "retry_maxiter": null,
+    "state": "Karnataka",
+    "year": 2022,
+    "mode": "A_history",
+    "converged": true
+  },
+  {
+    "initial_converged_150": true,
+    "retry_maxiter": null,
+    "state": "Karnataka",
+    "year": 2022,
+    "mode": "B_calendar",
+    "converged": true
+  },
+  {
+    "initial_converged_150": true,
+    "retry_maxiter": null,
+    "state": "Karnataka",
+    "year": 2022,
+    "mode": "D_regional_festival",
+    "converged": true
+  },
+  {
+    "initial_converged_150": true,
+    "retry_maxiter": null,
+    "state": "Karnataka",
+    "year": 2023,
+    "mode": "A_history",
+    "converged": true
+  },
+  {
+    "initial_converged_150": true,
+    "retry_maxiter": null,
+    "state": "Karnataka",
+    "year": 2023,
+    "mode": "B_calendar",
+    "converged": true
+  },
+  {
+    "initial_converged_150": true,
+    "retry_maxiter": null,
+    "state": "Karnataka",
+    "year": 2023,
+    "mode": "D_regional_festival",
+    "converged": true
+  },
+  {
+    "initial_converged_150": true,
+    "retry_maxiter": null,
+    "state": "Karnataka",
+    "year": 2024,
+    "mode": "A_history",
+    "converged": true
+  },
+  {
+    "initial_converged_150": true,
+    "retry_maxiter": null,
+    "state": "Karnataka",
+    "year": 2024,
+    "mode": "B_calendar",
+    "converged": true
+  },
+  {
+    "initial_converged_150": true,
+    "retry_maxiter": null,
+    "state": "Karnataka",
+    "year": 2024,
+    "mode": "D_regional_festival",
+    "converged": true
+  },
+  {
+    "initial_converged_150": true,
+    "retry_maxiter": null,
+    "state": "Karnataka",
+    "year": 2025,
+    "mode": "A_history",
+    "converged": true
+  },
+  {
+    "initial_converged_150": true,
+    "retry_maxiter": null,
+    "state": "Karnataka",
+    "year": 2025,
+    "mode": "B_calendar",
+    "converged": true
+  },
+  {
+    "initial_converged_150": true,
+    "retry_maxiter": null,
+    "state": "Karnataka",
+    "year": 2025,
+    "mode": "D_regional_festival",
+    "converged": true
+  },
+  {
+    "initial_converged_150": true,
+    "retry_maxiter": null,
+    "state": "Delhi",
+    "year": 2022,
+    "mode": "A_history",
+    "converged": true
+  },
+  {
+    "initial_converged_150": true,
+    "retry_maxiter": null,
+    "state": "Delhi",
+    "year": 2022,
+    "mode": "B_calendar",
+    "converged": true
+  },
+  {
+    "initial_converged_150": true,
+    "retry_maxiter": null,
+    "state": "Delhi",
+    "year": 2022,
+    "mode": "D_regional_festival",
+    "converged": true
+  },
+  {
+    "initial_converged_150": true,
+    "retry_maxiter": null,
+    "state": "Delhi",
+    "year": 2023,
+    "mode": "A_history",
+    "converged": true
+  },
+  {
+    "initial_converged_150": true,
+    "retry_maxiter": null,
+    "state": "Delhi",
+    "year": 2023,
+    "mode": "B_calendar",
+    "converged": true
+  },
+  {
+    "initial_converged_150": true,
+    "retry_maxiter": null,
+    "state": "Delhi",
+    "year": 2023,
+    "mode": "D_regional_festival",
+    "converged": true
+  },
+  {
+    "initial_converged_150": true,
+    "retry_maxiter": null,
+    "state": "Delhi",
+    "year": 2024,
+    "mode": "A_history",
+    "converged": true
+  },
+  {
+    "initial_converged_150": true,
+    "retry_maxiter": null,
+    "state": "Delhi",
+    "year": 2024,
+    "mode": "B_calendar",
+    "converged": true
+  },
+  {
+    "initial_converged_150": true,
+    "retry_maxiter": null,
+    "state": "Delhi",
+    "year": 2024,
+    "mode": "D_regional_festival",
+    "converged": true
+  },
+  {
+    "initial_converged_150": true,
+    "retry_maxiter": null,
+    "state": "Delhi",
+    "year": 2025,
+    "mode": "A_history",
+    "converged": true
+  },
+  {
+    "initial_converged_150": false,
+    "retry_maxiter": 500,
+    "state": "Delhi",
+    "year": 2025,
+    "mode": "B_calendar",
+    "converged": true,
+    "powell_training_only_retry": true,
+    "powell_converged": true,
+    "training_loglik_initial": 1177.6385284537323,
+    "training_loglik_powell": 1177.638565046394,
+    "final_optimizer": "powell"
+  },
+  {
+    "initial_converged_150": true,
+    "retry_maxiter": null,
+    "state": "Delhi",
+    "year": 2025,
+    "mode": "D_regional_festival",
+    "converged": true
+  },
+  {
+    "initial_converged_150": true,
+    "retry_maxiter": null,
+    "state": "Maharashtra",
+    "year": 2022,
+    "mode": "A_history",
+    "converged": true
+  },
+  {
+    "initial_converged_150": true,
+    "retry_maxiter": null,
+    "state": "Maharashtra",
+    "year": 2022,
+    "mode": "B_calendar",
+    "converged": true
+  },
+  {
+    "initial_converged_150": true,
+    "retry_maxiter": null,
+    "state": "Maharashtra",
+    "year": 2022,
+    "mode": "D_regional_festival",
+    "converged": true
+  },
+  {
+    "initial_converged_150": true,
+    "retry_maxiter": null,
+    "state": "Maharashtra",
+    "year": 2023,
+    "mode": "A_history",
+    "converged": true
+  },
+  {
+    "initial_converged_150": true,
+    "retry_maxiter": null,
+    "state": "Maharashtra",
+    "year": 2023,
+    "mode": "B_calendar",
+    "converged": true
+  },
+  {
+    "initial_converged_150": true,
+    "retry_maxiter": null,
+    "state": "Maharashtra",
+    "year": 2023,
+    "mode": "D_regional_festival",
+    "converged": true
+  },
+  {
+    "initial_converged_150": true,
+    "retry_maxiter": null,
+    "state": "Maharashtra",
+    "year": 2024,
+    "mode": "A_history",
+    "converged": true
+  },
+  {
+    "initial_converged_150": true,
+    "retry_maxiter": null,
+    "state": "Maharashtra",
+    "year": 2024,
+    "mode": "B_calendar",
+    "converged": true
+  },
+  {
+    "initial_converged_150": true,
+    "retry_maxiter": null,
+    "state": "Maharashtra",
+    "year": 2024,
+    "mode": "D_regional_festival",
+    "converged": true
+  },
+  {
+    "initial_converged_150": true,
+    "retry_maxiter": null,
+    "state": "Maharashtra",
+    "year": 2025,
+    "mode": "A_history",
+    "converged": true
+  },
+  {
+    "initial_converged_150": true,
+    "retry_maxiter": null,
+    "state": "Maharashtra",
+    "year": 2025,
+    "mode": "B_calendar",
+    "converged": true
+  },
+  {
+    "initial_converged_150": true,
+    "retry_maxiter": null,
+    "state": "Maharashtra",
+    "year": 2025,
+    "mode": "D_regional_festival",
+    "converged": true
+  }
+]

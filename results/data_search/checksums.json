@@ -1,0 +1,97 @@
+[
+  {
+    "file": "._daily_agg_IND_demand.csv",
+    "bytes": 120,
+    "sha256": "3b58a247406813635c7f8da9c0b12da012f57c431a37570ace70ae930361099b"
+  },
+  {
+    "file": "._gap_IND.csv",
+    "bytes": 220,
+    "sha256": "b06f3a6c9aec761542820acb3c39e86d2dfe9b2573e58b877d1b8cf09c69681f"
+  },
+  {
+    "file": "._raw_IND_demand.csv",
+    "bytes": 120,
+    "sha256": "3b58a247406813635c7f8da9c0b12da012f57c431a37570ace70ae930361099b"
+  },
+  {
+    "file": "._stats_monthly_IND.csv",
+    "bytes": 220,
+    "sha256": "b06f3a6c9aec761542820acb3c39e86d2dfe9b2573e58b877d1b8cf09c69681f"
+  },
+  {
+    "file": "._stats_quarterly_IND.csv",
+    "bytes": 220,
+    "sha256": "b06f3a6c9aec761542820acb3c39e86d2dfe9b2573e58b877d1b8cf09c69681f"
+  },
+  {
+    "file": "._stats_yearly_IND.csv",
+    "bytes": 220,
+    "sha256": "b06f3a6c9aec761542820acb3c39e86d2dfe9b2573e58b877d1b8cf09c69681f"
+  },
+  {
+    "file": "POSOCO_data.csv",
+    "bytes": 3928747,
+    "sha256": "ccd6e643155ec00fbd4a7fcea95635c424189e9bcee1b2b2f8e85a08dc94010e"
+  },
+  {
+    "file": "POSOCO_metadata.json",
+    "bytes": 39702,
+    "sha256": "369f9c43b2382fdf2301cb3786240a9d4996db313cc5dbc99338d42b19b913f9"
+  },
+  {
+    "file": "daily_agg_IND_demand.csv",
+    "bytes": 94496,
+    "sha256": "72f0160dc3a9a8e688bdf3fabd732120ca5fd6bfce931b18e08d44536e93809b"
+  },
+  {
+    "file": "daily_agg_IND_demand.yml",
+    "bytes": 2033,
+    "sha256": "33319cebaa4ea891c6ec58bf28c85bf112ed497c2f71973b226c094cab36bf34"
+  },
+  {
+    "file": "gap_IND.csv",
+    "bytes": 2252,
+    "sha256": "9284b53627a1265a72ab8d195f3eae2ca81e6bac5ae0702bed6348c265f3a2da"
+  },
+  {
+    "file": "latest_state_energy_GWh.csv",
+    "bytes": 143931,
+    "sha256": "74d22d5e85b022db13d97dad7c84dca5b9dc8e38d23570bf095d870e71a2f690"
+  },
+  {
+    "file": "raw_IND_demand.csv",
+    "bytes": 1039164,
+    "sha256": "d2e46e45501d0a77cc13acac42cdd141ada4a8bbadae024897f999ea3d1b44ec"
+  },
+  {
+    "file": "raw_IND_demand.yml",
+    "bytes": 1881,
+    "sha256": "83dc016476308f2b03b2d6f5dd4e376ddd4736abd15505f009119b552f8c87f1"
+  },
+  {
+    "file": "sasea_data.zip",
+    "bytes": 15176981,
+    "sha256": "1264e192171c36fb86a580974c5b0ae64b41917ab7c2330e369f1791532c3e89"
+  },
+  {
+    "file": "sasea_metadata.json",
+    "bytes": 5687,
+    "sha256": "0643efeee8634f9210ebdf25930b8539fe1b6d73fbfca9de31dab2633eb26e55"
+  },
+  {
+    "file": "stats_monthly_IND.csv",
+    "bytes": 25319,
+    "sha256": "285d10b7c4f42401a97a6a374a3c5094e559332ad7b514852a841c1f5e9d100c"
+  },
+  {
+    "file": "stats_quarterly_IND.csv",
+    "bytes": 8489,
+    "sha256": "e8f1b5218efb61aa2753327e88c898fb3aa870370865683b2eccc91994ceb1ba"
+  },
+  {
+    "file": "stats_yearly_IND.csv",
+    "bytes": 2338,
+    "sha256": "7e64d51e3f0656e83f5ce6c1bf770ed97e08b804cc37b4979381637a8bb9b285"
+  }
+]

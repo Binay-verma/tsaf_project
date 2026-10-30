@@ -1,0 +1,505 @@
+{
+  "created": "2025-03-06T17:08:29.127008+00:00",
+  "modified": "2025-03-06T17:10:48.902621+00:00",
+  "id": 14983362,
+  "conceptrecid": "14983361",
+  "doi": "10.5281/zenodo.14983362",
+  "conceptdoi": "10.5281/zenodo.14983361",
+  "doi_url": "https://doi.org/10.5281/zenodo.14983362",
+  "metadata": {
+    "title": "Daily electricity demand data for Indian states (2014\u20132024)",
+    "doi": "10.5281/zenodo.14983362",
+    "publication_date": "2025-03-06",
+    "description": "<p>These files contain data scraped from India's national grid, organised as follows:<br><br>daily_energy_met_MU: the total electricity supplied by the grid to each state in units of MU (GWh), daily aggregates<br>peak_met_MW: the peak power supplied to each state (per day, in units of MW)<br>peak_unmet_MW: the maximum deficit in supplied power (compared to demand) for each state (per day, in units of MW)</p>\n<p>Corrected versions of the above are also supplied, which have undergone a simple quality control that checks for transcription errors. We recommend using these unless you intend to conduct your own quality control.</p>\n<p>Individual state files contain relevant meteorological data for each state (for training ML demand models). These include daily minima, means, and maxima for the following: 2-m temperautre, 10-m u and v winds, 2-m dewpoint temperature, surface solar radiation, total cloud cover, and UTCI.</p>\n<p>For more information on the methodology and use of these data, see our paper: https://www.researchgate.net/publication/388109973_Building_and_explaining_data-driven_energy_demand_models_for_Indian_states</p>",
+    "access_right": "open",
+    "creators": [
+      {
+        "name": "Hunt, Kieran",
+        "affiliation": "University of Reading",
+        "orcid": "0000-0003-1480-3755"
+      },
+      {
+        "name": "Bloomfield, Hannah",
+        "affiliation": "Newcastle University",
+        "orcid": "0000-0002-5616-1503"
+      }
+    ],
+    "version": "1.0",
+    "language": "eng",
+    "custom": {
+      "code:codeRepository": "https://github.com/kieranmrhunt/india-renewable",
+      "code:programmingLanguage": [
+        {
+          "id": "python",
+          "title": {
+            "en": "Python"
+          }
+        }
+      ]
+    },
+    "resource_type": {
+      "title": "Dataset",
+      "type": "dataset"
+    },
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "grants": [
+      {
+        "code": "NE/W007924/1",
+        "internal_id": "02b5d8509::NE/W007924/1",
+        "funder": {
+          "name": "Natural Environment Research Council"
+        },
+        "title": "MITRE: Mesoscale convective systems over India, Tracking, Research, and Experimentation"
+      }
+    ],
+    "relations": {
+      "version": [
+        {
+          "index": 0,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "14983361"
+          }
+        }
+      ]
+    }
+  },
+  "title": "Daily electricity demand data for Indian states (2014\u20132024)",
+  "links": {
+    "self": "https://zenodo.org/api/records/14983362",
+    "self_html": "https://zenodo.org/records/14983362",
+    "preview_html": "https://zenodo.org/records/14983362?preview=1",
+    "doi": "https://doi.org/10.5281/zenodo.14983362",
+    "self_doi": "https://doi.org/10.5281/zenodo.14983362",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.14983362",
+    "reserve_doi": "https://zenodo.org/api/records/14983362/draft/pids/doi",
+    "parent": "https://zenodo.org/api/records/14983361",
+    "parent_html": "https://zenodo.org/records/14983361",
+    "parent_doi": "https://doi.org/10.5281/zenodo.14983361",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.14983361",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:14983362/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:14983362/sequence/default",
+    "files": "https://zenodo.org/api/records/14983362/files",
+    "media_files": "https://zenodo.org/api/records/14983362/media-files",
+    "latest": "https://zenodo.org/api/records/14983362/versions/latest",
+    "latest_html": "https://zenodo.org/records/14983362/latest",
+    "versions": "https://zenodo.org/api/records/14983362/versions",
+    "draft": "https://zenodo.org/api/records/14983362/draft",
+    "access_links": "https://zenodo.org/api/records/14983362/access/links",
+    "access_grants": "https://zenodo.org/api/records/14983362/access/grants",
+    "access_users": "https://zenodo.org/api/records/14983362/access/users",
+    "access_request": "https://zenodo.org/api/records/14983362/access/request",
+    "access": "https://zenodo.org/api/records/14983362/access",
+    "communities": "https://zenodo.org/api/records/14983362/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/14983362/communities-suggestions",
+    "request_deletion": "https://zenodo.org/api/records/14983362/request-deletion",
+    "file_modification": "https://zenodo.org/api/records/14983362/file-modification",
+    "quota_increase": "https://zenodo.org/api/records/14983362/quota-increase",
+    "requests": "https://zenodo.org/api/records/14983362/requests"
+  },
+  "updated": "2025-03-06T17:10:48.902621+00:00",
+  "recid": "14983362",
+  "revision": 6,
+  "files": [
+    {
+      "id": "aa4d2cfb-4a34-4ea7-85d6-d3f3a1d79971",
+      "key": "Tripura.csv",
+      "size": 3693042,
+      "checksum": "md5:cba814ffc2364f30971bc93fb662104f",
+      "links": {
+        "self": "https://zenodo.org/api/records/14983362/files/Tripura.csv/content"
+      }
+    },
+    {
+      "id": "b036838a-b765-4b24-93b8-445eea900a0d",
+      "key": "Jammu_and_Kashmir.csv",
+      "size": 3805442,
+      "checksum": "md5:a56967c5b3fdc1e42f35355433e31733",
+      "links": {
+        "self": "https://zenodo.org/api/records/14983362/files/Jammu_and_Kashmir.csv/content"
+      }
+    },
+    {
+      "id": "eb7ddac5-9d26-418a-91a5-060e2fe83ea5",
+      "key": "Goa.csv",
+      "size": 3665936,
+      "checksum": "md5:d00464bbf365e2eff4ef34fdd83523df",
+      "links": {
+        "self": "https://zenodo.org/api/records/14983362/files/Goa.csv/content"
+      }
+    },
+    {
+      "id": "ce10b6e1-814e-4763-bf20-ae0b32eed833",
+      "key": "Chandigarh.csv",
+      "size": 3652485,
+      "checksum": "md5:869ce1c99821fa6a188ee018461ec3f5",
+      "links": {
+        "self": "https://zenodo.org/api/records/14983362/files/Chandigarh.csv/content"
+      }
+    },
+    {
+      "id": "7c1ac416-3d75-42df-b53a-9fbabb9126d8",
+      "key": "corrected_daily_energy_met_MU.csv",
+      "size": 807563,
+      "checksum": "md5:172540c2c13282cc3dd4c9679b537aa0",
+      "links": {
+        "self": "https://zenodo.org/api/records/14983362/files/corrected_daily_energy_met_MU.csv/content"
+      }
+    },
+    {
+      "id": "866d5a02-bea4-4a28-9652-06e64e0231e1",
+      "key": "Nagaland.csv",
+      "size": 3756321,
+      "checksum": "md5:3df89750e37a9cfbb9f541d5f04f7a12",
+      "links": {
+        "self": "https://zenodo.org/api/records/14983362/files/Nagaland.csv/content"
+      }
+    },
+    {
+      "id": "b2f41e48-90db-4fea-a221-58b32509b5a4",
+      "key": "NCT_of_Delhi.csv",
+      "size": 3634552,
+      "checksum": "md5:14c358e9c5938c134497d37d51c77d59",
+      "links": {
+        "self": "https://zenodo.org/api/records/14983362/files/NCT_of_Delhi.csv/content"
+      }
+    },
+    {
+      "id": "a08b1188-489b-4f94-a69e-df6a2c0dc4d2",
+      "key": "Arunachal_Pradesh.csv",
+      "size": 3808415,
+      "checksum": "md5:b35ab34ca0bbff00f5edc0d69c5c3d32",
+      "links": {
+        "self": "https://zenodo.org/api/records/14983362/files/Arunachal_Pradesh.csv/content"
+      }
+    },
+    {
+      "id": "11c115d4-71d5-45b9-a4f2-3cd021e66054",
+      "key": "Jharkhand.csv",
+      "size": 3736908,
+      "checksum": "md5:647b6972ce52a20ab0c4eb09e3b69cae",
+      "links": {
+        "self": "https://zenodo.org/api/records/14983362/files/Jharkhand.csv/content"
+      }
+    },
+    {
+      "id": "642e4b0e-401d-4f2b-ab8f-e5ecba9ac938",
+      "key": "Karnataka.csv",
+      "size": 3727690,
+      "checksum": "md5:6f42f9c502cb503e60d94369fe939aee",
+      "links": {
+        "self": "https://zenodo.org/api/records/14983362/files/Karnataka.csv/content"
+      }
+    },
+    {
+      "id": "07d5372e-ce0a-4a65-85ed-f377838b0c06",
+      "key": "Lakshadweep.csv",
+      "size": 3650490,
+      "checksum": "md5:7a3e098cf1a876c21917882f6791b2a8",
+      "links": {
+        "self": "https://zenodo.org/api/records/14983362/files/Lakshadweep.csv/content"
+      }
+    },
+    {
+      "id": "e30b0101-88a6-446c-b2de-2d8b952ebc25",
+      "key": "Assam.csv",
+      "size": 3791201,
+      "checksum": "md5:37a691b880d0a990a1fd2dde44ee7ac1",
+      "links": {
+        "self": "https://zenodo.org/api/records/14983362/files/Assam.csv/content"
+      }
+    },
+    {
+      "id": "2fed7c96-eebf-4656-854c-a551de7c39f8",
+      "key": "Dadra_and_Nagar_Haveli.csv",
+      "size": 3605184,
+      "checksum": "md5:1bbd822ff80fb39b311dfe0d39c7be1d",
+      "links": {
+        "self": "https://zenodo.org/api/records/14983362/files/Dadra_and_Nagar_Haveli.csv/content"
+      }
+    },
+    {
+      "id": "f5e2e405-b3f4-4019-a2c0-ee348afca491",
+      "key": "Maharashtra.csv",
+      "size": 3744544,
+      "checksum": "md5:cc7ddf4d2cbf2d6ed8ef24a0f0a1caf4",
+      "links": {
+        "self": "https://zenodo.org/api/records/14983362/files/Maharashtra.csv/content"
+      }
+    },
+    {
+      "id": "600abb58-4b6d-4c36-9a30-9a1e2e0d2e8e",
+      "key": "Punjab.csv",
+      "size": 3729041,
+      "checksum": "md5:22401296d70aeff6bcfeb4dce25cae42",
+      "links": {
+        "self": "https://zenodo.org/api/records/14983362/files/Punjab.csv/content"
+      }
+    },
+    {
+      "id": "dee3a4e3-052d-4d15-a120-8ce52bd23912",
+      "key": "Meghalaya.csv",
+      "size": 3751579,
+      "checksum": "md5:57ebc831d1dd8f43a78b948e720953ee",
+      "links": {
+        "self": "https://zenodo.org/api/records/14983362/files/Meghalaya.csv/content"
+      }
+    },
+    {
+      "id": "cc7f5e00-6078-43bb-9e82-5e17d8c2c518",
+      "key": "Manipur.csv",
+      "size": 3756784,
+      "checksum": "md5:5b2c590124ac23a50cb8010578527615",
+      "links": {
+        "self": "https://zenodo.org/api/records/14983362/files/Manipur.csv/content"
+      }
+    },
+    {
+      "id": "2de13e33-70f9-43a0-a611-4005bb094f1e",
+      "key": "Mizoram.csv",
+      "size": 3727777,
+      "checksum": "md5:84362ce3ee29f1a9daa9d8f327b6c593",
+      "links": {
+        "self": "https://zenodo.org/api/records/14983362/files/Mizoram.csv/content"
+      }
+    },
+    {
+      "id": "47e8a868-3761-4c1f-bec8-2b06715a4c51",
+      "key": "Odisha.csv",
+      "size": 3742614,
+      "checksum": "md5:6c375ea620c23c365c3a0de37f88b493",
+      "links": {
+        "self": "https://zenodo.org/api/records/14983362/files/Odisha.csv/content"
+      }
+    },
+    {
+      "id": "be6b27d5-b048-46df-a069-7375ba5a53f8",
+      "key": "West_Bengal.csv",
+      "size": 3751781,
+      "checksum": "md5:351e714a85dad8ded32a4b94355c1c83",
+      "links": {
+        "self": "https://zenodo.org/api/records/14983362/files/West_Bengal.csv/content"
+      }
+    },
+    {
+      "id": "b44a15d4-cfae-4df6-bf23-5d3f50943a46",
+      "key": "Puducherry.csv",
+      "size": 3639012,
+      "checksum": "md5:c890473ec0cb24c31094c4aff91ee851",
+      "links": {
+        "self": "https://zenodo.org/api/records/14983362/files/Puducherry.csv/content"
+      }
+    },
+    {
+      "id": "09a4e739-3e09-48d0-baba-b948486f3e3f",
+      "key": "Tamil_Nadu.csv",
+      "size": 3728246,
+      "checksum": "md5:6e8c6d1b2788422c43dd72b97ef134d7",
+      "links": {
+        "self": "https://zenodo.org/api/records/14983362/files/Tamil_Nadu.csv/content"
+      }
+    },
+    {
+      "id": "afd02111-bab4-455f-8607-b7efd93ffe2a",
+      "key": "Uttar_Pradesh.csv",
+      "size": 3762172,
+      "checksum": "md5:0e80d8cd1ae27a3360f02aaf4a3b0571",
+      "links": {
+        "self": "https://zenodo.org/api/records/14983362/files/Uttar_Pradesh.csv/content"
+      }
+    },
+    {
+      "id": "90577f95-3bfd-4e79-8102-b39cee5cbbc7",
+      "key": "Bihar.csv",
+      "size": 3754370,
+      "checksum": "md5:6efb2668a92797e31fe06ca6ede58795",
+      "links": {
+        "self": "https://zenodo.org/api/records/14983362/files/Bihar.csv/content"
+      }
+    },
+    {
+      "id": "f504a565-b707-49cd-9226-2db00ecb57ee",
+      "key": "Uttarakhand.csv",
+      "size": 3776287,
+      "checksum": "md5:d97ba64a0f3b4373a0d0f1e04f2ccdb4",
+      "links": {
+        "self": "https://zenodo.org/api/records/14983362/files/Uttarakhand.csv/content"
+      }
+    },
+    {
+      "id": "3c8ba0a1-5c0b-4ebf-bd53-0d3d579d7ac5",
+      "key": "Andaman_and_Nicobar.csv",
+      "size": 3687406,
+      "checksum": "md5:adf6074fd5a72e4317867cd73992f36c",
+      "links": {
+        "self": "https://zenodo.org/api/records/14983362/files/Andaman_and_Nicobar.csv/content"
+      }
+    },
+    {
+      "id": "57f11dda-7a18-4271-a4b9-357cd4db4a87",
+      "key": "Himachal_Pradesh.csv",
+      "size": 3779853,
+      "checksum": "md5:207d3d4cf3b4387cbb84c82b87b7fd8a",
+      "links": {
+        "self": "https://zenodo.org/api/records/14983362/files/Himachal_Pradesh.csv/content"
+      }
+    },
+    {
+      "id": "6fde39a5-d002-476f-99d8-e61edc58bffe",
+      "key": "Gujarat.csv",
+      "size": 3709756,
+      "checksum": "md5:9f05ad81914a43a353c85666189f2433",
+      "links": {
+        "self": "https://zenodo.org/api/records/14983362/files/Gujarat.csv/content"
+      }
+    },
+    {
+      "id": "137d31e6-af49-4583-bbb6-91cb05bf7a53",
+      "key": "Chhattisgarh.csv",
+      "size": 3747185,
+      "checksum": "md5:907bfe690d36c500087b70172901a384",
+      "links": {
+        "self": "https://zenodo.org/api/records/14983362/files/Chhattisgarh.csv/content"
+      }
+    },
+    {
+      "id": "55d0e937-460f-4eba-926a-a72b70c08b58",
+      "key": "Haryana.csv",
+      "size": 3720307,
+      "checksum": "md5:64b030ad73415512a213917f4c1d46ca",
+      "links": {
+        "self": "https://zenodo.org/api/records/14983362/files/Haryana.csv/content"
+      }
+    },
+    {
+      "id": "73cb4cf1-5055-4fb4-a085-f2d2f575144f",
+      "key": "Daman_and_Diu.csv",
+      "size": 3605184,
+      "checksum": "md5:1bbd822ff80fb39b311dfe0d39c7be1d",
+      "links": {
+        "self": "https://zenodo.org/api/records/14983362/files/Daman_and_Diu.csv/content"
+      }
+    },
+    {
+      "id": "1c8f3955-a974-4460-94db-d98b94c10dea",
+      "key": "daily_energy_met_MU.csv",
+      "size": 815685,
+      "checksum": "md5:c6d677992d4cf6735d09b71823140468",
+      "links": {
+        "self": "https://zenodo.org/api/records/14983362/files/daily_energy_met_MU.csv/content"
+      }
+    },
+    {
+      "id": "04c5ab62-4019-4ca6-abfa-bb81efd99677",
+      "key": "peak_unmet_MW.csv",
+      "size": 677255,
+      "checksum": "md5:4dcbea56b60be4d2cb4232710c163896",
+      "links": {
+        "self": "https://zenodo.org/api/records/14983362/files/peak_unmet_MW.csv/content"
+      }
+    },
+    {
+      "id": "3a1cee8e-deb9-4de3-8113-02d7be1bae54",
+      "key": "corrected_peak_met_MW.csv",
+      "size": 1039164,
+      "checksum": "md5:26f1531a7e045f78fb7a7c7f6e008a9d",
+      "links": {
+        "self": "https://zenodo.org/api/records/14983362/files/corrected_peak_met_MW.csv/content"
+      }
+    },
+    {
+      "id": "c6c42c84-0c0b-4ae9-8c88-4ecf733532cb",
+      "key": "peak_met_MW.csv",
+      "size": 1037963,
+      "checksum": "md5:40e83946b1b98f7dc7098071d3e29c78",
+      "links": {
+        "self": "https://zenodo.org/api/records/14983362/files/peak_met_MW.csv/content"
+      }
+    },
+    {
+      "id": "1d2ee5e5-80e5-47e0-b7ab-558827aaacc5",
+      "key": "weighted_daily_mean_utci_india.csv",
+      "size": 450601,
+      "checksum": "md5:5623b55e693f4bfedb70966956c8fe04",
+      "links": {
+        "self": "https://zenodo.org/api/records/14983362/files/weighted_daily_mean_utci_india.csv/content"
+      }
+    },
+    {
+      "id": "85567a02-f387-4859-8dfb-66f78e87b81a",
+      "key": "Telangana.csv",
+      "size": 3728648,
+      "checksum": "md5:e89000583757bf1a3cfd42a895878ebd",
+      "links": {
+        "self": "https://zenodo.org/api/records/14983362/files/Telangana.csv/content"
+      }
+    },
+    {
+      "id": "434c912e-1037-4a83-a5d0-f90ec6df8fe9",
+      "key": "Madhya_Pradesh.csv",
+      "size": 3744959,
+      "checksum": "md5:6e0994a9633bcbf542fd4cc3d8ed444a",
+      "links": {
+        "self": "https://zenodo.org/api/records/14983362/files/Madhya_Pradesh.csv/content"
+      }
+    },
+    {
+      "id": "b24b52cc-7429-4098-8608-3efddf817957",
+      "key": "Kerala.csv",
+      "size": 3741498,
+      "checksum": "md5:12ac3ecf4bdcc3dfe5bdc0ca2ce13d03",
+      "links": {
+        "self": "https://zenodo.org/api/records/14983362/files/Kerala.csv/content"
+      }
+    },
+    {
+      "id": "45a23124-b7aa-4390-8c86-0460afc4570d",
+      "key": "Andhra_Pradesh.csv",
+      "size": 3730656,
+      "checksum": "md5:26a68b42856ded54310919bf420e0871",
+      "links": {
+        "self": "https://zenodo.org/api/records/14983362/files/Andhra_Pradesh.csv/content"
+      }
+    },
+    {
+      "id": "1bae5946-b7c4-46ce-a5cb-11952118c928",
+      "key": "Rajasthan.csv",
+      "size": 3729205,
+      "checksum": "md5:9fcf3141bfb70a1868aaaee4c8369211",
+      "links": {
+        "self": "https://zenodo.org/api/records/14983362/files/Rajasthan.csv/content"
+      }
+    },
+    {
+      "id": "97f2b276-8ddb-4d9d-805f-5e97217e4b5e",
+      "key": "Sikkim.csv",
+      "size": 3755912,
+      "checksum": "md5:db95e68d2b36c6b65760b00ca650a8d4",
+      "links": {
+        "self": "https://zenodo.org/api/records/14983362/files/Sikkim.csv/content"
+      }
+    }
+  ],
+  "swh": {},
+  "owners": [
+    {
+      "id": "260013"
+    }
+  ],
+  "status": "published",
+  "stats": {
+    "downloads": 18494,
+    "unique_downloads": 15750,
+    "views": 4492,
+    "unique_views": 3835,
+    "version_downloads": 18494,
+    "version_unique_downloads": 15750,
+    "version_unique_views": 3835,
+    "version_views": 4492
+  },
+  "state": "done",
+  "submitted": true
+}

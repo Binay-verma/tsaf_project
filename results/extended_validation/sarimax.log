@@ -1,0 +1,16 @@
+SARIMAX Karnataka 2022
+SARIMAX Karnataka 2023
+SARIMAX Karnataka 2024
+SARIMAX Karnataka 2025
+SARIMAX Delhi 2022
+SARIMAX Delhi 2023
+SARIMAX Delhi 2024
+/root/.local/lib/python3.12/site-packages/statsmodels/tsa/statespace/mlemodel.py:737: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  mlefit = super().fit(
+/root/.local/lib/python3.12/site-packages/statsmodels/tsa/statespace/mlemodel.py:737: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  mlefit = super().fit(
+SARIMAX Delhi 2025
+SARIMAX Maharashtra 2022
+SARIMAX Maharashtra 2023
+SARIMAX Maharashtra 2024
+SARIMAX Maharashtra 2025

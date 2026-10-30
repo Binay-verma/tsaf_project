@@ -1,0 +1,297 @@
+state,year,date,in_annual_schedule,in_library,library_name,status,primary_document
+Delhi,2024,2024-01-26,True,True,Republic Day,date_match,https://wcd.delhi.gov.in/sites/default/files/WCD/generic_multiple_files/holidays_2024_gnctd.pdf
+Delhi,2024,2024-03-25,True,True,Holi,date_match,https://wcd.delhi.gov.in/sites/default/files/WCD/generic_multiple_files/holidays_2024_gnctd.pdf
+Delhi,2024,2024-03-29,True,True,Good Friday,date_match,https://wcd.delhi.gov.in/sites/default/files/WCD/generic_multiple_files/holidays_2024_gnctd.pdf
+Delhi,2024,2024-04-11,True,True,Id-ul-Fitr,date_match,https://wcd.delhi.gov.in/sites/default/files/WCD/generic_multiple_files/holidays_2024_gnctd.pdf
+Delhi,2024,2024-04-14,False,True,Dr. B. R. Ambedkar's Jayanti,library_extra_or_definition_difference,https://wcd.delhi.gov.in/sites/default/files/WCD/generic_multiple_files/holidays_2024_gnctd.pdf
+Delhi,2024,2024-04-17,True,True,Ram Navami,date_match,https://wcd.delhi.gov.in/sites/default/files/WCD/generic_multiple_files/holidays_2024_gnctd.pdf
+Delhi,2024,2024-04-21,True,True,Mahavir Jayanti,date_match,https://wcd.delhi.gov.in/sites/default/files/WCD/generic_multiple_files/holidays_2024_gnctd.pdf
+Delhi,2024,2024-05-23,True,True,Buddha Purnima,date_match,https://wcd.delhi.gov.in/sites/default/files/WCD/generic_multiple_files/holidays_2024_gnctd.pdf
+Delhi,2024,2024-06-17,True,True,Id-ul-Zuha (Bakrid),date_match,https://wcd.delhi.gov.in/sites/default/files/WCD/generic_multiple_files/holidays_2024_gnctd.pdf
+Delhi,2024,2024-07-17,True,True,Muharram,date_match,https://wcd.delhi.gov.in/sites/default/files/WCD/generic_multiple_files/holidays_2024_gnctd.pdf
+Delhi,2024,2024-08-15,True,True,Independence Day,date_match,https://wcd.delhi.gov.in/sites/default/files/WCD/generic_multiple_files/holidays_2024_gnctd.pdf
+Delhi,2024,2024-08-26,True,True,Janmashtami (Vaishnava),date_match,https://wcd.delhi.gov.in/sites/default/files/WCD/generic_multiple_files/holidays_2024_gnctd.pdf
+Delhi,2024,2024-09-16,True,True,Milad-un-Nabi,date_match,https://wcd.delhi.gov.in/sites/default/files/WCD/generic_multiple_files/holidays_2024_gnctd.pdf
+Delhi,2024,2024-10-02,True,True,Mahatma Gandhi's Jayanti,date_match,https://wcd.delhi.gov.in/sites/default/files/WCD/generic_multiple_files/holidays_2024_gnctd.pdf
+Delhi,2024,2024-10-12,True,True,Dussehra,date_match,https://wcd.delhi.gov.in/sites/default/files/WCD/generic_multiple_files/holidays_2024_gnctd.pdf
+Delhi,2024,2024-10-17,True,False,,schedule_date_missing_from_library,https://wcd.delhi.gov.in/sites/default/files/WCD/generic_multiple_files/holidays_2024_gnctd.pdf
+Delhi,2024,2024-10-31,True,True,Diwali (Deepavali),date_match,https://wcd.delhi.gov.in/sites/default/files/WCD/generic_multiple_files/holidays_2024_gnctd.pdf
+Delhi,2024,2024-11-15,True,True,Guru Nanak's Jayanti,date_match,https://wcd.delhi.gov.in/sites/default/files/WCD/generic_multiple_files/holidays_2024_gnctd.pdf
+Delhi,2024,2024-12-25,True,True,Christmas,date_match,https://wcd.delhi.gov.in/sites/default/files/WCD/generic_multiple_files/holidays_2024_gnctd.pdf
+Delhi,2025,2025-01-26,True,True,Republic Day,date_match,https://wcd.delhi.gov.in/sites/default/files/WCD/generic_multiple_files/holiday_list_2025.pdf
+Delhi,2025,2025-02-26,True,True,Maha Shivaratri,date_match,https://wcd.delhi.gov.in/sites/default/files/WCD/generic_multiple_files/holiday_list_2025.pdf
+Delhi,2025,2025-03-14,True,True,Holi,date_match,https://wcd.delhi.gov.in/sites/default/files/WCD/generic_multiple_files/holiday_list_2025.pdf
+Delhi,2025,2025-03-31,True,True,Id-ul-Fitr,date_match,https://wcd.delhi.gov.in/sites/default/files/WCD/generic_multiple_files/holiday_list_2025.pdf
+Delhi,2025,2025-04-10,True,True,Mahavir Jayanti,date_match,https://wcd.delhi.gov.in/sites/default/files/WCD/generic_multiple_files/holiday_list_2025.pdf
+Delhi,2025,2025-04-14,False,True,Dr. B. R. Ambedkar's Jayanti,library_extra_or_definition_difference,https://wcd.delhi.gov.in/sites/default/files/WCD/generic_multiple_files/holiday_list_2025.pdf
+Delhi,2025,2025-04-18,True,True,Good Friday,date_match,https://wcd.delhi.gov.in/sites/default/files/WCD/generic_multiple_files/holiday_list_2025.pdf
+Delhi,2025,2025-05-12,True,True,Buddha Purnima,date_match,https://wcd.delhi.gov.in/sites/default/files/WCD/generic_multiple_files/holiday_list_2025.pdf
+Delhi,2025,2025-06-07,True,True,Id-ul-Zuha (Bakrid),date_match,https://wcd.delhi.gov.in/sites/default/files/WCD/generic_multiple_files/holiday_list_2025.pdf
+Delhi,2025,2025-07-06,True,True,Muharram,date_match,https://wcd.delhi.gov.in/sites/default/files/WCD/generic_multiple_files/holiday_list_2025.pdf
+Delhi,2025,2025-08-15,True,True,Independence Day,date_match,https://wcd.delhi.gov.in/sites/default/files/WCD/generic_multiple_files/holiday_list_2025.pdf
+Delhi,2025,2025-08-16,True,True,Janmashtami (Vaishnava),date_match,https://wcd.delhi.gov.in/sites/default/files/WCD/generic_multiple_files/holiday_list_2025.pdf
+Delhi,2025,2025-09-05,True,True,Milad-un-Nabi,date_match,https://wcd.delhi.gov.in/sites/default/files/WCD/generic_multiple_files/holiday_list_2025.pdf
+Delhi,2025,2025-10-02,True,True,Dussehra; Mahatma Gandhi's Jayanti,date_match,https://wcd.delhi.gov.in/sites/default/files/WCD/generic_multiple_files/holiday_list_2025.pdf
+Delhi,2025,2025-10-07,True,False,,schedule_date_missing_from_library,https://wcd.delhi.gov.in/sites/default/files/WCD/generic_multiple_files/holiday_list_2025.pdf
+Delhi,2025,2025-10-20,True,True,Diwali (Deepavali),date_match,https://wcd.delhi.gov.in/sites/default/files/WCD/generic_multiple_files/holiday_list_2025.pdf
+Delhi,2025,2025-11-05,True,True,Guru Nanak's Jayanti,date_match,https://wcd.delhi.gov.in/sites/default/files/WCD/generic_multiple_files/holiday_list_2025.pdf
+Delhi,2025,2025-12-25,True,True,Christmas,date_match,https://wcd.delhi.gov.in/sites/default/files/WCD/generic_multiple_files/holiday_list_2025.pdf
+Karnataka,2024,2024-01-14,False,True,Makar Sankranti,library_extra_or_definition_difference,https://avantiscdnprodstorage.blob.core.windows.net/legalupdatedocs/29058/Government_of_Karnataka_issued_a_notification_regarding_the_holiday_list_for_2024_JAN10204.pdf
+Karnataka,2024,2024-01-15,True,False,,schedule_date_missing_from_library,https://avantiscdnprodstorage.blob.core.windows.net/legalupdatedocs/29058/Government_of_Karnataka_issued_a_notification_regarding_the_holiday_list_for_2024_JAN10204.pdf
+Karnataka,2024,2024-01-26,True,True,Republic Day,date_match,https://avantiscdnprodstorage.blob.core.windows.net/legalupdatedocs/29058/Government_of_Karnataka_issued_a_notification_regarding_the_holiday_list_for_2024_JAN10204.pdf
+Karnataka,2024,2024-03-08,True,False,,schedule_date_missing_from_library,https://avantiscdnprodstorage.blob.core.windows.net/legalupdatedocs/29058/Government_of_Karnataka_issued_a_notification_regarding_the_holiday_list_for_2024_JAN10204.pdf
+Karnataka,2024,2024-03-25,False,True,Holi,library_extra_or_definition_difference,https://avantiscdnprodstorage.blob.core.windows.net/legalupdatedocs/29058/Government_of_Karnataka_issued_a_notification_regarding_the_holiday_list_for_2024_JAN10204.pdf
+Karnataka,2024,2024-03-29,True,True,Good Friday,date_match,https://avantiscdnprodstorage.blob.core.windows.net/legalupdatedocs/29058/Government_of_Karnataka_issued_a_notification_regarding_the_holiday_list_for_2024_JAN10204.pdf
+Karnataka,2024,2024-04-09,True,True,Ugadi,date_match,https://avantiscdnprodstorage.blob.core.windows.net/legalupdatedocs/29058/Government_of_Karnataka_issued_a_notification_regarding_the_holiday_list_for_2024_JAN10204.pdf
+Karnataka,2024,2024-04-11,True,True,Id-ul-Fitr,date_match,https://avantiscdnprodstorage.blob.core.windows.net/legalupdatedocs/29058/Government_of_Karnataka_issued_a_notification_regarding_the_holiday_list_for_2024_JAN10204.pdf
+Karnataka,2024,2024-04-14,True,True,Dr. B. R. Ambedkar's Jayanti,date_match,https://avantiscdnprodstorage.blob.core.windows.net/legalupdatedocs/29058/Government_of_Karnataka_issued_a_notification_regarding_the_holiday_list_for_2024_JAN10204.pdf
+Karnataka,2024,2024-04-17,False,True,Ram Navami,library_extra_or_definition_difference,https://avantiscdnprodstorage.blob.core.windows.net/legalupdatedocs/29058/Government_of_Karnataka_issued_a_notification_regarding_the_holiday_list_for_2024_JAN10204.pdf
+Karnataka,2024,2024-04-21,True,True,Mahavir Jayanti,date_match,https://avantiscdnprodstorage.blob.core.windows.net/legalupdatedocs/29058/Government_of_Karnataka_issued_a_notification_regarding_the_holiday_list_for_2024_JAN10204.pdf
+Karnataka,2024,2024-05-01,True,True,May Day,date_match,https://avantiscdnprodstorage.blob.core.windows.net/legalupdatedocs/29058/Government_of_Karnataka_issued_a_notification_regarding_the_holiday_list_for_2024_JAN10204.pdf
+Karnataka,2024,2024-05-10,True,False,,schedule_date_missing_from_library,https://avantiscdnprodstorage.blob.core.windows.net/legalupdatedocs/29058/Government_of_Karnataka_issued_a_notification_regarding_the_holiday_list_for_2024_JAN10204.pdf
+Karnataka,2024,2024-05-23,False,True,Buddha Purnima,library_extra_or_definition_difference,https://avantiscdnprodstorage.blob.core.windows.net/legalupdatedocs/29058/Government_of_Karnataka_issued_a_notification_regarding_the_holiday_list_for_2024_JAN10204.pdf
+Karnataka,2024,2024-06-17,True,True,Id-ul-Zuha (Bakrid),date_match,https://avantiscdnprodstorage.blob.core.windows.net/legalupdatedocs/29058/Government_of_Karnataka_issued_a_notification_regarding_the_holiday_list_for_2024_JAN10204.pdf
+Karnataka,2024,2024-07-17,True,True,Muharram,date_match,https://avantiscdnprodstorage.blob.core.windows.net/legalupdatedocs/29058/Government_of_Karnataka_issued_a_notification_regarding_the_holiday_list_for_2024_JAN10204.pdf
+Karnataka,2024,2024-08-15,True,True,Independence Day,date_match,https://avantiscdnprodstorage.blob.core.windows.net/legalupdatedocs/29058/Government_of_Karnataka_issued_a_notification_regarding_the_holiday_list_for_2024_JAN10204.pdf
+Karnataka,2024,2024-08-26,False,True,Janmashtami (Vaishnava),library_extra_or_definition_difference,https://avantiscdnprodstorage.blob.core.windows.net/legalupdatedocs/29058/Government_of_Karnataka_issued_a_notification_regarding_the_holiday_list_for_2024_JAN10204.pdf
+Karnataka,2024,2024-09-07,True,True,Ganesh Chaturthi,date_match,https://avantiscdnprodstorage.blob.core.windows.net/legalupdatedocs/29058/Government_of_Karnataka_issued_a_notification_regarding_the_holiday_list_for_2024_JAN10204.pdf
+Karnataka,2024,2024-09-16,True,True,Milad-un-Nabi,date_match,https://avantiscdnprodstorage.blob.core.windows.net/legalupdatedocs/29058/Government_of_Karnataka_issued_a_notification_regarding_the_holiday_list_for_2024_JAN10204.pdf
+Karnataka,2024,2024-10-02,True,True,Mahatma Gandhi's Jayanti,date_match,https://avantiscdnprodstorage.blob.core.windows.net/legalupdatedocs/29058/Government_of_Karnataka_issued_a_notification_regarding_the_holiday_list_for_2024_JAN10204.pdf
+Karnataka,2024,2024-10-11,True,False,,schedule_date_missing_from_library,https://avantiscdnprodstorage.blob.core.windows.net/legalupdatedocs/29058/Government_of_Karnataka_issued_a_notification_regarding_the_holiday_list_for_2024_JAN10204.pdf
+Karnataka,2024,2024-10-12,True,True,Dussehra,date_match,https://avantiscdnprodstorage.blob.core.windows.net/legalupdatedocs/29058/Government_of_Karnataka_issued_a_notification_regarding_the_holiday_list_for_2024_JAN10204.pdf
+Karnataka,2024,2024-10-17,True,False,,schedule_date_missing_from_library,https://avantiscdnprodstorage.blob.core.windows.net/legalupdatedocs/29058/Government_of_Karnataka_issued_a_notification_regarding_the_holiday_list_for_2024_JAN10204.pdf
+Karnataka,2024,2024-10-31,True,True,Diwali (Deepavali),date_match,https://avantiscdnprodstorage.blob.core.windows.net/legalupdatedocs/29058/Government_of_Karnataka_issued_a_notification_regarding_the_holiday_list_for_2024_JAN10204.pdf
+Karnataka,2024,2024-11-01,True,False,,schedule_date_missing_from_library,https://avantiscdnprodstorage.blob.core.windows.net/legalupdatedocs/29058/Government_of_Karnataka_issued_a_notification_regarding_the_holiday_list_for_2024_JAN10204.pdf
+Karnataka,2024,2024-11-02,True,False,,schedule_date_missing_from_library,https://avantiscdnprodstorage.blob.core.windows.net/legalupdatedocs/29058/Government_of_Karnataka_issued_a_notification_regarding_the_holiday_list_for_2024_JAN10204.pdf
+Karnataka,2024,2024-11-15,False,True,Guru Nanak's Jayanti,library_extra_or_definition_difference,https://avantiscdnprodstorage.blob.core.windows.net/legalupdatedocs/29058/Government_of_Karnataka_issued_a_notification_regarding_the_holiday_list_for_2024_JAN10204.pdf
+Karnataka,2024,2024-11-18,True,False,,schedule_date_missing_from_library,https://avantiscdnprodstorage.blob.core.windows.net/legalupdatedocs/29058/Government_of_Karnataka_issued_a_notification_regarding_the_holiday_list_for_2024_JAN10204.pdf
+Karnataka,2024,2024-12-25,True,True,Christmas,date_match,https://avantiscdnprodstorage.blob.core.windows.net/legalupdatedocs/29058/Government_of_Karnataka_issued_a_notification_regarding_the_holiday_list_for_2024_JAN10204.pdf
+Karnataka,2025,2025-01-14,True,True,Makar Sankranti,date_match,https://cag.gov.in/uploads/media/Karnataka-State-Holidays-2025-067764409e26023-56493682.pdf
+Karnataka,2025,2025-01-26,True,True,Republic Day,date_match,https://cag.gov.in/uploads/media/Karnataka-State-Holidays-2025-067764409e26023-56493682.pdf
+Karnataka,2025,2025-02-26,True,True,Maha Shivaratri,date_match,https://cag.gov.in/uploads/media/Karnataka-State-Holidays-2025-067764409e26023-56493682.pdf
+Karnataka,2025,2025-03-14,False,True,Holi,library_extra_or_definition_difference,https://cag.gov.in/uploads/media/Karnataka-State-Holidays-2025-067764409e26023-56493682.pdf
+Karnataka,2025,2025-03-30,True,True,Ugadi,date_match,https://cag.gov.in/uploads/media/Karnataka-State-Holidays-2025-067764409e26023-56493682.pdf
+Karnataka,2025,2025-03-31,True,True,Id-ul-Fitr,date_match,https://cag.gov.in/uploads/media/Karnataka-State-Holidays-2025-067764409e26023-56493682.pdf
+Karnataka,2025,2025-04-10,True,True,Mahavir Jayanti,date_match,https://cag.gov.in/uploads/media/Karnataka-State-Holidays-2025-067764409e26023-56493682.pdf
+Karnataka,2025,2025-04-14,True,True,Dr. B. R. Ambedkar's Jayanti,date_match,https://cag.gov.in/uploads/media/Karnataka-State-Holidays-2025-067764409e26023-56493682.pdf
+Karnataka,2025,2025-04-18,True,True,Good Friday,date_match,https://cag.gov.in/uploads/media/Karnataka-State-Holidays-2025-067764409e26023-56493682.pdf
+Karnataka,2025,2025-04-30,True,False,,schedule_date_missing_from_library,https://cag.gov.in/uploads/media/Karnataka-State-Holidays-2025-067764409e26023-56493682.pdf
+Karnataka,2025,2025-05-01,True,True,May Day,date_match,https://cag.gov.in/uploads/media/Karnataka-State-Holidays-2025-067764409e26023-56493682.pdf
+Karnataka,2025,2025-05-12,False,True,Buddha Purnima,library_extra_or_definition_difference,https://cag.gov.in/uploads/media/Karnataka-State-Holidays-2025-067764409e26023-56493682.pdf
+Karnataka,2025,2025-06-07,True,True,Id-ul-Zuha (Bakrid),date_match,https://cag.gov.in/uploads/media/Karnataka-State-Holidays-2025-067764409e26023-56493682.pdf
+Karnataka,2025,2025-07-06,True,True,Muharram,date_match,https://cag.gov.in/uploads/media/Karnataka-State-Holidays-2025-067764409e26023-56493682.pdf
+Karnataka,2025,2025-08-15,True,True,Independence Day,date_match,https://cag.gov.in/uploads/media/Karnataka-State-Holidays-2025-067764409e26023-56493682.pdf
+Karnataka,2025,2025-08-16,False,True,Janmashtami (Vaishnava),library_extra_or_definition_difference,https://cag.gov.in/uploads/media/Karnataka-State-Holidays-2025-067764409e26023-56493682.pdf
+Karnataka,2025,2025-08-27,True,True,Ganesh Chaturthi,date_match,https://cag.gov.in/uploads/media/Karnataka-State-Holidays-2025-067764409e26023-56493682.pdf
+Karnataka,2025,2025-09-05,True,True,Milad-un-Nabi,date_match,https://cag.gov.in/uploads/media/Karnataka-State-Holidays-2025-067764409e26023-56493682.pdf
+Karnataka,2025,2025-09-21,True,False,,schedule_date_missing_from_library,https://cag.gov.in/uploads/media/Karnataka-State-Holidays-2025-067764409e26023-56493682.pdf
+Karnataka,2025,2025-10-01,True,False,,schedule_date_missing_from_library,https://cag.gov.in/uploads/media/Karnataka-State-Holidays-2025-067764409e26023-56493682.pdf
+Karnataka,2025,2025-10-02,True,True,Dussehra; Mahatma Gandhi's Jayanti,date_match,https://cag.gov.in/uploads/media/Karnataka-State-Holidays-2025-067764409e26023-56493682.pdf
+Karnataka,2025,2025-10-07,True,False,,schedule_date_missing_from_library,https://cag.gov.in/uploads/media/Karnataka-State-Holidays-2025-067764409e26023-56493682.pdf
+Karnataka,2025,2025-10-20,True,True,Diwali (Deepavali),date_match,https://cag.gov.in/uploads/media/Karnataka-State-Holidays-2025-067764409e26023-56493682.pdf
+Karnataka,2025,2025-10-22,True,False,,schedule_date_missing_from_library,https://cag.gov.in/uploads/media/Karnataka-State-Holidays-2025-067764409e26023-56493682.pdf
+Karnataka,2025,2025-11-01,True,False,,schedule_date_missing_from_library,https://cag.gov.in/uploads/media/Karnataka-State-Holidays-2025-067764409e26023-56493682.pdf
+Karnataka,2025,2025-11-05,False,True,Guru Nanak's Jayanti,library_extra_or_definition_difference,https://cag.gov.in/uploads/media/Karnataka-State-Holidays-2025-067764409e26023-56493682.pdf
+Karnataka,2025,2025-11-08,True,False,,schedule_date_missing_from_library,https://cag.gov.in/uploads/media/Karnataka-State-Holidays-2025-067764409e26023-56493682.pdf
+Karnataka,2025,2025-12-25,True,True,Christmas,date_match,https://cag.gov.in/uploads/media/Karnataka-State-Holidays-2025-067764409e26023-56493682.pdf
+Maharashtra,2024,2024-01-26,True,True,Republic Day,date_match,https://www.maharashtra.gov.in/site/Upload/pdf/Public_Holidays_2024.pdf
+Maharashtra,2024,2024-02-19,True,True,Chhatrapati Shivaji Maharaj's Jayanti,date_match,https://www.maharashtra.gov.in/site/Upload/pdf/Public_Holidays_2024.pdf
+Maharashtra,2024,2024-03-08,True,False,,schedule_date_missing_from_library,https://www.maharashtra.gov.in/site/Upload/pdf/Public_Holidays_2024.pdf
+Maharashtra,2024,2024-03-25,True,True,Holi,date_match,https://www.maharashtra.gov.in/site/Upload/pdf/Public_Holidays_2024.pdf
+Maharashtra,2024,2024-03-29,True,True,Good Friday,date_match,https://www.maharashtra.gov.in/site/Upload/pdf/Public_Holidays_2024.pdf
+Maharashtra,2024,2024-04-09,True,True,Gudi Padwa,date_match,https://www.maharashtra.gov.in/site/Upload/pdf/Public_Holidays_2024.pdf
+Maharashtra,2024,2024-04-11,True,True,Id-ul-Fitr,date_match,https://www.maharashtra.gov.in/site/Upload/pdf/Public_Holidays_2024.pdf
+Maharashtra,2024,2024-04-14,True,True,Dr. B. R. Ambedkar's Jayanti,date_match,https://www.maharashtra.gov.in/site/Upload/pdf/Public_Holidays_2024.pdf
+Maharashtra,2024,2024-04-17,True,True,Ram Navami,date_match,https://www.maharashtra.gov.in/site/Upload/pdf/Public_Holidays_2024.pdf
+Maharashtra,2024,2024-04-21,True,True,Mahavir Jayanti,date_match,https://www.maharashtra.gov.in/site/Upload/pdf/Public_Holidays_2024.pdf
+Maharashtra,2024,2024-05-01,True,True,Maharashtra Day,date_match,https://www.maharashtra.gov.in/site/Upload/pdf/Public_Holidays_2024.pdf
+Maharashtra,2024,2024-05-23,True,True,Buddha Purnima,date_match,https://www.maharashtra.gov.in/site/Upload/pdf/Public_Holidays_2024.pdf
+Maharashtra,2024,2024-06-17,True,True,Id-ul-Zuha (Bakrid),date_match,https://www.maharashtra.gov.in/site/Upload/pdf/Public_Holidays_2024.pdf
+Maharashtra,2024,2024-07-17,True,True,Muharram,date_match,https://www.maharashtra.gov.in/site/Upload/pdf/Public_Holidays_2024.pdf
+Maharashtra,2024,2024-08-15,True,True,Independence Day; Parsi New Year (Shahenshahi),date_match,https://www.maharashtra.gov.in/site/Upload/pdf/Public_Holidays_2024.pdf
+Maharashtra,2024,2024-08-26,False,True,Janmashtami (Vaishnava),library_extra_or_definition_difference,https://www.maharashtra.gov.in/site/Upload/pdf/Public_Holidays_2024.pdf
+Maharashtra,2024,2024-09-07,True,True,Ganesh Chaturthi,date_match,https://www.maharashtra.gov.in/site/Upload/pdf/Public_Holidays_2024.pdf
+Maharashtra,2024,2024-09-16,True,True,Milad-un-Nabi,date_match,https://www.maharashtra.gov.in/site/Upload/pdf/Public_Holidays_2024.pdf
+Maharashtra,2024,2024-10-02,True,True,Mahatma Gandhi's Jayanti,date_match,https://www.maharashtra.gov.in/site/Upload/pdf/Public_Holidays_2024.pdf
+Maharashtra,2024,2024-10-12,True,True,Dussehra,date_match,https://www.maharashtra.gov.in/site/Upload/pdf/Public_Holidays_2024.pdf
+Maharashtra,2024,2024-10-31,False,True,Diwali (Deepavali),library_extra_or_definition_difference,https://www.maharashtra.gov.in/site/Upload/pdf/Public_Holidays_2024.pdf
+Maharashtra,2024,2024-11-01,True,False,,schedule_date_missing_from_library,https://www.maharashtra.gov.in/site/Upload/pdf/Public_Holidays_2024.pdf
+Maharashtra,2024,2024-11-02,True,True,Diwali (Bali Pratipada),date_match,https://www.maharashtra.gov.in/site/Upload/pdf/Public_Holidays_2024.pdf
+Maharashtra,2024,2024-11-03,True,False,,schedule_date_missing_from_library,https://www.maharashtra.gov.in/site/Upload/pdf/Public_Holidays_2024.pdf
+Maharashtra,2024,2024-11-15,True,True,Guru Nanak's Jayanti,date_match,https://www.maharashtra.gov.in/site/Upload/pdf/Public_Holidays_2024.pdf
+Maharashtra,2024,2024-12-25,True,True,Christmas,date_match,https://www.maharashtra.gov.in/site/Upload/pdf/Public_Holidays_2024.pdf
+Maharashtra,2025,2025-01-26,True,True,Republic Day,date_match,https://www.maharashtra.gov.in/site/Upload/pdf/Maharashtra_Holiday_2025.pdf
+Maharashtra,2025,2025-02-19,True,True,Chhatrapati Shivaji Maharaj's Jayanti,date_match,https://www.maharashtra.gov.in/site/Upload/pdf/Maharashtra_Holiday_2025.pdf
+Maharashtra,2025,2025-02-26,True,True,Maha Shivaratri,date_match,https://www.maharashtra.gov.in/site/Upload/pdf/Maharashtra_Holiday_2025.pdf
+Maharashtra,2025,2025-03-14,True,True,Holi,date_match,https://www.maharashtra.gov.in/site/Upload/pdf/Maharashtra_Holiday_2025.pdf
+Maharashtra,2025,2025-03-30,True,True,Gudi Padwa,date_match,https://www.maharashtra.gov.in/site/Upload/pdf/Maharashtra_Holiday_2025.pdf
+Maharashtra,2025,2025-03-31,True,True,Id-ul-Fitr,date_match,https://www.maharashtra.gov.in/site/Upload/pdf/Maharashtra_Holiday_2025.pdf
+Maharashtra,2025,2025-04-06,True,False,,schedule_date_missing_from_library,https://www.maharashtra.gov.in/site/Upload/pdf/Maharashtra_Holiday_2025.pdf
+Maharashtra,2025,2025-04-10,True,True,Mahavir Jayanti,date_match,https://www.maharashtra.gov.in/site/Upload/pdf/Maharashtra_Holiday_2025.pdf
+Maharashtra,2025,2025-04-14,True,True,Dr. B. R. Ambedkar's Jayanti,date_match,https://www.maharashtra.gov.in/site/Upload/pdf/Maharashtra_Holiday_2025.pdf
+Maharashtra,2025,2025-04-18,True,True,Good Friday,date_match,https://www.maharashtra.gov.in/site/Upload/pdf/Maharashtra_Holiday_2025.pdf
+Maharashtra,2025,2025-05-01,True,True,Maharashtra Day,date_match,https://www.maharashtra.gov.in/site/Upload/pdf/Maharashtra_Holiday_2025.pdf
+Maharashtra,2025,2025-05-12,True,True,Buddha Purnima,date_match,https://www.maharashtra.gov.in/site/Upload/pdf/Maharashtra_Holiday_2025.pdf
+Maharashtra,2025,2025-06-07,True,True,Id-ul-Zuha (Bakrid),date_match,https://www.maharashtra.gov.in/site/Upload/pdf/Maharashtra_Holiday_2025.pdf
+Maharashtra,2025,2025-07-06,True,True,Muharram,date_match,https://www.maharashtra.gov.in/site/Upload/pdf/Maharashtra_Holiday_2025.pdf
+Maharashtra,2025,2025-08-15,True,True,Independence Day; Parsi New Year (Shahenshahi),date_match,https://www.maharashtra.gov.in/site/Upload/pdf/Maharashtra_Holiday_2025.pdf
+Maharashtra,2025,2025-08-16,False,True,Janmashtami (Vaishnava),library_extra_or_definition_difference,https://www.maharashtra.gov.in/site/Upload/pdf/Maharashtra_Holiday_2025.pdf
+Maharashtra,2025,2025-08-27,True,True,Ganesh Chaturthi,date_match,https://www.maharashtra.gov.in/site/Upload/pdf/Maharashtra_Holiday_2025.pdf
+Maharashtra,2025,2025-09-05,True,True,Milad-un-Nabi,date_match,https://www.maharashtra.gov.in/site/Upload/pdf/Maharashtra_Holiday_2025.pdf
+Maharashtra,2025,2025-10-02,True,True,Dussehra; Mahatma Gandhi's Jayanti,date_match,https://www.maharashtra.gov.in/site/Upload/pdf/Maharashtra_Holiday_2025.pdf
+Maharashtra,2025,2025-10-20,False,True,Diwali (Deepavali),library_extra_or_definition_difference,https://www.maharashtra.gov.in/site/Upload/pdf/Maharashtra_Holiday_2025.pdf
+Maharashtra,2025,2025-10-21,True,False,,schedule_date_missing_from_library,https://www.maharashtra.gov.in/site/Upload/pdf/Maharashtra_Holiday_2025.pdf
+Maharashtra,2025,2025-10-22,True,True,Diwali (Bali Pratipada),date_match,https://www.maharashtra.gov.in/site/Upload/pdf/Maharashtra_Holiday_2025.pdf
+Maharashtra,2025,2025-10-23,True,False,,schedule_date_missing_from_library,https://www.maharashtra.gov.in/site/Upload/pdf/Maharashtra_Holiday_2025.pdf
+Maharashtra,2025,2025-11-05,True,True,Guru Nanak's Jayanti,date_match,https://www.maharashtra.gov.in/site/Upload/pdf/Maharashtra_Holiday_2025.pdf
+Maharashtra,2025,2025-12-25,True,True,Christmas,date_match,https://www.maharashtra.gov.in/site/Upload/pdf/Maharashtra_Holiday_2025.pdf
+Delhi,2022,2022-01-26,True,True,Republic Day,date_match,https://delhi.gov.in/sites/default/files/documents/Gazzeted_holiday_2022.pdf
+Delhi,2022,2022-03-01,True,True,Maha Shivaratri,date_match,https://delhi.gov.in/sites/default/files/documents/Gazzeted_holiday_2022.pdf
+Delhi,2022,2022-03-18,True,True,Holi,date_match,https://delhi.gov.in/sites/default/files/documents/Gazzeted_holiday_2022.pdf
+Delhi,2022,2022-04-14,True,True,Dr. B. R. Ambedkar's Jayanti; Mahavir Jayanti,date_match,https://delhi.gov.in/sites/default/files/documents/Gazzeted_holiday_2022.pdf
+Delhi,2022,2022-04-15,True,True,Good Friday,date_match,https://delhi.gov.in/sites/default/files/documents/Gazzeted_holiday_2022.pdf
+Delhi,2022,2022-05-03,True,True,Id-ul-Fitr,date_match,https://delhi.gov.in/sites/default/files/documents/Gazzeted_holiday_2022.pdf
+Delhi,2022,2022-05-16,True,True,Buddha Purnima,date_match,https://delhi.gov.in/sites/default/files/documents/Gazzeted_holiday_2022.pdf
+Delhi,2022,2022-07-10,True,True,Id-ul-Zuha (Bakrid),date_match,https://delhi.gov.in/sites/default/files/documents/Gazzeted_holiday_2022.pdf
+Delhi,2022,2022-08-09,True,True,Muharram,date_match,https://delhi.gov.in/sites/default/files/documents/Gazzeted_holiday_2022.pdf
+Delhi,2022,2022-08-15,True,True,Independence Day,date_match,https://delhi.gov.in/sites/default/files/documents/Gazzeted_holiday_2022.pdf
+Delhi,2022,2022-08-19,True,True,Janmashtami (Vaishnava),date_match,https://delhi.gov.in/sites/default/files/documents/Gazzeted_holiday_2022.pdf
+Delhi,2022,2022-10-02,True,True,Mahatma Gandhi's Jayanti,date_match,https://delhi.gov.in/sites/default/files/documents/Gazzeted_holiday_2022.pdf
+Delhi,2022,2022-10-05,True,True,Dussehra,date_match,https://delhi.gov.in/sites/default/files/documents/Gazzeted_holiday_2022.pdf
+Delhi,2022,2022-10-09,True,True,Milad-un-Nabi,date_match,https://delhi.gov.in/sites/default/files/documents/Gazzeted_holiday_2022.pdf
+Delhi,2022,2022-10-24,True,True,Diwali (Deepavali),date_match,https://delhi.gov.in/sites/default/files/documents/Gazzeted_holiday_2022.pdf
+Delhi,2022,2022-11-08,True,True,Guru Nanak's Jayanti,date_match,https://delhi.gov.in/sites/default/files/documents/Gazzeted_holiday_2022.pdf
+Delhi,2022,2022-12-25,True,True,Christmas,date_match,https://delhi.gov.in/sites/default/files/documents/Gazzeted_holiday_2022.pdf
+Delhi,2023,2023-01-26,True,True,Republic Day,date_match,https://wcd.delhi.gov.in/sites/default/files/WCD/generic_multiple_files/holiday_list_2023_1.pdf
+Delhi,2023,2023-03-08,True,True,Holi,date_match,https://wcd.delhi.gov.in/sites/default/files/WCD/generic_multiple_files/holiday_list_2023_1.pdf
+Delhi,2023,2023-03-30,True,True,Ram Navami,date_match,https://wcd.delhi.gov.in/sites/default/files/WCD/generic_multiple_files/holiday_list_2023_1.pdf
+Delhi,2023,2023-04-04,True,True,Mahavir Jayanti,date_match,https://wcd.delhi.gov.in/sites/default/files/WCD/generic_multiple_files/holiday_list_2023_1.pdf
+Delhi,2023,2023-04-07,True,True,Good Friday,date_match,https://wcd.delhi.gov.in/sites/default/files/WCD/generic_multiple_files/holiday_list_2023_1.pdf
+Delhi,2023,2023-04-14,False,True,Dr. B. R. Ambedkar's Jayanti,library_extra_or_definition_difference,https://wcd.delhi.gov.in/sites/default/files/WCD/generic_multiple_files/holiday_list_2023_1.pdf
+Delhi,2023,2023-04-22,True,True,Id-ul-Fitr,date_match,https://wcd.delhi.gov.in/sites/default/files/WCD/generic_multiple_files/holiday_list_2023_1.pdf
+Delhi,2023,2023-05-05,True,True,Buddha Purnima,date_match,https://wcd.delhi.gov.in/sites/default/files/WCD/generic_multiple_files/holiday_list_2023_1.pdf
+Delhi,2023,2023-06-29,True,True,Id-ul-Zuha (Bakrid),date_match,https://wcd.delhi.gov.in/sites/default/files/WCD/generic_multiple_files/holiday_list_2023_1.pdf
+Delhi,2023,2023-07-29,True,True,Muharram,date_match,https://wcd.delhi.gov.in/sites/default/files/WCD/generic_multiple_files/holiday_list_2023_1.pdf
+Delhi,2023,2023-08-15,True,True,Independence Day,date_match,https://wcd.delhi.gov.in/sites/default/files/WCD/generic_multiple_files/holiday_list_2023_1.pdf
+Delhi,2023,2023-09-07,True,True,Janmashtami (Vaishnava),date_match,https://wcd.delhi.gov.in/sites/default/files/WCD/generic_multiple_files/holiday_list_2023_1.pdf
+Delhi,2023,2023-09-28,True,True,Milad-un-Nabi,date_match,https://wcd.delhi.gov.in/sites/default/files/WCD/generic_multiple_files/holiday_list_2023_1.pdf
+Delhi,2023,2023-10-02,True,True,Mahatma Gandhi's Jayanti,date_match,https://wcd.delhi.gov.in/sites/default/files/WCD/generic_multiple_files/holiday_list_2023_1.pdf
+Delhi,2023,2023-10-24,True,True,Dussehra,date_match,https://wcd.delhi.gov.in/sites/default/files/WCD/generic_multiple_files/holiday_list_2023_1.pdf
+Delhi,2023,2023-10-28,True,False,,schedule_date_missing_from_library,https://wcd.delhi.gov.in/sites/default/files/WCD/generic_multiple_files/holiday_list_2023_1.pdf
+Delhi,2023,2023-11-12,True,True,Diwali (Deepavali),date_match,https://wcd.delhi.gov.in/sites/default/files/WCD/generic_multiple_files/holiday_list_2023_1.pdf
+Delhi,2023,2023-11-27,True,True,Guru Nanak's Jayanti,date_match,https://wcd.delhi.gov.in/sites/default/files/WCD/generic_multiple_files/holiday_list_2023_1.pdf
+Delhi,2023,2023-12-25,True,True,Christmas,date_match,https://wcd.delhi.gov.in/sites/default/files/WCD/generic_multiple_files/holiday_list_2023_1.pdf
+Karnataka,2022,2022-01-14,False,True,Makar Sankranti,library_extra_or_definition_difference,https://kea.co.in/wp-content/uploads/2023/04/Circular-No-152-2021-HOLIDAYS-DECLARED-BY-THE-GOVERNMENT-OF-KARNATAKA-FOR-THE-YEAR-2022.pdf
+Karnataka,2022,2022-01-15,True,False,,schedule_date_missing_from_library,https://kea.co.in/wp-content/uploads/2023/04/Circular-No-152-2021-HOLIDAYS-DECLARED-BY-THE-GOVERNMENT-OF-KARNATAKA-FOR-THE-YEAR-2022.pdf
+Karnataka,2022,2022-01-26,True,True,Republic Day,date_match,https://kea.co.in/wp-content/uploads/2023/04/Circular-No-152-2021-HOLIDAYS-DECLARED-BY-THE-GOVERNMENT-OF-KARNATAKA-FOR-THE-YEAR-2022.pdf
+Karnataka,2022,2022-03-01,True,True,Maha Shivaratri,date_match,https://kea.co.in/wp-content/uploads/2023/04/Circular-No-152-2021-HOLIDAYS-DECLARED-BY-THE-GOVERNMENT-OF-KARNATAKA-FOR-THE-YEAR-2022.pdf
+Karnataka,2022,2022-03-18,False,True,Holi,library_extra_or_definition_difference,https://kea.co.in/wp-content/uploads/2023/04/Circular-No-152-2021-HOLIDAYS-DECLARED-BY-THE-GOVERNMENT-OF-KARNATAKA-FOR-THE-YEAR-2022.pdf
+Karnataka,2022,2022-04-02,True,True,Ugadi,date_match,https://kea.co.in/wp-content/uploads/2023/04/Circular-No-152-2021-HOLIDAYS-DECLARED-BY-THE-GOVERNMENT-OF-KARNATAKA-FOR-THE-YEAR-2022.pdf
+Karnataka,2022,2022-04-14,True,True,Dr. B. R. Ambedkar's Jayanti; Mahavir Jayanti,date_match,https://kea.co.in/wp-content/uploads/2023/04/Circular-No-152-2021-HOLIDAYS-DECLARED-BY-THE-GOVERNMENT-OF-KARNATAKA-FOR-THE-YEAR-2022.pdf
+Karnataka,2022,2022-04-15,True,True,Good Friday,date_match,https://kea.co.in/wp-content/uploads/2023/04/Circular-No-152-2021-HOLIDAYS-DECLARED-BY-THE-GOVERNMENT-OF-KARNATAKA-FOR-THE-YEAR-2022.pdf
+Karnataka,2022,2022-05-01,True,True,May Day,date_match,https://kea.co.in/wp-content/uploads/2023/04/Circular-No-152-2021-HOLIDAYS-DECLARED-BY-THE-GOVERNMENT-OF-KARNATAKA-FOR-THE-YEAR-2022.pdf
+Karnataka,2022,2022-05-03,True,True,Id-ul-Fitr,date_match,https://kea.co.in/wp-content/uploads/2023/04/Circular-No-152-2021-HOLIDAYS-DECLARED-BY-THE-GOVERNMENT-OF-KARNATAKA-FOR-THE-YEAR-2022.pdf
+Karnataka,2022,2022-05-16,False,True,Buddha Purnima,library_extra_or_definition_difference,https://kea.co.in/wp-content/uploads/2023/04/Circular-No-152-2021-HOLIDAYS-DECLARED-BY-THE-GOVERNMENT-OF-KARNATAKA-FOR-THE-YEAR-2022.pdf
+Karnataka,2022,2022-07-10,True,True,Id-ul-Zuha (Bakrid),date_match,https://kea.co.in/wp-content/uploads/2023/04/Circular-No-152-2021-HOLIDAYS-DECLARED-BY-THE-GOVERNMENT-OF-KARNATAKA-FOR-THE-YEAR-2022.pdf
+Karnataka,2022,2022-08-09,True,True,Muharram,date_match,https://kea.co.in/wp-content/uploads/2023/04/Circular-No-152-2021-HOLIDAYS-DECLARED-BY-THE-GOVERNMENT-OF-KARNATAKA-FOR-THE-YEAR-2022.pdf
+Karnataka,2022,2022-08-15,True,True,Independence Day,date_match,https://kea.co.in/wp-content/uploads/2023/04/Circular-No-152-2021-HOLIDAYS-DECLARED-BY-THE-GOVERNMENT-OF-KARNATAKA-FOR-THE-YEAR-2022.pdf
+Karnataka,2022,2022-08-19,False,True,Janmashtami (Vaishnava),library_extra_or_definition_difference,https://kea.co.in/wp-content/uploads/2023/04/Circular-No-152-2021-HOLIDAYS-DECLARED-BY-THE-GOVERNMENT-OF-KARNATAKA-FOR-THE-YEAR-2022.pdf
+Karnataka,2022,2022-08-31,True,True,Ganesh Chaturthi,date_match,https://kea.co.in/wp-content/uploads/2023/04/Circular-No-152-2021-HOLIDAYS-DECLARED-BY-THE-GOVERNMENT-OF-KARNATAKA-FOR-THE-YEAR-2022.pdf
+Karnataka,2022,2022-09-25,True,False,,schedule_date_missing_from_library,https://kea.co.in/wp-content/uploads/2023/04/Circular-No-152-2021-HOLIDAYS-DECLARED-BY-THE-GOVERNMENT-OF-KARNATAKA-FOR-THE-YEAR-2022.pdf
+Karnataka,2022,2022-10-02,True,True,Mahatma Gandhi's Jayanti,date_match,https://kea.co.in/wp-content/uploads/2023/04/Circular-No-152-2021-HOLIDAYS-DECLARED-BY-THE-GOVERNMENT-OF-KARNATAKA-FOR-THE-YEAR-2022.pdf
+Karnataka,2022,2022-10-04,True,False,,schedule_date_missing_from_library,https://kea.co.in/wp-content/uploads/2023/04/Circular-No-152-2021-HOLIDAYS-DECLARED-BY-THE-GOVERNMENT-OF-KARNATAKA-FOR-THE-YEAR-2022.pdf
+Karnataka,2022,2022-10-05,True,True,Dussehra,date_match,https://kea.co.in/wp-content/uploads/2023/04/Circular-No-152-2021-HOLIDAYS-DECLARED-BY-THE-GOVERNMENT-OF-KARNATAKA-FOR-THE-YEAR-2022.pdf
+Karnataka,2022,2022-10-09,True,True,Milad-un-Nabi,date_match,https://kea.co.in/wp-content/uploads/2023/04/Circular-No-152-2021-HOLIDAYS-DECLARED-BY-THE-GOVERNMENT-OF-KARNATAKA-FOR-THE-YEAR-2022.pdf
+Karnataka,2022,2022-10-24,True,True,Diwali (Deepavali),date_match,https://kea.co.in/wp-content/uploads/2023/04/Circular-No-152-2021-HOLIDAYS-DECLARED-BY-THE-GOVERNMENT-OF-KARNATAKA-FOR-THE-YEAR-2022.pdf
+Karnataka,2022,2022-10-26,True,False,,schedule_date_missing_from_library,https://kea.co.in/wp-content/uploads/2023/04/Circular-No-152-2021-HOLIDAYS-DECLARED-BY-THE-GOVERNMENT-OF-KARNATAKA-FOR-THE-YEAR-2022.pdf
+Karnataka,2022,2022-11-01,True,False,,schedule_date_missing_from_library,https://kea.co.in/wp-content/uploads/2023/04/Circular-No-152-2021-HOLIDAYS-DECLARED-BY-THE-GOVERNMENT-OF-KARNATAKA-FOR-THE-YEAR-2022.pdf
+Karnataka,2022,2022-11-08,False,True,Guru Nanak's Jayanti,library_extra_or_definition_difference,https://kea.co.in/wp-content/uploads/2023/04/Circular-No-152-2021-HOLIDAYS-DECLARED-BY-THE-GOVERNMENT-OF-KARNATAKA-FOR-THE-YEAR-2022.pdf
+Karnataka,2022,2022-11-11,True,False,,schedule_date_missing_from_library,https://kea.co.in/wp-content/uploads/2023/04/Circular-No-152-2021-HOLIDAYS-DECLARED-BY-THE-GOVERNMENT-OF-KARNATAKA-FOR-THE-YEAR-2022.pdf
+Karnataka,2022,2022-12-25,True,True,Christmas,date_match,https://kea.co.in/wp-content/uploads/2023/04/Circular-No-152-2021-HOLIDAYS-DECLARED-BY-THE-GOVERNMENT-OF-KARNATAKA-FOR-THE-YEAR-2022.pdf
+Karnataka,2023,2023-01-14,False,True,Makar Sankranti,library_extra_or_definition_difference,https://geod.in/holidays/holiday-2023/karnataka-holiday-list-2023/
+Karnataka,2023,2023-01-15,True,False,,schedule_date_missing_from_library,https://geod.in/holidays/holiday-2023/karnataka-holiday-list-2023/
+Karnataka,2023,2023-01-26,True,True,Republic Day,date_match,https://geod.in/holidays/holiday-2023/karnataka-holiday-list-2023/
+Karnataka,2023,2023-02-18,True,False,,schedule_date_missing_from_library,https://geod.in/holidays/holiday-2023/karnataka-holiday-list-2023/
+Karnataka,2023,2023-03-08,False,True,Holi,library_extra_or_definition_difference,https://geod.in/holidays/holiday-2023/karnataka-holiday-list-2023/
+Karnataka,2023,2023-03-22,True,True,Ugadi,date_match,https://geod.in/holidays/holiday-2023/karnataka-holiday-list-2023/
+Karnataka,2023,2023-03-30,False,True,Ram Navami,library_extra_or_definition_difference,https://geod.in/holidays/holiday-2023/karnataka-holiday-list-2023/
+Karnataka,2023,2023-04-03,True,False,,schedule_date_missing_from_library,https://geod.in/holidays/holiday-2023/karnataka-holiday-list-2023/
+Karnataka,2023,2023-04-04,False,True,Mahavir Jayanti,library_extra_or_definition_difference,https://geod.in/holidays/holiday-2023/karnataka-holiday-list-2023/
+Karnataka,2023,2023-04-07,True,True,Good Friday,date_match,https://geod.in/holidays/holiday-2023/karnataka-holiday-list-2023/
+Karnataka,2023,2023-04-14,True,True,Dr. B. R. Ambedkar's Jayanti,date_match,https://geod.in/holidays/holiday-2023/karnataka-holiday-list-2023/
+Karnataka,2023,2023-04-22,True,True,Id-ul-Fitr,date_match,https://geod.in/holidays/holiday-2023/karnataka-holiday-list-2023/
+Karnataka,2023,2023-04-23,True,False,,schedule_date_missing_from_library,https://geod.in/holidays/holiday-2023/karnataka-holiday-list-2023/
+Karnataka,2023,2023-05-01,True,True,May Day,date_match,https://geod.in/holidays/holiday-2023/karnataka-holiday-list-2023/
+Karnataka,2023,2023-05-05,False,True,Buddha Purnima,library_extra_or_definition_difference,https://geod.in/holidays/holiday-2023/karnataka-holiday-list-2023/
+Karnataka,2023,2023-06-29,True,True,Id-ul-Zuha (Bakrid),date_match,https://geod.in/holidays/holiday-2023/karnataka-holiday-list-2023/
+Karnataka,2023,2023-07-29,True,True,Muharram,date_match,https://geod.in/holidays/holiday-2023/karnataka-holiday-list-2023/
+Karnataka,2023,2023-08-15,True,True,Independence Day,date_match,https://geod.in/holidays/holiday-2023/karnataka-holiday-list-2023/
+Karnataka,2023,2023-09-07,False,True,Janmashtami (Vaishnava),library_extra_or_definition_difference,https://geod.in/holidays/holiday-2023/karnataka-holiday-list-2023/
+Karnataka,2023,2023-09-18,True,False,,schedule_date_missing_from_library,https://geod.in/holidays/holiday-2023/karnataka-holiday-list-2023/
+Karnataka,2023,2023-09-19,False,True,Ganesh Chaturthi,library_extra_or_definition_difference,https://geod.in/holidays/holiday-2023/karnataka-holiday-list-2023/
+Karnataka,2023,2023-09-28,True,True,Milad-un-Nabi,date_match,https://geod.in/holidays/holiday-2023/karnataka-holiday-list-2023/
+Karnataka,2023,2023-10-02,True,True,Mahatma Gandhi's Jayanti,date_match,https://geod.in/holidays/holiday-2023/karnataka-holiday-list-2023/
+Karnataka,2023,2023-10-14,True,False,,schedule_date_missing_from_library,https://geod.in/holidays/holiday-2023/karnataka-holiday-list-2023/
+Karnataka,2023,2023-10-23,True,False,,schedule_date_missing_from_library,https://geod.in/holidays/holiday-2023/karnataka-holiday-list-2023/
+Karnataka,2023,2023-10-24,True,True,Dussehra,date_match,https://geod.in/holidays/holiday-2023/karnataka-holiday-list-2023/
+Karnataka,2023,2023-10-28,True,False,,schedule_date_missing_from_library,https://geod.in/holidays/holiday-2023/karnataka-holiday-list-2023/
+Karnataka,2023,2023-11-01,True,False,,schedule_date_missing_from_library,https://geod.in/holidays/holiday-2023/karnataka-holiday-list-2023/
+Karnataka,2023,2023-11-12,True,True,Diwali (Deepavali),date_match,https://geod.in/holidays/holiday-2023/karnataka-holiday-list-2023/
+Karnataka,2023,2023-11-14,True,False,,schedule_date_missing_from_library,https://geod.in/holidays/holiday-2023/karnataka-holiday-list-2023/
+Karnataka,2023,2023-11-27,False,True,Guru Nanak's Jayanti,library_extra_or_definition_difference,https://geod.in/holidays/holiday-2023/karnataka-holiday-list-2023/
+Karnataka,2023,2023-11-30,True,False,,schedule_date_missing_from_library,https://geod.in/holidays/holiday-2023/karnataka-holiday-list-2023/
+Karnataka,2023,2023-12-25,True,True,Christmas,date_match,https://geod.in/holidays/holiday-2023/karnataka-holiday-list-2023/
+Maharashtra,2022,2022-01-26,True,True,Republic Day,date_match,https://www.fimmda.org/uploads/general/Maharashtra_State_List_Of_Holidays_2022.pdf
+Maharashtra,2022,2022-02-19,True,True,Chhatrapati Shivaji Maharaj's Jayanti,date_match,https://www.fimmda.org/uploads/general/Maharashtra_State_List_Of_Holidays_2022.pdf
+Maharashtra,2022,2022-03-01,True,True,Maha Shivaratri,date_match,https://www.fimmda.org/uploads/general/Maharashtra_State_List_Of_Holidays_2022.pdf
+Maharashtra,2022,2022-03-18,True,True,Holi,date_match,https://www.fimmda.org/uploads/general/Maharashtra_State_List_Of_Holidays_2022.pdf
+Maharashtra,2022,2022-04-02,True,True,Gudi Padwa,date_match,https://www.fimmda.org/uploads/general/Maharashtra_State_List_Of_Holidays_2022.pdf
+Maharashtra,2022,2022-04-10,True,False,,schedule_date_missing_from_library,https://www.fimmda.org/uploads/general/Maharashtra_State_List_Of_Holidays_2022.pdf
+Maharashtra,2022,2022-04-14,True,True,Dr. B. R. Ambedkar's Jayanti; Mahavir Jayanti,date_match,https://www.fimmda.org/uploads/general/Maharashtra_State_List_Of_Holidays_2022.pdf
+Maharashtra,2022,2022-04-15,True,True,Good Friday,date_match,https://www.fimmda.org/uploads/general/Maharashtra_State_List_Of_Holidays_2022.pdf
+Maharashtra,2022,2022-05-01,True,True,Maharashtra Day,date_match,https://www.fimmda.org/uploads/general/Maharashtra_State_List_Of_Holidays_2022.pdf
+Maharashtra,2022,2022-05-03,True,True,Id-ul-Fitr,date_match,https://www.fimmda.org/uploads/general/Maharashtra_State_List_Of_Holidays_2022.pdf
+Maharashtra,2022,2022-05-16,True,True,Buddha Purnima,date_match,https://www.fimmda.org/uploads/general/Maharashtra_State_List_Of_Holidays_2022.pdf
+Maharashtra,2022,2022-07-10,True,True,Id-ul-Zuha (Bakrid),date_match,https://www.fimmda.org/uploads/general/Maharashtra_State_List_Of_Holidays_2022.pdf
+Maharashtra,2022,2022-08-09,True,True,Muharram,date_match,https://www.fimmda.org/uploads/general/Maharashtra_State_List_Of_Holidays_2022.pdf
+Maharashtra,2022,2022-08-15,True,True,Independence Day,date_match,https://www.fimmda.org/uploads/general/Maharashtra_State_List_Of_Holidays_2022.pdf
+Maharashtra,2022,2022-08-16,True,True,Parsi New Year (Shahenshahi),date_match,https://www.fimmda.org/uploads/general/Maharashtra_State_List_Of_Holidays_2022.pdf
+Maharashtra,2022,2022-08-19,False,True,Janmashtami (Vaishnava),library_extra_or_definition_difference,https://www.fimmda.org/uploads/general/Maharashtra_State_List_Of_Holidays_2022.pdf
+Maharashtra,2022,2022-08-31,True,True,Ganesh Chaturthi,date_match,https://www.fimmda.org/uploads/general/Maharashtra_State_List_Of_Holidays_2022.pdf
+Maharashtra,2022,2022-10-02,True,True,Mahatma Gandhi's Jayanti,date_match,https://www.fimmda.org/uploads/general/Maharashtra_State_List_Of_Holidays_2022.pdf
+Maharashtra,2022,2022-10-05,True,True,Dussehra,date_match,https://www.fimmda.org/uploads/general/Maharashtra_State_List_Of_Holidays_2022.pdf
+Maharashtra,2022,2022-10-09,True,True,Milad-un-Nabi,date_match,https://www.fimmda.org/uploads/general/Maharashtra_State_List_Of_Holidays_2022.pdf
+Maharashtra,2022,2022-10-24,True,True,Diwali (Deepavali),date_match,https://www.fimmda.org/uploads/general/Maharashtra_State_List_Of_Holidays_2022.pdf
+Maharashtra,2022,2022-10-25,False,True,Diwali (Bali Pratipada),library_extra_or_definition_difference,https://www.fimmda.org/uploads/general/Maharashtra_State_List_Of_Holidays_2022.pdf
+Maharashtra,2022,2022-10-26,True,False,,schedule_date_missing_from_library,https://www.fimmda.org/uploads/general/Maharashtra_State_List_Of_Holidays_2022.pdf
+Maharashtra,2022,2022-11-08,True,True,Guru Nanak's Jayanti,date_match,https://www.fimmda.org/uploads/general/Maharashtra_State_List_Of_Holidays_2022.pdf
+Maharashtra,2022,2022-12-25,True,True,Christmas,date_match,https://www.fimmda.org/uploads/general/Maharashtra_State_List_Of_Holidays_2022.pdf
+Maharashtra,2023,2023-01-26,True,True,Republic Day,date_match,https://www.maharashtra.gov.in/site/Upload/pdf/PUBLIC_HOLIDAY_2023.pdf
+Maharashtra,2023,2023-02-18,True,False,,schedule_date_missing_from_library,https://www.maharashtra.gov.in/site/Upload/pdf/PUBLIC_HOLIDAY_2023.pdf
+Maharashtra,2023,2023-02-19,True,True,Chhatrapati Shivaji Maharaj's Jayanti,date_match,https://www.maharashtra.gov.in/site/Upload/pdf/PUBLIC_HOLIDAY_2023.pdf
+Maharashtra,2023,2023-03-07,True,False,,schedule_date_missing_from_library,https://www.maharashtra.gov.in/site/Upload/pdf/PUBLIC_HOLIDAY_2023.pdf
+Maharashtra,2023,2023-03-08,False,True,Holi,library_extra_or_definition_difference,https://www.maharashtra.gov.in/site/Upload/pdf/PUBLIC_HOLIDAY_2023.pdf
+Maharashtra,2023,2023-03-22,True,True,Gudi Padwa,date_match,https://www.maharashtra.gov.in/site/Upload/pdf/PUBLIC_HOLIDAY_2023.pdf
+Maharashtra,2023,2023-03-30,True,True,Ram Navami,date_match,https://www.maharashtra.gov.in/site/Upload/pdf/PUBLIC_HOLIDAY_2023.pdf
+Maharashtra,2023,2023-04-04,True,True,Mahavir Jayanti,date_match,https://www.maharashtra.gov.in/site/Upload/pdf/PUBLIC_HOLIDAY_2023.pdf
+Maharashtra,2023,2023-04-07,True,True,Good Friday,date_match,https://www.maharashtra.gov.in/site/Upload/pdf/PUBLIC_HOLIDAY_2023.pdf
+Maharashtra,2023,2023-04-14,True,True,Dr. B. R. Ambedkar's Jayanti,date_match,https://www.maharashtra.gov.in/site/Upload/pdf/PUBLIC_HOLIDAY_2023.pdf
+Maharashtra,2023,2023-04-22,True,True,Id-ul-Fitr,date_match,https://www.maharashtra.gov.in/site/Upload/pdf/PUBLIC_HOLIDAY_2023.pdf
+Maharashtra,2023,2023-05-01,True,True,Maharashtra Day,date_match,https://www.maharashtra.gov.in/site/Upload/pdf/PUBLIC_HOLIDAY_2023.pdf
+Maharashtra,2023,2023-05-05,True,True,Buddha Purnima,date_match,https://www.maharashtra.gov.in/site/Upload/pdf/PUBLIC_HOLIDAY_2023.pdf
+Maharashtra,2023,2023-06-28,True,False,,schedule_date_missing_from_library,https://www.maharashtra.gov.in/site/Upload/pdf/PUBLIC_HOLIDAY_2023.pdf
+Maharashtra,2023,2023-06-29,False,True,Id-ul-Zuha (Bakrid),library_extra_or_definition_difference,https://www.maharashtra.gov.in/site/Upload/pdf/PUBLIC_HOLIDAY_2023.pdf
+Maharashtra,2023,2023-07-29,True,True,Muharram,date_match,https://www.maharashtra.gov.in/site/Upload/pdf/PUBLIC_HOLIDAY_2023.pdf
+Maharashtra,2023,2023-08-15,True,True,Independence Day,date_match,https://www.maharashtra.gov.in/site/Upload/pdf/PUBLIC_HOLIDAY_2023.pdf
+Maharashtra,2023,2023-08-16,True,True,Parsi New Year (Shahenshahi),date_match,https://www.maharashtra.gov.in/site/Upload/pdf/PUBLIC_HOLIDAY_2023.pdf
+Maharashtra,2023,2023-09-07,False,True,Janmashtami (Vaishnava),library_extra_or_definition_difference,https://www.maharashtra.gov.in/site/Upload/pdf/PUBLIC_HOLIDAY_2023.pdf
+Maharashtra,2023,2023-09-19,True,True,Ganesh Chaturthi,date_match,https://www.maharashtra.gov.in/site/Upload/pdf/PUBLIC_HOLIDAY_2023.pdf
+Maharashtra,2023,2023-09-28,True,True,Milad-un-Nabi,date_match,https://www.maharashtra.gov.in/site/Upload/pdf/PUBLIC_HOLIDAY_2023.pdf
+Maharashtra,2023,2023-10-02,True,True,Mahatma Gandhi's Jayanti,date_match,https://www.maharashtra.gov.in/site/Upload/pdf/PUBLIC_HOLIDAY_2023.pdf
+Maharashtra,2023,2023-10-24,True,True,Dussehra,date_match,https://www.maharashtra.gov.in/site/Upload/pdf/PUBLIC_HOLIDAY_2023.pdf
+Maharashtra,2023,2023-11-12,True,True,Diwali (Deepavali),date_match,https://www.maharashtra.gov.in/site/Upload/pdf/PUBLIC_HOLIDAY_2023.pdf
+Maharashtra,2023,2023-11-13,False,True,Diwali (Bali Pratipada),library_extra_or_definition_difference,https://www.maharashtra.gov.in/site/Upload/pdf/PUBLIC_HOLIDAY_2023.pdf
+Maharashtra,2023,2023-11-14,True,False,,schedule_date_missing_from_library,https://www.maharashtra.gov.in/site/Upload/pdf/PUBLIC_HOLIDAY_2023.pdf
+Maharashtra,2023,2023-11-15,True,False,,schedule_date_missing_from_library,https://www.maharashtra.gov.in/site/Upload/pdf/PUBLIC_HOLIDAY_2023.pdf
+Maharashtra,2023,2023-11-27,True,True,Guru Nanak's Jayanti,date_match,https://www.maharashtra.gov.in/site/Upload/pdf/PUBLIC_HOLIDAY_2023.pdf
+Maharashtra,2023,2023-12-25,True,True,Christmas,date_match,https://www.maharashtra.gov.in/site/Upload/pdf/PUBLIC_HOLIDAY_2023.pdf

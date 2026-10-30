@@ -1,0 +1,154 @@
+{
+  "raw_rows": 3955,
+  "unique_dates": 3900,
+  "duplicate_extra_rows": 55,
+  "missing_dates": 236,
+  "conflicts": [
+    {
+      "date": "2014-04-28",
+      "state": "Karnataka",
+      "values": [
+        181.8,
+        179.9
+      ]
+    },
+    {
+      "date": "2015-04-05",
+      "state": "Karnataka",
+      "values": [
+        201.5,
+        190.4
+      ]
+    },
+    {
+      "date": "2016-05-26",
+      "state": "Karnataka",
+      "values": [
+        189.4,
+        141.4
+      ]
+    },
+    {
+      "date": "2016-10-01",
+      "state": "Karnataka",
+      "values": [
+        181.8,
+        182.2
+      ]
+    },
+    {
+      "date": "2017-04-14",
+      "state": "Karnataka",
+      "values": [
+        214.8,
+        215.9
+      ]
+    },
+    {
+      "date": "2019-02-25",
+      "state": "Karnataka",
+      "values": [
+        235.1,
+        234.5
+      ]
+    },
+    {
+      "date": "2014-04-28",
+      "state": "Delhi",
+      "values": [
+        84.4,
+        87.3
+      ]
+    },
+    {
+      "date": "2014-12-10",
+      "state": "Delhi",
+      "values": [
+        59.0,
+        59.3
+      ]
+    },
+    {
+      "date": "2015-04-05",
+      "state": "Delhi",
+      "values": [
+        69.2,
+        57.8
+      ]
+    },
+    {
+      "date": "2016-05-26",
+      "state": "Delhi",
+      "values": [
+        107.5,
+        116.0
+      ]
+    },
+    {
+      "date": "2016-10-01",
+      "state": "Delhi",
+      "values": [
+        106.2,
+        102.7
+      ]
+    },
+    {
+      "date": "2017-04-14",
+      "state": "Delhi",
+      "values": [
+        88.0,
+        89.7
+      ]
+    },
+    {
+      "date": "2019-02-25",
+      "state": "Delhi",
+      "values": [
+        61.4,
+        64.1
+      ]
+    },
+    {
+      "date": "2014-04-28",
+      "state": "Maharashtra",
+      "values": [
+        423.3,
+        424.0
+      ]
+    },
+    {
+      "date": "2016-05-26",
+      "state": "Maharashtra",
+      "values": [
+        434.3,
+        350.8
+      ]
+    },
+    {
+      "date": "2016-10-01",
+      "state": "Maharashtra",
+      "values": [
+        380.6,
+        349.7
+      ]
+    },
+    {
+      "date": "2017-04-14",
+      "state": "Maharashtra",
+      "values": [
+        497.4,
+        495.4
+      ]
+    },
+    {
+      "date": "2019-02-25",
+      "state": "Maharashtra",
+      "values": [
+        439.4,
+        433.9
+      ]
+    }
+  ],
+  "start": "2013-01-01",
+  "end": "2024-04-28"
+}

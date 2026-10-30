@@ -1,0 +1,26 @@
+{
+  "rows": 103254,
+  "daily_forecast_origins_per_state": {
+    "Delhi": 1697,
+    "Karnataka": 1697,
+    "Maharashtra": 1697
+  },
+  "event_years": [
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "passed": [
+    "unique cases",
+    "finite predictions",
+    "date/horizon alignment",
+    "actuals match source",
+    "identical matched event cases",
+    "identical daily cases within each year",
+    "LightGBM selection equals pre-2026 validation minimum",
+    "purged LightGBM training/validation target dates"
+  ],
+  "calendar_scope": "Twelve annual state-year schedules audited for 2022-2025 against publications; not a complete amendment timeline or all training-year holidays",
+  "model_training": "Fixed Ridge/SARIMAX annual pre-year fits; pinned Chronos inference; exploratory LightGBM hyperparameters selected only on pre-2026 validation"
+}

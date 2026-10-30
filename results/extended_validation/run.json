@@ -1,0 +1,15 @@
+{
+  "seconds": 769.6857550340001,
+  "rows": 93174,
+  "years": [
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "no_tuning": true,
+  "source": "latest snapshot",
+  "daily_chronos": "history only",
+  "calendar_chronos": "event matched subset only"
+}

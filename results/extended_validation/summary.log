@@ -1,0 +1,84 @@
+DAILY 2025/26
+  year  horizon          model                mode   MASE  n_each_state_min
+ 2025        1       chronos2           A_history 0.3739               352
+ 2025        1     last_value           A_history 0.5316               352
+ 2025        1          ridge           A_history 0.5231               352
+ 2025        1          ridge          B_calendar 0.4086               352
+ 2025        1          ridge D_regional_festival 0.4044               352
+ 2025        1 seasonal_naive           A_history 1.0404               352
+ 2025        7       chronos2           A_history 0.9369               352
+ 2025        7     last_value           A_history 1.0338               352
+ 2025        7          ridge           A_history 1.0552               352
+ 2025        7          ridge          B_calendar 1.0569               352
+ 2025        7          ridge D_regional_festival 1.0388               352
+ 2025        7 seasonal_naive           A_history 1.0338               352
+ 2025       14       chronos2           A_history 1.0771               352
+ 2025       14     last_value           A_history 1.2973               352
+ 2025       14          ridge           A_history 1.3209               352
+ 2025       14          ridge          B_calendar 1.2568               352
+ 2025       14          ridge D_regional_festival 1.2352               352
+ 2025       14 seasonal_naive           A_history 1.2973               352
+ 2026        1       chronos2           A_history 0.4679               288
+ 2026        1     last_value           A_history 0.6175               288
+ 2026        1       lightgbm           A_history 0.6702               288
+ 2026        1       lightgbm          B_calendar 0.6345               288
+ 2026        1       lightgbm D_regional_festival 0.6345               288
+ 2026        1          ridge           A_history 0.6090               288
+ 2026        1          ridge          B_calendar 0.5785               288
+ 2026        1          ridge D_regional_festival 0.5749               288
+ 2026        1 seasonal_naive           A_history 1.2285               288
+ 2026        7       chronos2           A_history 1.1629               288
+ 2026        7     last_value           A_history 1.2576               288
+ 2026        7       lightgbm           A_history 1.2940               288
+ 2026        7       lightgbm          B_calendar 1.4652               288
+ 2026        7       lightgbm D_regional_festival 1.4652               288
+ 2026        7          ridge           A_history 1.2714               288
+ 2026        7          ridge          B_calendar 1.6178               288
+ 2026        7          ridge D_regional_festival 1.6205               288
+ 2026        7 seasonal_naive           A_history 1.2576               288
+ 2026       14       chronos2           A_history 1.3617               288
+ 2026       14     last_value           A_history 1.5143               288
+ 2026       14       lightgbm           A_history 1.5927               288
+ 2026       14       lightgbm          B_calendar 1.9325               288
+ 2026       14       lightgbm D_regional_festival 1.9325               288
+ 2026       14          ridge           A_history 1.4637               288
+ 2026       14          ridge          B_calendar 1.9781               288
+ 2026       14          ridge D_regional_festival 1.9463               288
+ 2026       14 seasonal_naive           A_history 1.5143               288
+FESTIVAL EFFECTS
+    model  horizon  mean_state_year_improvement_pct  year_bootstrap_low  year_bootstrap_high  independent_years                                                                      warning
+chronos2        1                           -4.623              -6.950               -2.296                  4 Only four years; descriptive uncertainty, not strong generalisation evidence
+chronos2        7                           -0.561              -3.016                2.950                  4 Only four years; descriptive uncertainty, not strong generalisation evidence
+chronos2       14                           -2.317              -5.974                0.756                  4 Only four years; descriptive uncertainty, not strong generalisation evidence
+   ridge        1                           22.006               9.224               31.837                  4 Only four years; descriptive uncertainty, not strong generalisation evidence
+   ridge        7                            1.102             -63.466               41.464                  4 Only four years; descriptive uncertainty, not strong generalisation evidence
+   ridge       14                          -16.851             -91.948               30.632                  4 Only four years; descriptive uncertainty, not strong generalisation evidence
+ sarimax        1                           24.241              16.470               29.688                  4 Only four years; descriptive uncertainty, not strong generalisation evidence
+ sarimax        7                           13.057             -33.145               47.593                  4 Only four years; descriptive uncertainty, not strong generalisation evidence
+ sarimax       14                           -4.015             -50.993               31.082                  4 Only four years; descriptive uncertainty, not strong generalisation evidence
+{
+  "rows": 103254,
+  "daily_forecast_origins_per_state": {
+    "Delhi": 1697,
+    "Karnataka": 1697,
+    "Maharashtra": 1697
+  },
+  "event_years": [
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "passed": [
+    "unique cases",
+    "finite predictions",
+    "date/horizon alignment",
+    "actuals match source",
+    "identical matched event cases",
+    "identical daily cases within each year",
+    "LightGBM selection equals pre-2026 validation minimum",
+    "purged LightGBM training/validation target dates"
+  ],
+  "calendar_scope": "Twelve annual state-year schedules audited for 2022-2025 against publications; not a complete amendment timeline or all training-year holidays",
+  "model_training": "Fixed Ridge/SARIMAX annual pre-year fits; pinned Chronos inference; exploratory LightGBM hyperparameters selected only on pre-2026 validation"
+}

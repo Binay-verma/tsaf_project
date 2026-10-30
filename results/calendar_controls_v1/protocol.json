@@ -1,0 +1,69 @@
+{
+  "experiment": "calendar_controls_v1",
+  "created_utc": "2026-10-30T05:06:13.447436+00:00",
+  "status": "exploratory; protocol saved before new outcomes, after existing checkpoint results were known; not external preregistration",
+  "model": "StandardScaler then Ridge alpha=10, separate state/year/lead, annual fit; no hyperparameter selection",
+  "years": [
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "primary_scope": [
+    2024,
+    2025
+  ],
+  "primary_scope_reason": "Regional extra dates are available from 2022, giving two full training years only for 2024 onward. Earlier evaluations retain incomplete regional histories and are secondary. Only two primary annual clusters.",
+  "leads": [
+    1,
+    7,
+    14
+  ],
+  "training": "730 days ending previous December 31; train targets <= that cutoff; origin is first unseen date; predict target origin+lead-1; causal input fill only, score recorded positive labels only",
+  "arms": [
+    "calendar",
+    "zero_1",
+    "zero_7",
+    "generic_window",
+    "regional_window",
+    "generic_7",
+    "regional_7",
+    "placebo_window",
+    "placebo_7",
+    "regional_shift_-2_window",
+    "regional_shift_-2_7",
+    "regional_shift_-1_window",
+    "regional_shift_-1_7",
+    "regional_shift_+1_window",
+    "regional_shift_+1_7",
+    "regional_shift_+2_window",
+    "regional_shift_+2_7"
+  ],
+  "encoding": "window: one scalar marking union of +/-3 days around anchors; 7: per-offset binary channels around the same anchors; never target encoding",
+  "primary_contrast": "regional_window minus generic_window, event-balanced MASE on identical true regional windows; lower difference better; each state within year and each year weighted equally",
+  "secondary": "all-day/non-event metrics; seven-channel contrast; zero padding; placebo and shifted date controls; do not choose a winner or change protocol on these outcomes",
+  "placebo": {
+    "seed": 42,
+    "candidate_shifts_days": [
+      -42,
+      -35,
+      -28,
+      28,
+      35,
+      42
+    ],
+    "construction": "One shift per year shared across all states. Move full regional anchor constellation by a multiple of seven within +/-42 days; exclude any overlap of placebo windows with true regional windows in any state. Random choice uses dates only. This is approximate seasonal and exact weekday matching, not exchangeability/causal evidence."
+  },
+  "ledger": "existing MAIN 2020-2025 and EXTRA 2022-2025; no added dates or amendment-certification claims",
+  "evaluation_cases": "All original daily origins Jan 1 through Dec 18 per year, same for all arms; event membership fixed to unshifted regional windows for every arm",
+  "selection": "none; no test-set tuning, no final untouched evaluation; no TSFM conclusions from Ridge controls",
+  "uncertainty": "Report individual years and states. No p-values or bootstrap intervals with two primary years. No independence claim for nearby days/states.",
+  "deferred": [
+    "past-only learned encodings requiring nested development selection",
+    "second TSFM/API and weight audit",
+    "region transfer",
+    "quantiles and calibration",
+    "amendment ledger and reuse rights",
+    "untouched prospective confirmation"
+  ]
+}

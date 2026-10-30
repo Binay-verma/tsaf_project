@@ -1,0 +1,7 @@
+{
+  "torch": "2.15.0+cpu",
+  "chronos-forecasting": "2.3.2",
+  "transformers": "5.22.0",
+  "huggingface-hub": "2.4.0",
+  "socksio": "1.0.0"
+}

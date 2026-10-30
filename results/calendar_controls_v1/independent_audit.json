@@ -1,0 +1,8 @@
+{
+  "passed": [
+    "labels match frozen source",
+    "Delhi generic/regional identity",
+    "event metrics recomputed",
+    "61 historical files unchanged"
+  ]
+}
