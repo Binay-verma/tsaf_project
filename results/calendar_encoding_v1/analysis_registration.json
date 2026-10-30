@@ -1,0 +1,34 @@
+{
+  "created_utc": "2026-10-30T18:23:00.831328+00:00",
+  "status": "Scoring rules fixed before any queued encoding inference/outputs. Historical outcomes already examined.",
+  "references": "Reuse exactly the completed breadth calendar13 outputs on identical cases/weights/source after its separate audit passes; no forecast recomputation.",
+  "contrasts": [
+    [
+      "te_sunday",
+      "te_weekday"
+    ],
+    [
+      "te_holiday",
+      "te_weekday"
+    ],
+    [
+      "te_joint",
+      "te_weekday"
+    ],
+    [
+      "te_weekday",
+      "zero1"
+    ],
+    [
+      "te_separate",
+      "ordinal"
+    ],
+    [
+      "calendar",
+      "history"
+    ]
+  ],
+  "metrics": "Same hierarchy and pre-year weeklyscale; MASE/MAE, nativecommon9quantile pinball and native80coverage/scaledwidth/oneintervalWIS. Nativecrossingsunchanged; any invalidendpoint propagatesundefinedintervalaggregate.",
+  "source_sha256": "e514c5a1f3a188a52e317efb91df6d1b177dcbececd8eb83b47ada092507fc63",
+  "registration_sha256": "ea8ad0791cdef5cec4e3695661c6d7fb0f71919bbfc0280adfbfc1b74be41ed7"
+}

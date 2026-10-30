@@ -1,0 +1,92 @@
+{
+  "created_utc": "2026-10-30T18:18:30.324642+00:00",
+  "experiment": "calendar_encoding_v1/ordinary",
+  "status": "Exploratory closest-method daily adaptation, frozen before any new encoding inference after earlier historical/local outcomes. No clean-test or exact hourly paper replication claim.",
+  "literature": "Kreusel etal., arXiv:2610.13676v1, Section3.1/Table1/AppendixA.1.1, primary fullHTML reread30October2026. Arithmetic context conditional means; no new method.",
+  "adaptation": "Daily data omit hour. Seven published encoding families: ordinal weekday+H, onehot weekday+H, cyclic weekday+H, target-mean Sunday mapping, separate holiday daytype, jointweekday/H, separateweekday/H channels. Add history, zero1 and weekday-only target-mean controls. H=any frozen state-scoped named festival anchor, not every public holiday. No13annual-calendar channels retained in these pureencodings.",
+  "rare_categories": "Paper assumes each horizon category appears in context. Daily sparse events violate this; fix unseen-category fallback to global mean of positive recorded context labels, and log every support/table/futurefallback count. No error-based smoothing/fallback selection.",
+  "target_encoding": "For each origin, fit category mean from positive recorded labels in preceding730calendar days only. Map each context/future calendar category to that table. Own past targets may contribute because they are already available in model context; no forecast-period target contributes. Model past target may use causal fill; encoding labels are never imputed.",
+  "controls": "Four single-channel target encodings compare with weekday-only and zero1 at identical1channel. Separate target means and ordinal use2channels. Conventional2/8/3channel comparisons versus13calendar/18eventmainarms change dimensions and information, explicitly not causal encoding-only identification.",
+  "arms": [
+    "history",
+    "zero1",
+    "ordinal",
+    "onehot",
+    "cyclic",
+    "te_weekday",
+    "te_sunday",
+    "te_holiday",
+    "te_joint",
+    "te_separate"
+  ],
+  "feature_names": {
+    "history": [],
+    "zero1": [
+      "zero"
+    ],
+    "ordinal": [
+      "weekday",
+      "holiday"
+    ],
+    "onehot": [
+      "dow_0",
+      "dow_1",
+      "dow_2",
+      "dow_3",
+      "dow_4",
+      "dow_5",
+      "dow_6",
+      "holiday"
+    ],
+    "cyclic": [
+      "weekday_sin",
+      "weekday_cos",
+      "holiday"
+    ],
+    "te_weekday": [
+      "weekday_target_mean"
+    ],
+    "te_sunday": [
+      "mapped_weekday_target_mean"
+    ],
+    "te_holiday": [
+      "holiday_daytype_target_mean"
+    ],
+    "te_joint": [
+      "weekday_holiday_target_mean"
+    ],
+    "te_separate": [
+      "weekday_target_mean",
+      "holiday_target_mean"
+    ]
+  },
+  "models": [
+    "chronos",
+    "timesfm"
+  ],
+  "batch": 16,
+  "threads": 2,
+  "seed": 42,
+  "context": 730,
+  "horizon": 14,
+  "expected_tasks": 216,
+  "cases_per_arm": 216,
+  "weights": "Exactly pinned parent weights/no fine-tuning, same source/context/tasks; fresh nativepoint/quantile inference for all10arms. Solo-batch and future-target perturbation checks retained.",
+  "metrics": "Identical source/scales and state/year/family hierarchy as feature_breadth_v1. Score all3individualleads and all8published/control encodings plushistory/zero. Native common9quantiles/80coverage/width/pinball/WIS, crossings retained. No favourable-arm selection; historical results remain exploratory.",
+  "execution": "Queued after corresponding foundation breadth lane finishes to respect CPU quota. Actual started/completed metadata, not assumed background continuation. No local model fits here; local comparators in the complete matched breadth panel.",
+  "input_hashes": {
+    "src/calendar_encoding_study.py": "2ef96ce72b30d8b0cb7835f9d12f0752aef09e2623a77c8b7d9cba82a584ccc3",
+    "src/encoding_model_engine_v1.py": "4b3f55c178e6fd1ea51e684351878fed209f077411c1c45d21a107df4d4fd831",
+    "src/test_calendar_encoding_study.py": "b3ad7caf622955b4bfb66e2c638ebc4086012b87e6313377244558a2a38eb425",
+    "src/forecasting.py": "8a6b9b1e8632a2bf77d9855a1d370ed23c350ffe731138787e30c609a59ec21e",
+    "src/festival_feature_experiment.py": "2d737d17ee4290e4328996eee9e1b9380e6bc8a06484d67a01e067c4e7751427",
+    "data/external/latest_state_energy_GWh.csv": "74d22d5e85b022db13d97dad7c84dca5b9dc8e38d23570bf095d870e71a2f690",
+    "results/festival_features_v1/anchors_2022_2025.csv": "7542c6a6a3d84dcf6011872d3cdfa9e45bcca36e90a8746241e41800f19596ec",
+    "results/mechanism_controls_v1/chronos_download.json": "b7bc0b9b2f018de37b60148e226546dd15e47965efdc246f500062721f3f3c15",
+    "results/second_model_audit_v1/weight_download.json": "33513d544578b60db98abd0ad667c97597e0b7b49062588a87fc980b012c4cf4"
+  },
+  "design_hashes": {
+    "primary_cases.csv": "ebeaa1cdd98ec5c8b76afd92e46974b925131b3e2e466c04795abc7a6dea970a",
+    "window_cases.csv": "ebeaa1cdd98ec5c8b76afd92e46974b925131b3e2e466c04795abc7a6dea970a"
+  }
+}

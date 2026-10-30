@@ -16,6 +16,14 @@ from report_multifestival import markdown
 OUT=ROOT/'manuscript/ijf_focus_v2'
 
 
+def table_md(frame):
+    shown=frame.copy()
+    for column in shown:
+        if pd.api.types.is_numeric_dtype(shown[column]):
+            shown[column]=shown[column].map(lambda value:'undefined' if pd.isna(value) else f'{value:.5f}')
+    return markdown(shown)
+
+
 def save_figure(fig,path):
     for ext in ['png','pdf','svg']:
         f=path.with_suffix('.'+ext);fig.savefig(f,dpi=180,bbox_inches='tight')
@@ -41,14 +49,14 @@ def main():
                 assert len(v)==1;a[i,j]=v.MASE_change.iloc[0]
         arrays[c]=a
     limit=max(float(abs(a).max()) for a in arrays.values())
-    fig,axes=plt.subplots(2,1,figsize=(11.5,8.2),layout='constrained')
+    fig,axes=plt.subplots(2,1,figsize=(9,8.2),layout='constrained')
     for ax,(c,a) in zip(axes,arrays.items()):
         im=ax.imshow(a,aspect='auto',cmap='RdBu_r',vmin=-limit,vmax=limit)
         ax.set_xticks(range(6),['Day:1','Day:7','Day:14','Window:1','Window:7','Window:14'])
-        ax.set_yticks(range(6),[NAMES[m] for m in MODELS],fontsize=9)
+        ax.set_yticks(range(6),[NAMES[m] for m in MODELS],fontsize=11)
         ax.axvline(2.5,color='white',linewidth=3)
         for i in range(6):
-            for j in range(6):ax.text(j,i,f'{a[i,j]:+.3f}',ha='center',va='center',fontsize=9,color='white' if abs(a[i,j])>.65*limit else 'black')
+            for j in range(6):ax.text(j,i,f'{a[i,j]:+.3f}',ha='center',va='center',fontsize=11,color='white' if abs(a[i,j])>.65*limit else 'black')
         ax.set_title('Complete festival windows' if c=='event_window' else 'Seasonal ordinary-day sample')
     fig.colorbar(im,ax=axes,label='Typed minus pooled MASE; negative favours typed')
     save_figure(fig,OUT/'figures/breadth_contrasts')
@@ -80,12 +88,12 @@ def main():
     for name,table in tables:
         table.to_csv(OUT/(name+'_table.csv'),index=False)
         for row in table.itertuples(index=False,name=None):
-            cells += [f'{v:.5f}' for v in row if isinstance(v,(float,np.floating))]
+            cells += ['undefined' if pd.isna(v) else f'{v:.5f}' for v in row if isinstance(v,(float,np.floating))]
     lo,hi=float(arrays['event_window'].min()),float(arrays['event_window'].max())
     clean=json.loads((ROOT/'review/clean_extended_v1/comparison.json').read_text())
     lines=['# Sparse festival representations in foundation forecasting: matched electricity evidence and pooling controls','',
         '**Focused research draft for Binay Verma and professor review. Not submitted or submission-ready.**','',
-        'Author: Binay Verma. Affiliation, corresponding-author details, funding, conflicts and any real coauthor contributions require author confirmation. No professor authorship or independent review is assumed.','',
+        'Author: Binay Verma. College/department: __________. Corresponding-author email: __________. These fields are intentionally blank at the author’s request. Funding, conflicts and any real coauthor contributions remain to be completed. No professor authorship or independent review is assumed.','',
         '## Abstract','',
         f'Sparse event labels create a trade-off between response specificity and statistical sharing. We examine that trade-off in daily supplied electricity from Delhi, Karnataka and Maharashtra using five festival families, two pinned foundation models and four local model variants. A fixed exploratory extension compares eight representations on 528 complete festival-window cases and 216 calendar-selected ordinary cases per configuration, producing 35,712 forecasts. Typed and pooled flags are compared at the same five-channel event budget, with ordinary-calendar, zero and active-placebo controls. Typed-minus-pooled MASE changes across models, leads and day/window representations range from {lo:.3f} to {hi:.3f}; their interpretation is conditional on the cohort and adaptation policy. Additional past-only target-encoding and response-profile baselines contribute 5,952 matched forecasts. A prespecified 512-dataset simulation illustrates how heterogeneity, support and date errors change pooling value under a known baseline and response shape. Complete comparator/simulation reruns in a separate Python environment are byte-identical. Historical outcomes remain exploratory; correlated event years, model exposure, source-vintage/calendar uncertainty, unresolved reuse terms and absent external review limit generalisation. The contribution is a controlled empirical qualification, not a new architecture, causal effect or universal festival-enhancement claim.','',
         '**Keywords:** event representation; electricity forecasting; partial pooling; time-series foundation models; calendar provenance; temporal evaluation.','',
@@ -105,20 +113,20 @@ def main():
         'The breadth protocol was committed before new outcomes. It follows inspected anchor/pooling studies and is not an external preregistration or clean final test. The protocol, source/input hashes, full case matrix, packages, sparse support, failures, checkpoints and separate audits are available with the repository. Historical negative findings, including the original four-year Chronos seven-channel Diwali deterioration, remain unchanged.','',
         '## 4. Matched breadth results','',
         'Tables 1–2 give predeclared next-day scores for both representations; all three leads, eight arms, state-years, families and controls are retained in the machine-readable supplement. Figure 1 shows typed-minus-pooled differences for every model, representation, lead and cohort. A negative difference favours separate identities. Ordinary and event levels describe different target cohorts and are not a causal treatment/control estimate.','',
-        'Table 1. Full festival-window next-day MASE. Lower is better.','',markdown(tables[0][1].round(5)),'',
-        'Table 2. Calendar-selected ordinary-day next-day MASE. Lower is better.','',markdown(tables[1][1].round(5)),'',
+        'Table 1. Full festival-window next-day MASE. Lower is better.','',table_md(tables[0][1]),'',
+        'Table 2. Calendar-selected ordinary-day next-day MASE. Lower is better.','',table_md(tables[1][1]),'',
         '![Figure 1. Typed minus pooled MASE at equal five-channel event budget. Both signs, all six variants and all three leads are retained.](figures/breadth_contrasts.png)','',
         f'The full-window typed-minus-pooled contrasts span {lo:.5f} to {hi:.5f} MASE across the registered cells. This range describes the evaluated matrix and does not select a winning method. Both-year and leave-family-out tables allow assessment of composition sensitivity; two event years and unequal state scopes still limit generality. Zero/placebo contrasts help diagnose representation sensitivity without establishing a causal mechanism.','',
         '## 5. Established-method comparators and simulation','',
         'Eight additional daily methods use exactly the same cases. Four are rolling-context weekday/holiday conditional means adapted from target-encoding ideas [1], with explicit unseen-category fallbacks. These direct point baselines omit the hourly paper’s hour variable and are not its multivariate TSFM encodings. Their weak 730-day context means do not establish that target encoding is intrinsically poor.','',
         'Four response methods share a last-four-recorded-same-weekday baseline: no response, typed OLS amplitudes, one pooled amplitude, and partial pooling with fixed penalty2 toward the pooled amplitude. Past residuals use only earlier same-weekday observations; profile training uses strictly pre-origin recorded labels. The fixed ±3-day triangular shape is declared rather than learned on test errors. This is a simple daily residual-profile adaptation, not the contrastive system of Alipour et al. [2].','',
-        'Table 3. Full-window matched response-profile comparator MASE. No penalty is selected on these errors.','',markdown(tables[2][1].round(5)),'',
+        'Table 3. Full-window matched response-profile comparator MASE. No penalty is selected on these errors.','',table_md(tables[2][1]),'',
         'The partial-pooling response comparator improves its matching no-response baseline but remains weaker than the rich local models in Table 1 at the next-day lead. It is not a new state-of-the-art algorithm. On the selected ordinary dates, all four response methods coincide by construction because query event windows are excluded. This cannot be cited as learned spillover evidence. Direct family-label exclusion from the earlier study is a separate sensitivity: earlier family responses remain in target-history features, so it is not wholly unseen-event transfer.','',
         'A prespecified simulation crosses event frequency1/4 per family/year, heterogeneity0/3, integer date-error bound0/2days and noise SD1/3, with32seeds per setting. Five event types share a known triangular response shape and an exactly removed baseline; two years fit and one year evaluates. Noise is stationary AR(1) with coefficient0.5. No-event, pooled OLS, typed OLS, fixed partial pooling and an explicitly unavailable true-effect oracle are all retained. Figure 2 illustrates the expected trade-off: homogeneous responses favour pooling on average, while strong heterogeneity favours separate effects under this generator. This is not an explanation of neural internals or new real-world independent evidence.','',
         '![Figure 2. Conditional simulation contrasts. Intervals quantify Monte Carlo precision over independent generator seeds, not Indian-event significance.](figures/simulation_conditions.png)','',
         '## 6. Native uncertainty and reproducibility','',
         'Both foundation models are scored on unchanged common quantiles0.1–0.9. Empirical80%coverage accompanies scaled width, marginal pinball and a one-interval WIS: (0.5×median absolute error+0.1×80%interval score)/1.5. Crossings are retained; invalid endpoints make the full associated interval aggregate undefined rather than dropping cases. These are native, uncalibrated festival-feature distributions.','',
-        'Table 4. Native next-day full-window intervals. Full lead1/7/14 tables and every control arm remain in the supplement.','',markdown(tables[3][1].round(5)),'',
+        'Table 4. Native next-day full-window intervals. Full lead1/7/14 tables and every control arm remain in the supplement.','',table_md(tables[3][1]),'',
         'The separate September–October2026 CQR exercise improves some historical coverage while widening intervals and sometimes worsening longer-lead proper scores. It uses a different cohort and does not calibrate the present festival-feature distributions. The original future point/native freeze and later interval annex remain immutable and unscored; the annex repeats existing TimesFM cases from the same episode.','',
         'Separate scalar/calendar/NumPy audits reconstruct sources, cases, scales, actual inputs, local budgets/labels/support, chronological cutoffs, probability arithmetic and aggregate metrics. Complete clean-environment reruns of all5,952daily comparator forecasts and2,560simulation cells produce byte-identical scientific output files. This uses the same machine and exact source/input copies, not an independent human team or complete new foundation-model rerun. The earlier stricter pooled scalar review retains its near-zero tree-feature byte discrepancy even though its135forecasts agree within tolerance. Passing software tests is evidence about specific checks, not proof of zero scientific error.','',
         '## 7. Limits and confirmation requirements','',
@@ -138,7 +146,22 @@ def main():
         '[6] Ansari et al. (2025). Chronos-2: From Univariate to Universal Forecasting. arXiv:2510.15821v1. https://arxiv.org/abs/2510.15821','',
         '[7] Jain and Sen (2026). TimesFM-3: A zero-shot foundation model for multivariate forecasting. Official model announcement. https://research.google/blog/timesfm-3-a-zero-shot-foundation-model-for-multivariate-forecasting/','',
         '[8] Romano, Patterson and Candès (2019). Conformalized Quantile Regression. arXiv:1905.03222v1. https://arxiv.org/abs/1905.03222','']
-    md='\n'.join(lines).rstrip()+'\n';(OUT/'MANUSCRIPT.md').write_text(md)
+    md='\n'.join(lines).rstrip()+'\n'
+    for old,new in {'seed42':'seed 42','two CPU threads and batch16':'two CPU threads and batch 16',
+        'exact zeros, typed day5':'exact zeros, typed day5','Fixed penalty2':'Fixed penalty 2',
+        'fixed penalty2':'fixed penalty 2','frequency1/4':'frequency 1/4',
+        'heterogeneity0/3':'heterogeneity 0/3','bound0/2days':'bound 0/2 days',
+        'noise SD1/3':'noise SD 1/3','with32seeds':'with 32 seeds',
+        'quantiles0.1–0.9':'quantiles 0.1–0.9','Empirical80%coverage':'Empirical 80% coverage',
+        'empirical80%coverage':'empirical 80% coverage','80%interval':'80% interval',
+        'September–October2026':'September–October 2026','all5,952daily':'all 5,952 daily',
+        'and2,560simulation':'and 2,560 simulation','its135forecasts':'its 135 forecasts',
+        'stops9January2025':'stops 9 January 2025','a46-period':'a 46-period',
+        'new52-week':'new 52-week','starts16November2026':'starts 16 November 2026',
+        'lead1/7/14':'lead 1/7/14','leads1/7/14':'leads 1/7/14','steps3/9/16':'steps 3/9/16',
+        'min-leaf2':'min-leaf 2','leaf-minimum2':'leaf-minimum 2','The leaf2':'The leaf2'}.items():
+        md=md.replace(old,new)
+    (OUT/'MANUSCRIPT.md').write_text(md)
     for value in cells:assert value in md,value
     docx=OUT/'IJF_Focused_Draft_Binay_Verma.docx'
     subprocess.run(['pandoc',str(OUT/'MANUSCRIPT.md'),'-o',str(docx),'--resource-path',str(OUT),

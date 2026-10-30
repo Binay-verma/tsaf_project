@@ -1,0 +1,32 @@
+{
+  "created_utc": "2026-10-30T18:18:30.326800+00:00",
+  "protocols": {
+    "event_window": "9954bca5a7ba0d96212521028715d398fafc992f43a73e0199befcd8e036014b",
+    "ordinary": "d9edc47d170de64e09702a6c8e924a4f455e6dc85700fdf435b027346473e93d"
+  },
+  "arms": [
+    "history",
+    "zero1",
+    "ordinal",
+    "onehot",
+    "cyclic",
+    "te_weekday",
+    "te_sunday",
+    "te_holiday",
+    "te_joint",
+    "te_separate"
+  ],
+  "models": [
+    "chronos",
+    "timesfm"
+  ],
+  "planned_rows": 14880,
+  "main_single_channel_contrast": [
+    "te_sunday",
+    "te_holiday",
+    "te_joint",
+    "te_weekday",
+    "zero1"
+  ],
+  "notes": "Rules fixed before new encoding outputs, original breadth frozen unchanged. Puredaily adaptations, no universal model/novelty or independent-source claim."
+}

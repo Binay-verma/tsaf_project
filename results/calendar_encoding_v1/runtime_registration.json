@@ -1,0 +1,16 @@
+{
+  "created_utc": "2026-10-30T18:39:34.847746+00:00",
+  "packages": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "torch": "2.15.0+cpu",
+    "chronos-forecasting": "2.3.2",
+    "timesfm": "3.0.2",
+    "transformers": "5.22.0"
+  },
+  "input_dtype": "float32",
+  "target_encoding_table_dtype": "float64 before interface cast",
+  "cpu_quota": "400000 100000",
+  "note": "Recorded before queued encoding inference. No package changes during these studies; weights verified by everyworker."
+}
