@@ -1,0 +1,20 @@
+[
+  {
+    "state": "Karnataka",
+    "year": 2025,
+    "horizon": 1,
+    "baseline_old_prediction_maxdiff": 5.684341886080802e-14
+  },
+  {
+    "state": "Karnataka",
+    "year": 2025,
+    "horizon": 7,
+    "baseline_old_prediction_maxdiff": 2.842170943040401e-14
+  },
+  {
+    "state": "Karnataka",
+    "year": 2025,
+    "horizon": 14,
+    "baseline_old_prediction_maxdiff": 5.684341886080802e-14
+  }
+]

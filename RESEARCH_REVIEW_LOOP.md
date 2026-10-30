@@ -18,9 +18,10 @@ Current sequence:
 | Established daily comparators and pooling simulation |Complete; full clean reruns byte-identical|5,952forecasts,512synthetic datasets/2,560cells, separate audits|
 | Closest pure calendar encodings in both TSFMs |Protocol frozen; queued after each corresponding breadth lane|14,880newforecasts, samecases, sparse-category/support/input/probability audit|
 | Independent NESO source and archive-delay sensitivity |3,072local+192naive rows complete and separately audited; both foundation lanes queued after encodings|Actual-only DST-checked source, past-only selection,4,608model+192naive rows, separate audit|
+| Recentered window/weekday controls |Newprotocol frozen beforeoutputs,1,092additionalrows|Samecorrected528cases fororiginal/aligned features; restoredweekdayplacebo; separateaudit|
 | Focused manuscript |Builder waits for completed/audited breadth; integrate later registered evidence in a new version|Readable MD/DOCX/PDF, verified numbers/figures and current claims|
 | Future rolling confirmation |Plan/contract only; not activated|Dated ledger and full capture/runner/scorer/time guards before future issuances; later observations required|
-| Named-calendar semantic correction |KA2025Dussehra mismatch found by document review; old results preserved; v2correction protocol frozen before outputs (2,640plannedrows); v1preflightfailure retained|Same-case document-aligned sensitivity; no error-selected dates|
+| Named-calendar semantic correction |KA2025Dussehra mismatch found by document review; old results preserved; v2locals1,200freshrows audited; foundations queued; all58semanticreview retains1mismatch/1evidencegap|Same-case document-aligned sensitivity; no error-selected dates|
 | Source rights, calendar amendments, independent review |Open external/provenance gates|Actual authoritative evidence or human review, not another model fit|
 
 College/department and corresponding-author email remain intentionally blank at the author’s request. A research loop cannot guarantee journal acceptance or create future observations. Continue executable gaps and report the actual boundary when the remaining work depends on those prerequisites.

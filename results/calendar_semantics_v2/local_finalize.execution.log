@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "/workspace/tsaf_project/src/finalize_calendar_semantics.py", line 98, in <module>
+    p=argparse.ArgumentParser();p.add_argument('action',choices=['register','analyze']);p.add_argument('--part',choices=['local','all'],default='all');a=p.parse_args();register() if a.action=='register' else main(a.part)
+                                                                                                                                                                                                                ^^^^^^^^^^^^
+  File "/workspace/tsaf_project/src/finalize_calendar_semantics.py", line 66, in main
+    oldrun=json.loads((oldroot/model/'run.json').read_text());newrun=json.loads((newroot/model/'run.json').read_text())
+                                                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/pathlib.py", line 1027, in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/pathlib.py", line 1013, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/workspace/tsaf_project/results/calendar_semantics_v2/breadth/ordinary/sarimax/run.json'

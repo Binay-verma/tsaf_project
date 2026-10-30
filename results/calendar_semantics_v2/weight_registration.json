@@ -1,0 +1,14 @@
+{
+  "created_utc": "2026-10-30T19:33:44.621301+00:00",
+  "status": "Before anynewfoundationinference in this correction; localoutputs donotselectweights",
+  "weights": {
+    "results/mechanism_controls_v1/chronos_download.json": {
+      "metadata_sha256": "b7bc0b9b2f018de37b60148e226546dd15e47965efdc246f500062721f3f3c15",
+      "weight_sha256": "ddcda3c7508bf2528087723e98a20707cc04b7f370ae275a9fd88078ddba4f42"
+    },
+    "results/second_model_audit_v1/weight_download.json": {
+      "metadata_sha256": "33513d544578b60db98abd0ad667c97597e0b7b49062588a87fc980b012c4cf4",
+      "weight_sha256": "a7592b0a8432baee54483254e5647856911ce69e09d09a9bb65904b2d98f17da"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "created_utc": "2026-10-30T19:31:03.846526+00:00",
+  "protocols": {
+    "old_added": "d45cf93f3260245331619014a720e88ca6e756be28b6fe17b1e49594974d224d",
+    "aligned_added": "d4127429c287cb37fa99b921f266ca0a7f7420c28da830fb86be48765697c6c8",
+    "aligned_placebo_event": "767dc3effec4d8a888dbc7eb31c93b6e4aa4964fe9263bb9b2bd78a0ff5d7052",
+    "aligned_placebo_ordinary": "372630905e2415ebc8882e86fb7dfa544091ffc9153e9e4610446abf08388580",
+    "old_encoding_added": "dfb1db45e62cb77e10c4a01325314380d84481df56f8091273a63f6d0201ba98",
+    "aligned_encoding_added": "0ea635a46e90a020ed40a8fe0e8002b9dbf8cc2cb4bfa01715ebed1f00a6a8ac"
+  },
+  "new_forecasts": 1092,
+  "unchanged_original_cases_count": 525,
+  "removed_cases": 3,
+  "added_cases": 3,
+  "corrected_case_count": 528,
+  "ordinary_cases": 216,
+  "decision": "Document-definedcenter and fixedweekdayplacebo correction, not selectedbyerrors; originalv2same-case flag sensitivity preserved."
+}

@@ -1,0 +1,25 @@
+{
+  "url": "https://cdn.amazon.science/87/7a/43863f014050b7ec04dedeb21abb/scipub-approval152134-47356494-impactdriven-event-covariates-for-timeseries-foundation-models.pdf",
+  "status": 200,
+  "sha256": "eb2a29aa0cb4b91a62a4f22974f230c6088152304c3c5e765a8d6c10ecad7cb2",
+  "bytes": 1693305,
+  "retrieved_utc": "2026-10-30T19:20:16.514701+00:00",
+  "scope": "Primary linkedPDF fullmethod/appendix read; no code identified within examinedpage/PDF, not exhaustive repositorysearch",
+  "pdf_authors": [
+    "Elham Alipour",
+    "Xiaoli Zhang",
+    "Tom Boyang Jin",
+    "Alex Moschos"
+  ],
+  "page_citation_authors": [
+    "Elham Alipour",
+    "Sabrina Zhang",
+    "Tom Jin",
+    "Alex Moschos"
+  ],
+  "pdf_venue_label": "2ndICMLworkshopFoundationModelsforStructuredData,Seoul,2026",
+  "page_workshop_label": "ICML2025WorkshoponFoundationModelsforStructuredData",
+  "page_citation_year": "2026",
+  "aliases_or_final_publication_status_verified": false,
+  "raw_pdf_redistributed": false
+}

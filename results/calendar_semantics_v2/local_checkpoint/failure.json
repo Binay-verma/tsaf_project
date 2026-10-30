@@ -1,0 +1,4 @@
+{
+  "observed_utc": "2026-10-30T19:18:22.305394+00:00",
+  "reason": "Analysis started while final ordinary SARIMAX worker was completing; missingrun guard stopped before complete analysis/run.json. Partial eventwindow outputs preserved. No method/forecast alteration; reexecute registeredscore in new local_checkpoint_recovery_v1 and verify existing scientificCSVhashes."
+}

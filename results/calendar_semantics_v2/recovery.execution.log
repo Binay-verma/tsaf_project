@@ -1,0 +1,12 @@
+{
+  "breadth/event_window": {
+    "compared_view_rows": 33792,
+    "new_rows": 960,
+    "predictions_sha256": "c9cf4f64495d01a54f4c6ab73d8f427468fbfc8f9a5193214a5fcc8681560787"
+  },
+  "breadth/ordinary": {
+    "compared_view_rows": 13824,
+    "new_rows": 240,
+    "predictions_sha256": "da0025ac3cbdbae32289ad357d295cde24c2d11aeccec0e9f30b9c2895bf32f3"
+  }
+}

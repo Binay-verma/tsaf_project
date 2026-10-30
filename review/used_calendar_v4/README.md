@@ -1,0 +1,9 @@
+# All-58 named-family document review
+
+Relevant English tables/notes in all 12 retained annual documents were visually inspected internally. Physical PDF pages, visible notice dates, hashes and document categories are recorded per anchor. This is assistant/author-side review, not independent human sign-off, amendment certification or historical first-publication evidence.
+
+The original ledger has **54 dates matching the declared family mapping, two explicitly shared national-main exceptions, one Karnataka 2025 Dussehra family/date mismatch, and one uncorroborated Maharashtra 2022 Gudi Padwa row**. The latter 2 April date is not printed in the retained one-page 16-row public/NI schedule; this is an evidence gap, not proof the religious date is wrong. An official full-schedule probe and bounded search returned503, retained here. No unsupported second date correction was made. The already registered Karnataka sensitivity remains exactly one date change.
+
+Important distinctions: Karnataka 2024 Vijayadasami12October is in the second-Saturday note, not its main table; Karnataka2023 Naraka12November and Karnataka2025 Ugadi30March are in Sunday notes. Maharashtra2023 English main table is physicalpage5, labelledpage3; page6 is bank-onlyApril1 and is excluded. State office, NI/public, restricted, bank-only and religious dates are not interchangeable. Delhi’s2025 Dussehra2October is correctly named in its own schedule; Karnataka differs.
+
+All twelve document headers provide visible notice dates. That does not certify when documents first became public or whether later amendments superseded them. The Karnataka2025 indexed mirror and Maharashtra2025 bank-hosted copy retain explicit hosting limitations. Old ledgers, forecasts, reviews, manuscripts and future freezes remain unchanged. This review supersedes any inference that annual-date membership alone verified every named event.

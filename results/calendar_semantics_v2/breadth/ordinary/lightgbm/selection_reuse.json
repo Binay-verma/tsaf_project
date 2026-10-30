@@ -1,0 +1,41 @@
+[
+  {
+    "state": "Karnataka",
+    "year": 2025,
+    "horizon": 1,
+    "original_configuration": 1,
+    "parameters": {
+      "num_leaves": 7,
+      "n_estimators": 200,
+      "min_child_samples": 20,
+      "reg_lambda": 10.0
+    },
+    "policy": "Same original pre-year rich-calendar parameters for every arm"
+  },
+  {
+    "state": "Karnataka",
+    "year": 2025,
+    "horizon": 7,
+    "original_configuration": 2,
+    "parameters": {
+      "num_leaves": 7,
+      "n_estimators": 500,
+      "min_child_samples": 5,
+      "reg_lambda": 10.0
+    },
+    "policy": "Same original pre-year rich-calendar parameters for every arm"
+  },
+  {
+    "state": "Karnataka",
+    "year": 2025,
+    "horizon": 14,
+    "original_configuration": 3,
+    "parameters": {
+      "num_leaves": 7,
+      "n_estimators": 500,
+      "min_child_samples": 20,
+      "reg_lambda": 10.0
+    },
+    "policy": "Same original pre-year rich-calendar parameters for every arm"
+  }
+]

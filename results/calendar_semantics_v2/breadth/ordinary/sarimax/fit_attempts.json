@@ -1,0 +1,67 @@
+[
+  {
+    "configuration": "calendar",
+    "state": "Karnataka",
+    "year": 2025,
+    "training_end": "2024-12-31",
+    "missing_past_filled": 0,
+    "optimizer": "lbfgs",
+    "maxiter": 150,
+    "converged": true,
+    "training_loglikelihood": 768.2049308105397,
+    "seconds": 1.205123010004172,
+    "warnings": []
+  },
+  {
+    "configuration": "day5",
+    "state": "Karnataka",
+    "year": 2025,
+    "training_end": "2024-12-31",
+    "missing_past_filled": 0,
+    "optimizer": "lbfgs",
+    "maxiter": 150,
+    "converged": true,
+    "training_loglikelihood": 786.5289518578404,
+    "seconds": 2.36590722600522,
+    "warnings": []
+  },
+  {
+    "configuration": "pooled_day5",
+    "state": "Karnataka",
+    "year": 2025,
+    "training_end": "2024-12-31",
+    "missing_past_filled": 0,
+    "optimizer": "lbfgs",
+    "maxiter": 150,
+    "converged": true,
+    "training_loglikelihood": 778.4777038793738,
+    "seconds": 2.1063611489953473,
+    "warnings": []
+  },
+  {
+    "configuration": "window5",
+    "state": "Karnataka",
+    "year": 2025,
+    "training_end": "2024-12-31",
+    "missing_past_filled": 0,
+    "optimizer": "lbfgs",
+    "maxiter": 150,
+    "converged": true,
+    "training_loglikelihood": 769.7109262882377,
+    "seconds": 1.3896340420033084,
+    "warnings": []
+  },
+  {
+    "configuration": "pooled_window5",
+    "state": "Karnataka",
+    "year": 2025,
+    "training_end": "2024-12-31",
+    "missing_past_filled": 0,
+    "optimizer": "lbfgs",
+    "maxiter": 150,
+    "converged": true,
+    "training_loglikelihood": 768.5369845931923,
+    "seconds": 1.41755195800215,
+    "warnings": []
+  }
+]

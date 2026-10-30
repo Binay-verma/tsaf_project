@@ -1,0 +1,17 @@
+{
+  "created_utc": "2026-10-30T19:26:53.052853+00:00",
+  "status": "Internal58anchor semanticreview_not_independenthuman_amendmentorfirstpublicationcertification",
+  "counts": {
+    "declared_shared_main_exception": 2,
+    "family_date_mismatch": 1,
+    "matches_declared_family_mapping": 54,
+    "named_date_not_in_retained_document": 1
+  },
+  "anchors": 58,
+  "retained_annual_documents": 12,
+  "documents_with_visible_issue_date": 12,
+  "old_model_dates_changed": 0,
+  "amendment_chains_certified": 0,
+  "human_signoffs": 0,
+  "parent_crosswalk_sha256": "20634b95ec7a3c1297497ff6f9d78de6ac1638a30f7ff3c19492f03cf5f65eee"
+}

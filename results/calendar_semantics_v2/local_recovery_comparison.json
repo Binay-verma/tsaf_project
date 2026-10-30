@@ -1,0 +1,14 @@
+{
+  "status": "pass",
+  "original_completed_event_csv_byte_identity": {
+    "lightgbm_capacity2_subset_pairs.csv": true,
+    "sarimax_subset_pairs.csv": true,
+    "ridge_subset_pairs.csv": true,
+    "lightgbm_subset_pairs.csv": true,
+    "metrics_balanced.csv": true,
+    "metrics_state_year.csv": true,
+    "changes_balanced.csv": true,
+    "predictions_compared.csv": true,
+    "metrics_family.csv": true
+  }
+}
