@@ -1,0 +1,10 @@
+{
+  "created_utc": "2026-10-30T20:31:03.024209+00:00",
+  "source_sha256": "3f075e2af58f564aecb46e7d6ad6d0c1178831e8181d613281887f06b095bf0c",
+  "registration_sha256": "ffdabd8ed6fc35018836e8bf6042acb9ecc28fd6886213c3fbf7386326a8f5c5",
+  "status": "Before aggregateevent/ordinaryMTAerrors or naiveforecasts. Source/selectionquality inspected; localworkers mayalready becomplete, no event/ordinaryscores inspected.",
+  "naive": "Last availablepositive source label beforemodelorigin, repeated. Seasonal repeats last7availablecalendar labels: actualmodelstep h uses origin-7+(h-1)%7. Never use unobserved7-daybridge labels. Same730daypre2026weeklyscale asallmodels.",
+  "metrics": "MAE_million_rides/MASE withinfamily/series/year/actualmodellead, equalrelatedmodes thenyears thenfamilies. Effectiveleads8/14/21 corresponddecision1/7/14. All28commonarm paircontrasts; bothTSFMsextra9arm/history contrasts, everyfamily and leave-one-family-out descriptivecomposition. No independentrow significance/methodselection.",
+  "probability": "Unmodified common0.1\u20130.9 nativequantiles: mean scaledpinball/80coverage/scaledwidth/WIS80median. Anyinvalid80endpoint makes allassociatedintervalaggregates undefined, not silentlydropped. Native21/9quantilecrossings retained. No intervalcalibration trained on theseevents.",
+  "source": "MTAreportedestimates in millionrides, not GWh/uniquepeople/latentdemand. Onecity/tworelatedmodes/twoeventoccurrences, currentrevisedvintage and assumed7daybuffer; not independenthuman/prospective or causal confirmation."
+}
