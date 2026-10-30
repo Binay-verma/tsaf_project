@@ -1,0 +1,25 @@
+{
+  "status": "completed",
+  "completed_utc": "2026-10-30T12:29:23.175769+00:00",
+  "rows": 3888,
+  "cases_per_model_arm": 144,
+  "workers": [
+    "ridge_fixed10",
+    "tree_fixed20",
+    "tree_fixed2"
+  ],
+  "arms": [
+    "calendar__all_rows",
+    "calendar__exclude_family",
+    "calendar__exclude_control",
+    "typed_day5__all_rows",
+    "typed_day5__exclude_family",
+    "typed_day5__exclude_control",
+    "pooled_day5__all_rows",
+    "pooled_day5__exclude_family",
+    "pooled_day5__exclude_control"
+  ],
+  "predictions_sha256": "343032671ab7d2505229c47b1d4c498aad5f92a0f9104cff4ef48433f67dbb15",
+  "protocol_sha256": "36c35a127169c2e0f11685368d3ee48374d9c2c237e077eaf5fca901358d3b03",
+  "analysis_source_sha256": "49c2e57d204deabfd03b7547c458279fc9367373d9165ce70db037155959316f"
+}

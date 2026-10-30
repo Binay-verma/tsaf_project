@@ -1,0 +1,136 @@
+{
+  "experiment": "pooled_festival_v1/non_event",
+  "created_utc": "2026-10-30T12:00:50.725106+00:00",
+  "status": "Exploratory historical follow-up after inspecting typed-feature results; frozen before new pooled outcomes. No clean test or external preregistration.",
+  "primary": "The unchanged72non_event cases from results/festival_feature_spillover_v2; all six model variants and all leads1/7/14. No wider-window evaluation in this follow-up.",
+  "secondary": "No additional cohort: window_cases is an identical copy solely for the existing classical runner interface.",
+  "years": [
+    2024,
+    2025
+  ],
+  "ledger_years": [
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "families": [
+    "Holi",
+    "Dussehra",
+    "Ganesh_Chaturthi",
+    "Ugadi_Gudi_Padwa",
+    "Diwali"
+  ],
+  "arms": [
+    "pooled_day1",
+    "pooled_day5",
+    "pooled_window1",
+    "pooled_window5",
+    "zero1"
+  ],
+  "regression_extra_arms": [],
+  "features": "Pooled day/window is the logical union of the five parent state-scoped family features, in channel1. Width5 adds four exact-zero channels; width1 does not. zero1 adds one exact zero. No new dates, labels, learned encodings or target-informed features.",
+  "controls": "Same5/35zero channels; same-size active placebo day/window/offset channels. One seeded family/state/year shift by a multiple of7within28\u201342days; no overlap of placebo windows with any registered true window in that state/year. Not a randomization distribution.",
+  "local_models": "Rich27history+13ordinary-calendar monthly Ridge/LightGBM; retain each state/year/lead original rich_calendar pre-year-selected parameters for ALL new arms. No new feature/parameter search. Tree interface float32, deterministic1thread. Capacity sensitivity changes only min_child_samples to2 for all6arms; report separately, never select it by evaluated errors.",
+  "sparse_events": "Day indicators may have only1\u20132prior examples, below tree leaf constraints. Log training/context support; weak/ignored indicators are not evidence of intrinsic irrelevance. Additive features can also affect non-event days.",
+  "sarimax": "Fixed(1,0,0)x(1,0,0,7), no trend with13calendar plus0/5event channels. Annual pre-year730day fit; causal past fill and state updates only. Training-only L-BFGS150,500thenPowell500 convergence retries; retain failures.",
+  "foundation_models": "Pinned Chronos2 and TimesFM3, all6arms fresh inference,730day target context,14day horizon, batch4,2CPUthreads,42seed. No fine-tuning; native quantiles retained. Future calendar information only. Verify actual weights/config hashes; input perturbation/solo batching checks.",
+  "batch": 4,
+  "threads": 2,
+  "seed": 42,
+  "context": 730,
+  "horizon": 14,
+  "availability": "All used event covariate dates in training or inference must lie within2022\u20132025ledger coverage. Reused pre-year hyperparameters were selected WITHOUT these new event identities. This avoids needing an unaudited2021event-feature fitting block. No claim of fully reconstructed historical publication availability.",
+  "metrics": "Only positive recorded labels; same pre-year730calendar-day weekly-difference MASE scale, MAE per state/year/lead. Equal states within year, years within festival, festivals for overall summaries. Paired percent reductions calculated within state/year, not ratio of macro MASE. Record all years, arms, failures and native quantile crossings; no significance claims.",
+  "limits": [
+    "Two historical years; source/proxy overlap and publication revisions unresolved",
+    "Annual-as-issued dates, not complete amendment certification or statewide closure evidence",
+    "Dussehra2025/Gandhi and spring2025/Eid overlap",
+    "Legacy Diwali subset is not every named Diwali-office holiday",
+    "One placebo seed and fixed representation are bounded controls",
+    "Both cohorts inspected historically; secondary controls are bounded, not all-day operational validation",
+    "No untouched/prospective, external human review, source permission or independent-source claim",
+    "No future-outcome retrieval or modification of frozen forecasts/automation"
+  ],
+  "input_hashes": {
+    "src/festival_feature_design.py": "54e9dd42e3784b5f20208f08eb54ff823914fd342237b0fccda28bf08cb271c2",
+    "src/festival_feature_experiment.py": "2d737d17ee4290e4328996eee9e1b9380e6bc8a06484d67a01e067c4e7751427",
+    "src/forecasting.py": "8a6b9b1e8632a2bf77d9855a1d370ed23c350ffe731138787e30c609a59ec21e",
+    "src/extended_validation.py": "2312ef9ef5f78ad8bf47b47999576cd0875c7ba3adca53acfb5434b83b2f8218",
+    "src/robust_baselines.py": "568152c6351826389ae8248fe50fe5bcde5f8db82dfe715c691d6a5f63bca88c",
+    "data/external/latest_state_energy_GWh.csv": "74d22d5e85b022db13d97dad7c84dca5b9dc8e38d23570bf095d870e71a2f690",
+    "results/strong_refit_v1/selected.csv": "431807cdd1a9bea5a8df7081e90fe099d34128a6924fae23faa24ef2d85bb087",
+    "results/strong_refit_v1/protocol.json": "e0c7d8532de5faf31d16c6d8552e78ecc7f60eedfc3c977f0f93990ad8d37324",
+    "results/stable_tree_refit_v2/selected.csv": "e041729975c40faa74d5d4ac27b82f9f5edecc26d3fde441124606a130ce448c",
+    "results/stable_tree_refit_v2/protocol.json": "4da8160ce45801e1b9e8ca134334a46bfd9d29f1f5ed6d28e76a988cb1fe34c3",
+    "results/multifestival_models_v1/predictions.csv": "ceb5d17919b20513f57608afa47851cca3e0b8f6ab467d5034a4b114c8056972",
+    "results/mechanism_controls_v1/chronos_download.json": "b7bc0b9b2f018de37b60148e226546dd15e47965efdc246f500062721f3f3c15",
+    "results/second_model_audit_v1/weight_download.json": "33513d544578b60db98abd0ad667c97597e0b7b49062588a87fc980b012c4cf4",
+    "results/extended_validation/regional_calendar_date_audit.csv": "1d5b22b33c15b74ebd8e1d98c0f4da41ed98e4da8940f8b5d2e96384d39274d6",
+    "evidence/calendars/KA2023_NOTIFICATION.pdf": "7354e2c5316c9ea3a21eaa8e0bf05a9908c0f9fddd908100a25a870009f43033",
+    "results/festival_features_v1/evidence/MH2023_official.pdf": "d65d25bd81fd036f108fd0a28c88ba3fc78384822ed52fd04c76f345f635d857",
+    "results/festival_features_v1/evidence/KA2023_page6.png": "01a230a9173d7a13e9fb99eb35704cab6396e0f6299a9a7c1f21f8a6948622ec",
+    "results/festival_features_v1/evidence/KA2023_page7.txt": "4eb178fc6534ccb4f3611f2865f8ba110512172a356ef456244151e1bb3776c8",
+    "results/festival_features_v1/evidence/KA2023_page6.txt": "0754ea92d1b1c6632bb35d67608a0c93f7a14d97ee34c9ab2dc310711b3c5ba2",
+    "results/festival_features_v1/evidence/MH2023_retrieval.json": "9be7314d6319da4df0c94501687f67e587b3f8e60004e48afd0f6ad4ea775dac",
+    "results/festival_features_v1/evidence/MH2023_official.txt": "e57fa76fdabafc9f567ef42122b61dc6964234f692661a0576bc60d0c0df1e88",
+    "src/pooled_festival_experiment.py": "b64ed6421651e4fcd749b7d009d57045bcb279aaba754e2baa379155dd905971",
+    "src/test_pooled_festival.py": "58a28b951ecf7386f2a0f4f46f87430c21263a662a048705780ff870c007172b",
+    "results/festival_features_v1/anchors_2022_2025.csv": "7542c6a6a3d84dcf6011872d3cdfa9e45bcca36e90a8746241e41800f19596ec",
+    "results/festival_features_v1/placebo_anchors.csv": "8968decf13055b0abb3fead79390fa6889c6d27899c7168e47fd2f0eb9c7a0a0",
+    "results/festival_features_v1/protocol.json": "967daa7f34f8bc38f2dacd41af6097c2cae7dfc265a54413606ffc393624c5b3",
+    "results/festival_features_v1/predictions_primary.csv": "3b0edf8dee9d44ca7b556cacd4635cb28228702571b5e949fec4555f411f6e04",
+    "results/festival_feature_spillover_v2/protocol.json": "ed4d30a35775f58cd675d5e7e932cc1d6e8e368dd1da915f3e28ea1938c70f63",
+    "results/festival_feature_spillover_v2/predictions_primary.csv": "571cbb1f5072898c9c49d4158276d68003de3bcd9f214a2440a3df22929006cf"
+  },
+  "design_hashes": {
+    "primary_cases.csv": "adedd0848259a8662712c88838f216d8ef05fa4b5716be72c30710144d9bfed0",
+    "window_cases.csv": "adedd0848259a8662712c88838f216d8ef05fa4b5716be72c30710144d9bfed0"
+  },
+  "packages": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scikit-learn": "1.8.0",
+    "lightgbm": "4.7.0",
+    "statsmodels": "0.15.0",
+    "torch": "2.15.0+cpu",
+    "chronos-forecasting": "2.3.2",
+    "timesfm": "3.0.2"
+  },
+  "question": "Do separate family channels outperform pooled dates at the same five-channel budget? How sensitive are pooled forecasts to one versus five channels?",
+  "contrasts": [
+    [
+      "day5",
+      "pooled_day5"
+    ],
+    [
+      "window5",
+      "pooled_window5"
+    ],
+    [
+      "pooled_day5",
+      "pooled_day1"
+    ],
+    [
+      "pooled_window5",
+      "pooled_window1"
+    ],
+    [
+      "pooled_day1",
+      "zero1"
+    ],
+    [
+      "pooled_window1",
+      "zero1"
+    ],
+    [
+      "zero1",
+      "calendar"
+    ]
+  ],
+  "reuse": "calendar/day5/window5 predictions reused byte-checked from the parent combined file; zero5/placebos retained as prior evidence, not re-fit. New pooled and zero1 arms use the identical frozen model specifications. Six variants reported separately; no model/arm selected on new errors.",
+  "execution_overrides": "engine.OUT=cohort directory; engine.ARMS=new five arms; engine.EXTRA=[]; engine.frames=pooled constructor. Reuse original regression/annual SARIMAX/foundation engine. Both case files contain the same72cases, so no secondary-window claim.",
+  "interpretation": "Five-channel padding controls dimension but changes information sharing/channel allocation. Typed-versus-pooled contrast is a representation comparison, not causal identification of festival identity. One or two prior typed events versus more pooled examples are intentionally different sharing assumptions. Zero padding need not be inert in foundation models.",
+  "parent_combined_sha256": "571cbb1f5072898c9c49d4158276d68003de3bcd9f214a2440a3df22929006cf",
+  "protection_manifest_sha256": "737204b743b9f439fb3c484dc49351a5d43f5d3ae209befbdb251563252ef5be"
+}

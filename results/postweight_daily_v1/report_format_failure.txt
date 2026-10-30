@@ -1,0 +1,3 @@
+Report-only failure after predictions.csv, metrics and native uncertainty tables were written. Independent numerical audit passed these outputs.
+Traceback: src/finalize_postweight_panel.py:75 called report_multifestival.markdown with integer horizon headers; report_multifestival.py:13 join(rows[0]) raised TypeError: sequence item 1: expected str instance, int found.
+Original execution source retained as finalizer_execution_v1.py. No inference or numeric output recovery is needed. Recover REPORT/run metadata from saved audited outputs without rewriting predictions/metrics.

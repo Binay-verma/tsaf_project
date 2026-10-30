@@ -1,0 +1,21 @@
+{
+  "created_utc": "2026-10-30T12:00:50.729631+00:00",
+  "cohorts": [
+    "event",
+    "non_event"
+  ],
+  "new_arms": [
+    "pooled_day1",
+    "pooled_day5",
+    "pooled_window1",
+    "pooled_window5",
+    "zero1"
+  ],
+  "cases_per_arm_cohort": 72,
+  "new_rows_planned": 4320,
+  "protocols": {
+    "event": "599615466582402a85ebc35d23bc45135c4fe8891ce2a7c6fd9af9f1c01e6d51",
+    "non_event": "1d94004fb5610b6415e2323300a7e09d0b440ad5937d00b84f807a5c7cad95cd"
+  },
+  "note": "Recorded before any new pooled fits/inference; prior typed outcomes already inspected."
+}

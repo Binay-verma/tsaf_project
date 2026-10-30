@@ -1,0 +1,79 @@
+{
+  "status": "diagnostic_completed_not_a_replacement_pass",
+  "scope": "All9date-selected state/lead training blocks; separate scalar histories versus application history/calendar construction. No fits, selection or predictions changed.",
+  "interpretation": "The original strict clean-review discrepancy remains retained. Forecast tolerance agreement does not imply byte-identical implementations or guarantee agreement on every case.",
+  "summaries": [
+    {
+      "state": "Delhi",
+      "horizon": 1,
+      "rows": 730,
+      "max_float64_difference": 1.3649525953951525e-11,
+      "float32_differing_entries": 1,
+      "max_float32_difference": 1.4210854715202004e-14
+    },
+    {
+      "state": "Delhi",
+      "horizon": 7,
+      "rows": 724,
+      "max_float64_difference": 1.3649525953951525e-11,
+      "float32_differing_entries": 1,
+      "max_float32_difference": 1.4210854715202004e-14
+    },
+    {
+      "state": "Delhi",
+      "horizon": 14,
+      "rows": 717,
+      "max_float64_difference": 1.3649525953951525e-11,
+      "float32_differing_entries": 1,
+      "max_float32_difference": 1.4210854715202004e-14
+    },
+    {
+      "state": "Karnataka",
+      "horizon": 1,
+      "rows": 730,
+      "max_float64_difference": 1.766320423257639e-11,
+      "float32_differing_entries": 0,
+      "max_float32_difference": 0.0
+    },
+    {
+      "state": "Karnataka",
+      "horizon": 7,
+      "rows": 724,
+      "max_float64_difference": 1.673594596240946e-11,
+      "float32_differing_entries": 0,
+      "max_float32_difference": 0.0
+    },
+    {
+      "state": "Karnataka",
+      "horizon": 14,
+      "rows": 717,
+      "max_float64_difference": 1.0312639631138154e-11,
+      "float32_differing_entries": 0,
+      "max_float32_difference": 0.0
+    },
+    {
+      "state": "Maharashtra",
+      "horizon": 1,
+      "rows": 730,
+      "max_float64_difference": 4.098943406916078e-11,
+      "float32_differing_entries": 0,
+      "max_float32_difference": 0.0
+    },
+    {
+      "state": "Maharashtra",
+      "horizon": 7,
+      "rows": 724,
+      "max_float64_difference": 4.098943406916078e-11,
+      "float32_differing_entries": 0,
+      "max_float32_difference": 0.0
+    },
+    {
+      "state": "Maharashtra",
+      "horizon": 14,
+      "rows": 717,
+      "max_float64_difference": 4.098943406916078e-11,
+      "float32_differing_entries": 0,
+      "max_float32_difference": 0.0
+    }
+  ]
+}

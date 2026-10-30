@@ -1,0 +1,21 @@
+{
+  "status": "completed",
+  "completed_utc": "2026-10-30T12:41:42.672670+00:00",
+  "protocol_sha256": "9e805c44cb7711604f7a9a24019b615e1cb28417e5d02bed2dae8eeeb7b72f80",
+  "cohorts": {
+    "event": {
+      "rows": 1152,
+      "invalid80": 0,
+      "common_adjacent_crossing_pairs": 0,
+      "combined_predictions_sha256": "6b6b99b0eae5cfd49785dc9c61dbcdfd20358476361e3f7efe99f2fec5fe4d00",
+      "scored_cases_sha256": "eca40e041b0dc53dfabc67c671e42b7e10640c93df6911adab4ed6cd744afd42"
+    },
+    "non_event": {
+      "rows": 1152,
+      "invalid80": 0,
+      "common_adjacent_crossing_pairs": 0,
+      "combined_predictions_sha256": "c243266dcacc3505ba4abeed027cc279bffce2c915e44bdcaefa787577b4660a",
+      "scored_cases_sha256": "0ec6e0952d5bc241558c2448b08d789250ef56d1c20af418bb155a83a028f4b4"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/workspace/tsaf_project/src/audit_label_transfer.py", line 170, in <module>
+    main()
+  File "/workspace/tsaf_project/src/audit_label_transfer.py", line 73, in main
+    eligible = [d for d in candidates if d in set(dates) and d.year == target.year and d not in blocked and d not in chosen]
+                                              ^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/pandas/core/arrays/datetimes.py", line 666, in __iter__
+    converted = ints_to_pydatetime(
+                ^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

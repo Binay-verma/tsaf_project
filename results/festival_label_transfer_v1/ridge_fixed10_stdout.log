@@ -1,0 +1,16 @@
+ridge_fixed10 Delhi 2024 1 complete
+ridge_fixed10 Delhi 2024 7 complete
+ridge_fixed10 Delhi 2024 14 complete
+ridge_fixed10 Delhi 2025 1 complete
+ridge_fixed10 Delhi 2025 7 complete
+ridge_fixed10 Delhi 2025 14 complete
+Traceback (most recent call last):
+  File "/workspace/tsaf_project/src/festival_label_transfer.py", line 172, in <module>
+    prepare() if action == 'prepare' else run(action)
+                                          ^^^^^^^^^^^
+  File "/workspace/tsaf_project/src/festival_label_transfer.py", line 124, in run
+    excluded, control, matches = removed_dates(training_dates, family_dates, prohibited)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/tsaf_project/src/festival_label_transfer.py", line 34, in removed_dates
+    raise ValueError('No date-only matched training-row control for '+str(target.date()))
+ValueError: No date-only matched training-row control for 2022-08-28

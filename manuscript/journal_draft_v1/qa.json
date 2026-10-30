@@ -1,0 +1,21 @@
+{
+  "status": "pass",
+  "scope": "Internal document numeric/structural/visual QA; not scientific peer approval",
+  "pdf_pages": 10,
+  "word_tables": 4,
+  "numeric_cells_checked": 91,
+  "figures": 4,
+  "visual_pages_checked": [
+    4,
+    6,
+    7
+  ],
+  "all4captions_present": true,
+  "source_table_hashes_verified": true,
+  "outputs": {
+    "MANUSCRIPT.md": "c9b0371580b29025d075c47600cce7162652888309c848de3c12d0f15b24f555",
+    "Manuscript_Binay_Verma.docx": "855a6bee74e6d6c875978170db7d87c49c3bc645a7f2ab41fe37f9f485fc73ad",
+    "Manuscript_Binay_Verma.pdf": "dc8ffcae3369b4a0dca8d65328b3c24e24cdfacd736780f954856f2ed0dbb1a1"
+  },
+  "table_pagination_fixed": true
+}

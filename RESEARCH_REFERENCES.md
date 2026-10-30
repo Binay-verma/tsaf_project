@@ -21,3 +21,9 @@ Publisher scope information, not evidence of acceptance probability:
 - Journal of Forecasting, Wiley: https://onlinelibrary.wiley.com/page/journal/1099131x/homepage/productinformation.html
 
 Government notification URLs and source attribution are documented separately in REGIONAL_CALENDAR_AUDIT.md and DATA_SOURCES.md. This focused search is not an exhaustive systematic review and establishes no “first” claim.
+
+## Primary metadata recheck — 30 October 2026
+
+The official arXiv Atom API returned all six requested identifiers. Full author/title/original/updated dates and a verified BibTeX file are in `review/reference_audit_v1/`. Current retrieved versions: calendar encoding2610.13676v1, load/covariate uncertainty2610.07232v1, evaluation leakage2510.13654v3, Chronos22510.15821v1, fev-bench2509.26468v4 andGIFT-Eval2410.10393v2. This verifies primary bibliographic records, not journal publication status, exhaustive novelty or absence of model exposure. The Amazon event-covariate page/PDF metadata discrepancy and remaining final bibliographic/venue checks remain explicit.
+
+The official IIF IJF page https://forecasters.org/ijf/ was successfully inspected for scope and data/code/reproducibility policy. Current quartile was not verified: the SCImago profile returned403 and ScienceDirect guide endpoints were rejected by the session proxy. See `review/journal_target_v1/`; no bypass, submission or acceptance. The user's Q1 target requires a named ranking database, year and category before final venue selection.

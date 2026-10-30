@@ -1,0 +1,94 @@
+{
+  "status": "completed_review_draft_QA_pass_not_submission_approval",
+  "created_utc": "2026-10-30T12:50:51.563752+00:00",
+  "source_hashes": {
+    "results/pooled_festival_v1/event/primary_metrics_balanced.csv": "f563ee5c07933cea7ff902d8f389ef4296001bc5d57455b7e059e2990352cd70",
+    "results/pooled_festival_v1/event/contrasts_balanced.csv": "9c4f3a255a8c2d2f610175b16fdf82107d9da392a95f07590a43045690335678",
+    "results/festival_label_transfer_v2/metrics_balanced.csv": "0f6d80fc2aa58c1a8a6a5b2d50027a627c4dfd6d1465e657ede75fb4df1367b3",
+    "results/postweight_daily_v1/metrics_macro.csv": "b45a3bd6b606441785792762ef2e9177835c18951e9feecd02cca020d05ef4b4",
+    "results/postweight_daily_v1/native_uncertainty_macro.csv": "bf384c744c60705784ba301a891db8a8cba531c2fd39609e8cbf671410673d9e"
+  },
+  "manuscript_sha256": "c9b0371580b29025d075c47600cce7162652888309c848de3c12d0f15b24f555",
+  "counts": {
+    "typed_lower": 9,
+    "pooled_lower": 9,
+    "numerical_ties": 0
+  },
+  "transfer_pool_contrasts": [
+    {
+      "cohort": "event",
+      "model": "ridge_fixed10",
+      "arm": "pooled_day5__exclude_family",
+      "reference": "calendar__exclude_family",
+      "horizon": 1,
+      "MASE_change": -0.5989122445775689
+    },
+    {
+      "cohort": "event",
+      "model": "ridge_fixed10",
+      "arm": "pooled_day5__exclude_family",
+      "reference": "calendar__exclude_family",
+      "horizon": 7,
+      "MASE_change": 0.153250822633739
+    },
+    {
+      "cohort": "event",
+      "model": "ridge_fixed10",
+      "arm": "pooled_day5__exclude_family",
+      "reference": "calendar__exclude_family",
+      "horizon": 14,
+      "MASE_change": 0.317740066041948
+    },
+    {
+      "cohort": "event",
+      "model": "tree_fixed2",
+      "arm": "pooled_day5__exclude_family",
+      "reference": "calendar__exclude_family",
+      "horizon": 1,
+      "MASE_change": -0.2705271336654521
+    },
+    {
+      "cohort": "event",
+      "model": "tree_fixed2",
+      "arm": "pooled_day5__exclude_family",
+      "reference": "calendar__exclude_family",
+      "horizon": 7,
+      "MASE_change": -0.1300200072215459
+    },
+    {
+      "cohort": "event",
+      "model": "tree_fixed2",
+      "arm": "pooled_day5__exclude_family",
+      "reference": "calendar__exclude_family",
+      "horizon": 14,
+      "MASE_change": -0.1431798291025656
+    },
+    {
+      "cohort": "event",
+      "model": "tree_fixed20",
+      "arm": "pooled_day5__exclude_family",
+      "reference": "calendar__exclude_family",
+      "horizon": 1,
+      "MASE_change": 0.0
+    },
+    {
+      "cohort": "event",
+      "model": "tree_fixed20",
+      "arm": "pooled_day5__exclude_family",
+      "reference": "calendar__exclude_family",
+      "horizon": 7,
+      "MASE_change": 0.0
+    },
+    {
+      "cohort": "event",
+      "model": "tree_fixed20",
+      "arm": "pooled_day5__exclude_family",
+      "reference": "calendar__exclude_family",
+      "horizon": 14,
+      "MASE_change": 0.0
+    }
+  ],
+  "limits": "No human review, permission, untouched confirmation, venue quartile or acceptance fabricated",
+  "qa_sha256": "3681dc706258595e79c2ee31e679c1221d724dcda8b49995cb591dcc9e082645",
+  "builder_source_sha256": "d295392b7a5959dc04123731519b550db104f0df61b7f4edf383d40fcb58ef08"
+}

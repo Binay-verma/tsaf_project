@@ -1,0 +1,97 @@
+{
+  "created_utc": "2026-10-30T12:19:22.764200+00:00",
+  "experiment": "festival_label_transfer_v2",
+  "status": "Exploratory after historical benchmarks; fixed before these exclusion outcomes. No untouched test or external preregistration.",
+  "question": "Can a fixed pooled holiday model transfer predictive information from other family labels when direct fitting labels within+/-3days of one family are excluded?",
+  "cases": "The same72event and72matched non-event cases, all leads1/7/14, separately reported cohorts. No new dates or missing-case intersection.",
+  "training": "Monthly730calendar-day candidate origin window, horizon-purged target labels strictly before refit. Same original27history+13calendar features; all used event-feature dates within2022\u20132025. Scaler fits only retained rows. No parameter validation/search or reuse of event-exposed selected parameters.",
+  "workers": [
+    "ridge_fixed10",
+    "tree_fixed20",
+    "tree_fixed2"
+  ],
+  "feature_arms": [
+    "calendar",
+    "typed_day5",
+    "pooled_day5"
+  ],
+  "row_policies": [
+    "all_rows",
+    "exclude_family",
+    "exclude_control"
+  ],
+  "ridge_parameters": {
+    "alpha": 10.0
+  },
+  "tree_parameters": {
+    "num_leaves": 7,
+    "n_estimators": 200,
+    "reg_lambda": 10.0
+  },
+  "leaf_minimum": {
+    "tree_fixed20": 20,
+    "tree_fixed2": 2
+  },
+  "lightgbm_fixed": {
+    "learning_rate": 0.05,
+    "random_state": 42,
+    "n_jobs": 1,
+    "verbosity": -1,
+    "deterministic": true,
+    "force_col_wise": true
+  },
+  "features": "calendar; named five-family day flags; logical pooled union plus fourzeros. Same true parent ledger. Fixedparameters across all features/row policies.",
+  "exclusion": "For the evaluated family/state, remove all candidate fitting-label dates within+/-3of every named2022\u20132025anchor of that family, including Diwali subsidiaries. Other families remain. This guarantees zero own-family day-flag support in excluded fitting rows.",
+  "control": "For each excluded recorded label in chronological order, choose first eligible same-weekday/same-year candidate at+28,-28,+35,-35,...,+84,-84days. Must be in the same candidate training block, distinct, outside+/-3days of every annual/registered holiday. Exact row-count match; stop on infeasibility. Only dates/label availability used; longer shifts weaken seasonal matching and are fully inventoried.",
+  "exposure": "Target-state past electricity observations, annual lags, rolling features and other training rows containing earlier family responses remain allowed. Excluded direct labels are not erased from history. This is supervised family-label exclusion with available target history, not history-free zero-shot, fully unseen-event exposure, causal identification or independent data.",
+  "metrics": "Original positive source labels/pre-year weekly MASE denominator, fixed across training policies; scale can contain past family observations, serving only as evaluation reference. Equal states within year, years within family, families overall; report all families/years/leads/models/policies and paired deltas. No outcome-selected features/budgets.",
+  "integrity": "Preserve all earlier686scientific files via pooled protection manifest. Active pooled inference continues separately and its outputs are not read or used to select settings here. No source/future retrieval or automation changes.",
+  "input_hashes": {
+    "src/festival_label_transfer.py": "aa8af707c5dbb904f38f5e8e06a8b260257f98d3948267ca503b1106b566b5fc",
+    "src/test_festival_label_transfer.py": "0ca44c8a7d7975a89ff080e91906690711027a90d23d93dd496df7e3e246cb30",
+    "src/robust_baselines.py": "568152c6351826389ae8248fe50fe5bcde5f8db82dfe715c691d6a5f63bca88c",
+    "src/forecasting.py": "8a6b9b1e8632a2bf77d9855a1d370ed23c350ffe731138787e30c609a59ec21e",
+    "src/extended_validation.py": "2312ef9ef5f78ad8bf47b47999576cd0875c7ba3adca53acfb5434b83b2f8218",
+    "src/festival_feature_design.py": "54e9dd42e3784b5f20208f08eb54ff823914fd342237b0fccda28bf08cb271c2",
+    "src/festival_feature_experiment.py": "2d737d17ee4290e4328996eee9e1b9380e6bc8a06484d67a01e067c4e7751427",
+    "src/pooled_festival_experiment.py": "b64ed6421651e4fcd749b7d009d57045bcb279aaba754e2baa379155dd905971",
+    "data/external/latest_state_energy_GWh.csv": "74d22d5e85b022db13d97dad7c84dca5b9dc8e38d23570bf095d870e71a2f690",
+    "results/festival_features_v1/anchors_2022_2025.csv": "7542c6a6a3d84dcf6011872d3cdfa9e45bcca36e90a8746241e41800f19596ec",
+    "results/festival_features_v1/placebo_anchors.csv": "8968decf13055b0abb3fead79390fa6889c6d27899c7168e47fd2f0eb9c7a0a0",
+    "results/extended_validation/regional_calendar_date_audit.csv": "1d5b22b33c15b74ebd8e1d98c0f4da41ed98e4da8940f8b5d2e96384d39274d6",
+    "results/stable_tree_refit_v2/protocol.json": "4da8160ce45801e1b9e8ca134334a46bfd9d29f1f5ed6d28e76a988cb1fe34c3",
+    "results/pooled_festival_v1/registration.json": "6752e24f39a60a1cda3a86de4e58b198914213762df7b40e655c5eb7de6b112c",
+    "results/pooled_festival_v1/protected_prior_files.json": "737204b743b9f439fb3c484dc49351a5d43f5d3ae209befbdb251563252ef5be",
+    "results/festival_features_v1/primary_cases.csv": "24db0f88891b97a88cdbb5e5d431db86befbf73d381e12ba0ce9e188ba5e235e",
+    "results/festival_feature_spillover_v2/primary_cases.csv": "adedd0848259a8662712c88838f216d8ef05fa4b5716be72c30710144d9bfed0",
+    "src/festival_label_transfer_v2.py": "844af41a7c05417ad8284dc1232348d1ce174cb7037a19876b636a686457a11c",
+    "src/test_festival_label_transfer_v2.py": "7ebd2e1326b4282defb18dd5b059436d22881845b7296374f9b7967becb40b51",
+    "results/festival_label_transfer_v1/protocol.json": "6c0bbd2e69095971bad0044498bd6db802abbc9f9c7dfad690270a447bd36a62",
+    "results/festival_label_transfer_v1/ridge_fixed10/failure.txt": "0b428f4165b2870f3e8557c72d4a435b2aca2f361fe3f55c958b952ffb41a3e6"
+  },
+  "cases_sha256": "4086e193cf330e308369dd9aa33600f70c2e5cbb4439dca39ee4f1340d7ec641",
+  "exclusions": "No fresh foundation-model weights or inference. No claim that classical label exclusion resolves foundation pretraining exposure or source/calendar review.",
+  "version_note": "v1Ridge aborted on2022-08-28because no eligible control exists at28/35/42days. Original partial fits/checkpoint/failure retained, no errors inspected to select this revision. v2extends fixed shifts to28\u201384days and checks EVERYtraining block before protocol freeze/model execution.",
+  "matching_shifts_days": [
+    28,
+    -28,
+    35,
+    -35,
+    42,
+    -42,
+    49,
+    -49,
+    56,
+    -56,
+    63,
+    -63,
+    70,
+    -70,
+    77,
+    -77,
+    84,
+    -84
+  ],
+  "matching_preflight_sha256": "9bcd11c8b36f3a92adb76800a5f582f2c8f8985b3d8464b5afae11362a9b77cd",
+  "execution_overrides": "Wrapper sets engine.OUT to version2 and engine.removed_dates to its fixed28\u201384day matcher; original training/model engine unchanged. No version1 results overwritten."
+}

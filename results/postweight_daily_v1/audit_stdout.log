@@ -1,0 +1,25 @@
+{
+  "status": "pass",
+  "scope": "Separate internal source/date/NumPy/point/probability/log audit; not independent human review, full real-time reconstruction or untouched confirmation",
+  "rows": 3168,
+  "cases_per_configuration": 396,
+  "protected_prior_hashes_unchanged": 686,
+  "models": {
+    "chronos": {
+      "reconstructed_input_tasks": 342,
+      "native_crossing_pairs": 0,
+      "solo_batch_max_difference": 1.52587890625e-05,
+      "weight_sha256": "ddcda3c7508bf2528087723e98a20707cc04b7f370ae275a9fd88078ddba4f42"
+    },
+    "timesfm": {
+      "reconstructed_input_tasks": 342,
+      "native_crossing_pairs": 0,
+      "solo_batch_max_difference": 0.0,
+      "weight_sha256": "a7592b0a8432baee54483254e5647856911ce69e09d09a9bb65904b2d98f17da"
+    }
+  },
+  "local_fits": 36,
+  "matching_original_baseline_groups": 18,
+  "native_uncertainty_arithmetic_and_state_weights": true,
+  "predictions_sha256": "c3943060e2c55363e4ce61865dca5811e304e251dffb85c74b8e5a21368e5867"
+}

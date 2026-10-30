@@ -1,0 +1,4 @@
+{
+  "issue": "Initial blank python-docx reference omitted required Pandoc styles; first PDF tables rendered as stacked cells. Switched to complete Pandoc reference and explicit widths. A missing optional Table Grid style was caught during QA and made conditional. No scientific data or numerical Markdown changed.",
+  "scope": "Current unpublished draft formatting only; final PDF checked after correction"
+}

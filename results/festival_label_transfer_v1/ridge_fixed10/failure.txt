@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "/workspace/tsaf_project/src/festival_label_transfer.py", line 124, in run
+    excluded, control, matches = removed_dates(training_dates, family_dates, prohibited)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/tsaf_project/src/festival_label_transfer.py", line 34, in removed_dates
+    raise ValueError('No date-only matched training-row control for '+str(target.date()))
+ValueError: No date-only matched training-row control for 2022-08-28

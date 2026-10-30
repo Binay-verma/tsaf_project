@@ -1,0 +1,10 @@
+cohort,model,arm,family,state,origin,date,horizon,lower_level,upper_level,lower_prediction,upper_prediction
+event,chronos,pooled_day1,Ugadi_Gudi_Padwa,Karnataka,2024-04-09,2024-04-09,1,q_350,q_400,333.9769897460937,333.68328857421875
+event,chronos,pooled_day5,Ugadi_Gudi_Padwa,Karnataka,2024-04-09,2024-04-09,1,q_350,q_400,334.070068359375,333.7704162597656
+event,chronos,pooled_window1,Ugadi_Gudi_Padwa,Karnataka,2024-04-09,2024-04-09,1,q_350,q_400,333.93475341796875,333.6351013183594
+event,chronos,pooled_window5,Ugadi_Gudi_Padwa,Karnataka,2024-04-09,2024-04-09,1,q_350,q_400,334.0118408203125,333.7108154296875
+event,chronos,zero1,Ugadi_Gudi_Padwa,Karnataka,2024-04-09,2024-04-09,1,q_350,q_400,334.0389404296875,333.71002197265625
+non_event,chronos,pooled_day1,Ugadi_Gudi_Padwa,Karnataka,2024-03-12,2024-03-12,1,q_350,q_400,328.344970703125,328.3314514160156
+non_event,chronos,pooled_window1,Ugadi_Gudi_Padwa,Karnataka,2024-03-12,2024-03-12,1,q_350,q_400,328.81622314453125,328.7667236328125
+non_event,chronos,pooled_window5,Ugadi_Gudi_Padwa,Karnataka,2024-03-12,2024-03-12,1,q_350,q_400,328.76641845703125,328.75762939453125
+non_event,chronos,zero1,Ugadi_Gudi_Padwa,Karnataka,2024-03-12,2024-03-12,1,q_350,q_400,328.27667236328125,328.26959228515625

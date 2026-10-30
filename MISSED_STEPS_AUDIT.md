@@ -2,6 +2,8 @@
 
 Later sharing update: the user explicitly requested pushing the completed work to the existing public GitHub repository; the push through26cc645was verified. Earlier local-only notes below describe the audit-execution checkpoint. No source permission grant or prospective workflow reactivation is implied by the push.
 
+Latest continuation: the pooled-event comparator, supervised-family-label exclusion and broader post-weight daily audit are now complete; see their versioned reports/current handoff. The native uncertainty analysis reveals severe event undercoverage. All58used anchors have a coverage/source worksheet, but zero amendment certifications or human sign-offs. Prior statements below describe the earlier checkpoint and are superseded where execution evidence is now available.
+
 This audit answers the author's request to check what was missed between the earlier benchmark and an added-festival-feature experiment. It distinguishes software checks, evidence limits and work not yet completed. No external review, rights grant or future outcome is inferred.
 
 | Issue found | Action and evidence | Scope / remaining limit |
@@ -21,6 +23,6 @@ This audit answers the author's request to check what was missed between the ear
 | Native forecast uncertainty can be invalid despite correct point metrics | Preserve and inventory quantile crossings; no sorting/clipping to hide them | Point-score audit is not calibration or ordered-distribution certification |
 | Earlier documents contain superseded checkpoint statements | Current status/handoff/report index identify historical protocols/reports separately | Preserve earlier scientific artifacts; use current evidence when preparing claims |
 | Source/rights/human gates remain open | User reports manual permission email sent; no duplicate email. Review and source-vintage evidence remain linked | No permission response or independent human approval received; source revisions/lag and historical model overlap persist |
-| Future outcomes cannot be accelerated for the presentation | Original prospective Git blobs and hashes are protected; no new outcome retrieval | Eligible31October–11Novemberperiod remains incomplete on1November; workflow remains paused pending sharing choice |
+| Future outcomes cannot be accelerated for the presentation | Original prospective Git blobs and hashes are protected; no new outcome retrieval | Eligible31October–11Novemberperiod remains incomplete on1November; workflow remains deliberately paused despite later authorized public synchronization |
 
-Current implementation/tests/run completion are in CODEX_HANDOFF.md and WORK_LOG.md. A frozen design is not a completed experiment; worker run.json and the independent output audits establish which work actually finished. All work remains local under the existing sharing hold.
+Current implementation/tests/run completion are in CODEX_HANDOFF.md and WORK_LOG.md. A frozen design is not a completed experiment; worker run.json and the independent output audits establish which work actually finished. The earlier local-only hold was superseded by explicit public GitHub push authorization; no source grant or prospective reactivation is inferred.

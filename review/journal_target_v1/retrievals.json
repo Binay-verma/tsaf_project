@@ -1,0 +1,58 @@
+[
+  {
+    "name": "ijf_author_guide",
+    "url": "https://www.sciencedirect.com/journal/international-journal-of-forecasting/publish/guide-for-authors",
+    "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>",
+    "checked_utc": "2026-10-30T12:31:57.951354+00:00"
+  },
+  {
+    "name": "ijf_forecasters",
+    "url": "https://forecasters.org/ijf/",
+    "final_url": "https://forecasters.org/ijf/",
+    "http_status": 200,
+    "bytes": 226231,
+    "sha256": "9316925a70764dff91b426314b20eb3b47863da79aa8adcae6721beb886b2f25",
+    "title": "IJF Home - International Institute of Forecasters",
+    "cache_name": "ijf_forecasters",
+    "checked_utc": "2026-10-30T12:31:58.245666+00:00",
+    "ranking_verified": false
+  },
+  {
+    "name": "ijf_scimago_search",
+    "url": "https://www.scimagojr.com/journalsearch.php?q=International%20Journal%20of%20Forecasting",
+    "final_url": "https://www.scimagojr.com/journalsearch.php?q=International%20Journal%20of%20Forecasting",
+    "http_status": 200,
+    "bytes": 13100,
+    "sha256": "d3cc812614676c225d36cb4b918405a2ff05fcee92e57846d7f59dfd62aade38",
+    "title": "SJR - Journal Search",
+    "cache_name": "ijf_scimago_search",
+    "checked_utc": "2026-10-30T12:31:58.271774+00:00",
+    "ranking_verified": false
+  },
+  {
+    "name": "energy_ai_scimago_search",
+    "url": "https://www.scimagojr.com/journalsearch.php?q=Energy%20and%20AI",
+    "final_url": "https://www.scimagojr.com/journalsearch.php?q=Energy%20and%20AI",
+    "http_status": 200,
+    "bytes": 19102,
+    "sha256": "9d60c2b70c29216cc8e00b667b967888d04d41a5bac2d06bb29d138d6cb76127",
+    "title": "SJR - Journal Search",
+    "cache_name": "energy_ai_scimago_search",
+    "checked_utc": "2026-10-30T12:31:58.299897+00:00",
+    "ranking_verified": false
+  },
+  {
+    "name": "energy_ai_author_guide",
+    "url": "https://www.sciencedirect.com/journal/energy-and-ai/publish/guide-for-authors",
+    "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>",
+    "checked_utc": "2026-10-30T12:31:58.258152+00:00"
+  },
+  {
+    "name": "ijf_scimago_profile",
+    "url": "https://www.scimagojr.com/journalsearch.php?q=22706&tip=sid&clean=0",
+    "http_status": 403,
+    "ranking_verified": false,
+    "checked_utc": "2026-10-30T12:32:27.889181+00:00",
+    "note": "Profile access rejected; no bypass attempted. Search listing establishes journal identity only, not a current quartile."
+  }
+]

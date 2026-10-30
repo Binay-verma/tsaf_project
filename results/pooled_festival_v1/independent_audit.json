@@ -1,0 +1,29 @@
+{
+  "status": "pass",
+  "scope": "Separate stdlib internal audit; no independent human review or source/overlap certification",
+  "previous_artifact_hashes_unchanged": 686,
+  "cohorts": {
+    "event": {
+      "status": "pass",
+      "rows": 3456,
+      "new_rows": 2160,
+      "reused_rows": 1296,
+      "cells": 3456,
+      "contrasts": 3024,
+      "identical_cases_per_model_arm": 72,
+      "source_labels_scales_hierarchy_and_paired_changes": true,
+      "combined_sha256": "6b6b99b0eae5cfd49785dc9c61dbcdfd20358476361e3f7efe99f2fec5fe4d00"
+    },
+    "non_event": {
+      "status": "pass",
+      "rows": 3456,
+      "new_rows": 2160,
+      "reused_rows": 1296,
+      "cells": 3456,
+      "contrasts": 3024,
+      "identical_cases_per_model_arm": 72,
+      "source_labels_scales_hierarchy_and_paired_changes": true,
+      "combined_sha256": "c243266dcacc3505ba4abeed027cc279bffce2c915e44bdcaefa787577b4660a"
+    }
+  }
+}

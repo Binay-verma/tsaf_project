@@ -1,0 +1,18 @@
+{
+  "status": "pass",
+  "scope": "Separate internal stdlib arithmetic/aggregation audit, not proof of calibration or human review",
+  "cohorts": {
+    "event": {
+      "cases": 1152,
+      "invalid_endpoint_groups": 0,
+      "complete_native_quantiles": true,
+      "all_case_arithmetic_and_macro_weights_checked": true
+    },
+    "non_event": {
+      "cases": 1152,
+      "invalid_endpoint_groups": 0,
+      "complete_native_quantiles": true,
+      "all_case_arithmetic_and_macro_weights_checked": true
+    }
+  }
+}

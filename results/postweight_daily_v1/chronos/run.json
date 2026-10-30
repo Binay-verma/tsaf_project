@@ -1,0 +1,10 @@
+{
+  "status": "completed",
+  "rows": 792,
+  "inference_tasks": 342,
+  "seconds": 382.22785586399914,
+  "native_quantile_crossings": 0,
+  "weight_sha256": "ddcda3c7508bf2528087723e98a20707cc04b7f370ae275a9fd88078ddba4f42",
+  "protocol_sha256": "f7ba8711a12782fdb443d5b7b8f2ce2e1e167f194ea811d7ebb671f2f31ca231",
+  "predictions_sha256": "fbb1564c00e1ccea379fa32b59b0fec330a737a89ef7f4711d58cc1058c4a6e0"
+}

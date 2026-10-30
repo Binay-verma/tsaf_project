@@ -1,0 +1,2586 @@
+{
+  "status": "discrepancies_retained",
+  "completed_utc": "2026-10-30T12:05:48.736634+00:00",
+  "scope": "First2024event date per state,3leads,5newarms,3regression variants; separate scalar histories/feature construction in clean environment. Not all forecasts, foundation inference or human review.",
+  "python": "3.12.14",
+  "interpreter": "/workspace/tsfm-clean-review/bin/python",
+  "packages": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.8.0",
+    "lightgbm": "4.7.0"
+  },
+  "forecast_checks": 135,
+  "max_difference_GWh": 7.617018127348274e-12,
+  "checks": [
+    {
+      "state": "Delhi",
+      "year": 2024,
+      "origin": "2024-03-25",
+      "target": "2024-03-25",
+      "horizon": 1,
+      "model": "ridge",
+      "arm": "pooled_day1",
+      "absolute_difference_GWh": 1.0444978215673473e-12,
+      "matches": true
+    },
+    {
+      "state": "Delhi",
+      "year": 2024,
+      "origin": "2024-03-25",
+      "target": "2024-03-25",
+      "horizon": 1,
+      "model": "ridge",
+      "arm": "pooled_day5",
+      "absolute_difference_GWh": 1.0302869668521453e-12,
+      "matches": true
+    },
+    {
+      "state": "Delhi",
+      "year": 2024,
+      "origin": "2024-03-25",
+      "target": "2024-03-25",
+      "horizon": 1,
+      "model": "ridge",
+      "arm": "pooled_window1",
+      "absolute_difference_GWh": 9.805489753489383e-13,
+      "matches": true
+    },
+    {
+      "state": "Delhi",
+      "year": 2024,
+      "origin": "2024-03-25",
+      "target": "2024-03-25",
+      "horizon": 1,
+      "model": "ridge",
+      "arm": "pooled_window5",
+      "absolute_difference_GWh": 9.237055564881302e-13,
+      "matches": true
+    },
+    {
+      "state": "Delhi",
+      "year": 2024,
+      "origin": "2024-03-25",
+      "target": "2024-03-25",
+      "horizon": 1,
+      "model": "ridge",
+      "arm": "zero1",
+      "absolute_difference_GWh": 1.2931877790833823e-12,
+      "matches": true
+    },
+    {
+      "state": "Delhi",
+      "year": 2024,
+      "origin": "2024-03-25",
+      "target": "2024-03-25",
+      "horizon": 1,
+      "model": "lightgbm",
+      "arm": "pooled_day1",
+      "absolute_difference_GWh": 0.0,
+      "matches": true
+    },
+    {
+      "state": "Delhi",
+      "year": 2024,
+      "origin": "2024-03-25",
+      "target": "2024-03-25",
+      "horizon": 1,
+      "model": "lightgbm",
+      "arm": "pooled_day5",
+      "absolute_difference_GWh": 0.0,
+      "matches": true
+    },
+    {
+      "state": "Delhi",
+      "year": 2024,
+      "origin": "2024-03-25",
+      "target": "2024-03-25",
+      "horizon": 1,
+      "model": "lightgbm",
+      "arm": "pooled_window1",
+      "absolute_difference_GWh": 0.0,
+      "matches": true
+    },
+    {
+      "state": "Delhi",
+      "year": 2024,
+      "origin": "2024-03-25",
+      "target": "2024-03-25",
+      "horizon": 1,
+      "model": "lightgbm",
+      "arm": "pooled_window5",
+      "absolute_difference_GWh": 0.0,
+      "matches": true
+    },
+    {
+      "state": "Delhi",
+      "year": 2024,
+      "origin": "2024-03-25",
+      "target": "2024-03-25",
+      "horizon": 1,
+      "model": "lightgbm",
+      "arm": "zero1",
+      "absolute_difference_GWh": 0.0,
+      "matches": true
+    },
+    {
+      "state": "Delhi",
+      "year": 2024,
+      "origin": "2024-03-25",
+      "target": "2024-03-25",
+      "horizon": 1,
+      "model": "lightgbm_capacity2",
+      "arm": "pooled_day1",
+      "absolute_difference_GWh": 0.0,
+      "matches": true
+    },
+    {
+      "state": "Delhi",
+      "year": 2024,
+      "origin": "2024-03-25",
+      "target": "2024-03-25",
+      "horizon": 1,
+      "model": "lightgbm_capacity2",
+      "arm": "pooled_day5",
+      "absolute_difference_GWh": 0.0,
+      "matches": true
+    },
+    {
+      "state": "Delhi",
+      "year": 2024,
+      "origin": "2024-03-25",
+      "target": "2024-03-25",
+      "horizon": 1,
+      "model": "lightgbm_capacity2",
+      "arm": "pooled_window1",
+      "absolute_difference_GWh": 0.0,
+      "matches": true
+    },
+    {
+      "state": "Delhi",
+      "year": 2024,
+      "origin": "2024-03-25",
+      "target": "2024-03-25",
+      "horizon": 1,
+      "model": "lightgbm_capacity2",
+      "arm": "pooled_window5",
+      "absolute_difference_GWh": 0.0,
+      "matches": true
+    },
+    {
+      "state": "Delhi",
+      "year": 2024,
+      "origin": "2024-03-25",
+      "target": "2024-03-25",
+      "horizon": 1,
+      "model": "lightgbm_capacity2",
+      "arm": "zero1",
+      "absolute_difference_GWh": 0.0,
+      "matches": true
+    },
+    {
+      "state": "Delhi",
+      "year": 2024,
+      "origin": "2024-03-19",
+      "target": "2024-03-25",
+      "horizon": 7,
+      "model": "ridge",
+      "arm": "pooled_day1",
+      "absolute_difference_GWh": 2.3305801732931286e-12,
+      "matches": true
+    },
+    {
+      "state": "Delhi",
+      "year": 2024,
+      "origin": "2024-03-19",
+      "target": "2024-03-25",
+      "horizon": 7,
+      "model": "ridge",
+      "arm": "pooled_day5",
+      "absolute_difference_GWh": 2.3021584638627246e-12,
+      "matches": true
+    },
+    {
+      "state": "Delhi",
+      "year": 2024,
+      "origin": "2024-03-19",
+      "target": "2024-03-25",
+      "horizon": 7,
+      "model": "ridge",
+      "arm": "pooled_window1",
+      "absolute_difference_GWh": 2.4868995751603507e-12,
+      "matches": true
+    },
+    {
+      "state": "Delhi",
+      "year": 2024,
+      "origin": "2024-03-19",
+      "target": "2024-03-25",
+      "horizon": 7,
+      "model": "ridge",
+      "arm": "pooled_window5",
+      "absolute_difference_GWh": 2.4726887204451486e-12,
+      "matches": true
+    },
+    {
+      "state": "Delhi",
+      "year": 2024,
+      "origin": "2024-03-19",
+      "target": "2024-03-25",
+      "horizon": 7,
+      "model": "ridge",
+      "arm": "zero1",
+      "absolute_difference_GWh": 2.8563817977556027e-12,
+      "matches": true
+    },
+    {
+      "state": "Delhi",
+      "year": 2024,
+      "origin": "2024-03-19",
+      "target": "2024-03-25",
+      "horizon": 7,
+      "model": "lightgbm",
+      "arm": "pooled_day1",
+      "absolute_difference_GWh": 0.0,
+      "matches": true
+    },
+    {
+      "state": "Delhi",
+      "year": 2024,
+      "origin": "2024-03-19",
+      "target": "2024-03-25",
+      "horizon": 7,
+      "model": "lightgbm",
+      "arm": "pooled_day5",
+      "absolute_difference_GWh": 0.0,
+      "matches": true
+    },
+    {
+      "state": "Delhi",
+      "year": 2024,
+      "origin": "2024-03-19",
+      "target": "2024-03-25",
+      "horizon": 7,
+      "model": "lightgbm",
+      "arm": "pooled_window1",
+      "absolute_difference_GWh": 0.0,
+      "matches": true
+    },
+    {
+      "state": "Delhi",
+      "year": 2024,
+      "origin": "2024-03-19",
+      "target": "2024-03-25",
+      "horizon": 7,
+      "model": "lightgbm",
+      "arm": "pooled_window5",
+      "absolute_difference_GWh": 0.0,
+      "matches": true
+    },
+    {
+      "state": "Delhi",
+      "year": 2024,
+      "origin": "2024-03-19",
+      "target": "2024-03-25",
+      "horizon": 7,
+      "model": "lightgbm",
+      "arm": "zero1",
+      "absolute_difference_GWh": 0.0,
+      "matches": true
+    },
+    {
+      "state": "Delhi",
+      "year": 2024,
+      "origin": "2024-03-19",
+      "target": "2024-03-25",
+      "horizon": 7,
+      "model": "lightgbm_capacity2",
+      "arm": "pooled_day1",
+      "absolute_difference_GWh": 0.0,
+      "matches": true
+    },
+    {
+      "state": "Delhi",
+      "year": 2024,
+      "origin": "2024-03-19",
+      "target": "2024-03-25",
+      "horizon": 7,
+      "model": "lightgbm_capacity2",
+      "arm": "pooled_day5",
+      "absolute_difference_GWh": 0.0,
+      "matches": true
+    },
+    {
+      "state": "Delhi",
+      "year": 2024,
+      "origin": "2024-03-19",
+      "target": "2024-03-25",
+      "horizon": 7,
+      "model": "lightgbm_capacity2",
+      "arm": "pooled_window1",
+      "absolute_difference_GWh": 0.0,
+      "matches": true
+    },
+    {
+      "state": "Delhi",
+      "year": 2024,
+      "origin": "2024-03-19",
+      "target": "2024-03-25",
+      "horizon": 7,
+      "model": "lightgbm_capacity2",
+      "arm": "pooled_window5",
+      "absolute_difference_GWh": 0.0,
+      "matches": true
+    },
+    {
+      "state": "Delhi",
+      "year": 2024,
+      "origin": "2024-03-19",
+      "target": "2024-03-25",
+      "horizon": 7,
+      "model": "lightgbm_capacity2",
+      "arm": "zero1",
+      "absolute_difference_GWh": 0.0,
+      "matches": true
+    },
+    {
+      "state": "Delhi",
+      "year": 2024,
+      "origin": "2024-03-12",
+      "target": "2024-03-25",
+      "horizon": 14,
+      "model": "ridge",
+      "arm": "pooled_day1",
+      "absolute_difference_GWh": 1.3358203432289883e-12,
+      "matches": true
+    },
+    {
+      "state": "Delhi",
+      "year": 2024,
+      "origin": "2024-03-12",
+      "target": "2024-03-25",
+      "horizon": 14,
+      "model": "ridge",
+      "arm": "pooled_day5",
+      "absolute_difference_GWh": 1.3358203432289883e-12,
+      "matches": true
+    },
+    {
+      "state": "Delhi",
+      "year": 2024,
+      "origin": "2024-03-12",
+      "target": "2024-03-25",
+      "horizon": 14,
+      "model": "ridge",
+      "arm": "pooled_window1",
+      "absolute_difference_GWh": 1.2931877790833823e-12,
+      "matches": true
+    },
+    {
+      "state": "Delhi",
+      "year": 2024,
+      "origin": "2024-03-12",
+      "target": "2024-03-25",
+      "horizon": 14,
+      "model": "ridge",
+      "arm": "pooled_window5",
+      "absolute_difference_GWh": 1.2931877790833823e-12,
+      "matches": true
+    },
+    {
+      "state": "Delhi",
+      "year": 2024,
+      "origin": "2024-03-12",
+      "target": "2024-03-25",
+      "horizon": 14,
+      "model": "ridge",
+      "arm": "zero1",
+      "absolute_difference_GWh": 1.5489831639570184e-12,
+      "matches": true
+    },
+    {
+      "state": "Delhi",
+      "year": 2024,
+      "origin": "2024-03-12",
+      "target": "2024-03-25",
+      "horizon": 14,
+      "model": "lightgbm",
+      "arm": "pooled_day1",
+      "absolute_difference_GWh": 0.0,
+      "matches": true
+    },
+    {
+      "state": "Delhi",
+      "year": 2024,
+      "origin": "2024-03-12",
+      "target": "2024-03-25",
+      "horizon": 14,
+      "model": "lightgbm",
+      "arm": "pooled_day5",
+      "absolute_difference_GWh": 0.0,
+      "matches": true
+    },
+    {
+      "state": "Delhi",
+      "year": 2024,
+      "origin": "2024-03-12",
+      "target": "2024-03-25",
+      "horizon": 14,
+      "model": "lightgbm",
+      "arm": "pooled_window1",
+      "absolute_difference_GWh": 0.0,
+      "matches": true
+    },
+    {
+      "state": "Delhi",
+      "year": 2024,
+      "origin": "2024-03-12",
+      "target": "2024-03-25",
+      "horizon": 14,
+      "model": "lightgbm",
+      "arm": "pooled_window5",
+      "absolute_difference_GWh": 0.0,
+      "matches": true
+    },
+    {
+      "state": "Delhi",
+      "year": 2024,
+      "origin": "2024-03-12",
+      "target": "2024-03-25",
+      "horizon": 14,
+      "model": "lightgbm",
+      "arm": "zero1",
+      "absolute_difference_GWh": 0.0,
+      "matches": true
+    },
+    {
+      "state": "Delhi",
+      "year": 2024,
+      "origin": "2024-03-12",
+      "target": "2024-03-25",
+      "horizon": 14,
+      "model": "lightgbm_capacity2",
+      "arm": "pooled_day1",
+      "absolute_difference_GWh": 0.0,
+      "matches": true
+    },
+    {
+      "state": "Delhi",
+      "year": 2024,
+      "origin": "2024-03-12",
+      "target": "2024-03-25",
+      "horizon": 14,
+      "model": "lightgbm_capacity2",
+      "arm": "pooled_day5",
+      "absolute_difference_GWh": 0.0,
+      "matches": true
+    },
+    {
+      "state": "Delhi",
+      "year": 2024,
+      "origin": "2024-03-12",
+      "target": "2024-03-25",
+      "horizon": 14,
+      "model": "lightgbm_capacity2",
+      "arm": "pooled_window1",
+      "absolute_difference_GWh": 0.0,
+      "matches": true
+    },
+    {
+      "state": "Delhi",
+      "year": 2024,
+      "origin": "2024-03-12",
+      "target": "2024-03-25",
+      "horizon": 14,
+      "model": "lightgbm_capacity2",
+      "arm": "pooled_window5",
+      "absolute_difference_GWh": 0.0,
+      "matches": true
+    },
+    {
+      "state": "Delhi",
+      "year": 2024,
+      "origin": "2024-03-12",
+      "target": "2024-03-25",
+      "horizon": 14,
+      "model": "lightgbm_capacity2",
+      "arm": "zero1",
+      "absolute_difference_GWh": 0.0,
+      "matches": true
+    },
+    {
+      "state": "Karnataka",
+      "year": 2024,
+      "origin": "2024-04-09",
+      "target": "2024-04-09",
+      "horizon": 1,
+      "model": "ridge",
+      "arm": "pooled_day1",
+      "absolute_difference_GWh": 2.2737367544323206e-13,
+      "matches": true
+    },
+    {
+      "state": "Karnataka",
+      "year": 2024,
+      "origin": "2024-04-09",
+      "target": "2024-04-09",
+      "horizon": 1,
+      "model": "ridge",
+      "arm": "pooled_day5",
+      "absolute_difference_GWh": 2.8421709430404007e-13,
+      "matches": true
+    },
+    {
+      "state": "Karnataka",
+      "year": 2024,
+      "origin": "2024-04-09",
+      "target": "2024-04-09",
+      "horizon": 1,
+      "model": "ridge",
+      "arm": "pooled_window1",
+      "absolute_difference_GWh": 2.8421709430404007e-13,
+      "matches": true
+    },
+    {
+      "state": "Karnataka",
+      "year": 2024,
+      "origin": "2024-04-09",
+      "target": "2024-04-09",
+      "horizon": 1,
+      "model": "ridge",
+      "arm": "pooled_window5",
+      "absolute_difference_GWh": 2.8421709430404007e-13,
+      "matches": true
+    },
+    {
+      "state": "Karnataka",
+      "year": 2024,
+      "origin": "2024-04-09",
+      "target": "2024-04-09",
+      "horizon": 1,
+      "model": "ridge",
+      "arm": "zero1",
+      "absolute_difference_GWh": 3.979039320256561e-13,
+      "matches": true
+    },
+    {
+      "state": "Karnataka",
+      "year": 2024,
+      "origin": "2024-04-09",
+      "target": "2024-04-09",
+      "horizon": 1,
+      "model": "lightgbm",
+      "arm": "pooled_day1",
+      "absolute_difference_GWh": 0.0,
+      "matches": true
+    },
+    {
+      "state": "Karnataka",
+      "year": 2024,
+      "origin": "2024-04-09",
+      "target": "2024-04-09",
+      "horizon": 1,
+      "model": "lightgbm",
+      "arm": "pooled_day5",
+      "absolute_difference_GWh": 0.0,
+      "matches": true
+    },
+    {
+      "state": "Karnataka",
+      "year": 2024,
+      "origin": "2024-04-09",
+      "target": "2024-04-09",
+      "horizon": 1,
+      "model": "lightgbm",
+      "arm": "pooled_window1",
+      "absolute_difference_GWh": 0.0,
+      "matches": true
+    },
+    {
+      "state": "Karnataka",
+      "year": 2024,
+      "origin": "2024-04-09",
+      "target": "2024-04-09",
+      "horizon": 1,
+      "model": "lightgbm",
+      "arm": "pooled_window5",
+      "absolute_difference_GWh": 0.0,
+      "matches": true
+    },
+    {
+      "state": "Karnataka",
+      "year": 2024,
+      "origin": "2024-04-09",
+      "target": "2024-04-09",
+      "horizon": 1,
+      "model": "lightgbm",
+      "arm": "zero1",
+      "absolute_difference_GWh": 0.0,
+      "matches": true
+    },
+    {
+      "state": "Karnataka",
+      "year": 2024,
+      "origin": "2024-04-09",
+      "target": "2024-04-09",
+      "horizon": 1,
+      "model": "lightgbm_capacity2",
+      "arm": "pooled_day1",
+      "absolute_difference_GWh": 0.0,
+      "matches": true
+    },
+    {
+      "state": "Karnataka",
+      "year": 2024,
+      "origin": "2024-04-09",
+      "target": "2024-04-09",
+      "horizon": 1,
+      "model": "lightgbm_capacity2",
+      "arm": "pooled_day5",
+      "absolute_difference_GWh": 0.0,
+      "matches": true
+    },
+    {
+      "state": "Karnataka",
+      "year": 2024,
+      "origin": "2024-04-09",
+      "target": "2024-04-09",
+      "horizon": 1,
+      "model": "lightgbm_capacity2",
+      "arm": "pooled_window1",
+      "absolute_difference_GWh": 0.0,
+      "matches": true
+    },
+    {
+      "state": "Karnataka",
+      "year": 2024,
+      "origin": "2024-04-09",
+      "target": "2024-04-09",
+      "horizon": 1,
+      "model": "lightgbm_capacity2",
+      "arm": "pooled_window5",
+      "absolute_difference_GWh": 0.0,
+      "matches": true
+    },
+    {
+      "state": "Karnataka",
+      "year": 2024,
+      "origin": "2024-04-09",
+      "target": "2024-04-09",
+      "horizon": 1,
+      "model": "lightgbm_capacity2",
+      "arm": "zero1",
+      "absolute_difference_GWh": 0.0,
+      "matches": true
+    },
+    {
+      "state": "Karnataka",
+      "year": 2024,
+      "origin": "2024-04-03",
+      "target": "2024-04-09",
+      "horizon": 7,
+      "model": "ridge",
+      "arm": "pooled_day1",
+      "absolute_difference_GWh": 4.490630090003833e-12,
+      "matches": true
+    },
+    {
+      "state": "Karnataka",
+      "year": 2024,
+      "origin": "2024-04-03",
+      "target": "2024-04-09",
+      "horizon": 7,
+      "model": "ridge",
+      "arm": "pooled_day5",
+      "absolute_difference_GWh": 4.604316927725449e-12,
+      "matches": true
+    },
+    {
+      "state": "Karnataka",
+      "year": 2024,
+      "origin": "2024-04-03",
+      "target": "2024-04-09",
+      "horizon": 7,
+      "model": "ridge",
+      "arm": "pooled_window1",
+      "absolute_difference_GWh": 5.172751116333529e-12,
+      "matches": true
+    },
+    {
+      "state": "Karnataka",
+      "year": 2024,
+      "origin": "2024-04-03",
+      "target": "2024-04-09",
+      "horizon": 7,
+      "model": "ridge",
+      "arm": "pooled_window5",
+      "absolute_difference_GWh": 5.229594535194337e-12,
+      "matches": true
+    },
+    {
+      "state": "Karnataka",
+      "year": 2024,
+      "origin": "2024-04-03",
+      "target": "2024-04-09",
+      "horizon": 7,
+      "model": "ridge",
+      "arm": "zero1",
+      "absolute_difference_GWh": 4.831690603168681e-12,
+      "matches": true
+    },
+    {
+      "state": "Karnataka",
+      "year": 2024,
+      "origin": "2024-04-03",
+      "target": "2024-04-09",
+      "horizon": 7,
+      "model": "lightgbm",
+      "arm": "pooled_day1",
+      "absolute_difference_GWh": 0.0,
+      "matches": true
+    },
+    {
+      "state": "Karnataka",
+      "year": 2024,
+      "origin": "2024-04-03",
+      "target": "2024-04-09",
+      "horizon": 7,
+      "model": "lightgbm",
+      "arm": "pooled_day5",
+      "absolute_difference_GWh": 0.0,
+      "matches": true
+    },
+    {
+      "state": "Karnataka",
+      "year": 2024,
+      "origin": "2024-04-03",
+      "target": "2024-04-09",
+      "horizon": 7,
+      "model": "lightgbm",
+      "arm": "pooled_window1",
+      "absolute_difference_GWh": 0.0,
+      "matches": true
+    },
+    {
+      "state": "Karnataka",
+      "year": 2024,
+      "origin": "2024-04-03",
+      "target": "2024-04-09",
+      "horizon": 7,
+      "model": "lightgbm",
+      "arm": "pooled_window5",
+      "absolute_difference_GWh": 0.0,
+      "matches": true
+    },
+    {
+      "state": "Karnataka",
+      "year": 2024,
+      "origin": "2024-04-03",
+      "target": "2024-04-09",
+      "horizon": 7,
+      "model": "lightgbm",
+      "arm": "zero1",
+      "absolute_difference_GWh": 0.0,
+      "matches": true
+    },
+    {
+      "state": "Karnataka",
+      "year": 2024,
+      "origin": "2024-04-03",
+      "target": "2024-04-09",
+      "horizon": 7,
+      "model": "lightgbm_capacity2",
+      "arm": "pooled_day1",
+      "absolute_difference_GWh": 0.0,
+      "matches": true
+    },
+    {
+      "state": "Karnataka",
+      "year": 2024,
+      "origin": "2024-04-03",
+      "target": "2024-04-09",
+      "horizon": 7,
+      "model": "lightgbm_capacity2",
+      "arm": "pooled_day5",
+      "absolute_difference_GWh": 0.0,
+      "matches": true
+    },
+    {
+      "state": "Karnataka",
+      "year": 2024,
+      "origin": "2024-04-03",
+      "target": "2024-04-09",
+      "horizon": 7,
+      "model": "lightgbm_capacity2",
+      "arm": "pooled_window1",
+      "absolute_difference_GWh": 0.0,
+      "matches": true
+    },
+    {
+      "state": "Karnataka",
+      "year": 2024,
+      "origin": "2024-04-03",
+      "target": "2024-04-09",
+      "horizon": 7,
+      "model": "lightgbm_capacity2",
+      "arm": "pooled_window5",
+      "absolute_difference_GWh": 0.0,
+      "matches": true
+    },
+    {
+      "state": "Karnataka",
+      "year": 2024,
+      "origin": "2024-04-03",
+      "target": "2024-04-09",
+      "horizon": 7,
+      "model": "lightgbm_capacity2",
+      "arm": "zero1",
+      "absolute_difference_GWh": 0.0,
+      "matches": true
+    },
+    {
+      "state": "Karnataka",
+      "year": 2024,
+      "origin": "2024-03-27",
+      "target": "2024-04-09",
+      "horizon": 14,
+      "model": "ridge",
+      "arm": "pooled_day1",
+      "absolute_difference_GWh": 8.526512829121202e-13,
+      "matches": true
+    },
+    {
+      "state": "Karnataka",
+      "year": 2024,
+      "origin": "2024-03-27",
+      "target": "2024-04-09",
+      "horizon": 14,
+      "model": "ridge",
+      "arm": "pooled_day5",
+      "absolute_difference_GWh": 7.958078640513122e-13,
+      "matches": true
+    },
+    {
+      "state": "Karnataka",
+      "year": 2024,
+      "origin": "2024-03-27",
+      "target": "2024-04-09",
+      "horizon": 14,
+      "model": "ridge",
+      "arm": "pooled_window1",
+      "absolute_difference_GWh": 1.7621459846850485e-12,
+      "matches": true
+    },
+    {
+      "state": "Karnataka",
+      "year": 2024,
+      "origin": "2024-03-27",
+      "target": "2024-04-09",
+      "horizon": 14,
+      "model": "ridge",
+      "arm": "pooled_window5",
+      "absolute_difference_GWh": 1.7621459846850485e-12,
+      "matches": true
+    },
+    {
+      "state": "Karnataka",
+      "year": 2024,
+      "origin": "2024-03-27",
+      "target": "2024-04-09",
+      "horizon": 14,
+      "model": "ridge",
+      "arm": "zero1",
+      "absolute_difference_GWh": 5.684341886080802e-14,
+      "matches": true
+    },
+    {
+      "state": "Karnataka",
+      "year": 2024,
+      "origin": "2024-03-27",
+      "target": "2024-04-09",
+      "horizon": 14,
+      "model": "lightgbm",
+      "arm": "pooled_day1",
+      "absolute_difference_GWh": 0.0,
+      "matches": true
+    },
+    {
+      "state": "Karnataka",
+      "year": 2024,
+      "origin": "2024-03-27",
+      "target": "2024-04-09",
+      "horizon": 14,
+      "model": "lightgbm",
+      "arm": "pooled_day5",
+      "absolute_difference_GWh": 0.0,
+      "matches": true
+    },
+    {
+      "state": "Karnataka",
+      "year": 2024,
+      "origin": "2024-03-27",
+      "target": "2024-04-09",
+      "horizon": 14,
+      "model": "lightgbm",
+      "arm": "pooled_window1",
+      "absolute_difference_GWh": 0.0,
+      "matches": true
+    },
+    {
+      "state": "Karnataka",
+      "year": 2024,
+      "origin": "2024-03-27",
+      "target": "2024-04-09",
+      "horizon": 14,
+      "model": "lightgbm",
+      "arm": "pooled_window5",
+      "absolute_difference_GWh": 0.0,
+      "matches": true
+    },
+    {
+      "state": "Karnataka",
+      "year": 2024,
+      "origin": "2024-03-27",
+      "target": "2024-04-09",
+      "horizon": 14,
+      "model": "lightgbm",
+      "arm": "zero1",
+      "absolute_difference_GWh": 0.0,
+      "matches": true
+    },
+    {
+      "state": "Karnataka",
+      "year": 2024,
+      "origin": "2024-03-27",
+      "target": "2024-04-09",
+      "horizon": 14,
+      "model": "lightgbm_capacity2",
+      "arm": "pooled_day1",
+      "absolute_difference_GWh": 0.0,
+      "matches": true
+    },
+    {
+      "state": "Karnataka",
+      "year": 2024,
+      "origin": "2024-03-27",
+      "target": "2024-04-09",
+      "horizon": 14,
+      "model": "lightgbm_capacity2",
+      "arm": "pooled_day5",
+      "absolute_difference_GWh": 0.0,
+      "matches": true
+    },
+    {
+      "state": "Karnataka",
+      "year": 2024,
+      "origin": "2024-03-27",
+      "target": "2024-04-09",
+      "horizon": 14,
+      "model": "lightgbm_capacity2",
+      "arm": "pooled_window1",
+      "absolute_difference_GWh": 0.0,
+      "matches": true
+    },
+    {
+      "state": "Karnataka",
+      "year": 2024,
+      "origin": "2024-03-27",
+      "target": "2024-04-09",
+      "horizon": 14,
+      "model": "lightgbm_capacity2",
+      "arm": "pooled_window5",
+      "absolute_difference_GWh": 0.0,
+      "matches": true
+    },
+    {
+      "state": "Karnataka",
+      "year": 2024,
+      "origin": "2024-03-27",
+      "target": "2024-04-09",
+      "horizon": 14,
+      "model": "lightgbm_capacity2",
+      "arm": "zero1",
+      "absolute_difference_GWh": 0.0,
+      "matches": true
+    },
+    {
+      "state": "Maharashtra",
+      "year": 2024,
+      "origin": "2024-03-25",
+      "target": "2024-03-25",
+      "horizon": 1,
+      "model": "ridge",
+      "arm": "pooled_day1",
+      "absolute_difference_GWh": 2.5011104298755527e-12,
+      "matches": true
+    },
+    {
+      "state": "Maharashtra",
+      "year": 2024,
+      "origin": "2024-03-25",
+      "target": "2024-03-25",
+      "horizon": 1,
+      "model": "ridge",
+      "arm": "pooled_day5",
+      "absolute_difference_GWh": 2.3874235921539366e-12,
+      "matches": true
+    },
+    {
+      "state": "Maharashtra",
+      "year": 2024,
+      "origin": "2024-03-25",
+      "target": "2024-03-25",
+      "horizon": 1,
+      "model": "ridge",
+      "arm": "pooled_window1",
+      "absolute_difference_GWh": 2.5011104298755527e-12,
+      "matches": true
+    },
+    {
+      "state": "Maharashtra",
+      "year": 2024,
+      "origin": "2024-03-25",
+      "target": "2024-03-25",
+      "horizon": 1,
+      "model": "ridge",
+      "arm": "pooled_window5",
+      "absolute_difference_GWh": 2.2737367544323206e-12,
+      "matches": true
+    },
+    {
+      "state": "Maharashtra",
+      "year": 2024,
+      "origin": "2024-03-25",
+      "target": "2024-03-25",
+      "horizon": 1,
+      "model": "ridge",
+      "arm": "zero1",
+      "absolute_difference_GWh": 2.0463630789890885e-12,
+      "matches": true
+    },
+    {
+      "state": "Maharashtra",
+      "year": 2024,
+      "origin": "2024-03-25",
+      "target": "2024-03-25",
+      "horizon": 1,
+      "model": "lightgbm",
+      "arm": "pooled_day1",
+      "absolute_difference_GWh": 0.0,
+      "matches": true
+    },
+    {
+      "state": "Maharashtra",
+      "year": 2024,
+      "origin": "2024-03-25",
+      "target": "2024-03-25",
+      "horizon": 1,
+      "model": "lightgbm",
+      "arm": "pooled_day5",
+      "absolute_difference_GWh": 0.0,
+      "matches": true
+    },
+    {
+      "state": "Maharashtra",
+      "year": 2024,
+      "origin": "2024-03-25",
+      "target": "2024-03-25",
+      "horizon": 1,
+      "model": "lightgbm",
+      "arm": "pooled_window1",
+      "absolute_difference_GWh": 0.0,
+      "matches": true
+    },
+    {
+      "state": "Maharashtra",
+      "year": 2024,
+      "origin": "2024-03-25",
+      "target": "2024-03-25",
+      "horizon": 1,
+      "model": "lightgbm",
+      "arm": "pooled_window5",
+      "absolute_difference_GWh": 0.0,
+      "matches": true
+    },
+    {
+      "state": "Maharashtra",
+      "year": 2024,
+      "origin": "2024-03-25",
+      "target": "2024-03-25",
+      "horizon": 1,
+      "model": "lightgbm",
+      "arm": "zero1",
+      "absolute_difference_GWh": 0.0,
+      "matches": true
+    },
+    {
+      "state": "Maharashtra",
+      "year": 2024,
+      "origin": "2024-03-25",
+      "target": "2024-03-25",
+      "horizon": 1,
+      "model": "lightgbm_capacity2",
+      "arm": "pooled_day1",
+      "absolute_difference_GWh": 0.0,
+      "matches": true
+    },
+    {
+      "state": "Maharashtra",
+      "year": 2024,
+      "origin": "2024-03-25",
+      "target": "2024-03-25",
+      "horizon": 1,
+      "model": "lightgbm_capacity2",
+      "arm": "pooled_day5",
+      "absolute_difference_GWh": 0.0,
+      "matches": true
+    },
+    {
+      "state": "Maharashtra",
+      "year": 2024,
+      "origin": "2024-03-25",
+      "target": "2024-03-25",
+      "horizon": 1,
+      "model": "lightgbm_capacity2",
+      "arm": "pooled_window1",
+      "absolute_difference_GWh": 0.0,
+      "matches": true
+    },
+    {
+      "state": "Maharashtra",
+      "year": 2024,
+      "origin": "2024-03-25",
+      "target": "2024-03-25",
+      "horizon": 1,
+      "model": "lightgbm_capacity2",
+      "arm": "pooled_window5",
+      "absolute_difference_GWh": 0.0,
+      "matches": true
+    },
+    {
+      "state": "Maharashtra",
+      "year": 2024,
+      "origin": "2024-03-25",
+      "target": "2024-03-25",
+      "horizon": 1,
+      "model": "lightgbm_capacity2",
+      "arm": "zero1",
+      "absolute_difference_GWh": 0.0,
+      "matches": true
+    },
+    {
+      "state": "Maharashtra",
+      "year": 2024,
+      "origin": "2024-03-19",
+      "target": "2024-03-25",
+      "horizon": 7,
+      "model": "ridge",
+      "arm": "pooled_day1",
+      "absolute_difference_GWh": 3.524291969370097e-12,
+      "matches": true
+    },
+    {
+      "state": "Maharashtra",
+      "year": 2024,
+      "origin": "2024-03-19",
+      "target": "2024-03-25",
+      "horizon": 7,
+      "model": "ridge",
+      "arm": "pooled_day5",
+      "absolute_difference_GWh": 3.410605131648481e-12,
+      "matches": true
+    },
+    {
+      "state": "Maharashtra",
+      "year": 2024,
+      "origin": "2024-03-19",
+      "target": "2024-03-25",
+      "horizon": 7,
+      "model": "ridge",
+      "arm": "pooled_window1",
+      "absolute_difference_GWh": 4.320099833421409e-12,
+      "matches": true
+    },
+    {
+      "state": "Maharashtra",
+      "year": 2024,
+      "origin": "2024-03-19",
+      "target": "2024-03-25",
+      "horizon": 7,
+      "model": "ridge",
+      "arm": "pooled_window5",
+      "absolute_difference_GWh": 4.206412995699793e-12,
+      "matches": true
+    },
+    {
+      "state": "Maharashtra",
+      "year": 2024,
+      "origin": "2024-03-19",
+      "target": "2024-03-25",
+      "horizon": 7,
+      "model": "ridge",
+      "arm": "zero1",
+      "absolute_difference_GWh": 4.547473508864641e-12,
+      "matches": true
+    },
+    {
+      "state": "Maharashtra",
+      "year": 2024,
+      "origin": "2024-03-19",
+      "target": "2024-03-25",
+      "horizon": 7,
+      "model": "lightgbm",
+      "arm": "pooled_day1",
+      "absolute_difference_GWh": 0.0,
+      "matches": true
+    },
+    {
+      "state": "Maharashtra",
+      "year": 2024,
+      "origin": "2024-03-19",
+      "target": "2024-03-25",
+      "horizon": 7,
+      "model": "lightgbm",
+      "arm": "pooled_day5",
+      "absolute_difference_GWh": 0.0,
+      "matches": true
+    },
+    {
+      "state": "Maharashtra",
+      "year": 2024,
+      "origin": "2024-03-19",
+      "target": "2024-03-25",
+      "horizon": 7,
+      "model": "lightgbm",
+      "arm": "pooled_window1",
+      "absolute_difference_GWh": 0.0,
+      "matches": true
+    },
+    {
+      "state": "Maharashtra",
+      "year": 2024,
+      "origin": "2024-03-19",
+      "target": "2024-03-25",
+      "horizon": 7,
+      "model": "lightgbm",
+      "arm": "pooled_window5",
+      "absolute_difference_GWh": 0.0,
+      "matches": true
+    },
+    {
+      "state": "Maharashtra",
+      "year": 2024,
+      "origin": "2024-03-19",
+      "target": "2024-03-25",
+      "horizon": 7,
+      "model": "lightgbm",
+      "arm": "zero1",
+      "absolute_difference_GWh": 0.0,
+      "matches": true
+    },
+    {
+      "state": "Maharashtra",
+      "year": 2024,
+      "origin": "2024-03-19",
+      "target": "2024-03-25",
+      "horizon": 7,
+      "model": "lightgbm_capacity2",
+      "arm": "pooled_day1",
+      "absolute_difference_GWh": 0.0,
+      "matches": true
+    },
+    {
+      "state": "Maharashtra",
+      "year": 2024,
+      "origin": "2024-03-19",
+      "target": "2024-03-25",
+      "horizon": 7,
+      "model": "lightgbm_capacity2",
+      "arm": "pooled_day5",
+      "absolute_difference_GWh": 0.0,
+      "matches": true
+    },
+    {
+      "state": "Maharashtra",
+      "year": 2024,
+      "origin": "2024-03-19",
+      "target": "2024-03-25",
+      "horizon": 7,
+      "model": "lightgbm_capacity2",
+      "arm": "pooled_window1",
+      "absolute_difference_GWh": 0.0,
+      "matches": true
+    },
+    {
+      "state": "Maharashtra",
+      "year": 2024,
+      "origin": "2024-03-19",
+      "target": "2024-03-25",
+      "horizon": 7,
+      "model": "lightgbm_capacity2",
+      "arm": "pooled_window5",
+      "absolute_difference_GWh": 0.0,
+      "matches": true
+    },
+    {
+      "state": "Maharashtra",
+      "year": 2024,
+      "origin": "2024-03-19",
+      "target": "2024-03-25",
+      "horizon": 7,
+      "model": "lightgbm_capacity2",
+      "arm": "zero1",
+      "absolute_difference_GWh": 0.0,
+      "matches": true
+    },
+    {
+      "state": "Maharashtra",
+      "year": 2024,
+      "origin": "2024-03-12",
+      "target": "2024-03-25",
+      "horizon": 14,
+      "model": "ridge",
+      "arm": "pooled_day1",
+      "absolute_difference_GWh": 7.503331289626658e-12,
+      "matches": true
+    },
+    {
+      "state": "Maharashtra",
+      "year": 2024,
+      "origin": "2024-03-12",
+      "target": "2024-03-25",
+      "horizon": 14,
+      "model": "ridge",
+      "arm": "pooled_day5",
+      "absolute_difference_GWh": 7.617018127348274e-12,
+      "matches": true
+    },
+    {
+      "state": "Maharashtra",
+      "year": 2024,
+      "origin": "2024-03-12",
+      "target": "2024-03-25",
+      "horizon": 14,
+      "model": "ridge",
+      "arm": "pooled_window1",
+      "absolute_difference_GWh": 7.503331289626658e-12,
+      "matches": true
+    },
+    {
+      "state": "Maharashtra",
+      "year": 2024,
+      "origin": "2024-03-12",
+      "target": "2024-03-25",
+      "horizon": 14,
+      "model": "ridge",
+      "arm": "pooled_window5",
+      "absolute_difference_GWh": 7.617018127348274e-12,
+      "matches": true
+    },
+    {
+      "state": "Maharashtra",
+      "year": 2024,
+      "origin": "2024-03-12",
+      "target": "2024-03-25",
+      "horizon": 14,
+      "model": "ridge",
+      "arm": "zero1",
+      "absolute_difference_GWh": 6.59383658785373e-12,
+      "matches": true
+    },
+    {
+      "state": "Maharashtra",
+      "year": 2024,
+      "origin": "2024-03-12",
+      "target": "2024-03-25",
+      "horizon": 14,
+      "model": "lightgbm",
+      "arm": "pooled_day1",
+      "absolute_difference_GWh": 0.0,
+      "matches": true
+    },
+    {
+      "state": "Maharashtra",
+      "year": 2024,
+      "origin": "2024-03-12",
+      "target": "2024-03-25",
+      "horizon": 14,
+      "model": "lightgbm",
+      "arm": "pooled_day5",
+      "absolute_difference_GWh": 0.0,
+      "matches": true
+    },
+    {
+      "state": "Maharashtra",
+      "year": 2024,
+      "origin": "2024-03-12",
+      "target": "2024-03-25",
+      "horizon": 14,
+      "model": "lightgbm",
+      "arm": "pooled_window1",
+      "absolute_difference_GWh": 0.0,
+      "matches": true
+    },
+    {
+      "state": "Maharashtra",
+      "year": 2024,
+      "origin": "2024-03-12",
+      "target": "2024-03-25",
+      "horizon": 14,
+      "model": "lightgbm",
+      "arm": "pooled_window5",
+      "absolute_difference_GWh": 0.0,
+      "matches": true
+    },
+    {
+      "state": "Maharashtra",
+      "year": 2024,
+      "origin": "2024-03-12",
+      "target": "2024-03-25",
+      "horizon": 14,
+      "model": "lightgbm",
+      "arm": "zero1",
+      "absolute_difference_GWh": 0.0,
+      "matches": true
+    },
+    {
+      "state": "Maharashtra",
+      "year": 2024,
+      "origin": "2024-03-12",
+      "target": "2024-03-25",
+      "horizon": 14,
+      "model": "lightgbm_capacity2",
+      "arm": "pooled_day1",
+      "absolute_difference_GWh": 0.0,
+      "matches": true
+    },
+    {
+      "state": "Maharashtra",
+      "year": 2024,
+      "origin": "2024-03-12",
+      "target": "2024-03-25",
+      "horizon": 14,
+      "model": "lightgbm_capacity2",
+      "arm": "pooled_day5",
+      "absolute_difference_GWh": 0.0,
+      "matches": true
+    },
+    {
+      "state": "Maharashtra",
+      "year": 2024,
+      "origin": "2024-03-12",
+      "target": "2024-03-25",
+      "horizon": 14,
+      "model": "lightgbm_capacity2",
+      "arm": "pooled_window1",
+      "absolute_difference_GWh": 0.0,
+      "matches": true
+    },
+    {
+      "state": "Maharashtra",
+      "year": 2024,
+      "origin": "2024-03-12",
+      "target": "2024-03-25",
+      "horizon": 14,
+      "model": "lightgbm_capacity2",
+      "arm": "pooled_window5",
+      "absolute_difference_GWh": 0.0,
+      "matches": true
+    },
+    {
+      "state": "Maharashtra",
+      "year": 2024,
+      "origin": "2024-03-12",
+      "target": "2024-03-25",
+      "horizon": 14,
+      "model": "lightgbm_capacity2",
+      "arm": "zero1",
+      "absolute_difference_GWh": 0.0,
+      "matches": true
+    }
+  ],
+  "matrix_checks": [
+    {
+      "state": "Delhi",
+      "horizon": 1,
+      "model": "ridge",
+      "arm": "pooled_day1",
+      "exact_training_X": false,
+      "exact_y": true
+    },
+    {
+      "state": "Delhi",
+      "horizon": 1,
+      "model": "ridge",
+      "arm": "pooled_day5",
+      "exact_training_X": false,
+      "exact_y": true
+    },
+    {
+      "state": "Delhi",
+      "horizon": 1,
+      "model": "ridge",
+      "arm": "pooled_window1",
+      "exact_training_X": false,
+      "exact_y": true
+    },
+    {
+      "state": "Delhi",
+      "horizon": 1,
+      "model": "ridge",
+      "arm": "pooled_window5",
+      "exact_training_X": false,
+      "exact_y": true
+    },
+    {
+      "state": "Delhi",
+      "horizon": 1,
+      "model": "ridge",
+      "arm": "zero1",
+      "exact_training_X": false,
+      "exact_y": true
+    },
+    {
+      "state": "Delhi",
+      "horizon": 1,
+      "model": "lightgbm",
+      "arm": "pooled_day1",
+      "exact_training_X": false,
+      "exact_y": true
+    },
+    {
+      "state": "Delhi",
+      "horizon": 1,
+      "model": "lightgbm",
+      "arm": "pooled_day5",
+      "exact_training_X": false,
+      "exact_y": true
+    },
+    {
+      "state": "Delhi",
+      "horizon": 1,
+      "model": "lightgbm",
+      "arm": "pooled_window1",
+      "exact_training_X": false,
+      "exact_y": true
+    },
+    {
+      "state": "Delhi",
+      "horizon": 1,
+      "model": "lightgbm",
+      "arm": "pooled_window5",
+      "exact_training_X": false,
+      "exact_y": true
+    },
+    {
+      "state": "Delhi",
+      "horizon": 1,
+      "model": "lightgbm",
+      "arm": "zero1",
+      "exact_training_X": false,
+      "exact_y": true
+    },
+    {
+      "state": "Delhi",
+      "horizon": 1,
+      "model": "lightgbm_capacity2",
+      "arm": "pooled_day1",
+      "exact_training_X": false,
+      "exact_y": true
+    },
+    {
+      "state": "Delhi",
+      "horizon": 1,
+      "model": "lightgbm_capacity2",
+      "arm": "pooled_day5",
+      "exact_training_X": false,
+      "exact_y": true
+    },
+    {
+      "state": "Delhi",
+      "horizon": 1,
+      "model": "lightgbm_capacity2",
+      "arm": "pooled_window1",
+      "exact_training_X": false,
+      "exact_y": true
+    },
+    {
+      "state": "Delhi",
+      "horizon": 1,
+      "model": "lightgbm_capacity2",
+      "arm": "pooled_window5",
+      "exact_training_X": false,
+      "exact_y": true
+    },
+    {
+      "state": "Delhi",
+      "horizon": 1,
+      "model": "lightgbm_capacity2",
+      "arm": "zero1",
+      "exact_training_X": false,
+      "exact_y": true
+    },
+    {
+      "state": "Delhi",
+      "horizon": 7,
+      "model": "ridge",
+      "arm": "pooled_day1",
+      "exact_training_X": false,
+      "exact_y": true
+    },
+    {
+      "state": "Delhi",
+      "horizon": 7,
+      "model": "ridge",
+      "arm": "pooled_day5",
+      "exact_training_X": false,
+      "exact_y": true
+    },
+    {
+      "state": "Delhi",
+      "horizon": 7,
+      "model": "ridge",
+      "arm": "pooled_window1",
+      "exact_training_X": false,
+      "exact_y": true
+    },
+    {
+      "state": "Delhi",
+      "horizon": 7,
+      "model": "ridge",
+      "arm": "pooled_window5",
+      "exact_training_X": false,
+      "exact_y": true
+    },
+    {
+      "state": "Delhi",
+      "horizon": 7,
+      "model": "ridge",
+      "arm": "zero1",
+      "exact_training_X": false,
+      "exact_y": true
+    },
+    {
+      "state": "Delhi",
+      "horizon": 7,
+      "model": "lightgbm",
+      "arm": "pooled_day1",
+      "exact_training_X": false,
+      "exact_y": true
+    },
+    {
+      "state": "Delhi",
+      "horizon": 7,
+      "model": "lightgbm",
+      "arm": "pooled_day5",
+      "exact_training_X": false,
+      "exact_y": true
+    },
+    {
+      "state": "Delhi",
+      "horizon": 7,
+      "model": "lightgbm",
+      "arm": "pooled_window1",
+      "exact_training_X": false,
+      "exact_y": true
+    },
+    {
+      "state": "Delhi",
+      "horizon": 7,
+      "model": "lightgbm",
+      "arm": "pooled_window5",
+      "exact_training_X": false,
+      "exact_y": true
+    },
+    {
+      "state": "Delhi",
+      "horizon": 7,
+      "model": "lightgbm",
+      "arm": "zero1",
+      "exact_training_X": false,
+      "exact_y": true
+    },
+    {
+      "state": "Delhi",
+      "horizon": 7,
+      "model": "lightgbm_capacity2",
+      "arm": "pooled_day1",
+      "exact_training_X": false,
+      "exact_y": true
+    },
+    {
+      "state": "Delhi",
+      "horizon": 7,
+      "model": "lightgbm_capacity2",
+      "arm": "pooled_day5",
+      "exact_training_X": false,
+      "exact_y": true
+    },
+    {
+      "state": "Delhi",
+      "horizon": 7,
+      "model": "lightgbm_capacity2",
+      "arm": "pooled_window1",
+      "exact_training_X": false,
+      "exact_y": true
+    },
+    {
+      "state": "Delhi",
+      "horizon": 7,
+      "model": "lightgbm_capacity2",
+      "arm": "pooled_window5",
+      "exact_training_X": false,
+      "exact_y": true
+    },
+    {
+      "state": "Delhi",
+      "horizon": 7,
+      "model": "lightgbm_capacity2",
+      "arm": "zero1",
+      "exact_training_X": false,
+      "exact_y": true
+    },
+    {
+      "state": "Delhi",
+      "horizon": 14,
+      "model": "ridge",
+      "arm": "pooled_day1",
+      "exact_training_X": false,
+      "exact_y": true
+    },
+    {
+      "state": "Delhi",
+      "horizon": 14,
+      "model": "ridge",
+      "arm": "pooled_day5",
+      "exact_training_X": false,
+      "exact_y": true
+    },
+    {
+      "state": "Delhi",
+      "horizon": 14,
+      "model": "ridge",
+      "arm": "pooled_window1",
+      "exact_training_X": false,
+      "exact_y": true
+    },
+    {
+      "state": "Delhi",
+      "horizon": 14,
+      "model": "ridge",
+      "arm": "pooled_window5",
+      "exact_training_X": false,
+      "exact_y": true
+    },
+    {
+      "state": "Delhi",
+      "horizon": 14,
+      "model": "ridge",
+      "arm": "zero1",
+      "exact_training_X": false,
+      "exact_y": true
+    },
+    {
+      "state": "Delhi",
+      "horizon": 14,
+      "model": "lightgbm",
+      "arm": "pooled_day1",
+      "exact_training_X": false,
+      "exact_y": true
+    },
+    {
+      "state": "Delhi",
+      "horizon": 14,
+      "model": "lightgbm",
+      "arm": "pooled_day5",
+      "exact_training_X": false,
+      "exact_y": true
+    },
+    {
+      "state": "Delhi",
+      "horizon": 14,
+      "model": "lightgbm",
+      "arm": "pooled_window1",
+      "exact_training_X": false,
+      "exact_y": true
+    },
+    {
+      "state": "Delhi",
+      "horizon": 14,
+      "model": "lightgbm",
+      "arm": "pooled_window5",
+      "exact_training_X": false,
+      "exact_y": true
+    },
+    {
+      "state": "Delhi",
+      "horizon": 14,
+      "model": "lightgbm",
+      "arm": "zero1",
+      "exact_training_X": false,
+      "exact_y": true
+    },
+    {
+      "state": "Delhi",
+      "horizon": 14,
+      "model": "lightgbm_capacity2",
+      "arm": "pooled_day1",
+      "exact_training_X": false,
+      "exact_y": true
+    },
+    {
+      "state": "Delhi",
+      "horizon": 14,
+      "model": "lightgbm_capacity2",
+      "arm": "pooled_day5",
+      "exact_training_X": false,
+      "exact_y": true
+    },
+    {
+      "state": "Delhi",
+      "horizon": 14,
+      "model": "lightgbm_capacity2",
+      "arm": "pooled_window1",
+      "exact_training_X": false,
+      "exact_y": true
+    },
+    {
+      "state": "Delhi",
+      "horizon": 14,
+      "model": "lightgbm_capacity2",
+      "arm": "pooled_window5",
+      "exact_training_X": false,
+      "exact_y": true
+    },
+    {
+      "state": "Delhi",
+      "horizon": 14,
+      "model": "lightgbm_capacity2",
+      "arm": "zero1",
+      "exact_training_X": false,
+      "exact_y": true
+    },
+    {
+      "state": "Karnataka",
+      "horizon": 1,
+      "model": "ridge",
+      "arm": "pooled_day1",
+      "exact_training_X": false,
+      "exact_y": true
+    },
+    {
+      "state": "Karnataka",
+      "horizon": 1,
+      "model": "ridge",
+      "arm": "pooled_day5",
+      "exact_training_X": false,
+      "exact_y": true
+    },
+    {
+      "state": "Karnataka",
+      "horizon": 1,
+      "model": "ridge",
+      "arm": "pooled_window1",
+      "exact_training_X": false,
+      "exact_y": true
+    },
+    {
+      "state": "Karnataka",
+      "horizon": 1,
+      "model": "ridge",
+      "arm": "pooled_window5",
+      "exact_training_X": false,
+      "exact_y": true
+    },
+    {
+      "state": "Karnataka",
+      "horizon": 1,
+      "model": "ridge",
+      "arm": "zero1",
+      "exact_training_X": false,
+      "exact_y": true
+    },
+    {
+      "state": "Karnataka",
+      "horizon": 1,
+      "model": "lightgbm",
+      "arm": "pooled_day1",
+      "exact_training_X": true,
+      "exact_y": true
+    },
+    {
+      "state": "Karnataka",
+      "horizon": 1,
+      "model": "lightgbm",
+      "arm": "pooled_day5",
+      "exact_training_X": true,
+      "exact_y": true
+    },
+    {
+      "state": "Karnataka",
+      "horizon": 1,
+      "model": "lightgbm",
+      "arm": "pooled_window1",
+      "exact_training_X": true,
+      "exact_y": true
+    },
+    {
+      "state": "Karnataka",
+      "horizon": 1,
+      "model": "lightgbm",
+      "arm": "pooled_window5",
+      "exact_training_X": true,
+      "exact_y": true
+    },
+    {
+      "state": "Karnataka",
+      "horizon": 1,
+      "model": "lightgbm",
+      "arm": "zero1",
+      "exact_training_X": true,
+      "exact_y": true
+    },
+    {
+      "state": "Karnataka",
+      "horizon": 1,
+      "model": "lightgbm_capacity2",
+      "arm": "pooled_day1",
+      "exact_training_X": true,
+      "exact_y": true
+    },
+    {
+      "state": "Karnataka",
+      "horizon": 1,
+      "model": "lightgbm_capacity2",
+      "arm": "pooled_day5",
+      "exact_training_X": true,
+      "exact_y": true
+    },
+    {
+      "state": "Karnataka",
+      "horizon": 1,
+      "model": "lightgbm_capacity2",
+      "arm": "pooled_window1",
+      "exact_training_X": true,
+      "exact_y": true
+    },
+    {
+      "state": "Karnataka",
+      "horizon": 1,
+      "model": "lightgbm_capacity2",
+      "arm": "pooled_window5",
+      "exact_training_X": true,
+      "exact_y": true
+    },
+    {
+      "state": "Karnataka",
+      "horizon": 1,
+      "model": "lightgbm_capacity2",
+      "arm": "zero1",
+      "exact_training_X": true,
+      "exact_y": true
+    },
+    {
+      "state": "Karnataka",
+      "horizon": 7,
+      "model": "ridge",
+      "arm": "pooled_day1",
+      "exact_training_X": false,
+      "exact_y": true
+    },
+    {
+      "state": "Karnataka",
+      "horizon": 7,
+      "model": "ridge",
+      "arm": "pooled_day5",
+      "exact_training_X": false,
+      "exact_y": true
+    },
+    {
+      "state": "Karnataka",
+      "horizon": 7,
+      "model": "ridge",
+      "arm": "pooled_window1",
+      "exact_training_X": false,
+      "exact_y": true
+    },
+    {
+      "state": "Karnataka",
+      "horizon": 7,
+      "model": "ridge",
+      "arm": "pooled_window5",
+      "exact_training_X": false,
+      "exact_y": true
+    },
+    {
+      "state": "Karnataka",
+      "horizon": 7,
+      "model": "ridge",
+      "arm": "zero1",
+      "exact_training_X": false,
+      "exact_y": true
+    },
+    {
+      "state": "Karnataka",
+      "horizon": 7,
+      "model": "lightgbm",
+      "arm": "pooled_day1",
+      "exact_training_X": true,
+      "exact_y": true
+    },
+    {
+      "state": "Karnataka",
+      "horizon": 7,
+      "model": "lightgbm",
+      "arm": "pooled_day5",
+      "exact_training_X": true,
+      "exact_y": true
+    },
+    {
+      "state": "Karnataka",
+      "horizon": 7,
+      "model": "lightgbm",
+      "arm": "pooled_window1",
+      "exact_training_X": true,
+      "exact_y": true
+    },
+    {
+      "state": "Karnataka",
+      "horizon": 7,
+      "model": "lightgbm",
+      "arm": "pooled_window5",
+      "exact_training_X": true,
+      "exact_y": true
+    },
+    {
+      "state": "Karnataka",
+      "horizon": 7,
+      "model": "lightgbm",
+      "arm": "zero1",
+      "exact_training_X": true,
+      "exact_y": true
+    },
+    {
+      "state": "Karnataka",
+      "horizon": 7,
+      "model": "lightgbm_capacity2",
+      "arm": "pooled_day1",
+      "exact_training_X": true,
+      "exact_y": true
+    },
+    {
+      "state": "Karnataka",
+      "horizon": 7,
+      "model": "lightgbm_capacity2",
+      "arm": "pooled_day5",
+      "exact_training_X": true,
+      "exact_y": true
+    },
+    {
+      "state": "Karnataka",
+      "horizon": 7,
+      "model": "lightgbm_capacity2",
+      "arm": "pooled_window1",
+      "exact_training_X": true,
+      "exact_y": true
+    },
+    {
+      "state": "Karnataka",
+      "horizon": 7,
+      "model": "lightgbm_capacity2",
+      "arm": "pooled_window5",
+      "exact_training_X": true,
+      "exact_y": true
+    },
+    {
+      "state": "Karnataka",
+      "horizon": 7,
+      "model": "lightgbm_capacity2",
+      "arm": "zero1",
+      "exact_training_X": true,
+      "exact_y": true
+    },
+    {
+      "state": "Karnataka",
+      "horizon": 14,
+      "model": "ridge",
+      "arm": "pooled_day1",
+      "exact_training_X": false,
+      "exact_y": true
+    },
+    {
+      "state": "Karnataka",
+      "horizon": 14,
+      "model": "ridge",
+      "arm": "pooled_day5",
+      "exact_training_X": false,
+      "exact_y": true
+    },
+    {
+      "state": "Karnataka",
+      "horizon": 14,
+      "model": "ridge",
+      "arm": "pooled_window1",
+      "exact_training_X": false,
+      "exact_y": true
+    },
+    {
+      "state": "Karnataka",
+      "horizon": 14,
+      "model": "ridge",
+      "arm": "pooled_window5",
+      "exact_training_X": false,
+      "exact_y": true
+    },
+    {
+      "state": "Karnataka",
+      "horizon": 14,
+      "model": "ridge",
+      "arm": "zero1",
+      "exact_training_X": false,
+      "exact_y": true
+    },
+    {
+      "state": "Karnataka",
+      "horizon": 14,
+      "model": "lightgbm",
+      "arm": "pooled_day1",
+      "exact_training_X": true,
+      "exact_y": true
+    },
+    {
+      "state": "Karnataka",
+      "horizon": 14,
+      "model": "lightgbm",
+      "arm": "pooled_day5",
+      "exact_training_X": true,
+      "exact_y": true
+    },
+    {
+      "state": "Karnataka",
+      "horizon": 14,
+      "model": "lightgbm",
+      "arm": "pooled_window1",
+      "exact_training_X": true,
+      "exact_y": true
+    },
+    {
+      "state": "Karnataka",
+      "horizon": 14,
+      "model": "lightgbm",
+      "arm": "pooled_window5",
+      "exact_training_X": true,
+      "exact_y": true
+    },
+    {
+      "state": "Karnataka",
+      "horizon": 14,
+      "model": "lightgbm",
+      "arm": "zero1",
+      "exact_training_X": true,
+      "exact_y": true
+    },
+    {
+      "state": "Karnataka",
+      "horizon": 14,
+      "model": "lightgbm_capacity2",
+      "arm": "pooled_day1",
+      "exact_training_X": true,
+      "exact_y": true
+    },
+    {
+      "state": "Karnataka",
+      "horizon": 14,
+      "model": "lightgbm_capacity2",
+      "arm": "pooled_day5",
+      "exact_training_X": true,
+      "exact_y": true
+    },
+    {
+      "state": "Karnataka",
+      "horizon": 14,
+      "model": "lightgbm_capacity2",
+      "arm": "pooled_window1",
+      "exact_training_X": true,
+      "exact_y": true
+    },
+    {
+      "state": "Karnataka",
+      "horizon": 14,
+      "model": "lightgbm_capacity2",
+      "arm": "pooled_window5",
+      "exact_training_X": true,
+      "exact_y": true
+    },
+    {
+      "state": "Karnataka",
+      "horizon": 14,
+      "model": "lightgbm_capacity2",
+      "arm": "zero1",
+      "exact_training_X": true,
+      "exact_y": true
+    },
+    {
+      "state": "Maharashtra",
+      "horizon": 1,
+      "model": "ridge",
+      "arm": "pooled_day1",
+      "exact_training_X": false,
+      "exact_y": true
+    },
+    {
+      "state": "Maharashtra",
+      "horizon": 1,
+      "model": "ridge",
+      "arm": "pooled_day5",
+      "exact_training_X": false,
+      "exact_y": true
+    },
+    {
+      "state": "Maharashtra",
+      "horizon": 1,
+      "model": "ridge",
+      "arm": "pooled_window1",
+      "exact_training_X": false,
+      "exact_y": true
+    },
+    {
+      "state": "Maharashtra",
+      "horizon": 1,
+      "model": "ridge",
+      "arm": "pooled_window5",
+      "exact_training_X": false,
+      "exact_y": true
+    },
+    {
+      "state": "Maharashtra",
+      "horizon": 1,
+      "model": "ridge",
+      "arm": "zero1",
+      "exact_training_X": false,
+      "exact_y": true
+    },
+    {
+      "state": "Maharashtra",
+      "horizon": 1,
+      "model": "lightgbm",
+      "arm": "pooled_day1",
+      "exact_training_X": true,
+      "exact_y": true
+    },
+    {
+      "state": "Maharashtra",
+      "horizon": 1,
+      "model": "lightgbm",
+      "arm": "pooled_day5",
+      "exact_training_X": true,
+      "exact_y": true
+    },
+    {
+      "state": "Maharashtra",
+      "horizon": 1,
+      "model": "lightgbm",
+      "arm": "pooled_window1",
+      "exact_training_X": true,
+      "exact_y": true
+    },
+    {
+      "state": "Maharashtra",
+      "horizon": 1,
+      "model": "lightgbm",
+      "arm": "pooled_window5",
+      "exact_training_X": true,
+      "exact_y": true
+    },
+    {
+      "state": "Maharashtra",
+      "horizon": 1,
+      "model": "lightgbm",
+      "arm": "zero1",
+      "exact_training_X": true,
+      "exact_y": true
+    },
+    {
+      "state": "Maharashtra",
+      "horizon": 1,
+      "model": "lightgbm_capacity2",
+      "arm": "pooled_day1",
+      "exact_training_X": true,
+      "exact_y": true
+    },
+    {
+      "state": "Maharashtra",
+      "horizon": 1,
+      "model": "lightgbm_capacity2",
+      "arm": "pooled_day5",
+      "exact_training_X": true,
+      "exact_y": true
+    },
+    {
+      "state": "Maharashtra",
+      "horizon": 1,
+      "model": "lightgbm_capacity2",
+      "arm": "pooled_window1",
+      "exact_training_X": true,
+      "exact_y": true
+    },
+    {
+      "state": "Maharashtra",
+      "horizon": 1,
+      "model": "lightgbm_capacity2",
+      "arm": "pooled_window5",
+      "exact_training_X": true,
+      "exact_y": true
+    },
+    {
+      "state": "Maharashtra",
+      "horizon": 1,
+      "model": "lightgbm_capacity2",
+      "arm": "zero1",
+      "exact_training_X": true,
+      "exact_y": true
+    },
+    {
+      "state": "Maharashtra",
+      "horizon": 7,
+      "model": "ridge",
+      "arm": "pooled_day1",
+      "exact_training_X": false,
+      "exact_y": true
+    },
+    {
+      "state": "Maharashtra",
+      "horizon": 7,
+      "model": "ridge",
+      "arm": "pooled_day5",
+      "exact_training_X": false,
+      "exact_y": true
+    },
+    {
+      "state": "Maharashtra",
+      "horizon": 7,
+      "model": "ridge",
+      "arm": "pooled_window1",
+      "exact_training_X": false,
+      "exact_y": true
+    },
+    {
+      "state": "Maharashtra",
+      "horizon": 7,
+      "model": "ridge",
+      "arm": "pooled_window5",
+      "exact_training_X": false,
+      "exact_y": true
+    },
+    {
+      "state": "Maharashtra",
+      "horizon": 7,
+      "model": "ridge",
+      "arm": "zero1",
+      "exact_training_X": false,
+      "exact_y": true
+    },
+    {
+      "state": "Maharashtra",
+      "horizon": 7,
+      "model": "lightgbm",
+      "arm": "pooled_day1",
+      "exact_training_X": true,
+      "exact_y": true
+    },
+    {
+      "state": "Maharashtra",
+      "horizon": 7,
+      "model": "lightgbm",
+      "arm": "pooled_day5",
+      "exact_training_X": true,
+      "exact_y": true
+    },
+    {
+      "state": "Maharashtra",
+      "horizon": 7,
+      "model": "lightgbm",
+      "arm": "pooled_window1",
+      "exact_training_X": true,
+      "exact_y": true
+    },
+    {
+      "state": "Maharashtra",
+      "horizon": 7,
+      "model": "lightgbm",
+      "arm": "pooled_window5",
+      "exact_training_X": true,
+      "exact_y": true
+    },
+    {
+      "state": "Maharashtra",
+      "horizon": 7,
+      "model": "lightgbm",
+      "arm": "zero1",
+      "exact_training_X": true,
+      "exact_y": true
+    },
+    {
+      "state": "Maharashtra",
+      "horizon": 7,
+      "model": "lightgbm_capacity2",
+      "arm": "pooled_day1",
+      "exact_training_X": true,
+      "exact_y": true
+    },
+    {
+      "state": "Maharashtra",
+      "horizon": 7,
+      "model": "lightgbm_capacity2",
+      "arm": "pooled_day5",
+      "exact_training_X": true,
+      "exact_y": true
+    },
+    {
+      "state": "Maharashtra",
+      "horizon": 7,
+      "model": "lightgbm_capacity2",
+      "arm": "pooled_window1",
+      "exact_training_X": true,
+      "exact_y": true
+    },
+    {
+      "state": "Maharashtra",
+      "horizon": 7,
+      "model": "lightgbm_capacity2",
+      "arm": "pooled_window5",
+      "exact_training_X": true,
+      "exact_y": true
+    },
+    {
+      "state": "Maharashtra",
+      "horizon": 7,
+      "model": "lightgbm_capacity2",
+      "arm": "zero1",
+      "exact_training_X": true,
+      "exact_y": true
+    },
+    {
+      "state": "Maharashtra",
+      "horizon": 14,
+      "model": "ridge",
+      "arm": "pooled_day1",
+      "exact_training_X": false,
+      "exact_y": true
+    },
+    {
+      "state": "Maharashtra",
+      "horizon": 14,
+      "model": "ridge",
+      "arm": "pooled_day5",
+      "exact_training_X": false,
+      "exact_y": true
+    },
+    {
+      "state": "Maharashtra",
+      "horizon": 14,
+      "model": "ridge",
+      "arm": "pooled_window1",
+      "exact_training_X": false,
+      "exact_y": true
+    },
+    {
+      "state": "Maharashtra",
+      "horizon": 14,
+      "model": "ridge",
+      "arm": "pooled_window5",
+      "exact_training_X": false,
+      "exact_y": true
+    },
+    {
+      "state": "Maharashtra",
+      "horizon": 14,
+      "model": "ridge",
+      "arm": "zero1",
+      "exact_training_X": false,
+      "exact_y": true
+    },
+    {
+      "state": "Maharashtra",
+      "horizon": 14,
+      "model": "lightgbm",
+      "arm": "pooled_day1",
+      "exact_training_X": true,
+      "exact_y": true
+    },
+    {
+      "state": "Maharashtra",
+      "horizon": 14,
+      "model": "lightgbm",
+      "arm": "pooled_day5",
+      "exact_training_X": true,
+      "exact_y": true
+    },
+    {
+      "state": "Maharashtra",
+      "horizon": 14,
+      "model": "lightgbm",
+      "arm": "pooled_window1",
+      "exact_training_X": true,
+      "exact_y": true
+    },
+    {
+      "state": "Maharashtra",
+      "horizon": 14,
+      "model": "lightgbm",
+      "arm": "pooled_window5",
+      "exact_training_X": true,
+      "exact_y": true
+    },
+    {
+      "state": "Maharashtra",
+      "horizon": 14,
+      "model": "lightgbm",
+      "arm": "zero1",
+      "exact_training_X": true,
+      "exact_y": true
+    },
+    {
+      "state": "Maharashtra",
+      "horizon": 14,
+      "model": "lightgbm_capacity2",
+      "arm": "pooled_day1",
+      "exact_training_X": true,
+      "exact_y": true
+    },
+    {
+      "state": "Maharashtra",
+      "horizon": 14,
+      "model": "lightgbm_capacity2",
+      "arm": "pooled_day5",
+      "exact_training_X": true,
+      "exact_y": true
+    },
+    {
+      "state": "Maharashtra",
+      "horizon": 14,
+      "model": "lightgbm_capacity2",
+      "arm": "pooled_window1",
+      "exact_training_X": true,
+      "exact_y": true
+    },
+    {
+      "state": "Maharashtra",
+      "horizon": 14,
+      "model": "lightgbm_capacity2",
+      "arm": "pooled_window5",
+      "exact_training_X": true,
+      "exact_y": true
+    },
+    {
+      "state": "Maharashtra",
+      "horizon": 14,
+      "model": "lightgbm_capacity2",
+      "arm": "zero1",
+      "exact_training_X": true,
+      "exact_y": true
+    }
+  ],
+  "source_sha256": "8ec0679431f141ff03ceaaf4b8146b1c197aae04207dcdd758bc7e214a9b56fc"
+}

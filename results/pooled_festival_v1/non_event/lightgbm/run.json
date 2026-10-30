@@ -1,0 +1,17 @@
+{
+  "model": "lightgbm",
+  "completed_utc": "2026-10-30T12:07:48.231721+00:00",
+  "fits": 320,
+  "rows": 360,
+  "cases_per_arm": 72,
+  "arms": [
+    "pooled_day1",
+    "pooled_day5",
+    "pooled_window1",
+    "pooled_window5",
+    "zero1"
+  ],
+  "seconds": 108.7493558510032,
+  "predictions_sha256": "72da6694a84838680c8e509896daa6416582299e00adbb1e181c6961ec6b638d",
+  "protocol_sha256": "1d94004fb5610b6415e2323300a7e09d0b440ad5937d00b84f807a5c7cad95cd"
+}

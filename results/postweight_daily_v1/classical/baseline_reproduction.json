@@ -1,0 +1,128 @@
+[
+  {
+    "state": "Delhi",
+    "horizon": 1,
+    "model": "ridge",
+    "common_rows": 31,
+    "maxdifference": 2.842170943040401e-14
+  },
+  {
+    "state": "Delhi",
+    "horizon": 1,
+    "model": "lightgbm",
+    "common_rows": 31,
+    "maxdifference": 2.842170943040401e-14
+  },
+  {
+    "state": "Delhi",
+    "horizon": 7,
+    "model": "ridge",
+    "common_rows": 37,
+    "maxdifference": 1.4210854715202004e-14
+  },
+  {
+    "state": "Delhi",
+    "horizon": 7,
+    "model": "lightgbm",
+    "common_rows": 37,
+    "maxdifference": 1.4210854715202004e-14
+  },
+  {
+    "state": "Delhi",
+    "horizon": 14,
+    "model": "ridge",
+    "common_rows": 44,
+    "maxdifference": 1.4210854715202004e-14
+  },
+  {
+    "state": "Delhi",
+    "horizon": 14,
+    "model": "lightgbm",
+    "common_rows": 44,
+    "maxdifference": 1.4210854715202004e-14
+  },
+  {
+    "state": "Karnataka",
+    "horizon": 1,
+    "model": "ridge",
+    "common_rows": 31,
+    "maxdifference": 5.684341886080802e-14
+  },
+  {
+    "state": "Karnataka",
+    "horizon": 1,
+    "model": "lightgbm",
+    "common_rows": 31,
+    "maxdifference": 5.684341886080802e-14
+  },
+  {
+    "state": "Karnataka",
+    "horizon": 7,
+    "model": "ridge",
+    "common_rows": 37,
+    "maxdifference": 5.684341886080802e-14
+  },
+  {
+    "state": "Karnataka",
+    "horizon": 7,
+    "model": "lightgbm",
+    "common_rows": 37,
+    "maxdifference": 5.684341886080802e-14
+  },
+  {
+    "state": "Karnataka",
+    "horizon": 14,
+    "model": "ridge",
+    "common_rows": 44,
+    "maxdifference": 5.684341886080802e-14
+  },
+  {
+    "state": "Karnataka",
+    "horizon": 14,
+    "model": "lightgbm",
+    "common_rows": 44,
+    "maxdifference": 0.0
+  },
+  {
+    "state": "Maharashtra",
+    "horizon": 1,
+    "model": "ridge",
+    "common_rows": 31,
+    "maxdifference": 1.1368683772161603e-13
+  },
+  {
+    "state": "Maharashtra",
+    "horizon": 1,
+    "model": "lightgbm",
+    "common_rows": 31,
+    "maxdifference": 0.0
+  },
+  {
+    "state": "Maharashtra",
+    "horizon": 7,
+    "model": "ridge",
+    "common_rows": 37,
+    "maxdifference": 0.0
+  },
+  {
+    "state": "Maharashtra",
+    "horizon": 7,
+    "model": "lightgbm",
+    "common_rows": 37,
+    "maxdifference": 0.0
+  },
+  {
+    "state": "Maharashtra",
+    "horizon": 14,
+    "model": "ridge",
+    "common_rows": 44,
+    "maxdifference": 0.0
+  },
+  {
+    "state": "Maharashtra",
+    "horizon": 14,
+    "model": "lightgbm",
+    "common_rows": 44,
+    "maxdifference": 0.0
+  }
+]

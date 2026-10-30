@@ -1,5 +1,33 @@
 # Current status — 30 October 2026
 
+## Current objective: a defensible paper for a verified Q1 venue
+
+The user requests continuing executable phases and pushing completed work. Three new studies are now complete and audited; a separate editable manuscript is prepared under `manuscript/journal_draft_v1/`. Q1 is the target, not a verified venue/acceptance claim. IJF is a scope candidate; current ranking database/year/category still need verification. Source rights, independent human review and confirmation gates remain open.
+
+| New work | Completed evidence | Main finding / boundary |
+| --- | --- | --- |
+| Pooled versus typed festival flags | 6,912 compared rows across two fixed 72-case cohorts; 4,320 new, 2,592 reused; six variants/eight arms; input/fitting/source/score/probability audits pass | Pooled flags help some models more than separate flags; Ridge/SARIMAX often prefer separate day channels. Representation/padding effects vary. No universal winner |
+| Supervised family-label exclusion | 3,888 forecasts, 3,807 fixed-budget fits; exact same-count weekday/season training-row controls across 141 preflighted blocks; independent audit passes | Pooled information can help without direct own-family labels, but Ridge reverses at leads7/14. Historical target responses remain allowed; not wholly unseen-event transfer |
+| Broader daily post-weight panel | 3,168 forecasts, eight configurations, 396 identical cases each; 44 targets/state/lead, both TSFMs history/calendar, stronger locals and naive methods; all 684 foundation inputs reconstructed | TimesFM history has lowest macro MASE at all three leads on this bounded cohort. Previously inspected post-weight targets are not untouched or operational/source-independent confirmation |
+| Native probability quality | Common nine-level pinball and unmodified80%interval coverage/width/score/WIS, case/macro arithmetic independently audited | Severe event undercoverage remains. All compared pooled Chronos outputs retain14fine-grid crossing pairs; daily panel has0. No sorting/clipping/calibration |
+| Used-date review coverage | All58feature anchors,12state-years,56annual-date matches,2explicit shared-main exceptions; source/notice gaps inventoried | Zero amendment certifications or human sign-offs. A coverage crosswalk is not completed calendar certification |
+| Separate numerical review |135pooled regression forecasts agree within7.617e-12GWh; all labels exact | Strict status remains discrepancies_retained because Delhi matrices differ at one near-zero trend entry per checked block; do not call a full clean pass |
+
+Next-day event MASE for calendar / pooled-day5 / typed-day5: Ridge1.24369/0.59692/0.56112; SARIMAX1.31035/0.65600/0.53159; stabletree1.28595/1.12357/1.26810; leaf2tree1.27323/0.84252/1.09736; Chronos1.37110/1.29330/1.32921; TimesFM1.34818/0.68281/1.10330. These are equal-family historical errors, not accuracy percentages or future model selection.
+
+The broader daily panel uses target dates15September–28October2026and origins2Septemberor later, after both audited weight uploads. History-only TimesFM MASE is0.54620/1.16303/1.30856at leads1/7/14, versus Chronos history0.58548/1.31670/1.59292. This does not erase the earlier different-cohort Chronos result. Native next-day coverage is around74–76%on this daily panel, versus nominal80%; event coverage can be much worse. See full reports for all models/leads/interval widths.
+
+Read [pooled brief](POOLED_FEATURE_RESULTS_BRIEF.md), [transfer brief](LABEL_TRANSFER_RESULTS_BRIEF.md), [daily report](results/postweight_daily_v1/REPORT.md), [claim matrix](manuscript/CLAIM_EVIDENCE_MATRIX.md) and [author/professor packet](review/AUTHOR_PROFESSOR_REVIEW_PACKET.md). All686protectedpriorfiles, earlier college decks and frozen future predictions remain unchanged.45tests passed before the final checkpoint. No model job remains running. The daily report-only formatter failure was recovered from saved audited outputs without rewriting scientific files; original source/failure remain.
+
+## Sharing, outreach and prospective status
+
+Explicit user authorization permits normal pushes to existing public `Binay-verma/tsaf_project`; visibility remains public and no new licence is inferred. The author reports sending the curator email manually. No assistant duplicate email, professor/journal contact or submission occurred. Source reuse/processing/report-day reply is still pending. Binay Verma is author/requester, not an independent reviewer.
+
+Prospective `cabd598` blobs remain immutable:216eligible rows for31October–11November2026, unscored. The auto-scoring workflow remains disabled_manually even after public synchronization; no future outcomes were retrieved. One later episode remains limited shared-source confirmation. No environment publication occurred.
+
+## Earlier checkpoint details (historical)
+
+
 ## Immediate goal: college presentation on1November2026
 
 **Latest completed experiment:** explicit festival-day/window inputs have now been tested separately from the earlier diagnostic. `results/festival_features_v1` contains2592matched primary forecasts (six variants/six arms/72anchor-lead cases) and15840secondary classical window forecasts. Ridge/SARIMAX day flags show substantial next-day gains, TimesFM smaller gains and Chronos modest changes; broad windows are mixed. `festival_feature_spillover_v2` adds1296matched non-event forecasts; no aggregate next-day day-flag penalty in that sample, but some longer-lead costs. All controls, years and sparse-capacity regimes remain reported.37tests and source/metric/fitting/input-byte audits pass;8native Chronos quantile crossings retained, TimesFM0. No universal, causal, typed-versus-pooled or clean-test claim. The new eight-slide supplement is under presentation/festival_feature_update_v1. See FEATURE_INTERVENTION_REPRODUCTION.md, MISSED_STEPS_AUDIT.md and PROTOCOL_INDEX.md.

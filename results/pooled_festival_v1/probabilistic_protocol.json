@@ -1,0 +1,41 @@
+{
+  "created_utc": "2026-10-30T12:06:38.572581+00:00",
+  "status": "Exploratory secondary analysis fixed while pooled inference is running, before pooled score tables. Prior historical point and native-crossing evidence already inspected. Not original external preregistration.",
+  "models": [
+    "chronos",
+    "timesfm"
+  ],
+  "cohorts": [
+    "event",
+    "non_event"
+  ],
+  "arms": [
+    "calendar",
+    "day5",
+    "window5",
+    "pooled_day1",
+    "pooled_day5",
+    "pooled_window1",
+    "pooled_window5",
+    "zero1"
+  ],
+  "quantiles": [
+    0.1,
+    0.2,
+    0.3,
+    0.4,
+    0.5,
+    0.6,
+    0.7,
+    0.8,
+    0.9
+  ],
+  "pinball": "Mean over9common native levels: max(tau*(actual-q),(tau-1)*(actual-q)), divided by unchanged pre-year weekly-difference scale. No interpolation.",
+  "interval": "Native q0.1/q0.9 central80percent interval; width, inclusive coverage, lower/upper miss rates, median absolute error and interval score: width+10*(lower-actual)whenbelow+10*(actual-upper)whenabove.",
+  "wis": "One-interval WIS=(0.5*abs(actual-native_median)+0.1*interval_score)/1.5, scaled by same denominator. Not a full19quantile or9quantile WIS.",
+  "invalid": "Preserve every output. Record common-grid and all-native adjacent crossings. If lower>upper, coverage,width,interval_score,WIS are undefined for that case and the aggregate is undefined rather than silently dropping invalid intervals. Pinball remains defined per marginal quantile. No sorting/clipping, isotonic correction or calibration.",
+  "aggregation": "Identical72cases/model/arm/cohort, individual leads1/7/14. Equal states within year, years within family, families overall. Report all arms/models/leads/families/years. No day-independent binomial/significance claims.",
+  "limits": "Native distributions are uncalibrated. Only24date targets/lead in each historical cohort, correlated states and two years. This is empirical bounded coverage, not reliable calibration, proper joint distribution validation, all-day performance or independent review.",
+  "scoring_source_sha256": "f7f828fcb1d9fd59b08d25c90feee5b0db1488f3ba7dd48c49c290bb4e6a9791",
+  "registration_sha256": "6752e24f39a60a1cda3a86de4e58b198914213762df7b40e655c5eb7de6b112c"
+}

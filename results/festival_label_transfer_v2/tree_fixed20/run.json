@@ -1,0 +1,10 @@
+{
+  "status": "completed",
+  "worker": "tree_fixed20",
+  "rows": 1296,
+  "fits": 1269,
+  "seconds": 218.90463974699742,
+  "completed_utc": "2026-10-30T12:24:21.783884+00:00",
+  "protocol_sha256": "36c35a127169c2e0f11685368d3ee48374d9c2c237e077eaf5fca901358d3b03",
+  "predictions_sha256": "fb95924f22a7ce767acb98a79cb2974c210b512e04acb96fb607822f20145627"
+}

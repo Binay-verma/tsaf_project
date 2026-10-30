@@ -1,0 +1,182 @@
+[
+  {
+    "state": "Delhi",
+    "year": 2024,
+    "horizon": 1,
+    "original_configuration": 0,
+    "parameters": {
+      "alpha": 1.0
+    },
+    "policy": "Same original pre-year rich-calendar parameters for every arm"
+  },
+  {
+    "state": "Delhi",
+    "year": 2024,
+    "horizon": 7,
+    "original_configuration": 2,
+    "parameters": {
+      "alpha": 100.0
+    },
+    "policy": "Same original pre-year rich-calendar parameters for every arm"
+  },
+  {
+    "state": "Delhi",
+    "year": 2024,
+    "horizon": 14,
+    "original_configuration": 2,
+    "parameters": {
+      "alpha": 100.0
+    },
+    "policy": "Same original pre-year rich-calendar parameters for every arm"
+  },
+  {
+    "state": "Delhi",
+    "year": 2025,
+    "horizon": 1,
+    "original_configuration": 0,
+    "parameters": {
+      "alpha": 1.0
+    },
+    "policy": "Same original pre-year rich-calendar parameters for every arm"
+  },
+  {
+    "state": "Delhi",
+    "year": 2025,
+    "horizon": 7,
+    "original_configuration": 2,
+    "parameters": {
+      "alpha": 100.0
+    },
+    "policy": "Same original pre-year rich-calendar parameters for every arm"
+  },
+  {
+    "state": "Delhi",
+    "year": 2025,
+    "horizon": 14,
+    "original_configuration": 2,
+    "parameters": {
+      "alpha": 100.0
+    },
+    "policy": "Same original pre-year rich-calendar parameters for every arm"
+  },
+  {
+    "state": "Karnataka",
+    "year": 2024,
+    "horizon": 1,
+    "original_configuration": 0,
+    "parameters": {
+      "alpha": 1.0
+    },
+    "policy": "Same original pre-year rich-calendar parameters for every arm"
+  },
+  {
+    "state": "Karnataka",
+    "year": 2024,
+    "horizon": 7,
+    "original_configuration": 1,
+    "parameters": {
+      "alpha": 10.0
+    },
+    "policy": "Same original pre-year rich-calendar parameters for every arm"
+  },
+  {
+    "state": "Karnataka",
+    "year": 2024,
+    "horizon": 14,
+    "original_configuration": 1,
+    "parameters": {
+      "alpha": 10.0
+    },
+    "policy": "Same original pre-year rich-calendar parameters for every arm"
+  },
+  {
+    "state": "Karnataka",
+    "year": 2025,
+    "horizon": 1,
+    "original_configuration": 0,
+    "parameters": {
+      "alpha": 1.0
+    },
+    "policy": "Same original pre-year rich-calendar parameters for every arm"
+  },
+  {
+    "state": "Karnataka",
+    "year": 2025,
+    "horizon": 7,
+    "original_configuration": 2,
+    "parameters": {
+      "alpha": 100.0
+    },
+    "policy": "Same original pre-year rich-calendar parameters for every arm"
+  },
+  {
+    "state": "Karnataka",
+    "year": 2025,
+    "horizon": 14,
+    "original_configuration": 2,
+    "parameters": {
+      "alpha": 100.0
+    },
+    "policy": "Same original pre-year rich-calendar parameters for every arm"
+  },
+  {
+    "state": "Maharashtra",
+    "year": 2024,
+    "horizon": 1,
+    "original_configuration": 0,
+    "parameters": {
+      "alpha": 1.0
+    },
+    "policy": "Same original pre-year rich-calendar parameters for every arm"
+  },
+  {
+    "state": "Maharashtra",
+    "year": 2024,
+    "horizon": 7,
+    "original_configuration": 2,
+    "parameters": {
+      "alpha": 100.0
+    },
+    "policy": "Same original pre-year rich-calendar parameters for every arm"
+  },
+  {
+    "state": "Maharashtra",
+    "year": 2024,
+    "horizon": 14,
+    "original_configuration": 2,
+    "parameters": {
+      "alpha": 100.0
+    },
+    "policy": "Same original pre-year rich-calendar parameters for every arm"
+  },
+  {
+    "state": "Maharashtra",
+    "year": 2025,
+    "horizon": 1,
+    "original_configuration": 0,
+    "parameters": {
+      "alpha": 1.0
+    },
+    "policy": "Same original pre-year rich-calendar parameters for every arm"
+  },
+  {
+    "state": "Maharashtra",
+    "year": 2025,
+    "horizon": 7,
+    "original_configuration": 2,
+    "parameters": {
+      "alpha": 100.0
+    },
+    "policy": "Same original pre-year rich-calendar parameters for every arm"
+  },
+  {
+    "state": "Maharashtra",
+    "year": 2025,
+    "horizon": 14,
+    "original_configuration": 2,
+    "parameters": {
+      "alpha": 100.0
+    },
+    "policy": "Same original pre-year rich-calendar parameters for every arm"
+  }
+]

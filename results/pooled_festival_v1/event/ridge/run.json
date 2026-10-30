@@ -1,0 +1,17 @@
+{
+  "model": "ridge",
+  "completed_utc": "2026-10-30T12:00:56.583994+00:00",
+  "fits": 295,
+  "rows": 360,
+  "cases_per_arm": 72,
+  "arms": [
+    "pooled_day1",
+    "pooled_day5",
+    "pooled_window1",
+    "pooled_window5",
+    "zero1"
+  ],
+  "seconds": 3.6384583529979864,
+  "predictions_sha256": "95a182bd63fe44c2aebe5fe3a9f57c8805fc026fb001aabecd127865c9e9694e",
+  "protocol_sha256": "599615466582402a85ebc35d23bc45135c4fe8891ce2a7c6fd9af9f1c01e6d51"
+}

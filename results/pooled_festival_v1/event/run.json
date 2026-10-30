@@ -1,0 +1,29 @@
+{
+  "status": "completed",
+  "completed_utc": "2026-10-30T12:40:59.245590+00:00",
+  "rows": 3456,
+  "new_rows": 2160,
+  "reused_rows": 1296,
+  "models": [
+    "ridge",
+    "lightgbm",
+    "lightgbm_capacity2",
+    "sarimax",
+    "chronos",
+    "timesfm"
+  ],
+  "arms": [
+    "calendar",
+    "day5",
+    "window5",
+    "pooled_day1",
+    "pooled_day5",
+    "pooled_window1",
+    "pooled_window5",
+    "zero1"
+  ],
+  "cases_per_model_arm": 72,
+  "predictions_sha256": "6b6b99b0eae5cfd49785dc9c61dbcdfd20358476361e3f7efe99f2fec5fe4d00",
+  "protocol_sha256": "599615466582402a85ebc35d23bc45135c4fe8891ce2a7c6fd9af9f1c01e6d51",
+  "parent_predictions_sha256": "3b0edf8dee9d44ca7b556cacd4635cb28228702571b5e949fec4555f411f6e04"
+}

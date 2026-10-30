@@ -1,0 +1,19 @@
+{
+  "model": "chronos",
+  "completed_utc": "2026-10-30T12:15:19.705513+00:00",
+  "rows": 360,
+  "cases_per_arm": 72,
+  "arms": [
+    "pooled_day1",
+    "pooled_day5",
+    "pooled_window1",
+    "pooled_window5",
+    "zero1"
+  ],
+  "inference_tasks": 360,
+  "seconds": 861.8616176879987,
+  "weight_sha256": "ddcda3c7508bf2528087723e98a20707cc04b7f370ae275a9fd88078ddba4f42",
+  "native_quantile_crossings": 5,
+  "predictions_sha256": "5735733d70ce8960f02915312f8d177a87b7cab7b6c1e77802e86122dbf385bd",
+  "protocol_sha256": "599615466582402a85ebc35d23bc45135c4fe8891ce2a7c6fd9af9f1c01e6d51"
+}

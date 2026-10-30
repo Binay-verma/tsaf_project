@@ -1,0 +1,60 @@
+{
+  "experiment": "postweight_daily_v1",
+  "created_utc": "2026-10-30T12:29:26.328347+00:00",
+  "status": "Exploratory retrospective daily audit on previously inspected2026source; protocol fixed before fresh panel inference. Not an untouched test, source-independent replication or external preregistration.",
+  "target": "Recorded daily energy met/supplied inGWh, same frozen source ending28October2026. No new actual retrieval.",
+  "target_dates": [
+    "2026-09-15",
+    "2026-10-28"
+  ],
+  "first_origin": "2026-09-02",
+  "cases_per_configuration": 396,
+  "state_origin_tasks_per_foundation_mode": 171,
+  "configurations": [
+    "chronos_history",
+    "chronos_calendar",
+    "timesfm_history",
+    "timesfm_calendar",
+    "ridge_calendar_monthly",
+    "lightgbm_calendar_monthly",
+    "last_value",
+    "weekly_repeat"
+  ],
+  "chronology": "Every scored target and origin postdates both audited actual weight uploads (Chronos30October2025; TimesFM24August2026) and the documented31August2026TimesFM announcement. This rules out direct inclusion of genuinely later targets in unchanged weights, conditional on source dates; not exact training cutoff, proxy clearance or untouched research outcomes.",
+  "availability": "Ideal retrospective past-data availability: each context ends origin-1. Historical lag/revisions are not reconstructed. Date-vintage sensitivity is a separate earlier study. Calendar covariates are only13deterministic weekday/Fourier channels, no uncertified2026festival dates or future weather.",
+  "fitting": "Local rich-calendar monthly models reuse their original pre2026selected parameters, same730day fitting-origin window with horizon-purged labels and float32 tree interface. No panel-based selection/refit/feature tuning. Each compares to original saved outputs where earlier full-horizon coverage overlaps.",
+  "foundation": "Both pinned local-weight models, history/calendar, no fine-tuning.730day contexts,14day output,batch4,2threads,seed42; Chronos cross_learningFalse, TimesFM symmetricFalse; solo/batch and future-target perturbation audits. Only registered historical target cases are scored/saved, never new November actuals or modifications of the prospective freeze.",
+  "simple": "Last recorded/causally-filled past value; weekly repeat cycles the last7observed-context values to each individual lead. Same source labels/scale/cases.",
+  "point_metrics": "MAE perstate, original pre2026weekly-difference scale, MASE equal across3states perlead. Leads1/7/14are individual target days. Identical44target dates for each state/lead/configuration; no forecast-success intersection.",
+  "native_probability": "Common0.1\u20130.9quantiles, mean scaled pinball, unmodified central80%coverage/width/interval score and one-intervalWIS plus native median. No calibration/sorting/clipping. All-native adjacent crossings inventoried; invalid endpoints remain explicit and propagate undefined interval summaries.",
+  "limits": [
+    "Previously inspected targets remain exploratory despite post-weight chronology",
+    "One source,44targetdates,3relatedstates and correlated overlapping horizons",
+    "No added-festival representation test or full-year two-model claim",
+    "No independent human approval, source reuse grant, complete amendments or prospective score"
+  ],
+  "context": 730,
+  "horizon": 14,
+  "batch": 4,
+  "threads": 2,
+  "seed": 42,
+  "input_hashes": {
+    "src/postweight_daily_panel.py": "0ba93497746db707d64c1974be5099ed8cd28b8c0843a1ecfcb877d125c57b63",
+    "src/test_postweight_panel.py": "4f91ac6409dafc22040f24ac5ceb2abf4c1a290ecdb9623f89a2a6ac98c46ff7",
+    "src/robust_baselines.py": "568152c6351826389ae8248fe50fe5bcde5f8db82dfe715c691d6a5f63bca88c",
+    "src/forecasting.py": "8a6b9b1e8632a2bf77d9855a1d370ed23c350ffe731138787e30c609a59ec21e",
+    "src/extended_validation.py": "2312ef9ef5f78ad8bf47b47999576cd0875c7ba3adca53acfb5434b83b2f8218",
+    "src/festival_feature_experiment.py": "2d737d17ee4290e4328996eee9e1b9380e6bc8a06484d67a01e067c4e7751427",
+    "data/external/latest_state_energy_GWh.csv": "74d22d5e85b022db13d97dad7c84dca5b9dc8e38d23570bf095d870e71a2f690",
+    "results/strong_refit_v1/selected.csv": "431807cdd1a9bea5a8df7081e90fe099d34128a6924fae23faa24ef2d85bb087",
+    "results/strong_refit_v1/protocol.json": "e0c7d8532de5faf31d16c6d8552e78ecc7f60eedfc3c977f0f93990ad8d37324",
+    "results/strong_refit_v1/predictions.csv": "40c8bc84016de272c58b7cffcb0ad0f64071a73b334eeeb7baa658b6f68b25cf",
+    "results/stable_tree_refit_v2/selected.csv": "e041729975c40faa74d5d4ac27b82f9f5edecc26d3fde441124606a130ce448c",
+    "results/stable_tree_refit_v2/protocol.json": "4da8160ce45801e1b9e8ca134334a46bfd9d29f1f5ed6d28e76a988cb1fe34c3",
+    "results/stable_tree_refit_v2/predictions.csv": "0c0c7f503ae9d302039dcd14f9a4c84f6070c45ea261333174547a1827262b0a",
+    "results/mechanism_controls_v1/chronos_download.json": "b7bc0b9b2f018de37b60148e226546dd15e47965efdc246f500062721f3f3c15",
+    "results/second_model_audit_v1/weight_download.json": "33513d544578b60db98abd0ad667c97597e0b7b49062588a87fc980b012c4cf4",
+    "results/pooled_festival_v1/protected_prior_files.json": "737204b743b9f439fb3c484dc49351a5d43f5d3ae209befbdb251563252ef5be"
+  },
+  "cases_sha256": "1e8a313f5aaddc08c26571fa92467769e8b2839bb3e84f1f1af3f1c75dca4685"
+}

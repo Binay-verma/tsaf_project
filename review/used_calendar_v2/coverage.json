@@ -1,0 +1,14 @@
+{
+  "status": "coverage_crosswalk_complete_not_calendar_certification",
+  "anchors": 58,
+  "families": 5,
+  "state_years": 12,
+  "annual_schedule_date_matches": 56,
+  "shared_main_without_state_schedule_match": 2,
+  "anchors_with_retained_state_pdf": 46,
+  "anchors_with_previously_strengthened_notice_date": 29,
+  "amendment_chains_certified": 0,
+  "human_signoffs": 0,
+  "source_ledger_sha256": "7542c6a6a3d84dcf6011872d3cdfa9e45bcca36e90a8746241e41800f19596ec",
+  "model_dates_changed": 0
+}

@@ -1,0 +1,90 @@
+{
+  "status": "pass",
+  "scope": "Internal separate date/NumPy byte reconstruction and saved-log audit; not independent human review",
+  "cohorts": {
+    "event": {
+      "chronos": {
+        "reconstructed_input_tasks": 360,
+        "native_quantile_crossings": 5,
+        "max_solo_batch_difference": 1.52587890625e-05,
+        "weight_sha256": "ddcda3c7508bf2528087723e98a20707cc04b7f370ae275a9fd88078ddba4f42"
+      },
+      "timesfm": {
+        "reconstructed_input_tasks": 360,
+        "native_quantile_crossings": 0,
+        "max_solo_batch_difference": 0.0,
+        "weight_sha256": "a7592b0a8432baee54483254e5647856911ce69e09d09a9bb65904b2d98f17da"
+      },
+      "ridge": {
+        "fits": 295,
+        "unchanged_original_parameters_and_labels": true,
+        "independently_reconstructed_support": true,
+        "chronological_cutoffs": true,
+        "baseline_reuse_note": "No calendar refit; exact parent labels and fixed budgets verified against all fitting groups"
+      },
+      "lightgbm": {
+        "fits": 295,
+        "unchanged_original_parameters_and_labels": true,
+        "independently_reconstructed_support": true,
+        "chronological_cutoffs": true,
+        "baseline_reuse_note": "No calendar refit; exact parent labels and fixed budgets verified against all fitting groups"
+      },
+      "lightgbm_capacity2": {
+        "fits": 295,
+        "unchanged_original_parameters_and_labels": true,
+        "independently_reconstructed_support": true,
+        "chronological_cutoffs": true,
+        "baseline_reuse_note": "No calendar refit; exact parent labels and fixed budgets verified against all fitting groups"
+      },
+      "sarimax": {
+        "converged_parameter_fits": 30,
+        "optimizer_attempts": 30,
+        "unsuccessful_attempts_retained": 0,
+        "past_only_state_updates": true
+      }
+    },
+    "non_event": {
+      "chronos": {
+        "reconstructed_input_tasks": 360,
+        "native_quantile_crossings": 4,
+        "max_solo_batch_difference": 1.52587890625e-05,
+        "weight_sha256": "ddcda3c7508bf2528087723e98a20707cc04b7f370ae275a9fd88078ddba4f42"
+      },
+      "timesfm": {
+        "reconstructed_input_tasks": 360,
+        "native_quantile_crossings": 0,
+        "max_solo_batch_difference": 0.0,
+        "weight_sha256": "a7592b0a8432baee54483254e5647856911ce69e09d09a9bb65904b2d98f17da"
+      },
+      "ridge": {
+        "fits": 320,
+        "unchanged_original_parameters_and_labels": true,
+        "independently_reconstructed_support": true,
+        "chronological_cutoffs": true,
+        "baseline_reuse_note": "No calendar refit; exact parent labels and fixed budgets verified against all fitting groups"
+      },
+      "lightgbm": {
+        "fits": 320,
+        "unchanged_original_parameters_and_labels": true,
+        "independently_reconstructed_support": true,
+        "chronological_cutoffs": true,
+        "baseline_reuse_note": "No calendar refit; exact parent labels and fixed budgets verified against all fitting groups"
+      },
+      "lightgbm_capacity2": {
+        "fits": 320,
+        "unchanged_original_parameters_and_labels": true,
+        "independently_reconstructed_support": true,
+        "chronological_cutoffs": true,
+        "baseline_reuse_note": "No calendar refit; exact parent labels and fixed budgets verified against all fitting groups"
+      },
+      "sarimax": {
+        "converged_parameter_fits": 30,
+        "optimizer_attempts": 30,
+        "unsuccessful_attempts_retained": 0,
+        "past_only_state_updates": true
+      }
+    }
+  },
+  "total_native_quantile_crossing_pairs": 9,
+  "quantile_treatment": "Native outputs unchanged; no sorting/clipping"
+}

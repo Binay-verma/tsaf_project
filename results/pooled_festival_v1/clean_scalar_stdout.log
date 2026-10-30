@@ -1,0 +1,26 @@
+Delhi 1 scalar review complete
+Delhi 7 scalar review complete
+Delhi 14 scalar review complete
+Karnataka 1 scalar review complete
+Karnataka 7 scalar review complete
+Karnataka 14 scalar review complete
+Maharashtra 1 scalar review complete
+Maharashtra 7 scalar review complete
+Maharashtra 14 scalar review complete
+{
+  "status": "discrepancies_retained",
+  "completed_utc": "2026-10-30T12:05:48.736634+00:00",
+  "scope": "First2024event date per state,3leads,5newarms,3regression variants; separate scalar histories/feature construction in clean environment. Not all forecasts, foundation inference or human review.",
+  "python": "3.12.14",
+  "interpreter": "/workspace/tsfm-clean-review/bin/python",
+  "packages": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.8.0",
+    "lightgbm": "4.7.0"
+  },
+  "forecast_checks": 135,
+  "max_difference_GWh": 7.617018127348274e-12,
+  "source_sha256": "8ec0679431f141ff03ceaaf4b8146b1c197aae04207dcdd758bc7e214a9b56fc"
+}

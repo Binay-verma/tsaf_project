@@ -1,0 +1,109 @@
+{
+  "status": "retrieved",
+  "source_url": "https://export.arxiv.org/api/query?id_list=2610.13676,2610.07232,2510.13654,2510.15821,2509.26468,2410.10393",
+  "checked_utc": "2026-10-30T12:52:48.780287+00:00",
+  "entries": [
+    {
+      "id": "http://arxiv.org/abs/2410.10393v2",
+      "title": "GIFT-Eval: A Benchmark For General Time Series Forecasting Model Evaluation",
+      "authors": [
+        "Taha Aksu",
+        "Gerald Woo",
+        "Juncheng Liu",
+        "Xu Liu",
+        "Chenghao Liu",
+        "Silvio Savarese",
+        "Caiming Xiong",
+        "Doyen Sahoo"
+      ],
+      "published": "2024-10-14T11:29:38Z",
+      "updated": "2024-11-11T04:48:24Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2510.13654v3",
+      "title": "Rethinking Evaluation in the Era of Time Series Foundation Models: (Un)known Information Leakage Challenges",
+      "authors": [
+        "Marcel Meyer",
+        "Sascha Kaltenpoth",
+        "Kevin Zalipski",
+        "Oliver M\u00fcller"
+      ],
+      "published": "2025-10-15T15:15:45Z",
+      "updated": "2026-02-25T14:48:58Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2509.26468v4",
+      "title": "fev-bench: A Realistic Benchmark for Time Series Forecasting",
+      "authors": [
+        "Oleksandr Shchur",
+        "Abdul Fatir Ansari",
+        "Caner Turkmen",
+        "Lorenzo Stella",
+        "Nick Erickson",
+        "Pablo Guerron",
+        "Michael Bohlke-Schneider",
+        "Yuyang Wang"
+      ],
+      "published": "2025-09-30T16:17:18Z",
+      "updated": "2026-06-30T06:32:20Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2610.13676v1",
+      "title": "On the Encoding of Calendar Features in Covariate-Informed Time Series Foundation Models",
+      "authors": [
+        "Alexander Kreusel",
+        "Maximilian Beichter",
+        "Alexandra Nikoltchovska",
+        "Benjamin Sch\u00e4fer",
+        "Ralf Mikut",
+        "Frederik Zahn",
+        "Veit Hagenmeyer"
+      ],
+      "published": "2026-10-09T14:41:10Z",
+      "updated": "2026-10-09T14:41:10Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2510.15821v1",
+      "title": "Chronos-2: From Univariate to Universal Forecasting",
+      "authors": [
+        "Abdul Fatir Ansari",
+        "Oleksandr Shchur",
+        "Jaris K\u00fcken",
+        "Andreas Auer",
+        "Boran Han",
+        "Pedro Mercado",
+        "Syama Sundar Rangapuram",
+        "Huibin Shen",
+        "Lorenzo Stella",
+        "Xiyuan Zhang",
+        "Mononito Goswami",
+        "Shubham Kapoor",
+        "Danielle C. Maddix",
+        "Pablo Guerron",
+        "Tony Hu",
+        "Junming Yin",
+        "Nick Erickson",
+        "Prateek Mutalik Desai",
+        "Hao Wang",
+        "Huzefa Rangwala",
+        "George Karypis",
+        "Yuyang Wang",
+        "Michael Bohlke-Schneider"
+      ],
+      "published": "2025-10-17T17:00:53Z",
+      "updated": "2025-10-17T17:00:53Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2610.07232v1",
+      "title": "Benchmarking Time Series Foundation Models for Load Forecasting Under Covariate Uncertainty",
+      "authors": [
+        "Tomas Kaljevic",
+        "Ivan Arzola",
+        "Yu Zhang"
+      ],
+      "published": "2026-10-05T18:37:55Z",
+      "updated": "2026-10-05T18:37:55Z"
+    }
+  ],
+  "note": "Primary arXiv metadata; not proof of peer-reviewed journal status. No abstract/full paper redistributed."
+}

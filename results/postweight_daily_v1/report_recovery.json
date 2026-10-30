@@ -1,0 +1,15 @@
+{
+  "status": "completed",
+  "scientific_files_unchanged": {
+    "predictions.csv": "c3943060e2c55363e4ce61865dca5811e304e251dffb85c74b8e5a21368e5867",
+    "metrics_state.csv": "456f3809e284168174ef7eb42419f2ef0e25c787d16765477fa9fad61ff185be",
+    "metrics_macro.csv": "b45a3bd6b606441785792762ef2e9177835c18951e9feecd02cca020d05ef4b4",
+    "native_uncertainty_cases.csv": "0e88f541f8e4472b9222798f7a3a216d87a390b54f7d7d0b9d73449e1b7722ec",
+    "native_uncertainty_state.csv": "56e9047b32051c2a476e5edeef2a2bbed46b9c3046ba42b00bd4ae23df8013fa",
+    "native_uncertainty_macro.csv": "bf384c744c60705784ba301a891db8a8cba531c2fd39609e8cbf671410673d9e",
+    "calendar_history_contrasts_state.csv": "44b840c687b01570dfea029bed80100e0f509cd1caa40bd079d3542ac2cd64ac"
+  },
+  "failure_note_sha256": "eeb692a03427599ed5654f653f65ab2eb5fa42f281c0f09978098e088a5986fd",
+  "no_model_rerun": true,
+  "no_timing_invented": true
+}

@@ -1,0 +1,47 @@
+{
+  "status": "pass",
+  "scope": "Separate internal date/NumPy/log/metric reconstruction; not human review or historical exposure clearance",
+  "rows": 3888,
+  "workers": {
+    "ridge_fixed10": {
+      "fits": 1269,
+      "same_count_controls": true,
+      "date_only_matches": true,
+      "fixed_parameters": true,
+      "label_bytes_and_dates_reconstructed": true,
+      "zero_own_family_typed_support": true,
+      "exposure_limit": "Earlier family responses remain in causal target-history features; not wholly unseen-event exposure"
+    },
+    "tree_fixed20": {
+      "fits": 1269,
+      "same_count_controls": true,
+      "date_only_matches": true,
+      "fixed_parameters": true,
+      "label_bytes_and_dates_reconstructed": true,
+      "zero_own_family_typed_support": true,
+      "exposure_limit": "Earlier family responses remain in causal target-history features; not wholly unseen-event exposure"
+    },
+    "tree_fixed2": {
+      "fits": 1269,
+      "same_count_controls": true,
+      "date_only_matches": true,
+      "fixed_parameters": true,
+      "label_bytes_and_dates_reconstructed": true,
+      "zero_own_family_typed_support": true,
+      "exposure_limit": "Earlier family responses remain in causal target-history features; not wholly unseen-event exposure"
+    }
+  },
+  "protected_prior_files_unchanged": 686,
+  "matching_blocks": 141,
+  "maximum_control_shift_days": 70,
+  "matching_distance_counts": {
+    "28": 1578,
+    "35": 284,
+    "42": 93,
+    "49": 34,
+    "56": 6,
+    "63": 3,
+    "70": 10
+  },
+  "predictions_sha256": "343032671ab7d2505229c47b1d4c498aad5f92a0f9104cff4ef48433f67dbb15"
+}

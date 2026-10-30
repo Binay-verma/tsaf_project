@@ -1,0 +1,13 @@
+{
+  "status": "inventory_complete",
+  "scope": "All compared foundation rows including reused calendar/typed arms; original new-worker inventory remains unchanged.",
+  "counts": {
+    "event_chronos": 8,
+    "event_timesfm": 0,
+    "non_event_chronos": 6,
+    "non_event_timesfm": 0
+  },
+  "total_crossing_pairs": 14,
+  "treatment": "Native outputs unchanged; no sorting/clipping",
+  "common9_level_crossings": 0
+}

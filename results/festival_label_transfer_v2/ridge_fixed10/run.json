@@ -1,0 +1,10 @@
+{
+  "status": "completed",
+  "worker": "ridge_fixed10",
+  "rows": 1296,
+  "fits": 1269,
+  "seconds": 40.5303436969989,
+  "completed_utc": "2026-10-30T12:20:40.428760+00:00",
+  "protocol_sha256": "36c35a127169c2e0f11685368d3ee48374d9c2c237e077eaf5fca901358d3b03",
+  "predictions_sha256": "963476c912dbe4bb12a82188e47275b8bbf9276667bd84bc1a6085fa2db3eb2c"
+}

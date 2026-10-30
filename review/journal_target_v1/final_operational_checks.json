@@ -1,0 +1,11 @@
+{
+  "checked_utc": "2026-10-30T13:03:31.317959+00:00",
+  "repository_public": true,
+  "prospective_workflow_state": "disabled_manually",
+  "original_prospective_blobs_unchanged": {
+    "protocol.json": "8abe04c1be21ca9b410df2038994e6e93fb5a03787a0e47eb0c5258f311523fa",
+    "predictions.csv": "ad084279882ffd3a65e290541f1e6cd5771cb4eb09d5f01ac84b694756eaf663",
+    "freeze.json": "b9700bbfba85e6ee8981a10576d35ba5d8a5c05d88d454815065404d2d5e712d"
+  },
+  "no_workflow_reactivation": true
+}
