@@ -1,0 +1,22 @@
+{
+  "created_utc": "2026-10-30T20:24:52.366235+00:00",
+  "url": "https://data.ny.gov/resource/sayj-mze2.json?%24select=date%2Cmode%2Ccount&%24where=date+%3E%3D+%272023-01-01T00%3A00%3A00%27+AND+date+%3C+%272026-10-22T00%3A00%3A00%27+AND+mode+in+%28%27Subway%27%2C%27Bus%27%29&%24order=date%2Cmode&%24limit=5000",
+  "query": {
+    "$select": "date,mode,count",
+    "$where": "date >= '2023-01-01T00:00:00' AND date < '2026-10-22T00:00:00' AND mode in ('Subway','Bus')",
+    "$order": "date,mode",
+    "$limit": "5000"
+  },
+  "raw_sha256": "04d93473f9f448653daa9bf8b5159586d965394482388a43abd8fe26af96eef4",
+  "daily_sha256": "63288eb56ca716204abbcae270dada8c2d66c7634016f2f14bbdacbf86c846ec",
+  "source_rows": 2780,
+  "daily_rows": 1390,
+  "date_min": "2023-01-01",
+  "date_max": "2026-10-21",
+  "missing_by_series": {
+    "MTA_Subway": 0,
+    "MTA_Bus": 0
+  },
+  "unit": "millionestimatedrides",
+  "publication": "Minimalfilteredfactualsnapshot underproviderOverview no-limitationsstatement, with attribution; no newstandardlicence granted. Currentrevisedvintage."
+}

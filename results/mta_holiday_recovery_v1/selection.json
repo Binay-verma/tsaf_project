@@ -1,0 +1,1431 @@
+{
+  "completed_utc": "2026-10-30T20:25:04.707678+00:00",
+  "parameters": {
+    "MTA_Subway:ridge:8": {
+      "alpha": 10.0
+    },
+    "MTA_Subway:lightgbm:8": {
+      "num_leaves": 15,
+      "n_estimators": 100,
+      "reg_lambda": 10.0,
+      "min_child_samples": 20
+    },
+    "MTA_Subway:ridge:14": {
+      "alpha": 1.0
+    },
+    "MTA_Subway:lightgbm:14": {
+      "num_leaves": 7,
+      "n_estimators": 100,
+      "reg_lambda": 10.0,
+      "min_child_samples": 20
+    },
+    "MTA_Subway:ridge:21": {
+      "alpha": 0.1
+    },
+    "MTA_Subway:lightgbm:21": {
+      "num_leaves": 7,
+      "n_estimators": 100,
+      "reg_lambda": 1.0,
+      "min_child_samples": 20
+    },
+    "MTA_Bus:ridge:8": {
+      "alpha": 100.0
+    },
+    "MTA_Bus:lightgbm:8": {
+      "num_leaves": 15,
+      "n_estimators": 100,
+      "reg_lambda": 10.0,
+      "min_child_samples": 20
+    },
+    "MTA_Bus:ridge:14": {
+      "alpha": 100.0
+    },
+    "MTA_Bus:lightgbm:14": {
+      "num_leaves": 7,
+      "n_estimators": 100,
+      "reg_lambda": 1.0,
+      "min_child_samples": 20
+    },
+    "MTA_Bus:ridge:21": {
+      "alpha": 100.0
+    },
+    "MTA_Bus:lightgbm:21": {
+      "num_leaves": 7,
+      "n_estimators": 100,
+      "reg_lambda": 10.0,
+      "min_child_samples": 20
+    }
+  },
+  "attempts": [
+    {
+      "state": "MTA_Subway",
+      "model": "ridge",
+      "horizon": 8,
+      "configuration": 0,
+      "parameters": {
+        "alpha": 0.1
+      },
+      "validation_MAE_million_rides": 0.20405859454235176,
+      "validation_n": 174,
+      "validation_target_max": "2026-06-30",
+      "training_X_sha256": "f3bc4269797109b42410f87dd2dec238b306c4b59289bfa11acbd855767a4377",
+      "training_y_sha256": "4dc986cf17b26263685b52f675e39761a8c47a1fc042d9f5f582041b1a5ca4b8",
+      "training_n": 723,
+      "training_target_max": "2025-12-31",
+      "training_origin_max": "2025-12-24"
+    },
+    {
+      "state": "MTA_Subway",
+      "model": "ridge",
+      "horizon": 8,
+      "configuration": 1,
+      "parameters": {
+        "alpha": 1.0
+      },
+      "validation_MAE_million_rides": 0.20295026420109882,
+      "validation_n": 174,
+      "validation_target_max": "2026-06-30",
+      "training_X_sha256": "f3bc4269797109b42410f87dd2dec238b306c4b59289bfa11acbd855767a4377",
+      "training_y_sha256": "4dc986cf17b26263685b52f675e39761a8c47a1fc042d9f5f582041b1a5ca4b8",
+      "training_n": 723,
+      "training_target_max": "2025-12-31",
+      "training_origin_max": "2025-12-24"
+    },
+    {
+      "state": "MTA_Subway",
+      "model": "ridge",
+      "horizon": 8,
+      "configuration": 2,
+      "parameters": {
+        "alpha": 10.0
+      },
+      "validation_MAE_million_rides": 0.19697486373525933,
+      "validation_n": 174,
+      "validation_target_max": "2026-06-30",
+      "training_X_sha256": "f3bc4269797109b42410f87dd2dec238b306c4b59289bfa11acbd855767a4377",
+      "training_y_sha256": "4dc986cf17b26263685b52f675e39761a8c47a1fc042d9f5f582041b1a5ca4b8",
+      "training_n": 723,
+      "training_target_max": "2025-12-31",
+      "training_origin_max": "2025-12-24"
+    },
+    {
+      "state": "MTA_Subway",
+      "model": "ridge",
+      "horizon": 8,
+      "configuration": 3,
+      "parameters": {
+        "alpha": 100.0
+      },
+      "validation_MAE_million_rides": 0.20449408503068442,
+      "validation_n": 174,
+      "validation_target_max": "2026-06-30",
+      "training_X_sha256": "f3bc4269797109b42410f87dd2dec238b306c4b59289bfa11acbd855767a4377",
+      "training_y_sha256": "4dc986cf17b26263685b52f675e39761a8c47a1fc042d9f5f582041b1a5ca4b8",
+      "training_n": 723,
+      "training_target_max": "2025-12-31",
+      "training_origin_max": "2025-12-24"
+    },
+    {
+      "state": "MTA_Subway",
+      "model": "lightgbm",
+      "horizon": 8,
+      "configuration": 0,
+      "parameters": {
+        "num_leaves": 7,
+        "n_estimators": 100,
+        "reg_lambda": 1.0,
+        "min_child_samples": 20
+      },
+      "validation_MAE_million_rides": 0.17351085263185773,
+      "validation_n": 174,
+      "validation_target_max": "2026-06-30",
+      "training_X_sha256": "9d84b38f6b7c9c10e10b2e9d6c50c7249a64e64a3f102b1f5e9ab07e4973c818",
+      "training_y_sha256": "4dc986cf17b26263685b52f675e39761a8c47a1fc042d9f5f582041b1a5ca4b8",
+      "training_n": 723,
+      "training_target_max": "2025-12-31",
+      "training_origin_max": "2025-12-24"
+    },
+    {
+      "state": "MTA_Subway",
+      "model": "lightgbm",
+      "horizon": 8,
+      "configuration": 1,
+      "parameters": {
+        "num_leaves": 7,
+        "n_estimators": 100,
+        "reg_lambda": 10.0,
+        "min_child_samples": 20
+      },
+      "validation_MAE_million_rides": 0.17409638588844642,
+      "validation_n": 174,
+      "validation_target_max": "2026-06-30",
+      "training_X_sha256": "9d84b38f6b7c9c10e10b2e9d6c50c7249a64e64a3f102b1f5e9ab07e4973c818",
+      "training_y_sha256": "4dc986cf17b26263685b52f675e39761a8c47a1fc042d9f5f582041b1a5ca4b8",
+      "training_n": 723,
+      "training_target_max": "2025-12-31",
+      "training_origin_max": "2025-12-24"
+    },
+    {
+      "state": "MTA_Subway",
+      "model": "lightgbm",
+      "horizon": 8,
+      "configuration": 2,
+      "parameters": {
+        "num_leaves": 7,
+        "n_estimators": 300,
+        "reg_lambda": 1.0,
+        "min_child_samples": 20
+      },
+      "validation_MAE_million_rides": 0.18762971441725568,
+      "validation_n": 174,
+      "validation_target_max": "2026-06-30",
+      "training_X_sha256": "9d84b38f6b7c9c10e10b2e9d6c50c7249a64e64a3f102b1f5e9ab07e4973c818",
+      "training_y_sha256": "4dc986cf17b26263685b52f675e39761a8c47a1fc042d9f5f582041b1a5ca4b8",
+      "training_n": 723,
+      "training_target_max": "2025-12-31",
+      "training_origin_max": "2025-12-24"
+    },
+    {
+      "state": "MTA_Subway",
+      "model": "lightgbm",
+      "horizon": 8,
+      "configuration": 3,
+      "parameters": {
+        "num_leaves": 7,
+        "n_estimators": 300,
+        "reg_lambda": 10.0,
+        "min_child_samples": 20
+      },
+      "validation_MAE_million_rides": 0.1858124504078735,
+      "validation_n": 174,
+      "validation_target_max": "2026-06-30",
+      "training_X_sha256": "9d84b38f6b7c9c10e10b2e9d6c50c7249a64e64a3f102b1f5e9ab07e4973c818",
+      "training_y_sha256": "4dc986cf17b26263685b52f675e39761a8c47a1fc042d9f5f582041b1a5ca4b8",
+      "training_n": 723,
+      "training_target_max": "2025-12-31",
+      "training_origin_max": "2025-12-24"
+    },
+    {
+      "state": "MTA_Subway",
+      "model": "lightgbm",
+      "horizon": 8,
+      "configuration": 4,
+      "parameters": {
+        "num_leaves": 15,
+        "n_estimators": 100,
+        "reg_lambda": 1.0,
+        "min_child_samples": 20
+      },
+      "validation_MAE_million_rides": 0.17586464387898623,
+      "validation_n": 174,
+      "validation_target_max": "2026-06-30",
+      "training_X_sha256": "9d84b38f6b7c9c10e10b2e9d6c50c7249a64e64a3f102b1f5e9ab07e4973c818",
+      "training_y_sha256": "4dc986cf17b26263685b52f675e39761a8c47a1fc042d9f5f582041b1a5ca4b8",
+      "training_n": 723,
+      "training_target_max": "2025-12-31",
+      "training_origin_max": "2025-12-24"
+    },
+    {
+      "state": "MTA_Subway",
+      "model": "lightgbm",
+      "horizon": 8,
+      "configuration": 5,
+      "parameters": {
+        "num_leaves": 15,
+        "n_estimators": 100,
+        "reg_lambda": 10.0,
+        "min_child_samples": 20
+      },
+      "validation_MAE_million_rides": 0.17149002257453,
+      "validation_n": 174,
+      "validation_target_max": "2026-06-30",
+      "training_X_sha256": "9d84b38f6b7c9c10e10b2e9d6c50c7249a64e64a3f102b1f5e9ab07e4973c818",
+      "training_y_sha256": "4dc986cf17b26263685b52f675e39761a8c47a1fc042d9f5f582041b1a5ca4b8",
+      "training_n": 723,
+      "training_target_max": "2025-12-31",
+      "training_origin_max": "2025-12-24"
+    },
+    {
+      "state": "MTA_Subway",
+      "model": "lightgbm",
+      "horizon": 8,
+      "configuration": 6,
+      "parameters": {
+        "num_leaves": 15,
+        "n_estimators": 300,
+        "reg_lambda": 1.0,
+        "min_child_samples": 20
+      },
+      "validation_MAE_million_rides": 0.18719394872435502,
+      "validation_n": 174,
+      "validation_target_max": "2026-06-30",
+      "training_X_sha256": "9d84b38f6b7c9c10e10b2e9d6c50c7249a64e64a3f102b1f5e9ab07e4973c818",
+      "training_y_sha256": "4dc986cf17b26263685b52f675e39761a8c47a1fc042d9f5f582041b1a5ca4b8",
+      "training_n": 723,
+      "training_target_max": "2025-12-31",
+      "training_origin_max": "2025-12-24"
+    },
+    {
+      "state": "MTA_Subway",
+      "model": "lightgbm",
+      "horizon": 8,
+      "configuration": 7,
+      "parameters": {
+        "num_leaves": 15,
+        "n_estimators": 300,
+        "reg_lambda": 10.0,
+        "min_child_samples": 20
+      },
+      "validation_MAE_million_rides": 0.18256897305740644,
+      "validation_n": 174,
+      "validation_target_max": "2026-06-30",
+      "training_X_sha256": "9d84b38f6b7c9c10e10b2e9d6c50c7249a64e64a3f102b1f5e9ab07e4973c818",
+      "training_y_sha256": "4dc986cf17b26263685b52f675e39761a8c47a1fc042d9f5f582041b1a5ca4b8",
+      "training_n": 723,
+      "training_target_max": "2025-12-31",
+      "training_origin_max": "2025-12-24"
+    },
+    {
+      "state": "MTA_Subway",
+      "model": "ridge",
+      "horizon": 14,
+      "configuration": 0,
+      "parameters": {
+        "alpha": 0.1
+      },
+      "validation_MAE_million_rides": 0.20247504845795578,
+      "validation_n": 168,
+      "validation_target_max": "2026-06-30",
+      "training_X_sha256": "be6ee3dcee30df0635d29400b3325c34abe89e79d79004417b8ad4fccbd16183",
+      "training_y_sha256": "a40c2c32fbacc67294aff8af519371cbc9d7d1388312b8312aecb6415faa3c69",
+      "training_n": 717,
+      "training_target_max": "2025-12-31",
+      "training_origin_max": "2025-12-18"
+    },
+    {
+      "state": "MTA_Subway",
+      "model": "ridge",
+      "horizon": 14,
+      "configuration": 1,
+      "parameters": {
+        "alpha": 1.0
+      },
+      "validation_MAE_million_rides": 0.20201086970833662,
+      "validation_n": 168,
+      "validation_target_max": "2026-06-30",
+      "training_X_sha256": "be6ee3dcee30df0635d29400b3325c34abe89e79d79004417b8ad4fccbd16183",
+      "training_y_sha256": "a40c2c32fbacc67294aff8af519371cbc9d7d1388312b8312aecb6415faa3c69",
+      "training_n": 717,
+      "training_target_max": "2025-12-31",
+      "training_origin_max": "2025-12-18"
+    },
+    {
+      "state": "MTA_Subway",
+      "model": "ridge",
+      "horizon": 14,
+      "configuration": 2,
+      "parameters": {
+        "alpha": 10.0
+      },
+      "validation_MAE_million_rides": 0.2048402660970302,
+      "validation_n": 168,
+      "validation_target_max": "2026-06-30",
+      "training_X_sha256": "be6ee3dcee30df0635d29400b3325c34abe89e79d79004417b8ad4fccbd16183",
+      "training_y_sha256": "a40c2c32fbacc67294aff8af519371cbc9d7d1388312b8312aecb6415faa3c69",
+      "training_n": 717,
+      "training_target_max": "2025-12-31",
+      "training_origin_max": "2025-12-18"
+    },
+    {
+      "state": "MTA_Subway",
+      "model": "ridge",
+      "horizon": 14,
+      "configuration": 3,
+      "parameters": {
+        "alpha": 100.0
+      },
+      "validation_MAE_million_rides": 0.22607896756308185,
+      "validation_n": 168,
+      "validation_target_max": "2026-06-30",
+      "training_X_sha256": "be6ee3dcee30df0635d29400b3325c34abe89e79d79004417b8ad4fccbd16183",
+      "training_y_sha256": "a40c2c32fbacc67294aff8af519371cbc9d7d1388312b8312aecb6415faa3c69",
+      "training_n": 717,
+      "training_target_max": "2025-12-31",
+      "training_origin_max": "2025-12-18"
+    },
+    {
+      "state": "MTA_Subway",
+      "model": "lightgbm",
+      "horizon": 14,
+      "configuration": 0,
+      "parameters": {
+        "num_leaves": 7,
+        "n_estimators": 100,
+        "reg_lambda": 1.0,
+        "min_child_samples": 20
+      },
+      "validation_MAE_million_rides": 0.1816423332451716,
+      "validation_n": 168,
+      "validation_target_max": "2026-06-30",
+      "training_X_sha256": "1254f2b2e88b7a75bc6cd8c516159c652c0807a9b8159264d012c8d8650be093",
+      "training_y_sha256": "a40c2c32fbacc67294aff8af519371cbc9d7d1388312b8312aecb6415faa3c69",
+      "training_n": 717,
+      "training_target_max": "2025-12-31",
+      "training_origin_max": "2025-12-18"
+    },
+    {
+      "state": "MTA_Subway",
+      "model": "lightgbm",
+      "horizon": 14,
+      "configuration": 1,
+      "parameters": {
+        "num_leaves": 7,
+        "n_estimators": 100,
+        "reg_lambda": 10.0,
+        "min_child_samples": 20
+      },
+      "validation_MAE_million_rides": 0.1803568675225229,
+      "validation_n": 168,
+      "validation_target_max": "2026-06-30",
+      "training_X_sha256": "1254f2b2e88b7a75bc6cd8c516159c652c0807a9b8159264d012c8d8650be093",
+      "training_y_sha256": "a40c2c32fbacc67294aff8af519371cbc9d7d1388312b8312aecb6415faa3c69",
+      "training_n": 717,
+      "training_target_max": "2025-12-31",
+      "training_origin_max": "2025-12-18"
+    },
+    {
+      "state": "MTA_Subway",
+      "model": "lightgbm",
+      "horizon": 14,
+      "configuration": 2,
+      "parameters": {
+        "num_leaves": 7,
+        "n_estimators": 300,
+        "reg_lambda": 1.0,
+        "min_child_samples": 20
+      },
+      "validation_MAE_million_rides": 0.18906094590335562,
+      "validation_n": 168,
+      "validation_target_max": "2026-06-30",
+      "training_X_sha256": "1254f2b2e88b7a75bc6cd8c516159c652c0807a9b8159264d012c8d8650be093",
+      "training_y_sha256": "a40c2c32fbacc67294aff8af519371cbc9d7d1388312b8312aecb6415faa3c69",
+      "training_n": 717,
+      "training_target_max": "2025-12-31",
+      "training_origin_max": "2025-12-18"
+    },
+    {
+      "state": "MTA_Subway",
+      "model": "lightgbm",
+      "horizon": 14,
+      "configuration": 3,
+      "parameters": {
+        "num_leaves": 7,
+        "n_estimators": 300,
+        "reg_lambda": 10.0,
+        "min_child_samples": 20
+      },
+      "validation_MAE_million_rides": 0.18703793746179637,
+      "validation_n": 168,
+      "validation_target_max": "2026-06-30",
+      "training_X_sha256": "1254f2b2e88b7a75bc6cd8c516159c652c0807a9b8159264d012c8d8650be093",
+      "training_y_sha256": "a40c2c32fbacc67294aff8af519371cbc9d7d1388312b8312aecb6415faa3c69",
+      "training_n": 717,
+      "training_target_max": "2025-12-31",
+      "training_origin_max": "2025-12-18"
+    },
+    {
+      "state": "MTA_Subway",
+      "model": "lightgbm",
+      "horizon": 14,
+      "configuration": 4,
+      "parameters": {
+        "num_leaves": 15,
+        "n_estimators": 100,
+        "reg_lambda": 1.0,
+        "min_child_samples": 20
+      },
+      "validation_MAE_million_rides": 0.18263083011010095,
+      "validation_n": 168,
+      "validation_target_max": "2026-06-30",
+      "training_X_sha256": "1254f2b2e88b7a75bc6cd8c516159c652c0807a9b8159264d012c8d8650be093",
+      "training_y_sha256": "a40c2c32fbacc67294aff8af519371cbc9d7d1388312b8312aecb6415faa3c69",
+      "training_n": 717,
+      "training_target_max": "2025-12-31",
+      "training_origin_max": "2025-12-18"
+    },
+    {
+      "state": "MTA_Subway",
+      "model": "lightgbm",
+      "horizon": 14,
+      "configuration": 5,
+      "parameters": {
+        "num_leaves": 15,
+        "n_estimators": 100,
+        "reg_lambda": 10.0,
+        "min_child_samples": 20
+      },
+      "validation_MAE_million_rides": 0.1859889514825739,
+      "validation_n": 168,
+      "validation_target_max": "2026-06-30",
+      "training_X_sha256": "1254f2b2e88b7a75bc6cd8c516159c652c0807a9b8159264d012c8d8650be093",
+      "training_y_sha256": "a40c2c32fbacc67294aff8af519371cbc9d7d1388312b8312aecb6415faa3c69",
+      "training_n": 717,
+      "training_target_max": "2025-12-31",
+      "training_origin_max": "2025-12-18"
+    },
+    {
+      "state": "MTA_Subway",
+      "model": "lightgbm",
+      "horizon": 14,
+      "configuration": 6,
+      "parameters": {
+        "num_leaves": 15,
+        "n_estimators": 300,
+        "reg_lambda": 1.0,
+        "min_child_samples": 20
+      },
+      "validation_MAE_million_rides": 0.18744893311828997,
+      "validation_n": 168,
+      "validation_target_max": "2026-06-30",
+      "training_X_sha256": "1254f2b2e88b7a75bc6cd8c516159c652c0807a9b8159264d012c8d8650be093",
+      "training_y_sha256": "a40c2c32fbacc67294aff8af519371cbc9d7d1388312b8312aecb6415faa3c69",
+      "training_n": 717,
+      "training_target_max": "2025-12-31",
+      "training_origin_max": "2025-12-18"
+    },
+    {
+      "state": "MTA_Subway",
+      "model": "lightgbm",
+      "horizon": 14,
+      "configuration": 7,
+      "parameters": {
+        "num_leaves": 15,
+        "n_estimators": 300,
+        "reg_lambda": 10.0,
+        "min_child_samples": 20
+      },
+      "validation_MAE_million_rides": 0.19351259807447635,
+      "validation_n": 168,
+      "validation_target_max": "2026-06-30",
+      "training_X_sha256": "1254f2b2e88b7a75bc6cd8c516159c652c0807a9b8159264d012c8d8650be093",
+      "training_y_sha256": "a40c2c32fbacc67294aff8af519371cbc9d7d1388312b8312aecb6415faa3c69",
+      "training_n": 717,
+      "training_target_max": "2025-12-31",
+      "training_origin_max": "2025-12-18"
+    },
+    {
+      "state": "MTA_Subway",
+      "model": "ridge",
+      "horizon": 21,
+      "configuration": 0,
+      "parameters": {
+        "alpha": 0.1
+      },
+      "validation_MAE_million_rides": 0.21156846710963922,
+      "validation_n": 161,
+      "validation_target_max": "2026-06-30",
+      "training_X_sha256": "d5d02985e9527c7e5b101a5093cf1f65750b305f90f24cd543644d39a4c41503",
+      "training_y_sha256": "94d63fa1d14f14f8c5abca8187a188d76dbfb1b822277f630fbc826713ad2db2",
+      "training_n": 710,
+      "training_target_max": "2025-12-31",
+      "training_origin_max": "2025-12-11"
+    },
+    {
+      "state": "MTA_Subway",
+      "model": "ridge",
+      "horizon": 21,
+      "configuration": 1,
+      "parameters": {
+        "alpha": 1.0
+      },
+      "validation_MAE_million_rides": 0.2115699661335647,
+      "validation_n": 161,
+      "validation_target_max": "2026-06-30",
+      "training_X_sha256": "d5d02985e9527c7e5b101a5093cf1f65750b305f90f24cd543644d39a4c41503",
+      "training_y_sha256": "94d63fa1d14f14f8c5abca8187a188d76dbfb1b822277f630fbc826713ad2db2",
+      "training_n": 710,
+      "training_target_max": "2025-12-31",
+      "training_origin_max": "2025-12-11"
+    },
+    {
+      "state": "MTA_Subway",
+      "model": "ridge",
+      "horizon": 21,
+      "configuration": 2,
+      "parameters": {
+        "alpha": 10.0
+      },
+      "validation_MAE_million_rides": 0.21312094401632584,
+      "validation_n": 161,
+      "validation_target_max": "2026-06-30",
+      "training_X_sha256": "d5d02985e9527c7e5b101a5093cf1f65750b305f90f24cd543644d39a4c41503",
+      "training_y_sha256": "94d63fa1d14f14f8c5abca8187a188d76dbfb1b822277f630fbc826713ad2db2",
+      "training_n": 710,
+      "training_target_max": "2025-12-31",
+      "training_origin_max": "2025-12-11"
+    },
+    {
+      "state": "MTA_Subway",
+      "model": "ridge",
+      "horizon": 21,
+      "configuration": 3,
+      "parameters": {
+        "alpha": 100.0
+      },
+      "validation_MAE_million_rides": 0.2315887730459638,
+      "validation_n": 161,
+      "validation_target_max": "2026-06-30",
+      "training_X_sha256": "d5d02985e9527c7e5b101a5093cf1f65750b305f90f24cd543644d39a4c41503",
+      "training_y_sha256": "94d63fa1d14f14f8c5abca8187a188d76dbfb1b822277f630fbc826713ad2db2",
+      "training_n": 710,
+      "training_target_max": "2025-12-31",
+      "training_origin_max": "2025-12-11"
+    },
+    {
+      "state": "MTA_Subway",
+      "model": "lightgbm",
+      "horizon": 21,
+      "configuration": 0,
+      "parameters": {
+        "num_leaves": 7,
+        "n_estimators": 100,
+        "reg_lambda": 1.0,
+        "min_child_samples": 20
+      },
+      "validation_MAE_million_rides": 0.18271256440106184,
+      "validation_n": 161,
+      "validation_target_max": "2026-06-30",
+      "training_X_sha256": "22e06bde4e95cd06b004438aa0af806397218290cfe5a067487fb784a5559555",
+      "training_y_sha256": "94d63fa1d14f14f8c5abca8187a188d76dbfb1b822277f630fbc826713ad2db2",
+      "training_n": 710,
+      "training_target_max": "2025-12-31",
+      "training_origin_max": "2025-12-11"
+    },
+    {
+      "state": "MTA_Subway",
+      "model": "lightgbm",
+      "horizon": 21,
+      "configuration": 1,
+      "parameters": {
+        "num_leaves": 7,
+        "n_estimators": 100,
+        "reg_lambda": 10.0,
+        "min_child_samples": 20
+      },
+      "validation_MAE_million_rides": 0.18428135766131779,
+      "validation_n": 161,
+      "validation_target_max": "2026-06-30",
+      "training_X_sha256": "22e06bde4e95cd06b004438aa0af806397218290cfe5a067487fb784a5559555",
+      "training_y_sha256": "94d63fa1d14f14f8c5abca8187a188d76dbfb1b822277f630fbc826713ad2db2",
+      "training_n": 710,
+      "training_target_max": "2025-12-31",
+      "training_origin_max": "2025-12-11"
+    },
+    {
+      "state": "MTA_Subway",
+      "model": "lightgbm",
+      "horizon": 21,
+      "configuration": 2,
+      "parameters": {
+        "num_leaves": 7,
+        "n_estimators": 300,
+        "reg_lambda": 1.0,
+        "min_child_samples": 20
+      },
+      "validation_MAE_million_rides": 0.19228149957470642,
+      "validation_n": 161,
+      "validation_target_max": "2026-06-30",
+      "training_X_sha256": "22e06bde4e95cd06b004438aa0af806397218290cfe5a067487fb784a5559555",
+      "training_y_sha256": "94d63fa1d14f14f8c5abca8187a188d76dbfb1b822277f630fbc826713ad2db2",
+      "training_n": 710,
+      "training_target_max": "2025-12-31",
+      "training_origin_max": "2025-12-11"
+    },
+    {
+      "state": "MTA_Subway",
+      "model": "lightgbm",
+      "horizon": 21,
+      "configuration": 3,
+      "parameters": {
+        "num_leaves": 7,
+        "n_estimators": 300,
+        "reg_lambda": 10.0,
+        "min_child_samples": 20
+      },
+      "validation_MAE_million_rides": 0.18724409494535924,
+      "validation_n": 161,
+      "validation_target_max": "2026-06-30",
+      "training_X_sha256": "22e06bde4e95cd06b004438aa0af806397218290cfe5a067487fb784a5559555",
+      "training_y_sha256": "94d63fa1d14f14f8c5abca8187a188d76dbfb1b822277f630fbc826713ad2db2",
+      "training_n": 710,
+      "training_target_max": "2025-12-31",
+      "training_origin_max": "2025-12-11"
+    },
+    {
+      "state": "MTA_Subway",
+      "model": "lightgbm",
+      "horizon": 21,
+      "configuration": 4,
+      "parameters": {
+        "num_leaves": 15,
+        "n_estimators": 100,
+        "reg_lambda": 1.0,
+        "min_child_samples": 20
+      },
+      "validation_MAE_million_rides": 0.18759099381980518,
+      "validation_n": 161,
+      "validation_target_max": "2026-06-30",
+      "training_X_sha256": "22e06bde4e95cd06b004438aa0af806397218290cfe5a067487fb784a5559555",
+      "training_y_sha256": "94d63fa1d14f14f8c5abca8187a188d76dbfb1b822277f630fbc826713ad2db2",
+      "training_n": 710,
+      "training_target_max": "2025-12-31",
+      "training_origin_max": "2025-12-11"
+    },
+    {
+      "state": "MTA_Subway",
+      "model": "lightgbm",
+      "horizon": 21,
+      "configuration": 5,
+      "parameters": {
+        "num_leaves": 15,
+        "n_estimators": 100,
+        "reg_lambda": 10.0,
+        "min_child_samples": 20
+      },
+      "validation_MAE_million_rides": 0.19122269014738194,
+      "validation_n": 161,
+      "validation_target_max": "2026-06-30",
+      "training_X_sha256": "22e06bde4e95cd06b004438aa0af806397218290cfe5a067487fb784a5559555",
+      "training_y_sha256": "94d63fa1d14f14f8c5abca8187a188d76dbfb1b822277f630fbc826713ad2db2",
+      "training_n": 710,
+      "training_target_max": "2025-12-31",
+      "training_origin_max": "2025-12-11"
+    },
+    {
+      "state": "MTA_Subway",
+      "model": "lightgbm",
+      "horizon": 21,
+      "configuration": 6,
+      "parameters": {
+        "num_leaves": 15,
+        "n_estimators": 300,
+        "reg_lambda": 1.0,
+        "min_child_samples": 20
+      },
+      "validation_MAE_million_rides": 0.1952165943663806,
+      "validation_n": 161,
+      "validation_target_max": "2026-06-30",
+      "training_X_sha256": "22e06bde4e95cd06b004438aa0af806397218290cfe5a067487fb784a5559555",
+      "training_y_sha256": "94d63fa1d14f14f8c5abca8187a188d76dbfb1b822277f630fbc826713ad2db2",
+      "training_n": 710,
+      "training_target_max": "2025-12-31",
+      "training_origin_max": "2025-12-11"
+    },
+    {
+      "state": "MTA_Subway",
+      "model": "lightgbm",
+      "horizon": 21,
+      "configuration": 7,
+      "parameters": {
+        "num_leaves": 15,
+        "n_estimators": 300,
+        "reg_lambda": 10.0,
+        "min_child_samples": 20
+      },
+      "validation_MAE_million_rides": 0.19329834981730887,
+      "validation_n": 161,
+      "validation_target_max": "2026-06-30",
+      "training_X_sha256": "22e06bde4e95cd06b004438aa0af806397218290cfe5a067487fb784a5559555",
+      "training_y_sha256": "94d63fa1d14f14f8c5abca8187a188d76dbfb1b822277f630fbc826713ad2db2",
+      "training_n": 710,
+      "training_target_max": "2025-12-31",
+      "training_origin_max": "2025-12-11"
+    },
+    {
+      "state": "MTA_Bus",
+      "model": "ridge",
+      "horizon": 8,
+      "configuration": 0,
+      "parameters": {
+        "alpha": 0.1
+      },
+      "validation_MAE_million_rides": 0.09206333913407974,
+      "validation_n": 174,
+      "validation_target_max": "2026-06-30",
+      "training_X_sha256": "a082392558372c1ad846fa5bab5a5b542048cb582507436213a900f5cdad6fa1",
+      "training_y_sha256": "0728593248e820e59d2624b41aa3582397f3c268b242b8423595d74e4f8cc1cd",
+      "training_n": 723,
+      "training_target_max": "2025-12-31",
+      "training_origin_max": "2025-12-24"
+    },
+    {
+      "state": "MTA_Bus",
+      "model": "ridge",
+      "horizon": 8,
+      "configuration": 1,
+      "parameters": {
+        "alpha": 1.0
+      },
+      "validation_MAE_million_rides": 0.09109859474527872,
+      "validation_n": 174,
+      "validation_target_max": "2026-06-30",
+      "training_X_sha256": "a082392558372c1ad846fa5bab5a5b542048cb582507436213a900f5cdad6fa1",
+      "training_y_sha256": "0728593248e820e59d2624b41aa3582397f3c268b242b8423595d74e4f8cc1cd",
+      "training_n": 723,
+      "training_target_max": "2025-12-31",
+      "training_origin_max": "2025-12-24"
+    },
+    {
+      "state": "MTA_Bus",
+      "model": "ridge",
+      "horizon": 8,
+      "configuration": 2,
+      "parameters": {
+        "alpha": 10.0
+      },
+      "validation_MAE_million_rides": 0.08548067902643201,
+      "validation_n": 174,
+      "validation_target_max": "2026-06-30",
+      "training_X_sha256": "a082392558372c1ad846fa5bab5a5b542048cb582507436213a900f5cdad6fa1",
+      "training_y_sha256": "0728593248e820e59d2624b41aa3582397f3c268b242b8423595d74e4f8cc1cd",
+      "training_n": 723,
+      "training_target_max": "2025-12-31",
+      "training_origin_max": "2025-12-24"
+    },
+    {
+      "state": "MTA_Bus",
+      "model": "ridge",
+      "horizon": 8,
+      "configuration": 3,
+      "parameters": {
+        "alpha": 100.0
+      },
+      "validation_MAE_million_rides": 0.08005887186034746,
+      "validation_n": 174,
+      "validation_target_max": "2026-06-30",
+      "training_X_sha256": "a082392558372c1ad846fa5bab5a5b542048cb582507436213a900f5cdad6fa1",
+      "training_y_sha256": "0728593248e820e59d2624b41aa3582397f3c268b242b8423595d74e4f8cc1cd",
+      "training_n": 723,
+      "training_target_max": "2025-12-31",
+      "training_origin_max": "2025-12-24"
+    },
+    {
+      "state": "MTA_Bus",
+      "model": "lightgbm",
+      "horizon": 8,
+      "configuration": 0,
+      "parameters": {
+        "num_leaves": 7,
+        "n_estimators": 100,
+        "reg_lambda": 1.0,
+        "min_child_samples": 20
+      },
+      "validation_MAE_million_rides": 0.07884652537765582,
+      "validation_n": 174,
+      "validation_target_max": "2026-06-30",
+      "training_X_sha256": "a1541de7535042298680f7e2b663b3880e1d9a7fe0f8af66f78c1a9b376ec3bd",
+      "training_y_sha256": "0728593248e820e59d2624b41aa3582397f3c268b242b8423595d74e4f8cc1cd",
+      "training_n": 723,
+      "training_target_max": "2025-12-31",
+      "training_origin_max": "2025-12-24"
+    },
+    {
+      "state": "MTA_Bus",
+      "model": "lightgbm",
+      "horizon": 8,
+      "configuration": 1,
+      "parameters": {
+        "num_leaves": 7,
+        "n_estimators": 100,
+        "reg_lambda": 10.0,
+        "min_child_samples": 20
+      },
+      "validation_MAE_million_rides": 0.07938987855344343,
+      "validation_n": 174,
+      "validation_target_max": "2026-06-30",
+      "training_X_sha256": "a1541de7535042298680f7e2b663b3880e1d9a7fe0f8af66f78c1a9b376ec3bd",
+      "training_y_sha256": "0728593248e820e59d2624b41aa3582397f3c268b242b8423595d74e4f8cc1cd",
+      "training_n": 723,
+      "training_target_max": "2025-12-31",
+      "training_origin_max": "2025-12-24"
+    },
+    {
+      "state": "MTA_Bus",
+      "model": "lightgbm",
+      "horizon": 8,
+      "configuration": 2,
+      "parameters": {
+        "num_leaves": 7,
+        "n_estimators": 300,
+        "reg_lambda": 1.0,
+        "min_child_samples": 20
+      },
+      "validation_MAE_million_rides": 0.07851296222404038,
+      "validation_n": 174,
+      "validation_target_max": "2026-06-30",
+      "training_X_sha256": "a1541de7535042298680f7e2b663b3880e1d9a7fe0f8af66f78c1a9b376ec3bd",
+      "training_y_sha256": "0728593248e820e59d2624b41aa3582397f3c268b242b8423595d74e4f8cc1cd",
+      "training_n": 723,
+      "training_target_max": "2025-12-31",
+      "training_origin_max": "2025-12-24"
+    },
+    {
+      "state": "MTA_Bus",
+      "model": "lightgbm",
+      "horizon": 8,
+      "configuration": 3,
+      "parameters": {
+        "num_leaves": 7,
+        "n_estimators": 300,
+        "reg_lambda": 10.0,
+        "min_child_samples": 20
+      },
+      "validation_MAE_million_rides": 0.08077260017673663,
+      "validation_n": 174,
+      "validation_target_max": "2026-06-30",
+      "training_X_sha256": "a1541de7535042298680f7e2b663b3880e1d9a7fe0f8af66f78c1a9b376ec3bd",
+      "training_y_sha256": "0728593248e820e59d2624b41aa3582397f3c268b242b8423595d74e4f8cc1cd",
+      "training_n": 723,
+      "training_target_max": "2025-12-31",
+      "training_origin_max": "2025-12-24"
+    },
+    {
+      "state": "MTA_Bus",
+      "model": "lightgbm",
+      "horizon": 8,
+      "configuration": 4,
+      "parameters": {
+        "num_leaves": 15,
+        "n_estimators": 100,
+        "reg_lambda": 1.0,
+        "min_child_samples": 20
+      },
+      "validation_MAE_million_rides": 0.08092033931034108,
+      "validation_n": 174,
+      "validation_target_max": "2026-06-30",
+      "training_X_sha256": "a1541de7535042298680f7e2b663b3880e1d9a7fe0f8af66f78c1a9b376ec3bd",
+      "training_y_sha256": "0728593248e820e59d2624b41aa3582397f3c268b242b8423595d74e4f8cc1cd",
+      "training_n": 723,
+      "training_target_max": "2025-12-31",
+      "training_origin_max": "2025-12-24"
+    },
+    {
+      "state": "MTA_Bus",
+      "model": "lightgbm",
+      "horizon": 8,
+      "configuration": 5,
+      "parameters": {
+        "num_leaves": 15,
+        "n_estimators": 100,
+        "reg_lambda": 10.0,
+        "min_child_samples": 20
+      },
+      "validation_MAE_million_rides": 0.07709435596464748,
+      "validation_n": 174,
+      "validation_target_max": "2026-06-30",
+      "training_X_sha256": "a1541de7535042298680f7e2b663b3880e1d9a7fe0f8af66f78c1a9b376ec3bd",
+      "training_y_sha256": "0728593248e820e59d2624b41aa3582397f3c268b242b8423595d74e4f8cc1cd",
+      "training_n": 723,
+      "training_target_max": "2025-12-31",
+      "training_origin_max": "2025-12-24"
+    },
+    {
+      "state": "MTA_Bus",
+      "model": "lightgbm",
+      "horizon": 8,
+      "configuration": 6,
+      "parameters": {
+        "num_leaves": 15,
+        "n_estimators": 300,
+        "reg_lambda": 1.0,
+        "min_child_samples": 20
+      },
+      "validation_MAE_million_rides": 0.08298102836700971,
+      "validation_n": 174,
+      "validation_target_max": "2026-06-30",
+      "training_X_sha256": "a1541de7535042298680f7e2b663b3880e1d9a7fe0f8af66f78c1a9b376ec3bd",
+      "training_y_sha256": "0728593248e820e59d2624b41aa3582397f3c268b242b8423595d74e4f8cc1cd",
+      "training_n": 723,
+      "training_target_max": "2025-12-31",
+      "training_origin_max": "2025-12-24"
+    },
+    {
+      "state": "MTA_Bus",
+      "model": "lightgbm",
+      "horizon": 8,
+      "configuration": 7,
+      "parameters": {
+        "num_leaves": 15,
+        "n_estimators": 300,
+        "reg_lambda": 10.0,
+        "min_child_samples": 20
+      },
+      "validation_MAE_million_rides": 0.07843857735467526,
+      "validation_n": 174,
+      "validation_target_max": "2026-06-30",
+      "training_X_sha256": "a1541de7535042298680f7e2b663b3880e1d9a7fe0f8af66f78c1a9b376ec3bd",
+      "training_y_sha256": "0728593248e820e59d2624b41aa3582397f3c268b242b8423595d74e4f8cc1cd",
+      "training_n": 723,
+      "training_target_max": "2025-12-31",
+      "training_origin_max": "2025-12-24"
+    },
+    {
+      "state": "MTA_Bus",
+      "model": "ridge",
+      "horizon": 14,
+      "configuration": 0,
+      "parameters": {
+        "alpha": 0.1
+      },
+      "validation_MAE_million_rides": 0.09761051020988591,
+      "validation_n": 168,
+      "validation_target_max": "2026-06-30",
+      "training_X_sha256": "723f4a9893aa9a7ad57800b803bb1f8a30dff20efc2407acea1f5ca315000709",
+      "training_y_sha256": "7f82f7befd5a4bac1611c9ddca9ce1474a72af947fd46cf823313042ac11bcf8",
+      "training_n": 717,
+      "training_target_max": "2025-12-31",
+      "training_origin_max": "2025-12-18"
+    },
+    {
+      "state": "MTA_Bus",
+      "model": "ridge",
+      "horizon": 14,
+      "configuration": 1,
+      "parameters": {
+        "alpha": 1.0
+      },
+      "validation_MAE_million_rides": 0.09714695783288028,
+      "validation_n": 168,
+      "validation_target_max": "2026-06-30",
+      "training_X_sha256": "723f4a9893aa9a7ad57800b803bb1f8a30dff20efc2407acea1f5ca315000709",
+      "training_y_sha256": "7f82f7befd5a4bac1611c9ddca9ce1474a72af947fd46cf823313042ac11bcf8",
+      "training_n": 717,
+      "training_target_max": "2025-12-31",
+      "training_origin_max": "2025-12-18"
+    },
+    {
+      "state": "MTA_Bus",
+      "model": "ridge",
+      "horizon": 14,
+      "configuration": 2,
+      "parameters": {
+        "alpha": 10.0
+      },
+      "validation_MAE_million_rides": 0.0941660738413542,
+      "validation_n": 168,
+      "validation_target_max": "2026-06-30",
+      "training_X_sha256": "723f4a9893aa9a7ad57800b803bb1f8a30dff20efc2407acea1f5ca315000709",
+      "training_y_sha256": "7f82f7befd5a4bac1611c9ddca9ce1474a72af947fd46cf823313042ac11bcf8",
+      "training_n": 717,
+      "training_target_max": "2025-12-31",
+      "training_origin_max": "2025-12-18"
+    },
+    {
+      "state": "MTA_Bus",
+      "model": "ridge",
+      "horizon": 14,
+      "configuration": 3,
+      "parameters": {
+        "alpha": 100.0
+      },
+      "validation_MAE_million_rides": 0.08798790088039962,
+      "validation_n": 168,
+      "validation_target_max": "2026-06-30",
+      "training_X_sha256": "723f4a9893aa9a7ad57800b803bb1f8a30dff20efc2407acea1f5ca315000709",
+      "training_y_sha256": "7f82f7befd5a4bac1611c9ddca9ce1474a72af947fd46cf823313042ac11bcf8",
+      "training_n": 717,
+      "training_target_max": "2025-12-31",
+      "training_origin_max": "2025-12-18"
+    },
+    {
+      "state": "MTA_Bus",
+      "model": "lightgbm",
+      "horizon": 14,
+      "configuration": 0,
+      "parameters": {
+        "num_leaves": 7,
+        "n_estimators": 100,
+        "reg_lambda": 1.0,
+        "min_child_samples": 20
+      },
+      "validation_MAE_million_rides": 0.08289723412017673,
+      "validation_n": 168,
+      "validation_target_max": "2026-06-30",
+      "training_X_sha256": "0f5710a4c90639b80d7ffeff6f5f75187e77984c6cc561bd6fd3d5a48a527a1a",
+      "training_y_sha256": "7f82f7befd5a4bac1611c9ddca9ce1474a72af947fd46cf823313042ac11bcf8",
+      "training_n": 717,
+      "training_target_max": "2025-12-31",
+      "training_origin_max": "2025-12-18"
+    },
+    {
+      "state": "MTA_Bus",
+      "model": "lightgbm",
+      "horizon": 14,
+      "configuration": 1,
+      "parameters": {
+        "num_leaves": 7,
+        "n_estimators": 100,
+        "reg_lambda": 10.0,
+        "min_child_samples": 20
+      },
+      "validation_MAE_million_rides": 0.0835222833206218,
+      "validation_n": 168,
+      "validation_target_max": "2026-06-30",
+      "training_X_sha256": "0f5710a4c90639b80d7ffeff6f5f75187e77984c6cc561bd6fd3d5a48a527a1a",
+      "training_y_sha256": "7f82f7befd5a4bac1611c9ddca9ce1474a72af947fd46cf823313042ac11bcf8",
+      "training_n": 717,
+      "training_target_max": "2025-12-31",
+      "training_origin_max": "2025-12-18"
+    },
+    {
+      "state": "MTA_Bus",
+      "model": "lightgbm",
+      "horizon": 14,
+      "configuration": 2,
+      "parameters": {
+        "num_leaves": 7,
+        "n_estimators": 300,
+        "reg_lambda": 1.0,
+        "min_child_samples": 20
+      },
+      "validation_MAE_million_rides": 0.0868101649588588,
+      "validation_n": 168,
+      "validation_target_max": "2026-06-30",
+      "training_X_sha256": "0f5710a4c90639b80d7ffeff6f5f75187e77984c6cc561bd6fd3d5a48a527a1a",
+      "training_y_sha256": "7f82f7befd5a4bac1611c9ddca9ce1474a72af947fd46cf823313042ac11bcf8",
+      "training_n": 717,
+      "training_target_max": "2025-12-31",
+      "training_origin_max": "2025-12-18"
+    },
+    {
+      "state": "MTA_Bus",
+      "model": "lightgbm",
+      "horizon": 14,
+      "configuration": 3,
+      "parameters": {
+        "num_leaves": 7,
+        "n_estimators": 300,
+        "reg_lambda": 10.0,
+        "min_child_samples": 20
+      },
+      "validation_MAE_million_rides": 0.08729938688319715,
+      "validation_n": 168,
+      "validation_target_max": "2026-06-30",
+      "training_X_sha256": "0f5710a4c90639b80d7ffeff6f5f75187e77984c6cc561bd6fd3d5a48a527a1a",
+      "training_y_sha256": "7f82f7befd5a4bac1611c9ddca9ce1474a72af947fd46cf823313042ac11bcf8",
+      "training_n": 717,
+      "training_target_max": "2025-12-31",
+      "training_origin_max": "2025-12-18"
+    },
+    {
+      "state": "MTA_Bus",
+      "model": "lightgbm",
+      "horizon": 14,
+      "configuration": 4,
+      "parameters": {
+        "num_leaves": 15,
+        "n_estimators": 100,
+        "reg_lambda": 1.0,
+        "min_child_samples": 20
+      },
+      "validation_MAE_million_rides": 0.08871783830240852,
+      "validation_n": 168,
+      "validation_target_max": "2026-06-30",
+      "training_X_sha256": "0f5710a4c90639b80d7ffeff6f5f75187e77984c6cc561bd6fd3d5a48a527a1a",
+      "training_y_sha256": "7f82f7befd5a4bac1611c9ddca9ce1474a72af947fd46cf823313042ac11bcf8",
+      "training_n": 717,
+      "training_target_max": "2025-12-31",
+      "training_origin_max": "2025-12-18"
+    },
+    {
+      "state": "MTA_Bus",
+      "model": "lightgbm",
+      "horizon": 14,
+      "configuration": 5,
+      "parameters": {
+        "num_leaves": 15,
+        "n_estimators": 100,
+        "reg_lambda": 10.0,
+        "min_child_samples": 20
+      },
+      "validation_MAE_million_rides": 0.08729395056860989,
+      "validation_n": 168,
+      "validation_target_max": "2026-06-30",
+      "training_X_sha256": "0f5710a4c90639b80d7ffeff6f5f75187e77984c6cc561bd6fd3d5a48a527a1a",
+      "training_y_sha256": "7f82f7befd5a4bac1611c9ddca9ce1474a72af947fd46cf823313042ac11bcf8",
+      "training_n": 717,
+      "training_target_max": "2025-12-31",
+      "training_origin_max": "2025-12-18"
+    },
+    {
+      "state": "MTA_Bus",
+      "model": "lightgbm",
+      "horizon": 14,
+      "configuration": 6,
+      "parameters": {
+        "num_leaves": 15,
+        "n_estimators": 300,
+        "reg_lambda": 1.0,
+        "min_child_samples": 20
+      },
+      "validation_MAE_million_rides": 0.08845507790199521,
+      "validation_n": 168,
+      "validation_target_max": "2026-06-30",
+      "training_X_sha256": "0f5710a4c90639b80d7ffeff6f5f75187e77984c6cc561bd6fd3d5a48a527a1a",
+      "training_y_sha256": "7f82f7befd5a4bac1611c9ddca9ce1474a72af947fd46cf823313042ac11bcf8",
+      "training_n": 717,
+      "training_target_max": "2025-12-31",
+      "training_origin_max": "2025-12-18"
+    },
+    {
+      "state": "MTA_Bus",
+      "model": "lightgbm",
+      "horizon": 14,
+      "configuration": 7,
+      "parameters": {
+        "num_leaves": 15,
+        "n_estimators": 300,
+        "reg_lambda": 10.0,
+        "min_child_samples": 20
+      },
+      "validation_MAE_million_rides": 0.0906713499191054,
+      "validation_n": 168,
+      "validation_target_max": "2026-06-30",
+      "training_X_sha256": "0f5710a4c90639b80d7ffeff6f5f75187e77984c6cc561bd6fd3d5a48a527a1a",
+      "training_y_sha256": "7f82f7befd5a4bac1611c9ddca9ce1474a72af947fd46cf823313042ac11bcf8",
+      "training_n": 717,
+      "training_target_max": "2025-12-31",
+      "training_origin_max": "2025-12-18"
+    },
+    {
+      "state": "MTA_Bus",
+      "model": "ridge",
+      "horizon": 21,
+      "configuration": 0,
+      "parameters": {
+        "alpha": 0.1
+      },
+      "validation_MAE_million_rides": 0.0965326300634806,
+      "validation_n": 161,
+      "validation_target_max": "2026-06-30",
+      "training_X_sha256": "3c262e4455987fc44555016edb276efcd3235d9eb71134a112c0a1abfa0c7ad2",
+      "training_y_sha256": "df3ae2fa904b9834e95b0eacc06d12c725379d18feda2c6520cb42c275df5066",
+      "training_n": 710,
+      "training_target_max": "2025-12-31",
+      "training_origin_max": "2025-12-11"
+    },
+    {
+      "state": "MTA_Bus",
+      "model": "ridge",
+      "horizon": 21,
+      "configuration": 1,
+      "parameters": {
+        "alpha": 1.0
+      },
+      "validation_MAE_million_rides": 0.09527527352544633,
+      "validation_n": 161,
+      "validation_target_max": "2026-06-30",
+      "training_X_sha256": "3c262e4455987fc44555016edb276efcd3235d9eb71134a112c0a1abfa0c7ad2",
+      "training_y_sha256": "df3ae2fa904b9834e95b0eacc06d12c725379d18feda2c6520cb42c275df5066",
+      "training_n": 710,
+      "training_target_max": "2025-12-31",
+      "training_origin_max": "2025-12-11"
+    },
+    {
+      "state": "MTA_Bus",
+      "model": "ridge",
+      "horizon": 21,
+      "configuration": 2,
+      "parameters": {
+        "alpha": 10.0
+      },
+      "validation_MAE_million_rides": 0.08906866963292145,
+      "validation_n": 161,
+      "validation_target_max": "2026-06-30",
+      "training_X_sha256": "3c262e4455987fc44555016edb276efcd3235d9eb71134a112c0a1abfa0c7ad2",
+      "training_y_sha256": "df3ae2fa904b9834e95b0eacc06d12c725379d18feda2c6520cb42c275df5066",
+      "training_n": 710,
+      "training_target_max": "2025-12-31",
+      "training_origin_max": "2025-12-11"
+    },
+    {
+      "state": "MTA_Bus",
+      "model": "ridge",
+      "horizon": 21,
+      "configuration": 3,
+      "parameters": {
+        "alpha": 100.0
+      },
+      "validation_MAE_million_rides": 0.0826088436122333,
+      "validation_n": 161,
+      "validation_target_max": "2026-06-30",
+      "training_X_sha256": "3c262e4455987fc44555016edb276efcd3235d9eb71134a112c0a1abfa0c7ad2",
+      "training_y_sha256": "df3ae2fa904b9834e95b0eacc06d12c725379d18feda2c6520cb42c275df5066",
+      "training_n": 710,
+      "training_target_max": "2025-12-31",
+      "training_origin_max": "2025-12-11"
+    },
+    {
+      "state": "MTA_Bus",
+      "model": "lightgbm",
+      "horizon": 21,
+      "configuration": 0,
+      "parameters": {
+        "num_leaves": 7,
+        "n_estimators": 100,
+        "reg_lambda": 1.0,
+        "min_child_samples": 20
+      },
+      "validation_MAE_million_rides": 0.08282849123336285,
+      "validation_n": 161,
+      "validation_target_max": "2026-06-30",
+      "training_X_sha256": "6dc16e2ead2c10d5e12054df68133afbc6ef4dd8487b176b8f8131589e79284b",
+      "training_y_sha256": "df3ae2fa904b9834e95b0eacc06d12c725379d18feda2c6520cb42c275df5066",
+      "training_n": 710,
+      "training_target_max": "2025-12-31",
+      "training_origin_max": "2025-12-11"
+    },
+    {
+      "state": "MTA_Bus",
+      "model": "lightgbm",
+      "horizon": 21,
+      "configuration": 1,
+      "parameters": {
+        "num_leaves": 7,
+        "n_estimators": 100,
+        "reg_lambda": 10.0,
+        "min_child_samples": 20
+      },
+      "validation_MAE_million_rides": 0.08166579608311628,
+      "validation_n": 161,
+      "validation_target_max": "2026-06-30",
+      "training_X_sha256": "6dc16e2ead2c10d5e12054df68133afbc6ef4dd8487b176b8f8131589e79284b",
+      "training_y_sha256": "df3ae2fa904b9834e95b0eacc06d12c725379d18feda2c6520cb42c275df5066",
+      "training_n": 710,
+      "training_target_max": "2025-12-31",
+      "training_origin_max": "2025-12-11"
+    },
+    {
+      "state": "MTA_Bus",
+      "model": "lightgbm",
+      "horizon": 21,
+      "configuration": 2,
+      "parameters": {
+        "num_leaves": 7,
+        "n_estimators": 300,
+        "reg_lambda": 1.0,
+        "min_child_samples": 20
+      },
+      "validation_MAE_million_rides": 0.08795620408641927,
+      "validation_n": 161,
+      "validation_target_max": "2026-06-30",
+      "training_X_sha256": "6dc16e2ead2c10d5e12054df68133afbc6ef4dd8487b176b8f8131589e79284b",
+      "training_y_sha256": "df3ae2fa904b9834e95b0eacc06d12c725379d18feda2c6520cb42c275df5066",
+      "training_n": 710,
+      "training_target_max": "2025-12-31",
+      "training_origin_max": "2025-12-11"
+    },
+    {
+      "state": "MTA_Bus",
+      "model": "lightgbm",
+      "horizon": 21,
+      "configuration": 3,
+      "parameters": {
+        "num_leaves": 7,
+        "n_estimators": 300,
+        "reg_lambda": 10.0,
+        "min_child_samples": 20
+      },
+      "validation_MAE_million_rides": 0.0884557329798683,
+      "validation_n": 161,
+      "validation_target_max": "2026-06-30",
+      "training_X_sha256": "6dc16e2ead2c10d5e12054df68133afbc6ef4dd8487b176b8f8131589e79284b",
+      "training_y_sha256": "df3ae2fa904b9834e95b0eacc06d12c725379d18feda2c6520cb42c275df5066",
+      "training_n": 710,
+      "training_target_max": "2025-12-31",
+      "training_origin_max": "2025-12-11"
+    },
+    {
+      "state": "MTA_Bus",
+      "model": "lightgbm",
+      "horizon": 21,
+      "configuration": 4,
+      "parameters": {
+        "num_leaves": 15,
+        "n_estimators": 100,
+        "reg_lambda": 1.0,
+        "min_child_samples": 20
+      },
+      "validation_MAE_million_rides": 0.08538103451667925,
+      "validation_n": 161,
+      "validation_target_max": "2026-06-30",
+      "training_X_sha256": "6dc16e2ead2c10d5e12054df68133afbc6ef4dd8487b176b8f8131589e79284b",
+      "training_y_sha256": "df3ae2fa904b9834e95b0eacc06d12c725379d18feda2c6520cb42c275df5066",
+      "training_n": 710,
+      "training_target_max": "2025-12-31",
+      "training_origin_max": "2025-12-11"
+    },
+    {
+      "state": "MTA_Bus",
+      "model": "lightgbm",
+      "horizon": 21,
+      "configuration": 5,
+      "parameters": {
+        "num_leaves": 15,
+        "n_estimators": 100,
+        "reg_lambda": 10.0,
+        "min_child_samples": 20
+      },
+      "validation_MAE_million_rides": 0.08183183124466786,
+      "validation_n": 161,
+      "validation_target_max": "2026-06-30",
+      "training_X_sha256": "6dc16e2ead2c10d5e12054df68133afbc6ef4dd8487b176b8f8131589e79284b",
+      "training_y_sha256": "df3ae2fa904b9834e95b0eacc06d12c725379d18feda2c6520cb42c275df5066",
+      "training_n": 710,
+      "training_target_max": "2025-12-31",
+      "training_origin_max": "2025-12-11"
+    },
+    {
+      "state": "MTA_Bus",
+      "model": "lightgbm",
+      "horizon": 21,
+      "configuration": 6,
+      "parameters": {
+        "num_leaves": 15,
+        "n_estimators": 300,
+        "reg_lambda": 1.0,
+        "min_child_samples": 20
+      },
+      "validation_MAE_million_rides": 0.08991941405179528,
+      "validation_n": 161,
+      "validation_target_max": "2026-06-30",
+      "training_X_sha256": "6dc16e2ead2c10d5e12054df68133afbc6ef4dd8487b176b8f8131589e79284b",
+      "training_y_sha256": "df3ae2fa904b9834e95b0eacc06d12c725379d18feda2c6520cb42c275df5066",
+      "training_n": 710,
+      "training_target_max": "2025-12-31",
+      "training_origin_max": "2025-12-11"
+    },
+    {
+      "state": "MTA_Bus",
+      "model": "lightgbm",
+      "horizon": 21,
+      "configuration": 7,
+      "parameters": {
+        "num_leaves": 15,
+        "n_estimators": 300,
+        "reg_lambda": 10.0,
+        "min_child_samples": 20
+      },
+      "validation_MAE_million_rides": 0.08511140009187314,
+      "validation_n": 161,
+      "validation_target_max": "2026-06-30",
+      "training_X_sha256": "6dc16e2ead2c10d5e12054df68133afbc6ef4dd8487b176b8f8131589e79284b",
+      "training_y_sha256": "df3ae2fa904b9834e95b0eacc06d12c725379d18feda2c6520cb42c275df5066",
+      "training_n": 710,
+      "training_target_max": "2025-12-31",
+      "training_origin_max": "2025-12-11"
+    }
+  ],
+  "snapshot_sha256": "035fb0bd5241c20d7a0ea903e743811026951376a6e362c51f6318517fb0ee11",
+  "policy": "Calendar-onlypastJanuary\u2013Juneselection; no newevent-cohort search"
+}

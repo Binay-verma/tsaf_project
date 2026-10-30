@@ -1,0 +1,14 @@
+{
+  "started_utc": "2026-10-30T22:50:48.713814+00:00",
+  "status": "failed",
+  "worker": "chronos",
+  "completed": [
+    "old_added (byte-identical retained)",
+    "aligned_added (byte-identical retained)",
+    "aligned_placebo_event (byte-identical retained)",
+    "aligned_placebo_ordinary (byte-identical retained)",
+    "old_encoding_added (byte-identical retained)",
+    "aligned_encoding_added"
+  ],
+  "traceback": "Traceback (most recent call last):\n  File \"/workspace/tsaf_project/src/continue_pipeline_recovery_v1.py\", line 134, in lane\n    execute(['src/mta_holiday_study.py', worker, '--cohort', cohort], mta/cohort/(worker+'.execution.log'))\n  File \"/workspace/tsaf_project/src/continue_pipeline_recovery_v1.py\", line 92, in execute\n    subprocess.run([sys.executable, *command], cwd=ROOT, stdout=stream, stderr=subprocess.STDOUT, check=True)\n  File \"/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/subprocess.py\", line 571, in run\n    raise CalledProcessError(retcode, process.args,\nsubprocess.CalledProcessError: Command '['/workspace/tsaf_project/.venv/bin/python', 'src/mta_holiday_study.py', 'chronos', '--cohort', 'event_window']' returned non-zero exit status 1.\n"
+}

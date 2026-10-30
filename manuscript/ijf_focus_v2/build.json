@@ -1,0 +1,36 @@
+{
+  "created_utc": "2026-10-30T22:49:35.043007+00:00",
+  "status": "Review draft; not submission-ready",
+  "inputs": {
+    "results/feature_breadth_v1/independent_audit.json": "d8e6fcb7e06ee166dc483b7de3334387d3b2d78ff179e1805a697c1a2228a0d1",
+    "results/event_comparators_v1/independent_audit.json": "5f10c654f44fa2f494d67114f0a1d9ffcd222d19ec43c156f959decb09bd0f87",
+    "results/pooling_simulation_v1/independent_audit.json": "3a056c810a6d4b61af3b35916dac1722d8736f089b0738672541d28423c5e676",
+    "review/clean_extended_v1/comparison.json": "7c4a5eb253513215574727aa5968ce5fb8183415a1a89e3b201bc7a5c91f3572",
+    "results/feature_breadth_v1/registration.json": "88dc5eb2aa9dab7a70325e615e3dbafd718eac55ce1b38bcc905dd428cae2a14",
+    "results/feature_breadth_v1/scoring_registration.json": "08fb9c9175cefa172917b289117f3de5fa8d09fba1607be67b6ca633812b3c63",
+    "results/event_comparators_v1/metrics_balanced.csv": "6f1ee696db5e1646352acbfdefc7d2dcac2bf5fcf84ff144d3212d068671ad43",
+    "results/pooling_simulation_v1/paired_seed_contrasts.csv": "ef025d3aef07786dbbb5f8252fdcb1ea484899079d3d63ff4c3e4f7dc07a69c3",
+    "src/build_ijf_focus.py": "ab063d1755f6255b052664a7ac188c8e844863d2942656619191c979380c3b76",
+    "results/feature_breadth_v1/event_window/primary_metrics_balanced.csv": "f1d09f048125d853984acc0f80fc562e550f106a54d95ab7e9e91192240365cd",
+    "results/feature_breadth_v1/event_window/contrasts_balanced.csv": "40b0109922e275c850b06607911c8e5a71f5fb290cc85bea1893237e1dfb5165",
+    "results/feature_breadth_v1/event_window/native_uncertainty_balanced.csv": "118908252d5a4d7d8c1191c102bd363214807c6bc2a986b9d9dbb615b177d122",
+    "results/feature_breadth_v1/ordinary/primary_metrics_balanced.csv": "c1509f789fc6b14d3bf20964638150573640b92ff7a880fb14f8c48582614ced",
+    "results/feature_breadth_v1/ordinary/contrasts_balanced.csv": "502a79e67035c1c9268cf093ab90297d1b6e43d8a4d91787e47ac3749226ea5f",
+    "results/feature_breadth_v1/ordinary/native_uncertainty_balanced.csv": "3f6ca12fa9b2394c5fc85c4d695526f48638bee9700a95736a381ffb8e4fe145"
+  },
+  "outputs": {
+    "qa.json": "40c49f0dc5e439dc65b09787652d7bfb3e3d948e81e75ee1e17c9485765a89fa",
+    "IJF_Focused_Draft_Binay_Verma.docx": "1b41d2c4fd5efc137aa24385e1e437d94ba21d41f249e5895f5cd30a2cc69f34",
+    "comparators_table.csv": "24b88311875a9a52b2a4c30036fd6c0d13e8ab0922be84de3ffcf641144402c2",
+    "ordinary_table.csv": "71bc87febb48b4a27328bfa897b9f244493e574e31e9d8af7105918608b5ef29",
+    "event_window_table.csv": "fa466c9ccaea210bf48981bd20cfdae5850f08df0560ba297e5b9e95df36489e",
+    "native_table.csv": "ae959af69f632a6cdd1ab97373cfd8603b1c79874e9ec82eb33ac74a2178ce68",
+    "MANUSCRIPT.md": "2cda443601f52330a9cc78bc4587f36ab68d567af60187d57943fb8e875d9773",
+    "figures/breadth_contrasts.pdf": "91ecd77cb0eccfb9e46d8ba0eb6e2df172dcb7d2537f2f62dcae674575594471",
+    "figures/simulation_conditions.svg": "7defd931c5cf84558720c884068ae64c88472e44a210ae3b4e94c135286adb6c",
+    "figures/simulation_conditions.png": "d85c70cd66dafb736abe1da8f0373281396b8a260826691888f9cb3bea4b4d79",
+    "figures/simulation_conditions.pdf": "fc3d146356a57c120a3e57182423691be03b47b5ef08163d7a6144c5e105a4e4",
+    "figures/breadth_contrasts.svg": "7272d2b62adc54120f5ad05b66e6e84ce6039cd7384df0670c6e8a6c8a5e3921",
+    "figures/breadth_contrasts.png": "f6d0bc3664d82d2cd65ff97565f68aadcd7312e6aa817800d162dc8473e87ffe"
+  }
+}

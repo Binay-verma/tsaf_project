@@ -1,0 +1,13 @@
+{
+  "created_utc": "2026-10-30T20:19:33.187134+00:00",
+  "status": "BEFORE_TARGET_DATE_COUNT_RECORDS",
+  "protocols": {
+    "event_window": "7383b49d75b0739ec5e2961567632df42685f168215eb2608b0b4f60763f1847",
+    "ordinary": "d6604dfd9340876489deef5ce33a55bae120f62dd7ae9c5a0cef2558410a22e8"
+  },
+  "planned_model_rows": 6300,
+  "planned_naive_rows": 252,
+  "source_dataset": "sayj-mze2",
+  "target_unit": "millionestimatedrides",
+  "source_independence": "NYCMTA primarytransportation lineage independent ofIndianGRID andNESOelectricity; two relatedmodes/onecity are not independentgeographies."
+}

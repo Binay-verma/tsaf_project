@@ -1,0 +1,12 @@
+Loading weights:   0%|          | 0/170 [00:00<?, ?it/s]Loading weights: 100%|██████████| 170/170 [00:00<00:00, 5353.57it/s]
+Traceback (most recent call last):
+  File "/workspace/tsaf_project/src/mta_holiday_study.py", line 241, in <module>
+    else:run(a.cohort,a.action)
+         ^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/tsaf_project/src/mta_holiday_study.py", line 231, in run
+    engine.OUT=OUT/cohort;engine.ARMS=FOUNDATION_ARMS;engine.frames=frames;engine.foundation(worker)
+                                                                           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/tsaf_project/src/mta_model_engine_v1.py", line 114, in foundation
+    decision_origin=str(r.decision_origin), decision_lead=int(r.decision_lead), scenario=p['scenario'],
+                                                                                         ~^^^^^^^^^^^^
+KeyError: 'scenario'

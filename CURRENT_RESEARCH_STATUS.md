@@ -1,5 +1,13 @@
 # Current status — 31 October 2026 India time
 
+## Latest continuation: completed breadth, two preserved integration repairs
+
+The full original-calendar study is complete: 35,712 forecasts and its separate source/input/fit/native/metric audit pass. The focused v2 MD/DOCX exists; PDF/visual review is pending. The corrected-calendar foundation panel remains unfinished.
+
+The ten-arm encoder repair succeeded. Recenter recovery retains 870 completed forecasts and needs only 222 TimesFM rows. The first MTA foundation batch then failed while writing a foreign `scenario` field, before a complete forecast file. A versioned metadata-only fix and synthetic end-to-end tests for both providers/all nine arms are registered; 90 tests pass. New MTA recovery carries all 4,032 local forecasts byte-for-byte and needs 2,268 foundation rows. All original sources, failures and completed results remain unchanged. Read the latest CODEX_HANDOFF.md for continuation-v2 launch/state details. The active upstream TimesFM model was not stopped.
+
+The 1,056 past-only diagnostic rows remain separately audited; associations wait for complete corrected forecasts. New future Chronos predictions are not issued yet; old future blobs/workflow stay unchanged. No future accuracy, independent human review, source permission or amendment certification is inferred.
+
 ## Latest operational finding: targeted recovery registered
 
 A real integration error stopped the final aligned pure-encoding group before any forecast: the seven-arm holiday-dependent encoder was asked for history-only. The completed work is preserved. New `calendar_recenter_recovery_v1` carries 840 closed forecasts byte-for-byte and computes only 252 missing forecasts, with a registered adapter implementing the original ten-arm contract. Two all-arm regression checks pass; 89 tests in total. Original source, failures and statuses remain unchanged. New recovery queues and output-root redirects replace only failed/waiting orchestration; the active TimesFM upstream model was not stopped. See CODEX_HANDOFF.md for exact launch/state details.

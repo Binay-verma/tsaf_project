@@ -1,0 +1,6 @@
+{
+  "started_utc": "2026-10-30T22:50:57.436482+00:00",
+  "status": "failed",
+  "completed": [],
+  "traceback": "Traceback (most recent call last):\n  File \"/workspace/tsaf_project/src/continue_pipeline_recovery_v1.py\", line 170, in analysis\n    assert json.loads(p.read_text())['status'] != 'failed', p\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: /workspace/tsaf_project/results/calendar_recenter_recovery_v1/chronos_queue_recovery_v1.json\n"
+}

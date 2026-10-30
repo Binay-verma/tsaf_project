@@ -1,0 +1,21 @@
+{
+  "status": "completed",
+  "completed_utc": "2026-10-30T22:48:45.958865+00:00",
+  "registration_sha256": "88dc5eb2aa9dab7a70325e615e3dbafd718eac55ce1b38bcc905dd428cae2a14",
+  "cohorts": {
+    "event_window": {
+      "rows": 25344,
+      "cases_per_arm": 528,
+      "invalid80": 0,
+      "common_crossing_pairs": 0,
+      "predictions_sha256": "253eda901ee9dc6ac2665845b4f8cce1a6dca1add623f9bb9e8cacdb2eebe9df"
+    },
+    "ordinary": {
+      "rows": 10368,
+      "cases_per_arm": 216,
+      "invalid80": 0,
+      "common_crossing_pairs": 0,
+      "predictions_sha256": "49a13c7d438f6edc155eabf6332a82b5bbb3c374933403774bb270f7fff50988"
+    }
+  }
+}

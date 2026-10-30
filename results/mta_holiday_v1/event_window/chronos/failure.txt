@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/workspace/tsaf_project/src/mta_model_engine_v1.py", line 114, in foundation
+    decision_origin=str(r.decision_origin), decision_lead=int(r.decision_lead), scenario=p['scenario'],
+                                                                                         ~^^^^^^^^^^^^
+KeyError: 'scenario'

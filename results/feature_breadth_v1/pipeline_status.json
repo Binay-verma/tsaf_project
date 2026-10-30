@@ -1,0 +1,25 @@
+{
+  "started_utc": "2026-10-30T18:10:27.484562+00:00",
+  "status": "completed_analysis_audit_DOCX",
+  "completed_steps": [
+    "src/finalize_breadth_study.py",
+    "src/audit_breadth_study.py",
+    "src/build_ijf_focus.py"
+  ],
+  "completed_workers": [
+    "event_window/ridge",
+    "event_window/lightgbm",
+    "event_window/lightgbm_capacity2",
+    "event_window/sarimax",
+    "event_window/chronos",
+    "event_window/timesfm",
+    "ordinary/ridge",
+    "ordinary/lightgbm",
+    "ordinary/lightgbm_capacity2",
+    "ordinary/sarimax",
+    "ordinary/chronos",
+    "ordinary/timesfm"
+  ],
+  "observed_utc": "2026-10-30T22:48:43.222338+00:00",
+  "completed_utc": "2026-10-30T22:49:35.430618+00:00"
+}

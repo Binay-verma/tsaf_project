@@ -1,0 +1,199 @@
+{
+  "created_utc": "2026-10-30T23:05:51.617536+00:00",
+  "reason": "CopiedNESOmetadatawriter requiredscenario althoughMTAhasonefixed7daybuffer. Firstbatchforward/solo succeeded but serializationfailedBEFORE completedforecastCSV. Oldfailure/inputs retained; newenginechangesONLYscenario=p.get(scenario,lag7), no numericalinput/model change.",
+  "retained_local_forecasts": 4032,
+  "missing_foundation_forecasts": 2268,
+  "planned_model_forecasts": 6300,
+  "retained_workers": {
+    "event_window/ridge": {
+      "rows": 672,
+      "files": {
+        "results/mta_holiday_v1/event_window/ridge/run.json": "86f530fb9af4dc2ac8067cf9eb944c698342271321a11e3582a18f6c44891dc9",
+        "results/mta_holiday_v1/event_window/ridge/started.json": "6d8f73304c911617df77d76b25f858c244a10549ebd0b9742b34c22fdb7677c8",
+        "results/mta_holiday_v1/event_window/ridge/predictions.csv": "221a7c28b6727f6d3c80b30bbf47f6118b42810922128dff70f882bf38fa72c8",
+        "results/mta_holiday_v1/event_window/ridge/fit_log.json": "e640eb2491358292b6315ea3afef79651451e06e2fbc8efc7cd802e91c279bdb",
+        "results/mta_holiday_v1/event_window/ridge/checkpoint.csv": "221a7c28b6727f6d3c80b30bbf47f6118b42810922128dff70f882bf38fa72c8"
+      }
+    },
+    "event_window/lightgbm": {
+      "rows": 672,
+      "files": {
+        "results/mta_holiday_v1/event_window/lightgbm/run.json": "a2d663eafa5d2a21f57742d7cf3dfbba721a5200c8d4fc6d3499e5b0e95136bf",
+        "results/mta_holiday_v1/event_window/lightgbm/started.json": "32eb8abc1986f1399bd9fc255ab85a3d1a85c4c4d5f80675426b2af9b1440db2",
+        "results/mta_holiday_v1/event_window/lightgbm/predictions.csv": "a9d0a2d3ee9c8e858c87089e82f152a8cf4a5e8d5a5ecc7b34bb638d1cdef68b",
+        "results/mta_holiday_v1/event_window/lightgbm/fit_log.json": "5a40a4dc1693764aadeabc2adf567db8bcc25e1e6d7fce426459b3190c5ddab9",
+        "results/mta_holiday_v1/event_window/lightgbm/checkpoint.csv": "a9d0a2d3ee9c8e858c87089e82f152a8cf4a5e8d5a5ecc7b34bb638d1cdef68b"
+      }
+    },
+    "event_window/lightgbm_capacity2": {
+      "rows": 672,
+      "files": {
+        "results/mta_holiday_v1/event_window/lightgbm_capacity2/run.json": "c078f2d6856e28547cf9299b860a4a7dc5fd7259df1740d796413c372950a299",
+        "results/mta_holiday_v1/event_window/lightgbm_capacity2/started.json": "cfba61aad9e5c3df57092272face9f5d66ecc61da2d817a447fc781043c53f12",
+        "results/mta_holiday_v1/event_window/lightgbm_capacity2/predictions.csv": "1cc2cf0e0f8e6cb35b42e2bfd4a15e27c9e5839f737403113bad83badf58bcb6",
+        "results/mta_holiday_v1/event_window/lightgbm_capacity2/fit_log.json": "d2ae946bdeba3657f468b5d96780536481ee65ccbd51404a53a02137af1fef30",
+        "results/mta_holiday_v1/event_window/lightgbm_capacity2/checkpoint.csv": "1cc2cf0e0f8e6cb35b42e2bfd4a15e27c9e5839f737403113bad83badf58bcb6"
+      }
+    },
+    "event_window/sarimax": {
+      "rows": 672,
+      "files": {
+        "results/mta_holiday_v1/event_window/sarimax/run.json": "0dde646df9a42dd5c9c9c6caccb5c3402b0c0fb87024eeed8ff43cb8d93534ae",
+        "results/mta_holiday_v1/event_window/sarimax/fit_attempts.json": "df2cf2f37730e80ba801f4dd52fa0c1ab535b5f714fdc11a1dc26593104e81ef",
+        "results/mta_holiday_v1/event_window/sarimax/started.json": "124ea6788edbba6721cb5f632f3e4a6264ecbfdfaf9ff3f9f395060798043395",
+        "results/mta_holiday_v1/event_window/sarimax/predictions.csv": "d8e3a7cfdf10afc9753bdf0b9c1e1aae83de8d103a93f64319b78193368f7ba3",
+        "results/mta_holiday_v1/event_window/sarimax/deployments.json": "10a2a189225987d525d6279c76783ac45a4da44d8bb67b6da155cdd342e811c7",
+        "results/mta_holiday_v1/event_window/sarimax/checkpoint.csv": "d8e3a7cfdf10afc9753bdf0b9c1e1aae83de8d103a93f64319b78193368f7ba3"
+      }
+    },
+    "ordinary/ridge": {
+      "rows": 336,
+      "files": {
+        "results/mta_holiday_v1/ordinary/ridge/run.json": "32b0538bfcca6fd64ba0a2fc20624a89dc0bd84530ef153db1d22d7cd145e78c",
+        "results/mta_holiday_v1/ordinary/ridge/started.json": "4436c967e020c7b053e494b1fb058205fbe03be40208e2c591f97ba1c5da919d",
+        "results/mta_holiday_v1/ordinary/ridge/predictions.csv": "7ee87c7843b267f39c1c1a4eae47f4e6292fcc9ebbc58b869022fa2a043dcc92",
+        "results/mta_holiday_v1/ordinary/ridge/fit_log.json": "54c7d30f8804d098ab672209509cab414cb5c5803e258638429c9c802be0ae57",
+        "results/mta_holiday_v1/ordinary/ridge/checkpoint.csv": "7ee87c7843b267f39c1c1a4eae47f4e6292fcc9ebbc58b869022fa2a043dcc92"
+      }
+    },
+    "ordinary/lightgbm": {
+      "rows": 336,
+      "files": {
+        "results/mta_holiday_v1/ordinary/lightgbm/run.json": "cb2a976b7fa59af90cc04b968a12d4b26c64d3e0838c320401dd2bc4cc8fd163",
+        "results/mta_holiday_v1/ordinary/lightgbm/started.json": "81ba1b9dbe76cec24c27145e8660288ba31a4a52d0f447502b75ff5a4c64d157",
+        "results/mta_holiday_v1/ordinary/lightgbm/predictions.csv": "20a0a04df02f1b58507c73d3ff9ee0ea6d3f3bbcbb1f70b13680b20e430d6064",
+        "results/mta_holiday_v1/ordinary/lightgbm/fit_log.json": "1fbde5f802a6b7983ad4a9fc56b2781c06ba1a6f17a9690bdac2703c6e30c26d",
+        "results/mta_holiday_v1/ordinary/lightgbm/checkpoint.csv": "20a0a04df02f1b58507c73d3ff9ee0ea6d3f3bbcbb1f70b13680b20e430d6064"
+      }
+    },
+    "ordinary/lightgbm_capacity2": {
+      "rows": 336,
+      "files": {
+        "results/mta_holiday_v1/ordinary/lightgbm_capacity2/run.json": "9432e49ded77ffaf83a0412fbdae727f13c893c2bfa91ac83d34f02a311dc574",
+        "results/mta_holiday_v1/ordinary/lightgbm_capacity2/started.json": "812d1e3368f95fcf5dc6c541914de46e56dd6d442e3b3a67cf5ec82349d60f99",
+        "results/mta_holiday_v1/ordinary/lightgbm_capacity2/predictions.csv": "a769aec716043d6f860b76749afbc1bb042ae13ad3ee0a7bc476eed968073d7d",
+        "results/mta_holiday_v1/ordinary/lightgbm_capacity2/fit_log.json": "e5ef664ce4787140dc6ca7874058d775a14743fafb230b65fa218a2309f1dbea",
+        "results/mta_holiday_v1/ordinary/lightgbm_capacity2/checkpoint.csv": "a769aec716043d6f860b76749afbc1bb042ae13ad3ee0a7bc476eed968073d7d"
+      }
+    },
+    "ordinary/sarimax": {
+      "rows": 336,
+      "files": {
+        "results/mta_holiday_v1/ordinary/sarimax/run.json": "6af6302cb176d66b2ae6ea398c3808105bc6e3e7c48f324674535ebe8af1e272",
+        "results/mta_holiday_v1/ordinary/sarimax/fit_attempts.json": "8166ba439eb29deac6ba5ddc4b8d18300500a4a414e49f0d63efd703e6294804",
+        "results/mta_holiday_v1/ordinary/sarimax/started.json": "26370be7b5d22e0fec16487fac5404dedc005580416efea7b274ca43853ae469",
+        "results/mta_holiday_v1/ordinary/sarimax/predictions.csv": "c7d797c242856563bf26c4501a745e8b35d88311a9012e29e6d0992880c593c9",
+        "results/mta_holiday_v1/ordinary/sarimax/deployments.json": "82e6cecea9d537480a723b00cd287228d766ade0e36458551a2eb1a6b9c0e7c0",
+        "results/mta_holiday_v1/ordinary/sarimax/checkpoint.csv": "c7d797c242856563bf26c4501a745e8b35d88311a9012e29e6d0992880c593c9"
+      }
+    }
+  },
+  "recenter_retained_workers": {
+    "results/calendar_recenter_recovery_v1/old_added/ridge": {
+      "rows": 24,
+      "predictions_sha256": "37fea20cee44ddad40023f59dd66e27ede9b051938d51638f6700879161521d2"
+    },
+    "results/calendar_recenter_recovery_v1/old_added/lightgbm": {
+      "rows": 24,
+      "predictions_sha256": "026c9cdbc5755bf10e6c07897ac929e17d45b3f75253b2e6fe87ba84d11b705f"
+    },
+    "results/calendar_recenter_recovery_v1/old_added/lightgbm_capacity2": {
+      "rows": 24,
+      "predictions_sha256": "05ec94408a01dcec94b6567ed16f3187b0c2c90abffa603e7c7c37a297e27957"
+    },
+    "results/calendar_recenter_recovery_v1/old_added/sarimax": {
+      "rows": 24,
+      "predictions_sha256": "f40182ffb32648aabaecb27bd24f19f6494a6477005cfd8764ee789f872fc9de"
+    },
+    "results/calendar_recenter_recovery_v1/old_added/chronos": {
+      "rows": 24,
+      "predictions_sha256": "03a8fb1e6d143ef3b439c74b2115a1871a23bb8f2c87b8d9cbe3cd8a8fd190ab"
+    },
+    "results/calendar_recenter_recovery_v1/aligned_added/ridge": {
+      "rows": 24,
+      "predictions_sha256": "328c43a9de73de74907e80d679023a84ac492bcd0fff61316c41087c135f9ff4"
+    },
+    "results/calendar_recenter_recovery_v1/aligned_added/lightgbm": {
+      "rows": 24,
+      "predictions_sha256": "090fcae3a7cd6d338c6bfc49055148542668dec1c536467787e10e3d0541f3a2"
+    },
+    "results/calendar_recenter_recovery_v1/aligned_added/lightgbm_capacity2": {
+      "rows": 24,
+      "predictions_sha256": "6f4e57ef2b66b8c343fbf4b02d954ad5e52b10584f8ea2915fc662f5846fcbdc"
+    },
+    "results/calendar_recenter_recovery_v1/aligned_added/sarimax": {
+      "rows": 24,
+      "predictions_sha256": "9b3c36af8096ad289dd1d5906789ea7474b2fcfad6a3ee26d173a2c66a98ae4b"
+    },
+    "results/calendar_recenter_recovery_v1/aligned_added/chronos": {
+      "rows": 24,
+      "predictions_sha256": "dd569d7f1c2c545edf4a9b8d7a83d904081fd694ec62fea3abf4ae30241e63b6"
+    },
+    "results/calendar_recenter_recovery_v1/aligned_placebo_event/ridge": {
+      "rows": 90,
+      "predictions_sha256": "ec1b4397badf56f07c6d25f6d42f137c9624711209a35c821c078d2b22e5ea0c"
+    },
+    "results/calendar_recenter_recovery_v1/aligned_placebo_event/lightgbm": {
+      "rows": 90,
+      "predictions_sha256": "58bdd8a8bfe15d43df048a5f3484b41b4bafa8513611834da42fdaab45963e91"
+    },
+    "results/calendar_recenter_recovery_v1/aligned_placebo_event/lightgbm_capacity2": {
+      "rows": 90,
+      "predictions_sha256": "f35432fc184384843ed01ee47cb6f310219ed3000965c4e7fdea7c898446b9f2"
+    },
+    "results/calendar_recenter_recovery_v1/aligned_placebo_event/sarimax": {
+      "rows": 90,
+      "predictions_sha256": "9e48812c244b9faae6385c6e1b7b75d7d9e913e20260598d317365f830b7746e"
+    },
+    "results/calendar_recenter_recovery_v1/aligned_placebo_event/chronos": {
+      "rows": 90,
+      "predictions_sha256": "8da4e1c1861a79cde6d3515d599ad94c90435d3706f633f5d40e9a65a9bfd8d9"
+    },
+    "results/calendar_recenter_recovery_v1/aligned_placebo_ordinary/ridge": {
+      "rows": 24,
+      "predictions_sha256": "c3cf15f5d13cb46e958a1c0f9ee8dff2b1496010c14c1c3a71aedd16e0bb72b5"
+    },
+    "results/calendar_recenter_recovery_v1/aligned_placebo_ordinary/lightgbm": {
+      "rows": 24,
+      "predictions_sha256": "cb3cc3030082258a5594d5edcd267c4cea6fc71e39040082f187029d0e69f75e"
+    },
+    "results/calendar_recenter_recovery_v1/aligned_placebo_ordinary/lightgbm_capacity2": {
+      "rows": 24,
+      "predictions_sha256": "7d6e11b07d67456928205c5285a6723c4ba31a06bbae47e2e706acecd80a4adb"
+    },
+    "results/calendar_recenter_recovery_v1/aligned_placebo_ordinary/sarimax": {
+      "rows": 24,
+      "predictions_sha256": "21e71a9333db925425c2f163cd2a78ec1d0b2c7b64c667fa86481b0296f458b8"
+    },
+    "results/calendar_recenter_recovery_v1/aligned_placebo_ordinary/chronos": {
+      "rows": 24,
+      "predictions_sha256": "aa51e85b425f2ec25f53071e6f41e150d070999673fc0051be93b985006b72fb"
+    },
+    "results/calendar_recenter_recovery_v1/old_encoding_added/chronos": {
+      "rows": 30,
+      "predictions_sha256": "2f5799fae926865a80acb971c4a29c0cede07757f63f2615608718c66caabbac"
+    },
+    "results/calendar_recenter_recovery_v1/aligned_encoding_added/chronos": {
+      "rows": 30,
+      "predictions_sha256": "da6a9ebccd315b35dc7d14a4217398d5934ce49926e2b6274d27ef65bd88392c"
+    }
+  },
+  "source_hashes": {
+    "src/continue_pipeline_recovery_v2.py": "b7f0204ad4decf6c78dcf8afab158ce73f00f737f883051cd13f0310f23db9d6",
+    "src/continue_pipeline_recovery_v1.py": "605b47b291083aee12547045fd960848740d544bf1ff6d06f866a1d64b54b41f",
+    "src/mta_model_engine_v2.py": "72d86092341ccf09ccda50ae63cbdee790f72277f2ddae7ff85e4b67242a5f4a",
+    "src/mta_model_engine_v1.py": "b1e90adc49b6253e7a63183376f094cc1c06f59fc65d5107c88209085c1265f1",
+    "src/test_mta_foundation_schema.py": "0dc51b24e34ea63d01dba80116af289b58fad0fb94600e4c39cb24ee4308605b",
+    "src/mta_holiday_study.py": "0bcf63f953e8de0b5095d1e8b9cadc624888702b05b79ef471b7c3029669284b",
+    "src/build_integrated_review_v4.py": "a0d216c1e11bc715e8ccf2ec55bcd1230f11ced72343bb12f4cc5b55f87e1acc",
+    "src/audit_integrated_review_v4.py": "be4784fe8c470e62126b4309d792584dee73c7dbdb9d68f2e191429f9dfdfe18",
+    "src/audit_event_support_recovery_v1.py": "ea8ea6a41c9242b55882fca7880a238cf584fb3c693c1b175df254a628a85059",
+    "src/event_support_analysis.py": "273e4dab2a632cd3cabbdb25343dfc86ea4cae241db5bd24264ccc0dce84d709",
+    "src/finalize_mta_holiday.py": "3f075e2af58f564aecb46e7d6ad6d0c1178831e8181d613281887f06b095bf0c",
+    "src/audit_mta_holiday.py": "f8652e49d70ceefa020863e34d6bf807a196a7e07c46bf87b789877b80d38037",
+    "src/freeze_chronos_competitor.py": "319de076f58d864b5fa96d4844e9b9fa96cfaf6d07c7f21c9ffc47ee69400aee",
+    "src/audit_chronos_competitor.py": "0d92029bfe4fd376b1280cb4ade58928428ca4a816e07a105f71af3cbc3b4476"
+  },
+  "old_failure_sha256": "0008a999a725e458c11c22e84ae987f0fb5abde8bcbc42bc966f77d3e634bbd5",
+  "policy": "Originalprotocols/cases/source/evidence/selection/scoringregistration copiedbyte-identically. Runonlymissingrec222rows andMTA4foundationworkers; unchangedscorer/auditor redirectOUTtonewMTAroot. Frozenfuturecode/actualissuance/fullIndia-day/publicdeadline/sourcevintage rules unchanged. Oldfailedqueues/statuses remain; newschedulingstate explicit. Papernewv4 preservesallolderdrafts/programs."
+}
