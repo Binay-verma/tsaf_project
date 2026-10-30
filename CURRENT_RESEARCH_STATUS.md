@@ -1,66 +1,50 @@
 # Current research status — 30 October 2026
 
-The original project has been continued, not restarted. The expanded historical evaluation is preserved. Two additional exploratory studies and independent audits are complete. **The project is not yet ready for journal submission.** Negative results are retained; no new outcomes were treated as an untouched final test.
+The requested next research stage is completed and the prospective forecasts are frozen on GitHub. A working journal manuscript exists. **Submission readiness is not established:** remaining gates require source/calendar evidence, independent review, stronger mechanism controls and genuinely later observations. Previous data/results are preserved.
 
-## What now has evidence
+## Completed new evidence
 
-| Area | Verified in this continuation | Limits |
+| Work | Actual evidence | Main result / limit |
 | --- | --- | --- |
-| Transfer integrity | 180 split-package entries and 179 original checkpoint hashes passed before edits | Documents were intentionally updated afterward; use the new continuation manifest for the current state |
-| Software | Python 3.12.14; 11 original and 8 new unit tests pass | Foundation packages/weights and LightGBM are not installed in this environment |
-| Existing scores | 103,254 forecasts audited; source labels, scales, matched cases, date alignment, saved MAE/MASE, and selection boundaries independently reconstructed | Does not rerun pretrained inference or certify absence of every possible bug |
-| Data extraction | All three selected state series match their frozen raw columns; metadata confirms GWh | Each full series contains 112 missing entries; positive recorded values do not prove no upstream filling; revisions/availability remain unresolved |
-| Calendar/representation controls | 612 fixed Ridge fits, 215,577 predictions, 17 arms; zero/placebo/date-shift controls and generic/regional encodings | No stable provenance benefit; two primary event-year clusters; no new TSFM inference |
-| Uncertainty baseline | 25,380 residual-calibrated interval forecasts, four configurations, matched cases; strictly pre-origin residual targets | Not native TSFM quantiles; no coverage guarantee; event-specific undercoverage observed |
-| Second-model feasibility | Official TimesFM repository confirms future covariates and separate noncommercial terms for 3.0 weights | No pinned weight/API/overlap audit or model run yet |
-| Research background | Handoff, protocol, reports and original survey inspected; official model documentation snapshots retrieved and hashed | Prior paper claims not newly verified: arXiv blocked; focused review remains incomplete |
+| Richer baselines and refits |891 temporal validation fits;162 selected configs;1998 deployment fits;107244 predictions;8937 matched cases/configuration | Monthly updates improve several aggregates but harm some event-year cases. No universal refit advantage |
+| Regression-region transfer |162 fits;53622 predictions; local/pooled-all/leave-region-out; source-only fitting tested | Held-out-region transfer generally degrades. Pooled-all includes target training rows and is not unseen-region fitting |
+| Second foundation-model audit | TimesFM3 pinned code, actual1.32GB weights verified against first upload,40 installed files matched, native covariate/quantile API exercised | Upload24August2026; historical/proxy overlap unresolved. Noncommercial research terms; weights excluded from GitHub |
+| Matched two-model festival comparison |384 TimesFM inference tasks;450 scored rows,150 exact cases/mode,2024–2025; cached Chronos/Ridge/SARIMAX on same cases | TimesFM regional mean state/year MAE improves3.49%/14.72%/18.33% at leads1/7/14; Chronos −2.30%/+1.04%/−0.93%. Model/year dependence; only2 historical clusters, not a causal mechanism or universal success |
+| Prospective freeze |252 forecasts,216 eligible future predictions,6configs,3states; source through28October; issue30October | Eligible31October–11November. No future actuals fetched or scores available. Original freeze in commit cabd5982e1948652b9841d6c31a2380f6f314198 |
+| Tests and independent audits |28 tests pass; saved labels/scales/cases/selection/refits/model hashes/metrics checked | Evidence against specific errors; not proof of zero leakage/bugs or clean-room reproduction |
+| Research and manuscript | Live nearest-paper methods/abstract checks, source rights follow-up, evidence-linked manuscript and submission gates | No new-method/first-ever or journal acceptance claim; data rights remain unresolved |
 
-## What the new results mean
+Earlier representation study (612 Ridge fits/215577 forecasts), residual-interval study (25380 interval forecasts) and original expanded evaluation (103254 forecasts) remain unchanged. Aggregate90% residual coverage89.74% versus77.25% during day1 events remains a key uncertainty failure case. No retuning of those historical outcomes or frozen prospective forecasts followed the new TimesFM event findings.
 
-1. Equal scalar representations give mixed regional-versus-generic results. For 2024–2025 day 1, regional event MASE is 0.61113 versus generic 0.60257 (lower is better). Seven relative-day channels behave differently. Earlier improvements cannot be assigned to regional date provenance alone.
-2. Shifting dates can change scores substantially. These are sensitivity controls, **not a licence to select the best-scoring festival date**. Annual/state results and all unsuccessful controls remain visible.
-3. A 90% past-only residual interval around history-only Chronos has 89.74% average day-1 all-day coverage but 77.25% festival-window coverage. This supports investigating event-conditional uncertainty; it does not establish a calibrated method or a successful new model.
-4. Historical 2022–2026 outcomes already examined remain exploratory for all newly proposed methods. No unseen final confirmation has been created by relabelling a historical split.
+## Read these artifacts
 
-Detailed evidence:
+- [Rich baselines/refits](results/strong_refit_v1/REPORT.md) and [figure](results/strong_refit_v1/refit_comparison.png).
+- [Region transfer](results/regional_transfer_v1/REPORT.md).
+- [TimesFM identity/API audit](results/second_model_audit_v1/REPORT.md).
+- [Exact historical event replication](results/timesfm_matched_events_v1/REPORT.md) and [model/year figure](results/timesfm_matched_events_v1/model_event_effects.png).
+- [Prospective protocol](results/prospective_20261030_v1/protocol.json), [freeze](results/prospective_20261030_v1/freeze.json), [immutable forecasts](results/prospective_20261030_v1/predictions.csv).
+- [Working manuscript](manuscript/DRAFT.md), [submission gates](manuscript/SUBMISSION_GATES.md), [live research/source review](results/research_review_v2/REPORT.md).
+- [Reproduction and future scoring](PHASE2_REPRODUCTION.md).
 
-- [Controlled experiment](results/calendar_controls_v1/REPORT.md), [protocol](results/calendar_controls_v1/protocol.json), [figure](results/calendar_controls_v1/event_controls.png).
-- [Interval experiment](results/residual_intervals_v1/REPORT.md), [protocol](results/residual_intervals_v1/protocol.json), [coverage figure](results/residual_intervals_v1/coverage.png).
-- Original-score audit: `results/calendar_controls_v1/checkpoint_audit.json`.
-- Data extraction and coverage: `results/calendar_controls_v1/source_audit.json` and `source_year_coverage.csv`.
-- Independent new-output audits: `independent_audit.json` in both experiment directories, including 144 reconstructed calibration examples.
+## Remaining work, in order
 
-## Ordered remaining work and completion evidence
+1. Complete equal-information/feature-count/placebo controls across both TSFMs before a regional-provenance mechanism claim; existing B-to-D comparisons change information and dimension. Learned context-only encodings already have close prior work and require nested past-only development rules.
+2. Resolve issue/effective/amendment-aware dates for every used event history and independent regional review. Annual schedules are not final amended observances.
+3. Obtain explicit source reuse/redistribution and processing/vintage evidence; the live webpage/repository do not establish a licence. Landing-page coverage/missingness summaries differ from the frozen state table and need reconciliation. No frozen data were refreshed.
+4. After11November, acquire actual outcomes with retrieval/vintage evidence and score the frozen episode without retuning. A test-gated scoring command is supplied; one episode will not replace independent-source/event evidence. No job is scheduled to fetch or score automatically.
+5. Independent clean-environment/scientific rerun and human author/calendar review; adequate independent regions/events/source; bibliography/venue/reporting review before submission.
 
-| Priority | Work | Completion evidence needed | What prevents claiming completion now |
-| --- | --- | --- | --- |
-| 1 | Stronger local baselines and refit comparison | Freeze richer causal histories and past-only development budget; compare annual/monthly schedules on matched exploratory cases; retain every selection fit | Not implemented/run; poor old LightGBM scores do not settle baseline strength |
-| 2 | Regional/event transfer | New protocol for held-out region and forward-held-out event-year development folds; no held-out-specific feature selection; clear rules for target-region historical scaling/context | Current models are state-specific; two primary years give weak event evidence |
-| 3 | Second covariate-capable TSFM and controlled TSFM inference | Exact API/code revision, weight bytes/hash, licence, temporal exposure audit, resources, fixed inference cases, then encodings/controls | Hugging Face metadata request denied by proxy; weights not bundled. TimesFM 3.0 weights have noncommercial restrictions |
-| 4 | Calendar provenance | Amendment-aware ledger for every used train/evaluation anchor, issue/effective dates, scoped definitions, independent regional review | Annual schedules alone are insufficient; training-year extras before 2022 incomplete |
-| 5 | Data provenance and rights | Explicit reuse/redistribution terms, source processing policy, publication lags and revision/vintage evidence; independent licensed dataset if feasible | Compilation website denied by proxy; terms and upstream processing unresolved. No permission inferred from downloadable data |
-| 6 | Distributional forecasting | Native quantiles and past-only calibration under a separately frozen protocol, event/all-day pinball, coverage, width and interval scores | New residual baseline is diagnostic only; limited independent event count |
-| 7 | Literature/contribution | Recheck closest primary papers, versions, methods and licence; document exact differences; avoid first-ever claims | arXiv blocked; generic encodings/learned event features already have close prior work |
-| 8 | Fresh confirmation and manuscript | Freeze protocol/models before new outcomes; independent clean rerun, human scientific/calendar review, evidence-linked manuscript | No untouched confirmation or independent human review. No post-weight 2026 Diwali outcome in frozen snapshot |
+These are open gates, not completed work. Model-specific historical exposure, retrospective availability, correlated states/days and small event count prevent a contamination-free or confirmatory description. The defensible current framing is an empirical evaluation with model-dependent calendar effects and retained failures.
 
-These are pending tasks, not completed experiments. Calendar quality, event representation and uncertainty failures may support a careful empirical/negative-result study; a new-method contribution has not been demonstrated.
+## Workflow and GitHub
 
-## Environment and next external action
-
-Use the existing project directory `/workspace/tsfm_india`; do not restart from the empty `tsaf_project` checkout. Activate the prepared interpreter through `.venv/bin/python`. The environment reuses installed numerical packages and adds holidays 0.107/statsmodels 0.15.0. It is usable for the current local experiments, not an identical full foundation-model environment. Do not bypass historical cache identity checks or rerun a whole search just to regain context.
-
-Requests to `arxiv.org`, `huggingface.co` and `robbieandrew.github.io` returned proxy HTTP 403. For the blocked external research/model-metadata checks, these domains need to be allowed in environment network settings, followed by retrying the exact requests. Additional weight-download hosts may be required after inspecting actual metadata; none are assumed here. Existing allowed domains and published settings were left unchanged. No paid APIs were used, nobody was contacted, and nothing was published.
-
-No new scientific decision is needed from the user to continue offline baseline/transfer work. Data reuse rights and independent human review require evidence beyond model computation. The immediate next offline task is priority 1 above, with a new protocol and output directory before evaluating its outcomes.
-
-## Current checks
+Use `/workspace/tsaf_project` for active Git-tracked development. Do not switch back to the older `/workspace/tsfm_india` copy or recreate the project. Python3.12 `.venv` is prepared; model weights/code are outside the checkout. Network access now permits the formerly blocked source/paper/model checks. No paid API, outgoing message, environment publication or configuration update was used.
 
 ```bash
-cd /workspace/tsfm_india
-.venv/bin/python -m unittest discover -s src -p 'test_*.py' -v
-.venv/bin/python src/audit_checkpoint.py
-.venv/bin/python src/audit_new_experiments.py
+OPENBLAS_NUM_THREADS=2 OMP_NUM_THREADS=2 .venv/bin/python -m unittest discover -s src -p 'test_*.py' -v
+.venv/bin/python src/audit_phase2.py
+.venv/bin/python src/audit_matched_events.py
 python src/verify_continuation.py
 ```
 
-The last verifier uses the current GitHub checkpoint manifest when present, otherwise the earlier continuation manifest. The full project was pushed to `Binay-verma/tsaf_project` on `main`, with local/remote SHA equality verified. Use `/workspace/tsaf_project` for subsequent Git-tracked development. Original transfer manifests are preserved as historical evidence; they will flag intentional handoff/work-log edits. Completed experiment runners refuse to overwrite predictions. Use new versioned protocols/directories for changed methods, and treat subsequent artifact changes as a new checkpoint.
+The current GitHub checksum manifest verifies current files; earlier transfer/continuation manifests remain historical before intentional documentation edits. Completed experiment guards prevent overwriting predictions. New methods/versions need new named protocols/result directories. Commit and push completed checkpoints, then verify remote/local SHA equality.

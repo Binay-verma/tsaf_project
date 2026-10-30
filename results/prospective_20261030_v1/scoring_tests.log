@@ -1,0 +1,8 @@
+test_future_scores_are_blocked (__main__.ProspectiveScoringChecks.test_future_scores_are_blocked) ... ok
+test_issue_day_excluded_and_exact_future_cases_scored (__main__.ProspectiveScoringChecks.test_issue_day_excluded_and_exact_future_cases_scored) ... ok
+test_missing_outcomes_cannot_be_imputed_or_dropped (__main__.ProspectiveScoringChecks.test_missing_outcomes_cannot_be_imputed_or_dropped) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.017s
+
+OK

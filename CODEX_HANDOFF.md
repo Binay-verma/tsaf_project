@@ -2,6 +2,18 @@
 
 Updated 30 October 2026. This is a portable project-state summary, not a verbatim chat export. Use repository files and recorded outputs as evidence. Codex should not need access to the original ChatGPT conversation to resume useful work.
 
+## Latest completed checkpoint — matched models and manuscript
+
+The phase-two checkpoint below is now extended with `results/timesfm_matched_events_v1/`: 384 inference tasks,5376 forecast-day outputs,450 scored rows on150 exact event cases/mode in2024–2025. History/calendar/regional TimesFM3 were compared with cached Chronos/Ridge/SARIMAX on identical cases, with finite outputs/source labels/scales/metrics/case hashes independently audited. Batch4 versus solo predictions match exactly on the first4 tasks/mode. These tasks are not independent event replications.
+
+TimesFM regional mean per-state/year MAE reductions at leads1/7/14 are +3.49%/+14.72%/+18.33%, while matched two-year Chronos effects are −2.30%/+1.04%/−0.93%. TimesFM day1 is negative in2024 and positive in2025. Retain both scopes and the original four-year Chronos negative result. B-to-D still changes information and channels; no provenance mechanism, clean exposure, universal benefit or new-method claim is established. Native TimesFM80% interval coverage varies substantially, not declared calibrated.
+
+`manuscript/DRAFT.md` integrates these completed findings and pending prospective evidence; `manuscript/SUBMISSION_GATES.md` states remaining requirements. `CURRENT_RESEARCH_STATUS.md` is current. `PHASE2_REPRODUCTION.md` and `requirements-phase2.txt` document actual installations/pins and remaining clean-room limitations. `results/research_review_v2/REPORT.md` records live nearest-paper/source rights checks, including repository identification/coverage mismatch and unresolved terms.
+
+Twenty-eight tests pass, including a prospective scoring gate with synthetic in-memory fixtures only. `src/score_frozen.py` blocks scoring until the full target period ends, requires later actuals provenance, rejects missing/nonpositive labels, verifies the forecast hash and excludes issue-day/past targets. It has not scored real future data. No outcomes through11November exist here. The immutable original prospective freeze was pushed at cabd5982e1948652b9841d6c31a2380f6f314198; later historical findings did not change it.
+
+Immediate remaining offline work: full equal-information/dimension/placebo controls across both model families and nested past-only learned-encoding comparisons before mechanism claims. External/scientific gates: amendment-aware calendars, explicit reuse/processing/vintage evidence, independent source/region/event coverage and human/clean-room review. After11November, acquire and audit actuals then score the frozen episode in a new directory. One episode is limited evidence, not a complete confirmatory study. Do not call the manuscript journal-ready or submitted. No background model/inference job remains running at this checkpoint.
+
 ## Phase-two completed checkpoint — 30 October 2026
 
 New results in `results/strong_refit_v1/`: 891 pre-year validation fits, 162 selected configurations, 1,998 annual/monthly deployment fits and 107,244 forecasts; no failed fits. Rich causal history, ordinary calendar and regional modes for Ridge/LightGBM, 2024/25/partial26; parameters frozen within year. Exact 8,937 matched historical Chronos cases per configuration. Monthly updates improve several aggregate scores but harm some festival-year cases. Full reports and independent audits retained.

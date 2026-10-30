@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "scored_rows": 450,
+  "exact_cases_per_mode": 150,
+  "protected_historical_files": 61,
+  "checks": [
+    "source labels/scales",
+    "identical cases across native and historical models",
+    "unique/finite forecasts",
+    "lead-date alignment",
+    "independent metric reconstruction",
+    "frozen case hash",
+    "original data and expanded results unchanged"
+  ],
+  "warning": "Only two historical event years; overlap-uncertain; no independent-day or causal claims"
+}

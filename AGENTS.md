@@ -16,13 +16,13 @@ Build a defensible journal-level study of foundation-model forecasting for India
 - Match evaluation cases and availability rules across compared configurations. Retain failed fits, unsuccessful hypotheses and negative results. Record seeds, source hashes, actual model weights, packages and selection logs.
 - The target is daily energy met/supplied in GWh, not unconstrained demand or hourly peak load. Historical revisions/publication lag are unresolved. Shared-source derivatives are not independent replication.
 - Audit state holiday definitions and amendments. Twelve annual schedules are audited, not all amendments or historical dates. Do not infer holidays from observed electricity errors.
-- Chronos festival features currently worsen mean day-1 festival MAE. Do not claim a successful festival-enhanced foundation model. Only four event-year clusters are available; nearby days/states are not independent replications.
-- Actual Chronos weights predate 2026 targets, but historical/proxy overlap remains uncertain. No post-upload 2026 Diwali outcome exists in the snapshot. Audit every additional model separately.
+- Chronos festival features currently worsen mean day-1 festival MAE. Do not claim a successful festival-enhanced foundation model. The original evaluation has only four event-year clusters; the matched second-model study has two; nearby days/states are not independent replications.
+- Actual Chronos weights predate 2026 targets, but historical/proxy overlap remains uncertain. No post-upload 2026 Diwali outcome exists in the snapshot. Future-target predictions issued30October are frozen in `results/prospective_20261030_v1/`; they must not be overwritten or scored before later actuals are acquired. Audit every additional model separately.
 - Generic calendar encodings and learned event covariates have close prior work. Verify primary literature before asserting novelty. Resolve reuse rights before publicly releasing the newer source snapshot.
 
 ## Commands and continuity
 
-Use Python 3.12. Start with `python src/verify_package.py` (standard library only). See `CONTINUE_IN_CODEX.md` for environment setup and staged checks. `run_extended.py` reproduces expanded results; `run_all.py` is the older scheduled-origin experiment. Model weights are not bundled.
+Use Python 3.12. Start with `python src/verify_continuation.py` for the current GitHub checkpoint (standard library only). The original `src/verify_package.py` manifest is historical and will flag intentional later edits. See `CONTINUE_IN_CODEX.md` for environment setup and staged checks. `run_extended.py` reproduces expanded results; `run_all.py` is the older scheduled-origin experiment. Model weights are not bundled.
 
 Before ending a substantial session, update `WORK_LOG.md` and the current-state/next-action sections of `CODEX_HANDOFF.md`. Record exact commands, outcomes, experiment directories, failures and actual blockers. Distinguish completed, running and planned work. Keep run checkpoints so work can resume without this conversation. Do not claim a process will continue after the session ends without verifying an actual persistent mechanism.
 

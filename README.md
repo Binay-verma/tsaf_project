@@ -1,3 +1,5 @@
+> Current continuation (30 October 2026): richer baselines/refits, regression-region transfer, an audited TimesFM historical event comparison, and frozen prospective forecasts are complete. See [current status](CURRENT_RESEARCH_STATUS.md), [working manuscript](manuscript/DRAFT.md), and [reproduction](PHASE2_REPRODUCTION.md). Prospective scores and journal submission gates remain open. Older results below are preserved as historical context.
+
 # Continuing in Codex
 
 Read `CONTINUE_IN_CODEX.md`, then start with `CODEX_START_PROMPT.txt`. `AGENTS.md` and `CODEX_HANDOFF.md` preserve the research instructions and state; `WORK_LOG.md` carries future checkpoints. The original survey is included as `USER_LITERATURE_SURVEY.pdf`.

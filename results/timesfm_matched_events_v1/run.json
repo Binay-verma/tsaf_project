@@ -1,0 +1,15 @@
+{
+  "scored_rows": 450,
+  "independent_tasks": 384,
+  "all_forecast_days": 5376,
+  "seconds": 435.2294384869999,
+  "native_quantile_crossings": 0,
+  "weight_sha256": "a7592b0a8432baee54483254e5647856911ce69e09d09a9bb65904b2d98f17da",
+  "hashes": {
+    "src/timesfm_matched_events.py": "d339e46f7b5b0f53b71be4eef34bafa98ed365dc9d09dab457eed744cf2132bf",
+    "src/timesfm_fixture.py": "bf4ec7d0ce09c241b0d463470e68149418e50705503823a2b023b60c847cfd6f",
+    "results/timesfm_matched_events_v1/protocol.json": "9ce3e8cb04669108a0c5010ea3a939ec56526a870f6424f03f8b23c72e7e2b65",
+    "results/timesfm_matched_events_v1/cases.csv": "d5aacfc428b503f17b5020bd323ef991782164c8e0d03ec71025bf1ad547415a"
+  },
+  "warning": "Historical overlap-uncertain exploratory event comparison; no prospective score or provenance mechanism claim"
+}

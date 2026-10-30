@@ -1,0 +1,112 @@
+Loading weights from local directory
+Matched TimesFM history 4 / 128 1.83 seconds
+Matched TimesFM history 8 / 128 0.53 seconds
+Matched TimesFM history 12 / 128 0.6 seconds
+Matched TimesFM history 16 / 128 0.72 seconds
+Matched TimesFM history 20 / 128 0.58 seconds
+Matched TimesFM history 24 / 128 0.57 seconds
+Matched TimesFM history 28 / 128 0.55 seconds
+Matched TimesFM history 32 / 128 0.56 seconds
+Matched TimesFM history 36 / 128 0.62 seconds
+Matched TimesFM history 40 / 128 0.51 seconds
+Matched TimesFM history 44 / 128 0.54 seconds
+Matched TimesFM history 48 / 128 0.54 seconds
+Matched TimesFM history 52 / 128 0.53 seconds
+Matched TimesFM history 56 / 128 0.56 seconds
+Matched TimesFM history 60 / 128 0.64 seconds
+Matched TimesFM history 64 / 128 0.66 seconds
+Matched TimesFM history 68 / 128 0.65 seconds
+Matched TimesFM history 72 / 128 0.57 seconds
+Matched TimesFM history 76 / 128 0.56 seconds
+Matched TimesFM history 80 / 128 0.58 seconds
+Matched TimesFM history 84 / 128 0.57 seconds
+Matched TimesFM history 88 / 128 0.64 seconds
+Matched TimesFM history 92 / 128 0.61 seconds
+Matched TimesFM history 96 / 128 0.57 seconds
+Matched TimesFM history 100 / 128 0.52 seconds
+Matched TimesFM history 104 / 128 0.64 seconds
+Matched TimesFM history 108 / 128 0.57 seconds
+Matched TimesFM history 112 / 128 0.7 seconds
+Matched TimesFM history 116 / 128 0.75 seconds
+Matched TimesFM history 120 / 128 0.69 seconds
+Matched TimesFM history 124 / 128 0.73 seconds
+Matched TimesFM history 128 / 128 0.83 seconds
+Matched TimesFM calendar 4 / 128 11.46 seconds
+Matched TimesFM calendar 8 / 128 4.81 seconds
+Matched TimesFM calendar 12 / 128 5.45 seconds
+Matched TimesFM calendar 16 / 128 5.18 seconds
+Matched TimesFM calendar 20 / 128 4.76 seconds
+Matched TimesFM calendar 24 / 128 4.53 seconds
+Matched TimesFM calendar 28 / 128 5.27 seconds
+Matched TimesFM calendar 32 / 128 5.33 seconds
+Matched TimesFM calendar 36 / 128 5.89 seconds
+Matched TimesFM calendar 40 / 128 6.05 seconds
+Matched TimesFM calendar 44 / 128 5.55 seconds
+Matched TimesFM calendar 48 / 128 4.55 seconds
+Matched TimesFM calendar 52 / 128 5.15 seconds
+Matched TimesFM calendar 56 / 128 4.65 seconds
+Matched TimesFM calendar 60 / 128 4.66 seconds
+Matched TimesFM calendar 64 / 128 4.68 seconds
+Matched TimesFM calendar 68 / 128 5.3 seconds
+Matched TimesFM calendar 72 / 128 5.09 seconds
+Matched TimesFM calendar 76 / 128 4.99 seconds
+Matched TimesFM calendar 80 / 128 4.53 seconds
+Matched TimesFM calendar 84 / 128 5.32 seconds
+Matched TimesFM calendar 88 / 128 5.37 seconds
+Matched TimesFM calendar 92 / 128 5.32 seconds
+Matched TimesFM calendar 96 / 128 5.52 seconds
+Matched TimesFM calendar 100 / 128 5.45 seconds
+Matched TimesFM calendar 104 / 128 4.93 seconds
+Matched TimesFM calendar 108 / 128 4.87 seconds
+Matched TimesFM calendar 112 / 128 4.96 seconds
+Matched TimesFM calendar 116 / 128 4.73 seconds
+Matched TimesFM calendar 120 / 128 4.64 seconds
+Matched TimesFM calendar 124 / 128 5.25 seconds
+Matched TimesFM calendar 128 / 128 4.74 seconds
+Matched TimesFM regional 4 / 128 13.61 seconds
+Matched TimesFM regional 8 / 128 6.54 seconds
+Matched TimesFM regional 12 / 128 8.13 seconds
+Matched TimesFM regional 16 / 128 7.58 seconds
+Matched TimesFM regional 20 / 128 7.09 seconds
+Matched TimesFM regional 24 / 128 6.49 seconds
+Matched TimesFM regional 28 / 128 7.12 seconds
+Matched TimesFM regional 32 / 128 7.54 seconds
+Matched TimesFM regional 36 / 128 8.66 seconds
+Matched TimesFM regional 40 / 128 9.1 seconds
+Matched TimesFM regional 44 / 128 7.2 seconds
+Matched TimesFM regional 48 / 128 6.72 seconds
+Matched TimesFM regional 52 / 128 7.42 seconds
+Matched TimesFM regional 56 / 128 7.65 seconds
+Matched TimesFM regional 60 / 128 8.59 seconds
+Matched TimesFM regional 64 / 128 7.84 seconds
+Matched TimesFM regional 68 / 128 7.77 seconds
+Matched TimesFM regional 72 / 128 8.45 seconds
+Matched TimesFM regional 76 / 128 7.18 seconds
+Matched TimesFM regional 80 / 128 6.42 seconds
+Matched TimesFM regional 84 / 128 7.02 seconds
+Matched TimesFM regional 88 / 128 6.56 seconds
+Matched TimesFM regional 92 / 128 7.46 seconds
+Matched TimesFM regional 96 / 128 6.97 seconds
+Matched TimesFM regional 100 / 128 6.82 seconds
+Matched TimesFM regional 104 / 128 7.1 seconds
+Matched TimesFM regional 108 / 128 7.44 seconds
+Matched TimesFM regional 112 / 128 7.53 seconds
+Matched TimesFM regional 116 / 128 7.86 seconds
+Matched TimesFM regional 120 / 128 7.16 seconds
+Matched TimesFM regional 124 / 128 7.82 seconds
+Matched TimesFM regional 128 / 128 7.0 seconds
+{
+  "scored_rows": 450,
+  "independent_tasks": 384,
+  "all_forecast_days": 5376,
+  "seconds": 435.2294384869999,
+  "native_quantile_crossings": 0,
+  "weight_sha256": "a7592b0a8432baee54483254e5647856911ce69e09d09a9bb65904b2d98f17da",
+  "hashes": {
+    "src/timesfm_matched_events.py": "d339e46f7b5b0f53b71be4eef34bafa98ed365dc9d09dab457eed744cf2132bf",
+    "src/timesfm_fixture.py": "bf4ec7d0ce09c241b0d463470e68149418e50705503823a2b023b60c847cfd6f",
+    "results/timesfm_matched_events_v1/protocol.json": "9ce3e8cb04669108a0c5010ea3a939ec56526a870f6424f03f8b23c72e7e2b65",
+    "results/timesfm_matched_events_v1/cases.csv": "d5aacfc428b503f17b5020bd323ef991782164c8e0d03ec71025bf1ad547415a"
+  },
+  "warning": "Historical overlap-uncertain exploratory event comparison; no prospective score or provenance mechanism claim"
+}

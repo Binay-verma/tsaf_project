@@ -1,0 +1,33 @@
+test_equal_dimensions_and_information (test_calendar_controls.ControlChecks.test_equal_dimensions_and_information) ... ok
+test_future_outcomes_cannot_change_earlier_forecast (test_calendar_controls.ControlChecks.test_future_outcomes_cannot_change_earlier_forecast) ... ok
+test_missing_labels_are_not_fitted_and_purge_is_strict (test_calendar_controls.ControlChecks.test_missing_labels_are_not_fitted_and_purge_is_strict) ... ok
+test_placebo_is_weekday_matched_disjoint_and_shared (test_calendar_controls.ControlChecks.test_placebo_is_weekday_matched_disjoint_and_shared) ... ok
+test_zero_control_and_date_perturbation (test_calendar_controls.ControlChecks.test_zero_control_and_date_perturbation) ... ok
+test_fast_design_matches_reference (test_extended.ExtendedChecks.test_fast_design_matches_reference) ... ok
+test_festival_present_in_each_training_year (test_extended.ExtendedChecks.test_festival_present_in_each_training_year) ... ok
+test_future_perturbation (test_extended.ExtendedChecks.test_future_perturbation) ... ok
+test_known_regional_dates (test_extended.ExtendedChecks.test_known_regional_dates) ... ok
+test_model_weight_identity (test_extended.ExtendedChecks.test_model_weight_identity) ... ok
+test_causal_fill_does_not_use_future (test_forecasting.ForecastChecks.test_causal_fill_does_not_use_future) ... ok
+test_fixed_origin_seasonal_repeat (test_forecasting.ForecastChecks.test_fixed_origin_seasonal_repeat) ... ok
+test_future_target_changes_do_not_change_origin_features (test_forecasting.ForecastChecks.test_future_target_changes_do_not_change_origin_features) ... ok
+test_horizon_calendar_uses_target_date (test_forecasting.ForecastChecks.test_horizon_calendar_uses_target_date) ... ok
+test_no_holdout_labels_used_for_fit (test_forecasting.ForecastChecks.test_no_holdout_labels_used_for_fit) ... ok
+test_verified_diwali_dates_and_window (test_forecasting.ForecastChecks.test_verified_diwali_dates_and_window) ... ok
+test_future_years_cannot_change_fit_or_normalization (test_regional_transfer.TransferChecks.test_future_years_cannot_change_fit_or_normalization) ... ok
+test_held_region_cannot_change_source_fit (test_regional_transfer.TransferChecks.test_held_region_cannot_change_source_fit) ... ok
+test_future_labels_and_overlapping_future_targets_excluded (test_residual_intervals.CalibrationChecks.test_future_labels_and_overlapping_future_targets_excluded) ... ok
+test_missing_and_insufficient_residuals (test_residual_intervals.CalibrationChecks.test_missing_and_insufficient_residuals) ... ok
+test_quantiles_use_signed_past_errors (test_residual_intervals.CalibrationChecks.test_quantiles_use_signed_past_errors) ... ok
+test_all_origin_features_ignore_future_targets (test_robust_baselines.RichBaselineChecks.test_all_origin_features_ignore_future_targets) ... ok
+test_label_purge_and_missing_fit_labels (test_robust_baselines.RichBaselineChecks.test_label_purge_and_missing_fit_labels) ... ok
+test_target_aligned_annual_lag (test_robust_baselines.RichBaselineChecks.test_target_aligned_annual_lag) ... ok
+test_future_scores_are_blocked (test_score_frozen.ProspectiveScoringChecks.test_future_scores_are_blocked) ... ok
+test_issue_day_excluded_and_exact_future_cases_scored (test_score_frozen.ProspectiveScoringChecks.test_issue_day_excluded_and_exact_future_cases_scored) ... ok
+test_missing_outcomes_cannot_be_imputed_or_dropped (test_score_frozen.ProspectiveScoringChecks.test_missing_outcomes_cannot_be_imputed_or_dropped) ... ok
+test_inputs_exclude_all_unseen_targets (test_timesfm_inputs.FoundationInputChecks.test_inputs_exclude_all_unseen_targets) ... ok
+
+----------------------------------------------------------------------
+Ran 28 tests in 1.116s
+
+OK

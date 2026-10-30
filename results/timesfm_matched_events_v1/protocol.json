@@ -1,0 +1,39 @@
+{
+  "experiment": "timesfm_matched_events_v1",
+  "created_utc": "2026-10-30T05:40:02.820482+00:00",
+  "status": "Historical exploratory replication; protocol before new event-model outcomes, after earlier point results and small API fixture known. Not untouched or contamination-cleared.",
+  "models": [
+    "timesfm3"
+  ],
+  "reference": "saved Chronos2/Ridge/SARIMAX on identical cases",
+  "years": [
+    2024,
+    2025
+  ],
+  "cases": 150,
+  "unique_state_origins": 128,
+  "modes": [
+    "history",
+    "calendar",
+    "regional"
+  ],
+  "context": 730,
+  "horizon": 14,
+  "device": "cpu",
+  "torch_threads": 4,
+  "batch": 4,
+  "cross_task_attention": "No grouped targets; every context is an independent sample. Check single versus batched output on first four historical cases before full evaluation. Batching may change numerics, not information availability.",
+  "model_identity": "same pinned TimesFM3 code/weights/verified hash as second_model_audit_v1; no retraining or parameter selection",
+  "covariates": "same ordinary-calendar13 and regional20 channels as cached Chronos; target values strictly preceding origin; future calendars only",
+  "prediction_policy": "Save all14 days/nativequantiles, score only fixed cases.csv (150 cases per mode); no case exclusion, no quantile clipping/sorting, preserve failures.",
+  "metrics": "state/year/lead event MAE and fixed pre-year MASE; equal state then year average; calendar/regional relative effect per state/year secondary; TimesFM native .1-.9 pinball and 80%coverage/width separately, no direct comparison with 90% residual interval baseline",
+  "inference_limits": [
+    "Two event years only; no significance or day/state independence claim",
+    "Both event years predate TimesFM weights, so overlap remains possible",
+    "B-to-D changes information and representation dimension; not a clean regional-provenance mechanism test",
+    "All methods exploratory; these outcomes cannot retune frozen prospective forecasts",
+    "Independence of source/real-time vintages/rights not established"
+  ],
+  "protected_case_source_sha256": "33c0b690bbd621b062e6851717d6705a638f6d534be69771793a1838aa2aaf82",
+  "cases_sha256": "d5aacfc428b503f17b5020bd323ef991782164c8e0d03ec71025bf1ad547415a"
+}
