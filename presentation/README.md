@@ -1,5 +1,7 @@
 # College presentation — Binay Verma
 
+New: [eight-slide multi-festival results supplement](multifestival_update_v1/README.md), with editable PowerPoint, PDF, all-model tables/charts and notes. It adds the completed15-configuration comparison across five festival groups. [Viva preparation](MULTIFESTIVAL_VIVA_PREPARATION.md) explains the findings and their limits. The original12-slide deck below is preserved.
+
 Prepared for **1November2026**, based on the user's “day after tomorrow” deadline on30October.12slides, approximately10–12minutes, with embedded PowerPoint speaker notes and a separate notes file. This is ongoing noncommercial academic research, not a submitted/journal-approved paper.
 
 - `College_Presentation_Binay_Verma_2026-11-01.pptx` — editable presentation.

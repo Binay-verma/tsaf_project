@@ -1,0 +1,4 @@
+worker,family,state,origin,date,horizon,lower_level,upper_level,lower_prediction,upper_prediction,treatment
+chronos,Ugadi_Gudi_Padwa,Karnataka,2024-04-06,2024-04-06,1,q_350,q_400,330.5559997558594,330.31964111328125,Retained unmodified; no sorting or clipping
+chronos,Ugadi_Gudi_Padwa,Karnataka,2024-04-08,2024-04-08,1,q_350,q_400,329.56805419921875,329.42901611328125,Retained unmodified; no sorting or clipping
+chronos,Ugadi_Gudi_Padwa,Karnataka,2024-04-09,2024-04-09,1,q_350,q_400,334.03179931640625,333.7152099609375,Retained unmodified; no sorting or clipping

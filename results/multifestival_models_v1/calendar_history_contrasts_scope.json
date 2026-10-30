@@ -1,0 +1,31 @@
+{
+  "status": "Descriptive paired diagnostics; not a causal or prospective contrast",
+  "pairs": {
+    "chronos": [
+      "chronos_calendar",
+      "chronos_history"
+    ],
+    "timesfm": [
+      "timesfm_calendar",
+      "timesfm_history"
+    ],
+    "sarimax_annual": [
+      "sarimax_calendar_annual",
+      "sarimax_history_annual"
+    ],
+    "ridge_basic_annual": [
+      "ridge_basic_calendar",
+      "ridge_basic_history"
+    ],
+    "ridge_rich_monthly": [
+      "ridge_rich_calendar_monthly",
+      "ridge_rich_history_monthly"
+    ],
+    "lightgbm_stable_monthly": [
+      "lightgbm_stable_calendar_monthly",
+      "lightgbm_stable_history_monthly"
+    ]
+  },
+  "interpretation": "Positive values mean lower MAE with ordinary calendar inputs. Mean within-state/year relative effects, equal states then years, not ratio of macro MASE.",
+  "limits": "These inputs are weekdays/Fourier terms, not added festival identities. Small or mixed gains alone do not establish an information mechanism. All cases/years/variants retained; no model, feature or future forecast selected from the results."
+}

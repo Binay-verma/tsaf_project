@@ -1,0 +1,85 @@
+{
+  "experiment": "multifestival_models_v1",
+  "created_utc": "2026-10-30T09:36:15.133062+00:00",
+  "status": "Exploratory extension recorded after cached diagnostic outcomes; model families/arms already proposed before those diagnostics. No clean-test model selection.",
+  "cases": "Identical528eligible cases and fixed five-family windows from multifestival_cached_v1; no case intersection selected by forecast success",
+  "cases_sha256": "2723e8462fc0ea4604b2ba2cc523da5f996c3c6d0475dee39a009c1370385db2",
+  "new_configurations": [
+    "sarimax_history_annual",
+    "sarimax_calendar_annual",
+    "ets_weekly_monthly",
+    "chronos_calendar",
+    "timesfm_history",
+    "timesfm_calendar"
+  ],
+  "cached_configurations": "All9configurations retained unchanged; scores combined only on exact same cases",
+  "leads": [
+    1,
+    7,
+    14
+  ],
+  "horizon": 14,
+  "context": 730,
+  "seed": 42,
+  "batch": 4,
+  "threads": 2,
+  "ordinary_calendar": "Same13weekday/Fourier channels as existing studies; no new event covariates. Chronos uses native future covariates with cross_learning=False; TimesFM symmetric averaging=False.",
+  "sarimax": {
+    "order": [
+      1,
+      0,
+      0
+    ],
+    "seasonal_order": [
+      1,
+      0,
+      0,
+      7
+    ],
+    "fitting": "Annual730-day pre-year fit; history uses constant trend, calendar uses13exogenous channels and no constant. Fixed parameters; extend state only through origin-1. Target units divided by100 for numerical fitting and multiplied back.",
+    "retries": "L-BFGS150 then500iterations, then Powell500 only if nonconverged. Training objective/convergence only, no evaluation-based choices; retain every attempt/warning."
+  },
+  "ets": {
+    "model": "statsmodels ETSModel",
+    "error": "add",
+    "trend": null,
+    "seasonal": "add",
+    "seasonal_periods": 7,
+    "initialization_method": "estimated",
+    "fitting": "Refit at first calendar day of each origin month using preceding730days; fixed specification, no hyperparameter search. Between refits smooth same fitted parameters/initial states through origin-1 without optimisation.",
+    "retries": "200 then500iterations only if nonconverged; retain every attempt. Additive model has no positivity requirement/clipping."
+  },
+  "past_missing": "Causal weekly/last-value fill only in past contexts and classical training series; record missing training counts. Score positive recorded labels only. Source publication availability remains retrospective.",
+  "foundation_identity": "Reuse individually audited pinned local weights/code, verify actual hashes before inference. No fine-tuning, no network/latest checkpoint. Preserve native quantiles; no sorting/clipping.",
+  "metrics": "Same prior-year730-calendar-day weekly-difference scale, equal state/year/festival weighting as cached protocol. All arms/failures and per-state/year metrics retained.",
+  "inference_checks": "Future-target perturbation invariance for every task; first batch solo-vs-batch per model/mode; finite forecasts and native quantile order diagnostics. Input target/covariate hashes saved.",
+  "failure_policy": "Keep checkpoints and traceback; do not silently omit failed configs/cases or shrink comparison. New directory for altered model choices; no overwriting old runs.",
+  "limits": [
+    "Historical pretraining/proxy overlap",
+    "Two years, dependent states/days and overlapping holidays",
+    "Unequal local refit/feature/validation budgets; deployment-policy comparison",
+    "No causal, universal winner, new-method or final-test claim",
+    "No changes to source/frozen prospective predictions; no future outcomes retrieved"
+  ],
+  "input_hashes": {
+    "src/multifestival_models.py": "1a03a120cd2135dca04c7988411db500de98b14d2d3a5cba7339bfb607daa0ac",
+    "src/multifestival_cached.py": "fc02cff36d9077901e20fe6a911d95a78d04c48a160652cab7f19173cae7f810",
+    "src/timesfm_fixture.py": "bf4ec7d0ce09c241b0d463470e68149418e50705503823a2b023b60c847cfd6f",
+    "src/extended_validation.py": "2312ef9ef5f78ad8bf47b47999576cd0875c7ba3adca53acfb5434b83b2f8218",
+    "src/forecasting.py": "8a6b9b1e8632a2bf77d9855a1d370ed23c350ffe731138787e30c609a59ec21e",
+    "data/external/latest_state_energy_GWh.csv": "74d22d5e85b022db13d97dad7c84dca5b9dc8e38d23570bf095d870e71a2f690",
+    "results/multifestival_cached_v1/protocol.json": "6764e7b14172c3650ad89a6fe6e5d3ee612e7d4162cdab4ad3af13f8a283eca5",
+    "results/multifestival_cached_v1/predictions.csv": "a49620c8b4fe690575e7d7c0c41cda7961bd83eb193f6cc883d7ed07ae66319f",
+    "results/mechanism_controls_v1/chronos_download.json": "b7bc0b9b2f018de37b60148e226546dd15e47965efdc246f500062721f3f3c15",
+    "results/second_model_audit_v1/weight_download.json": "33513d544578b60db98abd0ad667c97597e0b7b49062588a87fc980b012c4cf4"
+  },
+  "packages": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "statsmodels": "0.15.0",
+    "torch": "2.15.0+cpu",
+    "timesfm": "3.0.2",
+    "chronos-forecasting": "2.3.2",
+    "transformers": "5.22.0"
+  }
+}

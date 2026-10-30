@@ -1,0 +1,4232 @@
+[
+  {
+    "mode": "calendar",
+    "state": "Delhi",
+    "origin": "2024-03-09",
+    "target_sha256": "a77c6450de7be8a98fda203b9b1f52450a43d967db741d141b91b95eaced516a",
+    "covariate_sha256": "7447d436b0d2776761dd703c199554f12e52810139f33fc59bad984ff29e75f7",
+    "last_context_date": "2024-03-08",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Delhi",
+    "origin": "2024-03-10",
+    "target_sha256": "4a6d75bdd8212acb72124fd5208235399ed6d260be7a7beefe544b2ff56d4328",
+    "covariate_sha256": "2cd01d2d4db3eef6611da6766828e62f92539d87807df8cdbd03446c110bed3f",
+    "last_context_date": "2024-03-09",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Delhi",
+    "origin": "2024-03-11",
+    "target_sha256": "192ec6bae88ac0506c00b50c8d0492512b49a15175c2611db7142c0566c2acf8",
+    "covariate_sha256": "f58734971ba953c8a99df7ee0d0ac6fcef6037a36be3b934097aeaff17b70c5a",
+    "last_context_date": "2024-03-10",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Delhi",
+    "origin": "2024-03-12",
+    "target_sha256": "08431a4bbb2eb809e65c5ea4aa4a9a81b76fb20952c46991eede97a709b7c734",
+    "covariate_sha256": "d5b3f728260ac06ab4fe82127a35961a799d2a36acd9aca918ee25560802176e",
+    "last_context_date": "2024-03-11",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Delhi",
+    "origin": "2024-03-13",
+    "target_sha256": "a741b2798f5a0a792fcafb0429bb118fc9dd88cfc85e85083f7c447653f1f545",
+    "covariate_sha256": "e2c9c64a977a4a3762addb110c8ba2740ccfcf6aeb1dba7d5483023f85b733bd",
+    "last_context_date": "2024-03-12",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Delhi",
+    "origin": "2024-03-14",
+    "target_sha256": "220d6faa84de4eec0345b9cbf7cda5ffc91e7404e2b9e0722f6561dddbd051b2",
+    "covariate_sha256": "839f21eb0751d0b5730cc9057c77e908801983f69bb5f799151519a457517558",
+    "last_context_date": "2024-03-13",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Delhi",
+    "origin": "2024-03-15",
+    "target_sha256": "9bcf76b357dff70470509e2b6e6713b0a9a35a91631cd263f1a68caa68a5583f",
+    "covariate_sha256": "ebe6859c9188fa212e3b6f8a33864e44913a0da07688b2510a1acb101fe95bae",
+    "last_context_date": "2024-03-14",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Delhi",
+    "origin": "2024-03-16",
+    "target_sha256": "19f7be8a51180b83e3c2f38d72f14aff78f765cd297f1f919965e8bee87b0111",
+    "covariate_sha256": "6f26ad84ef9b0ccb0dd254f7718015843aedcd75c48b795ef698ba9858b68ca5",
+    "last_context_date": "2024-03-15",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Delhi",
+    "origin": "2024-03-17",
+    "target_sha256": "c9325c661d9525f5223bcc48f33e430703e1fe0d52741831db75e48c2f05bd56",
+    "covariate_sha256": "21b087bc2a22b0c54e8152066ca8e1e42dad270c5e2c557329500be60dbf1db1",
+    "last_context_date": "2024-03-16",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Delhi",
+    "origin": "2024-03-18",
+    "target_sha256": "a0db19fa6457c8f7002b64295e3f31145fd77105b9b7d6a74cdf325e47508518",
+    "covariate_sha256": "ae9a7ecd9ab6f23171f122dfc7d58fede158d8b7d61014654fb13e9cf53d522b",
+    "last_context_date": "2024-03-17",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Delhi",
+    "origin": "2024-03-19",
+    "target_sha256": "7e2fb37b73a0184b84ae3fa8fe7f1734c1fceb80edfac965037e0c1efd94ac44",
+    "covariate_sha256": "edf9fb89071307c758bfeec0e2ae3a97567b9fec116b3928a5f3ee82d89651f3",
+    "last_context_date": "2024-03-18",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Delhi",
+    "origin": "2024-03-20",
+    "target_sha256": "2a9e12e067070654e76f79a6a7f52f89fae0d9b64777256b9ccef39353a88431",
+    "covariate_sha256": "66c93be6f69e220252599866df3cb425efceab0fff3f62ddd8fc78e94b962c16",
+    "last_context_date": "2024-03-19",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Delhi",
+    "origin": "2024-03-21",
+    "target_sha256": "557392fd5b9569f5a309e4d1b19d7a80de93b1810454c66c462fd430a7004e2a",
+    "covariate_sha256": "bced046a19f7b7edfe1095b4b4d4992e248cff8fcd692ff1a1020b2221be5dc2",
+    "last_context_date": "2024-03-20",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Delhi",
+    "origin": "2024-03-22",
+    "target_sha256": "56066936ebf90ef1db0339f9b1b933efe5445f7578372031f27bcd0c40ae99c0",
+    "covariate_sha256": "350c441da44e52be4aa1db32a997632567e5a36d80c37a912a4de4c5aa31e2a1",
+    "last_context_date": "2024-03-21",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Delhi",
+    "origin": "2024-03-23",
+    "target_sha256": "12d20cce882dab088d07c7332ce6db7861133e77316c66e1cf39a8e79fad4e5b",
+    "covariate_sha256": "2727e53e89aca1c7f0c5f399ae98b733019be7727f7d7fb0549c3e2b6318ee8a",
+    "last_context_date": "2024-03-22",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Delhi",
+    "origin": "2024-03-24",
+    "target_sha256": "6095f811490eb1a0f2b21dc49a2126924f7a341dc6579af83df3670237fc012b",
+    "covariate_sha256": "fa21ddf7cfa5b49e34f59825f18e4a88dd34f52053b34b9ff88aca14a56fa243",
+    "last_context_date": "2024-03-23",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Delhi",
+    "origin": "2024-03-25",
+    "target_sha256": "75443cefeb1bae4dd2c8b692da571314869c853c8c9670420b4ba8332e002ae1",
+    "covariate_sha256": "529eb502edfd63fe2fe35ddc364b5fe0d60b01b444fcbf2609fa1000fccd7b6f",
+    "last_context_date": "2024-03-24",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Delhi",
+    "origin": "2024-03-26",
+    "target_sha256": "77b6554112d308d2b1d646c00bdd4d48bee80fabb3049336cf3a8c218b2c0b9e",
+    "covariate_sha256": "a0e53f681404c88743d30d08ca77f8664c48b8463661831d54c47397c637060b",
+    "last_context_date": "2024-03-25",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Delhi",
+    "origin": "2024-03-27",
+    "target_sha256": "fd99d00eab59d141297c3496e82136bf635da646cc8ea35c341c3c7096e15e21",
+    "covariate_sha256": "4ee0cf70a041e0f7b268162981dc8b04b33d30c7b876e6bfed0d5b915f420cef",
+    "last_context_date": "2024-03-26",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Delhi",
+    "origin": "2024-03-28",
+    "target_sha256": "00eb7563e1220ded20cbc7028d83eafc691033ff0d89406fc52f64a89552ba7e",
+    "covariate_sha256": "6b117f776bc27b7f4fbfc10a62a5a7caf41aacfc79e4bbaeae1e4b0352cc53b8",
+    "last_context_date": "2024-03-27",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Delhi",
+    "origin": "2024-09-26",
+    "target_sha256": "352275b2f3ee45c4171a39c3a4e871a81b3faf79d1da1bfc1c79c338263be695",
+    "covariate_sha256": "d802c9d19e59aad5bbfd56fd12de370e37dd13b343634bf159cf01e421e7e516",
+    "last_context_date": "2024-09-25",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Delhi",
+    "origin": "2024-09-27",
+    "target_sha256": "0fa73a9e6e146ccb0652568f93ecfd7fd5e61fb6f56aa42c6a2d98c6aebca459",
+    "covariate_sha256": "6350b80c3d3f9d937769ae442308ad66197cd2a33ab27752b20b69d6d5fbd8b9",
+    "last_context_date": "2024-09-26",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Delhi",
+    "origin": "2024-09-28",
+    "target_sha256": "61299633669650b4d855c198af1fb600a546d2bcf01dda40fba575322a9bbe30",
+    "covariate_sha256": "fd38bebf128b9c6b9cda10802175b41809ca014ebfeec05334cb25259ebe109a",
+    "last_context_date": "2024-09-27",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Delhi",
+    "origin": "2024-09-29",
+    "target_sha256": "59a84f26b7b3d1ef5cdfa53fd157dee31b3fe921b8cbda2087eda71dc810fe76",
+    "covariate_sha256": "d159abf212d0ae3d1fac3eca4e30a0770836ddd0520a452419f8395b18aca3fa",
+    "last_context_date": "2024-09-28",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Delhi",
+    "origin": "2024-09-30",
+    "target_sha256": "e785cd7693de843147de82cfc7f1ef28c74bc27b78e96d1024ce42f5177cd681",
+    "covariate_sha256": "a7f236132f2bc063e20957a9ca062c004f3c09b534b7eb4d3f2c2a2bff134e70",
+    "last_context_date": "2024-09-29",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Delhi",
+    "origin": "2024-10-01",
+    "target_sha256": "6ef698a7f00a0324e5725480815effc0324f63855ce7ebaed9b9da6e07252b11",
+    "covariate_sha256": "726527342d2cf1bd0322467472354a73ecb4ef4db5ffd91265185609fe6d9371",
+    "last_context_date": "2024-09-30",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Delhi",
+    "origin": "2024-10-02",
+    "target_sha256": "41cb859e28a2eca6ea620b88589f25ec0d7b5c02a5f87a471a999fbeb2560081",
+    "covariate_sha256": "360bcdbc1c093407ecdc9ad0a7f7a67af850370d4bd3516e6a27da417df73b5c",
+    "last_context_date": "2024-10-01",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Delhi",
+    "origin": "2024-10-03",
+    "target_sha256": "7d31862fc86612745a2ddca093a81d8c672fdd779528e787d347e3005527c923",
+    "covariate_sha256": "5813243149fdfcf5a84cd990c53fdd38b324390b1a0ef7773605a18cbb4b5afb",
+    "last_context_date": "2024-10-02",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Delhi",
+    "origin": "2024-10-04",
+    "target_sha256": "1ef3b0457bf1ed3bdfda8aaa5fc61fdb56701ab8308cdc6741ecd7cc769ac1f8",
+    "covariate_sha256": "49c2d5fcaf6d062f8cd6632f02f10ea8adf663cf0735dd29bf2e46bda69f1516",
+    "last_context_date": "2024-10-03",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Delhi",
+    "origin": "2024-10-05",
+    "target_sha256": "c8be51c931a4b137a5d4ec135b6802ba9e85e4c12b5cf5ebe58a5e2fd9fb9c65",
+    "covariate_sha256": "47ff79938e343b50b8bd362ea96b6806dd4586d005354111989319357a369fcb",
+    "last_context_date": "2024-10-04",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Delhi",
+    "origin": "2024-10-06",
+    "target_sha256": "3c51fc2ad27ed0c0a291c1052d4988f2808ebe5abbcf57ff8a3f3accd937b5f7",
+    "covariate_sha256": "cd529df68b44afd5a7e6b729bbf928511adad75d695fddfbef22cbab00fd9471",
+    "last_context_date": "2024-10-05",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Delhi",
+    "origin": "2024-10-07",
+    "target_sha256": "266d543beae2f890ef967163aeb73f14aa7b85bf48cecc9ae4652443c8f548e1",
+    "covariate_sha256": "95f30772403cced5fccc6700e33e8216409800f6e82789823ca971e3e35445a1",
+    "last_context_date": "2024-10-06",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Delhi",
+    "origin": "2024-10-08",
+    "target_sha256": "cba28a26806128739d7c767311d4265b29733fa4042b8130140e0ba546635e36",
+    "covariate_sha256": "71f04353e33dc64ec145c253693cc2d6da23dd940ad572994103560d087bfcb4",
+    "last_context_date": "2024-10-07",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Delhi",
+    "origin": "2024-10-09",
+    "target_sha256": "a390fc8f51e29246c29d4212d60e5128311c26622044c162bf36fe674abdfd79",
+    "covariate_sha256": "c90af2362c3db951fc4ebc22f0a7178487c6b8ced6c71e7326615b2cc2741f3a",
+    "last_context_date": "2024-10-08",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Delhi",
+    "origin": "2024-10-10",
+    "target_sha256": "8a00ebdaefc1358dc73d3203bfdaaf1f0e0b1b182301403d3664080038bb0f14",
+    "covariate_sha256": "2ad0f8fdd7f4a2d1892f8aca8de608ea398fe80e5dfd6793607c8e0d0dc41109",
+    "last_context_date": "2024-10-09",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Delhi",
+    "origin": "2024-10-11",
+    "target_sha256": "23e66f0de46ad286c1c880fba310157a02ef7c098fa90e7acb9855b354d4c001",
+    "covariate_sha256": "15c775ea9b1118708e6c931b6a2ef27ecef8822fb85b359a9c949f9a407710c0",
+    "last_context_date": "2024-10-10",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Delhi",
+    "origin": "2024-10-12",
+    "target_sha256": "e1c6d563afd7440ebc620f9e950f13c15bcd49c0321b921cee0fc08cb345a740",
+    "covariate_sha256": "235c8bd56f704112f07aaecab930a14f23aeabf427779a76f0983efe2916b3b1",
+    "last_context_date": "2024-10-11",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Delhi",
+    "origin": "2024-10-13",
+    "target_sha256": "0ab41a4d962a92a4077775b49059a7f4c73c1fd021bfe9aca6f1fd96f59cc82c",
+    "covariate_sha256": "b0874061d1b8afd01cb97aca1c635135b090e73c1cfa8914f416dc706e37aed5",
+    "last_context_date": "2024-10-12",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Delhi",
+    "origin": "2024-10-14",
+    "target_sha256": "b24efa2b6990565ea0301b45d98b5c910265c3a5d4dce5b8922628923da51a19",
+    "covariate_sha256": "639090948b3f24935c3e66898ec553f13365a0c287fe1a0b77b5ec910ccb3270",
+    "last_context_date": "2024-10-13",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Delhi",
+    "origin": "2024-10-15",
+    "target_sha256": "c94893a7d7c4e3afd8aeec75e95f67c25871ef682557568b7c80c7dfe98a64c2",
+    "covariate_sha256": "cf9726cec9afd8fa1bc98dbc157a06d19d74a60277561b50af8d27292f817e52",
+    "last_context_date": "2024-10-14",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Delhi",
+    "origin": "2024-10-16",
+    "target_sha256": "7576d3e9cdc85761fdd26fb498dfd09b75df9ed26d17bea6a454ee25b1053ca3",
+    "covariate_sha256": "8eb77ec39b377cb8ae299adb0c3f95d051eda273ba71b406ae37b82e26467357",
+    "last_context_date": "2024-10-15",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Delhi",
+    "origin": "2024-10-17",
+    "target_sha256": "8cb71303a5312f6e24d4308c6a22d44ebfab740ebabcabaeebb084ea2191a5dc",
+    "covariate_sha256": "1eec8c0a3eb4384766094acf95ca2a74d5328110b6358fd8c91f338faafab383",
+    "last_context_date": "2024-10-16",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Delhi",
+    "origin": "2024-10-18",
+    "target_sha256": "722560ad57d67cc627d548830c4542d6b11463e057d2ce22ecaf73135f6af1d2",
+    "covariate_sha256": "04afb36202b31d8b8bf22fcb1c2bdd1c16a63c79fa9be4c7d738ab2d9eeaac6d",
+    "last_context_date": "2024-10-17",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Delhi",
+    "origin": "2024-10-19",
+    "target_sha256": "3941ba1ce60817351575e46978ccce3282c5fd13ed7bb3fa8c0a9e9f21cef307",
+    "covariate_sha256": "551a063543a3b361e83ec0e811313f117de85c107c51bf1bef03c957ff19c02c",
+    "last_context_date": "2024-10-18",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Delhi",
+    "origin": "2024-10-20",
+    "target_sha256": "45e3819bcfd7b47e430fed6bb333a651fbd7ac1c725088c855a70605b87e861b",
+    "covariate_sha256": "fc22d5d12a5b69fe212b842234b2fccbdd6345e884a2e7eb1bd5038221cb64e0",
+    "last_context_date": "2024-10-19",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Delhi",
+    "origin": "2024-10-21",
+    "target_sha256": "7724ecd2ee2a655d77282f832a16a183943fb028594b2b3afe1dd3ff4220d05c",
+    "covariate_sha256": "7fadd6bd903a8faa49d7e12a94c2d213ad1118d8e1b562543173fc93503db4ae",
+    "last_context_date": "2024-10-20",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Delhi",
+    "origin": "2024-10-22",
+    "target_sha256": "6ff3d60c6fce868cd4a233dbfeb064df27d9278b4c543d9e9393e6622191abd1",
+    "covariate_sha256": "1544c014772954268bdd377c2f7c4fbeb53e601f1c983674ab9224c0c993a5af",
+    "last_context_date": "2024-10-21",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Delhi",
+    "origin": "2024-10-23",
+    "target_sha256": "889a5fac9ea4b61360ad811aad42d3f76260e4b470f1c4b5456a8deaa10a0e6a",
+    "covariate_sha256": "e6da43e45ee92bde959ab3cf5a9bb28ec0d47a42f703bbc4545376b7992c7a35",
+    "last_context_date": "2024-10-22",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Delhi",
+    "origin": "2024-10-24",
+    "target_sha256": "aaed09fa04474f3668f483ebf30bdbacaf8f80753d5c7b01c576a317105b501f",
+    "covariate_sha256": "340a6b6e1d3b767418307668aa54713cc5727ae674d104defdea8266f8020842",
+    "last_context_date": "2024-10-23",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Delhi",
+    "origin": "2024-10-25",
+    "target_sha256": "54f81f7902b6bd7d1d83311b0bd7b8f6fe4f1d60c8a7390bfe68c3032d7dd209",
+    "covariate_sha256": "e40fd2d657bbede724df155e5bc947752991581fc52799cce434a0f1798542fa",
+    "last_context_date": "2024-10-24",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Delhi",
+    "origin": "2024-10-26",
+    "target_sha256": "89d6deb86184ea3b82c3d8479199db345cb10aea80b72c05a64f8f5842561872",
+    "covariate_sha256": "dc0c329a2e9ad7925b83afba9d09256e54bda68572abc28edd7281fa7898bc8f",
+    "last_context_date": "2024-10-25",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Delhi",
+    "origin": "2024-10-27",
+    "target_sha256": "b46177947d375100d1cc675121b294714871b03541fd2f72113a8b1e7331eadc",
+    "covariate_sha256": "0f933c6254a54b2de037812be368467c4ba8daac6e695440c2a5ee18da8ff80a",
+    "last_context_date": "2024-10-26",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Delhi",
+    "origin": "2024-10-28",
+    "target_sha256": "f2b64ba4af41c68c3ab4a37cb0f0edc1362fa1c3bf329ae50ab561291d9ff577",
+    "covariate_sha256": "e446b24322f18866f36e047106f6ff1024af427ee6a9d0c24dd8acc8a293a1bc",
+    "last_context_date": "2024-10-27",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Delhi",
+    "origin": "2024-10-29",
+    "target_sha256": "139b0e13cfe8ba439835eede9e2400f52e2bf142695e27865ae32ff61bea2523",
+    "covariate_sha256": "280550d24d4273bdddb2b828db032aa8f815b01611250c37b2aac6b46ab5eed3",
+    "last_context_date": "2024-10-28",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Delhi",
+    "origin": "2024-10-30",
+    "target_sha256": "d4ce3317c252109160087967768a35d4ab8744f861e915ac832a934d914b341d",
+    "covariate_sha256": "c689cc2bab55696baa6e3591d2de2cb7e0a31521904401ee7b6e9108e060e85b",
+    "last_context_date": "2024-10-29",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Delhi",
+    "origin": "2024-10-31",
+    "target_sha256": "3c426b3b52fe249d896163a7b09ece76a86d4756b9863b2693c91c5117f5c97d",
+    "covariate_sha256": "92c7a1f0f034a2fecb5a9a8122044c09f81d46d37039c56bf1f0751717bb8427",
+    "last_context_date": "2024-10-30",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Delhi",
+    "origin": "2024-11-01",
+    "target_sha256": "2b1555c01168d6845bedf4f22b68c85f8b611441832d46e2811c31a7392a0bbf",
+    "covariate_sha256": "f6e9a96f37151e24579b59da47bb4d6e5ff9e766d686fed835008f3f2ee621ca",
+    "last_context_date": "2024-10-31",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Delhi",
+    "origin": "2024-11-02",
+    "target_sha256": "68efcd2b2dbf466d26c5a691b1962e560335ffc3f5b83c218e59e0be39e6fd3f",
+    "covariate_sha256": "b65d76292f4ceeadb628810a50dd2923c31e3638cfe62922cc6a4da12ade2c29",
+    "last_context_date": "2024-11-01",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Delhi",
+    "origin": "2024-11-03",
+    "target_sha256": "078eb86e1298b59f67bcbfeaf6795f51fff440c46436e8d577ce388fd59fd18e",
+    "covariate_sha256": "e2b2361f7b4ff1a5ab1d1d9cfffb158a8bf362148f7a0ca7bce6490b9d97a77c",
+    "last_context_date": "2024-11-02",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Delhi",
+    "origin": "2025-02-26",
+    "target_sha256": "32a9a9fc7853af7e48a9ebb82c10fb536e9eb8541b56fff6825778d3144d1ecf",
+    "covariate_sha256": "1626b2883ea8b5ee9626f2136f80268711b8555ef8b3d98407c09bd492a51fc7",
+    "last_context_date": "2025-02-25",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Delhi",
+    "origin": "2025-02-27",
+    "target_sha256": "407c1cc5bb86b74cfc3aecf23f97d3226c0fa43145068090dc55369ec940ac9e",
+    "covariate_sha256": "3b6792888ac145680ce92d9da10a9fd6152b9b5fa2e23d4dc0d411a95d5a3f95",
+    "last_context_date": "2025-02-26",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Delhi",
+    "origin": "2025-02-28",
+    "target_sha256": "32585a5796c21235e4de6d4f05a8dcfce74a6e4285dc46c94bb14fe9a9c4e019",
+    "covariate_sha256": "a9d0de11a9e46639bb5a46700f885b16dfd185819f2b11bba7b83ec7c4fefc2f",
+    "last_context_date": "2025-02-27",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Delhi",
+    "origin": "2025-03-01",
+    "target_sha256": "f0d4219f439797c8e2f1e360a96bdcfb9fa4269a40237ad33468789ce3264f92",
+    "covariate_sha256": "b8326c22dd1975ff3b0045515eb26b398a8713806cab7dea00baa8d41e7f7c52",
+    "last_context_date": "2025-02-28",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Delhi",
+    "origin": "2025-03-02",
+    "target_sha256": "8265c150bd1b98b34e15892c5a5794a3af1844445a6b6668b7bfc59c67992b13",
+    "covariate_sha256": "765c6aeab31f68e55071a65b6b1497eca81f7612656694658e5db3d0991a533e",
+    "last_context_date": "2025-03-01",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Delhi",
+    "origin": "2025-03-03",
+    "target_sha256": "d8edd3e0c8fe18ae4788c4b502f5d23d2370795080ba67dd8209e8985f0f75f8",
+    "covariate_sha256": "ce40f540ac2b86686ea9f2972e649fdd224ceacee71efefcbccb535d4464ade6",
+    "last_context_date": "2025-03-02",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Delhi",
+    "origin": "2025-03-04",
+    "target_sha256": "f4c0799e0aabdbbd2d4d218d71f6c93f4cea3f875f8e395c40b9c9847f81b3c8",
+    "covariate_sha256": "bfb9428020325419771769c499e0d2fd403460449082c9aa25239d14278009d1",
+    "last_context_date": "2025-03-03",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Delhi",
+    "origin": "2025-03-05",
+    "target_sha256": "b1f949c6c083f4c62cb8e8bd01b288e7804b1643f2e319033c0913d0b8006f3a",
+    "covariate_sha256": "c181bf448f2e1344b88d3cca22fb48aa0767e60bb339cdab09a7f37a66ad972e",
+    "last_context_date": "2025-03-04",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Delhi",
+    "origin": "2025-03-06",
+    "target_sha256": "0b034d611d468e5541eecbf44dff08968e43dc0ee910336e32f83730c34086b5",
+    "covariate_sha256": "8cefacb40b9fb27cc83287edc22311a23d94623140f42caf25f4659db0d74239",
+    "last_context_date": "2025-03-05",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Delhi",
+    "origin": "2025-03-07",
+    "target_sha256": "c2b9e9457442dddbc9626feb440b3433d731428a040f318d48ac5692735991c2",
+    "covariate_sha256": "44c4dca3ebd05b576609e7b02cd54d40173b3a6dc06aae6d01217d90f3ba4e5b",
+    "last_context_date": "2025-03-06",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Delhi",
+    "origin": "2025-03-08",
+    "target_sha256": "28e1ce5a0428eaea4c730ae99066a547f17a2d1bcb6077249fb6ec130865f287",
+    "covariate_sha256": "416533c187751c46231fba47793d77664a53c7fc1c9ec7fdaf3b588b64b42b5a",
+    "last_context_date": "2025-03-07",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Delhi",
+    "origin": "2025-03-09",
+    "target_sha256": "f7646484baf5083f27c9553f041f0219cfaa86fa506f84ca42bbaafe06059625",
+    "covariate_sha256": "8487f64ec8d958b83634d09d50340e595fbd177720bbbecbdf515405f7520552",
+    "last_context_date": "2025-03-08",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Delhi",
+    "origin": "2025-03-10",
+    "target_sha256": "390e9894071b75b5dbcff6da7c20056a699ec6dd85e5baee944f476f0849f013",
+    "covariate_sha256": "c0946837c5402ee070064bd26e4a3ef68f44d8e42ceae257861856e7f0d2c44c",
+    "last_context_date": "2025-03-09",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Delhi",
+    "origin": "2025-03-11",
+    "target_sha256": "f34d2aaeb2bb7f41edfe652aced5f38f9ad4fd1a7aecceded3ecc84e84d6e756",
+    "covariate_sha256": "a0b1724804e7d1e76dab84840298f038a432b8aa36224bbc91185e92c8c3a629",
+    "last_context_date": "2025-03-10",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Delhi",
+    "origin": "2025-03-12",
+    "target_sha256": "c95cebd2717d2b4af22965359780c3acc8488207195f1c42d371d95bb8c72f5d",
+    "covariate_sha256": "6d25952f8fb43cb5783b1181867e226d6fd6709b70faff20769a9fdd9a3353cd",
+    "last_context_date": "2025-03-11",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Delhi",
+    "origin": "2025-03-13",
+    "target_sha256": "eb51af5dbee02ab0eb6076e96147aad608f8abd685c338417515531678a1e820",
+    "covariate_sha256": "48d71061b4c302df7e04877481eb2ff83bf7b551ce9b56b94b8324256178b22a",
+    "last_context_date": "2025-03-12",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Delhi",
+    "origin": "2025-03-14",
+    "target_sha256": "b58ee6b083fad9b35f34d4414fda4eab5cc524b525ed2c0c08ad8979057d931b",
+    "covariate_sha256": "f3aeb3276f0c7fd9135fc5486abfe0c729f4a9d6f28cf41a4d59c0a7caff142d",
+    "last_context_date": "2025-03-13",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Delhi",
+    "origin": "2025-03-15",
+    "target_sha256": "ba51f20296e79df8339f1e50f082ee17f47ca4c01ab012f2533534e5891acbad",
+    "covariate_sha256": "ddc16b2f97a0dd8930318d6b33ec0dc71fe5e9fd16318365da84fbc2a07405d2",
+    "last_context_date": "2025-03-14",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Delhi",
+    "origin": "2025-03-16",
+    "target_sha256": "e5f1ea515b38d682bc81ac36ae7a21576af8d66b9689ab85c400e037a99d56e1",
+    "covariate_sha256": "e26595195f01cf5811b7ac3a4edfdcbb00e9004a0638b47330d7fe6751cd460a",
+    "last_context_date": "2025-03-15",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Delhi",
+    "origin": "2025-03-17",
+    "target_sha256": "31f413c150258a2aa1654a311c0ab16b68fad2c3fd338256fc03f55908d2efe8",
+    "covariate_sha256": "c9d03f6da06b63a6c88247a22784ac0278ea685d6050e6c22d46591179327544",
+    "last_context_date": "2025-03-16",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Delhi",
+    "origin": "2025-09-16",
+    "target_sha256": "1ef684466f82d7eb58c44013d3d6c45ecadad0500f4d39f847848310e1a6a262",
+    "covariate_sha256": "237787b42a7593cf75449b28022f4be9cc5543db7ceec569c76664791727aa27",
+    "last_context_date": "2025-09-15",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Delhi",
+    "origin": "2025-09-17",
+    "target_sha256": "8614a97f2ad3d132f1b21e7c82d97b3de301cf09d21b0f24b5dd20a936d27efe",
+    "covariate_sha256": "df76c42e06aa5440a6d2a0bce9bb2b592cac4fa60e1b8ebe2c250560c277e1b2",
+    "last_context_date": "2025-09-16",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Delhi",
+    "origin": "2025-09-18",
+    "target_sha256": "3f516054e2c963585bda75bcb710b12b83affe25a5aa27471caa6e80788fe40a",
+    "covariate_sha256": "6fb778ee25fff8a8f4312b6ee6c165670d958bc4d3d524a685947da1a27dce02",
+    "last_context_date": "2025-09-17",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Delhi",
+    "origin": "2025-09-19",
+    "target_sha256": "c2b96635c2e8dd17e8faaa1a0d37cdda3dc53731bcc4607420b3b9c2055122bd",
+    "covariate_sha256": "3ae1c41db60d4287d16bf0809c04ec5798c77a4dade7a902736caa71cebe6077",
+    "last_context_date": "2025-09-18",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Delhi",
+    "origin": "2025-09-20",
+    "target_sha256": "09a176a0260af31cd110e9ccf676be83cecfaa8143349415f974738e69312c5d",
+    "covariate_sha256": "9458e97b2b250c28fd173c559dee0a018fdde354302cf59d4d8b8f1a4051292b",
+    "last_context_date": "2025-09-19",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Delhi",
+    "origin": "2025-09-21",
+    "target_sha256": "cbd713dcfbccce24cdd033be94c49f39201d635ef00f738e9702e87357d16d88",
+    "covariate_sha256": "32cb811746261a83d3103f93ff739fb79c01cec62c9ace5476229210103fe402",
+    "last_context_date": "2025-09-20",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Delhi",
+    "origin": "2025-09-22",
+    "target_sha256": "4c4571a1e9936fa580c77312ad3edf6f4fc047fe3989f9d00a8a3dd7315eb3f7",
+    "covariate_sha256": "aa3989f128f5d75ea103e35ec6f315e123349dcb5b63e2c26f006838d50461d6",
+    "last_context_date": "2025-09-21",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Delhi",
+    "origin": "2025-09-23",
+    "target_sha256": "d2992f6aa5caff8783411533148ef368d2a598e5281583de218d7d354904ed57",
+    "covariate_sha256": "179cc21e88754ea13619d8662f01f5bcb385b219457ac0d760079578ba8e08c1",
+    "last_context_date": "2025-09-22",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Delhi",
+    "origin": "2025-09-24",
+    "target_sha256": "fba45211f9cec27ef45d6c877a4f22bf2c4a1dd7e4f6ebe352a2ad75d9d21c44",
+    "covariate_sha256": "a850f0440d5890a6536cd01272d05203f07fc9c6d11b33ae490873059cd4fb0f",
+    "last_context_date": "2025-09-23",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Delhi",
+    "origin": "2025-09-25",
+    "target_sha256": "a399b9efa3cf165dcbad4ed1924d11934e1dccc92a79cb73357491502d3dfa6c",
+    "covariate_sha256": "9021f5af5b94944d5578f2518a0379df474924acc70ce62d87bc5ac11a4c3319",
+    "last_context_date": "2025-09-24",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Delhi",
+    "origin": "2025-09-26",
+    "target_sha256": "5cf0fdcd6ad26ce98e84298f7efc259a4d0768aab3d33d9a2c473f9454096758",
+    "covariate_sha256": "def53ebf56a162037b43abac810e0ac15f89d180f5753a3c2c093085bc53ff49",
+    "last_context_date": "2025-09-25",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Delhi",
+    "origin": "2025-09-27",
+    "target_sha256": "c60be23e78f6523d7b44087fa9dcc2e673a7426985f655e5bf34a97594c9cfb7",
+    "covariate_sha256": "ed2a16a93fb80ffb724073c3228d3083c5829b4d005e7204d79a234d76a8cefd",
+    "last_context_date": "2025-09-26",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Delhi",
+    "origin": "2025-09-28",
+    "target_sha256": "48b0ac3dea22e31157587b22b2281376c1ec3c39f18c2c2301e261f54a7879ee",
+    "covariate_sha256": "18ae1d48cc405da01f4e060743daa9e9033347e23641d0d0cc17c04ec3c06738",
+    "last_context_date": "2025-09-27",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Delhi",
+    "origin": "2025-09-29",
+    "target_sha256": "1b8ad76f877f87b5e739c1227725792ebdbd54690dd2b7e2f67d87359452162c",
+    "covariate_sha256": "31e363a6216a78544729c9e190a49307c50d6565724a900e5041d09aacf8bf1a",
+    "last_context_date": "2025-09-28",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Delhi",
+    "origin": "2025-09-30",
+    "target_sha256": "87be3ede6391921aed5752b279483732c1a9ebf5b315a7af45e9ff35ec59e812",
+    "covariate_sha256": "166699e89932544a6280e0b075b38b7ad2335bec08434a4deb821e183a770bb7",
+    "last_context_date": "2025-09-29",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Delhi",
+    "origin": "2025-10-01",
+    "target_sha256": "393b8a2808f1e1c4f4beaaa4a1b8182c5a90b667b03e8e09a927f8e71d5d1ead",
+    "covariate_sha256": "e9bcc6ba4f98015b3d095885ab2e9d3a1ca25160ebadcfdb292411017993fecf",
+    "last_context_date": "2025-09-30",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Delhi",
+    "origin": "2025-10-02",
+    "target_sha256": "5e1154c09944a6d875de29bf4755e05b7303bb5a448584da045e94ddc814858d",
+    "covariate_sha256": "e88e016f4534a18afde72d6c54737e1a604a1e32bb0ecfcf14999a0bd4976d2f",
+    "last_context_date": "2025-10-01",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Delhi",
+    "origin": "2025-10-03",
+    "target_sha256": "1071985120e30f31414381889e27bbf8c9ae724f5181b815887247f410c8c416",
+    "covariate_sha256": "0e2182d5c07da170cdf05827ba5ba0ca4b2ea9cf50dcd52ca21f1e2538bfdf19",
+    "last_context_date": "2025-10-02",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Delhi",
+    "origin": "2025-10-04",
+    "target_sha256": "7eb7890a70452788adcaec1876bf23d10a6b5a3a7932a914d8b0c55021473360",
+    "covariate_sha256": "c9c9f9a631d8bf7cf7d3a311750deda784795c8dc4ddc902e89de495bd064529",
+    "last_context_date": "2025-10-03",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Delhi",
+    "origin": "2025-10-05",
+    "target_sha256": "5f5fd51f6b9d49591ac37794232a6563e67bf5f866e58173869f727fb6fca769",
+    "covariate_sha256": "4c0f30cbb87b3b5f78f22bc1343102e92f85f0dfbda8b5d48f39f1c1bebb04fa",
+    "last_context_date": "2025-10-04",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Delhi",
+    "origin": "2025-10-06",
+    "target_sha256": "d0a9232a23900a08c4f0a8a7fc874b4d1b7926c27a1a067734b98189d43c5d3b",
+    "covariate_sha256": "4807d6284c3bd5de80008ea606b5fdf8334956e1bae50c4a83fe5979a2263f1a",
+    "last_context_date": "2025-10-05",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Delhi",
+    "origin": "2025-10-07",
+    "target_sha256": "8b55fda145f740d602e736004dca6e813fb3cddc5200b031fa78f658f832bd59",
+    "covariate_sha256": "19a4e7bba31a569853314e7a4a94fea2dd13d7ac48e67ddd3212a7adf9c71857",
+    "last_context_date": "2025-10-06",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Delhi",
+    "origin": "2025-10-08",
+    "target_sha256": "b343113dc5d2b70237026e06c04768f62a735798b464b89cecf9a0d1ef0489fc",
+    "covariate_sha256": "628ed43837bb8625cb56aaefe55f977d6633a0a192e79c5fcec72802441b79bc",
+    "last_context_date": "2025-10-07",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Delhi",
+    "origin": "2025-10-09",
+    "target_sha256": "07536f308bb0a560bf0ef7a77f601f383595093940e67084fa5ce22734080788",
+    "covariate_sha256": "8a5d17cdc8a947be2e072383bbbc023f68bc0d12c7d0b06ad44a9138d99152b6",
+    "last_context_date": "2025-10-08",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Delhi",
+    "origin": "2025-10-10",
+    "target_sha256": "3619af978fc727b2af34f8c3e43e5472f1fe276337d6a2e2b79003a103b1c1d3",
+    "covariate_sha256": "6e77b4d3fb998251205151f7f533ca48063a8d82fdbafc969e1813f3b6743cbe",
+    "last_context_date": "2025-10-09",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Delhi",
+    "origin": "2025-10-11",
+    "target_sha256": "25a83fb3378f61408026b6ce918580b9448a7f8020fb8785965366d60eb68eca",
+    "covariate_sha256": "b75e455cc2de2c5f6cca376cbf97cb9130a2ac8f36c948b896946fb72f7bd6d7",
+    "last_context_date": "2025-10-10",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Delhi",
+    "origin": "2025-10-12",
+    "target_sha256": "5e2d0df8ab5218df428ca4ec93668937b7645e8d2e3a182364b7f414a340950b",
+    "covariate_sha256": "b2257f29b893d50f1772914e8e38410e7c127abcbfd75c5c77818bfb5987a372",
+    "last_context_date": "2025-10-11",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Delhi",
+    "origin": "2025-10-13",
+    "target_sha256": "c1b33cf14f1d918b1633a24890b3702e2e4462efd2bdb94ae4390f5a06d2a792",
+    "covariate_sha256": "bcfec1f3581c1c79e66b62f81d576b9f0c940800a0ac77227230b39ccef42b5f",
+    "last_context_date": "2025-10-12",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Delhi",
+    "origin": "2025-10-14",
+    "target_sha256": "52cc5f15b79d420441e615189e5e9df2bdf20dbecafed572e9f6defcdfb38388",
+    "covariate_sha256": "80b4d2be228172ed935a4b88c739a06754d72df6bb432d81b2affc2a55aa91cd",
+    "last_context_date": "2025-10-13",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Delhi",
+    "origin": "2025-10-15",
+    "target_sha256": "82483c09593adcffe1f83196894d61db9d89eefa211c6b5e001442d2aed95ddf",
+    "covariate_sha256": "7154723abc464ca155986681b12b5a464529d576271cf283f0067ed6aea781d0",
+    "last_context_date": "2025-10-14",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Delhi",
+    "origin": "2025-10-16",
+    "target_sha256": "0bc008a371eeba94d68304587f721f921333698cfc05e7d893e01e2558cdf622",
+    "covariate_sha256": "fb2b23e9280a6c3b4cd48d4f22b544f860304bc799f06701fb89f2d40fbaeed5",
+    "last_context_date": "2025-10-15",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Delhi",
+    "origin": "2025-10-17",
+    "target_sha256": "5ab521ba9b2de0114e1f86cee09f34fc8dab18d0918d00f5947d38fad403fc05",
+    "covariate_sha256": "c9ea68613dcefe11b82999d79a6f9f671001b94a896da38d4f41ae7537741b28",
+    "last_context_date": "2025-10-16",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Delhi",
+    "origin": "2025-10-18",
+    "target_sha256": "f3b8fce36dd14716f3013855e6ffdfc84a27a5cd76161a6e0a331e41073d3d96",
+    "covariate_sha256": "a4e1965c1aec560d153077fd7eb34c7a667288da0f4a74657f71f5cf46e79c96",
+    "last_context_date": "2025-10-17",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Delhi",
+    "origin": "2025-10-19",
+    "target_sha256": "69b10d4c6a0091ca8fa05ff3f2f20fcf4c2d9613567a6b7bb6d6b24268ea4734",
+    "covariate_sha256": "d004aed8508c458baba89bbd96a34c01ce414f0fe2d61403ac6043f1fecde8b6",
+    "last_context_date": "2025-10-18",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Delhi",
+    "origin": "2025-10-20",
+    "target_sha256": "70acdd082b0692dcc7d17f06e74c0bcee82b901871d1cf1efe7aa313b43c144b",
+    "covariate_sha256": "605793263776a3b6a09f4110050ca18fe238132fa2701f24ab143a62a293f1f3",
+    "last_context_date": "2025-10-19",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Delhi",
+    "origin": "2025-10-21",
+    "target_sha256": "daf97b70374a18118744c78cae5713a89e9996b5e82b18f1037d8b5472f96f48",
+    "covariate_sha256": "37ac758a4d7501597ca069c310e91472a4b507ebc60586514f34da4332939d65",
+    "last_context_date": "2025-10-20",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Delhi",
+    "origin": "2025-10-22",
+    "target_sha256": "e435bcb783a8b965da4268348807f570b51c3e5d84a12a736fdd7e2a555e150d",
+    "covariate_sha256": "a55a6a3ebb008d303f03d852db41c9f071e14acdc52ac85aeda292ca945a2986",
+    "last_context_date": "2025-10-21",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Delhi",
+    "origin": "2025-10-23",
+    "target_sha256": "62d852eb0d284a052bdba4e8b6a91beefe01c795f38ee12642d233fd20d5e5ca",
+    "covariate_sha256": "8407069771d051d879715b470aa9bea71d25eaf3a07f51b7d0fe2f48635fd945",
+    "last_context_date": "2025-10-22",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2024-03-24",
+    "target_sha256": "8030a3813d7d6097726d4fa3c65cb46b797f00890c5d1cdbd182468c20881d35",
+    "covariate_sha256": "fa21ddf7cfa5b49e34f59825f18e4a88dd34f52053b34b9ff88aca14a56fa243",
+    "last_context_date": "2024-03-23",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2024-03-25",
+    "target_sha256": "a273e870af55783cd53e1a72a129f93be987e0ae602dffae79ad2c0dc1d39052",
+    "covariate_sha256": "529eb502edfd63fe2fe35ddc364b5fe0d60b01b444fcbf2609fa1000fccd7b6f",
+    "last_context_date": "2024-03-24",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2024-03-26",
+    "target_sha256": "617d41a1693e5ea0abbb03442def1e9dea8260f00592fa0826249707a678ef38",
+    "covariate_sha256": "a0e53f681404c88743d30d08ca77f8664c48b8463661831d54c47397c637060b",
+    "last_context_date": "2024-03-25",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2024-03-27",
+    "target_sha256": "7d4de23d51d51ed540286fb4785094a3d98c60d985d0c9e6701931bec5955ff7",
+    "covariate_sha256": "4ee0cf70a041e0f7b268162981dc8b04b33d30c7b876e6bfed0d5b915f420cef",
+    "last_context_date": "2024-03-26",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2024-03-28",
+    "target_sha256": "2c8a85e4dc4c05f71890b11cf42f9c4670f1ad37b991e6ceae60f0ba1bd968e5",
+    "covariate_sha256": "6b117f776bc27b7f4fbfc10a62a5a7caf41aacfc79e4bbaeae1e4b0352cc53b8",
+    "last_context_date": "2024-03-27",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2024-03-29",
+    "target_sha256": "7552591cfc96c1a53c7f9b730f73e19333a53cea1e55805df3c754d90c243ada",
+    "covariate_sha256": "07461603021712afc0a700b4bd557b486dafd3d6439f1e369c5709257dc06479",
+    "last_context_date": "2024-03-28",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2024-03-30",
+    "target_sha256": "c411f13344969d5bc6f393d118a3c8b034a272d5a88454a0414d949c6a826029",
+    "covariate_sha256": "2a3d9dd55e8ae93158b7b0102ce0f4642b0dc705c084cda36974baddbe272dff",
+    "last_context_date": "2024-03-29",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2024-03-31",
+    "target_sha256": "98da418b4253d673ce80e46abd7286ecfbb17727a70e5f3994f8d6a745ddd7e4",
+    "covariate_sha256": "0eb153d6f6966a05e702eca143d99a2e5302213ec98b0ee26a13cf965940ae17",
+    "last_context_date": "2024-03-30",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2024-04-01",
+    "target_sha256": "887da03290364f2a154e4964d85f1e924d1093c8012ec5131ad849684cd12f03",
+    "covariate_sha256": "cfe23e43941a05fdb9c36f872d0adfb3add69bdcee191c4be3eb088c63ec5856",
+    "last_context_date": "2024-03-31",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2024-04-02",
+    "target_sha256": "8547e50503e06994b0f5ec76c03194e397b0b2024b168d74300cf55238957a59",
+    "covariate_sha256": "572e55fc2de6b2a8a04061fcc4ba7473858a9ed641fddbe43762fab4f0d57a1c",
+    "last_context_date": "2024-04-01",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2024-04-03",
+    "target_sha256": "afcd80774c2ef533866d8da08826e5f095c276e8275bbc264118af52ff6f92a8",
+    "covariate_sha256": "4c7137fa87695ba1c14a0c205c18554e248f5d1fae5d095eeb4f782c31fde680",
+    "last_context_date": "2024-04-02",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2024-04-04",
+    "target_sha256": "998c9dff8e8c17a006d48555bdc46a5c6b13cc25b7cbb28ae2c9e360697ce155",
+    "covariate_sha256": "e6989f1dc7e48635420b422645cc10a0cf06cfc531acee3b7e2df6923d39e46e",
+    "last_context_date": "2024-04-03",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2024-04-05",
+    "target_sha256": "b46f345c92357dc75231daf7e043fd1371d76013abf212885f4aacfcdfdcea03",
+    "covariate_sha256": "9953f7bf088ae75d6d0ec6b470b6c7db0a38fbdc611f616b98507ed507929471",
+    "last_context_date": "2024-04-04",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2024-04-06",
+    "target_sha256": "af86f6130e150b0fbac104aa55da51a49c2d8f21ce5a418bb91241653a6dbd43",
+    "covariate_sha256": "265b43ad801975f7a684c59fc08333e14fa6a69676850cea8d03628225637d20",
+    "last_context_date": "2024-04-05",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2024-04-07",
+    "target_sha256": "09b8c28eaaf104bf9fe17d020c3187ffb1a200937baab5a1bde32407edf2f9b3",
+    "covariate_sha256": "b40cad6365533968a97724cc12e23abcdec68f9b84307424f6b04f5355ad330d",
+    "last_context_date": "2024-04-06",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2024-04-08",
+    "target_sha256": "b3c607c2d42160db292108ae97a52c3b2e45a088b5ff7fa04a7d68650a1848fb",
+    "covariate_sha256": "2ea08b757183a0a5f7754e4648ab955787689aec0eae7e7a2c69f240f6e9d446",
+    "last_context_date": "2024-04-07",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2024-04-09",
+    "target_sha256": "03964bc20646138c3218d433debd788dd26667b641db254964c9f15a8a5ef0df",
+    "covariate_sha256": "6076de4200afde1b56f1a67978f38dff91c714faa8ff413efc58430a5f64e2d5",
+    "last_context_date": "2024-04-08",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2024-04-10",
+    "target_sha256": "b35dd80543cc666fdbc6e2c7f730549ef9ef5fd81aefa53625106ef8cf16802e",
+    "covariate_sha256": "0bf370ad3bc8da9d94b1299d505f8628a34b0cfe8f759cbb83b8b096b1faa24b",
+    "last_context_date": "2024-04-09",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2024-04-11",
+    "target_sha256": "bcac07ddb09df454e9c21b91121f54d63895556d0a828e9da5eb4adf5f8ff7a5",
+    "covariate_sha256": "c56d2cba2264f6b227daf893f9160d6dfefb85d56566baf58716dbc5b47bbd89",
+    "last_context_date": "2024-04-10",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2024-04-12",
+    "target_sha256": "f3db4c47e55745b08cbef060846bb136104069efd50bf8f15be420bb4b986d4e",
+    "covariate_sha256": "89f7f9b260f944ce96ae982ab6e074ca2fafb0e7077f8379fe7a90b902397838",
+    "last_context_date": "2024-04-11",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2024-08-22",
+    "target_sha256": "7a86769b66642c2ecf7dc3a9b8bc704d3e9bd53e6f9072e286ddc6c87f7dd4e6",
+    "covariate_sha256": "2a201fed00061737371de8c27f52b72340f9f9d9bdc47a43c5cd0dd7ff954430",
+    "last_context_date": "2024-08-21",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2024-08-23",
+    "target_sha256": "fd386101b4b0548b1d50e36b2c2f9944cc96119a69fb0e6f0addc1736d94bfa0",
+    "covariate_sha256": "bf5e207c57291917f1327951e0ccbcbb651b99eeee2db1b460cafb9a664bea6c",
+    "last_context_date": "2024-08-22",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2024-08-24",
+    "target_sha256": "2b75d047ec6e5bf47e974cbbd9238258dee062a0c1d0be9730e88f702e0e69bb",
+    "covariate_sha256": "cf4813ad8e24558669ce027d67f109e5c4902d24f6d78597e25ba629be4545b2",
+    "last_context_date": "2024-08-23",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2024-08-25",
+    "target_sha256": "84fa722ccaa563eb44951424ac49cec8a38242425c8575c7d3a28e052ba772e0",
+    "covariate_sha256": "d9e97a5b517355016fcd9d15769e0c1a4031e6ccf039d1bee4dda7378ecb0f60",
+    "last_context_date": "2024-08-24",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2024-08-26",
+    "target_sha256": "1c88acf847dd503b84a8cc1ce1c1193dce7a277e94ca0ab1d8931d05e4d86d19",
+    "covariate_sha256": "497d353dacc2c2ff7f65b8e552967b553c8e23e37128d653e1eb0cae62f8afe3",
+    "last_context_date": "2024-08-25",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2024-08-27",
+    "target_sha256": "662e560a7ae683b9afa948ac9576465edc3ec595c68d92ce05fa2fda6bc0a99b",
+    "covariate_sha256": "97523afc84fed9d9bab6bb4e33e478923d18905877d76331082ab1ab365af622",
+    "last_context_date": "2024-08-26",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2024-08-28",
+    "target_sha256": "e346c31769e5b6e77984a8f1a335b5562310ae8e1b834336ff26d530422641a3",
+    "covariate_sha256": "265b2d60d998f16d31b5ec939d43143630ecb73eead516360798de3adbf0c3bd",
+    "last_context_date": "2024-08-27",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2024-08-29",
+    "target_sha256": "80c1f9d69054064c3f8f7483c4c7261efc9ca6355a4280ac9fccc3e35c181b87",
+    "covariate_sha256": "cd3f3ab792afc93aa9c90f8f10766c318e2e21b68e9e4eb2d5913104c8934075",
+    "last_context_date": "2024-08-28",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2024-08-30",
+    "target_sha256": "849ad19495ba4703a7514849af854ea69dfd6d5c52c0a50f45e99bca0a0377d2",
+    "covariate_sha256": "8d524bd2504a687c38c331db99ce1a73a96a7f987ead32c1982c82eb8c7970f5",
+    "last_context_date": "2024-08-29",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2024-08-31",
+    "target_sha256": "a1861fd0746d7daea065aec26914be62b8d9e7afd2328d282addbebfb2a58a80",
+    "covariate_sha256": "04c96cf590dd5386875b718c90fbae8a6be282bbcf08a3708b0a97ca44e25ff7",
+    "last_context_date": "2024-08-30",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2024-09-01",
+    "target_sha256": "e6732af706d651fdbbd538d0576aa73a2c0e69e35cca08047626f9f4e21ebe47",
+    "covariate_sha256": "a40ecee3106d0b6c6916cecba09e2fb3ed80ae48c554be85eccc98d70fe547c6",
+    "last_context_date": "2024-08-31",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2024-09-02",
+    "target_sha256": "fc4febcd2ff3d3b71abf0b3573a4df5bd05cceff8322729aa92da8222a3c5738",
+    "covariate_sha256": "01ea418e9f97657c310f3ffcafce36da8d3bc7322387b8d333a4159dcc0cb7e4",
+    "last_context_date": "2024-09-01",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2024-09-03",
+    "target_sha256": "ee49d844c94953351491dc9b393743944fd14dfd7a4441008a99bdd0efe07dcf",
+    "covariate_sha256": "d433c3c73759bf3a2dbc42cc2fb772e25c1d5a38c28826c3d7c4640cba8688e4",
+    "last_context_date": "2024-09-02",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2024-09-04",
+    "target_sha256": "d2e3c54ebe5e10a0f6af404627d9c0e83906b4d1b910cbcc4cae6a67a1090f69",
+    "covariate_sha256": "613c727f047067fc0147fdc465b43836d1c4c5e00918b96d42338ecf31a4e5bf",
+    "last_context_date": "2024-09-03",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2024-09-05",
+    "target_sha256": "32f92bc3fa26946323bdb4ee56a90ef6785a25939d0e4f5444a2b7a64ef4195e",
+    "covariate_sha256": "77065ce2b68a748b8e0c5ef8479a8096b44e94604c92764da0cb74ca83f3d536",
+    "last_context_date": "2024-09-04",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2024-09-06",
+    "target_sha256": "5f6418092be3afb982daea779a59f509afe5a95d17a6472451f36a75db257650",
+    "covariate_sha256": "8871c31ed5845118a79f24f189d7bb8018998175f7c4d776466f521b97bcd7cd",
+    "last_context_date": "2024-09-05",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2024-09-07",
+    "target_sha256": "c97c86aa516c5298c55f9ee5bc1bb14ff5981ceabec6db941f37d8c0aab26fa2",
+    "covariate_sha256": "3783f8c2b33a96ca21bf2d31d0a2f66aa732358004dc7d2c62af2c3c97391bc5",
+    "last_context_date": "2024-09-06",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2024-09-08",
+    "target_sha256": "d560ca9ca44f883c64c0fd5c1a21382c96e719e61255a09ae4961b4f1175c25d",
+    "covariate_sha256": "9cd64d34278d64251bc6449e182f52f443031a465dd8768d4d63166f7af618b1",
+    "last_context_date": "2024-09-07",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2024-09-09",
+    "target_sha256": "06484222a689284c200706c15506d6fbaf3711e1a60bdd1566f9bd678a29da52",
+    "covariate_sha256": "e484e5e42046aa95d77b470274b83d1f546f0ae9af7330d5d7f2b64c3fe2ae16",
+    "last_context_date": "2024-09-08",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2024-09-10",
+    "target_sha256": "b846fc6e8bd752bac021a627bc5d1a7152f4498c9e1efd3a5df01301c81a2758",
+    "covariate_sha256": "4624f3e7ab15d3f77fd5e200d6e7442537f70707bfb7dbed7a9cb9f6160d13ef",
+    "last_context_date": "2024-09-09",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2024-09-26",
+    "target_sha256": "5e872141ccb6dde774881807007c6e92b23e743e70208a0d6be08cdf24c6ca84",
+    "covariate_sha256": "d802c9d19e59aad5bbfd56fd12de370e37dd13b343634bf159cf01e421e7e516",
+    "last_context_date": "2024-09-25",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2024-09-27",
+    "target_sha256": "c90114ec7d5cdc456e2c186a8bc936be000568b18a92b7f809e1ed98c9dab1d4",
+    "covariate_sha256": "6350b80c3d3f9d937769ae442308ad66197cd2a33ab27752b20b69d6d5fbd8b9",
+    "last_context_date": "2024-09-26",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2024-09-28",
+    "target_sha256": "537d7ae6fb06858b40bda5f4ff255aef538a36e4417d2c83822f4ed5f12f092e",
+    "covariate_sha256": "fd38bebf128b9c6b9cda10802175b41809ca014ebfeec05334cb25259ebe109a",
+    "last_context_date": "2024-09-27",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2024-09-29",
+    "target_sha256": "0d48b55a36fa3119221895e230645f77c1b05e16c7da07c827a7bce0224df5cb",
+    "covariate_sha256": "d159abf212d0ae3d1fac3eca4e30a0770836ddd0520a452419f8395b18aca3fa",
+    "last_context_date": "2024-09-28",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2024-09-30",
+    "target_sha256": "166369249fa6519a313aa962760154dab6267e502be42d54afd308bfdb497274",
+    "covariate_sha256": "a7f236132f2bc063e20957a9ca062c004f3c09b534b7eb4d3f2c2a2bff134e70",
+    "last_context_date": "2024-09-29",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2024-10-01",
+    "target_sha256": "1ec050740fc9f21b0723e9d48bf98eed1da917ec314929032998e1cb093806b3",
+    "covariate_sha256": "726527342d2cf1bd0322467472354a73ecb4ef4db5ffd91265185609fe6d9371",
+    "last_context_date": "2024-09-30",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2024-10-02",
+    "target_sha256": "bb25fa194bdf8b47e086f8afd1e7f0c80fcd5aad805357950836d63c8cdaab43",
+    "covariate_sha256": "360bcdbc1c093407ecdc9ad0a7f7a67af850370d4bd3516e6a27da417df73b5c",
+    "last_context_date": "2024-10-01",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2024-10-03",
+    "target_sha256": "9162119b42c3f601c2f2695d8dce3a03527034ef1229559bca86aa7ca1c29efa",
+    "covariate_sha256": "5813243149fdfcf5a84cd990c53fdd38b324390b1a0ef7773605a18cbb4b5afb",
+    "last_context_date": "2024-10-02",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2024-10-04",
+    "target_sha256": "a1b2daf6887278ddc25add7b2a422a7b27a0c61bcb54076aacb7e928882914ee",
+    "covariate_sha256": "49c2d5fcaf6d062f8cd6632f02f10ea8adf663cf0735dd29bf2e46bda69f1516",
+    "last_context_date": "2024-10-03",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2024-10-05",
+    "target_sha256": "be4fb10c9b48c57e4411051dadc69e2de1813e814fc67b470c69209066894f85",
+    "covariate_sha256": "47ff79938e343b50b8bd362ea96b6806dd4586d005354111989319357a369fcb",
+    "last_context_date": "2024-10-04",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2024-10-06",
+    "target_sha256": "1dbd0c08ff24a7c0c6f32776de807a8a70114f21a6da7048a470007a97a54ada",
+    "covariate_sha256": "cd529df68b44afd5a7e6b729bbf928511adad75d695fddfbef22cbab00fd9471",
+    "last_context_date": "2024-10-05",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2024-10-07",
+    "target_sha256": "0a6bd3ff2f7f8db17aaab1edf03a7fae4e90d64947e34d746cd4e3f5acfec4d8",
+    "covariate_sha256": "95f30772403cced5fccc6700e33e8216409800f6e82789823ca971e3e35445a1",
+    "last_context_date": "2024-10-06",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2024-10-08",
+    "target_sha256": "931146937256c83804b0f3eebf9a19ec5dd72cc74125f6d6b98874ab0d268af3",
+    "covariate_sha256": "71f04353e33dc64ec145c253693cc2d6da23dd940ad572994103560d087bfcb4",
+    "last_context_date": "2024-10-07",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2024-10-09",
+    "target_sha256": "4b1c9610eb0a3eee58213e40d8d4f6f342bd7896f2db48d510b9e8a008e6a200",
+    "covariate_sha256": "c90af2362c3db951fc4ebc22f0a7178487c6b8ced6c71e7326615b2cc2741f3a",
+    "last_context_date": "2024-10-08",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2024-10-10",
+    "target_sha256": "e6893b8c534de8bcfa740a2209b34ab2151a50a85c3f8b8471536bd5bf1ef855",
+    "covariate_sha256": "2ad0f8fdd7f4a2d1892f8aca8de608ea398fe80e5dfd6793607c8e0d0dc41109",
+    "last_context_date": "2024-10-09",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2024-10-11",
+    "target_sha256": "3591cd5ddaffaac32631e9a0c5c3c0f3fee3420aeaf43ef95bae02536e620ac9",
+    "covariate_sha256": "15c775ea9b1118708e6c931b6a2ef27ecef8822fb85b359a9c949f9a407710c0",
+    "last_context_date": "2024-10-10",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2024-10-12",
+    "target_sha256": "c864cc556efcd52b568a778576b192a27fe3f7135ad6e9dd04d04c5fbf1b793b",
+    "covariate_sha256": "235c8bd56f704112f07aaecab930a14f23aeabf427779a76f0983efe2916b3b1",
+    "last_context_date": "2024-10-11",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2024-10-13",
+    "target_sha256": "29517452d578d84bbaaf85c90984874fd44e3e77ed7ff26abf03a65734380e76",
+    "covariate_sha256": "b0874061d1b8afd01cb97aca1c635135b090e73c1cfa8914f416dc706e37aed5",
+    "last_context_date": "2024-10-12",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2024-10-14",
+    "target_sha256": "5b8c1c3b330eaf928780d85c9f4d56817b0c60728af3822ed6b0d6fa9ea0e6f4",
+    "covariate_sha256": "639090948b3f24935c3e66898ec553f13365a0c287fe1a0b77b5ec910ccb3270",
+    "last_context_date": "2024-10-13",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2024-10-15",
+    "target_sha256": "a5cdbaf74cf66e2907e5fdfa0791f7bd67df1b1770678c0a93266702e28443ac",
+    "covariate_sha256": "cf9726cec9afd8fa1bc98dbc157a06d19d74a60277561b50af8d27292f817e52",
+    "last_context_date": "2024-10-14",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2024-10-16",
+    "target_sha256": "7d37538474cf816e57bfd59eea82acaf16d0b0eb33f573bcb8e74aff05fe1546",
+    "covariate_sha256": "8eb77ec39b377cb8ae299adb0c3f95d051eda273ba71b406ae37b82e26467357",
+    "last_context_date": "2024-10-15",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2024-10-17",
+    "target_sha256": "57223494dbaf4873ed57c3f10dbfb1e26008822cb6a60f1a2024a8034652eedb",
+    "covariate_sha256": "1eec8c0a3eb4384766094acf95ca2a74d5328110b6358fd8c91f338faafab383",
+    "last_context_date": "2024-10-16",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2024-10-18",
+    "target_sha256": "5d165572aa9d12f0250bc85187416f260a75fa78715b653acf7ede44a49b445b",
+    "covariate_sha256": "04afb36202b31d8b8bf22fcb1c2bdd1c16a63c79fa9be4c7d738ab2d9eeaac6d",
+    "last_context_date": "2024-10-17",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2024-10-19",
+    "target_sha256": "0485955b43d5eb7ac40a2c59ad4948872f174f875c8cd8c1782b461ea2dee6fc",
+    "covariate_sha256": "551a063543a3b361e83ec0e811313f117de85c107c51bf1bef03c957ff19c02c",
+    "last_context_date": "2024-10-18",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2024-10-20",
+    "target_sha256": "46d6551b4e468e77d5ac95401de93e85a8dc10e0e2eb81c71581cbd5886c1a4f",
+    "covariate_sha256": "fc22d5d12a5b69fe212b842234b2fccbdd6345e884a2e7eb1bd5038221cb64e0",
+    "last_context_date": "2024-10-19",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2024-10-21",
+    "target_sha256": "6986791d8607c9fe2b1de04ec015bedbb03bf27a18037afcfaae376636de2576",
+    "covariate_sha256": "7fadd6bd903a8faa49d7e12a94c2d213ad1118d8e1b562543173fc93503db4ae",
+    "last_context_date": "2024-10-20",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2024-10-22",
+    "target_sha256": "7c5340eb855de3439d63a0e4d803ee09cb5713efd3c9e86592b3a187bbc5d1f6",
+    "covariate_sha256": "1544c014772954268bdd377c2f7c4fbeb53e601f1c983674ab9224c0c993a5af",
+    "last_context_date": "2024-10-21",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2024-10-23",
+    "target_sha256": "8aa47565acfceb03dac0e6aa2fb4c09303a541fb6f73d8a383005547866527ef",
+    "covariate_sha256": "e6da43e45ee92bde959ab3cf5a9bb28ec0d47a42f703bbc4545376b7992c7a35",
+    "last_context_date": "2024-10-22",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2024-10-24",
+    "target_sha256": "a60d734c087412465c9fc19f4a7904ae63bf155d70756edb13b7f6afd4df3e2a",
+    "covariate_sha256": "340a6b6e1d3b767418307668aa54713cc5727ae674d104defdea8266f8020842",
+    "last_context_date": "2024-10-23",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2024-10-25",
+    "target_sha256": "4a38a61ce2cba1c62c78542a923d068c798c36641645785a03964841459ea5b6",
+    "covariate_sha256": "e40fd2d657bbede724df155e5bc947752991581fc52799cce434a0f1798542fa",
+    "last_context_date": "2024-10-24",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2024-10-26",
+    "target_sha256": "1a767ac78a343f704bf7a60448e5575c12166b8408077c8ef256e340c83be600",
+    "covariate_sha256": "dc0c329a2e9ad7925b83afba9d09256e54bda68572abc28edd7281fa7898bc8f",
+    "last_context_date": "2024-10-25",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2024-10-27",
+    "target_sha256": "9c71923d0661bcc11f8e36ed03818e184f4a524a1f12665b35717898ce65569a",
+    "covariate_sha256": "0f933c6254a54b2de037812be368467c4ba8daac6e695440c2a5ee18da8ff80a",
+    "last_context_date": "2024-10-26",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2024-10-28",
+    "target_sha256": "9d829f9f4964d1f801af181da8022023cc54ef40f2c90e6aab8f75d4c8cd0e32",
+    "covariate_sha256": "e446b24322f18866f36e047106f6ff1024af427ee6a9d0c24dd8acc8a293a1bc",
+    "last_context_date": "2024-10-27",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2024-10-29",
+    "target_sha256": "c543587f835960098ab1ead6bc53e37220b639b825262c469c2fbe8d0c801628",
+    "covariate_sha256": "280550d24d4273bdddb2b828db032aa8f815b01611250c37b2aac6b46ab5eed3",
+    "last_context_date": "2024-10-28",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2024-10-30",
+    "target_sha256": "014204c6afa6012021f216b75bc042ec5816883b965becd22bac418d5fe08af8",
+    "covariate_sha256": "c689cc2bab55696baa6e3591d2de2cb7e0a31521904401ee7b6e9108e060e85b",
+    "last_context_date": "2024-10-29",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2024-10-31",
+    "target_sha256": "aab2817cc95ea9cfa277278ddaa30f68c8a09fb197fa5a550c69c06592d6750a",
+    "covariate_sha256": "92c7a1f0f034a2fecb5a9a8122044c09f81d46d37039c56bf1f0751717bb8427",
+    "last_context_date": "2024-10-30",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2024-11-01",
+    "target_sha256": "d0890f197660769037dc0485588e893fe62f2f95b1862d4c55e1ec4c974b95d8",
+    "covariate_sha256": "f6e9a96f37151e24579b59da47bb4d6e5ff9e766d686fed835008f3f2ee621ca",
+    "last_context_date": "2024-10-31",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2024-11-02",
+    "target_sha256": "479e9dbb9480c2ba020c049cacb07efa37cc3a75f2a7e6617a7ace1e6d13da04",
+    "covariate_sha256": "b65d76292f4ceeadb628810a50dd2923c31e3638cfe62922cc6a4da12ade2c29",
+    "last_context_date": "2024-11-01",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2024-11-03",
+    "target_sha256": "b6f3c87209c439e8e77a8a2c60cc22eaece69de0d8b528ab97ea35a4f79c8f79",
+    "covariate_sha256": "e2b2361f7b4ff1a5ab1d1d9cfffb158a8bf362148f7a0ca7bce6490b9d97a77c",
+    "last_context_date": "2024-11-02",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2024-11-04",
+    "target_sha256": "ac726e127c28d1104264a6b03929b9e286e81199c099b1f625837b4cf35aa943",
+    "covariate_sha256": "58d679eb25386ae8513455073bc11212633b1fca649a7a244c7791e0d3928c22",
+    "last_context_date": "2024-11-03",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2024-11-05",
+    "target_sha256": "2a1394afea717996fe4b8cb2187f0c99543e06744da579129cf94aeba797b12b",
+    "covariate_sha256": "91fd7657f8af8aa926aa2b96bebd928616a83d5911071b62683746bfd33f6546",
+    "last_context_date": "2024-11-04",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2025-03-14",
+    "target_sha256": "86261e297a3c2fa03c69355c1d33d93d2add521c45432cd2deb33832ef519011",
+    "covariate_sha256": "f3aeb3276f0c7fd9135fc5486abfe0c729f4a9d6f28cf41a4d59c0a7caff142d",
+    "last_context_date": "2025-03-13",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2025-03-15",
+    "target_sha256": "881de1bb3d7e86e12e3115e0c1f8eebaa1cb6b09604202d8577afb0133ec0dd1",
+    "covariate_sha256": "ddc16b2f97a0dd8930318d6b33ec0dc71fe5e9fd16318365da84fbc2a07405d2",
+    "last_context_date": "2025-03-14",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2025-03-16",
+    "target_sha256": "d98a061802c0e3fed2e3287e5945357c1fb7db55b6ca0e0ba56dfd940dd473cd",
+    "covariate_sha256": "e26595195f01cf5811b7ac3a4edfdcbb00e9004a0638b47330d7fe6751cd460a",
+    "last_context_date": "2025-03-15",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2025-03-17",
+    "target_sha256": "ebf21025f0a62b46dcdde9927c7c6eabc901546871c3ec5ac4d6134a58d58c2c",
+    "covariate_sha256": "c9d03f6da06b63a6c88247a22784ac0278ea685d6050e6c22d46591179327544",
+    "last_context_date": "2025-03-16",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2025-03-18",
+    "target_sha256": "54a9d5a9fba2eec8ccdba09f0e5307da1cf3f654bb66d14cc91724d1ba6c7b2c",
+    "covariate_sha256": "04cf32182e480a065ff5626ece53cddb76b4ec5aa7155f561a4d4107a4fff013",
+    "last_context_date": "2025-03-17",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2025-03-19",
+    "target_sha256": "552f619e3e71ec1a8255baeaadbbb614bbdd13084038c58a8122b8ca93a4d887",
+    "covariate_sha256": "8d244f56a6b6ac4e5d54d3adfc64acfaa348d226f2273fc022f19a28ee2daf66",
+    "last_context_date": "2025-03-18",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2025-03-20",
+    "target_sha256": "a86d623f577484477cafa0d016e93f6ce9fd01d0193588e5f4613c031bde0403",
+    "covariate_sha256": "77674bb1328cf78b91b5e699ae98863fe251739cfbbbfa347fd2d51affb6857a",
+    "last_context_date": "2025-03-19",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2025-03-21",
+    "target_sha256": "717df4e55f72d01153ce2e13ba47e1eff55ab23053595650412f0cc5104384e5",
+    "covariate_sha256": "ec3e2dec1552e4edca80f34cd1083700fc00c7342bb70c138d0ef7e090bca9f3",
+    "last_context_date": "2025-03-20",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2025-03-22",
+    "target_sha256": "672adbc3c572d47d3cec32a6cef2a11dd24b974e3bd228cb62a99f20696a97c8",
+    "covariate_sha256": "ff4204dce083677b576492762a02a1c5d15edae1549c292b149a8d74d9713653",
+    "last_context_date": "2025-03-21",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2025-03-23",
+    "target_sha256": "000b9b7fec314b86855b4dc81674783503b21088625be45394de2acf4e763c75",
+    "covariate_sha256": "c5cdd7d14c0d363740630189176766684131783ee9fee9e7c7e4fe306c36db87",
+    "last_context_date": "2025-03-22",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2025-03-24",
+    "target_sha256": "6b7d480c81ea2bc9f9f6372005a0c52966cbdd93dd839e5a490e3a8270546695",
+    "covariate_sha256": "4e9f56e7317ae13f0e50b0ab5c4538cb834fd256d0ef0c58db18e661e034c888",
+    "last_context_date": "2025-03-23",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2025-03-25",
+    "target_sha256": "214a29bfd6846d8b65f8ac60d1f3389e48744da1c12667eaa44d00baea7527a9",
+    "covariate_sha256": "697d15500095118226b0a119048fa6185a6b34fd911e1657f77f75321ab1f883",
+    "last_context_date": "2025-03-24",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2025-03-26",
+    "target_sha256": "9e6b5287404553a0b10903fc93c1f4366bc90b06150a698e9553c4b33b931ae1",
+    "covariate_sha256": "76f8f11dfdf2edd061048ba1168ddf8f3ad226989132f0fb5b82029b45c609a3",
+    "last_context_date": "2025-03-25",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2025-03-27",
+    "target_sha256": "0c85b659e6664811ee855a059bcb9a3b7855ef39494096faf9d5f7ee920c1b8d",
+    "covariate_sha256": "4ecf1644080212c0a61268de07964e03254da27a23b16c2cf97c598c23bf83e5",
+    "last_context_date": "2025-03-26",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2025-03-28",
+    "target_sha256": "afe695645538852e223a4f45519a34a92bf498519d48e13598ff1f1b5dbacf28",
+    "covariate_sha256": "3b068a966d87283f2a19218c3693a1da73dca4cf928c61f4dd5f628d33a71c58",
+    "last_context_date": "2025-03-27",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2025-03-29",
+    "target_sha256": "8a2be94a7d43d5bdf1797aee6c0764c149577026c9156bb5cda7438aaaaa8ddf",
+    "covariate_sha256": "e8dfd66c5a40877a05e5076a80ce4aeb4c850bdfad4a49e4158b3450c53dff49",
+    "last_context_date": "2025-03-28",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2025-03-30",
+    "target_sha256": "76ef10fc0635918e03e9508fc7b460f0d2b1e7d873603f3303744412e8442b79",
+    "covariate_sha256": "fc287616ea81e3636e7cf9ce035b507f23b8202399c0382ccfc0015a9e258b94",
+    "last_context_date": "2025-03-29",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2025-03-31",
+    "target_sha256": "c7754bf37d7367fe33c6ac754d925219ecf102ec9b721af530e16eccba7cc4e4",
+    "covariate_sha256": "84d314ea3272d69fc329a39caae07b92e933a083828ec910e9c75b6566abf6bb",
+    "last_context_date": "2025-03-30",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2025-04-01",
+    "target_sha256": "f704cc6b4e6b846d3d9b05b9ef80c044d35de04be34e3a3a4ae7b4a08b0b8a95",
+    "covariate_sha256": "c1c06b64c6e462565ddece6daa715fb0b9873613f47d42bfdbf6827882816709",
+    "last_context_date": "2025-03-31",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2025-04-02",
+    "target_sha256": "0e4e0a35af23b00025281706c93ee39f44b76a99597bcb3569e2420274d498f8",
+    "covariate_sha256": "e87d66a4affe2f8aa72246e89f9b3c8781f418dc69e5d2669ee99a59a111af2a",
+    "last_context_date": "2025-04-01",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2025-08-11",
+    "target_sha256": "b8ea217f11d85b50367211c182258ae92faf64aebab6cdbbe4c60fb7ac2b0239",
+    "covariate_sha256": "ccfbbf7ae3b1875e5d3c6b8581c18ba308694623bdeea9347bae62e7e22735ec",
+    "last_context_date": "2025-08-10",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2025-08-12",
+    "target_sha256": "64e4d92fe99e29b04949b2236edbec4d70b1e8562ecf1395cbd2bba9f39718e2",
+    "covariate_sha256": "b078a899373cb56ad7895a19d721cd809559ba7200175fd6c131e57cee1eae98",
+    "last_context_date": "2025-08-11",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2025-08-13",
+    "target_sha256": "87003bcd9e05e588f0a9cee1aa06413d6960c22b23f1480c6aed344a964222d5",
+    "covariate_sha256": "c6e08aff00d151430ab3b3bfe708fa6cb2d4e714e88b61b122cb0e3aedb67d6c",
+    "last_context_date": "2025-08-12",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2025-08-14",
+    "target_sha256": "09698527722b9cb9f0b0065fa91498e3e26d3d8a4c7089a5b148d77519d35380",
+    "covariate_sha256": "933dca622aa9436a42ed405cc3180483f76591a1c56e7222da325cb0b09f2534",
+    "last_context_date": "2025-08-13",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2025-08-15",
+    "target_sha256": "2c637b3dd068a990d7b720f045db9327e54024f2bab1ec8189b0462832e2a97d",
+    "covariate_sha256": "a4c00dab5039207f4aff918de13e2e91a61beb7b48839c7b9b0c4208c9136c65",
+    "last_context_date": "2025-08-14",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2025-08-16",
+    "target_sha256": "82f8ed445b7cb28ff85885d272ef0d8c09d5e7e5f3ef7b5a828e421c16fd7cf8",
+    "covariate_sha256": "bec5e20d5dc4e323bed89f5986bc946ef4e373359652b4a89d22c29dd99249b7",
+    "last_context_date": "2025-08-15",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2025-08-17",
+    "target_sha256": "3fe5d357926fbb7543e07e60189959ee95a6146295861a8074c39cb7287d9e4e",
+    "covariate_sha256": "7c296290c5472cb9d61ff95b92d763aafa0d6a85483ef0b625bc31af7d7f994d",
+    "last_context_date": "2025-08-16",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2025-08-18",
+    "target_sha256": "e9c0a6561bdacd8c35146598eee5bfd1e4676e1ff2c076c961736c4192d8da3f",
+    "covariate_sha256": "b0f904371a88f58bcc95191b314657035c199d4ef82b068c024be846e3c65dee",
+    "last_context_date": "2025-08-17",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2025-08-19",
+    "target_sha256": "165034daeefeb2e1e4b10aaf3ece3841de8759c1ab70fda345953757fdc4716c",
+    "covariate_sha256": "eabfed276196f58c10d48715241b7198669dec14f39f054a0424c8871be6d1dd",
+    "last_context_date": "2025-08-18",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2025-08-20",
+    "target_sha256": "1d7537871f5a96854bf880d2b57f6810b3c217d972ae4696f8407df020f25843",
+    "covariate_sha256": "6e0e478a572fced86ddcdd180e3cdc26c734e91d23431ac7fabebb1cda4dbe3c",
+    "last_context_date": "2025-08-19",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2025-08-21",
+    "target_sha256": "2b1a76531a020035c6a211572d445747aa121cafabec49037abbb4d74abde38a",
+    "covariate_sha256": "1de2d2904660bd3f8e0c92227bcd294a6e9ca950a861d12a1c6d2570f86da369",
+    "last_context_date": "2025-08-20",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2025-08-22",
+    "target_sha256": "85a0790fc54bc38ae80b1f598a0c086ef62389cc272c32f19eac85f8ae80e255",
+    "covariate_sha256": "4e6e24e9e26ac1f0b98ccfb97613679a85e8469bb072a803ffba7f00e53456e5",
+    "last_context_date": "2025-08-21",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2025-08-23",
+    "target_sha256": "86cce8a806dfdfea6cef1c5ee203ce84f378257bd5334340771e148fcd1fac82",
+    "covariate_sha256": "f56863d65796905f51f800caa4701dc8daf5b8685113b819685e19c6e2c29415",
+    "last_context_date": "2025-08-22",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2025-08-24",
+    "target_sha256": "6a7a20c7d5503a40088c64e1603f18ab21d33182c7c9d112759c373bc787e4e1",
+    "covariate_sha256": "e98059bca507c6a79e1f38713707184d0d9865f42042c93876a34435476f9172",
+    "last_context_date": "2025-08-23",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2025-08-25",
+    "target_sha256": "3195c6b316a9463084487c36332c28a3d8d14b59ce134a95d0fce2e34e22565d",
+    "covariate_sha256": "0125bec2f00b4f8be3cec33020f1d20b99ad8e050ea005d9cf10d6c4f1225a76",
+    "last_context_date": "2025-08-24",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2025-08-26",
+    "target_sha256": "a00914bc710bd9fd33845bdf44fab98d1fe18b0a839921faaaa3ede880e5bcb1",
+    "covariate_sha256": "a9dd1e5ac049509dcb46acfbc740704151180a0b8ca36a5bff9d3f4e6f3a45e3",
+    "last_context_date": "2025-08-25",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2025-08-27",
+    "target_sha256": "788c6cfbe6f111fa05041514eb52a485563bfe1701f24fe9a0c83a7e8296b432",
+    "covariate_sha256": "b3fdd1dde88f5c7d79418d253b3e050794733da7532ffb19b16b82ce9b23904d",
+    "last_context_date": "2025-08-26",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2025-08-28",
+    "target_sha256": "fbe9152758d2789ccc7c9e65b2dc4ed6d888b82502c9b2f520c7ec1f987c023a",
+    "covariate_sha256": "c165ceca44fc2df573565b10c0c88e557e65461c29107dead2480d6dd877b43f",
+    "last_context_date": "2025-08-27",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2025-08-29",
+    "target_sha256": "0e0bd33e021aed880e724af901c426c7d1569ee87f16aa9a9422756ea282fd38",
+    "covariate_sha256": "76cad4d8f32fdbe50637943d5c50a8a24c51a7fc406686ef5efa6aaa944c2f17",
+    "last_context_date": "2025-08-28",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2025-08-30",
+    "target_sha256": "d4e83c7b7e33c997a29f39a39bf8b2960b9347b50e5cc0bbc3bd933133ed12ec",
+    "covariate_sha256": "221aa38e16e7fceca1e9cf419e2ffb679beefa07108dfd5108dfbcc39d38f793",
+    "last_context_date": "2025-08-29",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2025-09-16",
+    "target_sha256": "75a060643653e819493efbff296d3012b1d983e2e4c51633a996cefda97e213f",
+    "covariate_sha256": "237787b42a7593cf75449b28022f4be9cc5543db7ceec569c76664791727aa27",
+    "last_context_date": "2025-09-15",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2025-09-17",
+    "target_sha256": "4de7428a2018ecd09d9dfcd35bd405b1e1b810c881afec26ba4cf347d934e048",
+    "covariate_sha256": "df76c42e06aa5440a6d2a0bce9bb2b592cac4fa60e1b8ebe2c250560c277e1b2",
+    "last_context_date": "2025-09-16",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2025-09-18",
+    "target_sha256": "62638b82b7f836bbb125a27ff18d247350d5f7c4bad68ac1ab7debf2157674fa",
+    "covariate_sha256": "6fb778ee25fff8a8f4312b6ee6c165670d958bc4d3d524a685947da1a27dce02",
+    "last_context_date": "2025-09-17",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2025-09-19",
+    "target_sha256": "7d8cd880c819a2c0139f296cb5adef972a3a9d257fa5b20b0e2111442512c6b5",
+    "covariate_sha256": "3ae1c41db60d4287d16bf0809c04ec5798c77a4dade7a902736caa71cebe6077",
+    "last_context_date": "2025-09-18",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2025-09-20",
+    "target_sha256": "1445190f99b7495547021b9f4a1f0a0d1e9d14d51583de3c53ad8c77b85a79ff",
+    "covariate_sha256": "9458e97b2b250c28fd173c559dee0a018fdde354302cf59d4d8b8f1a4051292b",
+    "last_context_date": "2025-09-19",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2025-09-21",
+    "target_sha256": "8aaf00b07ed5c4dfd286fe92e861a49329c93b5ec7a7d6e5601586ae4c427056",
+    "covariate_sha256": "32cb811746261a83d3103f93ff739fb79c01cec62c9ace5476229210103fe402",
+    "last_context_date": "2025-09-20",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2025-09-22",
+    "target_sha256": "96846d5b8611478d91396941495fe8f1135aa927c07a6c887053569aecf7d35b",
+    "covariate_sha256": "aa3989f128f5d75ea103e35ec6f315e123349dcb5b63e2c26f006838d50461d6",
+    "last_context_date": "2025-09-21",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2025-09-23",
+    "target_sha256": "76a5e074108ef7544142de69f785778652c776f6bbd4579d980f224d0adefb97",
+    "covariate_sha256": "179cc21e88754ea13619d8662f01f5bcb385b219457ac0d760079578ba8e08c1",
+    "last_context_date": "2025-09-22",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2025-09-24",
+    "target_sha256": "7775bda76957ffd79a576a6300406218c99c53c498c831cc6b7a48e21cf20d03",
+    "covariate_sha256": "a850f0440d5890a6536cd01272d05203f07fc9c6d11b33ae490873059cd4fb0f",
+    "last_context_date": "2025-09-23",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2025-09-25",
+    "target_sha256": "642cb996c2c8254b12fe7593ffc43ea00eaf6b22cdbbbee27bb07d53f054932d",
+    "covariate_sha256": "9021f5af5b94944d5578f2518a0379df474924acc70ce62d87bc5ac11a4c3319",
+    "last_context_date": "2025-09-24",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2025-09-26",
+    "target_sha256": "887c2e4817dba170bafab21d4bf43ab5c7d1172c8f9de5d36d5cb718e5a78da6",
+    "covariate_sha256": "def53ebf56a162037b43abac810e0ac15f89d180f5753a3c2c093085bc53ff49",
+    "last_context_date": "2025-09-25",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2025-09-27",
+    "target_sha256": "1ed20fa798f41c0b7b42a828754651a57e488e69b170d18fa8fbfa2cdf233086",
+    "covariate_sha256": "ed2a16a93fb80ffb724073c3228d3083c5829b4d005e7204d79a234d76a8cefd",
+    "last_context_date": "2025-09-26",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2025-09-28",
+    "target_sha256": "a9e4c17a50d581dfc44b756786cc46ec3ac6186cb296c267968e27358e37cfb2",
+    "covariate_sha256": "18ae1d48cc405da01f4e060743daa9e9033347e23641d0d0cc17c04ec3c06738",
+    "last_context_date": "2025-09-27",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2025-09-29",
+    "target_sha256": "1916bc8ae89e16dd1ad8b979eb6ca4c8831a0b92d1dddd46d624b65f36bf5fc9",
+    "covariate_sha256": "31e363a6216a78544729c9e190a49307c50d6565724a900e5041d09aacf8bf1a",
+    "last_context_date": "2025-09-28",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2025-09-30",
+    "target_sha256": "b9803f66c8909b9036f735b3934cddbaf98b7df4b177b0cf5fece5c8cd9486ac",
+    "covariate_sha256": "166699e89932544a6280e0b075b38b7ad2335bec08434a4deb821e183a770bb7",
+    "last_context_date": "2025-09-29",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2025-10-01",
+    "target_sha256": "11774479326dee6e11836e20db514d96d1849d03ad01b7656552bc5955671a7c",
+    "covariate_sha256": "e9bcc6ba4f98015b3d095885ab2e9d3a1ca25160ebadcfdb292411017993fecf",
+    "last_context_date": "2025-09-30",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2025-10-02",
+    "target_sha256": "6da77e8a4720eb2ba9204409f29d0c1531fc42777600df51fbcb84d10b23cf4f",
+    "covariate_sha256": "e88e016f4534a18afde72d6c54737e1a604a1e32bb0ecfcf14999a0bd4976d2f",
+    "last_context_date": "2025-10-01",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2025-10-03",
+    "target_sha256": "619c65c8140f332211682b8f862c0c09de2669a07c0da537244c9f2ea1262f5e",
+    "covariate_sha256": "0e2182d5c07da170cdf05827ba5ba0ca4b2ea9cf50dcd52ca21f1e2538bfdf19",
+    "last_context_date": "2025-10-02",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2025-10-04",
+    "target_sha256": "e373ac17ac3caab84f6c9414fedc321d9ae0f6cfb9950f0dbb419e89c44b02a8",
+    "covariate_sha256": "c9c9f9a631d8bf7cf7d3a311750deda784795c8dc4ddc902e89de495bd064529",
+    "last_context_date": "2025-10-03",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2025-10-05",
+    "target_sha256": "704793eb1c5d888941f881aa2dca9645ab8a1bb4125ccc2935d31cc29d4d6e56",
+    "covariate_sha256": "4c0f30cbb87b3b5f78f22bc1343102e92f85f0dfbda8b5d48f39f1c1bebb04fa",
+    "last_context_date": "2025-10-04",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2025-10-06",
+    "target_sha256": "a016db3f4726c9ced5cac7a5975d59f71826723f3d56063aaccf143bca31cd30",
+    "covariate_sha256": "4807d6284c3bd5de80008ea606b5fdf8334956e1bae50c4a83fe5979a2263f1a",
+    "last_context_date": "2025-10-05",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2025-10-07",
+    "target_sha256": "7390172f363550043fa722db289cbd5f5a0ddabeff972756d65e9c7e2f24fdd0",
+    "covariate_sha256": "19a4e7bba31a569853314e7a4a94fea2dd13d7ac48e67ddd3212a7adf9c71857",
+    "last_context_date": "2025-10-06",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2025-10-08",
+    "target_sha256": "ecbe046a11d0ea882bb00683e0672eb5f4da991bb850f358efba66b0a0dad34d",
+    "covariate_sha256": "628ed43837bb8625cb56aaefe55f977d6633a0a192e79c5fcec72802441b79bc",
+    "last_context_date": "2025-10-07",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2025-10-09",
+    "target_sha256": "363213b3b1bff224f350139742089c7f0f8538e6fd984d4f64d0d444c756c85f",
+    "covariate_sha256": "8a5d17cdc8a947be2e072383bbbc023f68bc0d12c7d0b06ad44a9138d99152b6",
+    "last_context_date": "2025-10-08",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2025-10-10",
+    "target_sha256": "3823762ac7e69ba40a896aefb6998a20ba73406aee26dbd8d42a4752b4f79094",
+    "covariate_sha256": "6e77b4d3fb998251205151f7f533ca48063a8d82fdbafc969e1813f3b6743cbe",
+    "last_context_date": "2025-10-09",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2025-10-11",
+    "target_sha256": "33bc24ac91d52927a20ad0d4c618050be13be1de4264d711aa33665ee9745e84",
+    "covariate_sha256": "b75e455cc2de2c5f6cca376cbf97cb9130a2ac8f36c948b896946fb72f7bd6d7",
+    "last_context_date": "2025-10-10",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2025-10-12",
+    "target_sha256": "9a2486daf948037a1b9ecae2890b41498012f068f58b9b6c4c4651a157e3db8e",
+    "covariate_sha256": "b2257f29b893d50f1772914e8e38410e7c127abcbfd75c5c77818bfb5987a372",
+    "last_context_date": "2025-10-11",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2025-10-13",
+    "target_sha256": "1922e7a7f98a786a5896899675038df91e5883302372dced199615d57d8dbf53",
+    "covariate_sha256": "bcfec1f3581c1c79e66b62f81d576b9f0c940800a0ac77227230b39ccef42b5f",
+    "last_context_date": "2025-10-12",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2025-10-14",
+    "target_sha256": "3f96dde99723e08a89ad0ad8f4cab54a069ccba4f98394c0bbcd6112a1a2946e",
+    "covariate_sha256": "80b4d2be228172ed935a4b88c739a06754d72df6bb432d81b2affc2a55aa91cd",
+    "last_context_date": "2025-10-13",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2025-10-15",
+    "target_sha256": "3e4b0bb635c09b4cc492397574b6587bc9cf06c1ccc85f870845ae3021dbcc7b",
+    "covariate_sha256": "7154723abc464ca155986681b12b5a464529d576271cf283f0067ed6aea781d0",
+    "last_context_date": "2025-10-14",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2025-10-16",
+    "target_sha256": "e0caa8854b2037f8e2c6824012031d7a321f12f3e14a9459d27a1cd234cdd735",
+    "covariate_sha256": "fb2b23e9280a6c3b4cd48d4f22b544f860304bc799f06701fb89f2d40fbaeed5",
+    "last_context_date": "2025-10-15",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2025-10-17",
+    "target_sha256": "3658e0ab33021142e96efeb469f615714d1d2ca05e42af6becc40eaaf4818519",
+    "covariate_sha256": "c9ea68613dcefe11b82999d79a6f9f671001b94a896da38d4f41ae7537741b28",
+    "last_context_date": "2025-10-16",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2025-10-18",
+    "target_sha256": "4d6f86176a9ef9d4a15ebff9cbfdfc050767e750ecfe33711551d69af920f872",
+    "covariate_sha256": "a4e1965c1aec560d153077fd7eb34c7a667288da0f4a74657f71f5cf46e79c96",
+    "last_context_date": "2025-10-17",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2025-10-19",
+    "target_sha256": "5dcb4ffb3e0fc0213c6813fd7ed2eeb915291839d604a7a6a755f1683f0fb14d",
+    "covariate_sha256": "d004aed8508c458baba89bbd96a34c01ce414f0fe2d61403ac6043f1fecde8b6",
+    "last_context_date": "2025-10-18",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2025-10-20",
+    "target_sha256": "e2633465200d1a8065b0499c573bbad674eaef0efe6dcf688d747967d023b67e",
+    "covariate_sha256": "605793263776a3b6a09f4110050ca18fe238132fa2701f24ab143a62a293f1f3",
+    "last_context_date": "2025-10-19",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2025-10-21",
+    "target_sha256": "a93350ee074b3c214582d9d196dde098e202e7b3e41dc4f93e0b14e399e740a2",
+    "covariate_sha256": "37ac758a4d7501597ca069c310e91472a4b507ebc60586514f34da4332939d65",
+    "last_context_date": "2025-10-20",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2025-10-22",
+    "target_sha256": "bd12ddf0bbe0dce47b33eaf862cde6b61d1393c0dc01255a5c8c956507627305",
+    "covariate_sha256": "a55a6a3ebb008d303f03d852db41c9f071e14acdc52ac85aeda292ca945a2986",
+    "last_context_date": "2025-10-21",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2025-10-23",
+    "target_sha256": "0f69849779e203a5142062d0b321d4a0d462b4f32dc897c8a0bd1b721b31c0da",
+    "covariate_sha256": "8407069771d051d879715b470aa9bea71d25eaf3a07f51b7d0fe2f48635fd945",
+    "last_context_date": "2025-10-22",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2025-10-24",
+    "target_sha256": "aadbb0e417066248eba6bc151d472e891f42142fedbcd74e981e056a5b024376",
+    "covariate_sha256": "cab580dc5da503dc1589ca29e4b31970c4ea22e335ea71b8e85b88ba979d2c5d",
+    "last_context_date": "2025-10-23",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Karnataka",
+    "origin": "2025-10-25",
+    "target_sha256": "eaf9a79af5ea79cf72e1045a5bad8c0aeba471b62e6109a36acaafa213c2d100",
+    "covariate_sha256": "c74a3a2369dff11907425ae68c8a51ba4ec726fe07a3138b36ca711803e0cc3f",
+    "last_context_date": "2025-10-24",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2024-03-09",
+    "target_sha256": "afc47e215f6fec6ebeb7ca3dd86cc99a4f4b80d5cd5c1a7595cabd2c3ed824ce",
+    "covariate_sha256": "7447d436b0d2776761dd703c199554f12e52810139f33fc59bad984ff29e75f7",
+    "last_context_date": "2024-03-08",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2024-03-10",
+    "target_sha256": "d471c716a1cb9f331abb884a3b1713276d68a2800defe065eacb9e37bd334e42",
+    "covariate_sha256": "2cd01d2d4db3eef6611da6766828e62f92539d87807df8cdbd03446c110bed3f",
+    "last_context_date": "2024-03-09",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2024-03-11",
+    "target_sha256": "a12c3704c2bebb82a7870f44a20fa40901a17e183c8f9165cbf025c4e043386a",
+    "covariate_sha256": "f58734971ba953c8a99df7ee0d0ac6fcef6037a36be3b934097aeaff17b70c5a",
+    "last_context_date": "2024-03-10",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2024-03-12",
+    "target_sha256": "ec2b2fcb67e015d18dd0c084f6c13ccc24a9e394594b125158873ca3dedb5863",
+    "covariate_sha256": "d5b3f728260ac06ab4fe82127a35961a799d2a36acd9aca918ee25560802176e",
+    "last_context_date": "2024-03-11",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2024-03-13",
+    "target_sha256": "e90778b10b1c78c7398e28c256c85aad8ba628df02f271de492a2559accfecb4",
+    "covariate_sha256": "e2c9c64a977a4a3762addb110c8ba2740ccfcf6aeb1dba7d5483023f85b733bd",
+    "last_context_date": "2024-03-12",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2024-03-14",
+    "target_sha256": "0d9e7ddca4a5d9ba95d26dad38040647fc0da796f784972a65131f44d8c195f7",
+    "covariate_sha256": "839f21eb0751d0b5730cc9057c77e908801983f69bb5f799151519a457517558",
+    "last_context_date": "2024-03-13",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2024-03-15",
+    "target_sha256": "02a2ca045d156deda9e6ad7ae0c8e2c690f4444074f08b7793c500d1fc088069",
+    "covariate_sha256": "ebe6859c9188fa212e3b6f8a33864e44913a0da07688b2510a1acb101fe95bae",
+    "last_context_date": "2024-03-14",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2024-03-16",
+    "target_sha256": "eba4ff3e56d293ad3fc231b21f77f560751fb84d0999db66a00fc376bf09d99b",
+    "covariate_sha256": "6f26ad84ef9b0ccb0dd254f7718015843aedcd75c48b795ef698ba9858b68ca5",
+    "last_context_date": "2024-03-15",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2024-03-17",
+    "target_sha256": "0784076bcac581fb6a5acfe1c785283e76411b571549f7e299c4c7ce2de29416",
+    "covariate_sha256": "21b087bc2a22b0c54e8152066ca8e1e42dad270c5e2c557329500be60dbf1db1",
+    "last_context_date": "2024-03-16",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2024-03-18",
+    "target_sha256": "5f560d95dc1158f0b16ad9b112bb3f13fb7642bff7576396fa76b5d74ccc396b",
+    "covariate_sha256": "ae9a7ecd9ab6f23171f122dfc7d58fede158d8b7d61014654fb13e9cf53d522b",
+    "last_context_date": "2024-03-17",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2024-03-19",
+    "target_sha256": "088789c312b89c4a8479d98a666b572bb9453cc28fb97d4bd9441cd1082c9012",
+    "covariate_sha256": "edf9fb89071307c758bfeec0e2ae3a97567b9fec116b3928a5f3ee82d89651f3",
+    "last_context_date": "2024-03-18",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2024-03-20",
+    "target_sha256": "36bcb8c430214ecc4083a7e44f95add2ca1501099cf6bd0ba2e5b9d2cccfe3f1",
+    "covariate_sha256": "66c93be6f69e220252599866df3cb425efceab0fff3f62ddd8fc78e94b962c16",
+    "last_context_date": "2024-03-19",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2024-03-21",
+    "target_sha256": "e7e78f4e68a0bf088afec52687d35cf15b8fd636bf66dff370f0c186f348d2cd",
+    "covariate_sha256": "bced046a19f7b7edfe1095b4b4d4992e248cff8fcd692ff1a1020b2221be5dc2",
+    "last_context_date": "2024-03-20",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2024-03-22",
+    "target_sha256": "042267396bad92bbb625faa2859b94b3f1e6c0909e5a7cada9ce6a8d878bb2a3",
+    "covariate_sha256": "350c441da44e52be4aa1db32a997632567e5a36d80c37a912a4de4c5aa31e2a1",
+    "last_context_date": "2024-03-21",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2024-03-23",
+    "target_sha256": "ae362e518cdeaea2f7fda54cc06e26b248ae87a0d1463a5ce599fe21659057e0",
+    "covariate_sha256": "2727e53e89aca1c7f0c5f399ae98b733019be7727f7d7fb0549c3e2b6318ee8a",
+    "last_context_date": "2024-03-22",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2024-03-24",
+    "target_sha256": "c1be8da14e70ab43492c02124c8ba476dfdbd2c1f19b0b2039a5787287312ee4",
+    "covariate_sha256": "fa21ddf7cfa5b49e34f59825f18e4a88dd34f52053b34b9ff88aca14a56fa243",
+    "last_context_date": "2024-03-23",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2024-03-25",
+    "target_sha256": "3ffd9d5c42045119cb10f835c220fe2bf1688e327c9afeaddb630e98aaff719e",
+    "covariate_sha256": "529eb502edfd63fe2fe35ddc364b5fe0d60b01b444fcbf2609fa1000fccd7b6f",
+    "last_context_date": "2024-03-24",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2024-03-26",
+    "target_sha256": "c827bb219c99a7b86115153a0c43c4c421fc98ebeed9dfe48b655427ce000aba",
+    "covariate_sha256": "a0e53f681404c88743d30d08ca77f8664c48b8463661831d54c47397c637060b",
+    "last_context_date": "2024-03-25",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2024-03-27",
+    "target_sha256": "63f74b55f512dab71f173fb0a4f34b6528ff35f749e13d2eb634f5e0d9c4fe5f",
+    "covariate_sha256": "4ee0cf70a041e0f7b268162981dc8b04b33d30c7b876e6bfed0d5b915f420cef",
+    "last_context_date": "2024-03-26",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2024-03-28",
+    "target_sha256": "bec6d27f8fa4d40fe4c990df474c86e0510f5b009ee9a9709cd9ff60505a8b06",
+    "covariate_sha256": "6b117f776bc27b7f4fbfc10a62a5a7caf41aacfc79e4bbaeae1e4b0352cc53b8",
+    "last_context_date": "2024-03-27",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2024-03-29",
+    "target_sha256": "7b0219532758d9f94b15dd435d116134785b165f512befdff9262d617fd36ee3",
+    "covariate_sha256": "07461603021712afc0a700b4bd557b486dafd3d6439f1e369c5709257dc06479",
+    "last_context_date": "2024-03-28",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2024-03-30",
+    "target_sha256": "55ed857703253a71ce733957b4ec1b99201cef23d45bfdc89f649ab50684da78",
+    "covariate_sha256": "2a3d9dd55e8ae93158b7b0102ce0f4642b0dc705c084cda36974baddbe272dff",
+    "last_context_date": "2024-03-29",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2024-03-31",
+    "target_sha256": "2e38b2d4cdc3b3e9237927f50559f1700098127b92653e2881872b97dfa8bf0c",
+    "covariate_sha256": "0eb153d6f6966a05e702eca143d99a2e5302213ec98b0ee26a13cf965940ae17",
+    "last_context_date": "2024-03-30",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2024-04-01",
+    "target_sha256": "a118cba4090ecb86105337420b3e76bd9e31bcb826716bcd9a51039f005e75fa",
+    "covariate_sha256": "cfe23e43941a05fdb9c36f872d0adfb3add69bdcee191c4be3eb088c63ec5856",
+    "last_context_date": "2024-03-31",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2024-04-02",
+    "target_sha256": "afccb2239dca7f0fd581cfd65a8d152f546278a087c4c8d894fa3fe7f87ad5a4",
+    "covariate_sha256": "572e55fc2de6b2a8a04061fcc4ba7473858a9ed641fddbe43762fab4f0d57a1c",
+    "last_context_date": "2024-04-01",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2024-04-03",
+    "target_sha256": "d3b6ebf43626c08eec9d83ac4490107e935cffdd933d17d9dbc38cbdd8ed12f6",
+    "covariate_sha256": "4c7137fa87695ba1c14a0c205c18554e248f5d1fae5d095eeb4f782c31fde680",
+    "last_context_date": "2024-04-02",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2024-04-04",
+    "target_sha256": "16570f5b283f838a5ff046940af09ad87c86964ac23a61a70ad2abcb221634cd",
+    "covariate_sha256": "e6989f1dc7e48635420b422645cc10a0cf06cfc531acee3b7e2df6923d39e46e",
+    "last_context_date": "2024-04-03",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2024-04-05",
+    "target_sha256": "efe0503982cb03600a96bcd3e35d8172f65f0733f515aabba787e5d8359386d7",
+    "covariate_sha256": "9953f7bf088ae75d6d0ec6b470b6c7db0a38fbdc611f616b98507ed507929471",
+    "last_context_date": "2024-04-04",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2024-04-06",
+    "target_sha256": "dcdd3cff9a6bd859b8ac58c372992295b17bd9b505e319ec3ab98cfa8ab59114",
+    "covariate_sha256": "265b43ad801975f7a684c59fc08333e14fa6a69676850cea8d03628225637d20",
+    "last_context_date": "2024-04-05",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2024-04-07",
+    "target_sha256": "6855c475863d26f1f3b3f062bcd684bd499d032e79ba712a139e3ff4f83738c4",
+    "covariate_sha256": "b40cad6365533968a97724cc12e23abcdec68f9b84307424f6b04f5355ad330d",
+    "last_context_date": "2024-04-06",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2024-04-08",
+    "target_sha256": "c9780d9e54f550c92519964af133e183db1141252a1ed4f40822ee2d73673823",
+    "covariate_sha256": "2ea08b757183a0a5f7754e4648ab955787689aec0eae7e7a2c69f240f6e9d446",
+    "last_context_date": "2024-04-07",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2024-04-09",
+    "target_sha256": "96141e454f7a810936538bab2dde5c730eedb32ae912c7ffae2c46d9e77fde1e",
+    "covariate_sha256": "6076de4200afde1b56f1a67978f38dff91c714faa8ff413efc58430a5f64e2d5",
+    "last_context_date": "2024-04-08",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2024-04-10",
+    "target_sha256": "3797d4afeafc868c08f03a2f0df040b4034e98ef6d367701b8e3df72c8efeb41",
+    "covariate_sha256": "0bf370ad3bc8da9d94b1299d505f8628a34b0cfe8f759cbb83b8b096b1faa24b",
+    "last_context_date": "2024-04-09",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2024-04-11",
+    "target_sha256": "806b1885948a962a78102ed8139d229d4eb321ed5ce037d2a7fbbb6460ef461d",
+    "covariate_sha256": "c56d2cba2264f6b227daf893f9160d6dfefb85d56566baf58716dbc5b47bbd89",
+    "last_context_date": "2024-04-10",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2024-04-12",
+    "target_sha256": "cd8cedb8806c5879515c4b3c7ac2d6fd6fae7635b319df2ba7a9a23a1f47d672",
+    "covariate_sha256": "89f7f9b260f944ce96ae982ab6e074ca2fafb0e7077f8379fe7a90b902397838",
+    "last_context_date": "2024-04-11",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2024-08-22",
+    "target_sha256": "6ef1da902a8a19fce54085acfa0d6969815399c7ac38b30eebeb46aedd402013",
+    "covariate_sha256": "2a201fed00061737371de8c27f52b72340f9f9d9bdc47a43c5cd0dd7ff954430",
+    "last_context_date": "2024-08-21",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2024-08-23",
+    "target_sha256": "b2c7979e0fba7b6a03684299421052102e1b5fd9ceb1ca9b3c34df1f55027631",
+    "covariate_sha256": "bf5e207c57291917f1327951e0ccbcbb651b99eeee2db1b460cafb9a664bea6c",
+    "last_context_date": "2024-08-22",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2024-08-24",
+    "target_sha256": "5d01f7f6fadf5f781b37bceeaf03f57d4ec91a2f6e4feead5c4ea10ce2bd470a",
+    "covariate_sha256": "cf4813ad8e24558669ce027d67f109e5c4902d24f6d78597e25ba629be4545b2",
+    "last_context_date": "2024-08-23",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2024-08-25",
+    "target_sha256": "4831773150a6c5fc137e5b1d8be0e710b7ba263fbc06afbaa47445784cbdc6cc",
+    "covariate_sha256": "d9e97a5b517355016fcd9d15769e0c1a4031e6ccf039d1bee4dda7378ecb0f60",
+    "last_context_date": "2024-08-24",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2024-08-26",
+    "target_sha256": "fccb8431f0ce92626c59d8eeefe2615b66a8080dd0b6b8a355935fcaad55e2f1",
+    "covariate_sha256": "497d353dacc2c2ff7f65b8e552967b553c8e23e37128d653e1eb0cae62f8afe3",
+    "last_context_date": "2024-08-25",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2024-08-27",
+    "target_sha256": "6bb445112582915df1c7843222694f2422ccbaa80db5f3359fb4edb1536d99ac",
+    "covariate_sha256": "97523afc84fed9d9bab6bb4e33e478923d18905877d76331082ab1ab365af622",
+    "last_context_date": "2024-08-26",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2024-08-28",
+    "target_sha256": "f24dd76f38b885ca46baeda5ccec7d2009a37bbb798e796248a7e9856c2a893d",
+    "covariate_sha256": "265b2d60d998f16d31b5ec939d43143630ecb73eead516360798de3adbf0c3bd",
+    "last_context_date": "2024-08-27",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2024-08-29",
+    "target_sha256": "e5b73d56578b04d06078008e21c3cb72aafd72a123d6d13d4c27b6cb26bb9d96",
+    "covariate_sha256": "cd3f3ab792afc93aa9c90f8f10766c318e2e21b68e9e4eb2d5913104c8934075",
+    "last_context_date": "2024-08-28",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2024-08-30",
+    "target_sha256": "ff71ea78736110578a8c9e9514ca2284c4b265b9e6f3fbd870487c0b0b8f6c92",
+    "covariate_sha256": "8d524bd2504a687c38c331db99ce1a73a96a7f987ead32c1982c82eb8c7970f5",
+    "last_context_date": "2024-08-29",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2024-08-31",
+    "target_sha256": "965250c982e1e69418be14f1f1981dc5fb82b0e459ef547dfd642d931831bb6b",
+    "covariate_sha256": "04c96cf590dd5386875b718c90fbae8a6be282bbcf08a3708b0a97ca44e25ff7",
+    "last_context_date": "2024-08-30",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2024-09-01",
+    "target_sha256": "900f2ae6e459c64972bb42e73b4f5ee9f48ca500d88c71f81f8a5cd68967b5d2",
+    "covariate_sha256": "a40ecee3106d0b6c6916cecba09e2fb3ed80ae48c554be85eccc98d70fe547c6",
+    "last_context_date": "2024-08-31",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2024-09-02",
+    "target_sha256": "a403beacb3100257214f5a8a8011b05fd12184606537362058b82347a08660b2",
+    "covariate_sha256": "01ea418e9f97657c310f3ffcafce36da8d3bc7322387b8d333a4159dcc0cb7e4",
+    "last_context_date": "2024-09-01",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2024-09-03",
+    "target_sha256": "a84dcce170cf3937057093100d18ce009aea3dfc2cfcc5327c0d7fbd8e0a6984",
+    "covariate_sha256": "d433c3c73759bf3a2dbc42cc2fb772e25c1d5a38c28826c3d7c4640cba8688e4",
+    "last_context_date": "2024-09-02",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2024-09-04",
+    "target_sha256": "a5435d291e3cd352fd7368f96c68249dc36009757008a68581e304901d0bda41",
+    "covariate_sha256": "613c727f047067fc0147fdc465b43836d1c4c5e00918b96d42338ecf31a4e5bf",
+    "last_context_date": "2024-09-03",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2024-09-05",
+    "target_sha256": "f06e4c437e6e0548f1a429b1b6c7846252b91ce6a86023ec97b534f209e373da",
+    "covariate_sha256": "77065ce2b68a748b8e0c5ef8479a8096b44e94604c92764da0cb74ca83f3d536",
+    "last_context_date": "2024-09-04",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2024-09-06",
+    "target_sha256": "44ae6088b19df0c25c34dcf67e93aedcecfe57fd63fdc4d4a64e247bc9b961df",
+    "covariate_sha256": "8871c31ed5845118a79f24f189d7bb8018998175f7c4d776466f521b97bcd7cd",
+    "last_context_date": "2024-09-05",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2024-09-07",
+    "target_sha256": "0badaae0ffa0bf7b28116994c62ee0e564721a49a362c226bc64bfabd3ba1fe0",
+    "covariate_sha256": "3783f8c2b33a96ca21bf2d31d0a2f66aa732358004dc7d2c62af2c3c97391bc5",
+    "last_context_date": "2024-09-06",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2024-09-08",
+    "target_sha256": "4cce577796a83e22d243b64f425f535ab397ac96760cf3dddf6b8c1b17a7c469",
+    "covariate_sha256": "9cd64d34278d64251bc6449e182f52f443031a465dd8768d4d63166f7af618b1",
+    "last_context_date": "2024-09-07",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2024-09-09",
+    "target_sha256": "b5546c8b7d2f68598e31b8e1857c23b77036569aa4c57077bdfa3d91ce730224",
+    "covariate_sha256": "e484e5e42046aa95d77b470274b83d1f546f0ae9af7330d5d7f2b64c3fe2ae16",
+    "last_context_date": "2024-09-08",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2024-09-10",
+    "target_sha256": "4a166ea313859451df35f8e6ec1ed60b61a9a1e02b8a84a3da5290011914fed5",
+    "covariate_sha256": "4624f3e7ab15d3f77fd5e200d6e7442537f70707bfb7dbed7a9cb9f6160d13ef",
+    "last_context_date": "2024-09-09",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2024-09-26",
+    "target_sha256": "fe03c8e15c40a05c0131ba95396468247ad34b29324b36dd99f19d18f39b2107",
+    "covariate_sha256": "d802c9d19e59aad5bbfd56fd12de370e37dd13b343634bf159cf01e421e7e516",
+    "last_context_date": "2024-09-25",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2024-09-27",
+    "target_sha256": "f17b82c5a4829317a1ae8e696336fa677c7aab21b70ec2d2ecaed2665bf4607d",
+    "covariate_sha256": "6350b80c3d3f9d937769ae442308ad66197cd2a33ab27752b20b69d6d5fbd8b9",
+    "last_context_date": "2024-09-26",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2024-09-28",
+    "target_sha256": "2cf51aeffb3ee862ca9048aa40cdf0445a5e5076f802726f52875a07c569c1f2",
+    "covariate_sha256": "fd38bebf128b9c6b9cda10802175b41809ca014ebfeec05334cb25259ebe109a",
+    "last_context_date": "2024-09-27",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2024-09-29",
+    "target_sha256": "24e2afd36e6e236119f84bb6da18210de5ac7e03592538e9aafa64bb05cb813d",
+    "covariate_sha256": "d159abf212d0ae3d1fac3eca4e30a0770836ddd0520a452419f8395b18aca3fa",
+    "last_context_date": "2024-09-28",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2024-09-30",
+    "target_sha256": "ef6d7313fc84d5f423d3a4963ff449299e01533b2985ea8fd4857a0dbf93bf98",
+    "covariate_sha256": "a7f236132f2bc063e20957a9ca062c004f3c09b534b7eb4d3f2c2a2bff134e70",
+    "last_context_date": "2024-09-29",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2024-10-01",
+    "target_sha256": "631155758eaec0c545cf638eb792c6111b195dc98b74e05b39a45465059f07ce",
+    "covariate_sha256": "726527342d2cf1bd0322467472354a73ecb4ef4db5ffd91265185609fe6d9371",
+    "last_context_date": "2024-09-30",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2024-10-02",
+    "target_sha256": "e51fd094d97fc6cbbde323349f196eecb19a068e72fea664cc6caf103c7c24cf",
+    "covariate_sha256": "360bcdbc1c093407ecdc9ad0a7f7a67af850370d4bd3516e6a27da417df73b5c",
+    "last_context_date": "2024-10-01",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2024-10-03",
+    "target_sha256": "f6ffba71bad80df5c922c40a2ce02b1addc04de3ead8a82f76516632a91783f1",
+    "covariate_sha256": "5813243149fdfcf5a84cd990c53fdd38b324390b1a0ef7773605a18cbb4b5afb",
+    "last_context_date": "2024-10-02",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2024-10-04",
+    "target_sha256": "c61028db8786ab3a46b14477ebb0e0e28877c35b6571b0772c460612f80b36a6",
+    "covariate_sha256": "49c2d5fcaf6d062f8cd6632f02f10ea8adf663cf0735dd29bf2e46bda69f1516",
+    "last_context_date": "2024-10-03",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2024-10-05",
+    "target_sha256": "4329a63b3e641e5645f7ee4e9a530214c184edf45c320a6025ed7c7c0d924f2b",
+    "covariate_sha256": "47ff79938e343b50b8bd362ea96b6806dd4586d005354111989319357a369fcb",
+    "last_context_date": "2024-10-04",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2024-10-06",
+    "target_sha256": "759d0914c57c36acb33bc88e003824d69227e70524b2813c6d506ceac4105cf4",
+    "covariate_sha256": "cd529df68b44afd5a7e6b729bbf928511adad75d695fddfbef22cbab00fd9471",
+    "last_context_date": "2024-10-05",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2024-10-07",
+    "target_sha256": "95148e8467545ceb71555b6f2fa0b7d2668749bb4f4efaa355ddd02437f68dfb",
+    "covariate_sha256": "95f30772403cced5fccc6700e33e8216409800f6e82789823ca971e3e35445a1",
+    "last_context_date": "2024-10-06",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2024-10-08",
+    "target_sha256": "589546f79f457dd6eb94f096ab6a69f5673b76cce4555bb702e3e6dd4a6b90ed",
+    "covariate_sha256": "71f04353e33dc64ec145c253693cc2d6da23dd940ad572994103560d087bfcb4",
+    "last_context_date": "2024-10-07",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2024-10-09",
+    "target_sha256": "ff34993ce0877217b46c3412c6a21a32e1b420359c8dd649d2edfa1a46d9ee67",
+    "covariate_sha256": "c90af2362c3db951fc4ebc22f0a7178487c6b8ced6c71e7326615b2cc2741f3a",
+    "last_context_date": "2024-10-08",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2024-10-10",
+    "target_sha256": "3f45aeed441c097d26e6f9626a5e92d31c6e1762ec5b955ed88b6003b6b1abb2",
+    "covariate_sha256": "2ad0f8fdd7f4a2d1892f8aca8de608ea398fe80e5dfd6793607c8e0d0dc41109",
+    "last_context_date": "2024-10-09",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2024-10-11",
+    "target_sha256": "bf916118a25b8444162e9988d1583a2baca23cbb0de3c28f9195a96cadbcf922",
+    "covariate_sha256": "15c775ea9b1118708e6c931b6a2ef27ecef8822fb85b359a9c949f9a407710c0",
+    "last_context_date": "2024-10-10",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2024-10-12",
+    "target_sha256": "421a1228faf6e398c52860aee01c2bc9c0889e73dd110a94e6f87329d70328c1",
+    "covariate_sha256": "235c8bd56f704112f07aaecab930a14f23aeabf427779a76f0983efe2916b3b1",
+    "last_context_date": "2024-10-11",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2024-10-13",
+    "target_sha256": "044cb9da2b4827957b4567543c8d263029b6e874afee63573683bb0ff5b2a515",
+    "covariate_sha256": "b0874061d1b8afd01cb97aca1c635135b090e73c1cfa8914f416dc706e37aed5",
+    "last_context_date": "2024-10-12",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2024-10-14",
+    "target_sha256": "29a6f449864f2c98ed308afb07ac1d04cd40f8dc1636b85d0b0926557589c655",
+    "covariate_sha256": "639090948b3f24935c3e66898ec553f13365a0c287fe1a0b77b5ec910ccb3270",
+    "last_context_date": "2024-10-13",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2024-10-15",
+    "target_sha256": "d5f59cba6c77f327e16bcdb32dd937920781476de4b22afb50d5ff5e9b7c93f1",
+    "covariate_sha256": "cf9726cec9afd8fa1bc98dbc157a06d19d74a60277561b50af8d27292f817e52",
+    "last_context_date": "2024-10-14",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2024-10-16",
+    "target_sha256": "8ebf5dd9ae6667f4abeab7b56432c156343e5e3e759737c0f5332af794398ef2",
+    "covariate_sha256": "8eb77ec39b377cb8ae299adb0c3f95d051eda273ba71b406ae37b82e26467357",
+    "last_context_date": "2024-10-15",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2024-10-17",
+    "target_sha256": "90c9c36a2ef6fd803e0f1c28c3f72953f8ce7e4abf701bbd5d14672b212888f6",
+    "covariate_sha256": "1eec8c0a3eb4384766094acf95ca2a74d5328110b6358fd8c91f338faafab383",
+    "last_context_date": "2024-10-16",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2024-10-18",
+    "target_sha256": "475be35b57813d86b0fa1b986e3434308f6f5b5a025d68d059e28a3303960933",
+    "covariate_sha256": "04afb36202b31d8b8bf22fcb1c2bdd1c16a63c79fa9be4c7d738ab2d9eeaac6d",
+    "last_context_date": "2024-10-17",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2024-10-19",
+    "target_sha256": "853e3f816420612e2fa6527693521be685fd42ac910f362d3a9325baa772aeed",
+    "covariate_sha256": "551a063543a3b361e83ec0e811313f117de85c107c51bf1bef03c957ff19c02c",
+    "last_context_date": "2024-10-18",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2024-10-20",
+    "target_sha256": "bc57fba9b5675de77f9236a11f2cc005e1b9774f5c72735ce9e285b51e3d59e2",
+    "covariate_sha256": "fc22d5d12a5b69fe212b842234b2fccbdd6345e884a2e7eb1bd5038221cb64e0",
+    "last_context_date": "2024-10-19",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2024-10-21",
+    "target_sha256": "fba78f1293149a432395bcebad2b306fb3fac8196deab2ee2182e51f279eebc0",
+    "covariate_sha256": "7fadd6bd903a8faa49d7e12a94c2d213ad1118d8e1b562543173fc93503db4ae",
+    "last_context_date": "2024-10-20",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2024-10-22",
+    "target_sha256": "fe5d4dad01f877274ddda671255a6de2f01b0c0090498da9796d74e73b9a5c48",
+    "covariate_sha256": "1544c014772954268bdd377c2f7c4fbeb53e601f1c983674ab9224c0c993a5af",
+    "last_context_date": "2024-10-21",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2024-10-23",
+    "target_sha256": "a0477ec65d4651748980012369a2017e3db3c996d1a0348a535b1c3d80d2f545",
+    "covariate_sha256": "e6da43e45ee92bde959ab3cf5a9bb28ec0d47a42f703bbc4545376b7992c7a35",
+    "last_context_date": "2024-10-22",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2024-10-24",
+    "target_sha256": "2feaabe1443b4390137aaf6676051bd7bbb929216d4eb66b66f2ec7c5fd10020",
+    "covariate_sha256": "340a6b6e1d3b767418307668aa54713cc5727ae674d104defdea8266f8020842",
+    "last_context_date": "2024-10-23",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2024-10-25",
+    "target_sha256": "c7de8a37485e899743b82cbec9926223d731bffac6cb83610ed3c6d567e18125",
+    "covariate_sha256": "e40fd2d657bbede724df155e5bc947752991581fc52799cce434a0f1798542fa",
+    "last_context_date": "2024-10-24",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2024-10-26",
+    "target_sha256": "4a497d156d8d1b64920e58194a251badc870971ed66f8b49f5e4ac6c63dd0d39",
+    "covariate_sha256": "dc0c329a2e9ad7925b83afba9d09256e54bda68572abc28edd7281fa7898bc8f",
+    "last_context_date": "2024-10-25",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2024-10-27",
+    "target_sha256": "ad7cb89bc3813a59ed80925ee94903d65e498410f0852db82f8f5137f6b148cb",
+    "covariate_sha256": "0f933c6254a54b2de037812be368467c4ba8daac6e695440c2a5ee18da8ff80a",
+    "last_context_date": "2024-10-26",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2024-10-28",
+    "target_sha256": "282e310b497a810c4868803c8007abc61abfbb43523c3a492b80be6930a89d18",
+    "covariate_sha256": "e446b24322f18866f36e047106f6ff1024af427ee6a9d0c24dd8acc8a293a1bc",
+    "last_context_date": "2024-10-27",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2024-10-29",
+    "target_sha256": "a33788b0eae2fce1783ea3fadd39616d4375035a37a48bacabd4b3aa67a3c094",
+    "covariate_sha256": "280550d24d4273bdddb2b828db032aa8f815b01611250c37b2aac6b46ab5eed3",
+    "last_context_date": "2024-10-28",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2024-10-30",
+    "target_sha256": "db88cb009a5b34173b6998e28731fd8ad8bf2a8ad74c87ebd42e146a245bed3c",
+    "covariate_sha256": "c689cc2bab55696baa6e3591d2de2cb7e0a31521904401ee7b6e9108e060e85b",
+    "last_context_date": "2024-10-29",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2024-10-31",
+    "target_sha256": "6a1e4188cdf8f9fe569296b7811a809bf9cf250bb6751cf7df8667f5e7a47868",
+    "covariate_sha256": "92c7a1f0f034a2fecb5a9a8122044c09f81d46d37039c56bf1f0751717bb8427",
+    "last_context_date": "2024-10-30",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2024-11-01",
+    "target_sha256": "e1cf7fe8d86573d0de6c6bb61ff5797b4c97524141b463ba308f710a5def27c5",
+    "covariate_sha256": "f6e9a96f37151e24579b59da47bb4d6e5ff9e766d686fed835008f3f2ee621ca",
+    "last_context_date": "2024-10-31",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2024-11-02",
+    "target_sha256": "914964d82601e060325065b196f6cd9edbe3beb0edcddf5922b8c583c70e737c",
+    "covariate_sha256": "b65d76292f4ceeadb628810a50dd2923c31e3638cfe62922cc6a4da12ade2c29",
+    "last_context_date": "2024-11-01",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2024-11-03",
+    "target_sha256": "384a9673daf471c58ef030c9aa19ceb95e40cc55c4165f31a84f9919b5b1e50f",
+    "covariate_sha256": "e2b2361f7b4ff1a5ab1d1d9cfffb158a8bf362148f7a0ca7bce6490b9d97a77c",
+    "last_context_date": "2024-11-02",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2024-11-04",
+    "target_sha256": "baeae79da61396a9cec7816aecadb6f6c62db05e2d7d8090b03477e2c6cee11f",
+    "covariate_sha256": "58d679eb25386ae8513455073bc11212633b1fca649a7a244c7791e0d3928c22",
+    "last_context_date": "2024-11-03",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2024-11-05",
+    "target_sha256": "eb6a46f71bbc736d95e251d1221e1897c35ad8609f5d7db30ca473c35246f041",
+    "covariate_sha256": "91fd7657f8af8aa926aa2b96bebd928616a83d5911071b62683746bfd33f6546",
+    "last_context_date": "2024-11-04",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2025-02-26",
+    "target_sha256": "5fcd2ba4afe05c7c919ccfa26198f355b9850b06ec7f8506a67648bc122c6899",
+    "covariate_sha256": "1626b2883ea8b5ee9626f2136f80268711b8555ef8b3d98407c09bd492a51fc7",
+    "last_context_date": "2025-02-25",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2025-02-27",
+    "target_sha256": "076fd8ab40fa37f7897ab726ed58230fba46fc642fa376f0ee446544305b3622",
+    "covariate_sha256": "3b6792888ac145680ce92d9da10a9fd6152b9b5fa2e23d4dc0d411a95d5a3f95",
+    "last_context_date": "2025-02-26",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2025-02-28",
+    "target_sha256": "a34c63a5c948623bb90ce13bee30b3bd09396b81360e725f266c95fd7fbb4bbf",
+    "covariate_sha256": "a9d0de11a9e46639bb5a46700f885b16dfd185819f2b11bba7b83ec7c4fefc2f",
+    "last_context_date": "2025-02-27",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2025-03-01",
+    "target_sha256": "4a9db5204031c538b740afa342651e2bafd47949f4b8ab2ddaf284b5c4cfa2e8",
+    "covariate_sha256": "b8326c22dd1975ff3b0045515eb26b398a8713806cab7dea00baa8d41e7f7c52",
+    "last_context_date": "2025-02-28",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2025-03-02",
+    "target_sha256": "03d8f492fb7f3bf39b793b85c4357360eed13b680c2cba8b4628b632483a50a5",
+    "covariate_sha256": "765c6aeab31f68e55071a65b6b1497eca81f7612656694658e5db3d0991a533e",
+    "last_context_date": "2025-03-01",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2025-03-03",
+    "target_sha256": "c8f41b1db3375b2cbca721ad35280a9b1c0780705f7f3ceb47ff03efe5d38201",
+    "covariate_sha256": "ce40f540ac2b86686ea9f2972e649fdd224ceacee71efefcbccb535d4464ade6",
+    "last_context_date": "2025-03-02",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2025-03-04",
+    "target_sha256": "b5dce144ec9dc55c4911e70bb849943a1fe2ecb0deac634171455db531de92fa",
+    "covariate_sha256": "bfb9428020325419771769c499e0d2fd403460449082c9aa25239d14278009d1",
+    "last_context_date": "2025-03-03",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2025-03-05",
+    "target_sha256": "ca774042226323368afce4ddf112a42d8d858e8cb75fcfe04012d68d961a8660",
+    "covariate_sha256": "c181bf448f2e1344b88d3cca22fb48aa0767e60bb339cdab09a7f37a66ad972e",
+    "last_context_date": "2025-03-04",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2025-03-06",
+    "target_sha256": "472f276c17d2c1ac635dc1b2b6310fffa27d395498c67c3ef3bbd494fcc57c89",
+    "covariate_sha256": "8cefacb40b9fb27cc83287edc22311a23d94623140f42caf25f4659db0d74239",
+    "last_context_date": "2025-03-05",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2025-03-07",
+    "target_sha256": "ae1c0dda14fbafff99bccae5b578f22aa114f40bb47fa033c1fc3aef438bf614",
+    "covariate_sha256": "44c4dca3ebd05b576609e7b02cd54d40173b3a6dc06aae6d01217d90f3ba4e5b",
+    "last_context_date": "2025-03-06",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2025-03-08",
+    "target_sha256": "f395e222adbc1503ef4722f7aa89d57131d0cb16ae8146e98fc55cb706765ede",
+    "covariate_sha256": "416533c187751c46231fba47793d77664a53c7fc1c9ec7fdaf3b588b64b42b5a",
+    "last_context_date": "2025-03-07",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2025-03-09",
+    "target_sha256": "e2065a963085effe8d0ff676c0a8b60cd3a278796c92fbf743fe5356c712faf4",
+    "covariate_sha256": "8487f64ec8d958b83634d09d50340e595fbd177720bbbecbdf515405f7520552",
+    "last_context_date": "2025-03-08",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2025-03-10",
+    "target_sha256": "b16d941c36bd59fc26bca10414704a10759f386fffa87cd379e2c2354c5dd429",
+    "covariate_sha256": "c0946837c5402ee070064bd26e4a3ef68f44d8e42ceae257861856e7f0d2c44c",
+    "last_context_date": "2025-03-09",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2025-03-11",
+    "target_sha256": "fa53c63aeba42d4a5af766626dfb05eb15e0a013f5a43348fa696727161dfd92",
+    "covariate_sha256": "a0b1724804e7d1e76dab84840298f038a432b8aa36224bbc91185e92c8c3a629",
+    "last_context_date": "2025-03-10",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2025-03-12",
+    "target_sha256": "f73775674fb62288aa9d97524975b5d683df124f844aa315e9195c6aef78a53a",
+    "covariate_sha256": "6d25952f8fb43cb5783b1181867e226d6fd6709b70faff20769a9fdd9a3353cd",
+    "last_context_date": "2025-03-11",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2025-03-13",
+    "target_sha256": "8f48ff08219f85b9eefd2de0f12927e89997a7017e401d9c0366e2feb30c52bc",
+    "covariate_sha256": "48d71061b4c302df7e04877481eb2ff83bf7b551ce9b56b94b8324256178b22a",
+    "last_context_date": "2025-03-12",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2025-03-14",
+    "target_sha256": "5b6cc977926705bf3e8d700149886e639ed12f19b0cbec040c733355e07d285b",
+    "covariate_sha256": "f3aeb3276f0c7fd9135fc5486abfe0c729f4a9d6f28cf41a4d59c0a7caff142d",
+    "last_context_date": "2025-03-13",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2025-03-15",
+    "target_sha256": "ca5a56ce9e1c137ac96b080efeefe6b6a8c8ef4c073f082e4169ca79f1fd9df7",
+    "covariate_sha256": "ddc16b2f97a0dd8930318d6b33ec0dc71fe5e9fd16318365da84fbc2a07405d2",
+    "last_context_date": "2025-03-14",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2025-03-16",
+    "target_sha256": "e54a3eebf59807eaa1153cbba0b87eb230efe3586ec9ee1f8c6b58bd005e331a",
+    "covariate_sha256": "e26595195f01cf5811b7ac3a4edfdcbb00e9004a0638b47330d7fe6751cd460a",
+    "last_context_date": "2025-03-15",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2025-03-17",
+    "target_sha256": "609d11709d93f1e83261f93e4be7701468d596993bfe6428a37a263eff6ee7ea",
+    "covariate_sha256": "c9d03f6da06b63a6c88247a22784ac0278ea685d6050e6c22d46591179327544",
+    "last_context_date": "2025-03-16",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2025-03-18",
+    "target_sha256": "7713ef3c309bcdba55e494490ffe6b48e225b2753bc7df006ef920ed241a6320",
+    "covariate_sha256": "04cf32182e480a065ff5626ece53cddb76b4ec5aa7155f561a4d4107a4fff013",
+    "last_context_date": "2025-03-17",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2025-03-19",
+    "target_sha256": "a132338dd379e6ee6b611ff759bd86cba38ee5645539f55b6647070e83ea1b81",
+    "covariate_sha256": "8d244f56a6b6ac4e5d54d3adfc64acfaa348d226f2273fc022f19a28ee2daf66",
+    "last_context_date": "2025-03-18",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2025-03-20",
+    "target_sha256": "eced82f312fde968f881d077202482212e7e276b94c8314dcd9048c3dfd9ffde",
+    "covariate_sha256": "77674bb1328cf78b91b5e699ae98863fe251739cfbbbfa347fd2d51affb6857a",
+    "last_context_date": "2025-03-19",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2025-03-21",
+    "target_sha256": "f7537b6334e9f7de9ee945bbd5ae97bc8bb14ce0e9d606d30a970d5fdfbe3b1f",
+    "covariate_sha256": "ec3e2dec1552e4edca80f34cd1083700fc00c7342bb70c138d0ef7e090bca9f3",
+    "last_context_date": "2025-03-20",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2025-03-22",
+    "target_sha256": "bd748513ec5091fff832a90ec664f4f18d49052fee2fc0d861d0daa05d774ff6",
+    "covariate_sha256": "ff4204dce083677b576492762a02a1c5d15edae1549c292b149a8d74d9713653",
+    "last_context_date": "2025-03-21",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2025-03-23",
+    "target_sha256": "19a9b006c9cae34490eda89fc876508c0ff5f4e5131a09280699e41a38b6fee3",
+    "covariate_sha256": "c5cdd7d14c0d363740630189176766684131783ee9fee9e7c7e4fe306c36db87",
+    "last_context_date": "2025-03-22",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2025-03-24",
+    "target_sha256": "c9a2b343244809664c5a4c09da508adea7685b9bb91ec016483e96cad09e8e79",
+    "covariate_sha256": "4e9f56e7317ae13f0e50b0ab5c4538cb834fd256d0ef0c58db18e661e034c888",
+    "last_context_date": "2025-03-23",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2025-03-25",
+    "target_sha256": "1721f658a6d992ea1bb0cb2e68c851290f283e056c33d0b3300b66d02e8fbc38",
+    "covariate_sha256": "697d15500095118226b0a119048fa6185a6b34fd911e1657f77f75321ab1f883",
+    "last_context_date": "2025-03-24",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2025-03-26",
+    "target_sha256": "9115e6ab8f04ae70d75bdd8afadada9f2fd14935c1b3b3b8c10f29d2f881292a",
+    "covariate_sha256": "76f8f11dfdf2edd061048ba1168ddf8f3ad226989132f0fb5b82029b45c609a3",
+    "last_context_date": "2025-03-25",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2025-03-27",
+    "target_sha256": "d6b2cf680cde710ce84197f7da710bce51bc59bf32c1b6a2e5a17da56b6e52c5",
+    "covariate_sha256": "4ecf1644080212c0a61268de07964e03254da27a23b16c2cf97c598c23bf83e5",
+    "last_context_date": "2025-03-26",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2025-03-28",
+    "target_sha256": "5ad0a379e04276d8e2e2bf39be3a0dddf33d5972774726be0e49b13d53743660",
+    "covariate_sha256": "3b068a966d87283f2a19218c3693a1da73dca4cf928c61f4dd5f628d33a71c58",
+    "last_context_date": "2025-03-27",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2025-03-29",
+    "target_sha256": "ddba3d67d6197248e6e405e7899c12eee8c923b831b4a148f92522a1f276913e",
+    "covariate_sha256": "e8dfd66c5a40877a05e5076a80ce4aeb4c850bdfad4a49e4158b3450c53dff49",
+    "last_context_date": "2025-03-28",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2025-03-30",
+    "target_sha256": "933fc6a6dd4cb842bcab559b9cfec3cb07eb685d7814a8ee69e1195e35c594b3",
+    "covariate_sha256": "fc287616ea81e3636e7cf9ce035b507f23b8202399c0382ccfc0015a9e258b94",
+    "last_context_date": "2025-03-29",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2025-03-31",
+    "target_sha256": "c2ee50c27696dd4395b665b37c9c10fdc810b4547b676322f0ea624d84453005",
+    "covariate_sha256": "84d314ea3272d69fc329a39caae07b92e933a083828ec910e9c75b6566abf6bb",
+    "last_context_date": "2025-03-30",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2025-04-01",
+    "target_sha256": "fd4b84c87ddfd713dac76e9d61c488b3bd932fe8079b2a583767795eb3ef12f7",
+    "covariate_sha256": "c1c06b64c6e462565ddece6daa715fb0b9873613f47d42bfdbf6827882816709",
+    "last_context_date": "2025-03-31",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2025-04-02",
+    "target_sha256": "05de69ebbf9d72b6ad4adc603c5333f7b596225767f2bd2cc119e0e32c2a3f6f",
+    "covariate_sha256": "e87d66a4affe2f8aa72246e89f9b3c8781f418dc69e5d2669ee99a59a111af2a",
+    "last_context_date": "2025-04-01",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2025-08-11",
+    "target_sha256": "38d9d0ac1e3dab2380414896a2e8cacd87ccf0b793d303ef91f0d7390992ad68",
+    "covariate_sha256": "ccfbbf7ae3b1875e5d3c6b8581c18ba308694623bdeea9347bae62e7e22735ec",
+    "last_context_date": "2025-08-10",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2025-08-12",
+    "target_sha256": "ecdc8e2c309c162b3cfaaabbaedc2188d5a1720632be3e608a5c25574ef95efa",
+    "covariate_sha256": "b078a899373cb56ad7895a19d721cd809559ba7200175fd6c131e57cee1eae98",
+    "last_context_date": "2025-08-11",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2025-08-13",
+    "target_sha256": "772c7ab893d60453b4f9c173bb75909d1e579fa28f3a164de38a0799dd1f19b0",
+    "covariate_sha256": "c6e08aff00d151430ab3b3bfe708fa6cb2d4e714e88b61b122cb0e3aedb67d6c",
+    "last_context_date": "2025-08-12",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2025-08-14",
+    "target_sha256": "761ea124bbb067c1ca67a6bfd0f387e4e49f03e50cce5bdbb9c7b20d104ca967",
+    "covariate_sha256": "933dca622aa9436a42ed405cc3180483f76591a1c56e7222da325cb0b09f2534",
+    "last_context_date": "2025-08-13",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2025-08-15",
+    "target_sha256": "89b42e7639b464ff6a9eed2b64091389e165ac3bc5b9d41d8fb45d3deb01747a",
+    "covariate_sha256": "a4c00dab5039207f4aff918de13e2e91a61beb7b48839c7b9b0c4208c9136c65",
+    "last_context_date": "2025-08-14",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2025-08-16",
+    "target_sha256": "cd4c3c341198e47229f95b1a626e2d21a4bb7c9982a97bcdab82c7843de572d9",
+    "covariate_sha256": "bec5e20d5dc4e323bed89f5986bc946ef4e373359652b4a89d22c29dd99249b7",
+    "last_context_date": "2025-08-15",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2025-08-17",
+    "target_sha256": "120ca22464c20765990665cd1f7f3e0d30f7e84d7fdff90c7af36eecd687a3ff",
+    "covariate_sha256": "7c296290c5472cb9d61ff95b92d763aafa0d6a85483ef0b625bc31af7d7f994d",
+    "last_context_date": "2025-08-16",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2025-08-18",
+    "target_sha256": "0eccbbef734367cb5dd43dd45b4c4e75813e59bd971dea40eb76a42b2c1712a5",
+    "covariate_sha256": "b0f904371a88f58bcc95191b314657035c199d4ef82b068c024be846e3c65dee",
+    "last_context_date": "2025-08-17",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2025-08-19",
+    "target_sha256": "3a85f77c38cf100eee0a77d04c0590adffa89765a0289a7d048df58038b8e20a",
+    "covariate_sha256": "eabfed276196f58c10d48715241b7198669dec14f39f054a0424c8871be6d1dd",
+    "last_context_date": "2025-08-18",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2025-08-20",
+    "target_sha256": "ba2e42495b1e33f00b68f965b7bef726510c40ed615c5202372d3583be6b654f",
+    "covariate_sha256": "6e0e478a572fced86ddcdd180e3cdc26c734e91d23431ac7fabebb1cda4dbe3c",
+    "last_context_date": "2025-08-19",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2025-08-21",
+    "target_sha256": "164a64c88c56fe3dfc2a078ad728b7652201dbad4ddbf34cfdf30c0e64c422b7",
+    "covariate_sha256": "1de2d2904660bd3f8e0c92227bcd294a6e9ca950a861d12a1c6d2570f86da369",
+    "last_context_date": "2025-08-20",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2025-08-22",
+    "target_sha256": "633d33b23cfd8c005bc83f78d57e4efc7aaa3ebaeb8e159d3af74a0be055cce0",
+    "covariate_sha256": "4e6e24e9e26ac1f0b98ccfb97613679a85e8469bb072a803ffba7f00e53456e5",
+    "last_context_date": "2025-08-21",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2025-08-23",
+    "target_sha256": "282fa3f227023daca3ce5685299d821f056d9c7514d48ed5ce6dbf959dda8985",
+    "covariate_sha256": "f56863d65796905f51f800caa4701dc8daf5b8685113b819685e19c6e2c29415",
+    "last_context_date": "2025-08-22",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2025-08-24",
+    "target_sha256": "6e2c989e28dffcc90a7e210aaa9c288014adbff3041bb9e626a3feef9c76a50b",
+    "covariate_sha256": "e98059bca507c6a79e1f38713707184d0d9865f42042c93876a34435476f9172",
+    "last_context_date": "2025-08-23",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2025-08-25",
+    "target_sha256": "4f12d0a1d3556bdc7e5e1b437c492e0bd43f92964cd1f1cb8b1e5af5acc87bb0",
+    "covariate_sha256": "0125bec2f00b4f8be3cec33020f1d20b99ad8e050ea005d9cf10d6c4f1225a76",
+    "last_context_date": "2025-08-24",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2025-08-26",
+    "target_sha256": "273e57f062252b24157212b6607128f7431b0c9d8f579a37b5e03da615f227d8",
+    "covariate_sha256": "a9dd1e5ac049509dcb46acfbc740704151180a0b8ca36a5bff9d3f4e6f3a45e3",
+    "last_context_date": "2025-08-25",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2025-08-27",
+    "target_sha256": "32622619594ae969b17bdd676c2a67c9339dc7fedc367bbf79c988e857a5457b",
+    "covariate_sha256": "b3fdd1dde88f5c7d79418d253b3e050794733da7532ffb19b16b82ce9b23904d",
+    "last_context_date": "2025-08-26",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2025-08-28",
+    "target_sha256": "9cf24061c33fdb608f40aeb7e68d09f9b9aad95b2cc9f3ef7511d728c84ee14f",
+    "covariate_sha256": "c165ceca44fc2df573565b10c0c88e557e65461c29107dead2480d6dd877b43f",
+    "last_context_date": "2025-08-27",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2025-08-29",
+    "target_sha256": "6d9fd538fc91980f0760cfd5ba4d8ecc1ea9826ca9ec1bb65395d7f0d331b138",
+    "covariate_sha256": "76cad4d8f32fdbe50637943d5c50a8a24c51a7fc406686ef5efa6aaa944c2f17",
+    "last_context_date": "2025-08-28",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2025-08-30",
+    "target_sha256": "d4dc604e89cc1baf57486f067e20d45f606383e96522196cbb5155743a7c98ef",
+    "covariate_sha256": "221aa38e16e7fceca1e9cf419e2ffb679beefa07108dfd5108dfbcc39d38f793",
+    "last_context_date": "2025-08-29",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2025-09-16",
+    "target_sha256": "092ffa218c27eb9adaca17f05b8ad80fe989a7e6eeadf36424f4118a1f4493b6",
+    "covariate_sha256": "237787b42a7593cf75449b28022f4be9cc5543db7ceec569c76664791727aa27",
+    "last_context_date": "2025-09-15",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2025-09-17",
+    "target_sha256": "54562d6d0bce0a8c08d80c62e95be48be61a445b5fb72ca35400e0fa9de5dc9c",
+    "covariate_sha256": "df76c42e06aa5440a6d2a0bce9bb2b592cac4fa60e1b8ebe2c250560c277e1b2",
+    "last_context_date": "2025-09-16",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2025-09-18",
+    "target_sha256": "f7dfa1a3a140e2b45eb19d5a4e8091e260b114d34c1f69fb5875212ac9a53b4d",
+    "covariate_sha256": "6fb778ee25fff8a8f4312b6ee6c165670d958bc4d3d524a685947da1a27dce02",
+    "last_context_date": "2025-09-17",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2025-09-19",
+    "target_sha256": "dd8266e3a9ea1ae196d28c6255719d531a2629b7e12422cf02140bc113d20368",
+    "covariate_sha256": "3ae1c41db60d4287d16bf0809c04ec5798c77a4dade7a902736caa71cebe6077",
+    "last_context_date": "2025-09-18",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2025-09-20",
+    "target_sha256": "98b3095056c357017e5c357dc838b4af71783f0eb539f0d5e48afd3501b360af",
+    "covariate_sha256": "9458e97b2b250c28fd173c559dee0a018fdde354302cf59d4d8b8f1a4051292b",
+    "last_context_date": "2025-09-19",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2025-09-21",
+    "target_sha256": "4afcfa61456811c753fa8ac269e98f94d1d38698721074d4154511941331226c",
+    "covariate_sha256": "32cb811746261a83d3103f93ff739fb79c01cec62c9ace5476229210103fe402",
+    "last_context_date": "2025-09-20",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2025-09-22",
+    "target_sha256": "0d4e0c01bc467b1f56bdcc05a97bd4b57da654cd2694fc0d20247ff91bc2c840",
+    "covariate_sha256": "aa3989f128f5d75ea103e35ec6f315e123349dcb5b63e2c26f006838d50461d6",
+    "last_context_date": "2025-09-21",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2025-09-23",
+    "target_sha256": "4221f98a9c1f6e95a9bda8605e02acf4552c8b211ef0ac9606c36923c4a4f8a5",
+    "covariate_sha256": "179cc21e88754ea13619d8662f01f5bcb385b219457ac0d760079578ba8e08c1",
+    "last_context_date": "2025-09-22",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2025-09-24",
+    "target_sha256": "4e1673e7a4041c45bca0352aa1ebd7cb9df702a813757d686bf8dca436293fb3",
+    "covariate_sha256": "a850f0440d5890a6536cd01272d05203f07fc9c6d11b33ae490873059cd4fb0f",
+    "last_context_date": "2025-09-23",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2025-09-25",
+    "target_sha256": "8418da2fc1bb448a070c21e3e79277e03431e4430531af3e27ca5ffd445e80e4",
+    "covariate_sha256": "9021f5af5b94944d5578f2518a0379df474924acc70ce62d87bc5ac11a4c3319",
+    "last_context_date": "2025-09-24",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2025-09-26",
+    "target_sha256": "4fad1ed86ea3861ec380479966ae4ae889f7b27c9342e08d44e25e6e23e467f4",
+    "covariate_sha256": "def53ebf56a162037b43abac810e0ac15f89d180f5753a3c2c093085bc53ff49",
+    "last_context_date": "2025-09-25",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2025-09-27",
+    "target_sha256": "1012314e81448cabd622487c3ea2451c5809fefb21815b05008da6e59f8a67b6",
+    "covariate_sha256": "ed2a16a93fb80ffb724073c3228d3083c5829b4d005e7204d79a234d76a8cefd",
+    "last_context_date": "2025-09-26",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2025-09-28",
+    "target_sha256": "56575424f2904501d76016c5f5f02d0dd33641017e5a7af75b223f875d9ae9f9",
+    "covariate_sha256": "18ae1d48cc405da01f4e060743daa9e9033347e23641d0d0cc17c04ec3c06738",
+    "last_context_date": "2025-09-27",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2025-09-29",
+    "target_sha256": "2943f65a535ef512a75e2993038bc4bc6f9f09daa016b90014ed8aee976cdcb5",
+    "covariate_sha256": "31e363a6216a78544729c9e190a49307c50d6565724a900e5041d09aacf8bf1a",
+    "last_context_date": "2025-09-28",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2025-09-30",
+    "target_sha256": "c8564c07e6424a3e66d5e75f8ac6aeae0511dcb60956a68167982aa2666bd438",
+    "covariate_sha256": "166699e89932544a6280e0b075b38b7ad2335bec08434a4deb821e183a770bb7",
+    "last_context_date": "2025-09-29",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2025-10-01",
+    "target_sha256": "2486d6c813c2767bea2cff79685d7f7c45c91fc76e1c1ffb8b41df9b62deb557",
+    "covariate_sha256": "e9bcc6ba4f98015b3d095885ab2e9d3a1ca25160ebadcfdb292411017993fecf",
+    "last_context_date": "2025-09-30",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2025-10-02",
+    "target_sha256": "48d93e2cba407e87ef15c2bf9bf124b80e94994fd912f467897582d5de7cdaf4",
+    "covariate_sha256": "e88e016f4534a18afde72d6c54737e1a604a1e32bb0ecfcf14999a0bd4976d2f",
+    "last_context_date": "2025-10-01",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2025-10-03",
+    "target_sha256": "0523511957567e33e66a48e0bd787a2045253eac3c71fdece143f4b40ed3a3a5",
+    "covariate_sha256": "0e2182d5c07da170cdf05827ba5ba0ca4b2ea9cf50dcd52ca21f1e2538bfdf19",
+    "last_context_date": "2025-10-02",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2025-10-04",
+    "target_sha256": "4717940934854ebe40ae35df622060e6ac45e992699719db46663373ea30139d",
+    "covariate_sha256": "c9c9f9a631d8bf7cf7d3a311750deda784795c8dc4ddc902e89de495bd064529",
+    "last_context_date": "2025-10-03",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2025-10-05",
+    "target_sha256": "3cce01147cc30fcaa549796de95e1f43de6eb473004953c4555bf2687d266bed",
+    "covariate_sha256": "4c0f30cbb87b3b5f78f22bc1343102e92f85f0dfbda8b5d48f39f1c1bebb04fa",
+    "last_context_date": "2025-10-04",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2025-10-06",
+    "target_sha256": "0b178b0f92cf075f2bf9d90057362daaaeb75ec8798ab4a280ea9aba65d6034f",
+    "covariate_sha256": "4807d6284c3bd5de80008ea606b5fdf8334956e1bae50c4a83fe5979a2263f1a",
+    "last_context_date": "2025-10-05",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2025-10-07",
+    "target_sha256": "cc0fad98b913f7aa3c250bc7132bc15b3e6c5c6b2d899d9b9c2904aa145178e1",
+    "covariate_sha256": "19a4e7bba31a569853314e7a4a94fea2dd13d7ac48e67ddd3212a7adf9c71857",
+    "last_context_date": "2025-10-06",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2025-10-08",
+    "target_sha256": "8c4b52301cdf0676799d3390eecde0542302edac28989bc9f9c337a266410a81",
+    "covariate_sha256": "628ed43837bb8625cb56aaefe55f977d6633a0a192e79c5fcec72802441b79bc",
+    "last_context_date": "2025-10-07",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2025-10-09",
+    "target_sha256": "9741d8aa86519f74dcbccc0129cc75a8d775cb0ab062e74f107e03c6e423fd60",
+    "covariate_sha256": "8a5d17cdc8a947be2e072383bbbc023f68bc0d12c7d0b06ad44a9138d99152b6",
+    "last_context_date": "2025-10-08",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2025-10-10",
+    "target_sha256": "a3b9abea570141f043cd0b339637505753e58afac81a34b2d2eacc6bdf99aab4",
+    "covariate_sha256": "6e77b4d3fb998251205151f7f533ca48063a8d82fdbafc969e1813f3b6743cbe",
+    "last_context_date": "2025-10-09",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2025-10-11",
+    "target_sha256": "94473fcdbd91e5943f791da93c2127f6531858852a4a58e380cc5f08a0ef648a",
+    "covariate_sha256": "b75e455cc2de2c5f6cca376cbf97cb9130a2ac8f36c948b896946fb72f7bd6d7",
+    "last_context_date": "2025-10-10",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2025-10-12",
+    "target_sha256": "c3953deaffe26a5d39e4059f3fe6a85a777eed732338075dd27d971c892ea0ea",
+    "covariate_sha256": "b2257f29b893d50f1772914e8e38410e7c127abcbfd75c5c77818bfb5987a372",
+    "last_context_date": "2025-10-11",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2025-10-13",
+    "target_sha256": "20c61d75423a6cc6836ccf40546248851b6e4a4c24577a9f99309134d92413f1",
+    "covariate_sha256": "bcfec1f3581c1c79e66b62f81d576b9f0c940800a0ac77227230b39ccef42b5f",
+    "last_context_date": "2025-10-12",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2025-10-14",
+    "target_sha256": "70547d63f64c9f58bc162b08ce4663da2ac09e92c576cf56a3ca9dc511ea4014",
+    "covariate_sha256": "80b4d2be228172ed935a4b88c739a06754d72df6bb432d81b2affc2a55aa91cd",
+    "last_context_date": "2025-10-13",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2025-10-15",
+    "target_sha256": "8068ea6c396792807fe7b4ef370c519ec9c9f452b199284f78ea9396a47d6cdd",
+    "covariate_sha256": "7154723abc464ca155986681b12b5a464529d576271cf283f0067ed6aea781d0",
+    "last_context_date": "2025-10-14",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2025-10-16",
+    "target_sha256": "5fd98b25e6a87e7ea04e10f1e3d4d5f30a4fdf92c95bc3e5012f0ae0382dfa96",
+    "covariate_sha256": "fb2b23e9280a6c3b4cd48d4f22b544f860304bc799f06701fb89f2d40fbaeed5",
+    "last_context_date": "2025-10-15",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2025-10-17",
+    "target_sha256": "13d682e96ea411a205167ea78433db5b5eedd2987e260d866633d15710540a30",
+    "covariate_sha256": "c9ea68613dcefe11b82999d79a6f9f671001b94a896da38d4f41ae7537741b28",
+    "last_context_date": "2025-10-16",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2025-10-18",
+    "target_sha256": "40faaff4d35161e30693e5f9ad01ad6854f6f2e80e5af3a53b2ffe162dfdb3fd",
+    "covariate_sha256": "a4e1965c1aec560d153077fd7eb34c7a667288da0f4a74657f71f5cf46e79c96",
+    "last_context_date": "2025-10-17",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2025-10-19",
+    "target_sha256": "9c84bef745faa94b08b08206382a0a677ab79f06a5df6685f70ab0b128a3a8a8",
+    "covariate_sha256": "d004aed8508c458baba89bbd96a34c01ce414f0fe2d61403ac6043f1fecde8b6",
+    "last_context_date": "2025-10-18",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2025-10-20",
+    "target_sha256": "5c2a5c97a1d4d0d943fa55162a34f2e66783787ab4dbfdf708b49818c86e542e",
+    "covariate_sha256": "605793263776a3b6a09f4110050ca18fe238132fa2701f24ab143a62a293f1f3",
+    "last_context_date": "2025-10-19",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2025-10-21",
+    "target_sha256": "f2c92b107729b178f02561b95cd66352d9a0297e1dfec8923c697ad376cc6863",
+    "covariate_sha256": "37ac758a4d7501597ca069c310e91472a4b507ebc60586514f34da4332939d65",
+    "last_context_date": "2025-10-20",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2025-10-22",
+    "target_sha256": "b1a2bfd3671f073f1b1a6e3605c44bb53cda045fced7c2391d55c996e12bd464",
+    "covariate_sha256": "a55a6a3ebb008d303f03d852db41c9f071e14acdc52ac85aeda292ca945a2986",
+    "last_context_date": "2025-10-21",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2025-10-23",
+    "target_sha256": "e02c9fddc23746b8a416fff533e5162c746796b9cb2d5f17ee15a4d4544bf867",
+    "covariate_sha256": "8407069771d051d879715b470aa9bea71d25eaf3a07f51b7d0fe2f48635fd945",
+    "last_context_date": "2025-10-22",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2025-10-24",
+    "target_sha256": "75532d5ebd694fecf520e8728d85becb185211a052baeadc0c9ae578d74fbd77",
+    "covariate_sha256": "cab580dc5da503dc1589ca29e4b31970c4ea22e335ea71b8e85b88ba979d2c5d",
+    "last_context_date": "2025-10-23",
+    "future_target_perturbation_invariant": true
+  },
+  {
+    "mode": "calendar",
+    "state": "Maharashtra",
+    "origin": "2025-10-25",
+    "target_sha256": "4d90ffdc34c4baefbecdf066e9dee6c00d6185c071e7bc9a9c002b9ad850c62f",
+    "covariate_sha256": "c74a3a2369dff11907425ae68c8a51ba4ec726fe07a3138b36ca711803e0cc3f",
+    "last_context_date": "2025-10-24",
+    "future_target_perturbation_invariant": true
+  }
+]

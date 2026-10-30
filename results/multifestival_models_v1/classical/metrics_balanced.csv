@@ -1,0 +1,10 @@
+configuration,horizon,MASE
+ets_weekly_monthly,1,0.5887768086237394
+ets_weekly_monthly,7,1.0536638124644333
+ets_weekly_monthly,14,1.256257153383411
+sarimax_calendar_annual,1,0.5747800009740494
+sarimax_calendar_annual,7,0.9641050949651628
+sarimax_calendar_annual,14,1.1419038937334731
+sarimax_history_annual,1,0.6346086031347861
+sarimax_history_annual,7,1.1632835312020846
+sarimax_history_annual,14,1.5187673601276912

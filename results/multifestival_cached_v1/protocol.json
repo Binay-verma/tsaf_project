@@ -1,0 +1,117 @@
+{
+  "experiment": "multifestival_cached_v1",
+  "created_utc": "2026-10-30T09:31:05.456554+00:00",
+  "status": "Exploratory extension after historical results were inspected. Recorded before new festival-specific errors; not an external preregistration or new final test.",
+  "years": [
+    2024,
+    2025
+  ],
+  "families": [
+    "Holi",
+    "Dussehra",
+    "Ganesh_Chaturthi",
+    "Ugadi_Gudi_Padwa",
+    "Diwali"
+  ],
+  "configurations": {
+    "chronos_history": [
+      "results/extended_validation/predictions.csv",
+      {
+        "model": "chronos2",
+        "mode": "A_history",
+        "cohort": "daily"
+      }
+    ],
+    "last_value": [
+      "results/extended_validation/predictions.csv",
+      {
+        "model": "last_value",
+        "mode": "A_history",
+        "cohort": "daily"
+      }
+    ],
+    "weekly_repeat": [
+      "results/extended_validation/predictions.csv",
+      {
+        "model": "seasonal_naive",
+        "mode": "A_history",
+        "cohort": "daily"
+      }
+    ],
+    "ridge_basic_history": [
+      "results/extended_validation/predictions.csv",
+      {
+        "model": "ridge",
+        "mode": "A_history",
+        "cohort": "daily"
+      }
+    ],
+    "ridge_basic_calendar": [
+      "results/extended_validation/predictions.csv",
+      {
+        "model": "ridge",
+        "mode": "B_calendar",
+        "cohort": "daily"
+      }
+    ],
+    "ridge_rich_history_monthly": [
+      "results/strong_refit_v1/predictions.csv",
+      {
+        "model": "ridge",
+        "mode": "rich_history",
+        "schedule": "monthly"
+      }
+    ],
+    "ridge_rich_calendar_monthly": [
+      "results/strong_refit_v1/predictions.csv",
+      {
+        "model": "ridge",
+        "mode": "rich_calendar",
+        "schedule": "monthly"
+      }
+    ],
+    "lightgbm_stable_history_monthly": [
+      "results/stable_tree_refit_v2/predictions.csv",
+      {
+        "model": "lightgbm",
+        "mode": "rich_history",
+        "schedule": "monthly"
+      }
+    ],
+    "lightgbm_stable_calendar_monthly": [
+      "results/stable_tree_refit_v2/predictions.csv",
+      {
+        "model": "lightgbm",
+        "mode": "rich_calendar",
+        "schedule": "monthly"
+      }
+    ]
+  },
+  "event_definition": "Union of fixed +/-3-calendar-day anchor windows per family/state/year. Holi Delhi/Maharashtra; Ganesh and Ugadi/Gudi Karnataka/Maharashtra; Dussehra and Diwali all three. States absent from a schedule are not treated as zero-impact controls.",
+  "calendar_limit": "Dates are annual-as-issued and named by the existing library crosswalk; no new amendment certification. Dussehra2025 overlaps Gandhi Jayanti; Spring2025 is adjacent to Eid. Annual schedule scope is government offices, not measured statewide shutdown.",
+  "scoring": "Only positive recorded source labels; remove a missing label for every configuration equally and retain explicit exclusion. Missing forecasts fail; never silently shrink to successful models. Unique state/origin/lead cases, horizons target origin+h-1.",
+  "scale": "Identical mean absolute weekly differences of recorded labels in preceding730 calendar days ending previous December31; never refit denominator on evaluation outcomes.",
+  "aggregation": "MAE and MASE per festival/state/year/lead; equal states within year, then equal years within festival. Any overall MASE equally weights festival families. No ranking across unlike cohorts or row-level significance tests.",
+  "intervention": "None: reuse unchanged historical forecasts. Calendar arms contain ordinary weekday/Fourier features, not these additional festival identities. Monthly baselines retain original pre-year selection logs. No settings selected using these new scores.",
+  "exclusions": "Christmas excluded in this first extension because the saved origin schedule stops December18, preventing complete next-day cases. Eid-specific contrasts deferred pending moon-sighting/amendment evidence. No retrospective choice of shifted dates.",
+  "limitations": [
+    "Two historical years; related states/days/overlapping windows are dependent",
+    "Historical pretraining/proxy overlap and source revisions/lag unresolved",
+    "Models use different fitting/adaptation budgets; no architecture-only or causal superiority claim",
+    "Prospective frozen forecasts unchanged; no future outcomes acquired"
+  ],
+  "input_hashes": {
+    "data/external/latest_state_energy_GWh.csv": "74d22d5e85b022db13d97dad7c84dca5b9dc8e38d23570bf095d870e71a2f690",
+    "results/extended_validation/predictions.csv": "51348b0741f2db47f2e901ba06454951ae0cf3a12299f3653a177e47fd722eeb",
+    "results/extended_validation/regional_calendar_date_audit.csv": "1d5b22b33c15b74ebd8e1d98c0f4da41ed98e4da8940f8b5d2e96384d39274d6",
+    "results/stable_tree_refit_v2/predictions.csv": "0c0c7f503ae9d302039dcd14f9a4c84f6070c45ea261333174547a1827262b0a",
+    "results/strong_refit_v1/predictions.csv": "40c8bc84016de272c58b7cffcb0ad0f64071a73b334eeeb7baa658b6f68b25cf",
+    "src/extended_validation.py": "2312ef9ef5f78ad8bf47b47999576cd0875c7ba3adca53acfb5434b83b2f8218",
+    "src/multifestival_cached.py": "fc02cff36d9077901e20fe6a911d95a78d04c48a160652cab7f19173cae7f810"
+  },
+  "design_hashes": {
+    "anchors.csv": "bdb054bc1a89b49a38c2b66efd86d9e92cc76c700dc74ecfebf2ec0cf1da1651",
+    "expected_cases.csv": "2723e8462fc0ea4604b2ba2cc523da5f996c3c6d0475dee39a009c1370385db2",
+    "holiday_overlaps.csv": "e768bb4c27c6d1467144f2c9b0b88f6609b70b4e57ed3a44ec0cdacb37f620d5"
+  }
+}

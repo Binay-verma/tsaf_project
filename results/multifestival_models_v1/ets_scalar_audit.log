@@ -1,0 +1,132 @@
+{
+  "status": "pass",
+  "checks": [
+    {
+      "state": "Delhi",
+      "year": 2024,
+      "origin": "2024-03-09",
+      "training_end": "2024-02-29",
+      "scored_rows": 1,
+      "max_prediction_difference_GWh": 1.4210854715202004e-14,
+      "method": "Scalar ETS(A,N,A) innovation recurrence; first origin per state/year selected by date",
+      "parameters": {
+        "smoothing_level": 0.9999,
+        "smoothing_seasonal": 6.643500704391056e-05,
+        "initial_level": 0.6320104874550723,
+        "initial_seasonal.0": -0.008245404586878424,
+        "initial_seasonal.1": -0.023534666176353726,
+        "initial_seasonal.2": -0.08642762049330098,
+        "initial_seasonal.3": -0.045874101161755505,
+        "initial_seasonal.4": -0.00541575934652004,
+        "initial_seasonal.5": -0.008479217287552219,
+        "initial_seasonal.6": 0.0
+      }
+    },
+    {
+      "state": "Delhi",
+      "year": 2025,
+      "origin": "2025-02-26",
+      "training_end": "2025-01-31",
+      "scored_rows": 1,
+      "max_prediction_difference_GWh": 0.0,
+      "method": "Scalar ETS(A,N,A) innovation recurrence; first origin per state/year selected by date",
+      "parameters": {
+        "smoothing_level": 0.9999,
+        "smoothing_seasonal": 6.29418746539054e-05,
+        "initial_level": 0.7479877781249802,
+        "initial_seasonal.0": 0.01144591389094222,
+        "initial_seasonal.1": 0.010958816272926396,
+        "initial_seasonal.2": -0.009085763216357897,
+        "initial_seasonal.3": -0.07052413158837045,
+        "initial_seasonal.4": -0.03456332805605081,
+        "initial_seasonal.5": 0.008237845049291563,
+        "initial_seasonal.6": 0.0
+      }
+    },
+    {
+      "state": "Karnataka",
+      "year": 2024,
+      "origin": "2024-03-24",
+      "training_end": "2024-02-29",
+      "scored_rows": 1,
+      "max_prediction_difference_GWh": 0.0,
+      "method": "Scalar ETS(A,N,A) innovation recurrence; first origin per state/year selected by date",
+      "parameters": {
+        "smoothing_level": 0.9999,
+        "smoothing_seasonal": 7.164264851264895e-05,
+        "initial_level": 2.6689752094277903,
+        "initial_seasonal.0": -0.01827610628562412,
+        "initial_seasonal.1": -0.04390866466863991,
+        "initial_seasonal.2": -0.19623914094333686,
+        "initial_seasonal.3": -0.03170624592801913,
+        "initial_seasonal.4": 0.012246417206246113,
+        "initial_seasonal.5": 0.005747302638879149,
+        "initial_seasonal.6": 0.0
+      }
+    },
+    {
+      "state": "Karnataka",
+      "year": 2025,
+      "origin": "2025-03-14",
+      "training_end": "2025-02-28",
+      "scored_rows": 1,
+      "max_prediction_difference_GWh": 0.0,
+      "method": "Scalar ETS(A,N,A) innovation recurrence; first origin per state/year selected by date",
+      "parameters": {
+        "smoothing_level": 0.9999,
+        "smoothing_seasonal": 2.2455958580948933e-05,
+        "initial_level": 2.7900187035797206,
+        "initial_seasonal.0": -0.006980124711441416,
+        "initial_seasonal.1": -0.01933544000245356,
+        "initial_seasonal.2": -0.049919977544443196,
+        "initial_seasonal.3": -0.21585923941102422,
+        "initial_seasonal.4": -0.04384926107496418,
+        "initial_seasonal.5": 0.008576722730623172,
+        "initial_seasonal.6": 0.0
+      }
+    },
+    {
+      "state": "Maharashtra",
+      "year": 2024,
+      "origin": "2024-03-09",
+      "training_end": "2024-02-29",
+      "scored_rows": 1,
+      "max_prediction_difference_GWh": 0.0,
+      "method": "Scalar ETS(A,N,A) innovation recurrence; first origin per state/year selected by date",
+      "parameters": {
+        "smoothing_level": 0.9999,
+        "smoothing_seasonal": 6.694899116787902e-05,
+        "initial_level": 5.53597390429665,
+        "initial_seasonal.0": -0.01980700912556445,
+        "initial_seasonal.1": -0.07954328854386042,
+        "initial_seasonal.2": -0.23930514218190724,
+        "initial_seasonal.3": -0.07465053136731545,
+        "initial_seasonal.4": -0.06123930926629826,
+        "initial_seasonal.5": -0.02272758409643686,
+        "initial_seasonal.6": 0.0
+      }
+    },
+    {
+      "state": "Maharashtra",
+      "year": 2025,
+      "origin": "2025-02-26",
+      "training_end": "2025-01-31",
+      "scored_rows": 1,
+      "max_prediction_difference_GWh": 0.0,
+      "method": "Scalar ETS(A,N,A) innovation recurrence; first origin per state/year selected by date",
+      "parameters": {
+        "smoothing_level": 0.9999,
+        "smoothing_seasonal": 3.7882828262123574e-05,
+        "initial_level": 5.616017266284235,
+        "initial_seasonal.0": 0.012554889326951178,
+        "initial_seasonal.1": -0.014205674385391963,
+        "initial_seasonal.2": -0.07960615343776825,
+        "initial_seasonal.3": -0.2503050327382945,
+        "initial_seasonal.4": -0.0766098641063992,
+        "initial_seasonal.5": -0.03266013298153161,
+        "initial_seasonal.6": 0.0
+      }
+    }
+  ],
+  "scope": "Six date-selected internal software checks, not a full independent human rerun"
+}

@@ -1,0 +1,31 @@
+family,state,year,date,label,role,source
+Diwali,Delhi,2024,2024-10-31,Existing broad Diwali cohort anchor,national_main,https://wcd.delhi.gov.in/sites/default/files/WCD/generic_multiple_files/holidays_2024_gnctd.pdf
+Diwali,Delhi,2025,2025-10-20,Existing broad Diwali cohort anchor,national_main,https://wcd.delhi.gov.in/sites/default/files/WCD/generic_multiple_files/holiday_list_2025.pdf
+Diwali,Karnataka,2024,2024-10-31,Existing broad Diwali cohort anchor,national_main,https://avantiscdnprodstorage.blob.core.windows.net/legalupdatedocs/29058/Government_of_Karnataka_issued_a_notification_regarding_the_holiday_list_for_2024_JAN10204.pdf
+Diwali,Karnataka,2024,2024-11-02,Existing broad Diwali cohort anchor,regional_subsidiary,https://avantiscdnprodstorage.blob.core.windows.net/legalupdatedocs/29058/Government_of_Karnataka_issued_a_notification_regarding_the_holiday_list_for_2024_JAN10204.pdf
+Diwali,Karnataka,2025,2025-10-20,Existing broad Diwali cohort anchor,national_main,https://cag.gov.in/uploads/media/Karnataka-State-Holidays-2025-067764409e26023-56493682.pdf
+Diwali,Karnataka,2025,2025-10-22,Existing broad Diwali cohort anchor,regional_subsidiary,https://cag.gov.in/uploads/media/Karnataka-State-Holidays-2025-067764409e26023-56493682.pdf
+Diwali,Maharashtra,2024,2024-10-31,Existing broad Diwali cohort anchor,national_main,"src/extended_validation.py MAIN; national date, not Maharashtra annual Lakshmi Pujan date"
+Diwali,Maharashtra,2024,2024-11-01,Existing broad Diwali cohort anchor,regional_subsidiary,https://www.maharashtra.gov.in/site/Upload/pdf/Public_Holidays_2024.pdf
+Diwali,Maharashtra,2024,2024-11-02,Existing broad Diwali cohort anchor,regional_subsidiary,https://www.maharashtra.gov.in/site/Upload/pdf/Public_Holidays_2024.pdf
+Diwali,Maharashtra,2025,2025-10-20,Existing broad Diwali cohort anchor,national_main,"src/extended_validation.py MAIN; national date, not Maharashtra annual Lakshmi Pujan date"
+Diwali,Maharashtra,2025,2025-10-21,Existing broad Diwali cohort anchor,regional_subsidiary,https://www.maharashtra.gov.in/site/Upload/pdf/Maharashtra_Holiday_2025.pdf
+Diwali,Maharashtra,2025,2025-10-22,Existing broad Diwali cohort anchor,regional_subsidiary,https://www.maharashtra.gov.in/site/Upload/pdf/Maharashtra_Holiday_2025.pdf
+Dussehra,Delhi,2024,2024-10-12,Dussehra,annual_as_issued_anchor,https://wcd.delhi.gov.in/sites/default/files/WCD/generic_multiple_files/holidays_2024_gnctd.pdf
+Dussehra,Delhi,2025,2025-10-02,Dussehra; Mahatma Gandhi's Jayanti,annual_as_issued_anchor,https://wcd.delhi.gov.in/sites/default/files/WCD/generic_multiple_files/holiday_list_2025.pdf
+Dussehra,Karnataka,2024,2024-10-12,Dussehra,annual_as_issued_anchor,https://avantiscdnprodstorage.blob.core.windows.net/legalupdatedocs/29058/Government_of_Karnataka_issued_a_notification_regarding_the_holiday_list_for_2024_JAN10204.pdf
+Dussehra,Karnataka,2025,2025-10-02,Dussehra; Mahatma Gandhi's Jayanti,annual_as_issued_anchor,https://cag.gov.in/uploads/media/Karnataka-State-Holidays-2025-067764409e26023-56493682.pdf
+Dussehra,Maharashtra,2024,2024-10-12,Dussehra,annual_as_issued_anchor,https://www.maharashtra.gov.in/site/Upload/pdf/Public_Holidays_2024.pdf
+Dussehra,Maharashtra,2025,2025-10-02,Dussehra; Mahatma Gandhi's Jayanti,annual_as_issued_anchor,https://www.maharashtra.gov.in/site/Upload/pdf/Maharashtra_Holiday_2025.pdf
+Ganesh_Chaturthi,Karnataka,2024,2024-09-07,Ganesh Chaturthi,annual_as_issued_anchor,https://avantiscdnprodstorage.blob.core.windows.net/legalupdatedocs/29058/Government_of_Karnataka_issued_a_notification_regarding_the_holiday_list_for_2024_JAN10204.pdf
+Ganesh_Chaturthi,Karnataka,2025,2025-08-27,Ganesh Chaturthi,annual_as_issued_anchor,https://cag.gov.in/uploads/media/Karnataka-State-Holidays-2025-067764409e26023-56493682.pdf
+Ganesh_Chaturthi,Maharashtra,2024,2024-09-07,Ganesh Chaturthi,annual_as_issued_anchor,https://www.maharashtra.gov.in/site/Upload/pdf/Public_Holidays_2024.pdf
+Ganesh_Chaturthi,Maharashtra,2025,2025-08-27,Ganesh Chaturthi,annual_as_issued_anchor,https://www.maharashtra.gov.in/site/Upload/pdf/Maharashtra_Holiday_2025.pdf
+Holi,Delhi,2024,2024-03-25,Holi,annual_as_issued_anchor,https://wcd.delhi.gov.in/sites/default/files/WCD/generic_multiple_files/holidays_2024_gnctd.pdf
+Holi,Delhi,2025,2025-03-14,Holi,annual_as_issued_anchor,https://wcd.delhi.gov.in/sites/default/files/WCD/generic_multiple_files/holiday_list_2025.pdf
+Holi,Maharashtra,2024,2024-03-25,Holi,annual_as_issued_anchor,https://www.maharashtra.gov.in/site/Upload/pdf/Public_Holidays_2024.pdf
+Holi,Maharashtra,2025,2025-03-14,Holi,annual_as_issued_anchor,https://www.maharashtra.gov.in/site/Upload/pdf/Maharashtra_Holiday_2025.pdf
+Ugadi_Gudi_Padwa,Karnataka,2024,2024-04-09,Ugadi,annual_as_issued_anchor,https://avantiscdnprodstorage.blob.core.windows.net/legalupdatedocs/29058/Government_of_Karnataka_issued_a_notification_regarding_the_holiday_list_for_2024_JAN10204.pdf
+Ugadi_Gudi_Padwa,Karnataka,2025,2025-03-30,Ugadi,annual_as_issued_anchor,https://cag.gov.in/uploads/media/Karnataka-State-Holidays-2025-067764409e26023-56493682.pdf
+Ugadi_Gudi_Padwa,Maharashtra,2024,2024-04-09,Gudi Padwa,annual_as_issued_anchor,https://www.maharashtra.gov.in/site/Upload/pdf/Public_Holidays_2024.pdf
+Ugadi_Gudi_Padwa,Maharashtra,2025,2025-03-30,Gudi Padwa,annual_as_issued_anchor,https://www.maharashtra.gov.in/site/Upload/pdf/Maharashtra_Holiday_2025.pdf

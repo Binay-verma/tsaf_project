@@ -1,0 +1,25 @@
+family,state,year,scheduled_dates_in_window,warning
+Diwali,Delhi,2024,2024-10-31: Diwali (Deepavali),No isolated causal festival effect; concurrent observances and neighbouring windows may overlap
+Diwali,Delhi,2025,2025-10-20: Diwali (Deepavali),No isolated causal festival effect; concurrent observances and neighbouring windows may overlap
+Diwali,Karnataka,2024,2024-10-31: Diwali (Deepavali); 2024-11-01: [unlabelled annual date]; 2024-11-02: [unlabelled annual date],No isolated causal festival effect; concurrent observances and neighbouring windows may overlap
+Diwali,Karnataka,2025,2025-10-20: Diwali (Deepavali); 2025-10-22: [unlabelled annual date],No isolated causal festival effect; concurrent observances and neighbouring windows may overlap
+Diwali,Maharashtra,2024,2024-11-01: [unlabelled annual date]; 2024-11-02: Diwali (Bali Pratipada); 2024-11-03: [unlabelled annual date],No isolated causal festival effect; concurrent observances and neighbouring windows may overlap
+Diwali,Maharashtra,2025,2025-10-21: [unlabelled annual date]; 2025-10-22: Diwali (Bali Pratipada); 2025-10-23: [unlabelled annual date],No isolated causal festival effect; concurrent observances and neighbouring windows may overlap
+Dussehra,Delhi,2024,2024-10-12: Dussehra,No isolated causal festival effect; concurrent observances and neighbouring windows may overlap
+Dussehra,Delhi,2025,2025-10-02: Dussehra; Mahatma Gandhi's Jayanti,No isolated causal festival effect; concurrent observances and neighbouring windows may overlap
+Dussehra,Karnataka,2024,2024-10-11: [unlabelled annual date]; 2024-10-12: Dussehra,No isolated causal festival effect; concurrent observances and neighbouring windows may overlap
+Dussehra,Karnataka,2025,2025-10-01: [unlabelled annual date]; 2025-10-02: Dussehra; Mahatma Gandhi's Jayanti,No isolated causal festival effect; concurrent observances and neighbouring windows may overlap
+Dussehra,Maharashtra,2024,2024-10-12: Dussehra,No isolated causal festival effect; concurrent observances and neighbouring windows may overlap
+Dussehra,Maharashtra,2025,2025-10-02: Dussehra; Mahatma Gandhi's Jayanti,No isolated causal festival effect; concurrent observances and neighbouring windows may overlap
+Ganesh_Chaturthi,Karnataka,2024,2024-09-07: Ganesh Chaturthi,No isolated causal festival effect; concurrent observances and neighbouring windows may overlap
+Ganesh_Chaturthi,Karnataka,2025,2025-08-27: Ganesh Chaturthi,No isolated causal festival effect; concurrent observances and neighbouring windows may overlap
+Ganesh_Chaturthi,Maharashtra,2024,2024-09-07: Ganesh Chaturthi,No isolated causal festival effect; concurrent observances and neighbouring windows may overlap
+Ganesh_Chaturthi,Maharashtra,2025,2025-08-27: Ganesh Chaturthi,No isolated causal festival effect; concurrent observances and neighbouring windows may overlap
+Holi,Delhi,2024,2024-03-25: Holi,No isolated causal festival effect; concurrent observances and neighbouring windows may overlap
+Holi,Delhi,2025,2025-03-14: Holi,No isolated causal festival effect; concurrent observances and neighbouring windows may overlap
+Holi,Maharashtra,2024,2024-03-25: Holi,No isolated causal festival effect; concurrent observances and neighbouring windows may overlap
+Holi,Maharashtra,2025,2025-03-14: Holi,No isolated causal festival effect; concurrent observances and neighbouring windows may overlap
+Ugadi_Gudi_Padwa,Karnataka,2024,2024-04-09: Ugadi; 2024-04-11: Id-ul-Fitr,No isolated causal festival effect; concurrent observances and neighbouring windows may overlap
+Ugadi_Gudi_Padwa,Karnataka,2025,2025-03-30: Ugadi; 2025-03-31: Id-ul-Fitr,No isolated causal festival effect; concurrent observances and neighbouring windows may overlap
+Ugadi_Gudi_Padwa,Maharashtra,2024,2024-04-09: Gudi Padwa; 2024-04-11: Id-ul-Fitr,No isolated causal festival effect; concurrent observances and neighbouring windows may overlap
+Ugadi_Gudi_Padwa,Maharashtra,2025,2025-03-30: Gudi Padwa; 2025-03-31: Id-ul-Fitr,No isolated causal festival effect; concurrent observances and neighbouring windows may overlap

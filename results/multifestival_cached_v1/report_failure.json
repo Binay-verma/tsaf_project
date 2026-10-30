@@ -1,0 +1,6 @@
+{
+  "stage": "Markdown rendering after predictions and all metrics had completed",
+  "error": "ImportError: Missing optional dependency tabulate",
+  "effect": "No fit or scientific scoring failure; persisted predictions and metrics independently audited",
+  "recovery": "src/report_multifestival.py renders without optional Markdown dependency; no original artifacts overwritten"
+}

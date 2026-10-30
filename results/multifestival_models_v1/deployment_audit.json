@@ -1,0 +1,100 @@
+{
+  "classical_fit_groups": 43,
+  "classical_attempts": 45,
+  "unsuccessful_attempts_retained": 2,
+  "deployment_tasks": 1410,
+  "past_only_deployments": true,
+  "chronos": {
+    "inference_tasks": 470,
+    "native_quantile_crossings": 3,
+    "weight_sha256": "ddcda3c7508bf2528087723e98a20707cc04b7f370ae275a9fd88078ddba4f42",
+    "all_inputs_past_only": true,
+    "first_batch_solo_checks": [
+      {
+        "mode": "calendar",
+        "max_abs_difference": 7.62939453125e-06
+      },
+      {
+        "mode": "calendar",
+        "max_abs_difference": 7.62939453125e-06
+      },
+      {
+        "mode": "calendar",
+        "max_abs_difference": 1.52587890625e-05
+      },
+      {
+        "mode": "calendar",
+        "max_abs_difference": 1.52587890625e-05
+      }
+    ]
+  },
+  "timesfm": {
+    "inference_tasks": 940,
+    "native_quantile_crossings": 0,
+    "weight_sha256": "a7592b0a8432baee54483254e5647856911ce69e09d09a9bb65904b2d98f17da",
+    "all_inputs_past_only": true,
+    "first_batch_solo_checks": [
+      {
+        "mode": "history",
+        "max_abs_difference": 0.0
+      },
+      {
+        "mode": "history",
+        "max_abs_difference": 0.0
+      },
+      {
+        "mode": "history",
+        "max_abs_difference": 0.0
+      },
+      {
+        "mode": "history",
+        "max_abs_difference": 0.0
+      },
+      {
+        "mode": "calendar",
+        "max_abs_difference": 0.0
+      },
+      {
+        "mode": "calendar",
+        "max_abs_difference": 0.0
+      },
+      {
+        "mode": "calendar",
+        "max_abs_difference": 0.0
+      },
+      {
+        "mode": "calendar",
+        "max_abs_difference": 0.0
+      }
+    ]
+  },
+  "old_Diwali_reproduction_diagnostics": [
+    {
+      "worker": "chronos",
+      "mode": "calendar",
+      "same_old_Diwali_cases": 150,
+      "max_abs_prediction_difference": 6.103515625e-05,
+      "within_batch_tolerance": true
+    },
+    {
+      "worker": "timesfm",
+      "mode": "history",
+      "same_old_Diwali_cases": 150,
+      "max_abs_prediction_difference": 0.0,
+      "within_batch_tolerance": true
+    },
+    {
+      "worker": "timesfm",
+      "mode": "calendar",
+      "same_old_Diwali_cases": 150,
+      "max_abs_prediction_difference": 0.0,
+      "within_batch_tolerance": true
+    }
+  ],
+  "native_quantile_quality": {
+    "crossing_pairs": 3,
+    "treatment": "All native quantiles retained; point-score audit does not establish valid ordered/calibrated uncertainty"
+  },
+  "status": "pass",
+  "scope": "Internal software/provenance audit. Not independent human review; historical publication availability and pretraining overlap remain unresolved."
+}

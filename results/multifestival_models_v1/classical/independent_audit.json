@@ -1,0 +1,25 @@
+{
+  "status": "pass",
+  "audit": "Internal independent stdlib reconstruction; not external human review",
+  "configurations": 3,
+  "expected_memberships": 528,
+  "scored_memberships_per_configuration": 528,
+  "rows": 1584,
+  "state_year_metric_cells": 216,
+  "protected_files_unchanged": 71,
+  "checks": [
+    "anchor-to-window reconstruction",
+    "same complete cases for every configuration",
+    "recorded source labels only",
+    "origin+h-1 target alignment",
+    "independent730-day pre-year scales",
+    "MAE/MASE reconstruction",
+    "equal-state/equal-year aggregation",
+    "original/frozen artifact hashes"
+  ],
+  "hashes": {
+    "predictions.csv": "85ab8019fecc2f54ade1cb8f7563c4d4a4f240ff471185369957746f42adf9f9",
+    "metrics_state_year.csv": "a7d6183295f41e5007ab65b42556cc4893a4697df0ce99451367eda9eab970f8",
+    "metrics_festival.csv": "81eeee37bd362bff40eb470c5b9face18b676ced78f685623e5b1e6a955833bf"
+  }
+}

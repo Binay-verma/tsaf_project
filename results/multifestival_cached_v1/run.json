@@ -1,0 +1,10 @@
+{
+  "completed_utc": "2026-10-30T09:33:45.225487+00:00",
+  "completion": "Scientific scores already persisted; report and run metadata recovered without rerunning fitting/scoring or modifying predictions/metrics",
+  "configurations": 9,
+  "prediction_memberships": 4752,
+  "cases_per_configuration": 528,
+  "predictions_sha256": "a49620c8b4fe690575e7d7c0c41cda7961bd83eb193f6cc883d7ed07ae66319f",
+  "no_prospective_scores": true,
+  "timing": "Original wall time not recorded; not fabricated"
+}

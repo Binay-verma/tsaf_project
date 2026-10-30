@@ -1,0 +1,9 @@
+{
+  "completed_utc": "2026-10-30T09:55:06.589261+00:00",
+  "configurations": 15,
+  "scored_cases_per_configuration": 528,
+  "rows": 7920,
+  "protocol_sha256": "b7762c2617b817ce7b7a98fef87449ae15eb5f9c86aa074ad8367c80278e8557",
+  "predictions_sha256": "ceb5d17919b20513f57608afa47851cca3e0b8f6ab467d5034a4b114c8056972",
+  "original_and_frozen_forecasts_unchanged": true
+}
