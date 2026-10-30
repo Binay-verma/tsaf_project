@@ -1,0 +1,36 @@
+{
+  "status": "passed",
+  "rows": 53622,
+  "selection_fits": 648,
+  "selected": 81,
+  "deployment_fits": 999,
+  "checks": [
+    "source labels",
+    "unique finite cases",
+    "lead/date alignment",
+    "past-only selection minima and purge",
+    "frozen selected configurations across refits",
+    "pre-refit fitting labels",
+    "metrics recomputed",
+    "historical data/results unchanged"
+  ],
+  "status_detail": "completed forecasts and metrics; recovered run metadata after relative-path ValueError",
+  "numerical_contract": "float32 full feature matrix",
+  "metadata_repaired_utc": "2026-10-30T06:41:26.829734+00:00",
+  "original_error": "results/stable_tree_refit_v2/protocol.json not subpath of absolute ROOT",
+  "deployment_seconds_sum": 260.0495989650126,
+  "total_wall_seconds": null,
+  "packages": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scikit-learn": "1.8.0",
+    "lightgbm": "4.7.0"
+  },
+  "hashes": {
+    "results/stable_tree_refit_v2/runner_at_execution.py": "ce1a22644a1705f7176af5f39c0f520765122d65f01251d22584b5da11dd6868",
+    "src/robust_baselines.py": "568152c6351826389ae8248fe50fe5bcde5f8db82dfe715c691d6a5f63bca88c",
+    "results/stable_tree_refit_v2/protocol.json": "4da8160ce45801e1b9e8ca134334a46bfd9d29f1f5ed6d28e76a988cb1fe34c3",
+    "data/external/latest_state_energy_GWh.csv": "74d22d5e85b022db13d97dad7c84dca5b9dc8e38d23570bf095d870e71a2f690",
+    "src/audit_stable_tree.py": "938a92f44b533eecff853f8719fbb525d50b05a5d3d405cdbed441f6b1502e62"
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "experiment": "stable_tree_refit_v2",
+  "created_utc": "2026-10-30T06:29:28.133024+00:00",
+  "status": "exploratory version2 numerical-contract study; all historical outcomes known; no confirmatory or tuned-accuracy claim",
+  "years": [
+    2024,
+    2025,
+    2026
+  ],
+  "states": [
+    "Karnataka",
+    "Delhi",
+    "Maharashtra"
+  ],
+  "leads": [
+    1,
+    7,
+    14
+  ],
+  "modes": [
+    "rich_history",
+    "rich_calendar",
+    "rich_regional"
+  ],
+  "refits": [
+    "annual",
+    "monthly"
+  ],
+  "models": [
+    "lightgbm"
+  ],
+  "selection": "One chronological 180-day pre-year validation block per state/year/mode/lead. Fitting labels strictly before validation first ORIGIN; validation labels <= previous Dec31. Select minimum validation MAE, deterministic grid-order tie-break. Freeze chosen hyperparameters for every refit that evaluation year, for both schedules. All data exploratory; none of the evaluation errors selects hyperparameters.",
+  "selection_context_days": 730,
+  "validation_days": 180,
+  "training_context_days": 730,
+  "ridge_alphas": [
+    1.0,
+    10.0,
+    100.0
+  ],
+  "lightgbm_grid": [
+    {
+      "num_leaves": 7,
+      "n_estimators": 200,
+      "min_child_samples": 5,
+      "reg_lambda": 10.0
+    },
+    {
+      "num_leaves": 7,
+      "n_estimators": 200,
+      "min_child_samples": 20,
+      "reg_lambda": 10.0
+    },
+    {
+      "num_leaves": 7,
+      "n_estimators": 500,
+      "min_child_samples": 5,
+      "reg_lambda": 10.0
+    },
+    {
+      "num_leaves": 7,
+      "n_estimators": 500,
+      "min_child_samples": 20,
+      "reg_lambda": 10.0
+    },
+    {
+      "num_leaves": 31,
+      "n_estimators": 200,
+      "min_child_samples": 5,
+      "reg_lambda": 10.0
+    },
+    {
+      "num_leaves": 31,
+      "n_estimators": 200,
+      "min_child_samples": 20,
+      "reg_lambda": 10.0
+    },
+    {
+      "num_leaves": 31,
+      "n_estimators": 500,
+      "min_child_samples": 5,
+      "reg_lambda": 10.0
+    },
+    {
+      "num_leaves": 31,
+      "n_estimators": 500,
+      "min_child_samples": 20,
+      "reg_lambda": 10.0
+    }
+  ],
+  "lightgbm_fixed": {
+    "learning_rate": 0.05,
+    "random_state": 42,
+    "n_jobs": 1,
+    "verbosity": -1,
+    "deterministic": true,
+    "force_col_wise": true
+  },
+  "history_features": {
+    "origin_lags": [
+      1,
+      2,
+      3,
+      7,
+      14,
+      21,
+      28,
+      56,
+      364,
+      365,
+      366
+    ],
+    "rolling_windows": [
+      7,
+      28,
+      56
+    ],
+    "rolling_statistics": [
+      "mean",
+      "std",
+      "min",
+      "max"
+    ],
+    "trend": "mean7 minus mean28",
+    "target_aligned_annual_lags": [
+      364,
+      365,
+      366
+    ]
+  },
+  "calendar": "same seven weekday indicators and three annual sine/cosine pairs; regional mode adds same seven documented event channels as checkpoint, not new outcome-selected dates",
+  "input_availability": "history uses only dates strictly preceding first-unseen origin; target-aligned annual lags are past for every declared horizon. Causal fill allowed for inputs; labels must be recorded positive values.",
+  "refit": "At Jan1, or first of each month, fit using preceding 730 calendar days of label dates ending refit_date-1; purge direct multi-step labels so max fitting target < refit origin. Retain parameters until next refit; rolling observed-history features update daily.",
+  "cases": "same dense daily-origin schedule as original expanded evaluation, Jan1-Dec18, 2026 ending Oct15 (all leads share origins).",
+  "scaling": "For comparable reported MASE use fixed pre-year 730-day observed weekly-difference scale, identical to historical comparisons. Do not update score scale monthly.",
+  "reporting": "every configuration, all/event/non-event, state/year/lead, fit/selection failures and logs, runtime; Chronos comparison on exact same cases. Event years 2024-25 only. No row-independence or significance claims.",
+  "primary_contrast": "monthly minus annual MASE for each model and feature mode on identical cases, equal state/year weighting; no best-arm selection",
+  "limits": [
+    "richer does not mean strongest possible baseline",
+    "single historical validation block and narrow fixed budget",
+    "calendar amendments/vintage unresolved",
+    "all current data exploratory"
+  ],
+  "feature_arithmetic_contract": "Calculate prescribed history/calendar features as before, then cast full feature matrix to float32 before training and prediction. Record actual tensor hashes. This is a new numerical-contract run, never rewrite old or frozen forecasts.",
+  "reason": "Separate scalar/pandas rolling calculations differ by about2.4e-11; recorded LightGBM example changes by4.28GWh although label arrays and selected grid IDs match. One/two threads on identical production arrays match exactly. Both independent feature matrices match when castfloat32. Mitigation chosen for reproducibility, not evaluation accuracy.",
+  "previous": "results/strong_refit_v1 remains unchanged with failed scalar-implementation review retained"
+}

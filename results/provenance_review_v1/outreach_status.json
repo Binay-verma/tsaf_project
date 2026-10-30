@@ -1,0 +1,13 @@
+{
+  "requester": "Binay Verma",
+  "gmail_sending_was_authorized": true,
+  "latest_user_instruction": "User sent mail manually and will use project for college presentation; permission reply pending",
+  "recipient": "robbie.andrew@cicero.oslo.no",
+  "recipient_source": "https://cicero.oslo.no/en/employees/robbie-andrew",
+  "assistant_sent": false,
+  "rights_response_received": false,
+  "independent_human_reviewer": null,
+  "gmail_installation_result": "user confirmed, not completed; no Gmail tools became available; manual send supersedes automated send",
+  "user_reports_sent": true,
+  "user_report_received_utc": "2026-10-30T07:57:18.463016+00:00"
+}

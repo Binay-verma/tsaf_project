@@ -1,16 +1,15 @@
-# Submission gates — current evidence, not a readiness claim
+# Submission gates — updated after executed gate studies
 
-| Gate | Current evidence | Remaining requirement |
+| Gate | Completed evidence | Still open / actual dependency |
 | --- | --- | --- |
-| Distinct contribution | Controlled negative representation/adaptation/transfer findings; live primary-paper methods/abstract checks | Decide a justified empirical contribution against nearest work; no new-method/first-ever claim |
-| Fairer local baselines | Rich-history Ridge/LightGBM, past-only selection, annual/monthly matched comparisons complete | Independent review of adequacy; weather/other local architectures remain optional limitations |
-| Region/event transfer | Forward-year source-only regression-region fitting complete, often negative | Additional genuinely independent regions/events/source; target context is permitted, not cold start |
-| Independent TSFM | Actual TimesFM weights/code audit and native covariate/quantile fixture complete | Matched historical event replication now complete; broader equal-information/placebo controls across both TSFMs and model-specific exposure limitations remain |
-| Calendar provenance | Twelve annual schedules plus explicit anchors and controlled perturbations | Amendment/issue/effective-date checks for used histories, independent regional reviewer |
-| Data rights and availability | Attribution, raw extraction/units checks, live curator/repository inspection | Explicit reuse/redistribution terms and processing/vintage evidence; no licence inferred from public access |
-| Uncertainty | Residual interval diagnostics complete; native TimesFM quantiles recorded | Matched-level native probabilistic comparison and further past-only calibration evidence; few events limit claims |
-| Fresh outcomes | Six configurations frozen in GitHub before eligible dates | Outcomes through Nov11 must first occur and be acquired/audited. Score frozen artifacts without retuning. One episode is limited evidence |
-| Independent reproduction | Tests, source/hash/label/case/metric audits completed in current environment | Separate clean-environment/scientific reviewer and author verification |
-| Manuscript | Evidence-linked working draft with honest negative findings and pending scores | Event replication integrated; final bibliographic/rights review, choose venue, required reporting/release documents and author approval |
+| Mechanism controls | Nine fixed arms on both pinned TSFMs,2700 matched scored predictions; equal dimensions/zeros/placebos; all cases preserved | Effects remain representation/model dependent; two clusters/one seed do not prove a universal or causal mechanism. No new-method claim |
+| Stronger/fairer local baselines | Rich histories, pre-year selection and annual/monthly comparisons; numerical-contract version2 separately run and audited | Coverage is bounded, not strongest conceivable model. Version1 numerical failures retained |
+| Reproduction |32tests pass in working and separate clean environments; separate implementation checks; version2 twelve forecasts/three choices exact | Independent HUMAN scientific review and full clean-room inference not completed; requester Binay Verma is not an independent reviewer |
+| Source vintages | Exact frozen Git revision, three digest-verified older archives, dated revision inventory and48-task availability sensitivity | Sparse captures are not exhaustive releases; physical/report-day convention and upstream correction/imputation need curator/primary-source clarification |
+| Calendar amendments | Six strengthened issue/date rows and28used-anchor worksheet; scopes distinguished | Official index/document retrieval failures and incomplete amendment chain; independent regional reviewer needed |
+| Data rights | Public source/repository/metadata/policy searches recorded; signed permission request prepared; professional recipient verified | No applicable reuse grant established. User will send request manually; author/rightsholder response required |
+| Second model | Pinned actual weights/source, API check and matched historical event evaluation complete | Historical overlap unresolved; cannot inherit another model's clearance or claim source-independent replication |
+| Prospective evidence | Original forecasts frozen in Git before eligible dates; date/completeness/hash-gated GitHub automation registered and dry-run successful; currently paused pending sharing choice |31October–11November outcomes have not occurred here. Source/GitHub/branch availability can affect future execution; one episode remains limited |
+| Manuscript | Working draft integrates positive/negative controls, precision and vintage findings and preserves prior results | Human author/reviewer approval, rights/calendar responses, bibliography/venue review and sufficient independent evidence before submission |
 
-No submission, journal acceptance or completion of the pending work is claimed. No paper is automatically submitted or published. Code/data GitHub synchronization is authorized separately by the user; it does not grant a new licence over third-party source data or weights.
+No peer review, licence, completed future score, submission or acceptance is fabricated. Review/request documents are in `review/`. Automated scores will not automatically approve the paper for submission.

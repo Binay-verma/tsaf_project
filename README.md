@@ -1,3 +1,5 @@
+> Latest local checkpoint: broader two-model controls, numerical-contract review, historical vintages and a college presentation are ready. See [current status](CURRENT_RESEARCH_STATUS.md). New public uploads and prospective automation are paused pending the user’s repository-sharing choice.
+
 > Current continuation (30 October 2026): richer baselines/refits, regression-region transfer, an audited TimesFM historical event comparison, and frozen prospective forecasts are complete. See [current status](CURRENT_RESEARCH_STATUS.md), [working manuscript](manuscript/DRAFT.md), and [reproduction](PHASE2_REPRODUCTION.md). Prospective scores and journal submission gates remain open. Older results below are preserved as historical context.
 
 # Continuing in Codex

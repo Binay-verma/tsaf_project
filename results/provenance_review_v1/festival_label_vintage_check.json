@@ -1,0 +1,27 @@
+{
+  "archive_capture": "20251108074701",
+  "rows": [
+    {
+      "state": "Delhi",
+      "matched_case_rows": 42,
+      "archive_missing_case_labels": 0,
+      "changed_case_labels": 0,
+      "max_case_label_difference": 0.0
+    },
+    {
+      "state": "Karnataka",
+      "matched_case_rows": 54,
+      "archive_missing_case_labels": 0,
+      "changed_case_labels": 0,
+      "max_case_label_difference": 0.0
+    },
+    {
+      "state": "Maharashtra",
+      "matched_case_rows": 54,
+      "archive_missing_case_labels": 0,
+      "changed_case_labels": 0,
+      "max_case_label_difference": 0.0
+    }
+  ],
+  "limits": "Checks only event labels against this later capture; does not certify origin-time history or initial label release"
+}

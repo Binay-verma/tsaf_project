@@ -1,0 +1,34 @@
+{
+  "model": "timesfm3",
+  "scored_rows": 1350,
+  "inference_tasks": 1152,
+  "all_forecast_days": 16128,
+  "seconds": 2945.533520479,
+  "levels": [
+    0.1,
+    0.2,
+    0.3,
+    0.4,
+    0.5,
+    0.6,
+    0.7,
+    0.8,
+    0.9
+  ],
+  "weight_sha256": "a7592b0a8432baee54483254e5647856911ce69e09d09a9bb65904b2d98f17da",
+  "packages": {
+    "torch": "2.15.0+cpu",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "transformers": "5.22.0",
+    "chronos-forecasting": "2.3.2",
+    "timesfm": "3.0.2"
+  },
+  "hashes": {
+    "src/foundation_controls.py": "6c176431c921835b173a515e927d69fa8e1b6488e75d0d69a61dccf51680726a",
+    "src/calendar_controls.py": "c6f83240b22a791b1d8b1ed179bee3e28907d8356531ae2a1579c0e84c7a7da6",
+    "results/mechanism_controls_v1/protocol.json": "dcff0ba15a79f2a4a19b7396d25bc3acd9243868432902f2a45b1e6826b1499e",
+    "results/mechanism_controls_v1/cases.csv": "d5aacfc428b503f17b5020bd323ef991782164c8e0d03ec71025bf1ad547415a",
+    "data/external/latest_state_energy_GWh.csv": "74d22d5e85b022db13d97dad7c84dca5b9dc8e38d23570bf095d870e71a2f690"
+  }
+}

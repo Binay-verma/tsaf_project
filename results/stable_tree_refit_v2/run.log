@@ -1,0 +1,18 @@
+Completed rich refits Karnataka 2024
+Completed rich refits Karnataka 2025
+Completed rich refits Karnataka 2026
+Completed rich refits Delhi 2024
+Completed rich refits Delhi 2025
+Completed rich refits Delhi 2026
+Completed rich refits Maharashtra 2024
+Completed rich refits Maharashtra 2025
+Completed rich refits Maharashtra 2026
+Traceback (most recent call last):
+  File "/workspace/tsaf_project/src/stable_tree_refit.py", line 21, in <module>
+    robust_baselines.main()
+  File "/workspace/tsaf_project/src/robust_baselines.py", line 183, in main
+    hashes={str(f.relative_to(ROOT)): hashlib.sha256(f.read_bytes()).hexdigest() for f in
+                ^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/pathlib.py", line 682, in relative_to
+    raise ValueError(f"{str(self)!r} is not in the subpath of {str(other)!r}")
+ValueError: 'results/stable_tree_refit_v2/protocol.json' is not in the subpath of '/workspace/tsaf_project'

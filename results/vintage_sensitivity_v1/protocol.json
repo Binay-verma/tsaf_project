@@ -1,0 +1,29 @@
+{
+  "experiment": "vintage_sensitivity_v1",
+  "created_utc": "2026-10-30T06:26:02.573684+00:00",
+  "status": "fixed retrospective availability sensitivity, outcomes already known; not real prospective scoring or exhaustive vintage reconstruction",
+  "cases": "same six state/issue-date contexts as original TimesFM API fixture: three states x2026Sep1/Oct1, all14 target days from issue; both history and ordinary calendar",
+  "models": [
+    "chronos2",
+    "timesfm3"
+  ],
+  "scenarios": [
+    "ideal_retrospective",
+    "git_snapshot_at_India_midnight"
+  ],
+  "context": 730,
+  "threads": 1,
+  "batch": 1,
+  "data": "fixed source snapshots/commits in provenance_review_v1/git_vintage_audit.json; raw copies outside checkout. No new source outcomes after frozen2026Oct28 retrieved.",
+  "availability": "Git snapshot is latest recorded commit before00:00 Asia/Kolkata on issue date; usable context ends at last recorded state label. Forecast first-unseen origin equals context-last+1, horizon extends by missing context gap; score identical issue-day..issue+13 targets across scenarios. Never fill unobserved trailing days to pretend they were reported.",
+  "known_future": "ordinary13 calendar channels for past context and complete future horizon; no future targets/no2026holiday anchors",
+  "reference": "ideal_retrospective uses frozen source through issue-1 as in earlier benchmark; both scenarios are freshly inferred under identical current packages/settings to isolate availability difference",
+  "scoring": "MAE and fixed pre2026 weekly-scale MASE, per state/lead/issue; equal-state/issue macro; individual horizon mapping retained",
+  "limitations": [
+    "Only two recorded Git vintages; commit times are not certified first publication times",
+    "No recorded Git vintages for2024/25 in this repository; absence does not establish never published elsewhere",
+    "Retrospective ideal input assumes more timely labels than midnight Git snapshots",
+    "No source reuse clearance or independent dataset replication",
+    "Frozen prospective forecasts never modified; no final future scores"
+  ]
+}

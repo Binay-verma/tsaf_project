@@ -1,0 +1,8 @@
+{
+  "updated_utc": "2026-10-30T08:02:33.732328+00:00",
+  "pause_status": 204,
+  "workflow_state": "disabled_manually",
+  "reason": "User specified college-only use; repository is public and visibility preference is pending. Prevent new automatic public score uploads.",
+  "dry_run_success_preserved": true,
+  "reenable_after_explicit_sharing_choice": true
+}

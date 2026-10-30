@@ -1,0 +1,20 @@
+[
+  {
+    "name": "ddg_ka",
+    "query": "\"DPAR 16 HHL 2023\" holiday amendment",
+    "url": "https://html.duckduckgo.com/html/?q=%22DPAR%2016%20HHL%202023%22%20holiday%20amendment",
+    "status": 200
+  },
+  {
+    "name": "ddg_mh",
+    "query": "\"Maharashtra\" \"2024\" \"holiday\" \"amendment\" Diwali",
+    "url": "https://html.duckduckgo.com/html/?q=%22Maharashtra%22%20%222024%22%20%22holiday%22%20%22amendment%22%20Diwali",
+    "status": 200
+  },
+  {
+    "name": "ddg_dl",
+    "query": "\"Delhi\" \"Diwali\" \"2024\" \"notification\" October 31",
+    "url": "https://html.duckduckgo.com/html/?q=%22Delhi%22%20%22Diwali%22%20%222024%22%20%22notification%22%20October%2031",
+    "status": 200
+  }
+]

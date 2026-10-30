@@ -1,0 +1,15 @@
+[
+  {
+    "name": "actions_permissions",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "workflow_runs_before",
+    "status": 200
+  },
+  {
+    "name": "date-gated workflow dry run",
+    "status": 204,
+    "requested_utc": "2026-10-30T07:12:17.897672+00:00"
+  }
+]

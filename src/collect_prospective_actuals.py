@@ -23,6 +23,23 @@ def ready(now):
     return now.year == 2026 and now.date() > dt.date(2026,11,11)
 
 
+def complete_result(out):
+    required=['audit.json','collection.json','actuals_snapshot.csv','source_metadata_snapshot.json','scored_predictions.csv']
+    if not all((out/name).is_file() for name in required):
+        return False
+    try:
+        audit=json.loads((out/'audit.json').read_text())
+        collection=json.loads((out/'collection.json').read_text())
+        freeze=json.loads((FROZEN/'freeze.json').read_text())
+        return (audit['frozen_predictions_sha256']==freeze['predictions_sha256'] and
+                audit['scored_rows']==216 and
+                hashlib.sha256((out/'actuals_snapshot.csv').read_bytes()).hexdigest()==collection['eligible_labels_sha256'] and
+                hashlib.sha256((out/'scored_predictions.csv').read_bytes()).hexdigest()==collection['scored_predictions_sha256'] and
+                hashlib.sha256((out/'source_metadata_snapshot.json').read_bytes()).hexdigest()==collection['source_metadata_snapshot_sha256'])
+    except (KeyError,ValueError,OSError):
+        return False
+
+
 def extract(raw, metadata):
     if raw[:2] == b'\x1f\x8b':
         raw = gzip.decompress(raw)
@@ -58,7 +75,7 @@ def main():
         print('PENDING: no network request or score before full target period ends; collection limited to2026.')
         return
     if args.out.exists():
-        if (args.out/'audit.json').is_file():
+        if complete_result(args.out):
             output(False)
             print('ALREADY SCORED: preserve first recorded evaluation; no automatic overwrite.')
             return
@@ -90,6 +107,8 @@ def main():
     collection = dict(retrieved_utc=retrieved,source_url=SOURCE,metadata_url=METADATA,
         raw_source_sha256=hashlib.sha256(raw).hexdigest(),metadata_sha256=hashlib.sha256(meta_raw).hexdigest(),
         eligible_labels_sha256=hashlib.sha256(actual_bytes).hexdigest(),original_freeze_commit=FREEZE_COMMIT,
+        scored_predictions_sha256=hashlib.sha256((args.out/'scored_predictions.csv').read_bytes()).hexdigest(),
+        source_metadata_snapshot_sha256=hashlib.sha256((args.out/'source_metadata_snapshot.json').read_bytes()).hexdigest(),
         original_forecast_git_blob=original_blob,
         warning='First post-period source snapshot, not certified final/unimputed labels or human scientific approval. Do not retune forecasts on these scores.')
     (args.out/'collection.json').write_text(json.dumps(collection,indent=2)+'\n')

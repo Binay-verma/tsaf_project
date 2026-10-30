@@ -1,0 +1,22 @@
+[
+  {
+    "name": "ka_dpar",
+    "url": "https://dpar.karnataka.gov.in/english",
+    "error": "HTTP Error 503: Service Unavailable"
+  },
+  {
+    "name": "mh_gad",
+    "url": "https://gad.maharashtra.gov.in/en/",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "name": "dl_gad",
+    "url": "https://gad.delhi.gov.in/",
+    "error": "HTTP Error 503: Service Unavailable"
+  },
+  {
+    "name": "ka2025_cag",
+    "url": "https://cag.gov.in/uploads/media/Karnataka-State-Holidays-2025-067764409e26023-56493682.pdf",
+    "error": "HTTP Error 404: Not Found"
+  }
+]

@@ -1,0 +1,11 @@
+[
+  {
+    "url": "https://web.archive.org/cdx/search/cdx?url=grid-india.in/*copyright*&output=json&filter=statuscode:200&collapse=urlkey&to=20261030",
+    "error": "HTTP Error 503: Service Unavailable"
+  },
+  {
+    "url": "https://web.archive.org/cdx/search/cdx?url=posoco.in/*copyright*&output=json&filter=statuscode:200&collapse=urlkey&to=20261030",
+    "status": 200,
+    "bytes": 3
+  }
+]

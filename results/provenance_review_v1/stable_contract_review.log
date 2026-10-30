@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "python": "3.12.14",
+  "experiment": "stable_tree_refit_v2",
+  "feature_contract": "float32",
+  "interpreter": "/workspace/tsfm-clean-review/bin/python",
+  "inherited_system_packages": false,
+  "selected_configurations_reproduced": 3,
+  "forecast_checks": 12,
+  "max_forecast_difference": 0.0,
+  "scope": "Karnataka2026, rich_calendar, three leads, annual/monthly examples; not all forecasts or human review",
+  "packages": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scikit-learn": "1.8.0",
+    "lightgbm": "4.7.0",
+    "scipy": "1.18.1"
+  },
+  "code_sha256": "a326ac987c73d3d54b38f1ce21efa24356fd16b9c8f95c98a633bf9444c2642b"
+}

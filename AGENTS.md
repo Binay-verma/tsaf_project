@@ -29,3 +29,7 @@ Before ending a substantial session, update `WORK_LOG.md` and the current-state/
 ## GitHub checkpoints
 
 The user requests that completed tasks be committed and pushed to `Binay-verma/tsaf_project`. They explicitly requested the full project, including data, predictions and evidence. Preserve attribution/reuse notices; do not invent a new data licence. Exclude local virtual environments, caches and credentials. Use normal commits and pushes, preserve remote changes, and verify the remote commit after pushing. Do not force-push without separate authorization.
+
+## Latest sharing and outreach instructions
+
+The user reports sending the permission email manually; do not send a duplicate through Gmail. Binay Verma is author/requester, not an independent reviewer. College presentation deadline is1November2026. The earlier GitHub repository is public, but the user clarified college-only use; private/public sharing choice is pending. Hold new public research/presentation uploads until clarified. The existing prospective auto-scoring workflow is paused for this reason. After an explicit sharing choice, verify repository visibility before pushing/re-enabling. All frozen forecasts remain unchanged.

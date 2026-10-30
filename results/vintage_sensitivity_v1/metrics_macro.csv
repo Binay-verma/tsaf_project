@@ -1,0 +1,9 @@
+model,mode,scenario,scaled
+chronos2,calendar,git_snapshot_at_India_midnight,1.841348190965661
+chronos2,calendar,ideal_retrospective,1.7262802269477697
+chronos2,history,git_snapshot_at_India_midnight,1.766721748138045
+chronos2,history,ideal_retrospective,1.5873310083129244
+timesfm3,calendar,git_snapshot_at_India_midnight,1.4545368104917487
+timesfm3,calendar,ideal_retrospective,1.3996380099675765
+timesfm3,history,git_snapshot_at_India_midnight,1.4281501215608088
+timesfm3,history,ideal_retrospective,1.335315201648962

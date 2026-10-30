@@ -1,0 +1,11 @@
+{
+  "horizon": 7,
+  "cutoff": "2026-04-30",
+  "origin": "2026-05-15",
+  "predictions_on_identical_query": {
+    "production_1thread": 268.7458959845414,
+    "production_2threads": 268.7458959845414,
+    "separate_scalar_1thread": 273.0257117064648
+  },
+  "scope": "diagnosis only; no change to saved forecasts, source code or frozen prospective predictions"
+}

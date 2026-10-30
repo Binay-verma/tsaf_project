@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "rows": 672,
+  "cases_per_model_mode_scenario": 84,
+  "checks": [
+    "source labels/scales",
+    "unique finite predictions",
+    "identical issue-relative targets",
+    "first-unseen lead mapping",
+    "context strictly before issue",
+    "recorded commits before midnight cutoff",
+    "snapshot byte hashes",
+    "macro metrics recomputed"
+  ],
+  "caveat": "Recorded snapshot availability only, not all publishing channels or complete first-publication certification"
+}

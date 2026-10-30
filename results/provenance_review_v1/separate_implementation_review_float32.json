@@ -1,0 +1,147 @@
+{
+  "status": "passed",
+  "python": "3.12.14",
+  "experiment": "stable_tree_refit_v2",
+  "feature_contract": "float32",
+  "interpreter": "/workspace/tsfm-clean-review/bin/python",
+  "inherited_system_packages": false,
+  "selected_configurations_reproduced": 3,
+  "forecast_checks": 12,
+  "max_forecast_difference": 0.0,
+  "scope": "Karnataka2026, rich_calendar, three leads, annual/monthly examples; not all forecasts or human review",
+  "packages": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scikit-learn": "1.8.0",
+    "lightgbm": "4.7.0",
+    "scipy": "1.18.1"
+  },
+  "searches": [
+    {
+      "model": "lightgbm",
+      "horizon": 1,
+      "chosen": 0,
+      "recorded": 0,
+      "selected_matches": true,
+      "loss_matches": true,
+      "max_selected_loss_difference": 0.0
+    },
+    {
+      "model": "lightgbm",
+      "horizon": 7,
+      "chosen": 5,
+      "recorded": 5,
+      "selected_matches": true,
+      "loss_matches": true,
+      "max_selected_loss_difference": 0.0
+    },
+    {
+      "model": "lightgbm",
+      "horizon": 14,
+      "chosen": 1,
+      "recorded": 1,
+      "selected_matches": true,
+      "loss_matches": true,
+      "max_selected_loss_difference": 3.552713678800501e-15
+    }
+  ],
+  "forecasts": [
+    {
+      "model": "lightgbm",
+      "horizon": 1,
+      "schedule": "annual",
+      "origin": "2026-01-01",
+      "absolute_difference": 0.0,
+      "matches": true
+    },
+    {
+      "model": "lightgbm",
+      "horizon": 1,
+      "schedule": "annual",
+      "origin": "2026-10-15",
+      "absolute_difference": 0.0,
+      "matches": true
+    },
+    {
+      "model": "lightgbm",
+      "horizon": 1,
+      "schedule": "monthly",
+      "origin": "2026-05-15",
+      "absolute_difference": 0.0,
+      "matches": true
+    },
+    {
+      "model": "lightgbm",
+      "horizon": 1,
+      "schedule": "monthly",
+      "origin": "2026-10-15",
+      "absolute_difference": 0.0,
+      "matches": true
+    },
+    {
+      "model": "lightgbm",
+      "horizon": 7,
+      "schedule": "annual",
+      "origin": "2026-01-01",
+      "absolute_difference": 0.0,
+      "matches": true
+    },
+    {
+      "model": "lightgbm",
+      "horizon": 7,
+      "schedule": "annual",
+      "origin": "2026-10-15",
+      "absolute_difference": 0.0,
+      "matches": true
+    },
+    {
+      "model": "lightgbm",
+      "horizon": 7,
+      "schedule": "monthly",
+      "origin": "2026-05-15",
+      "absolute_difference": 0.0,
+      "matches": true
+    },
+    {
+      "model": "lightgbm",
+      "horizon": 7,
+      "schedule": "monthly",
+      "origin": "2026-10-15",
+      "absolute_difference": 0.0,
+      "matches": true
+    },
+    {
+      "model": "lightgbm",
+      "horizon": 14,
+      "schedule": "annual",
+      "origin": "2026-01-01",
+      "absolute_difference": 0.0,
+      "matches": true
+    },
+    {
+      "model": "lightgbm",
+      "horizon": 14,
+      "schedule": "annual",
+      "origin": "2026-10-15",
+      "absolute_difference": 0.0,
+      "matches": true
+    },
+    {
+      "model": "lightgbm",
+      "horizon": 14,
+      "schedule": "monthly",
+      "origin": "2026-05-15",
+      "absolute_difference": 0.0,
+      "matches": true
+    },
+    {
+      "model": "lightgbm",
+      "horizon": 14,
+      "schedule": "monthly",
+      "origin": "2026-10-15",
+      "absolute_difference": 0.0,
+      "matches": true
+    }
+  ],
+  "code_sha256": "a326ac987c73d3d54b38f1ce21efa24356fd16b9c8f95c98a633bf9444c2642b"
+}

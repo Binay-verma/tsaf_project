@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "rows": 53622,
+  "selection_fits": 648,
+  "selected": 81,
+  "deployment_fits": 999,
+  "checks": [
+    "source labels",
+    "unique finite cases",
+    "lead/date alignment",
+    "past-only selection minima and purge",
+    "frozen selected configurations across refits",
+    "pre-refit fitting labels",
+    "metrics recomputed",
+    "historical data/results unchanged"
+  ]
+}

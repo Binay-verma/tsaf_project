@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "model": "chronos2",
+  "rows": 1350,
+  "cases_per_arm": 150,
+  "zero_channel_sensitivity": {
+    "zero_1": {
+      "max_prediction_change": 1.4229431152343466,
+      "mean_prediction_change": 0.36754720052083373
+    },
+    "zero_7": {
+      "max_prediction_change": 6.05218505859375,
+      "mean_prediction_change": 1.5247687784830717
+    }
+  },
+  "delhi_identical_information_checks": {
+    "generic_window/regional_window": 0.0,
+    "generic_7/regional_7": 0.0
+  },
+  "quantile_crossings": 0,
+  "protected_historical_files": 61,
+  "frozen_forecasts_unchanged": true,
+  "caveat": "Two historical event clusters; one seeded placebo; dimension controls do not establish a causal provenance mechanism"
+}

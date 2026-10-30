@@ -1,0 +1,18 @@
+{
+  "reviewed_rows": 6,
+  "not_a_full_ledger": true,
+  "source_scopes_separated": true,
+  "new_model_dates_added": false,
+  "known_search_limits": [
+    "Official Karnataka/Delhi indexes returned503, Maharashtra chosen index404",
+    "Several mirrored documents403/406 and a CAG2025link404",
+    "Search failures do not establish absence of amendments",
+    "Maharashtra additional office holidays and public/NI holidays are distinct; no wholesale bank calendar substitution"
+  ],
+  "fresh_retrievals": [
+    {
+      "path": "results/provenance_review_v1/mh2025_bank.pdf",
+      "sha256": "b9f09412f265667e8dfa456917b10a1a4019620f13cef1a2cdfd646080679de7"
+    }
+  ]
+}

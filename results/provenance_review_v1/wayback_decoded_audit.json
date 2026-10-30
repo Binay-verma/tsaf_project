@@ -1,0 +1,116 @@
+{
+  "retrieved_utc": "2026-10-30T06:47:02.908938+00:00",
+  "snapshots": [
+    {
+      "capture_timestamp": "20240918064611",
+      "archive_digest": "W2TVX3QECVS5TLXY4LHDCUBE47NIX26A",
+      "archive_digest_matches": "encoded transport",
+      "raw_sha256": "22e6cd97bbd862e3b671881f4fe80fc1d352ed668808fea895ebf67ef282dc32",
+      "decoded_sha256": "8f39b51ea19a3c849630ac5ddaded137d41d3e63b41098c427ef980b3d680110",
+      "rows": 4277,
+      "columns": 138,
+      "first_date": "2013-01-02",
+      "last_date": "2024-09-17",
+      "changes": [
+        {
+          "state": "Karnataka",
+          "comparable": 4165,
+          "changed_gt1e_6": 4,
+          "max_revision": 14.5,
+          "later_filled": 0
+        },
+        {
+          "state": "Delhi",
+          "comparable": 4165,
+          "changed_gt1e_6": 4,
+          "max_revision": 14.409999999999997,
+          "later_filled": 0
+        },
+        {
+          "state": "Maharashtra",
+          "comparable": 4165,
+          "changed_gt1e_6": 2,
+          "max_revision": 30.0,
+          "later_filled": 0
+        }
+      ],
+      "status": "decoded and archive digest verified"
+    },
+    {
+      "capture_timestamp": "20251016070145",
+      "archive_digest": "DPSQUQE3LQZAETF2IN7CEJW3UZ7T6AJ3",
+      "archive_digest_matches": "encoded transport",
+      "raw_sha256": "b1c1b8be3e93d3219e976919c0a90ca64f8e4c8e349a26e8252d4aba67538918",
+      "decoded_sha256": "d0515367e711ca99d37228281f756c72fccbf886eeef3f1bdc3ec0cf5040f603",
+      "rows": 4670,
+      "columns": 139,
+      "first_date": "2013-01-02",
+      "last_date": "2025-10-15",
+      "changes": [
+        {
+          "state": "Karnataka",
+          "comparable": 4558,
+          "changed_gt1e_6": 10,
+          "max_revision": 53.56,
+          "later_filled": 0
+        },
+        {
+          "state": "Delhi",
+          "comparable": 4558,
+          "changed_gt1e_6": 10,
+          "max_revision": 14.409999999999997,
+          "later_filled": 0
+        },
+        {
+          "state": "Maharashtra",
+          "comparable": 4558,
+          "changed_gt1e_6": 3,
+          "max_revision": 61.5,
+          "later_filled": 0
+        }
+      ],
+      "status": "decoded and archive digest verified"
+    },
+    {
+      "capture_timestamp": "20251108074701",
+      "archive_digest": "TGZSIIKGJOMGBEUEMC4HQTF2G56ZP37B",
+      "archive_digest_matches": "encoded transport",
+      "raw_sha256": "a7f14ebc08a2d55239e27f74126da2dbe7b0ff18754aa2dcda4c6dafe78ba0da",
+      "decoded_sha256": "ed63548baafdb7e211b94a4dcce2e75cc8d3fe65eb6e53eaeb9d9761ddcc5d08",
+      "rows": 4692,
+      "columns": 139,
+      "first_date": "2013-01-02",
+      "last_date": "2025-11-06",
+      "changes": [
+        {
+          "state": "Karnataka",
+          "comparable": 4580,
+          "changed_gt1e_6": 10,
+          "max_revision": 53.56,
+          "later_filled": 0
+        },
+        {
+          "state": "Delhi",
+          "comparable": 4580,
+          "changed_gt1e_6": 10,
+          "max_revision": 14.409999999999997,
+          "later_filled": 0
+        },
+        {
+          "state": "Maharashtra",
+          "comparable": 4580,
+          "changed_gt1e_6": 3,
+          "max_revision": 61.5,
+          "later_filled": 0
+        }
+      ],
+      "status": "decoded and archive digest verified"
+    }
+  ],
+  "original_failure": "urllib left Content-Encoding gzip payload compressed; raw bytes retained; corrected decoding with CRC and provider digest checks",
+  "limits": [
+    "Sparse archived snapshots, not complete daily vintage reconstruction",
+    "Archive capture is evidence of capture-time content, not certified first publication",
+    "No future2026 prospective outcomes retrieved"
+  ]
+}

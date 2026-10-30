@@ -2,10 +2,17 @@ import datetime as dt
 import unittest
 from pathlib import Path
 import json
-from collect_prospective_actuals import ready,extract
+import tempfile
+from collect_prospective_actuals import ready,extract,complete_result
 
 
 class CollectionChecks(unittest.TestCase):
+    def test_partial_existing_output_is_not_called_complete(self):
+        with tempfile.TemporaryDirectory() as folder:
+            root=Path(folder)
+            (root/'audit.json').write_text('{}')
+            self.assertFalse(complete_result(root))
+
     def test_clock_gate_and_no_recurrence_in_other_years(self):
         self.assertFalse(ready(dt.datetime(2026,10,30,tzinfo=dt.timezone.utc)))
         self.assertFalse(ready(dt.datetime(2026,11,11,tzinfo=dt.timezone.utc)))

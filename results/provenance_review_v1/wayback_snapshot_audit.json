@@ -1,0 +1,27 @@
+{
+  "retrieved_utc": "2026-10-30T06:44:23.792751+00:00",
+  "snapshots": [
+    {
+      "capture_timestamp": "20240918064611",
+      "url": "https://web.archive.org/web/20240918064611id_/https://robbieandrew.github.io/india/data/POSOCO_data.csv",
+      "capture_is_not_certified_first_publication": true,
+      "status": "retrieval failed",
+      "error": "'utf-8' codec can't decode byte 0x8b in position 1: invalid start byte"
+    },
+    {
+      "capture_timestamp": "20251016070145",
+      "url": "https://web.archive.org/web/20251016070145id_/https://robbieandrew.github.io/india/data/POSOCO_data.csv",
+      "capture_is_not_certified_first_publication": true,
+      "status": "retrieval failed",
+      "error": "'utf-8' codec can't decode byte 0x8b in position 1: invalid start byte"
+    },
+    {
+      "capture_timestamp": "20251108074701",
+      "url": "https://web.archive.org/web/20251108074701id_/https://robbieandrew.github.io/india/data/POSOCO_data.csv",
+      "capture_is_not_certified_first_publication": true,
+      "status": "retrieval failed",
+      "error": "'utf-8' codec can't decode byte 0x8b in position 1: invalid start byte"
+    }
+  ],
+  "scope": "Three fixed archived captures; not exhaustive daily vintage reconstruction. No target-period2026 future observations fetched."
+}

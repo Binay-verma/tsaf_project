@@ -1,0 +1,17 @@
+Traceback (most recent call last):
+  File "/workspace/tsaf_project/src/review_reproduction.py", line 101, in <module>
+    main()
+  File "/workspace/tsaf_project/src/review_reproduction.py", line 85, in main
+    np.testing.assert_allclose(prediction, a.prediction.iloc[0], rtol=1e-7, atol=1e-6)
+  File "/workspace/tsfm-clean-review/lib/python3.12/site-packages/numpy/testing/_private/utils.py", line 1711, in assert_allclose
+    assert_array_compare(compare, actual, desired, err_msg=str(err_msg),
+  File "/workspace/tsfm-clean-review/lib/python3.12/site-packages/numpy/testing/_private/utils.py", line 919, in assert_array_compare
+    raise AssertionError(msg)
+AssertionError: 
+Not equal to tolerance rtol=1e-07, atol=1e-06
+
+Mismatched elements: 1 / 1 (100%)
+Max absolute difference among violations: 0.02187223
+Max relative difference among violations: 7.16946856e-05
+ ACTUAL: array(305.096548)
+ DESIRED: array(305.074675)

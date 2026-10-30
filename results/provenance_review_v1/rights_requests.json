@@ -1,0 +1,22 @@
+[
+  {
+    "name": "site_root",
+    "url": "https://robbieandrew.github.io/",
+    "status": 200
+  },
+  {
+    "name": "india_snapshot_index",
+    "url": "https://api.github.com/repos/robbieandrew/robbieandrew.github.io/contents/india/snapshot/",
+    "status": 200
+  },
+  {
+    "name": "repo_license_endpoint",
+    "url": "https://api.github.com/repos/robbieandrew/robbieandrew.github.io/license",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "name": "old_history_probe",
+    "url": "https://api.github.com/repos/robbieandrew/robbieandrew.github.io/commits?path=india/data/POSOCO_data.csv&per_page=1&until=2025-01-01T00%3A00%3A00Z",
+    "status": 200
+  }
+]

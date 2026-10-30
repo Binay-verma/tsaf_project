@@ -1,0 +1,2018 @@
+[
+  {
+    "arm": "calendar",
+    "first_task": 0,
+    "n": 4,
+    "covariate_channels": 13,
+    "seconds": 7.201196447999791
+  },
+  {
+    "arm": "calendar",
+    "first_task": 4,
+    "n": 4,
+    "covariate_channels": 13,
+    "seconds": 7.114132665999932
+  },
+  {
+    "arm": "calendar",
+    "first_task": 8,
+    "n": 4,
+    "covariate_channels": 13,
+    "seconds": 7.92855824299977
+  },
+  {
+    "arm": "calendar",
+    "first_task": 12,
+    "n": 4,
+    "covariate_channels": 13,
+    "seconds": 7.4658980620001785
+  },
+  {
+    "arm": "calendar",
+    "first_task": 16,
+    "n": 4,
+    "covariate_channels": 13,
+    "seconds": 7.694193985000311
+  },
+  {
+    "arm": "calendar",
+    "first_task": 20,
+    "n": 4,
+    "covariate_channels": 13,
+    "seconds": 7.624909935999767
+  },
+  {
+    "arm": "calendar",
+    "first_task": 24,
+    "n": 4,
+    "covariate_channels": 13,
+    "seconds": 7.546960546999799
+  },
+  {
+    "arm": "calendar",
+    "first_task": 28,
+    "n": 4,
+    "covariate_channels": 13,
+    "seconds": 7.411267124999995
+  },
+  {
+    "arm": "calendar",
+    "first_task": 32,
+    "n": 4,
+    "covariate_channels": 13,
+    "seconds": 7.619804723000016
+  },
+  {
+    "arm": "calendar",
+    "first_task": 36,
+    "n": 4,
+    "covariate_channels": 13,
+    "seconds": 7.360165782999957
+  },
+  {
+    "arm": "calendar",
+    "first_task": 40,
+    "n": 4,
+    "covariate_channels": 13,
+    "seconds": 7.2776164990000325
+  },
+  {
+    "arm": "calendar",
+    "first_task": 44,
+    "n": 4,
+    "covariate_channels": 13,
+    "seconds": 7.3736747289999585
+  },
+  {
+    "arm": "calendar",
+    "first_task": 48,
+    "n": 4,
+    "covariate_channels": 13,
+    "seconds": 7.36296141999992
+  },
+  {
+    "arm": "calendar",
+    "first_task": 52,
+    "n": 4,
+    "covariate_channels": 13,
+    "seconds": 7.161470663999808
+  },
+  {
+    "arm": "calendar",
+    "first_task": 56,
+    "n": 4,
+    "covariate_channels": 13,
+    "seconds": 7.408159475000048
+  },
+  {
+    "arm": "calendar",
+    "first_task": 60,
+    "n": 4,
+    "covariate_channels": 13,
+    "seconds": 7.319195080999634
+  },
+  {
+    "arm": "calendar",
+    "first_task": 64,
+    "n": 4,
+    "covariate_channels": 13,
+    "seconds": 7.700515524999901
+  },
+  {
+    "arm": "calendar",
+    "first_task": 68,
+    "n": 4,
+    "covariate_channels": 13,
+    "seconds": 7.256145345999812
+  },
+  {
+    "arm": "calendar",
+    "first_task": 72,
+    "n": 4,
+    "covariate_channels": 13,
+    "seconds": 7.12953679300017
+  },
+  {
+    "arm": "calendar",
+    "first_task": 76,
+    "n": 4,
+    "covariate_channels": 13,
+    "seconds": 8.226253183000154
+  },
+  {
+    "arm": "calendar",
+    "first_task": 80,
+    "n": 4,
+    "covariate_channels": 13,
+    "seconds": 7.288464885999929
+  },
+  {
+    "arm": "calendar",
+    "first_task": 84,
+    "n": 4,
+    "covariate_channels": 13,
+    "seconds": 8.170820235000065
+  },
+  {
+    "arm": "calendar",
+    "first_task": 88,
+    "n": 4,
+    "covariate_channels": 13,
+    "seconds": 7.3090908639997
+  },
+  {
+    "arm": "calendar",
+    "first_task": 92,
+    "n": 4,
+    "covariate_channels": 13,
+    "seconds": 7.648175931999958
+  },
+  {
+    "arm": "calendar",
+    "first_task": 96,
+    "n": 4,
+    "covariate_channels": 13,
+    "seconds": 6.733883226999751
+  },
+  {
+    "arm": "calendar",
+    "first_task": 100,
+    "n": 4,
+    "covariate_channels": 13,
+    "seconds": 6.761481868999908
+  },
+  {
+    "arm": "calendar",
+    "first_task": 104,
+    "n": 4,
+    "covariate_channels": 13,
+    "seconds": 7.459881618000054
+  },
+  {
+    "arm": "calendar",
+    "first_task": 108,
+    "n": 4,
+    "covariate_channels": 13,
+    "seconds": 7.135846847000266
+  },
+  {
+    "arm": "calendar",
+    "first_task": 112,
+    "n": 4,
+    "covariate_channels": 13,
+    "seconds": 7.207898574999945
+  },
+  {
+    "arm": "calendar",
+    "first_task": 116,
+    "n": 4,
+    "covariate_channels": 13,
+    "seconds": 6.726865766000174
+  },
+  {
+    "arm": "calendar",
+    "first_task": 120,
+    "n": 4,
+    "covariate_channels": 13,
+    "seconds": 6.887224802999754
+  },
+  {
+    "arm": "calendar",
+    "first_task": 124,
+    "n": 4,
+    "covariate_channels": 13,
+    "seconds": 6.875240084999859
+  },
+  {
+    "arm": "zero_1",
+    "first_task": 0,
+    "n": 4,
+    "covariate_channels": 14,
+    "seconds": 7.856500318000144
+  },
+  {
+    "arm": "zero_1",
+    "first_task": 4,
+    "n": 4,
+    "covariate_channels": 14,
+    "seconds": 7.246843991999867
+  },
+  {
+    "arm": "zero_1",
+    "first_task": 8,
+    "n": 4,
+    "covariate_channels": 14,
+    "seconds": 7.66605291299993
+  },
+  {
+    "arm": "zero_1",
+    "first_task": 12,
+    "n": 4,
+    "covariate_channels": 14,
+    "seconds": 8.814467736000097
+  },
+  {
+    "arm": "zero_1",
+    "first_task": 16,
+    "n": 4,
+    "covariate_channels": 14,
+    "seconds": 9.228894916000172
+  },
+  {
+    "arm": "zero_1",
+    "first_task": 20,
+    "n": 4,
+    "covariate_channels": 14,
+    "seconds": 8.42851482900005
+  },
+  {
+    "arm": "zero_1",
+    "first_task": 24,
+    "n": 4,
+    "covariate_channels": 14,
+    "seconds": 8.93520989999979
+  },
+  {
+    "arm": "zero_1",
+    "first_task": 28,
+    "n": 4,
+    "covariate_channels": 14,
+    "seconds": 9.35890097399988
+  },
+  {
+    "arm": "zero_1",
+    "first_task": 32,
+    "n": 4,
+    "covariate_channels": 14,
+    "seconds": 8.188782810999783
+  },
+  {
+    "arm": "zero_1",
+    "first_task": 36,
+    "n": 4,
+    "covariate_channels": 14,
+    "seconds": 7.5855940770002235
+  },
+  {
+    "arm": "zero_1",
+    "first_task": 40,
+    "n": 4,
+    "covariate_channels": 14,
+    "seconds": 6.688726067999596
+  },
+  {
+    "arm": "zero_1",
+    "first_task": 44,
+    "n": 4,
+    "covariate_channels": 14,
+    "seconds": 7.5396127419999175
+  },
+  {
+    "arm": "zero_1",
+    "first_task": 48,
+    "n": 4,
+    "covariate_channels": 14,
+    "seconds": 7.732511415999852
+  },
+  {
+    "arm": "zero_1",
+    "first_task": 52,
+    "n": 4,
+    "covariate_channels": 14,
+    "seconds": 8.101270912000018
+  },
+  {
+    "arm": "zero_1",
+    "first_task": 56,
+    "n": 4,
+    "covariate_channels": 14,
+    "seconds": 9.609859716000301
+  },
+  {
+    "arm": "zero_1",
+    "first_task": 60,
+    "n": 4,
+    "covariate_channels": 14,
+    "seconds": 9.23709759600024
+  },
+  {
+    "arm": "zero_1",
+    "first_task": 64,
+    "n": 4,
+    "covariate_channels": 14,
+    "seconds": 8.39055003400017
+  },
+  {
+    "arm": "zero_1",
+    "first_task": 68,
+    "n": 4,
+    "covariate_channels": 14,
+    "seconds": 8.32221957999991
+  },
+  {
+    "arm": "zero_1",
+    "first_task": 72,
+    "n": 4,
+    "covariate_channels": 14,
+    "seconds": 9.565124139999625
+  },
+  {
+    "arm": "zero_1",
+    "first_task": 76,
+    "n": 4,
+    "covariate_channels": 14,
+    "seconds": 7.599940867999976
+  },
+  {
+    "arm": "zero_1",
+    "first_task": 80,
+    "n": 4,
+    "covariate_channels": 14,
+    "seconds": 8.056633061999946
+  },
+  {
+    "arm": "zero_1",
+    "first_task": 84,
+    "n": 4,
+    "covariate_channels": 14,
+    "seconds": 7.972660922000159
+  },
+  {
+    "arm": "zero_1",
+    "first_task": 88,
+    "n": 4,
+    "covariate_channels": 14,
+    "seconds": 7.426607220000278
+  },
+  {
+    "arm": "zero_1",
+    "first_task": 92,
+    "n": 4,
+    "covariate_channels": 14,
+    "seconds": 7.690776997999819
+  },
+  {
+    "arm": "zero_1",
+    "first_task": 96,
+    "n": 4,
+    "covariate_channels": 14,
+    "seconds": 10.206643840999732
+  },
+  {
+    "arm": "zero_1",
+    "first_task": 100,
+    "n": 4,
+    "covariate_channels": 14,
+    "seconds": 10.244803279999815
+  },
+  {
+    "arm": "zero_1",
+    "first_task": 104,
+    "n": 4,
+    "covariate_channels": 14,
+    "seconds": 8.975358232999952
+  },
+  {
+    "arm": "zero_1",
+    "first_task": 108,
+    "n": 4,
+    "covariate_channels": 14,
+    "seconds": 8.196710907000124
+  },
+  {
+    "arm": "zero_1",
+    "first_task": 112,
+    "n": 4,
+    "covariate_channels": 14,
+    "seconds": 7.513011760000154
+  },
+  {
+    "arm": "zero_1",
+    "first_task": 116,
+    "n": 4,
+    "covariate_channels": 14,
+    "seconds": 7.743132691000028
+  },
+  {
+    "arm": "zero_1",
+    "first_task": 120,
+    "n": 4,
+    "covariate_channels": 14,
+    "seconds": 7.423648606999905
+  },
+  {
+    "arm": "zero_1",
+    "first_task": 124,
+    "n": 4,
+    "covariate_channels": 14,
+    "seconds": 9.818027173000246
+  },
+  {
+    "arm": "zero_7",
+    "first_task": 0,
+    "n": 4,
+    "covariate_channels": 20,
+    "seconds": 12.3882397819998
+  },
+  {
+    "arm": "zero_7",
+    "first_task": 4,
+    "n": 4,
+    "covariate_channels": 20,
+    "seconds": 11.119707285000004
+  },
+  {
+    "arm": "zero_7",
+    "first_task": 8,
+    "n": 4,
+    "covariate_channels": 20,
+    "seconds": 11.736749265000071
+  },
+  {
+    "arm": "zero_7",
+    "first_task": 12,
+    "n": 4,
+    "covariate_channels": 20,
+    "seconds": 15.372293290000016
+  },
+  {
+    "arm": "zero_7",
+    "first_task": 16,
+    "n": 4,
+    "covariate_channels": 20,
+    "seconds": 13.86552541400033
+  },
+  {
+    "arm": "zero_7",
+    "first_task": 20,
+    "n": 4,
+    "covariate_channels": 20,
+    "seconds": 11.973033800999929
+  },
+  {
+    "arm": "zero_7",
+    "first_task": 24,
+    "n": 4,
+    "covariate_channels": 20,
+    "seconds": 11.922449866000079
+  },
+  {
+    "arm": "zero_7",
+    "first_task": 28,
+    "n": 4,
+    "covariate_channels": 20,
+    "seconds": 12.035319834999882
+  },
+  {
+    "arm": "zero_7",
+    "first_task": 32,
+    "n": 4,
+    "covariate_channels": 20,
+    "seconds": 13.525361596000039
+  },
+  {
+    "arm": "zero_7",
+    "first_task": 36,
+    "n": 4,
+    "covariate_channels": 20,
+    "seconds": 12.294590628000151
+  },
+  {
+    "arm": "zero_7",
+    "first_task": 40,
+    "n": 4,
+    "covariate_channels": 20,
+    "seconds": 11.207160635000037
+  },
+  {
+    "arm": "zero_7",
+    "first_task": 44,
+    "n": 4,
+    "covariate_channels": 20,
+    "seconds": 13.506193222000093
+  },
+  {
+    "arm": "zero_7",
+    "first_task": 48,
+    "n": 4,
+    "covariate_channels": 20,
+    "seconds": 13.4567319949997
+  },
+  {
+    "arm": "zero_7",
+    "first_task": 52,
+    "n": 4,
+    "covariate_channels": 20,
+    "seconds": 11.776423869000155
+  },
+  {
+    "arm": "zero_7",
+    "first_task": 56,
+    "n": 4,
+    "covariate_channels": 20,
+    "seconds": 13.84025238600043
+  },
+  {
+    "arm": "zero_7",
+    "first_task": 60,
+    "n": 4,
+    "covariate_channels": 20,
+    "seconds": 13.592478889000176
+  },
+  {
+    "arm": "zero_7",
+    "first_task": 64,
+    "n": 4,
+    "covariate_channels": 20,
+    "seconds": 12.272471665000012
+  },
+  {
+    "arm": "zero_7",
+    "first_task": 68,
+    "n": 4,
+    "covariate_channels": 20,
+    "seconds": 10.46524376699972
+  },
+  {
+    "arm": "zero_7",
+    "first_task": 72,
+    "n": 4,
+    "covariate_channels": 20,
+    "seconds": 10.629827902000216
+  },
+  {
+    "arm": "zero_7",
+    "first_task": 76,
+    "n": 4,
+    "covariate_channels": 20,
+    "seconds": 11.70973927399973
+  },
+  {
+    "arm": "zero_7",
+    "first_task": 80,
+    "n": 4,
+    "covariate_channels": 20,
+    "seconds": 11.091194188999907
+  },
+  {
+    "arm": "zero_7",
+    "first_task": 84,
+    "n": 4,
+    "covariate_channels": 20,
+    "seconds": 10.467615446000309
+  },
+  {
+    "arm": "zero_7",
+    "first_task": 88,
+    "n": 4,
+    "covariate_channels": 20,
+    "seconds": 14.858124033999957
+  },
+  {
+    "arm": "zero_7",
+    "first_task": 92,
+    "n": 4,
+    "covariate_channels": 20,
+    "seconds": 12.009014068999932
+  },
+  {
+    "arm": "zero_7",
+    "first_task": 96,
+    "n": 4,
+    "covariate_channels": 20,
+    "seconds": 10.154200057999788
+  },
+  {
+    "arm": "zero_7",
+    "first_task": 100,
+    "n": 4,
+    "covariate_channels": 20,
+    "seconds": 10.059560472999692
+  },
+  {
+    "arm": "zero_7",
+    "first_task": 104,
+    "n": 4,
+    "covariate_channels": 20,
+    "seconds": 10.95651208900017
+  },
+  {
+    "arm": "zero_7",
+    "first_task": 108,
+    "n": 4,
+    "covariate_channels": 20,
+    "seconds": 12.64514180499964
+  },
+  {
+    "arm": "zero_7",
+    "first_task": 112,
+    "n": 4,
+    "covariate_channels": 20,
+    "seconds": 12.096147287999884
+  },
+  {
+    "arm": "zero_7",
+    "first_task": 116,
+    "n": 4,
+    "covariate_channels": 20,
+    "seconds": 11.014731369999936
+  },
+  {
+    "arm": "zero_7",
+    "first_task": 120,
+    "n": 4,
+    "covariate_channels": 20,
+    "seconds": 10.856473140000162
+  },
+  {
+    "arm": "zero_7",
+    "first_task": 124,
+    "n": 4,
+    "covariate_channels": 20,
+    "seconds": 10.222780819000036
+  },
+  {
+    "arm": "generic_window",
+    "first_task": 0,
+    "n": 4,
+    "covariate_channels": 14,
+    "seconds": 9.05240153800014
+  },
+  {
+    "arm": "generic_window",
+    "first_task": 4,
+    "n": 4,
+    "covariate_channels": 14,
+    "seconds": 8.576205871999719
+  },
+  {
+    "arm": "generic_window",
+    "first_task": 8,
+    "n": 4,
+    "covariate_channels": 14,
+    "seconds": 8.655258272000083
+  },
+  {
+    "arm": "generic_window",
+    "first_task": 12,
+    "n": 4,
+    "covariate_channels": 14,
+    "seconds": 9.830118645999846
+  },
+  {
+    "arm": "generic_window",
+    "first_task": 16,
+    "n": 4,
+    "covariate_channels": 14,
+    "seconds": 9.145047551000062
+  },
+  {
+    "arm": "generic_window",
+    "first_task": 20,
+    "n": 4,
+    "covariate_channels": 14,
+    "seconds": 7.712809032000223
+  },
+  {
+    "arm": "generic_window",
+    "first_task": 24,
+    "n": 4,
+    "covariate_channels": 14,
+    "seconds": 9.648983416000192
+  },
+  {
+    "arm": "generic_window",
+    "first_task": 28,
+    "n": 4,
+    "covariate_channels": 14,
+    "seconds": 10.749023101000148
+  },
+  {
+    "arm": "generic_window",
+    "first_task": 32,
+    "n": 4,
+    "covariate_channels": 14,
+    "seconds": 10.954311609999877
+  },
+  {
+    "arm": "generic_window",
+    "first_task": 36,
+    "n": 4,
+    "covariate_channels": 14,
+    "seconds": 10.688730996999766
+  },
+  {
+    "arm": "generic_window",
+    "first_task": 40,
+    "n": 4,
+    "covariate_channels": 14,
+    "seconds": 9.59241423200001
+  },
+  {
+    "arm": "generic_window",
+    "first_task": 44,
+    "n": 4,
+    "covariate_channels": 14,
+    "seconds": 10.324880585000301
+  },
+  {
+    "arm": "generic_window",
+    "first_task": 48,
+    "n": 4,
+    "covariate_channels": 14,
+    "seconds": 11.78932867399999
+  },
+  {
+    "arm": "generic_window",
+    "first_task": 52,
+    "n": 4,
+    "covariate_channels": 14,
+    "seconds": 10.411481585999809
+  },
+  {
+    "arm": "generic_window",
+    "first_task": 56,
+    "n": 4,
+    "covariate_channels": 14,
+    "seconds": 9.842340315000001
+  },
+  {
+    "arm": "generic_window",
+    "first_task": 60,
+    "n": 4,
+    "covariate_channels": 14,
+    "seconds": 12.134536202000163
+  },
+  {
+    "arm": "generic_window",
+    "first_task": 64,
+    "n": 4,
+    "covariate_channels": 14,
+    "seconds": 11.035404943999765
+  },
+  {
+    "arm": "generic_window",
+    "first_task": 68,
+    "n": 4,
+    "covariate_channels": 14,
+    "seconds": 8.373616588000004
+  },
+  {
+    "arm": "generic_window",
+    "first_task": 72,
+    "n": 4,
+    "covariate_channels": 14,
+    "seconds": 8.329775002000133
+  },
+  {
+    "arm": "generic_window",
+    "first_task": 76,
+    "n": 4,
+    "covariate_channels": 14,
+    "seconds": 8.379435233000095
+  },
+  {
+    "arm": "generic_window",
+    "first_task": 80,
+    "n": 4,
+    "covariate_channels": 14,
+    "seconds": 7.604061824999917
+  },
+  {
+    "arm": "generic_window",
+    "first_task": 84,
+    "n": 4,
+    "covariate_channels": 14,
+    "seconds": 7.623009242999615
+  },
+  {
+    "arm": "generic_window",
+    "first_task": 88,
+    "n": 4,
+    "covariate_channels": 14,
+    "seconds": 7.818263106999893
+  },
+  {
+    "arm": "generic_window",
+    "first_task": 92,
+    "n": 4,
+    "covariate_channels": 14,
+    "seconds": 7.981714574999842
+  },
+  {
+    "arm": "generic_window",
+    "first_task": 96,
+    "n": 4,
+    "covariate_channels": 14,
+    "seconds": 8.081705041000077
+  },
+  {
+    "arm": "generic_window",
+    "first_task": 100,
+    "n": 4,
+    "covariate_channels": 14,
+    "seconds": 7.6526047850002215
+  },
+  {
+    "arm": "generic_window",
+    "first_task": 104,
+    "n": 4,
+    "covariate_channels": 14,
+    "seconds": 7.776701616000537
+  },
+  {
+    "arm": "generic_window",
+    "first_task": 108,
+    "n": 4,
+    "covariate_channels": 14,
+    "seconds": 8.436643387000004
+  },
+  {
+    "arm": "generic_window",
+    "first_task": 112,
+    "n": 4,
+    "covariate_channels": 14,
+    "seconds": 11.83591445500042
+  },
+  {
+    "arm": "generic_window",
+    "first_task": 116,
+    "n": 4,
+    "covariate_channels": 14,
+    "seconds": 11.23354166899935
+  },
+  {
+    "arm": "generic_window",
+    "first_task": 120,
+    "n": 4,
+    "covariate_channels": 14,
+    "seconds": 12.149050042999988
+  },
+  {
+    "arm": "generic_window",
+    "first_task": 124,
+    "n": 4,
+    "covariate_channels": 14,
+    "seconds": 12.110040781999487
+  },
+  {
+    "arm": "regional_window",
+    "first_task": 0,
+    "n": 4,
+    "covariate_channels": 14,
+    "seconds": 11.107372612999825
+  },
+  {
+    "arm": "regional_window",
+    "first_task": 4,
+    "n": 4,
+    "covariate_channels": 14,
+    "seconds": 10.428443109
+  },
+  {
+    "arm": "regional_window",
+    "first_task": 8,
+    "n": 4,
+    "covariate_channels": 14,
+    "seconds": 10.928565033999803
+  },
+  {
+    "arm": "regional_window",
+    "first_task": 12,
+    "n": 4,
+    "covariate_channels": 14,
+    "seconds": 11.25322153399975
+  },
+  {
+    "arm": "regional_window",
+    "first_task": 16,
+    "n": 4,
+    "covariate_channels": 14,
+    "seconds": 16.648756517000038
+  },
+  {
+    "arm": "regional_window",
+    "first_task": 20,
+    "n": 4,
+    "covariate_channels": 14,
+    "seconds": 10.973657564999485
+  },
+  {
+    "arm": "regional_window",
+    "first_task": 24,
+    "n": 4,
+    "covariate_channels": 14,
+    "seconds": 10.752773015999992
+  },
+  {
+    "arm": "regional_window",
+    "first_task": 28,
+    "n": 4,
+    "covariate_channels": 14,
+    "seconds": 12.00274937299946
+  },
+  {
+    "arm": "regional_window",
+    "first_task": 32,
+    "n": 4,
+    "covariate_channels": 14,
+    "seconds": 9.643424437999784
+  },
+  {
+    "arm": "regional_window",
+    "first_task": 36,
+    "n": 4,
+    "covariate_channels": 14,
+    "seconds": 10.315692213999682
+  },
+  {
+    "arm": "regional_window",
+    "first_task": 40,
+    "n": 4,
+    "covariate_channels": 14,
+    "seconds": 10.194458726999983
+  },
+  {
+    "arm": "regional_window",
+    "first_task": 44,
+    "n": 4,
+    "covariate_channels": 14,
+    "seconds": 10.38311874900046
+  },
+  {
+    "arm": "regional_window",
+    "first_task": 48,
+    "n": 4,
+    "covariate_channels": 14,
+    "seconds": 11.148168214999714
+  },
+  {
+    "arm": "regional_window",
+    "first_task": 52,
+    "n": 4,
+    "covariate_channels": 14,
+    "seconds": 12.795040747999337
+  },
+  {
+    "arm": "regional_window",
+    "first_task": 56,
+    "n": 4,
+    "covariate_channels": 14,
+    "seconds": 11.654728477999925
+  },
+  {
+    "arm": "regional_window",
+    "first_task": 60,
+    "n": 4,
+    "covariate_channels": 14,
+    "seconds": 11.118739591999656
+  },
+  {
+    "arm": "regional_window",
+    "first_task": 64,
+    "n": 4,
+    "covariate_channels": 14,
+    "seconds": 10.659789055999681
+  },
+  {
+    "arm": "regional_window",
+    "first_task": 68,
+    "n": 4,
+    "covariate_channels": 14,
+    "seconds": 9.305494341999292
+  },
+  {
+    "arm": "regional_window",
+    "first_task": 72,
+    "n": 4,
+    "covariate_channels": 14,
+    "seconds": 10.205889075999949
+  },
+  {
+    "arm": "regional_window",
+    "first_task": 76,
+    "n": 4,
+    "covariate_channels": 14,
+    "seconds": 10.144205280000278
+  },
+  {
+    "arm": "regional_window",
+    "first_task": 80,
+    "n": 4,
+    "covariate_channels": 14,
+    "seconds": 10.422266347000004
+  },
+  {
+    "arm": "regional_window",
+    "first_task": 84,
+    "n": 4,
+    "covariate_channels": 14,
+    "seconds": 10.101316606999717
+  },
+  {
+    "arm": "regional_window",
+    "first_task": 88,
+    "n": 4,
+    "covariate_channels": 14,
+    "seconds": 9.874821870000233
+  },
+  {
+    "arm": "regional_window",
+    "first_task": 92,
+    "n": 4,
+    "covariate_channels": 14,
+    "seconds": 9.986847115000273
+  },
+  {
+    "arm": "regional_window",
+    "first_task": 96,
+    "n": 4,
+    "covariate_channels": 14,
+    "seconds": 10.514288290999502
+  },
+  {
+    "arm": "regional_window",
+    "first_task": 100,
+    "n": 4,
+    "covariate_channels": 14,
+    "seconds": 9.863070205999975
+  },
+  {
+    "arm": "regional_window",
+    "first_task": 104,
+    "n": 4,
+    "covariate_channels": 14,
+    "seconds": 11.599403831000018
+  },
+  {
+    "arm": "regional_window",
+    "first_task": 108,
+    "n": 4,
+    "covariate_channels": 14,
+    "seconds": 10.552201613000761
+  },
+  {
+    "arm": "regional_window",
+    "first_task": 112,
+    "n": 4,
+    "covariate_channels": 14,
+    "seconds": 9.48667294400002
+  },
+  {
+    "arm": "regional_window",
+    "first_task": 116,
+    "n": 4,
+    "covariate_channels": 14,
+    "seconds": 10.516359948000172
+  },
+  {
+    "arm": "regional_window",
+    "first_task": 120,
+    "n": 4,
+    "covariate_channels": 14,
+    "seconds": 9.96315255599984
+  },
+  {
+    "arm": "regional_window",
+    "first_task": 124,
+    "n": 4,
+    "covariate_channels": 14,
+    "seconds": 9.825391082999886
+  },
+  {
+    "arm": "generic_7",
+    "first_task": 0,
+    "n": 4,
+    "covariate_channels": 20,
+    "seconds": 15.694046124000124
+  },
+  {
+    "arm": "generic_7",
+    "first_task": 4,
+    "n": 4,
+    "covariate_channels": 20,
+    "seconds": 15.739250256999185
+  },
+  {
+    "arm": "generic_7",
+    "first_task": 8,
+    "n": 4,
+    "covariate_channels": 20,
+    "seconds": 17.178692462000072
+  },
+  {
+    "arm": "generic_7",
+    "first_task": 12,
+    "n": 4,
+    "covariate_channels": 20,
+    "seconds": 15.96396803799962
+  },
+  {
+    "arm": "generic_7",
+    "first_task": 16,
+    "n": 4,
+    "covariate_channels": 20,
+    "seconds": 15.66587780000009
+  },
+  {
+    "arm": "generic_7",
+    "first_task": 20,
+    "n": 4,
+    "covariate_channels": 20,
+    "seconds": 16.0463036630008
+  },
+  {
+    "arm": "generic_7",
+    "first_task": 24,
+    "n": 4,
+    "covariate_channels": 20,
+    "seconds": 14.081150797999726
+  },
+  {
+    "arm": "generic_7",
+    "first_task": 28,
+    "n": 4,
+    "covariate_channels": 20,
+    "seconds": 13.336648483000317
+  },
+  {
+    "arm": "generic_7",
+    "first_task": 32,
+    "n": 4,
+    "covariate_channels": 20,
+    "seconds": 14.342961014000139
+  },
+  {
+    "arm": "generic_7",
+    "first_task": 36,
+    "n": 4,
+    "covariate_channels": 20,
+    "seconds": 12.35370900900034
+  },
+  {
+    "arm": "generic_7",
+    "first_task": 40,
+    "n": 4,
+    "covariate_channels": 20,
+    "seconds": 11.030409421000513
+  },
+  {
+    "arm": "generic_7",
+    "first_task": 44,
+    "n": 4,
+    "covariate_channels": 20,
+    "seconds": 12.287022215000434
+  },
+  {
+    "arm": "generic_7",
+    "first_task": 48,
+    "n": 4,
+    "covariate_channels": 20,
+    "seconds": 11.29631260699989
+  },
+  {
+    "arm": "generic_7",
+    "first_task": 52,
+    "n": 4,
+    "covariate_channels": 20,
+    "seconds": 10.158474289999504
+  },
+  {
+    "arm": "generic_7",
+    "first_task": 56,
+    "n": 4,
+    "covariate_channels": 20,
+    "seconds": 11.079574821999813
+  },
+  {
+    "arm": "generic_7",
+    "first_task": 60,
+    "n": 4,
+    "covariate_channels": 20,
+    "seconds": 10.235416243000145
+  },
+  {
+    "arm": "generic_7",
+    "first_task": 64,
+    "n": 4,
+    "covariate_channels": 20,
+    "seconds": 10.595081988999482
+  },
+  {
+    "arm": "generic_7",
+    "first_task": 68,
+    "n": 4,
+    "covariate_channels": 20,
+    "seconds": 11.598845801000607
+  },
+  {
+    "arm": "generic_7",
+    "first_task": 72,
+    "n": 4,
+    "covariate_channels": 20,
+    "seconds": 10.38661662100003
+  },
+  {
+    "arm": "generic_7",
+    "first_task": 76,
+    "n": 4,
+    "covariate_channels": 20,
+    "seconds": 10.00718835599946
+  },
+  {
+    "arm": "generic_7",
+    "first_task": 80,
+    "n": 4,
+    "covariate_channels": 20,
+    "seconds": 12.27867640400018
+  },
+  {
+    "arm": "generic_7",
+    "first_task": 84,
+    "n": 4,
+    "covariate_channels": 20,
+    "seconds": 11.535896239000067
+  },
+  {
+    "arm": "generic_7",
+    "first_task": 88,
+    "n": 4,
+    "covariate_channels": 20,
+    "seconds": 12.109376083000825
+  },
+  {
+    "arm": "generic_7",
+    "first_task": 92,
+    "n": 4,
+    "covariate_channels": 20,
+    "seconds": 10.518351390999669
+  },
+  {
+    "arm": "generic_7",
+    "first_task": 96,
+    "n": 4,
+    "covariate_channels": 20,
+    "seconds": 11.301890513000217
+  },
+  {
+    "arm": "generic_7",
+    "first_task": 100,
+    "n": 4,
+    "covariate_channels": 20,
+    "seconds": 13.09100373900037
+  },
+  {
+    "arm": "generic_7",
+    "first_task": 104,
+    "n": 4,
+    "covariate_channels": 20,
+    "seconds": 10.070321974999388
+  },
+  {
+    "arm": "generic_7",
+    "first_task": 108,
+    "n": 4,
+    "covariate_channels": 20,
+    "seconds": 11.958043665999867
+  },
+  {
+    "arm": "generic_7",
+    "first_task": 112,
+    "n": 4,
+    "covariate_channels": 20,
+    "seconds": 11.659511451999606
+  },
+  {
+    "arm": "generic_7",
+    "first_task": 116,
+    "n": 4,
+    "covariate_channels": 20,
+    "seconds": 11.938382848999936
+  },
+  {
+    "arm": "generic_7",
+    "first_task": 120,
+    "n": 4,
+    "covariate_channels": 20,
+    "seconds": 11.8571697389998
+  },
+  {
+    "arm": "generic_7",
+    "first_task": 124,
+    "n": 4,
+    "covariate_channels": 20,
+    "seconds": 12.88718323500052
+  },
+  {
+    "arm": "regional_7",
+    "first_task": 0,
+    "n": 4,
+    "covariate_channels": 20,
+    "seconds": 10.970201348000046
+  },
+  {
+    "arm": "regional_7",
+    "first_task": 4,
+    "n": 4,
+    "covariate_channels": 20,
+    "seconds": 11.667953234000379
+  },
+  {
+    "arm": "regional_7",
+    "first_task": 8,
+    "n": 4,
+    "covariate_channels": 20,
+    "seconds": 9.71347035999952
+  },
+  {
+    "arm": "regional_7",
+    "first_task": 12,
+    "n": 4,
+    "covariate_channels": 20,
+    "seconds": 10.06115709200003
+  },
+  {
+    "arm": "regional_7",
+    "first_task": 16,
+    "n": 4,
+    "covariate_channels": 20,
+    "seconds": 12.739583034000134
+  },
+  {
+    "arm": "regional_7",
+    "first_task": 20,
+    "n": 4,
+    "covariate_channels": 20,
+    "seconds": 10.610182284000075
+  },
+  {
+    "arm": "regional_7",
+    "first_task": 24,
+    "n": 4,
+    "covariate_channels": 20,
+    "seconds": 10.44293798200033
+  },
+  {
+    "arm": "regional_7",
+    "first_task": 28,
+    "n": 4,
+    "covariate_channels": 20,
+    "seconds": 12.803244126000209
+  },
+  {
+    "arm": "regional_7",
+    "first_task": 32,
+    "n": 4,
+    "covariate_channels": 20,
+    "seconds": 11.59940585899949
+  },
+  {
+    "arm": "regional_7",
+    "first_task": 36,
+    "n": 4,
+    "covariate_channels": 20,
+    "seconds": 12.914141213999756
+  },
+  {
+    "arm": "regional_7",
+    "first_task": 40,
+    "n": 4,
+    "covariate_channels": 20,
+    "seconds": 11.642133140000624
+  },
+  {
+    "arm": "regional_7",
+    "first_task": 44,
+    "n": 4,
+    "covariate_channels": 20,
+    "seconds": 12.399154762999387
+  },
+  {
+    "arm": "regional_7",
+    "first_task": 48,
+    "n": 4,
+    "covariate_channels": 20,
+    "seconds": 12.260875753000619
+  },
+  {
+    "arm": "regional_7",
+    "first_task": 52,
+    "n": 4,
+    "covariate_channels": 20,
+    "seconds": 10.145871491000435
+  },
+  {
+    "arm": "regional_7",
+    "first_task": 56,
+    "n": 4,
+    "covariate_channels": 20,
+    "seconds": 12.099592083000061
+  },
+  {
+    "arm": "regional_7",
+    "first_task": 60,
+    "n": 4,
+    "covariate_channels": 20,
+    "seconds": 12.499563286999546
+  },
+  {
+    "arm": "regional_7",
+    "first_task": 64,
+    "n": 4,
+    "covariate_channels": 20,
+    "seconds": 14.344901028000095
+  },
+  {
+    "arm": "regional_7",
+    "first_task": 68,
+    "n": 4,
+    "covariate_channels": 20,
+    "seconds": 13.538732772999538
+  },
+  {
+    "arm": "regional_7",
+    "first_task": 72,
+    "n": 4,
+    "covariate_channels": 20,
+    "seconds": 13.543023549999816
+  },
+  {
+    "arm": "regional_7",
+    "first_task": 76,
+    "n": 4,
+    "covariate_channels": 20,
+    "seconds": 11.347222129999864
+  },
+  {
+    "arm": "regional_7",
+    "first_task": 80,
+    "n": 4,
+    "covariate_channels": 20,
+    "seconds": 12.172970517000067
+  },
+  {
+    "arm": "regional_7",
+    "first_task": 84,
+    "n": 4,
+    "covariate_channels": 20,
+    "seconds": 11.926876181999432
+  },
+  {
+    "arm": "regional_7",
+    "first_task": 88,
+    "n": 4,
+    "covariate_channels": 20,
+    "seconds": 9.787154138000005
+  },
+  {
+    "arm": "regional_7",
+    "first_task": 92,
+    "n": 4,
+    "covariate_channels": 20,
+    "seconds": 9.55170296200049
+  },
+  {
+    "arm": "regional_7",
+    "first_task": 96,
+    "n": 4,
+    "covariate_channels": 20,
+    "seconds": 9.067284492999534
+  },
+  {
+    "arm": "regional_7",
+    "first_task": 100,
+    "n": 4,
+    "covariate_channels": 20,
+    "seconds": 9.178546314999949
+  },
+  {
+    "arm": "regional_7",
+    "first_task": 104,
+    "n": 4,
+    "covariate_channels": 20,
+    "seconds": 10.317959602999508
+  },
+  {
+    "arm": "regional_7",
+    "first_task": 108,
+    "n": 4,
+    "covariate_channels": 20,
+    "seconds": 9.58617661199969
+  },
+  {
+    "arm": "regional_7",
+    "first_task": 112,
+    "n": 4,
+    "covariate_channels": 20,
+    "seconds": 10.08385692200045
+  },
+  {
+    "arm": "regional_7",
+    "first_task": 116,
+    "n": 4,
+    "covariate_channels": 20,
+    "seconds": 9.117722748999768
+  },
+  {
+    "arm": "regional_7",
+    "first_task": 120,
+    "n": 4,
+    "covariate_channels": 20,
+    "seconds": 9.308146014000158
+  },
+  {
+    "arm": "regional_7",
+    "first_task": 124,
+    "n": 4,
+    "covariate_channels": 20,
+    "seconds": 11.11283573000037
+  },
+  {
+    "arm": "placebo_window",
+    "first_task": 0,
+    "n": 4,
+    "covariate_channels": 14,
+    "seconds": 8.79707412300013
+  },
+  {
+    "arm": "placebo_window",
+    "first_task": 4,
+    "n": 4,
+    "covariate_channels": 14,
+    "seconds": 7.9536930090007445
+  },
+  {
+    "arm": "placebo_window",
+    "first_task": 8,
+    "n": 4,
+    "covariate_channels": 14,
+    "seconds": 8.59231127699968
+  },
+  {
+    "arm": "placebo_window",
+    "first_task": 12,
+    "n": 4,
+    "covariate_channels": 14,
+    "seconds": 6.9813393009999345
+  },
+  {
+    "arm": "placebo_window",
+    "first_task": 16,
+    "n": 4,
+    "covariate_channels": 14,
+    "seconds": 6.810169751999638
+  },
+  {
+    "arm": "placebo_window",
+    "first_task": 20,
+    "n": 4,
+    "covariate_channels": 14,
+    "seconds": 7.1453792439997414
+  },
+  {
+    "arm": "placebo_window",
+    "first_task": 24,
+    "n": 4,
+    "covariate_channels": 14,
+    "seconds": 8.035442997000246
+  },
+  {
+    "arm": "placebo_window",
+    "first_task": 28,
+    "n": 4,
+    "covariate_channels": 14,
+    "seconds": 7.85584415699941
+  },
+  {
+    "arm": "placebo_window",
+    "first_task": 32,
+    "n": 4,
+    "covariate_channels": 14,
+    "seconds": 6.908527636999679
+  },
+  {
+    "arm": "placebo_window",
+    "first_task": 36,
+    "n": 4,
+    "covariate_channels": 14,
+    "seconds": 6.875781720999839
+  },
+  {
+    "arm": "placebo_window",
+    "first_task": 40,
+    "n": 4,
+    "covariate_channels": 14,
+    "seconds": 7.634354970000459
+  },
+  {
+    "arm": "placebo_window",
+    "first_task": 44,
+    "n": 4,
+    "covariate_channels": 14,
+    "seconds": 7.792410643999574
+  },
+  {
+    "arm": "placebo_window",
+    "first_task": 48,
+    "n": 4,
+    "covariate_channels": 14,
+    "seconds": 8.218011276999277
+  },
+  {
+    "arm": "placebo_window",
+    "first_task": 52,
+    "n": 4,
+    "covariate_channels": 14,
+    "seconds": 6.922703769999316
+  },
+  {
+    "arm": "placebo_window",
+    "first_task": 56,
+    "n": 4,
+    "covariate_channels": 14,
+    "seconds": 7.64704390299994
+  },
+  {
+    "arm": "placebo_window",
+    "first_task": 60,
+    "n": 4,
+    "covariate_channels": 14,
+    "seconds": 7.340749703000256
+  },
+  {
+    "arm": "placebo_window",
+    "first_task": 64,
+    "n": 4,
+    "covariate_channels": 14,
+    "seconds": 7.610358361000181
+  },
+  {
+    "arm": "placebo_window",
+    "first_task": 68,
+    "n": 4,
+    "covariate_channels": 14,
+    "seconds": 6.7042609949994585
+  },
+  {
+    "arm": "placebo_window",
+    "first_task": 72,
+    "n": 4,
+    "covariate_channels": 14,
+    "seconds": 7.384132267000496
+  },
+  {
+    "arm": "placebo_window",
+    "first_task": 76,
+    "n": 4,
+    "covariate_channels": 14,
+    "seconds": 7.3622485819996655
+  },
+  {
+    "arm": "placebo_window",
+    "first_task": 80,
+    "n": 4,
+    "covariate_channels": 14,
+    "seconds": 8.369621329000438
+  },
+  {
+    "arm": "placebo_window",
+    "first_task": 84,
+    "n": 4,
+    "covariate_channels": 14,
+    "seconds": 8.665782570000374
+  },
+  {
+    "arm": "placebo_window",
+    "first_task": 88,
+    "n": 4,
+    "covariate_channels": 14,
+    "seconds": 7.533266568999352
+  },
+  {
+    "arm": "placebo_window",
+    "first_task": 92,
+    "n": 4,
+    "covariate_channels": 14,
+    "seconds": 7.073428786000477
+  },
+  {
+    "arm": "placebo_window",
+    "first_task": 96,
+    "n": 4,
+    "covariate_channels": 14,
+    "seconds": 6.901913741000499
+  },
+  {
+    "arm": "placebo_window",
+    "first_task": 100,
+    "n": 4,
+    "covariate_channels": 14,
+    "seconds": 8.114010287000383
+  },
+  {
+    "arm": "placebo_window",
+    "first_task": 104,
+    "n": 4,
+    "covariate_channels": 14,
+    "seconds": 8.642958964999707
+  },
+  {
+    "arm": "placebo_window",
+    "first_task": 108,
+    "n": 4,
+    "covariate_channels": 14,
+    "seconds": 7.120310493000034
+  },
+  {
+    "arm": "placebo_window",
+    "first_task": 112,
+    "n": 4,
+    "covariate_channels": 14,
+    "seconds": 7.720035330999963
+  },
+  {
+    "arm": "placebo_window",
+    "first_task": 116,
+    "n": 4,
+    "covariate_channels": 14,
+    "seconds": 6.944552137999381
+  },
+  {
+    "arm": "placebo_window",
+    "first_task": 120,
+    "n": 4,
+    "covariate_channels": 14,
+    "seconds": 6.551352649999899
+  },
+  {
+    "arm": "placebo_window",
+    "first_task": 124,
+    "n": 4,
+    "covariate_channels": 14,
+    "seconds": 7.2799587780000365
+  },
+  {
+    "arm": "placebo_7",
+    "first_task": 0,
+    "n": 4,
+    "covariate_channels": 20,
+    "seconds": 10.66275877299995
+  },
+  {
+    "arm": "placebo_7",
+    "first_task": 4,
+    "n": 4,
+    "covariate_channels": 20,
+    "seconds": 13.221858726000391
+  },
+  {
+    "arm": "placebo_7",
+    "first_task": 8,
+    "n": 4,
+    "covariate_channels": 20,
+    "seconds": 10.124105423000401
+  },
+  {
+    "arm": "placebo_7",
+    "first_task": 12,
+    "n": 4,
+    "covariate_channels": 20,
+    "seconds": 11.645722358999592
+  },
+  {
+    "arm": "placebo_7",
+    "first_task": 16,
+    "n": 4,
+    "covariate_channels": 20,
+    "seconds": 10.843780006000088
+  },
+  {
+    "arm": "placebo_7",
+    "first_task": 20,
+    "n": 4,
+    "covariate_channels": 20,
+    "seconds": 13.942998683000042
+  },
+  {
+    "arm": "placebo_7",
+    "first_task": 24,
+    "n": 4,
+    "covariate_channels": 20,
+    "seconds": 14.580299967999963
+  },
+  {
+    "arm": "placebo_7",
+    "first_task": 28,
+    "n": 4,
+    "covariate_channels": 20,
+    "seconds": 13.438867675999973
+  },
+  {
+    "arm": "placebo_7",
+    "first_task": 32,
+    "n": 4,
+    "covariate_channels": 20,
+    "seconds": 12.834384368999963
+  },
+  {
+    "arm": "placebo_7",
+    "first_task": 36,
+    "n": 4,
+    "covariate_channels": 20,
+    "seconds": 12.314139531000365
+  },
+  {
+    "arm": "placebo_7",
+    "first_task": 40,
+    "n": 4,
+    "covariate_channels": 20,
+    "seconds": 12.05850624499999
+  },
+  {
+    "arm": "placebo_7",
+    "first_task": 44,
+    "n": 4,
+    "covariate_channels": 20,
+    "seconds": 10.710762783000064
+  },
+  {
+    "arm": "placebo_7",
+    "first_task": 48,
+    "n": 4,
+    "covariate_channels": 20,
+    "seconds": 10.133921992000069
+  },
+  {
+    "arm": "placebo_7",
+    "first_task": 52,
+    "n": 4,
+    "covariate_channels": 20,
+    "seconds": 10.247426228999757
+  },
+  {
+    "arm": "placebo_7",
+    "first_task": 56,
+    "n": 4,
+    "covariate_channels": 20,
+    "seconds": 10.9057861149995
+  },
+  {
+    "arm": "placebo_7",
+    "first_task": 60,
+    "n": 4,
+    "covariate_channels": 20,
+    "seconds": 9.929532313999516
+  },
+  {
+    "arm": "placebo_7",
+    "first_task": 64,
+    "n": 4,
+    "covariate_channels": 20,
+    "seconds": 9.89153457700013
+  },
+  {
+    "arm": "placebo_7",
+    "first_task": 68,
+    "n": 4,
+    "covariate_channels": 20,
+    "seconds": 11.613412579999931
+  },
+  {
+    "arm": "placebo_7",
+    "first_task": 72,
+    "n": 4,
+    "covariate_channels": 20,
+    "seconds": 9.58058663400061
+  },
+  {
+    "arm": "placebo_7",
+    "first_task": 76,
+    "n": 4,
+    "covariate_channels": 20,
+    "seconds": 9.587734773000193
+  },
+  {
+    "arm": "placebo_7",
+    "first_task": 80,
+    "n": 4,
+    "covariate_channels": 20,
+    "seconds": 10.281568852999953
+  },
+  {
+    "arm": "placebo_7",
+    "first_task": 84,
+    "n": 4,
+    "covariate_channels": 20,
+    "seconds": 10.298171745999753
+  },
+  {
+    "arm": "placebo_7",
+    "first_task": 88,
+    "n": 4,
+    "covariate_channels": 20,
+    "seconds": 10.631052841999917
+  },
+  {
+    "arm": "placebo_7",
+    "first_task": 92,
+    "n": 4,
+    "covariate_channels": 20,
+    "seconds": 9.851718400999744
+  },
+  {
+    "arm": "placebo_7",
+    "first_task": 96,
+    "n": 4,
+    "covariate_channels": 20,
+    "seconds": 10.085342864000268
+  },
+  {
+    "arm": "placebo_7",
+    "first_task": 100,
+    "n": 4,
+    "covariate_channels": 20,
+    "seconds": 10.14424152599986
+  },
+  {
+    "arm": "placebo_7",
+    "first_task": 104,
+    "n": 4,
+    "covariate_channels": 20,
+    "seconds": 9.678190548000202
+  },
+  {
+    "arm": "placebo_7",
+    "first_task": 108,
+    "n": 4,
+    "covariate_channels": 20,
+    "seconds": 9.71599400499963
+  },
+  {
+    "arm": "placebo_7",
+    "first_task": 112,
+    "n": 4,
+    "covariate_channels": 20,
+    "seconds": 10.576521700999365
+  },
+  {
+    "arm": "placebo_7",
+    "first_task": 116,
+    "n": 4,
+    "covariate_channels": 20,
+    "seconds": 13.060523459000251
+  },
+  {
+    "arm": "placebo_7",
+    "first_task": 120,
+    "n": 4,
+    "covariate_channels": 20,
+    "seconds": 11.177148013999613
+  },
+  {
+    "arm": "placebo_7",
+    "first_task": 124,
+    "n": 4,
+    "covariate_channels": 20,
+    "seconds": 10.650844748999589
+  }
+]

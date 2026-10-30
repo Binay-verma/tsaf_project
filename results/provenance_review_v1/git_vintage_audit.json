@@ -1,0 +1,136 @@
+{
+  "retrieved_utc": "2026-10-30T06:19:24.098455+00:00",
+  "snapshots": [
+    {
+      "name": "frozen_match",
+      "issue_date_India": null,
+      "cutoff_utc": null,
+      "query_url": "https://api.github.com/repos/robbieandrew/robbieandrew.github.io/commits?path=india/data/POSOCO_data.csv&per_page=1",
+      "status": "snapshot retained outside checkout",
+      "commit": "7e0f29022d7443e6a2c57486d58092c37f7e9878",
+      "recorded_commit_utc": "2026-10-29T05:40:02Z",
+      "source_url": "https://raw.githubusercontent.com/robbieandrew/robbieandrew.github.io/7e0f29022d7443e6a2c57486d58092c37f7e9878/india/data/POSOCO_data.csv",
+      "sha256": "ccd6e643155ec00fbd4a7fcea95635c424189e9bcee1b2b2f8e85a08dc94010e",
+      "frozen_bytes_match": true,
+      "last_source_date": "2026-10-28",
+      "comparisons": [
+        {
+          "state": "Karnataka",
+          "comparable": 4936,
+          "revised_gt_1e_6": 0,
+          "max_abs_revision": 0.0,
+          "newly_recorded": 0
+        },
+        {
+          "state": "Delhi",
+          "comparable": 4936,
+          "revised_gt_1e_6": 0,
+          "max_abs_revision": 0.0,
+          "newly_recorded": 0
+        },
+        {
+          "state": "Maharashtra",
+          "comparable": 4936,
+          "revised_gt_1e_6": 0,
+          "max_abs_revision": 0.0,
+          "newly_recorded": 0
+        }
+      ]
+    },
+    {
+      "name": "before_2024_event",
+      "issue_date_India": "2024-10-31",
+      "cutoff_utc": "2024-10-30T18:30:00Z",
+      "query_url": "https://api.github.com/repos/robbieandrew/robbieandrew.github.io/commits?path=india/data/POSOCO_data.csv&per_page=1&until=2024-10-30T18:30:00Z",
+      "status": "no recorded path revision before cutoff"
+    },
+    {
+      "name": "before_2025_event",
+      "issue_date_India": "2025-10-20",
+      "cutoff_utc": "2025-10-19T18:30:00Z",
+      "query_url": "https://api.github.com/repos/robbieandrew/robbieandrew.github.io/commits?path=india/data/POSOCO_data.csv&per_page=1&until=2025-10-19T18:30:00Z",
+      "status": "no recorded path revision before cutoff"
+    },
+    {
+      "name": "before_2026_september",
+      "issue_date_India": "2026-09-01",
+      "cutoff_utc": "2026-08-31T18:30:00Z",
+      "query_url": "https://api.github.com/repos/robbieandrew/robbieandrew.github.io/commits?path=india/data/POSOCO_data.csv&per_page=1&until=2026-08-31T18:30:00Z",
+      "status": "snapshot retained outside checkout",
+      "commit": "681a08bc5b513671e2db6747a9c70452a850628d",
+      "recorded_commit_utc": "2026-08-31T06:10:00Z",
+      "source_url": "https://raw.githubusercontent.com/robbieandrew/robbieandrew.github.io/681a08bc5b513671e2db6747a9c70452a850628d/india/data/POSOCO_data.csv",
+      "sha256": "d8d917d9df5df3aa42158979d43c5786b4341803a4454a54c6b606e141b7bf8b",
+      "frozen_bytes_match": false,
+      "last_source_date": "2026-08-30",
+      "comparisons": [
+        {
+          "state": "Karnataka",
+          "comparable": 4877,
+          "revised_gt_1e_6": 0,
+          "max_abs_revision": 0.0,
+          "newly_recorded": 0
+        },
+        {
+          "state": "Delhi",
+          "comparable": 4877,
+          "revised_gt_1e_6": 0,
+          "max_abs_revision": 0.0,
+          "newly_recorded": 0
+        },
+        {
+          "state": "Maharashtra",
+          "comparable": 4877,
+          "revised_gt_1e_6": 0,
+          "max_abs_revision": 0.0,
+          "newly_recorded": 0
+        }
+      ],
+      "calendar_days_behind_issue": 2
+    },
+    {
+      "name": "before_2026_october",
+      "issue_date_India": "2026-10-01",
+      "cutoff_utc": "2026-09-30T18:30:00Z",
+      "query_url": "https://api.github.com/repos/robbieandrew/robbieandrew.github.io/commits?path=india/data/POSOCO_data.csv&per_page=1&until=2026-09-30T18:30:00Z",
+      "status": "snapshot retained outside checkout",
+      "commit": "1c018a0aeb6e07b4b123112e673a56ba714d421b",
+      "recorded_commit_utc": "2026-09-30T04:34:59Z",
+      "source_url": "https://raw.githubusercontent.com/robbieandrew/robbieandrew.github.io/1c018a0aeb6e07b4b123112e673a56ba714d421b/india/data/POSOCO_data.csv",
+      "sha256": "1cba9e90e6094389013a3c4835e9b2127d510836514ac05caf0fce9e275244ad",
+      "frozen_bytes_match": false,
+      "last_source_date": "2026-09-28",
+      "comparisons": [
+        {
+          "state": "Karnataka",
+          "comparable": 4906,
+          "revised_gt_1e_6": 0,
+          "max_abs_revision": 0.0,
+          "newly_recorded": 0
+        },
+        {
+          "state": "Delhi",
+          "comparable": 4906,
+          "revised_gt_1e_6": 0,
+          "max_abs_revision": 0.0,
+          "newly_recorded": 0
+        },
+        {
+          "state": "Maharashtra",
+          "comparable": 4906,
+          "revised_gt_1e_6": 0,
+          "max_abs_revision": 0.0,
+          "newly_recorded": 0
+        }
+      ],
+      "calendar_days_behind_issue": 3
+    }
+  ],
+  "history_start": "2026-05-14T08:19:41Z root commit; recorded Git history only, not a first-publication certificate",
+  "limits": [
+    "No recorded2024/25 path history does not prove data never existed elsewhere",
+    "Record timestamps are not certified first-publication times",
+    "No exhaustive real-time reconstruction; only fixed snapshots",
+    "No post-issue prospective target observations retrieved"
+  ]
+}

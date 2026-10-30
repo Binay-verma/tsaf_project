@@ -1,0 +1,24 @@
+[
+  {
+    "name": "mh2025_greythr",
+    "url": "https://www.greythr.com/notifications/maharashtra-holidays-list-for-the-year-2025/",
+    "status": 200,
+    "links": [
+      "https://www.datocms-assets.com/40521/1733655231-maharashtra-state-list-of-holidays-2025.pdf",
+      "/contact-us/",
+      "/privacy-policy/",
+      "/terms-service/"
+    ]
+  },
+  {
+    "name": "mh2025_bank",
+    "url": "https://sssbl.bank.in/assets/holidays-2025.pdf",
+    "status": 200,
+    "links": []
+  },
+  {
+    "name": "grid_india_home",
+    "url": "https://grid-india.in/",
+    "error": "HTTP Error 503: Service Unavailable"
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "name": "KA2024_english",
+    "url": "https://ascent-hr.com/wp-content/uploads/2023/11/Karnataka-Govt.-Public-Holiday-Notification-year-of-2024.pdf",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "KA2025_gov",
+    "url": "https://bellurutown.mrc.gov.in/sites/bellurutown.mrc.gov.in/files/16%20HHL%202024.pdf",
+    "error": "HTTP Error 503: Service Unavailable"
+  }
+]

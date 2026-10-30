@@ -1,0 +1,55 @@
+{
+  "experiment": "mechanism_controls_v1",
+  "created_utc": "2026-10-30T06:08:27.760288+00:00",
+  "status": "exploratory protocol saved before new controls; old result inspection acknowledged; no new final test or external preregistration",
+  "cases": "same150 matched state/origin/lead event cases in2024-25 as last TimesFM/Chronos comparison;128 state/origin tasks; unchanged cases hash",
+  "cases_sha256": "d5aacfc428b503f17b5020bd323ef991782164c8e0d03ec71025bf1ad547415a",
+  "models": [
+    "chronos2",
+    "timesfm3"
+  ],
+  "arms": [
+    "calendar",
+    "zero_1",
+    "zero_7",
+    "generic_window",
+    "regional_window",
+    "generic_7",
+    "regional_7",
+    "placebo_window",
+    "placebo_7"
+  ],
+  "context": 730,
+  "horizon": 14,
+  "batch": 4,
+  "threads_per_process": 2,
+  "calendar": "same13 ordinary weekday/harmonic channels; add0/1/7 event channels with same main/regional ledger and relative-day definitions as existing Ridge controls",
+  "placebo": {
+    "seed": 42,
+    "candidate_shifts_days": [
+      -42,
+      -35,
+      -28,
+      28,
+      35,
+      42
+    ],
+    "construction": "One shift per year shared across all states. Move full regional anchor constellation by a multiple of seven within +/-42 days; exclude any overlap of placebo windows with true regional windows in any state. Random choice uses dates only. This is approximate seasonal and exact weekday matching, not exchangeability/causal evidence."
+  },
+  "feature_rules": "Reuse calendar_controls.covariates numerical construction, but select these9 declared arms. No target values enter calendar/placebo selection. Keep dates/cases fixed across all controls. Compare generic/regional within same dimension; generic_window vs generic_7/regional_window vs regional_7 measure encoding change, not isolated dimension. Zero controls may be dropped as constants by model preprocessing; report actual behavior and do not call them equal active information. Placebo channels provide nonconstant controls.",
+  "primary_contrasts": [
+    "regional_window vs generic_window (1 added channel)",
+    "regional_7 vs generic_7 (7 added channels)",
+    "zero_1/zero_7 vs calendar",
+    "regional_7 vs placebo_7"
+  ],
+  "metrics": "MAE/MASE per state/year/lead, equal state/year average; individual years retained. Means of per-state/year relative MAE changes secondary. Quantile crossing recorded; no sorting/clipping or significance claims.",
+  "reuse_policy": "Do not adopt prior forecasts as new controls without exact source/model/package/config/input proof. Default fresh inference; use no data/feature/model/cache bypass. Preserve all original experiment artifacts.",
+  "limitations": [
+    "two historical event clusters and correlated states/days",
+    "fixed seeded placebo not randomization distribution",
+    "pre-weight event targets: exposure unresolved",
+    "no new-method or regional-provenance causality claim",
+    "no modification of frozen prospective forecasts; outcomes pending"
+  ]
+}

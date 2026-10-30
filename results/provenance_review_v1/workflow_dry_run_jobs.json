@@ -1,0 +1,52 @@
+[
+  {
+    "name": "score",
+    "conclusion": "success",
+    "steps": [
+      {
+        "name": "Set up job",
+        "conclusion": "success"
+      },
+      {
+        "name": "Check out immutable forecast history",
+        "conclusion": "success"
+      },
+      {
+        "name": "Set up Python",
+        "conclusion": "success"
+      },
+      {
+        "name": "Install scoring dependencies",
+        "conclusion": "success"
+      },
+      {
+        "name": "Check gates, acquire complete outcomes and score",
+        "conclusion": "success"
+      },
+      {
+        "name": "Preserve first scored episode in Git",
+        "conclusion": "skipped"
+      },
+      {
+        "name": "Retain scoring artifact even if branch rules block commit",
+        "conclusion": "skipped"
+      },
+      {
+        "name": "Disable one-shot schedule after scores are retained",
+        "conclusion": "skipped"
+      },
+      {
+        "name": "Post Set up Python",
+        "conclusion": "success"
+      },
+      {
+        "name": "Post Check out immutable forecast history",
+        "conclusion": "success"
+      },
+      {
+        "name": "Complete job",
+        "conclusion": "success"
+      }
+    ]
+  }
+]

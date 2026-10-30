@@ -1,0 +1,16 @@
+arm,reference,horizon,mean_state_improvement_pct
+regional_7,generic_7,1,4.716593153115996
+regional_7,generic_7,7,3.2523357300693343
+regional_7,generic_7,14,6.427484649056826
+regional_7,placebo_7,1,2.344374044537013
+regional_7,placebo_7,7,15.0094116976097
+regional_7,placebo_7,14,18.192630489811872
+regional_window,generic_window,1,1.171695008091811
+regional_window,generic_window,7,-0.08876704549332692
+regional_window,generic_window,14,2.1206715204757884
+zero_1,calendar,1,0.617763089745116
+zero_1,calendar,7,-1.7639123584135588
+zero_1,calendar,14,-2.6226201387463917
+zero_7,calendar,1,1.9909847352436014
+zero_7,calendar,7,-5.18619208857227
+zero_7,calendar,14,-4.27259047576308

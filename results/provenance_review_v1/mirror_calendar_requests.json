@@ -1,0 +1,12 @@
+[
+  {
+    "name": "KA2025_mirror",
+    "url": "https://www.legalitysimplified.com/wp-content/uploads/2024/11/10050054.pdf",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "KA2024_mirror",
+    "url": "https://www.contractstaffingindia.com/pdf/Compliance/Other%20Amendment/Government%20Holidays%20%E2%80%93%20Karnataka.pdf",
+    "error": "HTTP Error 406: Not Acceptable"
+  }
+]

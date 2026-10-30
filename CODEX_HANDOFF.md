@@ -2,7 +2,25 @@
 
 Updated 30 October 2026. This is a portable project-state summary, not a verbatim chat export. Use repository files and recorded outputs as evidence. Codex should not need access to the original ChatGPT conversation to resume useful work.
 
-## Latest completed checkpoint — matched models and manuscript
+## Current checkpoint — gate studies completed; college deadline and sharing hold
+
+The user now needs a college presentation on1November2026 (day after tomorrow from30October). They report sending the source-permission email manually. Verified address supplied from the official CICERO employee profile; no assistant email was sent. A previous Gmail send authorization was superseded by manual sending. **Do not send duplicate email.** Binay Verma is author/requester, not an independent reviewer.
+
+Presentation: `presentation/College_Presentation_Binay_Verma_2026-11-01.pptx`, matching PDF and SPEAKER_NOTES.md;12slides/12pages, embedded notes, source credit, own aggregate charts only. Renders checked. Label as ongoing academic research; no completed prospective accuracy result by1November.
+
+**Sharing hold:** earlier GitHub pushes are public. After user said college-only/not publishing, this was disclosed and a private/public preference question is pending. Do not push the new research/deck until choice is confirmed. The existing prospective workflow was deliberately paused via API (204; state disabled_manually) to avoid automatic public score uploads. It had already registered active and completed a successful pre-period manual dry run. After explicit sharing choice, make/verify repository private if requested (or keep public if confirmed), push saved work and re-enable workflow as appropriate. Do not silently publish or claim paused workflow is still active.
+
+New `mechanism_controls_v1`:9arms x2pinned TSFMs x128state/origin tasks =2304fresh inference tasks,2700scored rows on150same cases/arm. Scalar and7-channel generic/regional, zero and active placebo controls. Audits pass; zero channels change point forecasts byup to6.05/6.93GWh. Regional effects representation-dependent; not a universal/causal provenance mechanism. Reports include all years/cases.
+
+`provenance_review_v1`:32tests pass in working/clean no-system-package envs. Separate scalar implementation reveals float64 tree sensitivity (8/12examples fail; max4.2798GWh) despitefeature differences~2.4e-11. Failed checks retained. `stable_tree_refit_v2` explicitly casts feature matricesfloat32,648selection fits/81chosen/999deployment/53622predictions, and all12checked forecasts/3choices reproduce exactly in separate implementation. No original/frozen predictions replaced. Metadata-path error after completed fits was repaired with retained traceback/execution source and audited artifacts; no fake wall time.
+
+Source frozen raw bytes match a29Oct2026 Git revision. Git history beginsMay2026, but olderWayback captures prove earlier public snapshots; never claim Git start is first data publication. Three compressed archive payloads were decoded and checked against provider digests; observed historical revisions include61.5GWh, while150selected festival labels agree with checked later2025archive. Raw snapshots remain outside checkout, with restorer/hashes/URLs provided. `vintage_sensitivity_v1`48tasks/672predictions quantifies two fixed midnight source-availability scenarios (last labels2/3days behindissue; matched mean errors increase3.9–11.3%). Not full real-time reconstruction or future scoring.
+
+Six notice/date rows and28used-anchor worksheet strengthen calendar evidence; no final amendment chain is certified. Public source rights searches did not establish applicable permission. Reference request and review brief under `review/`; curator response and independent human sign-off pending. User reports email sent; do not fabricate response/licence.
+
+Current docs: CURRENT_RESEARCH_STATUS.md, manuscript/DRAFT.md, manuscript/SUBMISSION_GATES.md, RESEARCH_GATE_REPRODUCTION.md. Immutable prospective original inputs/protocol/predictions unchanged. Added CLARIFICATIONS.md distinguishes simulated October1 label cutoff from actual October30 fit computation; it does not change forecasts. Source vintages retrospective; index-time purges do not certify historical publication availability. No local model process continues after this session.
+
+## Earlier completed checkpoint — matched models and manuscript
 
 The phase-two checkpoint below is now extended with `results/timesfm_matched_events_v1/`: 384 inference tasks,5376 forecast-day outputs,450 scored rows on150 exact event cases/mode in2024–2025. History/calendar/regional TimesFM3 were compared with cached Chronos/Ridge/SARIMAX on identical cases, with finite outputs/source labels/scales/metrics/case hashes independently audited. Batch4 versus solo predictions match exactly on the first4 tasks/mode. These tasks are not independent event replications.
 

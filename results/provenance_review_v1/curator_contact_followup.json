@@ -1,0 +1,34 @@
+[
+  {
+    "name": "employee_profile",
+    "url": "https://cicero.oslo.no/en/employees/robbie-andrew",
+    "status": 200,
+    "mailto": [
+      "presse@cicero.oslo.no",
+      "presse@cicero.oslo.no\\"
+    ],
+    "profile_links": [
+      "https://cicero.oslo.no/en/employees/robbie-andrew\"/",
+      "https://xp.cicero.oslo.no/en/api/_/image/5e98c713-093a-417a-8629-2bc6803fc259:08e188e9f5387ed56aea20e44b027056006da945/block-1200-627/robbie_profile_126.jpg\"/",
+      "https://cicero.oslo.no/no/ansatte/robbie-andrew\"",
+      "https%3A%2F%2Fxp.cicero.oslo.no%2Fen%2Fapi%2F_%2Fimage%2F5e98c713-093a-417a-8629-2bc6803fc259%3A08e188e9f5387ed56aea20e44b027056006da945%2Ffull%2Frobbie_profile_126.jpg&amp;w=384&amp;q=100",
+      "https%3A%2F%2Fxp.cicero.oslo.no%2Fen%2Fapi%2F_%2Fimage%2F5e98c713-093a-417a-8629-2bc6803fc259%3A08e188e9f5387ed56aea20e44b027056006da945%2Ffull%2Frobbie_profile_126.jpg&amp;w=640&amp;q=100"
+    ]
+  },
+  {
+    "name": "sitemap",
+    "url": "https://cicero.oslo.no/sitemap.xml",
+    "status": 200,
+    "mailto": [],
+    "profile_links": [
+      "https://cicero.oslo.no/no/ansatte/robbie-andrew"
+    ]
+  },
+  {
+    "name": "public_curator_profile",
+    "url": "https://api.github.com/users/robbieandrew",
+    "status": 200,
+    "public_email": null,
+    "profile_url": ""
+  }
+]
