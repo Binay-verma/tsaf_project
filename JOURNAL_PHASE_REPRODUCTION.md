@@ -2,6 +2,8 @@
 
 Continue the existing checkout and pinned Python3.12environment. Do not restart the original project, overwrite completed workers or rerun the full benchmark merely to recreate context. All original scientific/source/deck files and future Git blobs remain protected. The current checksum manifest verifies transfer integrity, not scientific validity.
 
+Latest extension: [past-only interval calibration and prospective interval annex](NATIVE_CALIBRATION_REPRODUCTION.md) is now completed/issued, with a separate review supplement. These earlier studies remain preserved.
+
 ## Completed studies
 
 | Study | Protocol and completed evidence | Important distinction |

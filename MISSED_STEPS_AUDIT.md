@@ -2,6 +2,8 @@
 
 Later sharing update: the user explicitly requested pushing the completed work to the existing public GitHub repository; the push through26cc645was verified. Earlier local-only notes below describe the audit-execution checkpoint. No source permission grant or prospective workflow reactivation is implied by the push.
 
+Latest uncertainty extension: native/fixed/expanding past-only interval calibration is complete, with strict label-date/origin purging, all14TimesFMleads and an immutable prospective interval annex. Coverage gains incur width/score costs; no future scores, event-calibration guarantee or workflow reactivation. See NATIVE_CALIBRATION_RESULTS_BRIEF.md.
+
 Latest continuation: the pooled-event comparator, supervised-family-label exclusion and broader post-weight daily audit are now complete; see their versioned reports/current handoff. The native uncertainty analysis reveals severe event undercoverage. All58used anchors have a coverage/source worksheet, but zero amendment certifications or human sign-offs. Prior statements below describe the earlier checkpoint and are superseded where execution evidence is now available.
 
 This audit answers the author's request to check what was missed between the earlier benchmark and an added-festival-feature experiment. It distinguishes software checks, evidence limits and work not yet completed. No external review, rights grant or future outcome is inferred.

@@ -2,6 +2,8 @@
 
 Goal: a defensible paper for a verified Q1 venue. This packet is for review, not submission approval. No journal has been contacted or selected, and no independent review, reuse grant or acceptance is inferred.
 
+New uncertainty extension: also read `manuscript/calibration_update_v1/` (4-page MD/DOCX/PDF), which reports calibration gains/costs and an unscored prospective interval annex. It preserves all earlier evidence and does not establish future calibration.
+
 Start with the editable manuscript under `manuscript/journal_draft_v1/` after its build/QA checkpoint, then inspect the linked full result tables rather than only the main-paper tables. The current contribution is a controlled empirical evaluation of calendar representation, pooling, adaptation and failure modes. It is not a new foundation architecture or a first-ever holiday encoding.
 
 ## Scientific review requested

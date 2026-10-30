@@ -1,5 +1,15 @@
 # Current status — 30 October 2026
 
+## Latest completed phase: past-only interval calibration
+
+`native_calibration_v1` is completed and audited:4,590uniquehistorical interval rows, native/frozen-September/expanding-past arms, strict calibration LABEL dates before query ORIGIN. Common four-configuration/three-lead cohort1,620rows; TimesFM all14lead extension3,780rows including810overlap. Native point/median/quantile forecasts remain unchanged. New342TimesFMcontexts reproduce792parent rows and independently reconstruct; all1,039protectedprior artifacts remain unchanged.53tests pass in both working and separate clean environments.
+
+Coverage can improve but intervals widen. For TimesFM history next day, coverage0.7111→0.8444(frozen) /0.8222(expanding), with WIS0.3649→0.3594/0.3599. Lead7WIS often worsens; lead14can remain below80%. This is standard CQR on inspected historical data, not a new method, guaranteed calibration or a fix to the separate festival-feature cohort.
+
+A separate interval annex was issued30October at20:42:14IST, using ORIGINAL frozen TimesFM quantiles without new future inference. All methods were frozen before reviewing new historical calibration coverage results. Public first commit29bdd984770904a032cebe9efcd2a12a8d5ffc17 was remote-verified before eligible dates.216eligibleintervalrows=72originalTimesFMfuturecases×3arms, sameepisode/source;31October–11November. Original252six-configuration forecasts/protocol/freeze remain unchanged. Future results remain pending, manual scorer refuses early labels and uses the original collector's exact actual vintage after the full period; automation remains paused.
+
+Read [calibration brief](NATIVE_CALIBRATION_RESULTS_BRIEF.md), [four-page review supplement](manuscript/calibration_update_v1/CALIBRATION_UPDATE.md), [reproduction](NATIVE_CALIBRATION_REPRODUCTION.md) and [prospective annex](results/prospective_interval_20261030_v1/README.md). The supplement preserves the prior integrated paper;144table cells and rendered pages are checked. The annex preview shows only recorded past and pending future bands.
+
 ## Current objective: a defensible paper for a verified Q1 venue
 
 The user requests continuing executable phases and pushing completed work. Three new studies are now complete and audited; a separate editable manuscript is prepared under `manuscript/journal_draft_v1/`. Q1 is the target, not a verified venue/acceptance claim. IJF is a scope candidate; current ranking database/year/category still need verification. Source rights, independent human review and confirmation gates remain open.

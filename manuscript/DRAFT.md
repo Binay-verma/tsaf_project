@@ -2,6 +2,10 @@
 
 **Working research manuscript; not submission-ready.** Author: Binay Verma. This draft distinguishes completed exploratory evidence from pending confirmation. Numerical tables are linked to versioned artifacts rather than treated as independent replications. Journal selection, author verification and reuse clearance remain open.
 
+## Latest uncertainty extension
+
+See the separate [calibration supplement](calibration_update_v1/CALIBRATION_UPDATE.md): past-only native/fixed/expanding interval comparison, coverage/width/score trade-offs, and a separately issued prospective interval annex. Historical calibrations remain exploratory; the annex is unscored. Original integrated paper and forecasts remain preserved. Future intervals were issued30October20:42IST before reviewing new calibration coverage outcomes, with no method chosen by errors.
+
 ## Latest review manuscript
 
 The restructured current MD/DOCX/PDF is under [journal_draft_v1](journal_draft_v1/MANUSCRIPT.md). It includes the completed pooled-feature, supervised-family-label exclusion and broader daily post-weight studies, native probability quality and four figures. This older working draft remains useful historical detail; current claims follow the versioned reports and new paper. Q1 is the target, not a verified venue or acceptance claim.

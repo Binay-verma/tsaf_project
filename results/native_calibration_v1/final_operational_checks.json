@@ -1,0 +1,12 @@
+{
+  "checked_utc": "2026-10-30T15:31:31.912439+00:00",
+  "repository_public": true,
+  "workflow_state": "disabled_manually",
+  "annex_first_commit": "29bdd984770904a032cebe9efcd2a12a8d5ffc17",
+  "guarded_annex_files_unchanged": true,
+  "protected_prior_files_unchanged": 1039,
+  "future_actuals_requested": false,
+  "future_scores": "pending",
+  "model_jobs_running": false,
+  "annex_intervals_valid_without_future_labels": true
+}

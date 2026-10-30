@@ -1,0 +1,15 @@
+{
+  "status": "created_unscored_preview",
+  "annex_sha256": "a84520081a1f612f484cbb291d4569d9f8652f4893eb6ae81f74e2b922e70f44",
+  "known_context_end": "2026-10-28",
+  "prospective_eligible_start": "2026-10-31",
+  "future_actuals_included": false,
+  "all_states_modes_and_interval_arms_shown": true,
+  "no_model_inference": true,
+  "outputs": {
+    "png": "de1e15eab2be8e7751673e7f373ae0097241c2588ba7fd71eaf0a78b62807b1a",
+    "pdf": "e7c85b9cf64df5c33ce02fbe6241eea99014d5c27f7542acb151354ac3910759",
+    "svg": "2f51538871c1550d90920a005438a5e54f71cee06d2e620021c3c862d1bb3722"
+  },
+  "svg_geometry_unchanged_after_whitespace_normalization": true
+}

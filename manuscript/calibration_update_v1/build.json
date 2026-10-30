@@ -1,0 +1,13 @@
+{
+  "status": "completed_review_supplement_QA_pass_not_submission_approval",
+  "created_utc": "2026-10-30T15:19:16.015415+00:00",
+  "source_hashes": {
+    "results/native_calibration_v1/primary_metrics_macro.csv": "9f9e9f498a41b95cf37a18958d4b00b56192cd034c459aa81011f36a81630ff4",
+    "results/native_calibration_v1/contrasts_macro.csv": "5b4264f4b5d5c976662158895aa2e57552420ef1d468dc4dc623809ef5a4f493",
+    "results/prospective_interval_20261030_v1/freeze.json": "b34ebb20607acd626183f856f6d33266a36af074ebb1e96890be76f58b22060a"
+  },
+  "manuscript_sha256": "de05abef2ae1538751cf00f28b5d92accf33c9c9751a1468ab85f500b2409a40",
+  "builder_sha256": "9faa2c336eb124298b152dcb714b77ff7ebe04c8f06161d60de23515da2493cb",
+  "qa_sha256": "e21ea5c3251942e8e3155f17cd4153883f16319f41e61e34bf7a12f74684cb6f",
+  "svg_geometry_unchanged_after_whitespace_normalization": true
+}

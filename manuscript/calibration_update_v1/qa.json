@@ -1,0 +1,18 @@
+{
+  "status": "pass",
+  "scope": "Internal numeric/structural/visual document QA; not peer approval",
+  "numeric_cells_checked": 144,
+  "tables": 3,
+  "figures": 1,
+  "pdf_pages": 4,
+  "outputs": {
+    "CALIBRATION_UPDATE.md": "de05abef2ae1538751cf00f28b5d92accf33c9c9751a1468ab85f500b2409a40",
+    "Calibration_Update_Binay_Verma.docx": "ca2ec0be623709f7e96e55e416fc71e5964bf1115ac05a791b2837e04a4e1783",
+    "Calibration_Update_Binay_Verma.pdf": "a2b6aedb0e13c07ecb8178f38a80a459a9bc033ca2659c5887e66607858605b5"
+  },
+  "visual_pages_checked": [
+    2,
+    3
+  ],
+  "visual_check": "Tables readable and complete; contrast heatmap/caption legible with separate units/scales"
+}
