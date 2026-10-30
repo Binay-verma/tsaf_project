@@ -1,0 +1,1 @@
+These immutable progress snapshots preserve the status published in commit5a7467f. The corresponding live orchestration files continue changing while registered workers run; they are deliberately excluded from immutable continuation checksums. This does not change any scientific source, prediction, failure or protocol.

@@ -1,6 +1,6 @@
 {
-  "description": "Preserved all-arm dispatch failure; 840 closed forecasts retained, 252 missing registered for recovery; 89 tests; no old source/forecast overwritten.",
-  "updated_utc": "2026-10-30T22:49:55.102043+00:00",
+  "description": "Immutable progress snapshots retained; live orchestration excluded from integrity manifest; scientific sources/forecasts unchanged.",
+  "updated_utc": "2026-10-30T22:51:46.229225+00:00",
   "files": {
     ".github/workflows/prospective-evaluation.yml": "c0bbe903d75456a5f1fc7e82fcaabc29df2bbd59c75117e24be6670138795739",
     ".gitignore": "bbf77a0288645d6e0013c3ea6898864263d33fad4132520dc67a21a59f76a279",
@@ -832,8 +832,6 @@
     "results/calendar_semantics_v2/local_checkpoint_recovery_v1/run.json": "cb6cee4bdd2c0ffef82efaf50865bc797dd1db4a6b6ca5f48caddcdbf3c7e840",
     "results/calendar_semantics_v2/local_finalize.execution.log": "982aebb74bf150f3575952b5856229b955947aa26af5a7ad5bbe0503e36c2fe8",
     "results/calendar_semantics_v2/local_recovery_comparison.json": "fd5678af8dad6c1bdc589ad316f7d9e6df49c5e7b422ec9144a4a08006c72e1c",
-    "results/calendar_semantics_v2/pipeline.execution.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-    "results/calendar_semantics_v2/pipeline_status.json": "8388810de6542b7be2c0c3dd3c415b13cca0816c9f11552dd7a7c858e0198a33",
     "results/calendar_semantics_v2/protocol_clarification.json": "94400ca2211e09bf3158a9f94650009ac9093cafb3431200fc453e398e683290",
     "results/calendar_semantics_v2/recovery.execution.log": "69cc7f8204b1a89587d1f1eb5be873174bc52da289e2dc3bef1bf3a3f3af7055",
     "results/calendar_semantics_v2/registration.json": "1e9d179a5b955c17d3e11f3681884648491af70660ba8583bcf1eabb13213df8",
@@ -1731,8 +1729,6 @@
     "results/neso_replication_v1/local_checkpoint/predictions_compared.csv": "c005138023a0a1c7e811850f8bb82b08524c9a03407d8de4767d0b64b90debc4",
     "results/neso_replication_v1/local_checkpoint/run.json": "3b29efc70234c21f1ef2398c374c1a6f1e1d6c74b1aeff169322e1a413a0cb43",
     "results/neso_replication_v1/local_checkpoint/tests.execution.log": "52ac73558abd3792b582d590a86f2bf0a4411297a57b6e6e8be17aecc54a45c0",
-    "results/neso_replication_v1/pipeline.execution.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-    "results/neso_replication_v1/pipeline_status.json": "8e8f3e9f17ff24207a4e32edfd7db765b2f636ba9098eb7db608f253309b4aef",
     "results/neso_replication_v1/placebos.csv": "3540ac44f0fb17fd0bbcded0613dd4575d1d26411f22f45b618e16a7a33b8211",
     "results/neso_replication_v1/provider_metadata.json": "c71daf6c21fb0453c292da18407c5ee90a96c92f98feede40ee23d10b4f3ad00",
     "results/neso_replication_v1/registration.json": "013938a368c4921fdc0337c6d949583fd3847a2279b643c71f2635c039a6de9b",
@@ -2288,6 +2284,7 @@
     "review/mta_holiday_feasibility_v1/nyc_dot_2026_retrieval.json": "9f4161fcfb599e8aa66c6828732ac5eca5046422a881773e52f0131ed34d4374",
     "review/mta_holiday_feasibility_v1/nyc_dot_index_retrieval.json": "4765dfe0aebb741f76e7d1a24fec08d431fdabb50b33d5c9b9e2371b9308ffd4",
     "review/mta_holiday_feasibility_v1/overview_retrieval.json": "870d8289c8e8181aeddaf222327d09d78466704ca069dea126fa96943cce214e",
+    "review/progress_snapshot_5a7467f/README.md": "a19c33e93b18272f28c43e6e8099f269c23335125f98eb930caf15eeaa5399ad",
     "review/recenter_dispatch_recovery_v1/stopped_waiters.json": "9e716b29ff00776366c4474dbbb30edd60dff3dc40fdecb0a93bfb27b6a0afbf",
     "review/reference_audit_v1/README.md": "ccc47aac9e75caad3585923156ba5dfccb64de3309c017f8f744fd3c9ee995bc",
     "review/reference_audit_v1/arxiv_metadata.json": "9b99370d80535a82616aaf6272106dcf98af4db9d2a5e7bab8e5e4c5f1d137d2",
@@ -2491,5 +2488,11 @@
     "src/write_phase2_reports.py": "a60e0da06b3807a4759949a67029dd8ca28c996189775d9d15f084894614da33",
     "src/write_validation_report.py": "ea08fc6db0799ccb10a315e7f3163d6f614959fd011e31201eb699e8b15cddf1",
     "verify_split_transfer.py": "d8936ccef18b433b8347cc737b937a10a6d3a625dbdcd48364a375fb78bdc6a4"
-  }
+  },
+  "live_progress_files_excluded": [
+    "results/calendar_semantics_v2/pipeline_status.json",
+    "results/calendar_semantics_v2/pipeline.execution.log",
+    "results/neso_replication_v1/pipeline_status.json",
+    "results/neso_replication_v1/pipeline.execution.log"
+  ]
 }
