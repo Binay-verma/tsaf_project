@@ -1,0 +1,14 @@
+{
+  "slides": 8,
+  "notes_all_slides": true,
+  "pdf_pages": 8,
+  "pptx_zip_integrity": "pass",
+  "visual_review": "slides3/4/6; colour-bar overlap fixed",
+  "original_presentations_preserved": true,
+  "online_upload": "none; sharing hold",
+  "raw_datasets_or_weights_embedded": false,
+  "artifact_hashes": {
+    "Festival_Features_Binay_Verma_2026-11-01.pptx": "9bf65c48e8266ce677fbad7b64baccee5b12a488b8cb43a0a8a3e464a8513c6e",
+    "Festival_Features_Binay_Verma_2026-11-01.pdf": "a686c2eaab08f5cf4c46432914207c185083ab16ed95a8e322db38caf1d6480d"
+  }
+}

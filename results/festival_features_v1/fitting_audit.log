@@ -1,0 +1,41 @@
+{
+  "status": "pass",
+  "model_checks": {
+    "ridge": {
+      "fits": 648,
+      "fixed_parameters_across_arms": true,
+      "original_preyear_parameters_reused": true,
+      "prespecified_leaf_minimum_override": null,
+      "matching_fitting_label_hashes_across_arms": true,
+      "old_baseline_checked_groups": 18,
+      "max_old_baseline_difference": 1.1368683772161603e-13
+    },
+    "lightgbm": {
+      "fits": 648,
+      "fixed_parameters_across_arms": true,
+      "original_preyear_parameters_reused": true,
+      "prespecified_leaf_minimum_override": null,
+      "matching_fitting_label_hashes_across_arms": true,
+      "old_baseline_checked_groups": 18,
+      "max_old_baseline_difference": 8.526512829121202e-14
+    },
+    "lightgbm_capacity2": {
+      "fits": 432,
+      "fixed_parameters_across_arms": true,
+      "original_preyear_parameters_reused": false,
+      "prespecified_leaf_minimum_override": 2,
+      "matching_fitting_label_hashes_across_arms": true,
+      "old_baseline_checked_groups": 0,
+      "max_old_baseline_difference": null
+    },
+    "sarimax": {
+      "converged_parameter_fits": 36,
+      "optimizer_attempts": 40,
+      "unsuccessful_attempts_retained": 4,
+      "deployment_tasks": 2820,
+      "past_only_state_updates": true
+    }
+  },
+  "sparse_capacity_note": "Features with fewer active fitting rows than a tree leaf minimum cannot isolate those rare rows in a valid split. This is a capacity limitation, not proof of intrinsic event irrelevance. Capacity2 remains a separately reported sensitivity, not a selected winner.",
+  "scope": "Internal budget/log audit, not independent human review or exhaustive implementation proof"
+}

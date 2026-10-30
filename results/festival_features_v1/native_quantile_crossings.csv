@@ -1,0 +1,7 @@
+model,arm,family,state,origin,date,horizon,lower_level,upper_level,lower_prediction,upper_prediction
+chronos,calendar,Ugadi_Gudi_Padwa,Karnataka,2024-04-09,2024-04-09,1,q_350,q_400,334.03179931640625,333.7152099609375
+chronos,zero5,Ugadi_Gudi_Padwa,Karnataka,2024-04-09,2024-04-09,1,q_350,q_400,334.0648193359375,333.7406311035156
+chronos,day5,Ugadi_Gudi_Padwa,Karnataka,2024-04-09,2024-04-09,1,q_350,q_400,333.901123046875,333.584228515625
+chronos,window5,Ugadi_Gudi_Padwa,Karnataka,2024-04-09,2024-04-09,1,q_350,q_400,334.0581970214844,333.7375793457031
+chronos,placebo_day5,Ugadi_Gudi_Padwa,Karnataka,2024-04-09,2024-04-09,1,q_350,q_400,333.831787109375,333.5051574707031
+chronos,placebo_window5,Ugadi_Gudi_Padwa,Karnataka,2024-04-09,2024-04-09,1,q_350,q_400,333.7867431640625,333.472412109375

@@ -1,0 +1,25 @@
+{
+  "status": "completed",
+  "models": [
+    "ridge",
+    "lightgbm",
+    "lightgbm_capacity2",
+    "sarimax",
+    "chronos",
+    "timesfm"
+  ],
+  "common_arms": [
+    "calendar",
+    "zero5",
+    "day5",
+    "window5",
+    "placebo_day5",
+    "placebo_window5"
+  ],
+  "cases_per_arm": 72,
+  "primary_rows": 2592,
+  "secondary_classical_rows": 15840,
+  "protocol_sha256": "967daa7f34f8bc38f2dacd41af6097c2cae7dfc265a54413606ffc393624c5b3",
+  "primary_sha256": "3b0edf8dee9d44ca7b556cacd4635cb28228702571b5e949fec4555f411f6e04",
+  "secondary_sha256": "be69cb643c6cc5d3a4034a9376a94f29cd8eca53c91b48fbd6feb2120ed274ab"
+}

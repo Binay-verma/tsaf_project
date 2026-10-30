@@ -1,0 +1,19 @@
+{
+  "status": "pass",
+  "scope": "Separate date/NumPy reconstruction of actual target/covariate bytes; not external human review or training-corpus/real-time clearance",
+  "models": {
+    "chronos": {
+      "reconstructed_input_tasks": 432,
+      "native_quantile_crossings": 6,
+      "max_first_batch_solo_difference": 1.52587890625e-05,
+      "weight_sha256": "ddcda3c7508bf2528087723e98a20707cc04b7f370ae275a9fd88078ddba4f42"
+    },
+    "timesfm": {
+      "reconstructed_input_tasks": 432,
+      "native_quantile_crossings": 0,
+      "max_first_batch_solo_difference": 0.0,
+      "weight_sha256": "a7592b0a8432baee54483254e5647856911ce69e09d09a9bb65904b2d98f17da"
+    }
+  },
+  "quantile_treatment": "All native outputs retained unchanged; no sorting/clipping"
+}

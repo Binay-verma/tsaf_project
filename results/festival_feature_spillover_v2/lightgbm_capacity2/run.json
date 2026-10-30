@@ -1,0 +1,15 @@
+{
+  "model": "lightgbm_capacity2",
+  "completed_utc": "2026-10-30T10:28:45.236692+00:00",
+  "rows": 216,
+  "fits": 192,
+  "arms": [
+    "calendar",
+    "day5",
+    "window5"
+  ],
+  "cases_per_arm": 72,
+  "seconds": 78.5104775309992,
+  "predictions_sha256": "713b7b1e3f2f86c1bc0346b8c75f6bc92e945b7c12a33513000d553741a58b7c",
+  "protocol_sha256": "ed4d30a35775f58cd675d5e7e932cc1d6e8e368dd1da915f3e28ea1938c70f63"
+}

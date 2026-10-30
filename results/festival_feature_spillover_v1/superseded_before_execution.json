@@ -1,0 +1,7 @@
+{
+  "status": "superseded before any model execution",
+  "reason": "Primary regression runner checks baseline reproduction against festival-window-only rows; non-event controls need the original dense daily baseline source. A separate secondary regression runner with an explicit full-daily reference is required.",
+  "outcome_models_run": 0,
+  "next": "festival_feature_spillover_v2 with explicit full-daily baseline reference",
+  "preparation_failure": "NameError: Path not imported, before protocol write; no frozen protocol or model outputs existed."
+}

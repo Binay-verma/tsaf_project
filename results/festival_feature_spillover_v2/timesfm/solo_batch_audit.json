@@ -1,0 +1,50 @@
+[
+  {
+    "arm": "calendar",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "calendar",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "calendar",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "calendar",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "day5",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "day5",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "day5",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "day5",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "window5",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "window5",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "window5",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "window5",
+    "max_abs_difference": 0.0
+  }
+]

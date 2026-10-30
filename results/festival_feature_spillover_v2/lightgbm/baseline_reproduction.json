@@ -1,0 +1,110 @@
+[
+  {
+    "state": "Delhi",
+    "year": 2024,
+    "horizon": 1,
+    "maxdiff": 0.0
+  },
+  {
+    "state": "Delhi",
+    "year": 2024,
+    "horizon": 7,
+    "maxdiff": 0.0
+  },
+  {
+    "state": "Delhi",
+    "year": 2024,
+    "horizon": 14,
+    "maxdiff": 0.0
+  },
+  {
+    "state": "Delhi",
+    "year": 2025,
+    "horizon": 1,
+    "maxdiff": 0.0
+  },
+  {
+    "state": "Delhi",
+    "year": 2025,
+    "horizon": 7,
+    "maxdiff": 0.0
+  },
+  {
+    "state": "Delhi",
+    "year": 2025,
+    "horizon": 14,
+    "maxdiff": 0.0
+  },
+  {
+    "state": "Karnataka",
+    "year": 2024,
+    "horizon": 1,
+    "maxdiff": 2.842170943040401e-14
+  },
+  {
+    "state": "Karnataka",
+    "year": 2024,
+    "horizon": 7,
+    "maxdiff": 0.0
+  },
+  {
+    "state": "Karnataka",
+    "year": 2024,
+    "horizon": 14,
+    "maxdiff": 2.842170943040401e-14
+  },
+  {
+    "state": "Karnataka",
+    "year": 2025,
+    "horizon": 1,
+    "maxdiff": 0.0
+  },
+  {
+    "state": "Karnataka",
+    "year": 2025,
+    "horizon": 7,
+    "maxdiff": 2.842170943040401e-14
+  },
+  {
+    "state": "Karnataka",
+    "year": 2025,
+    "horizon": 14,
+    "maxdiff": 2.842170943040401e-14
+  },
+  {
+    "state": "Maharashtra",
+    "year": 2024,
+    "horizon": 1,
+    "maxdiff": 0.0
+  },
+  {
+    "state": "Maharashtra",
+    "year": 2024,
+    "horizon": 7,
+    "maxdiff": 0.0
+  },
+  {
+    "state": "Maharashtra",
+    "year": 2024,
+    "horizon": 14,
+    "maxdiff": 5.684341886080802e-14
+  },
+  {
+    "state": "Maharashtra",
+    "year": 2025,
+    "horizon": 1,
+    "maxdiff": 0.0
+  },
+  {
+    "state": "Maharashtra",
+    "year": 2025,
+    "horizon": 7,
+    "maxdiff": 0.0
+  },
+  {
+    "state": "Maharashtra",
+    "year": 2025,
+    "horizon": 14,
+    "maxdiff": 0.0
+  }
+]

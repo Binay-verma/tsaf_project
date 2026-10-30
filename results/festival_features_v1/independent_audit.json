@@ -1,0 +1,29 @@
+{
+  "status": "pass",
+  "scope": "Independent internal stdlib reconstruction, not independent human scientific review",
+  "models": 6,
+  "arms": 6,
+  "cases_per_arm": 72,
+  "primary_rows": 2592,
+  "metric_cells": 2592,
+  "previous_artifact_hashes_unchanged": 466,
+  "checks": [
+    "complete identical cases, no silent missing forecast intersection",
+    "source labels only",
+    "lead/date alignment",
+    "730-day pre-year scales",
+    "MAE/MASE reconstruction",
+    "equal state/year/family weighting",
+    "named training-date span",
+    "weekday-preserving non-overlapping placebos",
+    "prior source/result/presentation/freeze hashes"
+  ],
+  "primary_predictions_sha256": "3b0edf8dee9d44ca7b556cacd4635cb28228702571b5e949fec4555f411f6e04",
+  "secondary_classical": {
+    "rows": 15840,
+    "metric_cells": 2160,
+    "cases_per_arm": 528,
+    "all_reported_arms_complete": true,
+    "paired_primary_changes_independently_checked": true
+  }
+}

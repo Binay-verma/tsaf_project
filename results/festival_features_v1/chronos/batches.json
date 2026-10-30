@@ -1,0 +1,650 @@
+[
+  {
+    "arm": "calendar",
+    "offset": 0,
+    "tasks": 4,
+    "seconds": 19.729841078999016
+  },
+  {
+    "arm": "calendar",
+    "offset": 4,
+    "tasks": 4,
+    "seconds": 8.532965276997857
+  },
+  {
+    "arm": "calendar",
+    "offset": 8,
+    "tasks": 4,
+    "seconds": 17.42021712099813
+  },
+  {
+    "arm": "calendar",
+    "offset": 12,
+    "tasks": 4,
+    "seconds": 16.22833045600055
+  },
+  {
+    "arm": "calendar",
+    "offset": 16,
+    "tasks": 4,
+    "seconds": 11.14850216999912
+  },
+  {
+    "arm": "calendar",
+    "offset": 20,
+    "tasks": 4,
+    "seconds": 12.514507168001728
+  },
+  {
+    "arm": "calendar",
+    "offset": 24,
+    "tasks": 4,
+    "seconds": 7.228330401001585
+  },
+  {
+    "arm": "calendar",
+    "offset": 28,
+    "tasks": 4,
+    "seconds": 8.948919539001508
+  },
+  {
+    "arm": "calendar",
+    "offset": 32,
+    "tasks": 4,
+    "seconds": 9.128352185001859
+  },
+  {
+    "arm": "calendar",
+    "offset": 36,
+    "tasks": 4,
+    "seconds": 6.998168103997159
+  },
+  {
+    "arm": "calendar",
+    "offset": 40,
+    "tasks": 4,
+    "seconds": 7.53141622000112
+  },
+  {
+    "arm": "calendar",
+    "offset": 44,
+    "tasks": 4,
+    "seconds": 6.972712531001889
+  },
+  {
+    "arm": "calendar",
+    "offset": 48,
+    "tasks": 4,
+    "seconds": 7.224056200997438
+  },
+  {
+    "arm": "calendar",
+    "offset": 52,
+    "tasks": 4,
+    "seconds": 6.799891362999915
+  },
+  {
+    "arm": "calendar",
+    "offset": 56,
+    "tasks": 4,
+    "seconds": 7.000237808999373
+  },
+  {
+    "arm": "calendar",
+    "offset": 60,
+    "tasks": 4,
+    "seconds": 6.965036596000573
+  },
+  {
+    "arm": "calendar",
+    "offset": 64,
+    "tasks": 4,
+    "seconds": 7.855462602001353
+  },
+  {
+    "arm": "calendar",
+    "offset": 68,
+    "tasks": 4,
+    "seconds": 7.580723465998744
+  },
+  {
+    "arm": "zero5",
+    "offset": 0,
+    "tasks": 4,
+    "seconds": 18.37141625699951
+  },
+  {
+    "arm": "zero5",
+    "offset": 4,
+    "tasks": 4,
+    "seconds": 10.474670917999902
+  },
+  {
+    "arm": "zero5",
+    "offset": 8,
+    "tasks": 4,
+    "seconds": 10.751580128002388
+  },
+  {
+    "arm": "zero5",
+    "offset": 12,
+    "tasks": 4,
+    "seconds": 10.94985598600033
+  },
+  {
+    "arm": "zero5",
+    "offset": 16,
+    "tasks": 4,
+    "seconds": 9.15933704499912
+  },
+  {
+    "arm": "zero5",
+    "offset": 20,
+    "tasks": 4,
+    "seconds": 9.681973364000442
+  },
+  {
+    "arm": "zero5",
+    "offset": 24,
+    "tasks": 4,
+    "seconds": 10.193335882999236
+  },
+  {
+    "arm": "zero5",
+    "offset": 28,
+    "tasks": 4,
+    "seconds": 9.381267438002396
+  },
+  {
+    "arm": "zero5",
+    "offset": 32,
+    "tasks": 4,
+    "seconds": 9.700335190002079
+  },
+  {
+    "arm": "zero5",
+    "offset": 36,
+    "tasks": 4,
+    "seconds": 8.972439017998113
+  },
+  {
+    "arm": "zero5",
+    "offset": 40,
+    "tasks": 4,
+    "seconds": 9.701118562999909
+  },
+  {
+    "arm": "zero5",
+    "offset": 44,
+    "tasks": 4,
+    "seconds": 10.414032021999446
+  },
+  {
+    "arm": "zero5",
+    "offset": 48,
+    "tasks": 4,
+    "seconds": 10.491371344996878
+  },
+  {
+    "arm": "zero5",
+    "offset": 52,
+    "tasks": 4,
+    "seconds": 11.60645772999851
+  },
+  {
+    "arm": "zero5",
+    "offset": 56,
+    "tasks": 4,
+    "seconds": 10.602182285001618
+  },
+  {
+    "arm": "zero5",
+    "offset": 60,
+    "tasks": 4,
+    "seconds": 11.075756872000056
+  },
+  {
+    "arm": "zero5",
+    "offset": 64,
+    "tasks": 4,
+    "seconds": 10.70717876100025
+  },
+  {
+    "arm": "zero5",
+    "offset": 68,
+    "tasks": 4,
+    "seconds": 9.948896650999814
+  },
+  {
+    "arm": "day5",
+    "offset": 0,
+    "tasks": 4,
+    "seconds": 22.02657935499883
+  },
+  {
+    "arm": "day5",
+    "offset": 4,
+    "tasks": 4,
+    "seconds": 9.702596815001016
+  },
+  {
+    "arm": "day5",
+    "offset": 8,
+    "tasks": 4,
+    "seconds": 8.000718536000932
+  },
+  {
+    "arm": "day5",
+    "offset": 12,
+    "tasks": 4,
+    "seconds": 7.659806780000508
+  },
+  {
+    "arm": "day5",
+    "offset": 16,
+    "tasks": 4,
+    "seconds": 7.520310600997618
+  },
+  {
+    "arm": "day5",
+    "offset": 20,
+    "tasks": 4,
+    "seconds": 7.778933481000422
+  },
+  {
+    "arm": "day5",
+    "offset": 24,
+    "tasks": 4,
+    "seconds": 8.478684544999851
+  },
+  {
+    "arm": "day5",
+    "offset": 28,
+    "tasks": 4,
+    "seconds": 8.179904329997953
+  },
+  {
+    "arm": "day5",
+    "offset": 32,
+    "tasks": 4,
+    "seconds": 8.105982126999152
+  },
+  {
+    "arm": "day5",
+    "offset": 36,
+    "tasks": 4,
+    "seconds": 7.842177835002076
+  },
+  {
+    "arm": "day5",
+    "offset": 40,
+    "tasks": 4,
+    "seconds": 8.745221021999896
+  },
+  {
+    "arm": "day5",
+    "offset": 44,
+    "tasks": 4,
+    "seconds": 10.097384777000116
+  },
+  {
+    "arm": "day5",
+    "offset": 48,
+    "tasks": 4,
+    "seconds": 9.989288445998682
+  },
+  {
+    "arm": "day5",
+    "offset": 52,
+    "tasks": 4,
+    "seconds": 11.504052767999383
+  },
+  {
+    "arm": "day5",
+    "offset": 56,
+    "tasks": 4,
+    "seconds": 10.437085666999337
+  },
+  {
+    "arm": "day5",
+    "offset": 60,
+    "tasks": 4,
+    "seconds": 10.80725231299948
+  },
+  {
+    "arm": "day5",
+    "offset": 64,
+    "tasks": 4,
+    "seconds": 10.43295000800208
+  },
+  {
+    "arm": "day5",
+    "offset": 68,
+    "tasks": 4,
+    "seconds": 10.1188733889976
+  },
+  {
+    "arm": "window5",
+    "offset": 0,
+    "tasks": 4,
+    "seconds": 19.700749450999865
+  },
+  {
+    "arm": "window5",
+    "offset": 4,
+    "tasks": 4,
+    "seconds": 10.359272024001257
+  },
+  {
+    "arm": "window5",
+    "offset": 8,
+    "tasks": 4,
+    "seconds": 10.736834068000462
+  },
+  {
+    "arm": "window5",
+    "offset": 12,
+    "tasks": 4,
+    "seconds": 9.255179080999369
+  },
+  {
+    "arm": "window5",
+    "offset": 16,
+    "tasks": 4,
+    "seconds": 9.918611290999252
+  },
+  {
+    "arm": "window5",
+    "offset": 20,
+    "tasks": 4,
+    "seconds": 10.5836502380007
+  },
+  {
+    "arm": "window5",
+    "offset": 24,
+    "tasks": 4,
+    "seconds": 10.496626113003003
+  },
+  {
+    "arm": "window5",
+    "offset": 28,
+    "tasks": 4,
+    "seconds": 10.448957778000477
+  },
+  {
+    "arm": "window5",
+    "offset": 32,
+    "tasks": 4,
+    "seconds": 10.659093963000487
+  },
+  {
+    "arm": "window5",
+    "offset": 36,
+    "tasks": 4,
+    "seconds": 10.168542799001443
+  },
+  {
+    "arm": "window5",
+    "offset": 40,
+    "tasks": 4,
+    "seconds": 7.367152430997521
+  },
+  {
+    "arm": "window5",
+    "offset": 44,
+    "tasks": 4,
+    "seconds": 7.8320732840002165
+  },
+  {
+    "arm": "window5",
+    "offset": 48,
+    "tasks": 4,
+    "seconds": 7.290912815999036
+  },
+  {
+    "arm": "window5",
+    "offset": 52,
+    "tasks": 4,
+    "seconds": 7.135380597999756
+  },
+  {
+    "arm": "window5",
+    "offset": 56,
+    "tasks": 4,
+    "seconds": 7.788392127000407
+  },
+  {
+    "arm": "window5",
+    "offset": 60,
+    "tasks": 4,
+    "seconds": 9.35876991600162
+  },
+  {
+    "arm": "window5",
+    "offset": 64,
+    "tasks": 4,
+    "seconds": 8.851744964998943
+  },
+  {
+    "arm": "window5",
+    "offset": 68,
+    "tasks": 4,
+    "seconds": 8.106537756000762
+  },
+  {
+    "arm": "placebo_day5",
+    "offset": 0,
+    "tasks": 4,
+    "seconds": 15.290496460002032
+  },
+  {
+    "arm": "placebo_day5",
+    "offset": 4,
+    "tasks": 4,
+    "seconds": 8.126094990999263
+  },
+  {
+    "arm": "placebo_day5",
+    "offset": 8,
+    "tasks": 4,
+    "seconds": 9.277078646999144
+  },
+  {
+    "arm": "placebo_day5",
+    "offset": 12,
+    "tasks": 4,
+    "seconds": 8.185672425999655
+  },
+  {
+    "arm": "placebo_day5",
+    "offset": 16,
+    "tasks": 4,
+    "seconds": 8.61642066100103
+  },
+  {
+    "arm": "placebo_day5",
+    "offset": 20,
+    "tasks": 4,
+    "seconds": 8.458863258998463
+  },
+  {
+    "arm": "placebo_day5",
+    "offset": 24,
+    "tasks": 4,
+    "seconds": 8.592536681000638
+  },
+  {
+    "arm": "placebo_day5",
+    "offset": 28,
+    "tasks": 4,
+    "seconds": 8.562308959000802
+  },
+  {
+    "arm": "placebo_day5",
+    "offset": 32,
+    "tasks": 4,
+    "seconds": 8.267056376000255
+  },
+  {
+    "arm": "placebo_day5",
+    "offset": 36,
+    "tasks": 4,
+    "seconds": 7.377568716001406
+  },
+  {
+    "arm": "placebo_day5",
+    "offset": 40,
+    "tasks": 4,
+    "seconds": 8.454701877002663
+  },
+  {
+    "arm": "placebo_day5",
+    "offset": 44,
+    "tasks": 4,
+    "seconds": 8.231428044000495
+  },
+  {
+    "arm": "placebo_day5",
+    "offset": 48,
+    "tasks": 4,
+    "seconds": 8.885491667999304
+  },
+  {
+    "arm": "placebo_day5",
+    "offset": 52,
+    "tasks": 4,
+    "seconds": 7.713383565998811
+  },
+  {
+    "arm": "placebo_day5",
+    "offset": 56,
+    "tasks": 4,
+    "seconds": 8.302886497000145
+  },
+  {
+    "arm": "placebo_day5",
+    "offset": 60,
+    "tasks": 4,
+    "seconds": 9.11147306699786
+  },
+  {
+    "arm": "placebo_day5",
+    "offset": 64,
+    "tasks": 4,
+    "seconds": 9.181962800998008
+  },
+  {
+    "arm": "placebo_day5",
+    "offset": 68,
+    "tasks": 4,
+    "seconds": 9.064548517999356
+  },
+  {
+    "arm": "placebo_window5",
+    "offset": 0,
+    "tasks": 4,
+    "seconds": 15.56203879199893
+  },
+  {
+    "arm": "placebo_window5",
+    "offset": 4,
+    "tasks": 4,
+    "seconds": 8.621011726001598
+  },
+  {
+    "arm": "placebo_window5",
+    "offset": 8,
+    "tasks": 4,
+    "seconds": 9.053107801999431
+  },
+  {
+    "arm": "placebo_window5",
+    "offset": 12,
+    "tasks": 4,
+    "seconds": 8.509776440001588
+  },
+  {
+    "arm": "placebo_window5",
+    "offset": 16,
+    "tasks": 4,
+    "seconds": 7.93905369499771
+  },
+  {
+    "arm": "placebo_window5",
+    "offset": 20,
+    "tasks": 4,
+    "seconds": 8.034291355997993
+  },
+  {
+    "arm": "placebo_window5",
+    "offset": 24,
+    "tasks": 4,
+    "seconds": 7.602784282000357
+  },
+  {
+    "arm": "placebo_window5",
+    "offset": 28,
+    "tasks": 4,
+    "seconds": 9.133438138000201
+  },
+  {
+    "arm": "placebo_window5",
+    "offset": 32,
+    "tasks": 4,
+    "seconds": 8.407720778999646
+  },
+  {
+    "arm": "placebo_window5",
+    "offset": 36,
+    "tasks": 4,
+    "seconds": 7.969159938998928
+  },
+  {
+    "arm": "placebo_window5",
+    "offset": 40,
+    "tasks": 4,
+    "seconds": 8.884813790002227
+  },
+  {
+    "arm": "placebo_window5",
+    "offset": 44,
+    "tasks": 4,
+    "seconds": 8.465443339999183
+  },
+  {
+    "arm": "placebo_window5",
+    "offset": 48,
+    "tasks": 4,
+    "seconds": 7.619145043001481
+  },
+  {
+    "arm": "placebo_window5",
+    "offset": 52,
+    "tasks": 4,
+    "seconds": 8.282287762998749
+  },
+  {
+    "arm": "placebo_window5",
+    "offset": 56,
+    "tasks": 4,
+    "seconds": 7.679520252997463
+  },
+  {
+    "arm": "placebo_window5",
+    "offset": 60,
+    "tasks": 4,
+    "seconds": 7.251766952998878
+  },
+  {
+    "arm": "placebo_window5",
+    "offset": 64,
+    "tasks": 4,
+    "seconds": 7.528474658996856
+  },
+  {
+    "arm": "placebo_window5",
+    "offset": 68,
+    "tasks": 4,
+    "seconds": 7.996265914000105
+  }
+]

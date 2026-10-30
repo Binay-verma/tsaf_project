@@ -1,0 +1,3 @@
+model,arm,family,state,origin,date,horizon,lower_level,upper_level,lower_prediction,upper_prediction
+chronos,calendar,Ugadi_Gudi_Padwa,Karnataka,2024-03-12,2024-03-12,1,q_350,q_400,328.06640625,328.0640563964844
+chronos,day5,Ugadi_Gudi_Padwa,Karnataka,2024-03-12,2024-03-12,1,q_350,q_400,328.6131896972656,328.6063232421875

@@ -1,0 +1,98 @@
+[
+  {
+    "arm": "calendar",
+    "max_abs_difference": 7.62939453125e-06
+  },
+  {
+    "arm": "calendar",
+    "max_abs_difference": 7.62939453125e-06
+  },
+  {
+    "arm": "calendar",
+    "max_abs_difference": 7.62939453125e-06
+  },
+  {
+    "arm": "calendar",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "zero5",
+    "max_abs_difference": 7.62939453125e-06
+  },
+  {
+    "arm": "zero5",
+    "max_abs_difference": 7.62939453125e-06
+  },
+  {
+    "arm": "zero5",
+    "max_abs_difference": 7.62939453125e-06
+  },
+  {
+    "arm": "zero5",
+    "max_abs_difference": 7.62939453125e-06
+  },
+  {
+    "arm": "day5",
+    "max_abs_difference": 7.62939453125e-06
+  },
+  {
+    "arm": "day5",
+    "max_abs_difference": 7.62939453125e-06
+  },
+  {
+    "arm": "day5",
+    "max_abs_difference": 7.62939453125e-06
+  },
+  {
+    "arm": "day5",
+    "max_abs_difference": 7.62939453125e-06
+  },
+  {
+    "arm": "window5",
+    "max_abs_difference": 1.52587890625e-05
+  },
+  {
+    "arm": "window5",
+    "max_abs_difference": 7.62939453125e-06
+  },
+  {
+    "arm": "window5",
+    "max_abs_difference": 7.62939453125e-06
+  },
+  {
+    "arm": "window5",
+    "max_abs_difference": 7.62939453125e-06
+  },
+  {
+    "arm": "placebo_day5",
+    "max_abs_difference": 7.62939453125e-06
+  },
+  {
+    "arm": "placebo_day5",
+    "max_abs_difference": 7.62939453125e-06
+  },
+  {
+    "arm": "placebo_day5",
+    "max_abs_difference": 1.52587890625e-05
+  },
+  {
+    "arm": "placebo_day5",
+    "max_abs_difference": 7.62939453125e-06
+  },
+  {
+    "arm": "placebo_window5",
+    "max_abs_difference": 7.62939453125e-06
+  },
+  {
+    "arm": "placebo_window5",
+    "max_abs_difference": 7.62939453125e-06
+  },
+  {
+    "arm": "placebo_window5",
+    "max_abs_difference": 7.62939453125e-06
+  },
+  {
+    "arm": "placebo_window5",
+    "max_abs_difference": 7.62939453125e-06
+  }
+]

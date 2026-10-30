@@ -1,0 +1,59 @@
+{
+  "status": "diagnostics_recorded",
+  "rows": [
+    {
+      "model": "chronos",
+      "primary_cases": 72,
+      "zero_channel_max_prediction_change_GWh": 4.221992492675767,
+      "zero_channel_mean_prediction_change_GWh": 1.394296434190541,
+      "old_baseline_reference": "chronos_calendar",
+      "max_previous_baseline_prediction_difference_GWh": 6.103515625e-05,
+      "exact_previous_baseline_reproduction": false
+    },
+    {
+      "model": "lightgbm",
+      "primary_cases": 72,
+      "zero_channel_max_prediction_change_GWh": 0.0,
+      "zero_channel_mean_prediction_change_GWh": 0.0,
+      "old_baseline_reference": "lightgbm_stable_calendar_monthly",
+      "max_previous_baseline_prediction_difference_GWh": 0.0,
+      "exact_previous_baseline_reproduction": true
+    },
+    {
+      "model": "lightgbm_capacity2",
+      "primary_cases": 72,
+      "zero_channel_max_prediction_change_GWh": 0.0,
+      "zero_channel_mean_prediction_change_GWh": 0.0,
+      "old_baseline_reference": "Capacity2is a new fixed sensitivity with its own fresh ordinary-calendar baseline"
+    },
+    {
+      "model": "ridge",
+      "primary_cases": 72,
+      "zero_channel_max_prediction_change_GWh": 2.4158453015843406e-13,
+      "zero_channel_mean_prediction_change_GWh": 4.973799150320701e-14,
+      "old_baseline_reference": "ridge_rich_calendar_monthly",
+      "max_previous_baseline_prediction_difference_GWh": 0.0,
+      "exact_previous_baseline_reproduction": true
+    },
+    {
+      "model": "sarimax",
+      "primary_cases": 72,
+      "zero_channel_max_prediction_change_GWh": 0.2857527798165336,
+      "zero_channel_mean_prediction_change_GWh": 0.015333732902436855,
+      "old_baseline_reference": "sarimax_calendar_annual",
+      "max_previous_baseline_prediction_difference_GWh": 0.0,
+      "exact_previous_baseline_reproduction": true
+    },
+    {
+      "model": "timesfm",
+      "primary_cases": 72,
+      "zero_channel_max_prediction_change_GWh": 6.0045013427734375,
+      "zero_channel_mean_prediction_change_GWh": 1.2345412572224939,
+      "old_baseline_reference": "timesfm_calendar",
+      "max_previous_baseline_prediction_difference_GWh": 0.0,
+      "exact_previous_baseline_reproduction": true
+    }
+  ],
+  "interpretation": "Nonzero differences from zero-valued inputs are retained as interface/optimisation sensitivity. They are not event information. Old-model comparisons are descriptive; genuine within-experiment effects use fresh matched calendar/zero/placebo baselines.",
+  "scope": "Not a claim of exact cross-hardware/optimiser reproducibility or causal mechanism"
+}

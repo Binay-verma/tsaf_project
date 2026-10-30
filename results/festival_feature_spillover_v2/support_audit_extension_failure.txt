@@ -1,0 +1,1 @@
+An added independent support-count audit reused the name targets for a temporary list, shadowing its label-hash dictionary and causing TypeError before new audit output was written. Renamed the local list active_dates and reran the audit. This was post-model audit code only; no protocol, predictions, fits or metric outputs changed.
