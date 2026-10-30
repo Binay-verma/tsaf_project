@@ -1,0 +1,8 @@
+{
+  "url": "https://data.ny.gov/api/views/sayj-mze2.json",
+  "status": 200,
+  "sha256": "40e9fd2a308621ae295ad686f9319f6f119538b01d8d11fc197a7698ec614f42",
+  "bytes": 10304,
+  "retrieved_utc": "2026-10-30T19:53:25.639360+00:00",
+  "metadata_only_saved_no_cached_target_statistics": true
+}

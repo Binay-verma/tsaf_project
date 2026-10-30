@@ -1,0 +1,79 @@
+{
+  "id": "sayj-mze2",
+  "name": "MTA Daily Ridership and Traffic: Beginning 2020",
+  "attribution": "Metropolitan Transportation Authority",
+  "attributionLink": "https://www.mta.info/open-data",
+  "description": "The daily ridership dataset provides systemwide ridership and traffic estimates for subways (including the Staten Island Railway), buses, Long Island Rail Road, Metro-North Railroad, Access-A-Ride, Bridges and Tunnels, and the Central Business District and Congestion Relief Zone since the start of Congestion Pricing",
+  "licenseId": null,
+  "license": null,
+  "rowsUpdatedAt": 1793311418,
+  "viewLastModified": 1793311416,
+  "metadata": {
+    "jsonQuery": {
+      "order": [
+        {
+          "columnFieldName": "date",
+          "ascending": false
+        }
+      ]
+    },
+    "attachments": [
+      {
+        "filename": "MTA_DailyRidershipAndTraffic_Overview.pdf",
+        "assetId": "7635e5d0-7534-406d-b1c4-be4969ce61df",
+        "name": "MTA_DailyRidershipAndTraffic_Overview.pdf"
+      },
+      {
+        "filename": "MTA_DailyRidershipAndTraffic_DataDictionary.pdf",
+        "assetId": "994cc0fc-9cc1-4b3e-bf4f-4b274cafb816",
+        "name": "MTA_DailyRidershipAndTraffic_DataDictionary.pdf"
+      }
+    ],
+    "custom_fields": {
+      "Dataset Summary": {
+        "Posting Frequency": "Daily",
+        "Organization": "New York City Transit, MTA Bus Company, Long Island Rail Road, Metro-North Railroad, Access-A-Ride, MTA Bridges and Tunnels, Staten Island Railway",
+        "Contact Information": "OpenData@mtahq.org",
+        "Time Period": "Beginning 3/1/2020",
+        "Coverage": "New York Metropolitan Area",
+        "Granularity": "Agency, day",
+        "Dataset Owner": "Metropolitan Transportation Authority",
+        "Data Frequency": "Weekdays"
+      },
+      "Additional Resources": {
+        "See Also": "https://metrics.mta.info/"
+      },
+      "Notes": {
+        "Notes": "Due to the processes followed to allow next-day ridership and traffic figures to be published, the figures in this dataset may differ from official ridership totals published elsewhere by MTA."
+      },
+      "Dataset Information": {
+        "Agency": "Metropolitan Transportation Authority"
+      }
+    },
+    "availableDisplayTypes": [
+      "table",
+      "fatrow",
+      "page"
+    ]
+  },
+  "columns": [
+    {
+      "name": "Date",
+      "fieldName": "date",
+      "dataTypeName": "calendar_date",
+      "description": "The date of travel (MM/DD/YYYY)"
+    },
+    {
+      "name": "Mode",
+      "fieldName": "mode",
+      "dataTypeName": "text",
+      "description": "The MTA mode being measured"
+    },
+    {
+      "name": "Count",
+      "fieldName": "count",
+      "dataTypeName": "number",
+      "description": "The daily total estimated ridership or traffic"
+    }
+  ]
+}

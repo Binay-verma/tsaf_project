@@ -1,0 +1,36 @@
+{
+  "url": "https://data.ny.gov/resource/sayj-mze2.json?%24select=distinct+mode&%24limit=30",
+  "status": 200,
+  "sha256": "6e5733a8c4152b8e045776286eec3a9bbb021083312b11efcae9f9e4d35b1aaf",
+  "bytes": 164,
+  "retrieved_utc": "2026-10-30T19:53:25.611227+00:00",
+  "mode_values_only": [
+    {
+      "mode": "LIRR"
+    },
+    {
+      "mode": "SIR"
+    },
+    {
+      "mode": "AAR"
+    },
+    {
+      "mode": "Subway"
+    },
+    {
+      "mode": "BT"
+    },
+    {
+      "mode": "CRZ Entries"
+    },
+    {
+      "mode": "MNR"
+    },
+    {
+      "mode": "CBD Entries"
+    },
+    {
+      "mode": "Bus"
+    }
+  ]
+}
