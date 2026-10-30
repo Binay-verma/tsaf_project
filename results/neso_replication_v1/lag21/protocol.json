@@ -1,0 +1,65 @@
+{
+  "created_utc": "2026-10-30T18:51:37.585712+00:00",
+  "experiment": "neso_replication_v1/lag21",
+  "scenario": "lag21",
+  "lag_days": 21,
+  "status": "New-to-analyst primary-source retrospective replication; methods/cases fixed BEFORE downloading anyNESO2026targetseries. Not publicly issued historical forecasts, clean prospective evidence or exact first-vintage reconstruction.",
+  "target": "Daily GWh=0.5/1000 times sum of complete positive actual half-hour ENGLAND_WALES_DEMAND(MW). OfficialFAQ verifies half-hour average/UKlocaltime; daylightdays require46/48/50distinctsettlementperiods. Filter2026Aactual indicator, neverFforecasts. Oldyears withoutflag are labelled historicoutturn perprovider, not independently certified first releases. Freeze derivedsource through30September2026only.",
+  "cases": "Exactly16targets15\u201330September2026atdecisionleads1/7/14,48cases/scenario, oneEngland/Walesseries. Targetspostdatebothactualweightuploads; earliestdecisionorigin2September followsTimesFMannouncement. No festival target in this bounded cohort: it tests ordinary-day costs/source replication, not independent festival enhancement.",
+  "availability": "ideal:contextthroughdecisionorigin-1. lag21:21additionalcalendar-days of delay, contextthroughdecisionorigin-22; modelorigin=decisionorigin-21, effectiveleads22/28/35. Calendarbridge predictionsunscored. This sensitivity addresses statedarchivearrears, not unknown corrections/first-release vintages. Decisionorigin is firstunseen targetdate, not a real recorded issuance.",
+  "calendar": "England/Wales officialbankholidaydates2024\u20132026, sixfamilies:NewYear,Easter(GoodFriday+EasterMonday),EarlyMay,Spring,Summer,Christmas(Xmas+Boxing). Logicalunionswithinmulti-anchor family, not independentholidays. NotIndianreligiouslabels or proof of whole-economyclosure. Frozenone-seedweekdayplacebos avoidtruewindows.",
+  "arms": [
+    "calendar",
+    "zero6",
+    "day6",
+    "pooled_day6",
+    "window6",
+    "pooled_window6",
+    "placebo_day6",
+    "placebo_window6"
+  ],
+  "models": [
+    "ridge",
+    "lightgbm",
+    "lightgbm_capacity2",
+    "sarimax",
+    "chronos",
+    "timesfm"
+  ],
+  "context": 730,
+  "horizon": 35,
+  "batch": 16,
+  "threads": 2,
+  "seed": 42,
+  "expected_tasks": 29,
+  "cases_per_arm": 48,
+  "local": "Rich27pastfeatures+13calendar+0/6eventcovariates, float32trees. Monthlyrefits bymodeloriginmonth, cutoffpreviousday; directeffectiveleadpurging. Samepast-selected richcalendarparameters acrossallarms; leaf2overrideonly. SARIMAXfixed(1,0,0)x(1,0,0,7), monthly730dayparameterfitsandpastupdates; convergence-onlyretries retained.",
+  "selection": "Ridgealpha[.1,1,10,100], treeleaves[7,15]xestimators[100,300]xL2[1,10], minleaf20. Foreachactualmodellead1/7/14/22/28/35, fitbefore1January2026, validateorigins whose target<=30June2026; allvalidationlabels available before earliestqueriedcontextcutoff11August2026. Stabletie-order/noSeptembertargetselection. No eventfeature-specific search.",
+  "lightgbm_fixed": {
+    "learning_rate": 0.05,
+    "random_state": 42,
+    "n_jobs": 1,
+    "verbosity": -1,
+    "deterministic": true,
+    "force_col_wise": true
+  },
+  "metrics": "Same pre2026weeklydifference scale from730calendar days ending31December2025; recordedderivedlabels only, samecasesforallmethods. Report scenariosseparately bydecisionlead, MAE/MASE, nativecommon9quantile pinball/80coverage/width/WIS. Noindependentrowtests or yeargeneralisation from16days.",
+  "limits": "Oneadditionalprimarygeography,16alreadyhistoricaltargetdates andnofestivals. Post-weight chronologynot contamination-free claim; revisions/measurementdefinition remain. Providercustomlicencefullconditionsunverified; oldIndianrights/human/calendar/prospectivegatesunchanged. No futureIndianactuals, oldforecastmodification or workflowactivation.",
+  "input_hashes": {
+    "src/neso_replication.py": "07a1c3c0d624dce52402e64ebb5c4d02426a0dfafc57a40955a50da004e55469",
+    "src/neso_model_engine_v1.py": "d932d8f5523c3b0f0d164142f484bb61b6fa5e70e7dd65472894a60bbc0d9e71",
+    "src/test_neso_replication.py": "da92e5d3313179b236e3040b8cbe78c3f2cc550faf880f8041e97dadf146cf5c",
+    "src/forecasting.py": "8a6b9b1e8632a2bf77d9855a1d370ed23c350ffe731138787e30c609a59ec21e",
+    "src/robust_baselines.py": "568152c6351826389ae8248fe50fe5bcde5f8db82dfe715c691d6a5f63bca88c",
+    "src/multifestival_models.py": "1a03a120cd2135dca04c7988411db500de98b14d2d3a5cba7339bfb607daa0ac",
+    "results/mechanism_controls_v1/chronos_download.json": "b7bc0b9b2f018de37b60148e226546dd15e47965efdc246f500062721f3f3c15",
+    "results/second_model_audit_v1/weight_download.json": "33513d544578b60db98abd0ad667c97597e0b7b49062588a87fc980b012c4cf4",
+    "results/neso_replication_v1/provider_metadata.json": "c71daf6c21fb0453c292da18407c5ee90a96c92f98feede40ee23d10b4f3ad00",
+    "results/neso_replication_v1/anchors.csv": "1592c28f3ab1faf0edc230f0f5444d43c1e7d7427ae05a1ccb4a32bed00aa16d",
+    "results/neso_replication_v1/placebos.csv": "3540ac44f0fb17fd0bbcded0613dd4575d1d26411f22f45b618e16a7a33b8211"
+  },
+  "design_hashes": {
+    "primary_cases.csv": "2e487380a21d24f8e5447c9f358b92a061ac7318902751eb48d55ac044c8ff37",
+    "window_cases.csv": "2e487380a21d24f8e5447c9f358b92a061ac7318902751eb48d55ac044c8ff37"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "created_utc": "2026-10-30T18:51:37.586624+00:00",
+  "status": "BEFORE_TARGET_DOWNLOAD",
+  "protocols": {
+    "ideal": "a85e752a84e4d5ac27dca467d0223f1e710dfd0eb5a3a5e8b6f8fe42daa65c1a",
+    "lag21": "179f78241160e1fa700d6d16075d9bd02d8624fb1cc9a076d2af913c4997d7fc"
+  },
+  "target_dates": [
+    "2026-09-15",
+    "2026-09-30"
+  ],
+  "planned_model_rows": 4608,
+  "planned_naive_rows": 192,
+  "raw_cache": "/workspace/neso-replication-v1",
+  "source_independence": "NESOEngland/Walesprimarylineage independent ofIndianGRID/POSOCO; not a sharedsource derivative. No independentholidayoutcome claim."
+}

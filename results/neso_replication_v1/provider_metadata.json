@@ -1,0 +1,34 @@
+{
+  "title": "Historic Demand Data",
+  "metadata_url": "https://api.neso.energy/api/3/action/package_show?id=historic-demand-data",
+  "license_id": "ESO",
+  "license_title": "NESO Open Data Licence",
+  "license_url": "https://www.neso.energy/data-portal/ngeso-open-licence",
+  "notes": "This section contains historic electricity demand, interconnector, hydro storage pumping, Non-BM Short Term Operating Reserve (STOR), wind and solar outturn data.\r\n\r\nThis dataset is populated 21 days in arrears.  It also undergoes retrospective corrections to Solar Capacity and Outturn, once new data becomes available.  These corrections may occur several months after the first publication.  Retrospective edits to Demand may occur, which make adjustments for Balancing Services undertaken by NESO.",
+  "resources": {
+    "2023": "https://api.neso.energy/dataset/8f2fe0af-871c-488d-8bad-960426f24601/resource/bf5ab335-9b40-4ea4-b93a-ab4af7bce003/download/demanddata_2023.csv",
+    "2024": "https://api.neso.energy/dataset/8f2fe0af-871c-488d-8bad-960426f24601/resource/f6d02c0f-957b-48cb-82ee-09003f2ba759/download/demanddata_2024.csv",
+    "2025": "https://api.neso.energy/dataset/8f2fe0af-871c-488d-8bad-960426f24601/resource/b2bde559-3455-4021-b179-dfe60c0337b0/download/demanddata_2025.csv",
+    "2026": "https://api.neso.energy/dataset/8f2fe0af-871c-488d-8bad-960426f24601/resource/8a4a771c-3929-4e56-93ad-cdf13219dea5/download/demanddataupdate_2026.csv"
+  },
+  "regional_field": {
+    "info": {
+      "comment": "",
+      "description": "England and Wales Demand, as ND above but on an England and Wales basis.",
+      "title": "England and Wales Demand",
+      "type": "integer",
+      "example": "18995",
+      "unit": "MW"
+    },
+    "type": "int4",
+    "id": "ENGLAND_WALES_DEMAND"
+  },
+  "faq_url": "https://api.neso.energy/dataset/8f2fe0af-871c-488d-8bad-960426f24601/resource/243ca76a-eefe-419d-a4b5-397073deb100/download/faq-neso.docx",
+  "evidence_hashes": {
+    "neso_metadata.json": "3f164c419c4891cf10c6466798e5d6d794e09cda1fd784e209de82ba7bccd28a",
+    "neso_fields.json": "eab735bea58b1b57b81fef51ff1a46ec9a552f4f587743b5ab4082c2cda4c728",
+    "neso_faq.docx": "39ecfdf2774712a5317c7c5de995bee26ac653cc44bd008a82dcf234e0b4935a",
+    "gov_uk_calendar.json": "538b3482c28b85ecd2db606a0d5ae6ad17248900b6498700ce0a48d26a3ecde6"
+  },
+  "rights": "Provider identifies customNESOOpenDataLicence; licence body403 and catalogOKDflagfalse. Do not claim OGL/CCBY or unrestricted redistribution. Raw/complete derived source remain outsideGit; source link/code and ownminimalresult facts retained."
+}
