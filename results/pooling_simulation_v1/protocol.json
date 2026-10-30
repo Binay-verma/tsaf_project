@@ -1,0 +1,153 @@
+{
+  "created_utc": "2026-10-30T17:39:27.067623+00:00",
+  "status": "Controlled exploratory simulation registered before its outputs; informed by earlier real-data hypotheses. Established pooling/shrinkage, no novelty claim.",
+  "scenarios": [
+    {
+      "frequency": 1,
+      "heterogeneity": 0.0,
+      "date_error": 0,
+      "noise": 1.0
+    },
+    {
+      "frequency": 1,
+      "heterogeneity": 0.0,
+      "date_error": 0,
+      "noise": 3.0
+    },
+    {
+      "frequency": 1,
+      "heterogeneity": 0.0,
+      "date_error": 2,
+      "noise": 1.0
+    },
+    {
+      "frequency": 1,
+      "heterogeneity": 0.0,
+      "date_error": 2,
+      "noise": 3.0
+    },
+    {
+      "frequency": 1,
+      "heterogeneity": 3.0,
+      "date_error": 0,
+      "noise": 1.0
+    },
+    {
+      "frequency": 1,
+      "heterogeneity": 3.0,
+      "date_error": 0,
+      "noise": 3.0
+    },
+    {
+      "frequency": 1,
+      "heterogeneity": 3.0,
+      "date_error": 2,
+      "noise": 1.0
+    },
+    {
+      "frequency": 1,
+      "heterogeneity": 3.0,
+      "date_error": 2,
+      "noise": 3.0
+    },
+    {
+      "frequency": 4,
+      "heterogeneity": 0.0,
+      "date_error": 0,
+      "noise": 1.0
+    },
+    {
+      "frequency": 4,
+      "heterogeneity": 0.0,
+      "date_error": 0,
+      "noise": 3.0
+    },
+    {
+      "frequency": 4,
+      "heterogeneity": 0.0,
+      "date_error": 2,
+      "noise": 1.0
+    },
+    {
+      "frequency": 4,
+      "heterogeneity": 0.0,
+      "date_error": 2,
+      "noise": 3.0
+    },
+    {
+      "frequency": 4,
+      "heterogeneity": 3.0,
+      "date_error": 0,
+      "noise": 1.0
+    },
+    {
+      "frequency": 4,
+      "heterogeneity": 3.0,
+      "date_error": 0,
+      "noise": 3.0
+    },
+    {
+      "frequency": 4,
+      "heterogeneity": 3.0,
+      "date_error": 2,
+      "noise": 1.0
+    },
+    {
+      "frequency": 4,
+      "heterogeneity": 3.0,
+      "date_error": 2,
+      "noise": 3.0
+    }
+  ],
+  "seeds": [
+    20261000,
+    20261001,
+    20261002,
+    20261003,
+    20261004,
+    20261005,
+    20261006,
+    20261007,
+    20261008,
+    20261009,
+    20261010,
+    20261011,
+    20261012,
+    20261013,
+    20261014,
+    20261015,
+    20261016,
+    20261017,
+    20261018,
+    20261019,
+    20261020,
+    20261021,
+    20261022,
+    20261023,
+    20261024,
+    20261025,
+    20261026,
+    20261027,
+    20261028,
+    20261029,
+    20261030,
+    20261031
+  ],
+  "train_days": 730,
+  "test_days": 365,
+  "design": "Five event types;1or4occurrences per family per365days. Equally spaced dates with fixed seed jitter+/-3days; no response-based placement. True+/-3triangular response shape [.2,.5,.8,1,.8,.5,.2]. Family amplitudes=-3+heterogeneity*[-2,-1,0,1,2]. Independent per-occurrence registered-date errors uniform integer+/-0or2days, train and test. Noise stationary AR1(phi=.5), marginal SD1or3. Known non-event baseline is removed exactly; no time-series baseline estimation.",
+  "methods": [
+    "no_event",
+    "pooled_OLS",
+    "typed_OLS",
+    "partial_pooling_fixed2",
+    "oracle_true_effect"
+  ],
+  "estimation": "Only first730days fit. Same noisy dates/labels for all learned methods. Partial penalty2 toward fitted pooled amplitude, fixed before results. Oracle has true amplitudes/dates and is labelled unavailable reference, not competitor. No tuning, TSFM inference or architecture-mechanism conclusion.",
+  "metrics": "Test365daily absolute error, separately trueevent-window/non-event and all days; coefficient mean square error. Complete seed/scenario/method cells. Paired seed differences with mean+/-1.96MCstandarderror across32independent generators describe MonteCarlo precision only; do not use them for Indian event significance.",
+  "input_hashes": {
+    "src/pooling_simulation.py": "8bdb3cadcd89f80522a8a2267f4cee65757bb1cbf438ee97378b49fb42cca610",
+    "src/test_pooling_simulation.py": "1f4911c838f8db60203e6e7f44d711d16976f0ed88386931178c9b0e9f0f506d",
+    "src/event_comparators.py": "b46115bf98ffde9907989872b92da8f3bc3aab3aebcd0d7babbd3efc8e728a8c"
+  }
+}

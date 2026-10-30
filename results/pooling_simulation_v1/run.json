@@ -1,0 +1,8 @@
+{
+  "status": "completed",
+  "completed_utc": "2026-10-30T17:39:32.136323+00:00",
+  "rows": 2560,
+  "synthetic_datasets": 512,
+  "protocol_sha256": "07e815f535e2968a3eb06293c05e1b049009c379a5f24ef70f47f32e0f91ea69",
+  "seed_results_sha256": "13e985f2004f3aa007042d47cb3a53ab42360d6e910b64094086baaa9ec45dae"
+}

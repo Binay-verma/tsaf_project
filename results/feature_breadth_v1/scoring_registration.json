@@ -1,0 +1,27 @@
+{
+  "created_utc": "2026-10-30T17:36:29.562332+00:00",
+  "status": "Secondary probability scoring and descriptive sensitivity rules fixed while inference running, before new score tables.",
+  "source_sha256": "d4676e0c175df0d0b83b08f65ea4cb563ea7b8e9e44db9fe4f209cbd4ffda870",
+  "common_quantiles": [
+    0.1,
+    0.2,
+    0.3,
+    0.4,
+    0.5,
+    0.6,
+    0.7,
+    0.8,
+    0.9
+  ],
+  "nominal_coverage": 0.8,
+  "metrics": [
+    "MASE",
+    "MAE_GWh",
+    "scaled_mean_pinball",
+    "native80_coverage",
+    "scaled_native80_width",
+    "one_interval_WIS80"
+  ],
+  "probability": "Native common q.1..q.9 unchanged. Pinball mean of9marginal losses. Interval score=(upper-lower)+10*max(lower-y,0)+10*max(y-upper,0). WIS=(.5*abs(y-median)+.1*interval_score)/1.5, divided by preyear scale. Crossings retained; invalid interval makes its full aggregate undefined. No fitting/calibration/selection.",
+  "uncertainty": "Year-specific and leave-one-family-out composition sensitivity only; no independent-row tests, no bootstrap claiming precise generality from two event years."
+}

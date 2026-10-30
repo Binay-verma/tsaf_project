@@ -1,0 +1,43 @@
+{
+  "created_utc": "2026-10-30T17:36:31.782959+00:00",
+  "status": "Exploratory; rules fixed before new comparator forecasts; historical outcomes and prior studies already inspected.",
+  "methods": [
+    "weekday_mean",
+    "holiday_as_sunday_mean",
+    "holiday_separate_mean",
+    "weekday_holiday_joint_mean",
+    "response_none",
+    "response_typed",
+    "response_pooled",
+    "response_partial"
+  ],
+  "planned_rows": 5952,
+  "cohorts": [
+    "event_window",
+    "ordinary"
+  ],
+  "target": "Same recorded daily supplied energy and exact cases/scales as the registered breadth study.",
+  "literature": [
+    {
+      "url": "https://arxiv.org/html/2610.13676v1",
+      "section": "3.1 and Appendix A.1.1",
+      "adaptation": "Daily hour omitted; weekday/holiday conditional means, holiday-as-Sunday and separate category. Direct point baselines; not a reproduction of the paper hourly multivariate TSFM experiment."
+    },
+    {
+      "url": "https://www.amazon.science/publications/impact-driven-event-covariates-for-time-series-foundation-models",
+      "adaptation": "Simple past residual event-response profiles, not the published neural/contrastive learned covariate system or an exact paper replication."
+    }
+  ],
+  "target_encoding": "Rolling730calendar days, strictly pre-origin, positive recorded labels only; context-mean categories. Holiday=any frozen named family anchor (not every office closure). Joint category falls back to same weekday, then global mean. No future-target encoding, cross-validation or parameter selection.",
+  "response_profile": "Known fixed triangular+/-3day shape [.2,.5,.8,1,.8,.5,.2]. Max across subsidiary windows within each family; sum family effects. Residual at past date=recorded energy minus mean of up to4recorded same-weekday values7/14/21/28days earlier, at least1required. Query baseline=last4recorded same-weekday observations strictly before origin; no unavailable week-ahead values.",
+  "estimation": "OLS separate5family amplitudes; OLS pooled scalar; partial pooling solve(XTX+2I)b=XTr+2*pooled*ones. Fixed penalty2, no error-based choice. No-response uses the exact same four-weekday baseline. Same rolling labels and event information for all3profile methods; no intercept.",
+  "interpretation": "These are established-method daily adaptations and local point comparators, not new TSFM representations or full closest-paper replications. Different fitting assumptions/refit frequencies remain explicit. Historical/proxy/source/rights limits unchanged. Generic encodings/pooling/shrinkage/residual profiles are not new inventions.",
+  "input_hashes": {
+    "src/event_comparators.py": "b46115bf98ffde9907989872b92da8f3bc3aab3aebcd0d7babbd3efc8e728a8c",
+    "src/test_event_comparators.py": "e78c665e59808487766127da168be6c9d417b711dab3a1e46a4a99533d606bec",
+    "data/external/latest_state_energy_GWh.csv": "74d22d5e85b022db13d97dad7c84dca5b9dc8e38d23570bf095d870e71a2f690",
+    "results/festival_features_v1/anchors_2022_2025.csv": "7542c6a6a3d84dcf6011872d3cdfa9e45bcca36e90a8746241e41800f19596ec",
+    "results/feature_breadth_v1/event_window/primary_cases.csv": "2723e8462fc0ea4604b2ba2cc523da5f996c3c6d0475dee39a009c1370385db2",
+    "results/feature_breadth_v1/ordinary/primary_cases.csv": "ebeaa1cdd98ec5c8b76afd92e46974b925131b3e2e466c04795abc7a6dea970a"
+  }
+}

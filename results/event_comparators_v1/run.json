@@ -1,0 +1,8 @@
+{
+  "status": "completed",
+  "completed_utc": "2026-10-30T17:36:45.136137+00:00",
+  "rows": 5952,
+  "fit_contexts": 686,
+  "protocol_sha256": "8e655a3ed7db8a9e2cd3756fc456c61edcf70dcea16e08c84df6f34cece58f47",
+  "predictions_sha256": "3bf699cca7f120409e29a91a2cccebbbac2262d6e60a2a7a071577eace9b0ee3"
+}

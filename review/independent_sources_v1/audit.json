@@ -1,0 +1,126 @@
+{
+  "created_utc": "2026-10-30T17:44:13.254874+00:00",
+  "status": "Audit complete; independent model replication not performed and rights/coverage gates remain.",
+  "source_files": {
+    "mta_metadata.json": {
+      "bytes": 33870,
+      "sha256": "e3e9e532f06ef41d459cb93c24c9e6e530c7b1e840804703d9e43a210590d835"
+    },
+    "mta_historical_retry.json": {
+      "bytes": 807009,
+      "sha256": "978c2d605a0f46ab7fd5616577fc83757c0a0b6c9919f457cbae66975e9178a1"
+    },
+    "mta_historical_retry_retrieval.json": {
+      "bytes": 455,
+      "sha256": "54178753a83b6b4c9820a3283ffa2060b824bc82053923124cabdf2e48362f68"
+    },
+    "mta_open_data_retrieval.json": {
+      "bytes": 221,
+      "sha256": "e010d4de3121dddae4b838ef0855c0846d71e8044a8eb6de7e59e6b3088a8a13"
+    },
+    "mta_terms_retrieval.json": {
+      "bytes": 232,
+      "sha256": "8402c0d4b0e14bb551a82d95682cb7dbf9e8f3b17da05ba5fafcc289baf821ea"
+    },
+    "elexon_week.json": {
+      "bytes": 49369,
+      "sha256": "f109ff29336b87d40ad94371f8132e15cb487c27275d71545726be2df10233d8"
+    },
+    "elexon_week_retrieval.json": {
+      "bytes": 308,
+      "sha256": "82adfb90978399bb306ee7167f48ad97af9be78afa3549fc675bef215ba2e641"
+    },
+    "probe_1.txt": {
+      "bytes": 1505339,
+      "sha256": "d992cbaa9351950aea8f2c6d720a4647383bbb8486765157023bac67fe2c86a7"
+    }
+  },
+  "mta": {
+    "provider": "Metropolitan Transportation Authority via NYS Open Data",
+    "url": "https://data.ny.gov/resource/vxuj-8kew.json",
+    "metadata_url": "https://data.ny.gov/api/views/vxuj-8kew.json",
+    "lineage": "Independent of Indian GRID/POSOCO series; cross-domain ridership, not electricity supply.",
+    "title": "MTA Daily Ridership Data: 2020 - 2025",
+    "deprecated": true,
+    "source_license_id": null,
+    "requested_years": [
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "returned_rows": 1105,
+    "first_date": "2022-01-01",
+    "last_date": "2025-01-09",
+    "fields": {
+      "subways_total_estimated_ridership": {
+        "positive_records": 1105,
+        "by_year": {
+          "2022": 365,
+          "2023": 365,
+          "2024": 366,
+          "2025": 9
+        }
+      },
+      "buses_total_estimated_ridersip": {
+        "positive_records": 1105,
+        "by_year": {
+          "2022": 365,
+          "2023": 365,
+          "2024": 366,
+          "2025": 9
+        }
+      }
+    },
+    "rights": "NYS view metadata has no licenseId. MTA open-data page welcomes third-party analytical use, but general website terms are restrictive. Dataset-specific portal/research redistribution terms not established; do not infer a grant or redistribute raw probe.",
+    "next": "Use a separately audited successor dataset for2025; do not silently splice this deprecated view.2024has366records but is historical/model-exposure unresolved. The closest calendar-encoding paper already uses MTA, so it is not a new benchmark.",
+    "retrieval": {
+      "url": "https://data.ny.gov/resource/vxuj-8kew.json?%24where=date+%3E%3D+%272022-01-01T00%3A00%3A00%27+AND+date+%3C+%272026-01-01T00%3A00%3A00%27&%24order=date&%24limit=5000",
+      "http_status": 200,
+      "bytes": 807009,
+      "sha256": "978c2d605a0f46ab7fd5616577fc83757c0a0b6c9919f457cbae66975e9178a1",
+      "retrieved_utc": "2026-10-30T17:41:03.578294+00:00",
+      "rows": 1105,
+      "min_date": "2022-01-01T00:00:00.000",
+      "max_date": "2025-01-09T00:00:00.000"
+    }
+  },
+  "elexon": {
+    "provider": "Elexon Insights API",
+    "url": "https://data.elexon.co.uk/bmrs/api/v1/demand/actual/total",
+    "specification_url": "https://data.elexon.co.uk/swagger/v1/swagger.json",
+    "lineage": "GB actual total load ATL/B0610, independent of Indian GRID/POSOCO; different geography/measurement definition.",
+    "records": 336,
+    "unique_half_hour_intervals": 336,
+    "utc_grid_complete": true,
+    "settlement_counts": {
+      "2025-03-27": 48,
+      "2025-03-28": 48,
+      "2025-03-29": 48,
+      "2025-03-30": 46,
+      "2025-03-31": 48,
+      "2025-04-01": 48,
+      "2025-04-02": 48,
+      "2025-04-03": 2
+    },
+    "warning": "UTC range and local settlement date differ:30March2025has46periods; query also includes2periods labelled3April. Daily local aggregation must validate full46/48/50period coverage and exact requested dates.",
+    "units": "API schema calls the field quantity without an explicit unit. ATL convention alone is insufficient for this audit: verify authoritativeMWdefinition and period-average interpretation before GWhconversion.",
+    "vintages": "publishTime retained in raw probe; API reflects current published values, not reconstructed historical first-release vintages. Dataset revision fields require further audit.",
+    "rights": "Official Elexon licence/operational pages returned403; no bypass or redistribution-rights inference. Raw probe remains outsideGit.",
+    "invalid_probe": "Generic /datasets/ITSDO ignored an unsupported settlementDate/from query and returned current30October2026row. Rejected as historical data; documented endpoint and explicit returned-date guards are necessary.",
+    "retrieval": {
+      "url": "https://data.elexon.co.uk/bmrs/api/v1/demand/actual/total?from=2025-03-27T00%3A00Z&to=2025-04-02T23%3A30Z&format=json",
+      "http_status": 200,
+      "bytes": 49369,
+      "sha256": "f109ff29336b87d40ad94371f8132e15cb487c27275d71545726be2df10233d8",
+      "retrieved_utc": "2026-10-30T17:41:03.455361+00:00"
+    }
+  },
+  "transport_failures": [
+    "requests module unavailable; used standard-library urllib",
+    "Initial projected MTA request503; one bounded retry without projection succeeded",
+    "MTA guessed license and NY guessed terms URLs404; actual linked MTA terms200",
+    "Elexon licence pages403; no access bypass"
+  ],
+  "conclusion": "Two genuinely separate primary-provider candidates acquired for audit, zero new independent model-result claims. Source terms, appropriate calendars, exposure and compatible evaluation protocol are prerequisites. No new future Indian actuals, old forecast changes or workflow activation."
+}
