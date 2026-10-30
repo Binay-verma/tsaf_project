@@ -1,0 +1,27 @@
+{
+  "status": "internal_render_and_all_pages_visual_pass",
+  "checked_utc": "2026-10-30T23:18:05.525893+00:00",
+  "pages": 8,
+  "pages_visually_inspected": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "numeric_table_cells_checked_in_prior_DOCX_QA": 102,
+  "out_of_page_blocks": [],
+  "replacement_glyphs": 0,
+  "visual_notes": "All eight rasterized pages inspected. Four tables and both figures readable; no clipping or missing content. Tree leaf minimum 2 label wraps, still readable. References continue on page 8. Original-ledger correction notice visible on page 1. Internal visual check, not independent human or scientific approval.",
+  "renderer": "soffice",
+  "sha256": {
+    "IJF_Focused_Draft_Binay_Verma.pdf": "6f5a42a1b5c65701a6e2c23b573cfb06503679cae57f3b922bb5037cf8e73ffb",
+    "IJF_Focused_Draft_Binay_Verma.docx": "1b41d2c4fd5efc137aa24385e1e437d94ba21d41f249e5895f5cd30a2cc69f34",
+    "MANUSCRIPT.md": "2cda443601f52330a9cc78bc4587f36ab68d567af60187d57943fb8e875d9773",
+    "build.json": "931a0ff939579cf7218d00ca1222eeaf1eeb20dfe1fef79e765dc9728634e3c2",
+    "qa.json": "40c49f0dc5e439dc65b09787652d7bfb3e3d948e81e75ee1e17c9485765a89fa"
+  }
+}

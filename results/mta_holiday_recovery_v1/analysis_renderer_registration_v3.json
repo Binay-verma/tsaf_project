@@ -1,0 +1,15 @@
+{
+  "registered_utc": "2026-10-30T23:13:36.570428+00:00",
+  "scope": "OnlyrendererCLIlibreoffice\u2192sofficeandliveprogressfilenamechange; copiedscientificanalysis/callsUNCHANGED, allfrozenv2sourcehashguards retained. Existingwaitinganalysisprocessstopped, no modelworker stopped orscientificoutputoverwritten.",
+  "source_sha256": "3537511ede83c0c7b232569609edaf7dfd505070fc343c090ace77741bf2f6da",
+  "parent_analysis_source_sha256": "b7f0204ad4decf6c78dcf8afab158ce73f00f737f883051cd13f0310f23db9d6",
+  "renderer": "/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override/soffice",
+  "prior_waiting_status": {
+    "started_utc": "2026-10-30T23:08:01.278149+00:00",
+    "status": "waiting_for_complete_recenter",
+    "completed": []
+  },
+  "stopped_waiter_pids": [
+    62341
+  ]
+}
