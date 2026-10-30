@@ -1,0 +1,466 @@
+{
+  "status": "pass",
+  "observed_utc": "2026-10-30T22:12:39.206292+00:00",
+  "scope": "Active registered protocol/source/case/closed-worker/scoring/contrast hashes and absence of unexpected ACTIVE queue failures; not full scientific audit or proof all experiments complete. Known historical failures remain retained.",
+  "hash_checks": 1511,
+  "protected_prior_files": 1023,
+  "studies": {
+    "feature_breadth_v1": {
+      "closed_workers": 11,
+      "planned_workers": 12,
+      "workers": [
+        {
+          "worker": "event_window/ridge",
+          "status": "complete",
+          "rows": 4224
+        },
+        {
+          "worker": "event_window/lightgbm",
+          "status": "complete",
+          "rows": 4224
+        },
+        {
+          "worker": "event_window/lightgbm_capacity2",
+          "status": "complete",
+          "rows": 4224
+        },
+        {
+          "worker": "event_window/sarimax",
+          "status": "complete",
+          "rows": 4224
+        },
+        {
+          "worker": "event_window/chronos",
+          "status": "complete",
+          "rows": 4224
+        },
+        {
+          "worker": "event_window/timesfm",
+          "status": "complete",
+          "rows": 4224
+        },
+        {
+          "worker": "ordinary/ridge",
+          "status": "complete",
+          "rows": 1728
+        },
+        {
+          "worker": "ordinary/lightgbm",
+          "status": "complete",
+          "rows": 1728
+        },
+        {
+          "worker": "ordinary/lightgbm_capacity2",
+          "status": "complete",
+          "rows": 1728
+        },
+        {
+          "worker": "ordinary/sarimax",
+          "status": "complete",
+          "rows": 1728
+        },
+        {
+          "worker": "ordinary/chronos",
+          "status": "complete",
+          "rows": 1728
+        },
+        {
+          "worker": "ordinary/timesfm",
+          "status": "running_or_queued"
+        }
+      ],
+      "pipeline_queue_states": {
+        "pipeline_status.json": "waiting_for_workers"
+      }
+    },
+    "calendar_encoding_v1": {
+      "closed_workers": 2,
+      "planned_workers": 4,
+      "workers": [
+        {
+          "worker": "event_window/chronos",
+          "status": "complete",
+          "rows": 5280
+        },
+        {
+          "worker": "event_window/timesfm",
+          "status": "running_or_queued"
+        },
+        {
+          "worker": "ordinary/chronos",
+          "status": "complete",
+          "rows": 2160
+        },
+        {
+          "worker": "ordinary/timesfm",
+          "status": "running_or_queued"
+        }
+      ],
+      "pipeline_queue_states": {
+        "pipeline_status.json": "waiting_for_workers",
+        "chronos_queue.json": "completed",
+        "timesfm_queue.json": "waiting_for_breadth"
+      }
+    },
+    "neso_replication_v1": {
+      "closed_workers": 10,
+      "planned_workers": 12,
+      "workers": [
+        {
+          "worker": "ideal/ridge",
+          "status": "complete",
+          "rows": 384
+        },
+        {
+          "worker": "ideal/lightgbm",
+          "status": "complete",
+          "rows": 384
+        },
+        {
+          "worker": "ideal/lightgbm_capacity2",
+          "status": "complete",
+          "rows": 384
+        },
+        {
+          "worker": "ideal/sarimax",
+          "status": "complete",
+          "rows": 384
+        },
+        {
+          "worker": "ideal/chronos",
+          "status": "complete",
+          "rows": 384
+        },
+        {
+          "worker": "ideal/timesfm",
+          "status": "running_or_queued"
+        },
+        {
+          "worker": "lag21/ridge",
+          "status": "complete",
+          "rows": 384
+        },
+        {
+          "worker": "lag21/lightgbm",
+          "status": "complete",
+          "rows": 384
+        },
+        {
+          "worker": "lag21/lightgbm_capacity2",
+          "status": "complete",
+          "rows": 384
+        },
+        {
+          "worker": "lag21/sarimax",
+          "status": "complete",
+          "rows": 384
+        },
+        {
+          "worker": "lag21/chronos",
+          "status": "complete",
+          "rows": 384
+        },
+        {
+          "worker": "lag21/timesfm",
+          "status": "running_or_queued"
+        }
+      ],
+      "pipeline_queue_states": {
+        "pipeline_status.json": "waiting_for_workers",
+        "chronos_queue.json": "completed",
+        "timesfm_queue.json": "waiting_for_encoding"
+      }
+    },
+    "calendar_semantics_v2": {
+      "closed_workers": 9,
+      "planned_workers": 16,
+      "workers": [
+        {
+          "worker": "breadth/event_window/ridge",
+          "status": "complete",
+          "rows": 240
+        },
+        {
+          "worker": "breadth/event_window/lightgbm",
+          "status": "complete",
+          "rows": 240
+        },
+        {
+          "worker": "breadth/event_window/lightgbm_capacity2",
+          "status": "complete",
+          "rows": 240
+        },
+        {
+          "worker": "breadth/event_window/sarimax",
+          "status": "complete",
+          "rows": 240
+        },
+        {
+          "worker": "breadth/event_window/chronos",
+          "status": "complete",
+          "rows": 240
+        },
+        {
+          "worker": "breadth/event_window/timesfm",
+          "status": "running_or_queued"
+        },
+        {
+          "worker": "breadth/ordinary/ridge",
+          "status": "complete",
+          "rows": 60
+        },
+        {
+          "worker": "breadth/ordinary/lightgbm",
+          "status": "complete",
+          "rows": 60
+        },
+        {
+          "worker": "breadth/ordinary/lightgbm_capacity2",
+          "status": "complete",
+          "rows": 60
+        },
+        {
+          "worker": "breadth/ordinary/sarimax",
+          "status": "complete",
+          "rows": 60
+        },
+        {
+          "worker": "breadth/ordinary/chronos",
+          "status": "running_or_queued"
+        },
+        {
+          "worker": "breadth/ordinary/timesfm",
+          "status": "running_or_queued"
+        },
+        {
+          "worker": "encoding/event_window/chronos",
+          "status": "running_or_queued"
+        },
+        {
+          "worker": "encoding/event_window/timesfm",
+          "status": "running_or_queued"
+        },
+        {
+          "worker": "encoding/ordinary/chronos",
+          "status": "running_or_queued"
+        },
+        {
+          "worker": "encoding/ordinary/timesfm",
+          "status": "running_or_queued"
+        }
+      ],
+      "pipeline_queue_states": {
+        "pipeline_status.json": "waiting_for_workers_and_parent_audits",
+        "chronos_queue.json": "running_breadth_ordinary",
+        "timesfm_queue.json": "waiting_for_neso"
+      }
+    },
+    "calendar_recenter_v1": {
+      "closed_workers": 16,
+      "planned_workers": 28,
+      "workers": [
+        {
+          "worker": "old_added/ridge",
+          "status": "complete",
+          "rows": 24
+        },
+        {
+          "worker": "old_added/lightgbm",
+          "status": "complete",
+          "rows": 24
+        },
+        {
+          "worker": "old_added/lightgbm_capacity2",
+          "status": "complete",
+          "rows": 24
+        },
+        {
+          "worker": "old_added/sarimax",
+          "status": "complete",
+          "rows": 24
+        },
+        {
+          "worker": "old_added/chronos",
+          "status": "running_or_queued"
+        },
+        {
+          "worker": "old_added/timesfm",
+          "status": "running_or_queued"
+        },
+        {
+          "worker": "aligned_added/ridge",
+          "status": "complete",
+          "rows": 24
+        },
+        {
+          "worker": "aligned_added/lightgbm",
+          "status": "complete",
+          "rows": 24
+        },
+        {
+          "worker": "aligned_added/lightgbm_capacity2",
+          "status": "complete",
+          "rows": 24
+        },
+        {
+          "worker": "aligned_added/sarimax",
+          "status": "complete",
+          "rows": 24
+        },
+        {
+          "worker": "aligned_added/chronos",
+          "status": "running_or_queued"
+        },
+        {
+          "worker": "aligned_added/timesfm",
+          "status": "running_or_queued"
+        },
+        {
+          "worker": "aligned_placebo_event/ridge",
+          "status": "complete",
+          "rows": 90
+        },
+        {
+          "worker": "aligned_placebo_event/lightgbm",
+          "status": "complete",
+          "rows": 90
+        },
+        {
+          "worker": "aligned_placebo_event/lightgbm_capacity2",
+          "status": "complete",
+          "rows": 90
+        },
+        {
+          "worker": "aligned_placebo_event/sarimax",
+          "status": "complete",
+          "rows": 90
+        },
+        {
+          "worker": "aligned_placebo_event/chronos",
+          "status": "running_or_queued"
+        },
+        {
+          "worker": "aligned_placebo_event/timesfm",
+          "status": "running_or_queued"
+        },
+        {
+          "worker": "aligned_placebo_ordinary/ridge",
+          "status": "complete",
+          "rows": 24
+        },
+        {
+          "worker": "aligned_placebo_ordinary/lightgbm",
+          "status": "complete",
+          "rows": 24
+        },
+        {
+          "worker": "aligned_placebo_ordinary/lightgbm_capacity2",
+          "status": "complete",
+          "rows": 24
+        },
+        {
+          "worker": "aligned_placebo_ordinary/sarimax",
+          "status": "complete",
+          "rows": 24
+        },
+        {
+          "worker": "aligned_placebo_ordinary/chronos",
+          "status": "running_or_queued"
+        },
+        {
+          "worker": "aligned_placebo_ordinary/timesfm",
+          "status": "running_or_queued"
+        },
+        {
+          "worker": "old_encoding_added/chronos",
+          "status": "running_or_queued"
+        },
+        {
+          "worker": "old_encoding_added/timesfm",
+          "status": "running_or_queued"
+        },
+        {
+          "worker": "aligned_encoding_added/chronos",
+          "status": "running_or_queued"
+        },
+        {
+          "worker": "aligned_encoding_added/timesfm",
+          "status": "running_or_queued"
+        }
+      ],
+      "pipeline_queue_states": {
+        "pipeline_status.json": "waiting_for_workers_and_parent_audit",
+        "chronos_queue.json": "waiting_for_semantics",
+        "timesfm_queue.json": "waiting_for_semantics"
+      }
+    },
+    "mta_holiday_v1": {
+      "closed_workers": 8,
+      "planned_workers": 12,
+      "workers": [
+        {
+          "worker": "event_window/ridge",
+          "status": "complete",
+          "rows": 672
+        },
+        {
+          "worker": "event_window/lightgbm",
+          "status": "complete",
+          "rows": 672
+        },
+        {
+          "worker": "event_window/lightgbm_capacity2",
+          "status": "complete",
+          "rows": 672
+        },
+        {
+          "worker": "event_window/sarimax",
+          "status": "complete",
+          "rows": 672
+        },
+        {
+          "worker": "event_window/chronos",
+          "status": "running_or_queued"
+        },
+        {
+          "worker": "event_window/timesfm",
+          "status": "running_or_queued"
+        },
+        {
+          "worker": "ordinary/ridge",
+          "status": "complete",
+          "rows": 336
+        },
+        {
+          "worker": "ordinary/lightgbm",
+          "status": "complete",
+          "rows": 336
+        },
+        {
+          "worker": "ordinary/lightgbm_capacity2",
+          "status": "complete",
+          "rows": 336
+        },
+        {
+          "worker": "ordinary/sarimax",
+          "status": "complete",
+          "rows": 336
+        },
+        {
+          "worker": "ordinary/chronos",
+          "status": "running_or_queued"
+        },
+        {
+          "worker": "ordinary/timesfm",
+          "status": "running_or_queued"
+        }
+      ],
+      "pipeline_queue_states": {
+        "pipeline_status.json": "waiting_for_workers",
+        "chronos_queue.json": "waiting_for_recenter",
+        "timesfm_queue.json": "waiting_for_recenter"
+      }
+    }
+  },
+  "future_competitor": "Protocol frozen, queue active, no inference completed yet"
+}
