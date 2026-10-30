@@ -17,9 +17,10 @@ Current sequence:
 | Full-window and seasonal ordinary-day feature breadth |23,808local forecasts complete; both foundation lanes running|All35,712forecasts plus source/input/fit/metric/probability audit|
 | Established daily comparators and pooling simulation |Complete; full clean reruns byte-identical|5,952forecasts,512synthetic datasets/2,560cells, separate audits|
 | Closest pure calendar encodings in both TSFMs |Protocol frozen; queued after each corresponding breadth lane|14,880newforecasts, samecases, sparse-category/support/input/probability audit|
-| Independent NESO source and archive-delay sensitivity |Rules/cases frozen BEFORE targetdownload; not yet a result|Actual-only DST-checked source, past-only selection,4,608model+192naive rows, separate audit|
+| Independent NESO source and archive-delay sensitivity |3,072local+192naive rows complete and separately audited; both foundation lanes queued after encodings|Actual-only DST-checked source, past-only selection,4,608model+192naive rows, separate audit|
 | Focused manuscript |Builder waits for completed/audited breadth; integrate later registered evidence in a new version|Readable MD/DOCX/PDF, verified numbers/figures and current claims|
 | Future rolling confirmation |Plan/contract only; not activated|Dated ledger and full capture/runner/scorer/time guards before future issuances; later observations required|
+| Named-calendar semantic correction |KA2025Dussehra mismatch found by document review; old results preserved, new correction comparison next|Same-case document-aligned sensitivity; no error-selected dates|
 | Source rights, calendar amendments, independent review |Open external/provenance gates|Actual authoritative evidence or human review, not another model fit|
 
 College/department and corresponding-author email remain intentionally blank at the author’s request. A research loop cannot guarantee journal acceptance or create future observations. Continue executable gaps and report the actual boundary when the remaining work depends on those prerequisites.

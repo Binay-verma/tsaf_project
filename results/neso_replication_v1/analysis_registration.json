@@ -1,0 +1,10 @@
+{
+  "created_utc": "2026-10-30T19:04:06.581432+00:00",
+  "source_sha256": "c766a43f41b59fb3bfc7c29ab70d294840ac193574bb581bda5515fa2167653f",
+  "registration_sha256": "013938a368c4921fdc0337c6d949583fd3847a2279b643c71f2635c039a6de9b",
+  "policy": "No aggregateSeptembererrors inspected before this analysisregistration. Originalprotocol fixed point/probabilitymetrics before sourceacquisition. Allmethods/arms retained; no validationonSeptember.",
+  "naive": "last:latestrecordedlabel before modelorigin, repeated. seasonal:repeat last7available dailylabels, modelstep h uses origin-7+(h-1)%7. No actualbridgeobservations.",
+  "aggregation": "OneEngland/Walesseries,16identical targetdates perdecisionlead. Arithmeticmean over16recordedlabels; scenarios separate. PointMAE/MASE; pairsignedMASEchange tocalendar for all7extraarms; no independencepvalues/bootstrap over16serialdays.",
+  "quantiles": "Unmodified common0.1\u20130.9: meanscaledpinball; native80coverage/scaledwidth/oneintervalWISwithmedian. Anyinvalid80endpoint propagatesundefined interval aggregate for its group; no crossingsrepair.",
+  "limits": "Oneadditionalgeography/16historicalordinarydates. No independentfestival, vintage, causal, cleanprospective or superiorityclaim. Fixed21additionaldayslag sensitivity is not recreated firstreleaseavailability."
+}

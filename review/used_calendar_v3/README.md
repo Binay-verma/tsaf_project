@@ -1,0 +1,9 @@
+# Named-calendar review v3
+
+The new review retains two previously missing annual documents and visually checks their relevant English rows. All 58 old anchors now have a retained document, including five Karnataka anchors supported by a publicly indexed mirror rather than a verified government-hosted retrieval. CAG returned 404; the government municipal mirror returned 503. The original host and failures remain recorded. No first-publication timestamp or amendment chain is certified.
+
+**Substantive finding:** Karnataka notification No. DPAR 16 HHL 2024, dated **21 November 2024**, page 1, labels **1 October 2025** “Mahanavami/Ayudhapooja, Vijayadasami” and **2 October** “Gandhi Jayanthi.” The old state-scoped ledger uses 2 October for Dussehra. Its earlier date-membership check passed because Gandhi Jayanthi is indeed an annual holiday; that did not verify the festival name. The old result panels retain this known family/date mismatch. They must not be described as a fully verified named-state calendar. A new version will compare the document-aligned date without selecting it using electricity errors. This is not proof that every religious observance follows the office schedule or that no later amendment exists.
+
+Maharashtra notice dated 9 November 2023, Gazette 10 November, physical PDF pages 5–6 verifies the six applicable named dates. Its shared-main 31 October 2024 remains an explicit national-main exception rather than state Laxmi Pujan (1 November).
+
+Twelve newly checked rows comprise ten named-date matches, one known shared-main exception and one new family/date mismatch. Other rows retain prior checks; this does not assert a new independent semantic review of all 58. The prior 56/58 annual-date membership count is preserved as a different, weaker statistic. No old ledger, forecast, prospective freeze or protected review was overwritten. No external human review or amendment certification is implied.

@@ -1,0 +1,89 @@
+{
+  "created_utc": "2026-10-30T18:54:21.225860+00:00",
+  "raw_cache": "/workspace/neso-replication-v1",
+  "downloads": {
+    "2023": {
+      "url": "https://api.neso.energy/dataset/8f2fe0af-871c-488d-8bad-960426f24601/resource/bf5ab335-9b40-4ea4-b93a-ab4af7bce003/download/demanddata_2023.csv",
+      "sha256": "cb6f7b91dd6a5defbdd918e3db440b8e6cec5855ef18a8715bb8e294b50cfa23",
+      "bytes": 1732679,
+      "retrieved_utc": "2026-10-30T18:54:08.706203+00:00"
+    },
+    "2024": {
+      "url": "https://api.neso.energy/dataset/8f2fe0af-871c-488d-8bad-960426f24601/resource/f6d02c0f-957b-48cb-82ee-09003f2ba759/download/demanddata_2024.csv",
+      "sha256": "fa7895b6e9ab5eb1b450949d969cb18ffeb6005359fc71c79c87e1c47e59cac6",
+      "bytes": 1809707,
+      "retrieved_utc": "2026-10-30T18:54:11.657297+00:00"
+    },
+    "2025": {
+      "url": "https://api.neso.energy/dataset/8f2fe0af-871c-488d-8bad-960426f24601/resource/b2bde559-3455-4021-b179-dfe60c0337b0/download/demanddata_2025.csv",
+      "sha256": "8b8be946bbb084bc28fbf95a71fad0fceb5543b98e02755235130a42beaee4e0",
+      "bytes": 1869771,
+      "retrieved_utc": "2026-10-30T18:54:14.968052+00:00"
+    },
+    "2026": {
+      "url": "https://api.neso.energy/dataset/8f2fe0af-871c-488d-8bad-960426f24601/resource/8a4a771c-3929-4e56-93ad-cdf13219dea5/download/demanddataupdate_2026.csv",
+      "sha256": "0c148acdeac318711322f40a160f772a5baa2e2febfb721044fd269132a3484c",
+      "bytes": 1444005,
+      "retrieved_utc": "2026-10-30T18:54:18.273899+00:00"
+    }
+  },
+  "quality": [
+    {
+      "year": 2023,
+      "flags": {
+        "absent_historic_outturn": 17520
+      },
+      "complete_days": 365,
+      "incomplete_days": 0,
+      "period_counts": {
+        "48": 363,
+        "46": 1,
+        "50": 1
+      }
+    },
+    {
+      "year": 2024,
+      "flags": {
+        "absent_historic_outturn": 17568
+      },
+      "complete_days": 366,
+      "incomplete_days": 0,
+      "period_counts": {
+        "48": 364,
+        "46": 1,
+        "50": 1
+      }
+    },
+    {
+      "year": 2025,
+      "flags": {
+        "absent_historic_outturn": 17520
+      },
+      "complete_days": 365,
+      "incomplete_days": 0,
+      "period_counts": {
+        "48": 363,
+        "46": 1,
+        "50": 1
+      }
+    },
+    {
+      "year": 2026,
+      "flags": {
+        "A": 13534
+      },
+      "complete_days": 273,
+      "incomplete_days": 0,
+      "period_counts": {
+        "48": 272,
+        "46": 1
+      }
+    }
+  ],
+  "daily_sha256": "0861a708421e7b01e8622276d787689573b6887ad3ba9d79c444b28b8a12f22c",
+  "date_min": "2023-01-01",
+  "date_max": "2026-09-30",
+  "raw_redistributed": false,
+  "conversion": "sumpositivecompleteactualhalf-hourMW/2000; missing/incompletedays remainunscoredNaN",
+  "notice": "Currentrevisedarchive; bothdelaycasesretrospective, no first-vintage/permissions grant inferred."
+}

@@ -1,0 +1,16 @@
+{
+  "status": "completed",
+  "completed_utc": "2026-10-30T19:04:08.573556+00:00",
+  "models": [
+    "ridge",
+    "lightgbm",
+    "lightgbm_capacity2",
+    "sarimax"
+  ],
+  "model_rows": 3072,
+  "naive_rows": 192,
+  "compared_rows": 3264,
+  "source_sha256": "71f393e9143a11452be7cca229a80226feab5d4ecea358422533856bb9c53721",
+  "analysis_registration_sha256": "14e3bec45e291bad89f803fe9b9ee86c3f1f904afe2f2e0ce0598774a71b20ff",
+  "predictions_sha256": "c005138023a0a1c7e811850f8bb82b08524c9a03407d8de4767d0b64b90debc4"
+}

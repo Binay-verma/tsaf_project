@@ -1,0 +1,1394 @@
+[
+  {
+    "arm": "calendar",
+    "origin": "2026-08-12",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-11"
+  },
+  {
+    "arm": "calendar",
+    "origin": "2026-08-13",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-12"
+  },
+  {
+    "arm": "calendar",
+    "origin": "2026-08-14",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-13"
+  },
+  {
+    "arm": "calendar",
+    "origin": "2026-08-15",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-14"
+  },
+  {
+    "arm": "calendar",
+    "origin": "2026-08-16",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-15"
+  },
+  {
+    "arm": "calendar",
+    "origin": "2026-08-17",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-16"
+  },
+  {
+    "arm": "calendar",
+    "origin": "2026-08-18",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-17"
+  },
+  {
+    "arm": "calendar",
+    "origin": "2026-08-19",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-18"
+  },
+  {
+    "arm": "calendar",
+    "origin": "2026-08-20",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-19"
+  },
+  {
+    "arm": "calendar",
+    "origin": "2026-08-21",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-20"
+  },
+  {
+    "arm": "calendar",
+    "origin": "2026-08-22",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-21"
+  },
+  {
+    "arm": "calendar",
+    "origin": "2026-08-23",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-22"
+  },
+  {
+    "arm": "calendar",
+    "origin": "2026-08-24",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-23"
+  },
+  {
+    "arm": "calendar",
+    "origin": "2026-08-25",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-24"
+  },
+  {
+    "arm": "calendar",
+    "origin": "2026-08-26",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-25"
+  },
+  {
+    "arm": "calendar",
+    "origin": "2026-08-27",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-26"
+  },
+  {
+    "arm": "calendar",
+    "origin": "2026-08-28",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-27"
+  },
+  {
+    "arm": "calendar",
+    "origin": "2026-08-29",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-28"
+  },
+  {
+    "arm": "calendar",
+    "origin": "2026-08-30",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-29"
+  },
+  {
+    "arm": "calendar",
+    "origin": "2026-08-31",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-30"
+  },
+  {
+    "arm": "zero6",
+    "origin": "2026-08-12",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-11"
+  },
+  {
+    "arm": "zero6",
+    "origin": "2026-08-13",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-12"
+  },
+  {
+    "arm": "zero6",
+    "origin": "2026-08-14",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-13"
+  },
+  {
+    "arm": "zero6",
+    "origin": "2026-08-15",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-14"
+  },
+  {
+    "arm": "zero6",
+    "origin": "2026-08-16",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-15"
+  },
+  {
+    "arm": "zero6",
+    "origin": "2026-08-17",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-16"
+  },
+  {
+    "arm": "zero6",
+    "origin": "2026-08-18",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-17"
+  },
+  {
+    "arm": "zero6",
+    "origin": "2026-08-19",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-18"
+  },
+  {
+    "arm": "zero6",
+    "origin": "2026-08-20",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-19"
+  },
+  {
+    "arm": "zero6",
+    "origin": "2026-08-21",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-20"
+  },
+  {
+    "arm": "zero6",
+    "origin": "2026-08-22",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-21"
+  },
+  {
+    "arm": "zero6",
+    "origin": "2026-08-23",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-22"
+  },
+  {
+    "arm": "zero6",
+    "origin": "2026-08-24",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-23"
+  },
+  {
+    "arm": "zero6",
+    "origin": "2026-08-25",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-24"
+  },
+  {
+    "arm": "zero6",
+    "origin": "2026-08-26",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-25"
+  },
+  {
+    "arm": "zero6",
+    "origin": "2026-08-27",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-26"
+  },
+  {
+    "arm": "zero6",
+    "origin": "2026-08-28",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-27"
+  },
+  {
+    "arm": "zero6",
+    "origin": "2026-08-29",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-28"
+  },
+  {
+    "arm": "zero6",
+    "origin": "2026-08-30",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-29"
+  },
+  {
+    "arm": "zero6",
+    "origin": "2026-08-31",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-30"
+  },
+  {
+    "arm": "day6",
+    "origin": "2026-08-12",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-11"
+  },
+  {
+    "arm": "day6",
+    "origin": "2026-08-13",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-12"
+  },
+  {
+    "arm": "day6",
+    "origin": "2026-08-14",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-13"
+  },
+  {
+    "arm": "day6",
+    "origin": "2026-08-15",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-14"
+  },
+  {
+    "arm": "day6",
+    "origin": "2026-08-16",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-15"
+  },
+  {
+    "arm": "day6",
+    "origin": "2026-08-17",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-16"
+  },
+  {
+    "arm": "day6",
+    "origin": "2026-08-18",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-17"
+  },
+  {
+    "arm": "day6",
+    "origin": "2026-08-19",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-18"
+  },
+  {
+    "arm": "day6",
+    "origin": "2026-08-20",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-19"
+  },
+  {
+    "arm": "day6",
+    "origin": "2026-08-21",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-20"
+  },
+  {
+    "arm": "day6",
+    "origin": "2026-08-22",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-21"
+  },
+  {
+    "arm": "day6",
+    "origin": "2026-08-23",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-22"
+  },
+  {
+    "arm": "day6",
+    "origin": "2026-08-24",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-23"
+  },
+  {
+    "arm": "day6",
+    "origin": "2026-08-25",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-24"
+  },
+  {
+    "arm": "day6",
+    "origin": "2026-08-26",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-25"
+  },
+  {
+    "arm": "day6",
+    "origin": "2026-08-27",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-26"
+  },
+  {
+    "arm": "day6",
+    "origin": "2026-08-28",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-27"
+  },
+  {
+    "arm": "day6",
+    "origin": "2026-08-29",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-28"
+  },
+  {
+    "arm": "day6",
+    "origin": "2026-08-30",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-29"
+  },
+  {
+    "arm": "day6",
+    "origin": "2026-08-31",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-30"
+  },
+  {
+    "arm": "pooled_day6",
+    "origin": "2026-08-12",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-11"
+  },
+  {
+    "arm": "pooled_day6",
+    "origin": "2026-08-13",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-12"
+  },
+  {
+    "arm": "pooled_day6",
+    "origin": "2026-08-14",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-13"
+  },
+  {
+    "arm": "pooled_day6",
+    "origin": "2026-08-15",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-14"
+  },
+  {
+    "arm": "pooled_day6",
+    "origin": "2026-08-16",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-15"
+  },
+  {
+    "arm": "pooled_day6",
+    "origin": "2026-08-17",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-16"
+  },
+  {
+    "arm": "pooled_day6",
+    "origin": "2026-08-18",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-17"
+  },
+  {
+    "arm": "pooled_day6",
+    "origin": "2026-08-19",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-18"
+  },
+  {
+    "arm": "pooled_day6",
+    "origin": "2026-08-20",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-19"
+  },
+  {
+    "arm": "pooled_day6",
+    "origin": "2026-08-21",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-20"
+  },
+  {
+    "arm": "pooled_day6",
+    "origin": "2026-08-22",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-21"
+  },
+  {
+    "arm": "pooled_day6",
+    "origin": "2026-08-23",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-22"
+  },
+  {
+    "arm": "pooled_day6",
+    "origin": "2026-08-24",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-23"
+  },
+  {
+    "arm": "pooled_day6",
+    "origin": "2026-08-25",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-24"
+  },
+  {
+    "arm": "pooled_day6",
+    "origin": "2026-08-26",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-25"
+  },
+  {
+    "arm": "pooled_day6",
+    "origin": "2026-08-27",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-26"
+  },
+  {
+    "arm": "pooled_day6",
+    "origin": "2026-08-28",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-27"
+  },
+  {
+    "arm": "pooled_day6",
+    "origin": "2026-08-29",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-28"
+  },
+  {
+    "arm": "pooled_day6",
+    "origin": "2026-08-30",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-29"
+  },
+  {
+    "arm": "pooled_day6",
+    "origin": "2026-08-31",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-30"
+  },
+  {
+    "arm": "window6",
+    "origin": "2026-08-12",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-11"
+  },
+  {
+    "arm": "window6",
+    "origin": "2026-08-13",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-12"
+  },
+  {
+    "arm": "window6",
+    "origin": "2026-08-14",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-13"
+  },
+  {
+    "arm": "window6",
+    "origin": "2026-08-15",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-14"
+  },
+  {
+    "arm": "window6",
+    "origin": "2026-08-16",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-15"
+  },
+  {
+    "arm": "window6",
+    "origin": "2026-08-17",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-16"
+  },
+  {
+    "arm": "window6",
+    "origin": "2026-08-18",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-17"
+  },
+  {
+    "arm": "window6",
+    "origin": "2026-08-19",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-18"
+  },
+  {
+    "arm": "window6",
+    "origin": "2026-08-20",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-19"
+  },
+  {
+    "arm": "window6",
+    "origin": "2026-08-21",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-20"
+  },
+  {
+    "arm": "window6",
+    "origin": "2026-08-22",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-21"
+  },
+  {
+    "arm": "window6",
+    "origin": "2026-08-23",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-22"
+  },
+  {
+    "arm": "window6",
+    "origin": "2026-08-24",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-23"
+  },
+  {
+    "arm": "window6",
+    "origin": "2026-08-25",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-24"
+  },
+  {
+    "arm": "window6",
+    "origin": "2026-08-26",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-25"
+  },
+  {
+    "arm": "window6",
+    "origin": "2026-08-27",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-26"
+  },
+  {
+    "arm": "window6",
+    "origin": "2026-08-28",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-27"
+  },
+  {
+    "arm": "window6",
+    "origin": "2026-08-29",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-28"
+  },
+  {
+    "arm": "window6",
+    "origin": "2026-08-30",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-29"
+  },
+  {
+    "arm": "window6",
+    "origin": "2026-08-31",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-30"
+  },
+  {
+    "arm": "pooled_window6",
+    "origin": "2026-08-12",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-11"
+  },
+  {
+    "arm": "pooled_window6",
+    "origin": "2026-08-13",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-12"
+  },
+  {
+    "arm": "pooled_window6",
+    "origin": "2026-08-14",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-13"
+  },
+  {
+    "arm": "pooled_window6",
+    "origin": "2026-08-15",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-14"
+  },
+  {
+    "arm": "pooled_window6",
+    "origin": "2026-08-16",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-15"
+  },
+  {
+    "arm": "pooled_window6",
+    "origin": "2026-08-17",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-16"
+  },
+  {
+    "arm": "pooled_window6",
+    "origin": "2026-08-18",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-17"
+  },
+  {
+    "arm": "pooled_window6",
+    "origin": "2026-08-19",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-18"
+  },
+  {
+    "arm": "pooled_window6",
+    "origin": "2026-08-20",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-19"
+  },
+  {
+    "arm": "pooled_window6",
+    "origin": "2026-08-21",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-20"
+  },
+  {
+    "arm": "pooled_window6",
+    "origin": "2026-08-22",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-21"
+  },
+  {
+    "arm": "pooled_window6",
+    "origin": "2026-08-23",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-22"
+  },
+  {
+    "arm": "pooled_window6",
+    "origin": "2026-08-24",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-23"
+  },
+  {
+    "arm": "pooled_window6",
+    "origin": "2026-08-25",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-24"
+  },
+  {
+    "arm": "pooled_window6",
+    "origin": "2026-08-26",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-25"
+  },
+  {
+    "arm": "pooled_window6",
+    "origin": "2026-08-27",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-26"
+  },
+  {
+    "arm": "pooled_window6",
+    "origin": "2026-08-28",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-27"
+  },
+  {
+    "arm": "pooled_window6",
+    "origin": "2026-08-29",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-28"
+  },
+  {
+    "arm": "pooled_window6",
+    "origin": "2026-08-30",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-29"
+  },
+  {
+    "arm": "pooled_window6",
+    "origin": "2026-08-31",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-30"
+  },
+  {
+    "arm": "placebo_day6",
+    "origin": "2026-08-12",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-11"
+  },
+  {
+    "arm": "placebo_day6",
+    "origin": "2026-08-13",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-12"
+  },
+  {
+    "arm": "placebo_day6",
+    "origin": "2026-08-14",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-13"
+  },
+  {
+    "arm": "placebo_day6",
+    "origin": "2026-08-15",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-14"
+  },
+  {
+    "arm": "placebo_day6",
+    "origin": "2026-08-16",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-15"
+  },
+  {
+    "arm": "placebo_day6",
+    "origin": "2026-08-17",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-16"
+  },
+  {
+    "arm": "placebo_day6",
+    "origin": "2026-08-18",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-17"
+  },
+  {
+    "arm": "placebo_day6",
+    "origin": "2026-08-19",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-18"
+  },
+  {
+    "arm": "placebo_day6",
+    "origin": "2026-08-20",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-19"
+  },
+  {
+    "arm": "placebo_day6",
+    "origin": "2026-08-21",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-20"
+  },
+  {
+    "arm": "placebo_day6",
+    "origin": "2026-08-22",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-21"
+  },
+  {
+    "arm": "placebo_day6",
+    "origin": "2026-08-23",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-22"
+  },
+  {
+    "arm": "placebo_day6",
+    "origin": "2026-08-24",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-23"
+  },
+  {
+    "arm": "placebo_day6",
+    "origin": "2026-08-25",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-24"
+  },
+  {
+    "arm": "placebo_day6",
+    "origin": "2026-08-26",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-25"
+  },
+  {
+    "arm": "placebo_day6",
+    "origin": "2026-08-27",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-26"
+  },
+  {
+    "arm": "placebo_day6",
+    "origin": "2026-08-28",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-27"
+  },
+  {
+    "arm": "placebo_day6",
+    "origin": "2026-08-29",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-28"
+  },
+  {
+    "arm": "placebo_day6",
+    "origin": "2026-08-30",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-29"
+  },
+  {
+    "arm": "placebo_day6",
+    "origin": "2026-08-31",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-30"
+  },
+  {
+    "arm": "placebo_window6",
+    "origin": "2026-08-12",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-11"
+  },
+  {
+    "arm": "placebo_window6",
+    "origin": "2026-08-13",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-12"
+  },
+  {
+    "arm": "placebo_window6",
+    "origin": "2026-08-14",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-13"
+  },
+  {
+    "arm": "placebo_window6",
+    "origin": "2026-08-15",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-14"
+  },
+  {
+    "arm": "placebo_window6",
+    "origin": "2026-08-16",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-15"
+  },
+  {
+    "arm": "placebo_window6",
+    "origin": "2026-08-17",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-16"
+  },
+  {
+    "arm": "placebo_window6",
+    "origin": "2026-08-18",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-17"
+  },
+  {
+    "arm": "placebo_window6",
+    "origin": "2026-08-19",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-18"
+  },
+  {
+    "arm": "placebo_window6",
+    "origin": "2026-08-20",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-19"
+  },
+  {
+    "arm": "placebo_window6",
+    "origin": "2026-08-21",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-20"
+  },
+  {
+    "arm": "placebo_window6",
+    "origin": "2026-08-22",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-21"
+  },
+  {
+    "arm": "placebo_window6",
+    "origin": "2026-08-23",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-22"
+  },
+  {
+    "arm": "placebo_window6",
+    "origin": "2026-08-24",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-23"
+  },
+  {
+    "arm": "placebo_window6",
+    "origin": "2026-08-25",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-24"
+  },
+  {
+    "arm": "placebo_window6",
+    "origin": "2026-08-26",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-25"
+  },
+  {
+    "arm": "placebo_window6",
+    "origin": "2026-08-27",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-26"
+  },
+  {
+    "arm": "placebo_window6",
+    "origin": "2026-08-28",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-27"
+  },
+  {
+    "arm": "placebo_window6",
+    "origin": "2026-08-29",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-28"
+  },
+  {
+    "arm": "placebo_window6",
+    "origin": "2026-08-30",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-29"
+  },
+  {
+    "arm": "placebo_window6",
+    "origin": "2026-08-31",
+    "training_end": "2026-07-31",
+    "context_end": "2026-08-30"
+  },
+  {
+    "arm": "calendar",
+    "origin": "2026-09-01",
+    "training_end": "2026-08-31",
+    "context_end": "2026-08-31"
+  },
+  {
+    "arm": "calendar",
+    "origin": "2026-09-02",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-01"
+  },
+  {
+    "arm": "calendar",
+    "origin": "2026-09-03",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-02"
+  },
+  {
+    "arm": "calendar",
+    "origin": "2026-09-04",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-03"
+  },
+  {
+    "arm": "calendar",
+    "origin": "2026-09-05",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-04"
+  },
+  {
+    "arm": "calendar",
+    "origin": "2026-09-06",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-05"
+  },
+  {
+    "arm": "calendar",
+    "origin": "2026-09-07",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-06"
+  },
+  {
+    "arm": "calendar",
+    "origin": "2026-09-08",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-07"
+  },
+  {
+    "arm": "calendar",
+    "origin": "2026-09-09",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-08"
+  },
+  {
+    "arm": "zero6",
+    "origin": "2026-09-01",
+    "training_end": "2026-08-31",
+    "context_end": "2026-08-31"
+  },
+  {
+    "arm": "zero6",
+    "origin": "2026-09-02",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-01"
+  },
+  {
+    "arm": "zero6",
+    "origin": "2026-09-03",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-02"
+  },
+  {
+    "arm": "zero6",
+    "origin": "2026-09-04",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-03"
+  },
+  {
+    "arm": "zero6",
+    "origin": "2026-09-05",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-04"
+  },
+  {
+    "arm": "zero6",
+    "origin": "2026-09-06",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-05"
+  },
+  {
+    "arm": "zero6",
+    "origin": "2026-09-07",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-06"
+  },
+  {
+    "arm": "zero6",
+    "origin": "2026-09-08",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-07"
+  },
+  {
+    "arm": "zero6",
+    "origin": "2026-09-09",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-08"
+  },
+  {
+    "arm": "day6",
+    "origin": "2026-09-01",
+    "training_end": "2026-08-31",
+    "context_end": "2026-08-31"
+  },
+  {
+    "arm": "day6",
+    "origin": "2026-09-02",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-01"
+  },
+  {
+    "arm": "day6",
+    "origin": "2026-09-03",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-02"
+  },
+  {
+    "arm": "day6",
+    "origin": "2026-09-04",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-03"
+  },
+  {
+    "arm": "day6",
+    "origin": "2026-09-05",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-04"
+  },
+  {
+    "arm": "day6",
+    "origin": "2026-09-06",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-05"
+  },
+  {
+    "arm": "day6",
+    "origin": "2026-09-07",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-06"
+  },
+  {
+    "arm": "day6",
+    "origin": "2026-09-08",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-07"
+  },
+  {
+    "arm": "day6",
+    "origin": "2026-09-09",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-08"
+  },
+  {
+    "arm": "pooled_day6",
+    "origin": "2026-09-01",
+    "training_end": "2026-08-31",
+    "context_end": "2026-08-31"
+  },
+  {
+    "arm": "pooled_day6",
+    "origin": "2026-09-02",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-01"
+  },
+  {
+    "arm": "pooled_day6",
+    "origin": "2026-09-03",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-02"
+  },
+  {
+    "arm": "pooled_day6",
+    "origin": "2026-09-04",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-03"
+  },
+  {
+    "arm": "pooled_day6",
+    "origin": "2026-09-05",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-04"
+  },
+  {
+    "arm": "pooled_day6",
+    "origin": "2026-09-06",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-05"
+  },
+  {
+    "arm": "pooled_day6",
+    "origin": "2026-09-07",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-06"
+  },
+  {
+    "arm": "pooled_day6",
+    "origin": "2026-09-08",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-07"
+  },
+  {
+    "arm": "pooled_day6",
+    "origin": "2026-09-09",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-08"
+  },
+  {
+    "arm": "window6",
+    "origin": "2026-09-01",
+    "training_end": "2026-08-31",
+    "context_end": "2026-08-31"
+  },
+  {
+    "arm": "window6",
+    "origin": "2026-09-02",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-01"
+  },
+  {
+    "arm": "window6",
+    "origin": "2026-09-03",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-02"
+  },
+  {
+    "arm": "window6",
+    "origin": "2026-09-04",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-03"
+  },
+  {
+    "arm": "window6",
+    "origin": "2026-09-05",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-04"
+  },
+  {
+    "arm": "window6",
+    "origin": "2026-09-06",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-05"
+  },
+  {
+    "arm": "window6",
+    "origin": "2026-09-07",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-06"
+  },
+  {
+    "arm": "window6",
+    "origin": "2026-09-08",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-07"
+  },
+  {
+    "arm": "window6",
+    "origin": "2026-09-09",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-08"
+  },
+  {
+    "arm": "pooled_window6",
+    "origin": "2026-09-01",
+    "training_end": "2026-08-31",
+    "context_end": "2026-08-31"
+  },
+  {
+    "arm": "pooled_window6",
+    "origin": "2026-09-02",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-01"
+  },
+  {
+    "arm": "pooled_window6",
+    "origin": "2026-09-03",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-02"
+  },
+  {
+    "arm": "pooled_window6",
+    "origin": "2026-09-04",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-03"
+  },
+  {
+    "arm": "pooled_window6",
+    "origin": "2026-09-05",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-04"
+  },
+  {
+    "arm": "pooled_window6",
+    "origin": "2026-09-06",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-05"
+  },
+  {
+    "arm": "pooled_window6",
+    "origin": "2026-09-07",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-06"
+  },
+  {
+    "arm": "pooled_window6",
+    "origin": "2026-09-08",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-07"
+  },
+  {
+    "arm": "pooled_window6",
+    "origin": "2026-09-09",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-08"
+  },
+  {
+    "arm": "placebo_day6",
+    "origin": "2026-09-01",
+    "training_end": "2026-08-31",
+    "context_end": "2026-08-31"
+  },
+  {
+    "arm": "placebo_day6",
+    "origin": "2026-09-02",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-01"
+  },
+  {
+    "arm": "placebo_day6",
+    "origin": "2026-09-03",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-02"
+  },
+  {
+    "arm": "placebo_day6",
+    "origin": "2026-09-04",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-03"
+  },
+  {
+    "arm": "placebo_day6",
+    "origin": "2026-09-05",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-04"
+  },
+  {
+    "arm": "placebo_day6",
+    "origin": "2026-09-06",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-05"
+  },
+  {
+    "arm": "placebo_day6",
+    "origin": "2026-09-07",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-06"
+  },
+  {
+    "arm": "placebo_day6",
+    "origin": "2026-09-08",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-07"
+  },
+  {
+    "arm": "placebo_day6",
+    "origin": "2026-09-09",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-08"
+  },
+  {
+    "arm": "placebo_window6",
+    "origin": "2026-09-01",
+    "training_end": "2026-08-31",
+    "context_end": "2026-08-31"
+  },
+  {
+    "arm": "placebo_window6",
+    "origin": "2026-09-02",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-01"
+  },
+  {
+    "arm": "placebo_window6",
+    "origin": "2026-09-03",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-02"
+  },
+  {
+    "arm": "placebo_window6",
+    "origin": "2026-09-04",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-03"
+  },
+  {
+    "arm": "placebo_window6",
+    "origin": "2026-09-05",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-04"
+  },
+  {
+    "arm": "placebo_window6",
+    "origin": "2026-09-06",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-05"
+  },
+  {
+    "arm": "placebo_window6",
+    "origin": "2026-09-07",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-06"
+  },
+  {
+    "arm": "placebo_window6",
+    "origin": "2026-09-08",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-07"
+  },
+  {
+    "arm": "placebo_window6",
+    "origin": "2026-09-09",
+    "training_end": "2026-08-31",
+    "context_end": "2026-09-08"
+  }
+]

@@ -1,0 +1,602 @@
+[
+  {
+    "horizon": 22,
+    "arm": "calendar",
+    "refit": "2026-08-01",
+    "parameters": {
+      "alpha": 0.1
+    },
+    "feature_count": 40,
+    "training_X_sha256": "19b9ddc2c39f22f1ac2eaecaf89cbcb50eeaa203c8fbdd64e4b56c37e3cf39f2",
+    "training_y_sha256": "8f0e8ca9f297bc03bee08b5922edf068a0104623b4488f8507f9a30828fb2cf5",
+    "query_X_sha256": "675a4c0df5dec80a123f5b722400320628264b17ad611c8089fbb23934c13b88",
+    "training_n": 709,
+    "training_target_max": "2026-07-31",
+    "training_origin_max": "2026-07-10"
+  },
+  {
+    "horizon": 22,
+    "arm": "calendar",
+    "refit": "2026-09-01",
+    "parameters": {
+      "alpha": 0.1
+    },
+    "feature_count": 40,
+    "training_X_sha256": "698e013bd76066b5fb87d9959e0e9dfaa7108291c806515036b5ef4c5aeb4410",
+    "training_y_sha256": "e24940c1cab755a0e981401bf0a20471fb2e41efbeeee1003b8e2e566490d950",
+    "query_X_sha256": "b533ea76d325e8691bf4b459b4ea4fcfe1e32764bf68522fb3c98bb20600c638",
+    "training_n": 709,
+    "training_target_max": "2026-08-31",
+    "training_origin_max": "2026-08-10"
+  },
+  {
+    "horizon": 22,
+    "arm": "zero6",
+    "refit": "2026-08-01",
+    "parameters": {
+      "alpha": 0.1
+    },
+    "feature_count": 46,
+    "training_X_sha256": "26c9b20038716b2147a05bf564b3c54ac57e7f1e4518a27c1f4a1a70b6d2e0c7",
+    "training_y_sha256": "8f0e8ca9f297bc03bee08b5922edf068a0104623b4488f8507f9a30828fb2cf5",
+    "query_X_sha256": "9aae07692e0a848650bbf8e76408c38840c087bb14d5562330ff059d359f6acc",
+    "training_n": 709,
+    "training_target_max": "2026-07-31",
+    "training_origin_max": "2026-07-10"
+  },
+  {
+    "horizon": 22,
+    "arm": "zero6",
+    "refit": "2026-09-01",
+    "parameters": {
+      "alpha": 0.1
+    },
+    "feature_count": 46,
+    "training_X_sha256": "a034f669a05f5651ff9792f376e6f6383ca1f146d7a6bdf9623af364d03ef59e",
+    "training_y_sha256": "e24940c1cab755a0e981401bf0a20471fb2e41efbeeee1003b8e2e566490d950",
+    "query_X_sha256": "1f4b1f62eeb4b62f638dd88e91cd05795261f5ca62b62be0e9d6567c96828ece",
+    "training_n": 709,
+    "training_target_max": "2026-08-31",
+    "training_origin_max": "2026-08-10"
+  },
+  {
+    "horizon": 22,
+    "arm": "day6",
+    "refit": "2026-08-01",
+    "parameters": {
+      "alpha": 0.1
+    },
+    "feature_count": 46,
+    "training_X_sha256": "dc1312c31f4f876de32f6c02a239004fd3325de9d767233f05b50000d7fb8f6d",
+    "training_y_sha256": "8f0e8ca9f297bc03bee08b5922edf068a0104623b4488f8507f9a30828fb2cf5",
+    "query_X_sha256": "9aae07692e0a848650bbf8e76408c38840c087bb14d5562330ff059d359f6acc",
+    "training_n": 709,
+    "training_target_max": "2026-07-31",
+    "training_origin_max": "2026-07-10"
+  },
+  {
+    "horizon": 22,
+    "arm": "day6",
+    "refit": "2026-09-01",
+    "parameters": {
+      "alpha": 0.1
+    },
+    "feature_count": 46,
+    "training_X_sha256": "49df6414ff7dcf7e70bf5fe2e84575b0c7bd55bb005c1ef7ee2bf59b9cab91ba",
+    "training_y_sha256": "e24940c1cab755a0e981401bf0a20471fb2e41efbeeee1003b8e2e566490d950",
+    "query_X_sha256": "1f4b1f62eeb4b62f638dd88e91cd05795261f5ca62b62be0e9d6567c96828ece",
+    "training_n": 709,
+    "training_target_max": "2026-08-31",
+    "training_origin_max": "2026-08-10"
+  },
+  {
+    "horizon": 22,
+    "arm": "pooled_day6",
+    "refit": "2026-08-01",
+    "parameters": {
+      "alpha": 0.1
+    },
+    "feature_count": 46,
+    "training_X_sha256": "f67736cdb2841a717cb9bf30ee3789eb38752de515140fa941bbd420145117ac",
+    "training_y_sha256": "8f0e8ca9f297bc03bee08b5922edf068a0104623b4488f8507f9a30828fb2cf5",
+    "query_X_sha256": "9aae07692e0a848650bbf8e76408c38840c087bb14d5562330ff059d359f6acc",
+    "training_n": 709,
+    "training_target_max": "2026-07-31",
+    "training_origin_max": "2026-07-10"
+  },
+  {
+    "horizon": 22,
+    "arm": "pooled_day6",
+    "refit": "2026-09-01",
+    "parameters": {
+      "alpha": 0.1
+    },
+    "feature_count": 46,
+    "training_X_sha256": "4ce114e5942346a3bbf45cd4f2b71a88e5cc3715c959d7c3e2c5d755acdbb075",
+    "training_y_sha256": "e24940c1cab755a0e981401bf0a20471fb2e41efbeeee1003b8e2e566490d950",
+    "query_X_sha256": "1f4b1f62eeb4b62f638dd88e91cd05795261f5ca62b62be0e9d6567c96828ece",
+    "training_n": 709,
+    "training_target_max": "2026-08-31",
+    "training_origin_max": "2026-08-10"
+  },
+  {
+    "horizon": 22,
+    "arm": "window6",
+    "refit": "2026-08-01",
+    "parameters": {
+      "alpha": 0.1
+    },
+    "feature_count": 46,
+    "training_X_sha256": "5b781d5f81cc227eed45cb789da5c301a38adca67ec04006f5d503fa5bdc5411",
+    "training_y_sha256": "8f0e8ca9f297bc03bee08b5922edf068a0104623b4488f8507f9a30828fb2cf5",
+    "query_X_sha256": "9aae07692e0a848650bbf8e76408c38840c087bb14d5562330ff059d359f6acc",
+    "training_n": 709,
+    "training_target_max": "2026-07-31",
+    "training_origin_max": "2026-07-10"
+  },
+  {
+    "horizon": 22,
+    "arm": "window6",
+    "refit": "2026-09-01",
+    "parameters": {
+      "alpha": 0.1
+    },
+    "feature_count": 46,
+    "training_X_sha256": "f71cad477ae06fbc4c98a2e14fc2b0ac9403ec58cc4301d14afedc26d003dd36",
+    "training_y_sha256": "e24940c1cab755a0e981401bf0a20471fb2e41efbeeee1003b8e2e566490d950",
+    "query_X_sha256": "1f4b1f62eeb4b62f638dd88e91cd05795261f5ca62b62be0e9d6567c96828ece",
+    "training_n": 709,
+    "training_target_max": "2026-08-31",
+    "training_origin_max": "2026-08-10"
+  },
+  {
+    "horizon": 22,
+    "arm": "pooled_window6",
+    "refit": "2026-08-01",
+    "parameters": {
+      "alpha": 0.1
+    },
+    "feature_count": 46,
+    "training_X_sha256": "598f98e6b8d0fa79b5d14618b10ff699373568747ed2961a6c42a2dcaf434007",
+    "training_y_sha256": "8f0e8ca9f297bc03bee08b5922edf068a0104623b4488f8507f9a30828fb2cf5",
+    "query_X_sha256": "9aae07692e0a848650bbf8e76408c38840c087bb14d5562330ff059d359f6acc",
+    "training_n": 709,
+    "training_target_max": "2026-07-31",
+    "training_origin_max": "2026-07-10"
+  },
+  {
+    "horizon": 22,
+    "arm": "pooled_window6",
+    "refit": "2026-09-01",
+    "parameters": {
+      "alpha": 0.1
+    },
+    "feature_count": 46,
+    "training_X_sha256": "daf40b05c7366932a88437e7c3f5b59653344e3d01f0d72ecbc70f3fef238036",
+    "training_y_sha256": "e24940c1cab755a0e981401bf0a20471fb2e41efbeeee1003b8e2e566490d950",
+    "query_X_sha256": "1f4b1f62eeb4b62f638dd88e91cd05795261f5ca62b62be0e9d6567c96828ece",
+    "training_n": 709,
+    "training_target_max": "2026-08-31",
+    "training_origin_max": "2026-08-10"
+  },
+  {
+    "horizon": 22,
+    "arm": "placebo_day6",
+    "refit": "2026-08-01",
+    "parameters": {
+      "alpha": 0.1
+    },
+    "feature_count": 46,
+    "training_X_sha256": "6d91c4747dcd340e1750e05a50e7700eabbf0a38f76e93956ebd80ea71ce07a8",
+    "training_y_sha256": "8f0e8ca9f297bc03bee08b5922edf068a0104623b4488f8507f9a30828fb2cf5",
+    "query_X_sha256": "9aae07692e0a848650bbf8e76408c38840c087bb14d5562330ff059d359f6acc",
+    "training_n": 709,
+    "training_target_max": "2026-07-31",
+    "training_origin_max": "2026-07-10"
+  },
+  {
+    "horizon": 22,
+    "arm": "placebo_day6",
+    "refit": "2026-09-01",
+    "parameters": {
+      "alpha": 0.1
+    },
+    "feature_count": 46,
+    "training_X_sha256": "2a3738ef75a9878cb1e184261faa4c2779fbd83c163c350e19f08eacfdb765ab",
+    "training_y_sha256": "e24940c1cab755a0e981401bf0a20471fb2e41efbeeee1003b8e2e566490d950",
+    "query_X_sha256": "1f4b1f62eeb4b62f638dd88e91cd05795261f5ca62b62be0e9d6567c96828ece",
+    "training_n": 709,
+    "training_target_max": "2026-08-31",
+    "training_origin_max": "2026-08-10"
+  },
+  {
+    "horizon": 22,
+    "arm": "placebo_window6",
+    "refit": "2026-08-01",
+    "parameters": {
+      "alpha": 0.1
+    },
+    "feature_count": 46,
+    "training_X_sha256": "cd7b0965f851b292e685d8662b9921538f033632c649c415867a26fb6addd0db",
+    "training_y_sha256": "8f0e8ca9f297bc03bee08b5922edf068a0104623b4488f8507f9a30828fb2cf5",
+    "query_X_sha256": "9aae07692e0a848650bbf8e76408c38840c087bb14d5562330ff059d359f6acc",
+    "training_n": 709,
+    "training_target_max": "2026-07-31",
+    "training_origin_max": "2026-07-10"
+  },
+  {
+    "horizon": 22,
+    "arm": "placebo_window6",
+    "refit": "2026-09-01",
+    "parameters": {
+      "alpha": 0.1
+    },
+    "feature_count": 46,
+    "training_X_sha256": "b28cb742bbfc5fee8bdd5dd21c6613184325ad9d9dbe515068101f6f6687064f",
+    "training_y_sha256": "e24940c1cab755a0e981401bf0a20471fb2e41efbeeee1003b8e2e566490d950",
+    "query_X_sha256": "1f4b1f62eeb4b62f638dd88e91cd05795261f5ca62b62be0e9d6567c96828ece",
+    "training_n": 709,
+    "training_target_max": "2026-08-31",
+    "training_origin_max": "2026-08-10"
+  },
+  {
+    "horizon": 28,
+    "arm": "calendar",
+    "refit": "2026-08-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "feature_count": 40,
+    "training_X_sha256": "b941ad9ae95495dadf4be67114ba11329b4a4bfbe6d9f50dd36aa4f298ed69d5",
+    "training_y_sha256": "ebdec1ba036ee6d36265a8a37df9c006c0eff37fbb411d971c561b78f7cb060a",
+    "query_X_sha256": "002d6ed958b22d38d388ff9a90159be835942f8db8ccab3f47c237d047db8300",
+    "training_n": 703,
+    "training_target_max": "2026-07-31",
+    "training_origin_max": "2026-07-04"
+  },
+  {
+    "horizon": 28,
+    "arm": "calendar",
+    "refit": "2026-09-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "feature_count": 40,
+    "training_X_sha256": "6c29de464b1c9fe91aaca871ce6219d26ea7cb4e34a7e84d55ae7935bd160717",
+    "training_y_sha256": "f5be813935f2300a0d0a7b9b74408ac3e0cbab0eb74987ee135e2a09603d2624",
+    "query_X_sha256": "29d3b3ce62fc93288c131e17149213166658e183c71edabc33557e5d03f5dc14",
+    "training_n": 703,
+    "training_target_max": "2026-08-31",
+    "training_origin_max": "2026-08-04"
+  },
+  {
+    "horizon": 28,
+    "arm": "zero6",
+    "refit": "2026-08-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "feature_count": 46,
+    "training_X_sha256": "dd3c638bf12233dc1a232151c70c772ed73b86a1ab461c4dfbeb2cf84f0200bc",
+    "training_y_sha256": "ebdec1ba036ee6d36265a8a37df9c006c0eff37fbb411d971c561b78f7cb060a",
+    "query_X_sha256": "f8af03dcbe8396902a26869a53533f4542bf29980af8e1a7d198267a657a4705",
+    "training_n": 703,
+    "training_target_max": "2026-07-31",
+    "training_origin_max": "2026-07-04"
+  },
+  {
+    "horizon": 28,
+    "arm": "zero6",
+    "refit": "2026-09-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "feature_count": 46,
+    "training_X_sha256": "268be202c28931730d69071f2d16d50f399ecc65889ddacb8d045a1129e60811",
+    "training_y_sha256": "f5be813935f2300a0d0a7b9b74408ac3e0cbab0eb74987ee135e2a09603d2624",
+    "query_X_sha256": "f796e6972a46a4b7658fdb4a824481b96f060cca2182988dc1184560e3fb7bf7",
+    "training_n": 703,
+    "training_target_max": "2026-08-31",
+    "training_origin_max": "2026-08-04"
+  },
+  {
+    "horizon": 28,
+    "arm": "day6",
+    "refit": "2026-08-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "feature_count": 46,
+    "training_X_sha256": "680322bd5cb2dfc2e7f6e6192fc0d54bbbf63cdaeb8dafd7fa481702cfef1ebc",
+    "training_y_sha256": "ebdec1ba036ee6d36265a8a37df9c006c0eff37fbb411d971c561b78f7cb060a",
+    "query_X_sha256": "f8af03dcbe8396902a26869a53533f4542bf29980af8e1a7d198267a657a4705",
+    "training_n": 703,
+    "training_target_max": "2026-07-31",
+    "training_origin_max": "2026-07-04"
+  },
+  {
+    "horizon": 28,
+    "arm": "day6",
+    "refit": "2026-09-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "feature_count": 46,
+    "training_X_sha256": "67576633160ed048835ece904e46b82204df4aacc73cba9bba43108d7151275a",
+    "training_y_sha256": "f5be813935f2300a0d0a7b9b74408ac3e0cbab0eb74987ee135e2a09603d2624",
+    "query_X_sha256": "f796e6972a46a4b7658fdb4a824481b96f060cca2182988dc1184560e3fb7bf7",
+    "training_n": 703,
+    "training_target_max": "2026-08-31",
+    "training_origin_max": "2026-08-04"
+  },
+  {
+    "horizon": 28,
+    "arm": "pooled_day6",
+    "refit": "2026-08-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "feature_count": 46,
+    "training_X_sha256": "3da92ca9660073d7a7c37ae8ea48920f8e6b67454c3867aa1ab35de7a609004c",
+    "training_y_sha256": "ebdec1ba036ee6d36265a8a37df9c006c0eff37fbb411d971c561b78f7cb060a",
+    "query_X_sha256": "f8af03dcbe8396902a26869a53533f4542bf29980af8e1a7d198267a657a4705",
+    "training_n": 703,
+    "training_target_max": "2026-07-31",
+    "training_origin_max": "2026-07-04"
+  },
+  {
+    "horizon": 28,
+    "arm": "pooled_day6",
+    "refit": "2026-09-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "feature_count": 46,
+    "training_X_sha256": "db77868a5e660b58d828e07d4ff6358dc1c48eac230b2be6c60584f0827a0bce",
+    "training_y_sha256": "f5be813935f2300a0d0a7b9b74408ac3e0cbab0eb74987ee135e2a09603d2624",
+    "query_X_sha256": "f796e6972a46a4b7658fdb4a824481b96f060cca2182988dc1184560e3fb7bf7",
+    "training_n": 703,
+    "training_target_max": "2026-08-31",
+    "training_origin_max": "2026-08-04"
+  },
+  {
+    "horizon": 28,
+    "arm": "window6",
+    "refit": "2026-08-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "feature_count": 46,
+    "training_X_sha256": "83efda4700168225de4e96ad3ed3183c28f30b0dc0c4151a64f49d0e51b0f6b3",
+    "training_y_sha256": "ebdec1ba036ee6d36265a8a37df9c006c0eff37fbb411d971c561b78f7cb060a",
+    "query_X_sha256": "f8af03dcbe8396902a26869a53533f4542bf29980af8e1a7d198267a657a4705",
+    "training_n": 703,
+    "training_target_max": "2026-07-31",
+    "training_origin_max": "2026-07-04"
+  },
+  {
+    "horizon": 28,
+    "arm": "window6",
+    "refit": "2026-09-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "feature_count": 46,
+    "training_X_sha256": "773149703e1d423e274cf3e5120496f36ea74c0a080276fa97af91c175337859",
+    "training_y_sha256": "f5be813935f2300a0d0a7b9b74408ac3e0cbab0eb74987ee135e2a09603d2624",
+    "query_X_sha256": "f796e6972a46a4b7658fdb4a824481b96f060cca2182988dc1184560e3fb7bf7",
+    "training_n": 703,
+    "training_target_max": "2026-08-31",
+    "training_origin_max": "2026-08-04"
+  },
+  {
+    "horizon": 28,
+    "arm": "pooled_window6",
+    "refit": "2026-08-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "feature_count": 46,
+    "training_X_sha256": "9aa7d27d9fc2a42a19ac83fd7bfa714c93101b787e967ad9d964bc4bd12634f4",
+    "training_y_sha256": "ebdec1ba036ee6d36265a8a37df9c006c0eff37fbb411d971c561b78f7cb060a",
+    "query_X_sha256": "f8af03dcbe8396902a26869a53533f4542bf29980af8e1a7d198267a657a4705",
+    "training_n": 703,
+    "training_target_max": "2026-07-31",
+    "training_origin_max": "2026-07-04"
+  },
+  {
+    "horizon": 28,
+    "arm": "pooled_window6",
+    "refit": "2026-09-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "feature_count": 46,
+    "training_X_sha256": "e5aca958ab200cb547083a40194faadb1e14e09ab8d91677f39339d8a0ff74e0",
+    "training_y_sha256": "f5be813935f2300a0d0a7b9b74408ac3e0cbab0eb74987ee135e2a09603d2624",
+    "query_X_sha256": "f796e6972a46a4b7658fdb4a824481b96f060cca2182988dc1184560e3fb7bf7",
+    "training_n": 703,
+    "training_target_max": "2026-08-31",
+    "training_origin_max": "2026-08-04"
+  },
+  {
+    "horizon": 28,
+    "arm": "placebo_day6",
+    "refit": "2026-08-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "feature_count": 46,
+    "training_X_sha256": "eff5cbae39cd27360c6afd4ff1052b5fc14064c061b2eab2e6804bf055f280a5",
+    "training_y_sha256": "ebdec1ba036ee6d36265a8a37df9c006c0eff37fbb411d971c561b78f7cb060a",
+    "query_X_sha256": "f8af03dcbe8396902a26869a53533f4542bf29980af8e1a7d198267a657a4705",
+    "training_n": 703,
+    "training_target_max": "2026-07-31",
+    "training_origin_max": "2026-07-04"
+  },
+  {
+    "horizon": 28,
+    "arm": "placebo_day6",
+    "refit": "2026-09-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "feature_count": 46,
+    "training_X_sha256": "9b3591a90462fc3278c28c30f546e83c780a7ddfe4b543603781ed6a9e3180bd",
+    "training_y_sha256": "f5be813935f2300a0d0a7b9b74408ac3e0cbab0eb74987ee135e2a09603d2624",
+    "query_X_sha256": "f796e6972a46a4b7658fdb4a824481b96f060cca2182988dc1184560e3fb7bf7",
+    "training_n": 703,
+    "training_target_max": "2026-08-31",
+    "training_origin_max": "2026-08-04"
+  },
+  {
+    "horizon": 28,
+    "arm": "placebo_window6",
+    "refit": "2026-08-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "feature_count": 46,
+    "training_X_sha256": "803e2fcf4ceb37e3bbd94722313fe3ec89b2a83a0b7a7d919e9171453757f739",
+    "training_y_sha256": "ebdec1ba036ee6d36265a8a37df9c006c0eff37fbb411d971c561b78f7cb060a",
+    "query_X_sha256": "f8af03dcbe8396902a26869a53533f4542bf29980af8e1a7d198267a657a4705",
+    "training_n": 703,
+    "training_target_max": "2026-07-31",
+    "training_origin_max": "2026-07-04"
+  },
+  {
+    "horizon": 28,
+    "arm": "placebo_window6",
+    "refit": "2026-09-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "feature_count": 46,
+    "training_X_sha256": "e9018872a3e9f63dba6984e1492aed10826a44b36769c25c118da86252e941c3",
+    "training_y_sha256": "f5be813935f2300a0d0a7b9b74408ac3e0cbab0eb74987ee135e2a09603d2624",
+    "query_X_sha256": "f796e6972a46a4b7658fdb4a824481b96f060cca2182988dc1184560e3fb7bf7",
+    "training_n": 703,
+    "training_target_max": "2026-08-31",
+    "training_origin_max": "2026-08-04"
+  },
+  {
+    "horizon": 35,
+    "arm": "calendar",
+    "refit": "2026-08-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "feature_count": 40,
+    "training_X_sha256": "7c0d79d53678298843fded645d34657a570a0edce27b81ec16d0fdd82f1e5528",
+    "training_y_sha256": "f979ccd1a1a81a23342030b789a7c01f985d431446ad13d7bf3eeb7219da07a9",
+    "query_X_sha256": "2a1d1fb994cb9c545b384ee8bca3b9ff30787982cce67029dca4fbd0bb33c43c",
+    "training_n": 696,
+    "training_target_max": "2026-07-31",
+    "training_origin_max": "2026-06-27"
+  },
+  {
+    "horizon": 35,
+    "arm": "zero6",
+    "refit": "2026-08-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "feature_count": 46,
+    "training_X_sha256": "9ba3a0f79acd197b955577a32a5782f0a9d42e51cb09d79aa7678d60d9622909",
+    "training_y_sha256": "f979ccd1a1a81a23342030b789a7c01f985d431446ad13d7bf3eeb7219da07a9",
+    "query_X_sha256": "2d48c709e5d1163c88e4513a40500515999df244d158bd66305984bf61294b66",
+    "training_n": 696,
+    "training_target_max": "2026-07-31",
+    "training_origin_max": "2026-06-27"
+  },
+  {
+    "horizon": 35,
+    "arm": "day6",
+    "refit": "2026-08-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "feature_count": 46,
+    "training_X_sha256": "d56e1c5217e451b3bc3ca4f745f6425337a0c433368d589e934a99f11c078ea2",
+    "training_y_sha256": "f979ccd1a1a81a23342030b789a7c01f985d431446ad13d7bf3eeb7219da07a9",
+    "query_X_sha256": "2d48c709e5d1163c88e4513a40500515999df244d158bd66305984bf61294b66",
+    "training_n": 696,
+    "training_target_max": "2026-07-31",
+    "training_origin_max": "2026-06-27"
+  },
+  {
+    "horizon": 35,
+    "arm": "pooled_day6",
+    "refit": "2026-08-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "feature_count": 46,
+    "training_X_sha256": "c53fa91c061bd15b8ddbaf58510d6b8b94313469bc1935a3e9722c56326926be",
+    "training_y_sha256": "f979ccd1a1a81a23342030b789a7c01f985d431446ad13d7bf3eeb7219da07a9",
+    "query_X_sha256": "2d48c709e5d1163c88e4513a40500515999df244d158bd66305984bf61294b66",
+    "training_n": 696,
+    "training_target_max": "2026-07-31",
+    "training_origin_max": "2026-06-27"
+  },
+  {
+    "horizon": 35,
+    "arm": "window6",
+    "refit": "2026-08-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "feature_count": 46,
+    "training_X_sha256": "8b6edfa92b27390d0bc9cf92af3d7aa2e6a8b02ec400c97b87a6c210780dfa21",
+    "training_y_sha256": "f979ccd1a1a81a23342030b789a7c01f985d431446ad13d7bf3eeb7219da07a9",
+    "query_X_sha256": "2d48c709e5d1163c88e4513a40500515999df244d158bd66305984bf61294b66",
+    "training_n": 696,
+    "training_target_max": "2026-07-31",
+    "training_origin_max": "2026-06-27"
+  },
+  {
+    "horizon": 35,
+    "arm": "pooled_window6",
+    "refit": "2026-08-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "feature_count": 46,
+    "training_X_sha256": "eb23dc3a0898515ece1b5ad3559f9e96150d300b67c311ee2a074733018162e3",
+    "training_y_sha256": "f979ccd1a1a81a23342030b789a7c01f985d431446ad13d7bf3eeb7219da07a9",
+    "query_X_sha256": "2d48c709e5d1163c88e4513a40500515999df244d158bd66305984bf61294b66",
+    "training_n": 696,
+    "training_target_max": "2026-07-31",
+    "training_origin_max": "2026-06-27"
+  },
+  {
+    "horizon": 35,
+    "arm": "placebo_day6",
+    "refit": "2026-08-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "feature_count": 46,
+    "training_X_sha256": "df4edea1c6e2d55d35d31af2096bdb153b585d1c791d2e94bdb697fa9e16567c",
+    "training_y_sha256": "f979ccd1a1a81a23342030b789a7c01f985d431446ad13d7bf3eeb7219da07a9",
+    "query_X_sha256": "2d48c709e5d1163c88e4513a40500515999df244d158bd66305984bf61294b66",
+    "training_n": 696,
+    "training_target_max": "2026-07-31",
+    "training_origin_max": "2026-06-27"
+  },
+  {
+    "horizon": 35,
+    "arm": "placebo_window6",
+    "refit": "2026-08-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "feature_count": 46,
+    "training_X_sha256": "92f03ac098fffbe4f5756cc3ee7add937db7dbf6b88263b2e5b31526ec3bac82",
+    "training_y_sha256": "f979ccd1a1a81a23342030b789a7c01f985d431446ad13d7bf3eeb7219da07a9",
+    "query_X_sha256": "2d48c709e5d1163c88e4513a40500515999df244d158bd66305984bf61294b66",
+    "training_n": 696,
+    "training_target_max": "2026-07-31",
+    "training_origin_max": "2026-06-27"
+  }
+]
