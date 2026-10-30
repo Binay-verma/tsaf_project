@@ -1,0 +1,28 @@
+[
+  {
+    "configuration": "placebo_day5",
+    "state": "Karnataka",
+    "year": 2025,
+    "training_end": "2024-12-31",
+    "missing_past_filled": 0,
+    "optimizer": "lbfgs",
+    "maxiter": 150,
+    "converged": true,
+    "training_loglikelihood": 768.3250003299748,
+    "seconds": 2.039772609998181,
+    "warnings": []
+  },
+  {
+    "configuration": "placebo_window5",
+    "state": "Karnataka",
+    "year": 2025,
+    "training_end": "2024-12-31",
+    "missing_past_filled": 0,
+    "optimizer": "lbfgs",
+    "maxiter": 150,
+    "converged": true,
+    "training_loglikelihood": 769.8994484511724,
+    "seconds": 2.096314672999142,
+    "warnings": []
+  }
+]

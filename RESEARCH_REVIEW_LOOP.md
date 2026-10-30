@@ -18,7 +18,8 @@ Current sequence:
 | Established daily comparators and pooling simulation |Complete; full clean reruns byte-identical|5,952forecasts,512synthetic datasets/2,560cells, separate audits|
 | Closest pure calendar encodings in both TSFMs |Protocol frozen; queued after each corresponding breadth lane|14,880newforecasts, samecases, sparse-category/support/input/probability audit|
 | Independent NESO source and archive-delay sensitivity |3,072local+192naive rows complete and separately audited; both foundation lanes queued after encodings|Actual-only DST-checked source, past-only selection,4,608model+192naive rows, separate audit|
-| Recentered window/weekday controls |Newprotocol frozen beforeoutputs,1,092additionalrows|Samecorrected528cases fororiginal/aligned features; restoredweekdayplacebo; separateaudit|
+| Recentered window/weekday controls |648newlocalrows complete/audited; fullfoundation/pure additions queued|Samecorrected528cases fororiginal/aligned features; restoredweekdayplacebo; separateaudit|
+| Independent NYC holiday replication |Currentdataset/officialdates/reuse statement verified; targetrecords not yet requested|Newprotocol before target acquisition; two2026events/two relatedmodes, not twoindependentcities|
 | Focused manuscript |Builder waits for completed/audited breadth; integrate later registered evidence in a new version|Readable MD/DOCX/PDF, verified numbers/figures and current claims|
 | Future rolling confirmation |Plan/contract only; not activated|Dated ledger and full capture/runner/scorer/time guards before future issuances; later observations required|
 | Named-calendar semantic correction |KA2025Dussehra mismatch found by document review; old results preserved; v2locals1,200freshrows audited; foundations queued; all58semanticreview retains1mismatch/1evidencegap|Same-case document-aligned sensitivity; no error-selected dates|

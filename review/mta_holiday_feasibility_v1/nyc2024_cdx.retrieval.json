@@ -1,0 +1,35 @@
+{
+  "url": "https://web.archive.org/cdx/search/cdx?url=www.nyc.gov%2Fhtml%2Fdot%2Fdownloads%2Fpdf%2Fasp-calendar-2024.pdf&output=json&filter=statuscode%3A200&collapse=digest&limit=8",
+  "status": 200,
+  "sha256": "b351a225e7b01d5c6d42f742cc3091c15cb6125266622109d7fd91405b351fd7",
+  "retrieved_utc": "2026-10-30T19:58:03.606365+00:00",
+  "captures": [
+    [
+      "urlkey",
+      "timestamp",
+      "original",
+      "mimetype",
+      "statuscode",
+      "digest",
+      "length"
+    ],
+    [
+      "gov,nyc)/html/dot/downloads/pdf/asp-calendar-2024.pdf",
+      "20231205205315",
+      "https://www.nyc.gov/html/dot/downloads/pdf/asp-calendar-2024.pdf",
+      "application/pdf",
+      "200",
+      "3DNNPI47V6BZDSNVS3X6YDESNASFZOUY",
+      "465128"
+    ],
+    [
+      "gov,nyc)/html/dot/downloads/pdf/asp-calendar-2024.pdf",
+      "20250922222948",
+      "https://www.nyc.gov/html/dot/downloads/pdf/asp-calendar-2024.pdf",
+      "application/pdf",
+      "200",
+      "IWPSWUFIKG2LYGVQ3YDI23H3PBUASQIN",
+      "451836"
+    ]
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "breadth/event_window": {
+    "compared_view_rows": 33792,
+    "cases_per_arm": 528,
+    "predictions_sha256": "96e7acf6c54e86400141b11d4686f267460649b31334ed117ebf64b4718f433e"
+  },
+  "breadth/ordinary": {
+    "compared_view_rows": 13824,
+    "cases_per_arm": 216,
+    "predictions_sha256": "8b0fe601545dc84d037cc7b4fab2915e0067bb87e9dc07c4a977847e37bb906b"
+  }
+}

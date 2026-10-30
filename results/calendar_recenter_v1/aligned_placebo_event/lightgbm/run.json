@@ -1,0 +1,14 @@
+{
+  "model": "lightgbm",
+  "completed_utc": "2026-10-30T19:36:24.664012+00:00",
+  "fits": 12,
+  "rows": 90,
+  "cases_per_arm": 45,
+  "arms": [
+    "placebo_day5",
+    "placebo_window5"
+  ],
+  "seconds": 4.237427813997783,
+  "predictions_sha256": "58bdd8a8bfe15d43df048a5f3484b41b4bafa8513611834da42fdaab45963e91",
+  "protocol_sha256": "767dc3effec4d8a888dbc7eb31c93b6e4aa4964fe9263bb9b2bd78a0ff5d7052"
+}

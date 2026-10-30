@@ -1,0 +1,14 @@
+{
+  "model": "ridge",
+  "completed_utc": "2026-10-30T19:36:18.517889+00:00",
+  "fits": 12,
+  "rows": 90,
+  "cases_per_arm": 45,
+  "arms": [
+    "placebo_day5",
+    "placebo_window5"
+  ],
+  "seconds": 1.0281424380009412,
+  "predictions_sha256": "ec1b4397badf56f07c6d25f6d42f137c9624711209a35c821c078d2b22e5ea0c",
+  "protocol_sha256": "767dc3effec4d8a888dbc7eb31c93b6e4aa4964fe9263bb9b2bd78a0ff5d7052"
+}

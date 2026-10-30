@@ -1,0 +1,41 @@
+{
+  "status": "pass",
+  "scope": "Internal separate source/cohort/placeboweekday/NumPyactualinput/selectionreuse/pastlabels/scalarhierarchicalpoint/interval/composition audit. No independenthuman or complete modelimplementation/reproduction claim.",
+  "new_forecasts": 648,
+  "changed_true_anchors": 1,
+  "changed_placebo_anchors": 1,
+  "recentered_target_lead_cases": 3,
+  "placebo_reuse_block_proofs": 684,
+  "local_fit_bytechecks": 240,
+  "foundation_input_bytechecks": 0,
+  "groups": {
+    "old_added": {
+      "fresh_rows": 96,
+      "cases_per_arm": 3
+    },
+    "aligned_added": {
+      "fresh_rows": 96,
+      "cases_per_arm": 3
+    },
+    "aligned_placebo_event": {
+      "fresh_rows": 360,
+      "cases_per_arm": 45
+    },
+    "aligned_placebo_ordinary": {
+      "fresh_rows": 96,
+      "cases_per_arm": 12
+    }
+  },
+  "cohorts": {
+    "breadth/event_window": {
+      "compared_view_rows": 33792,
+      "matched_cases_per_arm": 528,
+      "point_aggregate_cells": 192
+    },
+    "breadth/ordinary": {
+      "compared_view_rows": 13824,
+      "matched_cases_per_arm": 216,
+      "point_aggregate_cells": 192
+    }
+  }
+}

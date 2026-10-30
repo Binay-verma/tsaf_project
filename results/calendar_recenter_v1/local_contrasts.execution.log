@@ -1,0 +1,14 @@
+{
+  "breadth/event_window": {
+    "pairs": 28,
+    "balanced_cells": 336,
+    "cell_pairs": 8064,
+    "balanced_sha256": "88349885ebeea78b943b42da00df0400af7b3304ce02a3a9383ceee21d31ad23"
+  },
+  "breadth/ordinary": {
+    "pairs": 28,
+    "balanced_cells": 336,
+    "cell_pairs": 2016,
+    "balanced_sha256": "4df67fcfa2160a9276e42482f1ba08e6797f223db4b1c921a21183b3e9c2de45"
+  }
+}

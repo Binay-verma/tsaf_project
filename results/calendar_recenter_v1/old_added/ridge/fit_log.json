@@ -1,0 +1,632 @@
+[
+  {
+    "model": "ridge",
+    "arm": "calendar",
+    "state": "Karnataka",
+    "year": 2025,
+    "horizon": 1,
+    "refit": "2025-09-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "feature_count": 40,
+    "training_target_min_bound": "2023-09-02",
+    "training_X_sha256": "35080d0d812247a6a8137e4c43e91ed02c9d53963226a77f17ec448e661951c4",
+    "training_y_sha256": "64e1e549d138b9219377c729188ae98583ca454a51b64242a9432be95bbd0f1b",
+    "query_X_sha256": "e1025d54959d36ec5d6e0cdfb94dff3174829ad03e8afe705ce2b587092c2d35",
+    "feature_nonzero_training_counts": {},
+    "seconds": 0.0034215920022688806,
+    "training_n": 730,
+    "training_target_max": "2025-08-31",
+    "training_origin_max": "2025-08-31"
+  },
+  {
+    "model": "ridge",
+    "arm": "zero5",
+    "state": "Karnataka",
+    "year": 2025,
+    "horizon": 1,
+    "refit": "2025-09-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "feature_count": 45,
+    "training_target_min_bound": "2023-09-02",
+    "training_X_sha256": "8167236fe81fb63b1ea25f9e44d5c6c16aa3b66f638bed1b8daa7ed06ba3ee85",
+    "training_y_sha256": "64e1e549d138b9219377c729188ae98583ca454a51b64242a9432be95bbd0f1b",
+    "query_X_sha256": "5907cd00f82e5e2189295e5df529838efd333e0c639a8b89b5fe19e276adce6e",
+    "feature_nonzero_training_counts": {
+      "zero_0": 0,
+      "zero_1": 0,
+      "zero_2": 0,
+      "zero_3": 0,
+      "zero_4": 0
+    },
+    "seconds": 0.003618483002355788,
+    "training_n": 730,
+    "training_target_max": "2025-08-31",
+    "training_origin_max": "2025-08-31"
+  },
+  {
+    "model": "ridge",
+    "arm": "day5",
+    "state": "Karnataka",
+    "year": 2025,
+    "horizon": 1,
+    "refit": "2025-09-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "feature_count": 45,
+    "training_target_min_bound": "2023-09-02",
+    "training_X_sha256": "872989fce53d15e6f4917a61ea5a39fa13b5690493ea23d0513696ccc749af40",
+    "training_y_sha256": "64e1e549d138b9219377c729188ae98583ca454a51b64242a9432be95bbd0f1b",
+    "query_X_sha256": "5907cd00f82e5e2189295e5df529838efd333e0c639a8b89b5fe19e276adce6e",
+    "feature_nonzero_training_counts": {
+      "Holi_day": 0,
+      "Dussehra_day": 2,
+      "Ganesh_Chaturthi_day": 3,
+      "Ugadi_Gudi_Padwa_day": 2,
+      "Diwali_day": 4
+    },
+    "seconds": 0.003364848002092913,
+    "training_n": 730,
+    "training_target_max": "2025-08-31",
+    "training_origin_max": "2025-08-31"
+  },
+  {
+    "model": "ridge",
+    "arm": "pooled_day5",
+    "state": "Karnataka",
+    "year": 2025,
+    "horizon": 1,
+    "refit": "2025-09-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "feature_count": 45,
+    "training_target_min_bound": "2023-09-02",
+    "training_X_sha256": "d1e4e65e2b7eb07d58f230bef8175a31558ce2825ff81418fd65f887654a0461",
+    "training_y_sha256": "64e1e549d138b9219377c729188ae98583ca454a51b64242a9432be95bbd0f1b",
+    "query_X_sha256": "5907cd00f82e5e2189295e5df529838efd333e0c639a8b89b5fe19e276adce6e",
+    "feature_nonzero_training_counts": {
+      "event_day": 11,
+      "padding_1": 0,
+      "padding_2": 0,
+      "padding_3": 0,
+      "padding_4": 0
+    },
+    "seconds": 0.026525207998929545,
+    "training_n": 730,
+    "training_target_max": "2025-08-31",
+    "training_origin_max": "2025-08-31"
+  },
+  {
+    "model": "ridge",
+    "arm": "window5",
+    "state": "Karnataka",
+    "year": 2025,
+    "horizon": 1,
+    "refit": "2025-09-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "feature_count": 45,
+    "training_target_min_bound": "2023-09-02",
+    "training_X_sha256": "edba8065dc321cae662750a61bed171fcabc1858a23b0b4002dd8cc016c81a01",
+    "training_y_sha256": "64e1e549d138b9219377c729188ae98583ca454a51b64242a9432be95bbd0f1b",
+    "query_X_sha256": "5907cd00f82e5e2189295e5df529838efd333e0c639a8b89b5fe19e276adce6e",
+    "feature_nonzero_training_counts": {
+      "Holi_window": 0,
+      "Dussehra_window": 14,
+      "Ganesh_Chaturthi_window": 21,
+      "Ugadi_Gudi_Padwa_window": 14,
+      "Diwali_window": 18
+    },
+    "seconds": 0.0035184450025553815,
+    "training_n": 730,
+    "training_target_max": "2025-08-31",
+    "training_origin_max": "2025-08-31"
+  },
+  {
+    "model": "ridge",
+    "arm": "pooled_window5",
+    "state": "Karnataka",
+    "year": 2025,
+    "horizon": 1,
+    "refit": "2025-09-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "feature_count": 45,
+    "training_target_min_bound": "2023-09-02",
+    "training_X_sha256": "d320867871b53931206f255aff2eb362a79624ac7b5485aadb9698886d2edaf5",
+    "training_y_sha256": "64e1e549d138b9219377c729188ae98583ca454a51b64242a9432be95bbd0f1b",
+    "query_X_sha256": "5907cd00f82e5e2189295e5df529838efd333e0c639a8b89b5fe19e276adce6e",
+    "feature_nonzero_training_counts": {
+      "event_window": 67,
+      "padding_1": 0,
+      "padding_2": 0,
+      "padding_3": 0,
+      "padding_4": 0
+    },
+    "seconds": 0.003372079001564998,
+    "training_n": 730,
+    "training_target_max": "2025-08-31",
+    "training_origin_max": "2025-08-31"
+  },
+  {
+    "model": "ridge",
+    "arm": "placebo_day5",
+    "state": "Karnataka",
+    "year": 2025,
+    "horizon": 1,
+    "refit": "2025-09-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "feature_count": 45,
+    "training_target_min_bound": "2023-09-02",
+    "training_X_sha256": "62d687f2a2ae2050552977107170ca36459100bda2db152226538075e3507886",
+    "training_y_sha256": "64e1e549d138b9219377c729188ae98583ca454a51b64242a9432be95bbd0f1b",
+    "query_X_sha256": "5907cd00f82e5e2189295e5df529838efd333e0c639a8b89b5fe19e276adce6e",
+    "feature_nonzero_training_counts": {
+      "Holi_day": 0,
+      "Dussehra_day": 2,
+      "Ganesh_Chaturthi_day": 3,
+      "Ugadi_Gudi_Padwa_day": 2,
+      "Diwali_day": 4
+    },
+    "seconds": 0.0034312760035390966,
+    "training_n": 730,
+    "training_target_max": "2025-08-31",
+    "training_origin_max": "2025-08-31"
+  },
+  {
+    "model": "ridge",
+    "arm": "placebo_window5",
+    "state": "Karnataka",
+    "year": 2025,
+    "horizon": 1,
+    "refit": "2025-09-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "feature_count": 45,
+    "training_target_min_bound": "2023-09-02",
+    "training_X_sha256": "6e715f3afdbe9fbbf30fe2359ac60bd6c9497ca92705e89a65607e9d46cd6a40",
+    "training_y_sha256": "64e1e549d138b9219377c729188ae98583ca454a51b64242a9432be95bbd0f1b",
+    "query_X_sha256": "5907cd00f82e5e2189295e5df529838efd333e0c639a8b89b5fe19e276adce6e",
+    "feature_nonzero_training_counts": {
+      "Holi_window": 0,
+      "Dussehra_window": 14,
+      "Ganesh_Chaturthi_window": 21,
+      "Ugadi_Gudi_Padwa_window": 14,
+      "Diwali_window": 18
+    },
+    "seconds": 0.003357796995260287,
+    "training_n": 730,
+    "training_target_max": "2025-08-31",
+    "training_origin_max": "2025-08-31"
+  },
+  {
+    "model": "ridge",
+    "arm": "calendar",
+    "state": "Karnataka",
+    "year": 2025,
+    "horizon": 7,
+    "refit": "2025-09-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "feature_count": 40,
+    "training_target_min_bound": "2023-09-08",
+    "training_X_sha256": "302744bb47e9926aad40246af57b9cb7cd7e582c51d8feb85f634e6d888b3237",
+    "training_y_sha256": "79ab7e047a71ca4d57befd63b28e32da824d9cda2fc3beb1734d071ae32fb769",
+    "query_X_sha256": "10b980a859a73e412b18846b2dd9b40e81a8007f8e23d4bea0717c14b68b4203",
+    "feature_nonzero_training_counts": {},
+    "seconds": 0.003663438998046331,
+    "training_n": 724,
+    "training_target_max": "2025-08-31",
+    "training_origin_max": "2025-08-25"
+  },
+  {
+    "model": "ridge",
+    "arm": "zero5",
+    "state": "Karnataka",
+    "year": 2025,
+    "horizon": 7,
+    "refit": "2025-09-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "feature_count": 45,
+    "training_target_min_bound": "2023-09-08",
+    "training_X_sha256": "edda5eefe6d800d386d0505cadbd188f995abc85902c583247e3b01c0388340e",
+    "training_y_sha256": "79ab7e047a71ca4d57befd63b28e32da824d9cda2fc3beb1734d071ae32fb769",
+    "query_X_sha256": "ba1404d93f1b96bcbe511b572fcd4fdf4b6e85628fe23ce5068a80bd97716ed2",
+    "feature_nonzero_training_counts": {
+      "zero_0": 0,
+      "zero_1": 0,
+      "zero_2": 0,
+      "zero_3": 0,
+      "zero_4": 0
+    },
+    "seconds": 0.0034948089960380457,
+    "training_n": 724,
+    "training_target_max": "2025-08-31",
+    "training_origin_max": "2025-08-25"
+  },
+  {
+    "model": "ridge",
+    "arm": "day5",
+    "state": "Karnataka",
+    "year": 2025,
+    "horizon": 7,
+    "refit": "2025-09-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "feature_count": 45,
+    "training_target_min_bound": "2023-09-08",
+    "training_X_sha256": "169227755ba4200f7a2b17ca2e5dfc77dd0389e18743efc6dde748eadd095278",
+    "training_y_sha256": "79ab7e047a71ca4d57befd63b28e32da824d9cda2fc3beb1734d071ae32fb769",
+    "query_X_sha256": "ba1404d93f1b96bcbe511b572fcd4fdf4b6e85628fe23ce5068a80bd97716ed2",
+    "feature_nonzero_training_counts": {
+      "Holi_day": 0,
+      "Dussehra_day": 2,
+      "Ganesh_Chaturthi_day": 3,
+      "Ugadi_Gudi_Padwa_day": 2,
+      "Diwali_day": 4
+    },
+    "seconds": 0.003613756001868751,
+    "training_n": 724,
+    "training_target_max": "2025-08-31",
+    "training_origin_max": "2025-08-25"
+  },
+  {
+    "model": "ridge",
+    "arm": "pooled_day5",
+    "state": "Karnataka",
+    "year": 2025,
+    "horizon": 7,
+    "refit": "2025-09-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "feature_count": 45,
+    "training_target_min_bound": "2023-09-08",
+    "training_X_sha256": "fd7781140cd409ac86b0dc61e6fb1bd8f9259b60c576e90e8b898b64070680de",
+    "training_y_sha256": "79ab7e047a71ca4d57befd63b28e32da824d9cda2fc3beb1734d071ae32fb769",
+    "query_X_sha256": "ba1404d93f1b96bcbe511b572fcd4fdf4b6e85628fe23ce5068a80bd97716ed2",
+    "feature_nonzero_training_counts": {
+      "event_day": 11,
+      "padding_1": 0,
+      "padding_2": 0,
+      "padding_3": 0,
+      "padding_4": 0
+    },
+    "seconds": 0.0032195330059039406,
+    "training_n": 724,
+    "training_target_max": "2025-08-31",
+    "training_origin_max": "2025-08-25"
+  },
+  {
+    "model": "ridge",
+    "arm": "window5",
+    "state": "Karnataka",
+    "year": 2025,
+    "horizon": 7,
+    "refit": "2025-09-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "feature_count": 45,
+    "training_target_min_bound": "2023-09-08",
+    "training_X_sha256": "22583fa13f7f68b77d0520ca276b6f602df544ac4ecbd777f235f4ba77e1d4bf",
+    "training_y_sha256": "79ab7e047a71ca4d57befd63b28e32da824d9cda2fc3beb1734d071ae32fb769",
+    "query_X_sha256": "ba1404d93f1b96bcbe511b572fcd4fdf4b6e85628fe23ce5068a80bd97716ed2",
+    "feature_nonzero_training_counts": {
+      "Holi_window": 0,
+      "Dussehra_window": 14,
+      "Ganesh_Chaturthi_window": 21,
+      "Ugadi_Gudi_Padwa_window": 14,
+      "Diwali_window": 18
+    },
+    "seconds": 0.0032198030021390878,
+    "training_n": 724,
+    "training_target_max": "2025-08-31",
+    "training_origin_max": "2025-08-25"
+  },
+  {
+    "model": "ridge",
+    "arm": "pooled_window5",
+    "state": "Karnataka",
+    "year": 2025,
+    "horizon": 7,
+    "refit": "2025-09-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "feature_count": 45,
+    "training_target_min_bound": "2023-09-08",
+    "training_X_sha256": "386127e8ea0e9712cb5c482406b46ef3e5ef0ebd0545d1ffb1cf59652c499160",
+    "training_y_sha256": "79ab7e047a71ca4d57befd63b28e32da824d9cda2fc3beb1734d071ae32fb769",
+    "query_X_sha256": "ba1404d93f1b96bcbe511b572fcd4fdf4b6e85628fe23ce5068a80bd97716ed2",
+    "feature_nonzero_training_counts": {
+      "event_window": 67,
+      "padding_1": 0,
+      "padding_2": 0,
+      "padding_3": 0,
+      "padding_4": 0
+    },
+    "seconds": 0.003283497004304081,
+    "training_n": 724,
+    "training_target_max": "2025-08-31",
+    "training_origin_max": "2025-08-25"
+  },
+  {
+    "model": "ridge",
+    "arm": "placebo_day5",
+    "state": "Karnataka",
+    "year": 2025,
+    "horizon": 7,
+    "refit": "2025-09-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "feature_count": 45,
+    "training_target_min_bound": "2023-09-08",
+    "training_X_sha256": "60c8b54f27c2bcecf26cf75dbf4d330db608170e403711f5438087919f8d2214",
+    "training_y_sha256": "79ab7e047a71ca4d57befd63b28e32da824d9cda2fc3beb1734d071ae32fb769",
+    "query_X_sha256": "ba1404d93f1b96bcbe511b572fcd4fdf4b6e85628fe23ce5068a80bd97716ed2",
+    "feature_nonzero_training_counts": {
+      "Holi_day": 0,
+      "Dussehra_day": 2,
+      "Ganesh_Chaturthi_day": 3,
+      "Ugadi_Gudi_Padwa_day": 2,
+      "Diwali_day": 4
+    },
+    "seconds": 0.003264329003286548,
+    "training_n": 724,
+    "training_target_max": "2025-08-31",
+    "training_origin_max": "2025-08-25"
+  },
+  {
+    "model": "ridge",
+    "arm": "placebo_window5",
+    "state": "Karnataka",
+    "year": 2025,
+    "horizon": 7,
+    "refit": "2025-09-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "feature_count": 45,
+    "training_target_min_bound": "2023-09-08",
+    "training_X_sha256": "51a4def379d3dd691ec31859f9777f41ed2c0640daaa6d3863af7156c61655eb",
+    "training_y_sha256": "79ab7e047a71ca4d57befd63b28e32da824d9cda2fc3beb1734d071ae32fb769",
+    "query_X_sha256": "ba1404d93f1b96bcbe511b572fcd4fdf4b6e85628fe23ce5068a80bd97716ed2",
+    "feature_nonzero_training_counts": {
+      "Holi_window": 0,
+      "Dussehra_window": 14,
+      "Ganesh_Chaturthi_window": 21,
+      "Ugadi_Gudi_Padwa_window": 14,
+      "Diwali_window": 18
+    },
+    "seconds": 0.004227834004268516,
+    "training_n": 724,
+    "training_target_max": "2025-08-31",
+    "training_origin_max": "2025-08-25"
+  },
+  {
+    "model": "ridge",
+    "arm": "calendar",
+    "state": "Karnataka",
+    "year": 2025,
+    "horizon": 14,
+    "refit": "2025-09-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "feature_count": 40,
+    "training_target_min_bound": "2023-09-15",
+    "training_X_sha256": "8bec229e72f5afc35fe1562c028afdffd6c4217d95f0cf286465906f104b0303",
+    "training_y_sha256": "5b4542d976647e07e99e4258079081fcc040ec9639a7a4c3a3c4d020c97db246",
+    "query_X_sha256": "df31c0a1678cfdbe6a5e0671c0e88d2260bdd93c52826a17d6a1f4500ebaabd8",
+    "feature_nonzero_training_counts": {},
+    "seconds": 0.003487499001494143,
+    "training_n": 717,
+    "training_target_max": "2025-08-31",
+    "training_origin_max": "2025-08-18"
+  },
+  {
+    "model": "ridge",
+    "arm": "zero5",
+    "state": "Karnataka",
+    "year": 2025,
+    "horizon": 14,
+    "refit": "2025-09-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "feature_count": 45,
+    "training_target_min_bound": "2023-09-15",
+    "training_X_sha256": "e9505e7c1983673bcaed6b14b5c2f84754210e01ce219b30b9eeb7b369df9194",
+    "training_y_sha256": "5b4542d976647e07e99e4258079081fcc040ec9639a7a4c3a3c4d020c97db246",
+    "query_X_sha256": "f8f6492d0d8cafdd817c81ea92d41f7c571abf021b4c74da14f8fe8075ef6fc9",
+    "feature_nonzero_training_counts": {
+      "zero_0": 0,
+      "zero_1": 0,
+      "zero_2": 0,
+      "zero_3": 0,
+      "zero_4": 0
+    },
+    "seconds": 0.003512316005071625,
+    "training_n": 717,
+    "training_target_max": "2025-08-31",
+    "training_origin_max": "2025-08-18"
+  },
+  {
+    "model": "ridge",
+    "arm": "day5",
+    "state": "Karnataka",
+    "year": 2025,
+    "horizon": 14,
+    "refit": "2025-09-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "feature_count": 45,
+    "training_target_min_bound": "2023-09-15",
+    "training_X_sha256": "31c0694176f3899e1b0213e72095119537285851ba1029c601fdb06c613d315f",
+    "training_y_sha256": "5b4542d976647e07e99e4258079081fcc040ec9639a7a4c3a3c4d020c97db246",
+    "query_X_sha256": "f8f6492d0d8cafdd817c81ea92d41f7c571abf021b4c74da14f8fe8075ef6fc9",
+    "feature_nonzero_training_counts": {
+      "Holi_day": 0,
+      "Dussehra_day": 2,
+      "Ganesh_Chaturthi_day": 3,
+      "Ugadi_Gudi_Padwa_day": 2,
+      "Diwali_day": 4
+    },
+    "seconds": 0.0036794230036321096,
+    "training_n": 717,
+    "training_target_max": "2025-08-31",
+    "training_origin_max": "2025-08-18"
+  },
+  {
+    "model": "ridge",
+    "arm": "pooled_day5",
+    "state": "Karnataka",
+    "year": 2025,
+    "horizon": 14,
+    "refit": "2025-09-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "feature_count": 45,
+    "training_target_min_bound": "2023-09-15",
+    "training_X_sha256": "8115b178698d6c0d5b0ff2aab47f619cf42b645870cead7e48c0c130a9a3dfdd",
+    "training_y_sha256": "5b4542d976647e07e99e4258079081fcc040ec9639a7a4c3a3c4d020c97db246",
+    "query_X_sha256": "f8f6492d0d8cafdd817c81ea92d41f7c571abf021b4c74da14f8fe8075ef6fc9",
+    "feature_nonzero_training_counts": {
+      "event_day": 11,
+      "padding_1": 0,
+      "padding_2": 0,
+      "padding_3": 0,
+      "padding_4": 0
+    },
+    "seconds": 0.0036654720024671406,
+    "training_n": 717,
+    "training_target_max": "2025-08-31",
+    "training_origin_max": "2025-08-18"
+  },
+  {
+    "model": "ridge",
+    "arm": "window5",
+    "state": "Karnataka",
+    "year": 2025,
+    "horizon": 14,
+    "refit": "2025-09-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "feature_count": 45,
+    "training_target_min_bound": "2023-09-15",
+    "training_X_sha256": "8f05b5123ef090324270dc450d8849258811ea80c2305fac2006ef14ccdf69c0",
+    "training_y_sha256": "5b4542d976647e07e99e4258079081fcc040ec9639a7a4c3a3c4d020c97db246",
+    "query_X_sha256": "f8f6492d0d8cafdd817c81ea92d41f7c571abf021b4c74da14f8fe8075ef6fc9",
+    "feature_nonzero_training_counts": {
+      "Holi_window": 0,
+      "Dussehra_window": 14,
+      "Ganesh_Chaturthi_window": 21,
+      "Ugadi_Gudi_Padwa_window": 14,
+      "Diwali_window": 18
+    },
+    "seconds": 0.0035979120002593845,
+    "training_n": 717,
+    "training_target_max": "2025-08-31",
+    "training_origin_max": "2025-08-18"
+  },
+  {
+    "model": "ridge",
+    "arm": "pooled_window5",
+    "state": "Karnataka",
+    "year": 2025,
+    "horizon": 14,
+    "refit": "2025-09-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "feature_count": 45,
+    "training_target_min_bound": "2023-09-15",
+    "training_X_sha256": "9e3bb1b6fad7cf2f8927edcc3283618eb225f5de2aea87fabe358f58ec5de50f",
+    "training_y_sha256": "5b4542d976647e07e99e4258079081fcc040ec9639a7a4c3a3c4d020c97db246",
+    "query_X_sha256": "f8f6492d0d8cafdd817c81ea92d41f7c571abf021b4c74da14f8fe8075ef6fc9",
+    "feature_nonzero_training_counts": {
+      "event_window": 67,
+      "padding_1": 0,
+      "padding_2": 0,
+      "padding_3": 0,
+      "padding_4": 0
+    },
+    "seconds": 0.0033121499945991673,
+    "training_n": 717,
+    "training_target_max": "2025-08-31",
+    "training_origin_max": "2025-08-18"
+  },
+  {
+    "model": "ridge",
+    "arm": "placebo_day5",
+    "state": "Karnataka",
+    "year": 2025,
+    "horizon": 14,
+    "refit": "2025-09-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "feature_count": 45,
+    "training_target_min_bound": "2023-09-15",
+    "training_X_sha256": "56fca074e8ea35970f500935016926def48ae377e8f1b2667bd4c3ea5f2db85a",
+    "training_y_sha256": "5b4542d976647e07e99e4258079081fcc040ec9639a7a4c3a3c4d020c97db246",
+    "query_X_sha256": "f8f6492d0d8cafdd817c81ea92d41f7c571abf021b4c74da14f8fe8075ef6fc9",
+    "feature_nonzero_training_counts": {
+      "Holi_day": 0,
+      "Dussehra_day": 2,
+      "Ganesh_Chaturthi_day": 3,
+      "Ugadi_Gudi_Padwa_day": 2,
+      "Diwali_day": 4
+    },
+    "seconds": 0.0031111429998418316,
+    "training_n": 717,
+    "training_target_max": "2025-08-31",
+    "training_origin_max": "2025-08-18"
+  },
+  {
+    "model": "ridge",
+    "arm": "placebo_window5",
+    "state": "Karnataka",
+    "year": 2025,
+    "horizon": 14,
+    "refit": "2025-09-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "feature_count": 45,
+    "training_target_min_bound": "2023-09-15",
+    "training_X_sha256": "36ef8904f1e7efe9507bffe2833c0a826f0446f8727d155e3b68ed5ece0c5e58",
+    "training_y_sha256": "5b4542d976647e07e99e4258079081fcc040ec9639a7a4c3a3c4d020c97db246",
+    "query_X_sha256": "f8f6492d0d8cafdd817c81ea92d41f7c571abf021b4c74da14f8fe8075ef6fc9",
+    "feature_nonzero_training_counts": {
+      "Holi_window": 0,
+      "Dussehra_window": 14,
+      "Ganesh_Chaturthi_window": 21,
+      "Ugadi_Gudi_Padwa_window": 14,
+      "Diwali_window": 18
+    },
+    "seconds": 0.0035408280018600635,
+    "training_n": 717,
+    "training_target_max": "2025-08-31",
+    "training_origin_max": "2025-08-18"
+  }
+]
