@@ -1,0 +1,11 @@
+{
+  "status": "completed",
+  "completed_utc": "2026-10-30T15:12:15.991850+00:00",
+  "primary_rows": 1620,
+  "extended_timesfm_rows": 3780,
+  "overlap_rows": 810,
+  "unique_rows": 4590,
+  "interval_predictions_sha256": "f2533557884aea221cdb08f654fd9e877b084a4a9090feca100fb73ae3b25a18",
+  "scored_intervals_sha256": "bdca7ea6ca5a2ab82c0619d3e3475cb4d6fc2921f115f9c5714152113fecda24",
+  "point_and_native_median_unchanged_across_arms": true
+}

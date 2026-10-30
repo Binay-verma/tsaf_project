@@ -1,0 +1,6 @@
+{
+  "recorded_utc": "2026-10-30T15:14:55.723022+00:00",
+  "interruption": "Tool session transport disconnected; completed hindcast run.json/predictions and checkpoints remained intact. User requested resume. No hindcast restart or overwritten worker.",
+  "hindcast_run_status": "completed",
+  "annex_issued_utc": "2026-10-30T15:12:14.014369+00:00"
+}

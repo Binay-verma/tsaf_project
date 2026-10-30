@@ -1,0 +1,9 @@
+{
+  "status": "completed",
+  "rows": 4590,
+  "primary_rows": 1620,
+  "extended_timesfm_rows": 3780,
+  "protocol_sha256": "f668590183b2bb10cf4977eab574f3f28307ed19d008113259391db13fa6a5c1",
+  "native_archive_sha256": "45473c7ec73f0f3624085a9f4b59ed8e687fa1b73549d839f1078e6715dd365e",
+  "interval_predictions_sha256": "f2533557884aea221cdb08f654fd9e877b084a4a9090feca100fb73ae3b25a18"
+}

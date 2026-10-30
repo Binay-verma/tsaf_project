@@ -1,0 +1,18 @@
+{
+  "source": "https://export.arxiv.org/api/query?id_list=1905.03222",
+  "checked_utc": "2026-10-30T13:27:11.163771+00:00",
+  "entries": [
+    {
+      "id": "http://arxiv.org/abs/1905.03222v1",
+      "title": "Conformalized Quantile Regression",
+      "authors": [
+        "Yaniv Romano",
+        "Evan Patterson",
+        "Emmanuel J. Cand\u00e8s"
+      ],
+      "published": "2019-05-08T17:21:11Z",
+      "updated": "2019-05-08T17:21:11Z"
+    }
+  ],
+  "note": "Primary method citation; not a new algorithm or time-series coverage guarantee"
+}

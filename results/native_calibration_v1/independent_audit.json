@@ -1,0 +1,25 @@
+{
+  "status": "pass",
+  "scope": "Separateinternalstdlibreconstruction;nohumansignoff,exchangeabilityguaranteeorcompletedfuturescore",
+  "historical_rows": 4590,
+  "common_primary_rows": 1620,
+  "extended_timesfm_rows": 3780,
+  "unique_cases_acrossconfigs": 1530,
+  "calibration_log_records": 3060,
+  "calibration_label_count_range": [
+    16,
+    43
+  ],
+  "protected_prior_hashes_unchanged": 1039,
+  "original_future_blobs_unchanged": {
+    "predictions.csv": "ad084279882ffd3a65e290541f1e6cd5771cb4eb09d5f01ac84b694756eaf663",
+    "protocol.json": "8abe04c1be21ca9b410df2038994e6e93fb5a03787a0e47eb0c5258f311523fa",
+    "freeze.json": "b9700bbfba85e6ee8981a10576d35ba5d8a5c05d88d454815065404d2d5e712d"
+  },
+  "annex_rows": 252,
+  "annex_eligible_rows": 216,
+  "all_native_points_and_medians_unchanged": true,
+  "strict_label_date_before_origin": true,
+  "all_methods_retained": true,
+  "annex_prediction_sha256": "a84520081a1f612f484cbb291d4569d9f8652f4893eb6ae81f74e2b922e70f44"
+}

@@ -1,0 +1,48 @@
+{
+  "created_utc": "2026-10-30T13:26:41.189394+00:00",
+  "experiment": "native_calibration_v1",
+  "status": "Exploratory response to already-inspected native undercoverage; rules fixed before new calibration outcomes. Historical targets remain development data, not clean final tests or external preregistration.",
+  "method": "Expansion-only CQR: score=max(native_lower-actual,actual-native_upper); delta=max(0,sorted_scores[ceil((n+1)*0.8)-1]); return native_lower-delta,native_upper+delta. Native median and point forecasts unchanged.",
+  "prior_work": "Established conformalized quantile regression (Romano,Patterson,Candes2019), not a new algorithm. Temporal dependence/drift violate simple exchangeability; no finite-sample time-series coverage guarantee.",
+  "alpha": 0.2,
+  "minimum_calibration_labels": 16,
+  "arms": [
+    "native",
+    "frozen_september",
+    "expanding_past"
+  ],
+  "calibration": "Perconfiguration/state/individual lead. FrozenSeptember uses labels15\u201330September only. Expanding uses every available label15September through strictly BEFORE query ORIGIN, not merely before target. Both methods reported, no evaluated-outcome selection. No cross-state pooling or fitted features.",
+  "primary": "Same15targets14\u201328October2026perstate/lead; common leads1/7/14,4foundation configurations,540cases acrossconfigurations x3intervalarms=1620rows.",
+  "extended": "TimesFM history/calendar all14leads on the same targetdates:1260cases x3arms=3780rows, including810overlapping primaryTimesFMrows. Total UNIQUE4590intervalrows. Additional lead coverage supports the separately registered prospective annex, not extra independent events.",
+  "hindcasts": "Fresh TimesFM history/calendar inference on the exact171parent contexts; retain all14lead outputs on registered15September\u201328October targets,3696native rows. Reproduce all792oldpoint/nativequantile rows at leads1/7/14. Reuse Chronos parent only at those3leads,792native rows. No retraining/new weights or future actual requests.",
+  "context": 730,
+  "horizon": 14,
+  "batch": 4,
+  "threads": 2,
+  "seed": 42,
+  "evaluation": "15common dates start14October so even lead14firstorigin1October has16calibration labels. Month boundary/maximumlead availability selects dates, never new coverage/errors. Allnative andbothcalibrationarms retained.",
+  "metrics": "Inclusive80%coverage,lower/uppermisses,widthGWh/scaledwidth,scaledintervalscore and one-intervalWIS plus native median. Equalstates withinlead; common3leadfourconfig andextendedTimesFM14lead tables separately. Point/median predictions unchanged. No accuracy tuning or repaired/reordered native quantiles.",
+  "prospective": "Separate annex derives intervals from ORIGINAL already-frozen TimesFM quantiles, all14leads, bothmodes,3states. Native/frozen/expanding arms allretained. Registerrulesnow; actual later issuedUTC recorded atfreeze. Original252forecasts/protocol/freeze neverchanged. Newannex is the SAMEsource/episode, not independentconfirmation. Eligibility strictly after newIndiaissuancedate and inheritedoriginaleligibility. No future scores or workflow reactivation.",
+  "input_hashes": {
+    "src/native_interval_calibration.py": "b334205444b726edf9bc2f44ea0dc84be324668e81517c7370f7750e0c68a8ee",
+    "src/test_native_calibration.py": "b1f09780954b79d4a227fac03f049f034b04e90823e058fbdf6c07ec2c8b5053",
+    "src/postweight_daily_panel.py": "0ba93497746db707d64c1974be5099ed8cd28b8c0843a1ecfcb877d125c57b63",
+    "src/forecasting.py": "8a6b9b1e8632a2bf77d9855a1d370ed23c350ffe731138787e30c609a59ec21e",
+    "src/extended_validation.py": "2312ef9ef5f78ad8bf47b47999576cd0875c7ba3adca53acfb5434b83b2f8218",
+    "src/festival_feature_experiment.py": "2d737d17ee4290e4328996eee9e1b9380e6bc8a06484d67a01e067c4e7751427",
+    "data/external/latest_state_energy_GWh.csv": "74d22d5e85b022db13d97dad7c84dca5b9dc8e38d23570bf095d870e71a2f690",
+    "results/postweight_daily_v1/protocol.json": "f7ba8711a12782fdb443d5b7b8f2ce2e1e167f194ea811d7ebb671f2f31ca231",
+    "results/postweight_daily_v1/chronos/predictions.csv": "fbb1564c00e1ccea379fa32b59b0fec330a737a89ef7f4711d58cc1058c4a6e0",
+    "results/postweight_daily_v1/timesfm/predictions.csv": "43a7eab773258069d611e47e91f63384f4fbae4fdabe6d8ed6238eca5afe8789",
+    "results/postweight_daily_v1/independent_audit.json": "0a635054f5f28c3fb4caa2196ff9a201f9267b206d2a6e58c7f5c07914bdb8f9",
+    "results/second_model_audit_v1/weight_download.json": "33513d544578b60db98abd0ad667c97597e0b7b49062588a87fc980b012c4cf4",
+    "results/prospective_20261030_v1/protocol.json": "8abe04c1be21ca9b410df2038994e6e93fb5a03787a0e47eb0c5258f311523fa",
+    "results/prospective_20261030_v1/predictions.csv": "ad084279882ffd3a65e290541f1e6cd5771cb4eb09d5f01ac84b694756eaf663",
+    "results/prospective_20261030_v1/freeze.json": "b9700bbfba85e6ee8981a10576d35ba5d8a5c05d88d454815065404d2d5e712d"
+  },
+  "design_hashes": {
+    "hindcast_cases.csv": "f258db8b6a4322b1c9e821d3ea859bb7906f5ac878e76e50d1bd2ab53720ee34",
+    "evaluation_cases.csv": "bd086598e54d3c3aedb1a933752012227180d2f49ece2d150973151b30565a6b",
+    "protected_prior_files.json": "4dd7c56f21157fe2577ab7cf0fc4edfa5479620db60a9bdaf23a001529ebb720"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "issued_utc": "2026-10-30T15:12:14.014369+00:00",
+  "issued_india_date": "2026-10-30",
+  "rows": 252,
+  "eligible_rows": 216,
+  "eligible_start": "2026-10-31",
+  "eligible_end": "2026-11-11",
+  "new_model_inference_for_future": false,
+  "native_parent_sha256": "ad084279882ffd3a65e290541f1e6cd5771cb4eb09d5f01ac84b694756eaf663",
+  "registration_sha256": "f0b9122b5e02f081cb6320effd20e2894177bd13a3517f057a72c04c22a23364",
+  "calibration_protocol_sha256": "f668590183b2bb10cf4977eab574f3f28307ed19d008113259391db13fa6a5c1",
+  "calibration_archive_sha256": "45473c7ec73f0f3624085a9f4b59ed8e687fa1b73549d839f1078e6715dd365e",
+  "predictions_sha256": "a84520081a1f612f484cbb291d4569d9f8652f4893eb6ae81f74e2b922e70f44",
+  "calibration_log_sha256": "313bb1f727cb93a20f3947932eacf6ed412c8cd50dd0f91e4c0bb13fedf0f118",
+  "outcomes_fetched": false,
+  "scores_status": "pendingfutureobservations",
+  "automation": "paused;noschedulechange",
+  "interpretation": "216intervalrows=72originalTimesFMeligiblecases x3arms, not216independentforecasts. Sameepisode/sourceasoriginalfreeze, originallyissued05:35UTC; newpostprocessingissuedatactualtimeabove."
+}

@@ -1,0 +1,40 @@
+{
+  "registered_utc": "2026-10-30T13:26:41.190610+00:00",
+  "status": "Rules registered before new historical calibration outcomes; prospective intervals not issued yet.",
+  "parent_forecast_sha256": "ad084279882ffd3a65e290541f1e6cd5771cb4eb09d5f01ac84b694756eaf663",
+  "calibration_protocol_sha256": "f668590183b2bb10cf4977eab574f3f28307ed19d008113259391db13fa6a5c1",
+  "models": [
+    "timesfm3_history",
+    "timesfm3_calendar"
+  ],
+  "states": [
+    "Delhi",
+    "Karnataka",
+    "Maharashtra"
+  ],
+  "leads": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "arms": [
+    "native",
+    "frozen_september",
+    "expanding_past"
+  ],
+  "rule": "Copy originalnativequantiles/point. Perleadcalibration from registerednativearchive using labeldate<originalorigin29October. RetainbothfixedSeptember andexpandingpast; no selection by newhistoricalerrors. RecordnewissuedUTC/India-dateeligibility; neverbackdate.",
+  "expected_rows": 252,
+  "expected_eligible_rows_if_issued_30October": 216,
+  "limitation": "Sameepisode/sourceasoriginalfuturefreeze; notindependentreplication. No scoring beforecompletefutureperiod; automationstaypaused."
+}

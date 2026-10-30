@@ -1,0 +1,8 @@
+{
+  "recorded_utc": "2026-10-30T15:14:55.723022+00:00",
+  "command": ".venv/bin/python src/score_interval_annex.py",
+  "observed": "PENDING: no future labels opened, no network request and no score before12November2026UTC.",
+  "current_score_status": "pending; no actuals retrieved",
+  "unit_tests_passed": 53,
+  "workflow_changed": false
+}

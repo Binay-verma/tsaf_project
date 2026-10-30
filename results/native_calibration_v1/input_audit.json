@@ -1,0 +1,22 @@
+{
+  "status": "pass",
+  "scope": "SeparateinternalNumPy/datebyteaudit;notindependenthumanreview",
+  "reconstructed_tasks": 342,
+  "native_rows": 3696,
+  "old_rows_reproduced": 792,
+  "old_point_and_quantile_maxdifferences": {
+    "prediction": 0.0,
+    "q_100": 0.0,
+    "q_200": 0.0,
+    "q_300": 0.0,
+    "q_400": 0.0,
+    "q_500": 0.0,
+    "q_600": 0.0,
+    "q_700": 0.0,
+    "q_800": 0.0,
+    "q_900": 0.0
+  },
+  "native_crossing_pairs": 0,
+  "solo_batch_maxdifference": 0.0,
+  "weight_sha256": "a7592b0a8432baee54483254e5647856911ce69e09d09a9bb65904b2d98f17da"
+}

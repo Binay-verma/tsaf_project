@@ -1,0 +1,9 @@
+{
+  "registered_utc": "2026-10-30T13:29:10.370925+00:00",
+  "scoring_source_sha256": "7f24940466d2c3562b996ee7eeab29bc9f5c82076213cc517fc631674aa6a6a1",
+  "period_end": "2026-11-11",
+  "clock_gate": "Strictlyafterfullperiodends,12NovemberUTCearliest;beforegate,noactualfileopenedornetworkrequest",
+  "outcomes": "Reuseexactoriginalcollectorepisodeactuals_snapshot.csv,collection.json,source_metadata_snapshot.jsonandcomplete-result/hashes/units/provenanceguards;nonewvintagepicked",
+  "frozen": "Verifyannexfilesbyte-equaltofirstGitcommittouchingitsnewpredictionspath,freezehashandscoringsourcehash;rejectoverwritingfirstscore",
+  "metrics": "Unchangednativepoint/median,80%coveragewithwidth,intervalscoreandone-intervalWIS. Individuallead/stateandmacro,allthreearms,bothmodes. No futuremodel/armselection."
+}
