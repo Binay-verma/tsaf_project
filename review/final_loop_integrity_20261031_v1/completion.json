@@ -1,0 +1,17 @@
+{
+  "status": "pass",
+  "checked_utc": "2026-10-31T04:21:26.786783+00:00",
+  "completed_chains": {
+    "results/calendar_encoding_v1/pipeline_status.json": "completed_analysis_audit",
+    "results/neso_replication_v1/pipeline_status.json": "completed_analysis_audit",
+    "results/calendar_semantics_v2/pipeline_status.json": "completed_analysis_audit",
+    "results/mta_holiday_recovery_v1/chronos_continuation_v2.json": "completed_provider_continuation_v2",
+    "results/mta_holiday_recovery_v1/timesfm_continuation_v2.json": "completed_provider_continuation_v2",
+    "results/mta_holiday_recovery_v1/analysis_continuation_v3.json": "completed_full_science_reporting_PDF_visual_review_pending"
+  },
+  "rolling_unactivated_no_issuances": true,
+  "future_scoring_directories_absent": true,
+  "source_and_freeze_checks": "source_and_freeze.json",
+  "workflow_live_state": "workflow.json",
+  "scope": "All registered historical chains complete and preserved; no futureoutcomes. External/clock journalgates remain open."
+}

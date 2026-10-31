@@ -1,0 +1,16 @@
+{
+  "status": "UNREVIEWED_DO_NOT_ACTIVATE",
+  "reviewed_utc": null,
+  "source_units": "GWh",
+  "source_observation_day_confirmed": null,
+  "source_rights_evidence": {
+    "file": null,
+    "sha256": null
+  },
+  "source_date_evidence": {
+    "file": null,
+    "sha256": null
+  },
+  "calendar_manifest": null,
+  "calendar_manifest_sha256": null
+}

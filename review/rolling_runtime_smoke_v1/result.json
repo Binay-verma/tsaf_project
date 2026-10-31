@@ -1,0 +1,19 @@
+{
+  "status": "pass",
+  "completed_utc": "2026-10-31T04:15:18.172569+00:00",
+  "provider_input_blocks": 48,
+  "all_arms": 8,
+  "states": 3,
+  "providers": 2,
+  "horizon": 16,
+  "actual_sarimax_converged": true,
+  "sarimax_output": {
+    "sha256": "d13ca48deaf549c8c348282f504fc13a4fe4108b3865db55372294535d7d5525",
+    "shape": [
+      16
+    ],
+    "dtype": "float64"
+  },
+  "scope": "CachedhistoricalAPI/actualweight/shape/finiteness/solobatch check, no performance scores, independenthumanreview or futureissuance. No network/actualoutcomes/scheduleractivation.",
+  "registration_sha256": "a12254f6325aacd5b0326a38e7240661b831010f49fc679f0b067bf9a92e9f44"
+}

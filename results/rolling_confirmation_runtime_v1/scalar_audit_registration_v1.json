@@ -1,0 +1,10 @@
+{
+  "registered_utc": "2026-10-31T04:17:11.583996+00:00",
+  "scope": "Separate standard-library raw-source/forecast/native/scalar/equal-state audit of later rolling scores. Before anyactualissuance oroutcomes, fixedrtol/atol1e-10, no newmodel/forecast/metric/selection. CLI guards ownfirstpublicregistration/sourceblobs predatingissuance, then sameoriginalfirstcompletevintage and clock/forecastguards. Two synthetictemporary tests verify432cases/groupchanges/earlygate; actualfutureaudits unperformed.",
+  "sources": {
+    "src/audit_rolling_scores_v1.py": "c3152fadd6fa7c19285a9c0b07156bb2ee8dce25c26d437fa1f4caaaa76fb461",
+    "src/test_rolling_score_audit_v1.py": "061991652fee278c9e95b2521530c7cb0dd068fef53b015f83bfe7b9d1279e38",
+    "src/rolling_execution_v1.py": "a2501bb2a3e96865fa86f2347e92743f5ff11a529301dba35a3c660f00a2b461",
+    "src/rolling_evidence_v1.py": "571bcb2d56fad2eac153d7dc6180792996fb7df71dbd8d5d35fa5713b72b40b6"
+  }
+}

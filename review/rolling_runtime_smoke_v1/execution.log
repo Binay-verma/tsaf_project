@@ -1,0 +1,18 @@
+Loading weights:   0%|          | 0/170 [00:00<?, ?it/s]Loading weights: 100%|██████████| 170/170 [00:00<00:00, 4647.43it/s]
+chronos calendar API/solo pass
+chronos zero5 API/solo pass
+chronos day5 API/solo pass
+chronos pooled_day5 API/solo pass
+chronos window5 API/solo pass
+chronos pooled_window5 API/solo pass
+chronos placebo_day5 API/solo pass
+chronos placebo_window5 API/solo pass
+Loading weights from local directory
+timesfm calendar API/solo pass
+timesfm zero5 API/solo pass
+timesfm day5 API/solo pass
+timesfm pooled_day5 API/solo pass
+timesfm window5 API/solo pass
+timesfm pooled_window5 API/solo pass
+timesfm placebo_day5 API/solo pass
+timesfm placebo_window5 API/solo pass

@@ -1,0 +1,7 @@
+test_all_scores_and_aggregates_pass_then_detect_case_and_group_changes (test_rolling_score_audit_v1.RollingScoreAuditChecks.test_all_scores_and_aggregates_pass_then_detect_case_and_group_changes) ... ok
+test_clock_prevents_reading_actual_files (test_rolling_score_audit_v1.RollingScoreAuditChecks.test_clock_prevents_reading_actual_files) ... ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 3.024s
+
+OK

@@ -1,0 +1,10 @@
+{
+  "status": "pass",
+  "checked_utc": "2026-10-31T04:17:11.583742+00:00",
+  "recovery_source_and_closed_worker_hashes_unchanged": true,
+  "original_parent_first_blobs_unchanged": true,
+  "chronos_first_commit": "0e4ab330d6a798545f31476f79c59f55975eb8e3",
+  "interval_first_commit": "29bdd984770904a032cebe9efcd2a12a8d5ffc17",
+  "integrated_v4_v5_all_build_inputs_and_outputs_verified": true,
+  "scope": "Source/first-public-blobs/paper hashes verified; no targetactuals or performance recomputation."
+}

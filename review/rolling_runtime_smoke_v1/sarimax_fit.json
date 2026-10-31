@@ -1,0 +1,13 @@
+[
+  {
+    "scope": "historicalAPIonly",
+    "state": "Delhi",
+    "training_end": "2025-09-30",
+    "optimizer": "lbfgs",
+    "maxiter": 150,
+    "converged": true,
+    "training_loglikelihood": 1160.0678907202598,
+    "seconds": 0.3454565160063794,
+    "warnings": []
+  }
+]

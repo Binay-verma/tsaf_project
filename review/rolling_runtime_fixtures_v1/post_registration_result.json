@@ -1,0 +1,6 @@
+{
+  "status": "pass",
+  "checked_utc": "2026-10-31T04:13:56.042970+00:00",
+  "tests_each_environment": 102,
+  "scope": "Reran full working and isolated suites after final provider-code hashing/registration changes. No model/scientific changes; temporary synthetic fixtures only."
+}
