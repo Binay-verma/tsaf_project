@@ -367,3 +367,7 @@ Commands: `git clone` (HEAD cb03c72 verified); `python3 src/verify_continuation.
 ## 31 October 2026 evening — repository audit, v6 manuscript, tie correction, calendar location
 
 Commands: git history scan of non-addition changes (196 modifications, 0 deletions, 4 byte-identical renames); credential regex scan over `git log -p --all` (none found); `pyflakes src/*.py`; dry runs of `collect_prospective_actuals.py`, `score_interval_annex.py` and `score_chronos_competitor.py` (all PENDING, no network); `tie_correction_v2.py`; `build_integrated_review_v6.py` + `audit_integrated_review_v6.py` (pass). The first v6 audit failed on a whitespace artefact; the comparison was fixed to strip paragraphs (rule otherwise unchanged). WebFetch extracted 2026 calendar entries from secondary hosts; direct downloads were blocked by the workspace allowlist and the delhi.gov.in fetch errored. No forecasts, outcomes or frozen files changed. Not pushed: no GitHub access in this session.
+
+## 31 October 2026 21:47 IST — delegated decisions implemented
+
+Registered timing rule v2 (option B) as a new versioned wrapper; v1 runtime and registration are byte-unchanged. `pytest src/test_rolling_timing_v2.py`: 4 passed. `rolling_execution_v2_timing.py status` prints UNACTIVATED. Added `data/external/RIGHTS_NOTICE.md` (keep, with notice). v6 title kept. Nothing issued, collected or scored.

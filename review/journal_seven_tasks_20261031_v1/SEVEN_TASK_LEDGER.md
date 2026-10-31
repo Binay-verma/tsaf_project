@@ -7,6 +7,14 @@ Branch `journal-seven-tasks-20261031-claude`, local commits only. **Nothing was 
 
 > **Correction (31 Oct 2026, later the same day).** The first version of this ledger counted exact ties as sign disagreements. The corrected counts are 19/36 opposite year signs plus 1 tie (not 20), and 11/36 opposite India–NYC signs plus 3 ties (not 14 implied). See `tie_correction_v2.json`; the original outputs are preserved.
 
+## 00. Decisions taken — 31 October 2026, 21:47 IST (the author delegated all three)
+
+| Decision | Choice | What was done | What it does not do |
+| --- | --- | --- | --- |
+| Rolling study timing | **Option B** | New registration `results/rolling_confirmation_timing_v2/` plus `src/rolling_execution_v2_timing.py`. Only v1's up-front 2024–2027 calendar requirement is removed; each issuance must still document its own context and target years. 4 synthetic tests; all v1 files unchanged | It does not activate anything. Source rights, observation-day review and human-verified 2024–2026 calendars are still missing, so 16 Nov remains a likely miss. It is effective only if pushed before 16 Nov 09:00 UTC |
+| `POSOCO_data.csv` | **Keep for now, with notice** | `data/external/RIGHTS_NOTICE.md`: attribution, no licence found, request sent 30 Oct, prompt removal on request | Not a permission claim. Removing it from the current version would not remove it from public history and would break exact reproduction |
+| v6 title | **Keep** | No change | Your professor can still change it |
+
 ## 0. Second pass — 31 October 2026 evening (current status; sections 1–6 below are the first pass)
 
 **Repository and code check.**
@@ -21,7 +29,7 @@ Branch `journal-seven-tasks-20261031-claude`, local commits only. **Nothing was 
 | --- | --- | --- | --- | --- | --- |
 | 1 | Distinct contribution | **Manuscript v6** (`manuscript/integrated_review_v6/`, MD/DOCX/PDF, 15 pages). R1–R8 applied as asserted edits to v5; all 9 v5 tables byte-identical. Separate audit `independent_v6_audit.json` recomputes every new number from case-level files: **pass** | Done internally | Distinctiveness is a human judgement | Professor reads v6; decide whether to keep the reframed title |
 | 2 | Generalisation | Assessment plus Singapore draft protocol | Blocked | EMA history start and terms scope; protocol must be pushed before any acquisition | Run C3, then push the protocol |
-| 3 | Untouched confirmation | Guards and dry runs verified. Calendar/activation assessment `review/india2026_calendar_feasibility_v2/` | Guards intact. Rolling activation **not satisfiable** as registered (2027 state lists not issued) | Author decision A/B (record.json) before 16 Nov | Choose A (record misses) or B (register a new timing rule before 16 Nov). Score the frozen episodes with C5 on/after 12 Nov 05:30 IST |
+| 3 | Untouched confirmation | Guards and dry runs verified. Calendar/activation assessment `review/india2026_calendar_feasibility_v2/` | Guards intact. Rolling activation **not satisfiable** as registered (2027 state lists not issued) | Option B registered locally; must be pushed before 16 Nov | Push the bundle before 16 Nov 09:00 UTC. Score the frozen episodes with C5 on/after 12 Nov 05:30 IST |
 | 4 | Closest-method comparison | `CLOSEST_METHOD_MAP.md` | Mapped. Ziel's additive single and per-holiday dummies correspond to the existing pooled/typed local arms; only Ziel's replacing (holiday-as-Sunday) variant is missing; Alipour is not reproducible | — | Optional: register and run the replacing variant (exploratory, multi-hour) |
 | 5 | Source and calendar credibility | Data-statement correction in v6. 2026 notifications located on secondary hosts (Maharashtra gazette of 8 Dec 2025 from two hosts; Karnataka; GNCTD order of 4 Dec 2025) | Located, not verified | Bytes could not be downloaded here. The Delhi extraction looks truncated. Curator reply pending. `POSOCO_data.csv` decision pending | A human downloads and reads the three PDFs, records hashes and checks amendments. You decide on the public file |
 | 6 | Independent review | Reviewer packet v6 (corrected counts) | Ready | No reviewer | Send v6 PDF and packet to a real external researcher |

@@ -1,0 +1,20 @@
+{
+ "registered_utc": "2026-10-31T16:19:29.128283+00:00",
+ "author": "Binay Verma (decision delegated by the author on 31 Oct 2026; implemented by an AI assistant)",
+ "status": "REGISTERED LOCALLY, UNACTIVATED. Effective only if this commit is publicly pushed before the first window (2026-11-16T09:00Z) and before any rolling issuance. No rolling forecast or outcome exists.",
+ "change": "Removes ONLY rolling_execution_v1.prerequisites' global requirement of a complete 2024-2027 calendar package. Each issuance still needs complete primary coverage for every year its own 730-day context and targets span (unchanged rolling_evidence_v1.calendar_package), plus unchanged reviewed source rights, GWh units and observation-day evidence.",
+ "reason": "State calendars for year Y are issued around December of Y-1 (2026 lists: 4-8 Dec 2025). Under v1, every window until all 2027 lists exist would be a recorded miss even when that issuance's own calendar years are fully documented. The reason is timing feasibility, not any forecast or outcome.",
+ "unchanged": "52 windows and deadlines, six models, eight arms, three states, decision leads 1/7/14, D-2 cutoff, first-complete-vintage collection, scoring, scalar audit, miss rule, v1 files and v1 registration.",
+ "v1_status": "v1 runtime and registration are preserved byte-for-byte; any v1 misses already recorded would remain on record.",
+ "usage": "python src/rolling_execution_v2_timing.py issue --number N (instead of rolling_execution_v1.py issue). receipt/collect/score/miss delegate to v1 unchanged.",
+ "tests": "src/test_rolling_timing_v2.py: 4 synthetic tests (2024-2026 package: v1 rejects, v2 accepts issuance 0; v2 still rejects an issuance with 2027 targets; full package accepted by both; changed/unregistered code refuses).",
+ "code_sha256": {
+  "src/rolling_execution_v2_timing.py": "335d1b57813cd0d7df0b7ba5782e82b067f1d40d6d66c1bbab8bb839f270fae4",
+  "src/test_rolling_timing_v2.py": "5e7c30edb1b9350dd7c23b039772706892224fbd413376f8b6884ceaa74d3d5e",
+  "src/rolling_execution_v1.py": "a2501bb2a3e96865fa86f2347e92743f5ff11a529301dba35a3c660f00a2b461",
+  "src/rolling_evidence_v1.py": "571bcb2d56fad2eac153d7dc6180792996fb7df71dbd8d5d35fa5713b72b40b6",
+  "src/rolling_models_v1.py": "7081d73e8ce66b9c80b7b580fbd51ba06be92ceb3641b9e5b601357fa81c99ef",
+  "results/rolling_confirmation_runtime_v1/registration.json": "0a553fb4eda2ed1e8014a9e1350e2aa8ad29f0e0cd645bdeae1829fcd4b5f52e",
+  "results/rolling_confirmation_runtime_v1/MANUAL_OPERATIONS.md": "090f42f6741ce8947bf9b821982cf757fa5e80ea7bca33f85100e2ef89f4fd96"
+ }
+}
