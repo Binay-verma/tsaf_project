@@ -8,7 +8,7 @@ Branch `journal-seven-tasks-20261031-claude` from `cb03c72`; LOCAL commits only.
 
 Done and evidenced:
 - The Colab claim audit (`review/journal_claim_audit_20261031T142556189989Z`) was verified independently. All 36 cells, both ranges and the inventories match the **document_aligned** India panel and NYC. The report itself does not name the version.
-- A registered descriptive re-analysis (registration committed first, `f09baed`) uses only already-inspected forecasts. Within India, the 2024 and 2025 typed−pooled signs disagree in 20/36 cells, and leave-one-family-out flips the sign in 17/36. Between India and NYC the signs agree in 22/36 cells, and in all 6 TimesFM cells they are opposite. Native 80% coverage is below 0.8 in 85/100 lead-1 family-year clusters, with 0 crossings or invalid endpoints in this cohort.
+- A registered descriptive re-analysis (registration committed first, `f09baed`) uses only already-inspected forecasts. Within India, the 2024 and 2025 typed−pooled signs are opposite in 19/36 cells plus 1 exact tie (corrected from 20; see tie_correction_v2.json), and leave-one-family-out flips the sign in 17/36. Between India and NYC the signs agree in 22/36 cells, are opposite in 11 and tie in 3, and in all 6 TimesFM cells they are opposite. Native 80% coverage is below 0.8 in 85/100 lead-1 family-year clusters, with 0 crossings or invalid endpoints in this cohort.
 - 104 tests passed in a new Python 3.12.13 environment (pinned requirements.txt, SciPy 1.18.1). Foundation packages were not installed and no inference ran.
 - All 25 frozen prospective files are byte-identical to their first-commit blobs. No outcomes were fetched.
 - Ziel (2018) and Arora & Taylor (2018) were verified as missing nearest classical work.

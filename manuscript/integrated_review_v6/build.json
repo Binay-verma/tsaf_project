@@ -1,0 +1,46 @@
+{
+ "created_utc": "2026-10-31T15:27:17.773621+00:00",
+ "status": "Internal review draft v6; not independently reviewed or submission-ready.",
+ "base": {
+  "manuscript/integrated_review_v5/MANUSCRIPT.md": "86e286bc19bd15ada23630ee0117ded63c3e9805695f9185c20816b334a1a8d4"
+ },
+ "edits_applied": [
+  "R3 title",
+  "status",
+  "R2 abstract",
+  "R3 abstract",
+  "R3 abstract end",
+  "R5 closest work",
+  "R1 effective units",
+  "R2 NYC",
+  "R4/R6 year dependence",
+  "R4 NYC reversal",
+  "R7 coverage dispersion",
+  "R5 limits",
+  "R8 data statement",
+  "R5 references",
+  "R6 appendix tables"
+ ],
+ "v5_tables_unchanged": [
+  "Table 1",
+  "Table 2",
+  "Table 3",
+  "Table 4",
+  "Table 5",
+  "Table 6",
+  "Table A1",
+  "Table A2",
+  "Table A3"
+ ],
+ "inputs": {
+  "review/journal_seven_tasks_20261031_v1/descriptive_reanalysis_result.json": "8b367830795acab598bde2f3837be574feb07bc1054b7133a334f34f0e27b6dc",
+  "review/journal_seven_tasks_20261031_v1/B_cluster_summary.csv": "510a44ca4c6ef73d738a7d6f5666a0c592be78a72822e6a3b5f64e0bfcb6f7f5",
+  "review/journal_seven_tasks_20261031_v1/C_native_cluster_coverage.csv": "f4a28ddd10326b7fa51b61ec8a1226629c924f94272e4454037545ec8f4827f9",
+  "review/journal_seven_tasks_20261031_v1/registration_descriptive_reanalysis.json": "2bd5f3e07945f41c59ddc74cad2247c34f38089689226b69dcd8c449a1072624"
+ },
+ "outputs": {
+  "MANUSCRIPT.md": "cbc4e516c5d557765b912e4625cfbf3e5529465dc2f3fe86cb6a74e800832323",
+  "Integrated_Review_Binay_Verma_v6.docx": "319794625c49b299a3f7cb787527f5d2f62f29add482c16dd0e087aa28c8ca71"
+ },
+ "renderer": "pandoc + LibreOffice (differs from the v4/v5 python-docx builder styling)"
+}
