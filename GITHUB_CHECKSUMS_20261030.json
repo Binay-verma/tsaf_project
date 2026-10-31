@@ -1,6 +1,6 @@
 {
   "description": "Final reviewed checkpoint: all historical studies/v5paper; unactivated rolling runtime/scalar audit/actualmodelAPIpass; public andfreshlocalclones3172files/104tests. External/clockgatesremainopen. Finalfollowupmetadataonly.",
-  "updated_utc": "2026-10-31T16:20:37.135783+00:00",
+  "updated_utc": "2026-10-31T17:54:53.290563+00:00",
   "files": {
     ".github/workflows/prospective-evaluation.yml": "c0bbe903d75456a5f1fc7e82fcaabc29df2bbd59c75117e24be6670138795739",
     ".gitignore": "bbf77a0288645d6e0013c3ea6898864263d33fad4132520dc67a21a59f76a279",
@@ -54,7 +54,7 @@
     "START_HERE.md": "600642ed83e13b004f88914e4b387262c5b48b68b440d6c9d733b21ee2656fec",
     "USER_LITERATURE_SURVEY.pdf": "29831040a8f062a684db9e09400717bdcb9f8da367bbd0d253f3b3e036f4dfbb",
     "VALIDATION_REPORT.md": "967f5a6ac930bbc2a98cb06ca38bc06f621713d336721aa6ba2144d5fa7336fc",
-    "WORK_LOG.md": "0d812e20799667369d3d7a867bdbd6234a754f41518f5478c1ebcb893ccb6f7f",
+    "WORK_LOG.md": "8b60a7953815a4f87f7ada4433cd34af2620cd7c7b003c3b7e6504072caf1415",
     "data/clean_daily_energy_GWh.csv": "69fc12519e22e84699cd586bcca829f9b4e799226a3c62113ee7555edd3e0440",
     "data/exploratory_calendar.csv": "32dbf0b5bf934b84fca1d9a4015c6b6339b04f5dd99621a9a499f01f516a31e1",
     "data/external/._daily_agg_IND_demand.csv": "3b58a247406813635c7f8da9c0b12da012f57c431a37570ace70ae930361099b",
@@ -3188,7 +3188,7 @@
     "review/journal_seven_tasks_20261031_v1/C_native_cluster_coverage.csv": "f4a28ddd10326b7fa51b61ec8a1226629c924f94272e4454037545ec8f4827f9",
     "review/journal_seven_tasks_20261031_v1/D_nyc_cells.csv": "90b748ef0b706c250c1aa18a5b66aedb4ca9dd244f8f855c5a599ddedc33546f",
     "review/journal_seven_tasks_20261031_v1/REVIEWER_PACKET_v6.md": "9b81a149965f2cabdf17fb4bf64dcfb7525b121e05dc675750ea739183acc20a",
-    "review/journal_seven_tasks_20261031_v1/SEVEN_TASK_LEDGER.md": "fc417ee17f710d348ed5952ed4c57df52280a6a6a0f3dbf3f99fa8ad47ccc49c",
+    "review/journal_seven_tasks_20261031_v1/SEVEN_TASK_LEDGER.md": "cccd561ef1024a0ffc93937fdd439f54d9927b844e20b3b7dc67b7140a4a26e1",
     "review/journal_seven_tasks_20261031_v1/descriptive_reanalysis.py": "4a68e0fda55d987c57d85b4d1ba30c05f421b1d2e920eecddccb99ae538a6147",
     "review/journal_seven_tasks_20261031_v1/descriptive_reanalysis_result.json": "8b367830795acab598bde2f3837be574feb07bc1054b7133a334f34f0e27b6dc",
     "review/journal_seven_tasks_20261031_v1/pytest_py312_core.txt": "87094e10666f530dc0d675f9266c574208d2fe391f543516b98bc614c6bd098e",
@@ -3253,7 +3253,15 @@
     "results/rolling_confirmation_timing_v2/README.md": "703ed08c99cff0bb35e338d446b4bbba6ce223ca12756c4a664969fe2a339313",
     "results/rolling_confirmation_timing_v2/registration.json": "df4304a46f87ef34ed369220056521e9e630fda39af718fb91f8c09a3e7ca44c",
     "src/rolling_execution_v2_timing.py": "335d1b57813cd0d7df0b7ba5782e82b067f1d40d6d66c1bbab8bb839f270fae4",
-    "src/test_rolling_timing_v2.py": "5e7c30edb1b9350dd7c23b039772706892224fbd413376f8b6884ceaa74d3d5e"
+    "src/test_rolling_timing_v2.py": "5e7c30edb1b9350dd7c23b039772706892224fbd413376f8b6884ceaa74d3d5e",
+    "review/calendar_entry_2026_v1/README.md": "7e36e93cc896ef6a8ee4bb7e9caa51b44735b796aa99d14d465c94d1a9feea28",
+    "review/calendar_entry_2026_v1/documents_2026.csv": "f5a7a08670d3e0529d6ed8d1f66d4063b702b92ac6d5ec5523f5bfcd6d5bfa35",
+    "review/calendar_entry_2026_v1/entries_2026.csv": "e085f8fb63a2bf524d1b9dad9bb1c31ad17742ab02d3f96f476fc812403921e1",
+    "src/calendar_package_builder_v1.py": "37a4f4a9f8267ef29308f7df69622d2370f20625dd9d62d1e32144586041bda0",
+    "src/test_calendar_package_builder_v1.py": "5951f08789fcae97a1e7b3c28e186cc043caad5475d9892cac1620e251e09471",
+    "results/singapore_festival_replication_v1/README.md": "9a351d0d7655bb1a13f269ad70b492aeabacd69ea5c6da699017d088c1284499",
+    "src/singapore_replication_v1.py": "530c93e3f7ba0960e55f418d2ed7b8dc7202c41c6877394afb8fddc777a6626b",
+    "src/test_singapore_replication_v1.py": "482d7625013b3916c6af90a3d106794fff2a5e3ec7353629c7c82ce3c4c19736"
   },
   "live_progress_files_excluded": [],
   "completed_progress_policy": "All staged progress files are now closed/immutable; original transient5a7467f snapshots/failures remain retained."
