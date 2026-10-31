@@ -1,0 +1,66 @@
+{
+ "experiment": "singapore_festival_replication_v1",
+ "created_utc": "2026-10-31T14:52:26.999934+00:00",
+ "status": "DRAFT_NOT_REGISTERED. Becomes a registration only after (1) the author reviews the rights notes below, (2) the file is pushed to the public repository and the remote SHA is verified, and (3) the MOM calendar files are acquired, hashed and pushed. Until then NO EMA demand records may be acquired. Retrospective/exploratory even after registration.",
+ "author": "Binay Verma. Drafted with an AI assistant; not independently reviewed.",
+ "question": "Do the typed-versus-pooled orderings seen in India and NYC repeat for daily electricity in a separate country, operator lineage and festival calendar, under the same channel budget, arms, leads and controls?",
+ "source_selection": {
+  "rule": "Chosen on provenance, rights, history and calendar criteria only. No demand values for any candidate were viewed in this session.",
+  "criteria": [
+   "primary system-operator or regulator publisher",
+   "explicit open terms permitting redistribution of derived files",
+   "at least 730 complete days before the first 2024 origin",
+   "primary official calendar of named moving festivals with several families and annual recurrence",
+   "lineage independent of GRID-INDIA, NESO and MTA"
+  ],
+  "candidates": {
+   "Singapore_EMA_half_hourly_system_demand": {
+    "publisher": "Energy Market Authority",
+    "page": "https://ema.gov.sg/resources/statistics/half-hourly-system-demand-data",
+    "terms": "EMA Terms of Use, section 'Terms of Use of Datasets' permits use/copy/distribute/adapt with attribution and licence link (https://ema.gov.sg/terms-of-use). UNRESOLVED: confirm this statistics page falls under the datasets terms rather than the general website-materials clause.",
+    "calendar": "Ministry of Manpower public holidays, published as open data on data.gov.sg under the Singapore Open Data Licence v1.0 (e.g. https://data.gov.sg/datasets/d_149b61ad0a22f61c09dc80f2df5bbec8/view for 2026).",
+    "history": "UNVERIFIED: page exposes year/month filters; coverage start must be confirmed by a metadata-only probe.",
+    "decision": "selected, conditional on history and terms checks"
+   },
+   "Taiwan_Taipower_supply_demand": {
+    "publisher": "Taiwan Power Company",
+    "catalogue": "data.gov.tw dataset 19995 (robots-blocked; mirror https://ark.nchc.org.tw/en/dataset/best_wish19995)",
+    "terms": "Open Government Data License v1.0 per mirror",
+    "history": "mirror lists coverage 'previous year and current year' and no resources; field definitions and units not stated",
+    "decision": "not selected now: insufficient verified history/fields; may be revisited"
+   }
+  }
+ },
+ "target": "Daily energy GWh = sum over the 48 half-hourly system-demand MW values x 0.5 h / 1000. Only days with all 48 positive recorded periods (46/50 not applicable; Singapore has no DST). Incomplete days are context gaps and never scored; no imputation of scored labels. This is system demand as published, not unconstrained demand.",
+ "calendar": {
+  "families": [
+   "Chinese_New_Year",
+   "Hari_Raya_Puasa",
+   "Vesak_Day",
+   "Hari_Raya_Haji",
+   "Deepavali"
+  ],
+  "anchors": "MOM gazetted date is the anchor. Chinese New Year day 2 and any MOM in-lieu Monday (holiday on Sunday) are subsidiary anchors of the same family. Dates taken only from MOM files for 2022-2026, hashed before demand acquisition; no library or secondary dates.",
+  "non_family_holidays": "New Year, Good Friday, Labour Day, National Day, Christmas and any ad-hoc holiday are not event features (matching the five-channel budget) but their +/-3-day windows are excluded from the ordinary cohort.",
+  "families_chosen_because": "the five recurring moving festival holidays in the official list; chosen by calendar structure before any data, not by forecast error"
+ },
+ "cases": {
+  "event": "Complete +/-3-day windows around each family anchor for 2024 and 2025 (primary, matching the Indian years) at decision leads 1/7/14. 2026 occurrences with complete windows on or before the last complete source day are a separately reported secondary cohort (after the Chronos-2 weight upload, before the TimesFM-3 upload). Deepavali 2026 is excluded here and would need its own prospective protocol.",
+  "overlap": "If two family windows overlap, the target day is assigned to both flags as in the Indian ledger and listed in an overlap table; no case is dropped for overlap.",
+  "ordinary": "First eligible rotating weekday per month for 2024-2025, excluding all public-holiday +/-3-day windows."
+ },
+ "availability": "Fixed 7-day observation buffer, as in mta_holiday_v1: decision leads 1/7/14 map to model steps 8/14/21; intervening labels unobserved and unscored. Declared now because EMA publication lag is unknown; not tuned.",
+ "models_and_arms": "Same six variants (rich Ridge, SARIMAX, stable float32 LightGBM, leaf-2 tree sensitivity, Chronos-2, TimesFM-3) with the same pinned weights/code, 730-day context, seeds and eight arms (calendar, zero5, day5, pooled_day5, window5, pooled_window5, placebo_day5, placebo_window5) plus history-only for both foundation models. Local hyperparameters selected by the mta_holiday_v1 past-only validation procedure with selection origins 1 Jan-30 Jun 2023 only.",
+ "scoring": "MASE with fixed pre-year 730-day weekly scale; hierarchy cases within family/year -> years within family -> families equally (single national series). Native 80% coverage, scaled width, pinball, WIS; crossings and invalid intervals retained.",
+ "declared_directional_expectations": {
+  "note": "Generated from already-inspected India and NYC results (review/journal_seven_tasks_20261031_v1). They are expectations to be checked, not confirmed findings. No p-values; one country and one series.",
+  "E1": "SARIMAX, day flags, decision lead 1: typed MASE <= pooled MASE",
+  "E2": "Rich Ridge, day flags, decision lead 1: typed <= pooled",
+  "E3": "Chronos-2, day flags, decision lead 1: pooled <= typed",
+  "E4": "TimesFM-3, day flags: no directional expectation (India and NYC conflict); report only",
+  "E5": "SARIMAX, decision lead 1: typed-day MASE < calendar MASE (the only event-versus-calendar ordering at lead 1 shared by India and NYC for the local models; Ridge improves on calendar in India but not NYC)",
+  "reporting": "For each expectation report the balanced sign, the family-year cluster sign counts and both years separately. A reversal is reported as a failed expectation."
+ },
+ "data_sharing": "Until EMA terms coverage is confirmed, keep raw and derived demand values out of the public repository; publish code, protocol, calendar files (SODL attribution) and hashes only.",
+ "not_done": "No EMA records acquired; no MOM files acquired; no code implemented; no forecasts."
+}

@@ -1,0 +1,214 @@
+{
+ "registration": "review/journal_seven_tasks_20261031_v1/registration_descriptive_reanalysis.json",
+ "A": {
+  "summary": {
+   "typed_minus_pooled": {
+    "no_band": {
+     "cells": 36,
+     "both_decided": 36,
+     "same_sign": 22,
+     "opposite_sign": 14,
+     "near_zero_in_either": 0
+    },
+    "band_0.005": {
+     "cells": 36,
+     "both_decided": 23,
+     "same_sign": 16,
+     "opposite_sign": 7,
+     "near_zero_in_either": 13
+    },
+    "ridge": {
+     "cells": 6,
+     "both_decided": 6,
+     "same_sign": 6,
+     "opposite_sign": 0,
+     "near_zero_in_either": 0
+    },
+    "sarimax": {
+     "cells": 6,
+     "both_decided": 6,
+     "same_sign": 4,
+     "opposite_sign": 2,
+     "near_zero_in_either": 0
+    },
+    "lightgbm": {
+     "cells": 6,
+     "both_decided": 6,
+     "same_sign": 2,
+     "opposite_sign": 4,
+     "near_zero_in_either": 0
+    },
+    "lightgbm_capacity2": {
+     "cells": 6,
+     "both_decided": 6,
+     "same_sign": 4,
+     "opposite_sign": 2,
+     "near_zero_in_either": 0
+    },
+    "chronos": {
+     "cells": 6,
+     "both_decided": 6,
+     "same_sign": 6,
+     "opposite_sign": 0,
+     "near_zero_in_either": 0
+    },
+    "timesfm": {
+     "cells": 6,
+     "both_decided": 6,
+     "same_sign": 0,
+     "opposite_sign": 6,
+     "near_zero_in_either": 0
+    }
+   },
+   "typed_minus_calendar": {
+    "no_band": {
+     "cells": 36,
+     "both_decided": 36,
+     "same_sign": 23,
+     "opposite_sign": 13,
+     "near_zero_in_either": 0
+    },
+    "band_0.005": {
+     "cells": 36,
+     "both_decided": 20,
+     "same_sign": 12,
+     "opposite_sign": 8,
+     "near_zero_in_either": 16
+    },
+    "ridge": {
+     "cells": 6,
+     "both_decided": 6,
+     "same_sign": 4,
+     "opposite_sign": 2,
+     "near_zero_in_either": 0
+    },
+    "sarimax": {
+     "cells": 6,
+     "both_decided": 6,
+     "same_sign": 6,
+     "opposite_sign": 0,
+     "near_zero_in_either": 0
+    },
+    "lightgbm": {
+     "cells": 6,
+     "both_decided": 6,
+     "same_sign": 4,
+     "opposite_sign": 2,
+     "near_zero_in_either": 0
+    },
+    "lightgbm_capacity2": {
+     "cells": 6,
+     "both_decided": 6,
+     "same_sign": 3,
+     "opposite_sign": 3,
+     "near_zero_in_either": 0
+    },
+    "chronos": {
+     "cells": 6,
+     "both_decided": 6,
+     "same_sign": 2,
+     "opposite_sign": 4,
+     "near_zero_in_either": 0
+    },
+    "timesfm": {
+     "cells": 6,
+     "both_decided": 6,
+     "same_sign": 4,
+     "opposite_sign": 2,
+     "near_zero_in_either": 0
+    }
+   },
+   "pooled_minus_calendar": {
+    "no_band": {
+     "cells": 36,
+     "both_decided": 36,
+     "same_sign": 22,
+     "opposite_sign": 14,
+     "near_zero_in_either": 0
+    },
+    "band_0.005": {
+     "cells": 36,
+     "both_decided": 27,
+     "same_sign": 15,
+     "opposite_sign": 12,
+     "near_zero_in_either": 9
+    },
+    "ridge": {
+     "cells": 6,
+     "both_decided": 6,
+     "same_sign": 3,
+     "opposite_sign": 3,
+     "near_zero_in_either": 0
+    },
+    "sarimax": {
+     "cells": 6,
+     "both_decided": 6,
+     "same_sign": 3,
+     "opposite_sign": 3,
+     "near_zero_in_either": 0
+    },
+    "lightgbm": {
+     "cells": 6,
+     "both_decided": 6,
+     "same_sign": 5,
+     "opposite_sign": 1,
+     "near_zero_in_either": 0
+    },
+    "lightgbm_capacity2": {
+     "cells": 6,
+     "both_decided": 6,
+     "same_sign": 4,
+     "opposite_sign": 2,
+     "near_zero_in_either": 0
+    },
+    "chronos": {
+     "cells": 6,
+     "both_decided": 6,
+     "same_sign": 5,
+     "opposite_sign": 1,
+     "near_zero_in_either": 0
+    },
+    "timesfm": {
+     "cells": 6,
+     "both_decided": 6,
+     "same_sign": 2,
+     "opposite_sign": 4,
+     "near_zero_in_either": 0
+    }
+   },
+   "india_typed_minus_calendar_count_below_zero": 17,
+   "india_pooled_minus_calendar_count_below_zero": 21,
+   "nyc_typed_minus_calendar_count_below_zero": 16,
+   "nyc_pooled_minus_calendar_count_below_zero": 8
+  }
+ },
+ "B_reconstruction_max_abs_diff": 2.220446049250313e-16,
+ "B_inventory": {
+  "unique_target_dates": 75,
+  "state_date_episodes": 176,
+  "families": [
+   "Diwali",
+   "Dussehra",
+   "Ganesh_Chaturthi",
+   "Holi",
+   "Ugadi_Gudi_Padwa"
+  ],
+  "years": [
+   "2024",
+   "2025"
+  ],
+  "family_year_clusters": 10,
+  "family_state_year_cells": 24
+ },
+ "B_overall": {
+  "cells": 36,
+  "cells_where_the_two_years_disagree_in_sign": 20,
+  "cells_with_any_leave_one_family_out_sign_flip": 17
+ },
+ "C_rows": 30,
+ "D": {
+  "rows": 144,
+  "pooled_better": 36,
+  "typed_better": 96
+ }
+}
