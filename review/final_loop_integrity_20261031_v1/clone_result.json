@@ -1,0 +1,17 @@
+{
+  "status": "pass",
+  "checked_utc": "2026-10-31T04:27:35.917157+00:00",
+  "checked_commit": "5d600bffc7fb1eea6f2275648a55462362f84d54",
+  "public_github_fetch_checkout": true,
+  "fresh_local_no_hardlinks_clone": true,
+  "manifest_files_each": 3172,
+  "unit_tests_each": 104,
+  "python": "/workspace/tsfm-clean-review/bin/python",
+  "scope": "Final committedtree rebuilt/verified from GitHub and from fresh localclone using existing isolatedno-system-site-packages environment onSAME machine. No weights/privateNESOarchives/modelrerun or independenthumanreview claimed. Only final reviewmetadata/docs follow thissource-testedcommit.",
+  "log_sha256": {
+    "fresh_local_clone_104_tests.log": "c54ca3c5f2cda280f69da61cec348025f55631c888bbad459fe99a26cfe0835c",
+    "public_clone_104_tests.log": "814e97935391951d7b7d2718c085a6ed1cf0b9bf257e8a2f3de66280c64b23fc",
+    "public_clone_manifest.log": "b51263dd591f294f6b66afdfa5f7b3fbc1fc4737defaf87f03bbce3ef4652755",
+    "fresh_local_clone_manifest.log": "b51263dd591f294f6b66afdfa5f7b3fbc1fc4737defaf87f03bbce3ef4652755"
+  }
+}
