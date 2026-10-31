@@ -2,6 +2,33 @@
 
 Updated 30 October 2026. Continue `/workspace/tsaf_project`; do not restart or use the stale `/workspace/tsfm_india` tree. Earlier checkpoint sections below retain their historical status. Current instructions and completed evidence are summarized here.
 
+## Second pass — 31 October 2026 evening (Claude; still LOCAL commits, not pushed)
+
+- Repository audit: 46 commits scanned. No deletions; results changes confined to AUTOMATION.md wording; post-freeze code changes were benign and pre-outcome; no secrets; pyflakes clean except legacy star imports. All frozen scorers dry-run to PENDING with registered hashes matching.
+- Correction: exact ties had been counted as sign disagreements. India year-opposite count is 19/36 (+1 tie), India–NYC opposite is 11/36 (+3 ties). Original outputs preserved; `review/journal_seven_tasks_20261031_v1/tie_correction_v2.json`.
+- NEW `manuscript/integrated_review_v6/` built by `src/build_integrated_review_v6.py` from the unchanged v5: R1–R8 applied, 9 v5 tables byte-identical, Appendix A4–A5 added. Separate `src/audit_integrated_review_v6.py` passes. Rendered with pandoc + LibreOffice, so styling differs from v5.
+- `review/india2026_calendar_feasibility_v2/`: 2026 Delhi/Karnataka/Maharashtra notifications located on SECONDARY hosts. Entries are machine-extracted and unverified; no feature dates were created. The rolling activation rule (complete 2024–2027 package) is not satisfiable before 2027 state lists are issued. The author must choose A (record misses) or B (register a new timing rule before 16 Nov).
+- `CLOSEST_METHOD_MAP.md`: Ziel's additive single and per-holiday dummies correspond to the existing pooled/typed local arms; the replacing variant is missing.
+NEXT: push the bundle; author decisions (POSOCO public file; rolling option A/B; v6 title); a human verifies the 2026 PDFs; C3 Singapore metadata; C5 scoring on/after 12 Nov 05:30 IST.
+
+## Latest checkpoint — 31 October 2026, seven-task journal session (Claude, Colab route)
+
+Branch `journal-seven-tasks-20261031-claude` from `cb03c72`; LOCAL commits only. **Not pushed**: this session had no GitHub push access. Delivered as a git bundle; push from Colab (see `review/journal_seven_tasks_20261031_v1/SEVEN_TASK_LEDGER.md` section 6). Read that ledger first.
+
+Done and evidenced:
+- The Colab claim audit (`review/journal_claim_audit_20261031T142556189989Z`) was verified independently. All 36 cells, both ranges and the inventories match the **document_aligned** India panel and NYC. The report itself does not name the version.
+- A registered descriptive re-analysis (registration committed first, `f09baed`) uses only already-inspected forecasts. Within India, the 2024 and 2025 typed−pooled signs are opposite in 19/36 cells plus 1 exact tie (corrected from 20; see tie_correction_v2.json), and leave-one-family-out flips the sign in 17/36. Between India and NYC the signs agree in 22/36 cells, are opposite in 11 and tie in 3, and in all 6 TimesFM cells they are opposite. Native 80% coverage is below 0.8 in 85/100 lead-1 family-year clusters, with 0 crossings or invalid endpoints in this cohort.
+- 104 tests passed in a new Python 3.12.13 environment (pinned requirements.txt, SciPy 1.18.1). Foundation packages were not installed and no inference ran.
+- All 25 frozen prospective files are byte-identical to their first-commit blobs. No outcomes were fetched.
+- Ziel (2018) and Arora & Taylor (2018) were verified as missing nearest classical work.
+- `data/external/POSOCO_data.csv` (curator compilation, no licence found) has been publicly tracked since `eb6e9b0`. The v5 data statement saying unresolved raw archives are excluded is therefore inaccurate. History and visibility were NOT changed.
+
+Drafts only: the Singapore replication `results/singapore_festival_replication_v1/DRAFT_PROTOCOL.json` (NOT registered; no EMA or MOM records acquired; no adapter written); `REVIEWER_PACKET_v6.md`; the contribution statement and manuscript revisions R1–R8. The manuscript itself was not edited.
+
+Open/unverified: the public push time of `e7d9423` relative to the NYC acquisition at 20:24:51 UTC; the live workflow state; EMA history start and terms scope; primary 2027 state calendars (only secondary lists found); the curator reply; a professor or independent reviewer. Time gates are unchanged: frozen scoring from 12 Nov 2026 00:00 UTC, first rolling window 16 Nov 2026 09:00 UTC.
+
+NEXT: (1) push the bundle from Colab and verify the remote SHA; (2) run Colab cell C2 (push events/workflow state) and C3 (EMA metadata, no values); (3) the author decides on R1–R8 and the public-file scope; (4) only then register Singapore and implement its adapter.
+
 ## Current goal and authorization
 
 The user reports their professor expects a journal paper, targets a Q1 venue without naming one, and explicitly requests continuing executable phases. Completed tasks should be committed and pushed to the existing public `Binay-verma/tsaf_project` repository. The prior sharing hold was superseded by explicit push authorization. Do not change visibility, publish an environment or re-enable the deliberately paused prospective workflow. No new future actuals were retrieved. The author reports manually emailing the curator; do not send a duplicate. Binay Verma is author/requester, not an independent reviewer. No professor authorship or sign-off is assumed.

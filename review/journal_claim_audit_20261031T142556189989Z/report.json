@@ -1,0 +1,129 @@
+{
+  "status": "preliminary_evidence_audit_for_review",
+  "india": {
+    "registered_contrasts": 36,
+    "typed_minus_pooled_min": -0.03970895731458857,
+    "typed_minus_pooled_max": 0.055643822464000015,
+    "lead_1_table": [
+      {
+        "model": "ridge",
+        "calendar": 0.5769932821678234,
+        "typed_day": 0.453174263853324,
+        "pooled_day": 0.460934159488105
+      },
+      {
+        "model": "sarimax",
+        "calendar": 0.5730102527889535,
+        "typed_day": 0.4253267449743815,
+        "pooled_day": 0.45344930959864704
+      },
+      {
+        "model": "lightgbm",
+        "calendar": 0.6986510150499781,
+        "typed_day": 0.6948306866582467,
+        "pooled_day": 0.6610950638432437
+      },
+      {
+        "model": "lightgbm_capacity2",
+        "calendar": 0.685818396652914,
+        "typed_day": 0.6495177774051887,
+        "pooled_day": 0.6046901417699485
+      },
+      {
+        "model": "chronos",
+        "calendar": 0.5376717194431114,
+        "typed_day": 0.5200909192640016,
+        "pooled_day": 0.5175217147651534
+      },
+      {
+        "model": "timesfm",
+        "calendar": 0.5514769249206839,
+        "typed_day": 0.4800458684075763,
+        "pooled_day": 0.42458703720392255
+      }
+    ]
+  },
+  "nyc": {
+    "registered_contrasts": 36,
+    "typed_minus_pooled_min": -0.34441467273633686,
+    "typed_minus_pooled_max": 0.15136345851114164,
+    "lead_1_table": [
+      {
+        "model": "ridge",
+        "calendar": 0.997184593351697,
+        "typed_day": 1.0045086314891312,
+        "pooled_day": 1.1688737301364474
+      },
+      {
+        "model": "sarimax",
+        "calendar": 0.9994748474248657,
+        "typed_day": 0.7941685037584816,
+        "pooled_day": 1.0406670146564685
+      },
+      {
+        "model": "lightgbm",
+        "calendar": 0.9193954774201627,
+        "typed_day": 0.9193954774201627,
+        "pooled_day": 0.9193954774201627
+      },
+      {
+        "model": "lightgbm_capacity2",
+        "calendar": 0.8481851470493829,
+        "typed_day": 0.8460976704787437,
+        "pooled_day": 0.8781920075045
+      },
+      {
+        "model": "chronos",
+        "calendar": 0.932759272956237,
+        "typed_day": 0.8638396262392908,
+        "pooled_day": 0.7600338662752835
+      },
+      {
+        "model": "timesfm",
+        "calendar": 0.8839370745130365,
+        "typed_day": 0.7563552804805367,
+        "pooled_day": 0.7914274803284955
+      }
+    ]
+  },
+  "india_case_inventory": {
+    "forecast_cases": 528,
+    "series": [
+      "Delhi",
+      "Karnataka",
+      "Maharashtra"
+    ],
+    "years": [
+      "2024",
+      "2025"
+    ],
+    "families": [
+      "Diwali",
+      "Dussehra",
+      "Ganesh_Chaturthi",
+      "Holi",
+      "Ugadi_Gudi_Padwa"
+    ],
+    "unique_target_dates": 75,
+    "family_series_year_cells": 24,
+    "warning": "These counts do not establish independent replications."
+  },
+  "nyc_case_inventory": {
+    "forecast_cases": 84,
+    "series": [
+      "MTA_Bus",
+      "MTA_Subway"
+    ],
+    "years": [
+      "2026"
+    ],
+    "families": [
+      "Columbus_Day",
+      "Yom_Kippur"
+    ],
+    "unique_target_dates": 14,
+    "family_series_year_cells": 4,
+    "warning": "These counts do not establish independent replications."
+  },
+  "interpretation": "Positive typed-minus-pooled MASE favours pooling. Negative values favour separate identities. India lead1 uses model step1; NYC decision lead1 uses model step8. Cross-dataset MASE levels are not directly comparable measures of task difficulty."
+}

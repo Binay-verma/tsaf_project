@@ -1,0 +1,16 @@
+{
+ "status": "pass",
+ "failures": [],
+ "changed_v5_paragraphs": 10,
+ "recomputed": {
+  "years_disagree": 19,
+  "lofo_flip": 17,
+  "source_opposite": 11,
+  "source_same": 22,
+  "source_ties": 3,
+  "timesfm_opposite": 6,
+  "coverage_below": 85,
+  "coverage_cells": 100,
+  "table_A4_rows": 12
+ }
+}
