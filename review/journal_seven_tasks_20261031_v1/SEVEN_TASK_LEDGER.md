@@ -7,6 +7,12 @@ Branch `journal-seven-tasks-20261031-claude`, local commits only. **Nothing was 
 
 > **Correction (31 Oct 2026, later the same day).** The first version of this ledger counted exact ties as sign disagreements. The corrected counts are 19/36 opposite year signs plus 1 tie (not 20), and 11/36 opposite India–NYC signs plus 3 ties (not 14 implied). See `tie_correction_v2.json`; the original outputs are preserved.
 
+## 000. Third pass — 31 October 2026, 23:30 IST
+
+- **Calendar package builder** (`src/calendar_package_builder_v1.py`, 6 tests). It copies the reviewed, corrected 2024–2025 ledger and placebos unchanged, and accepts 2026+ dates **only** as typed by a person from a primary PDF. It checks printed weekdays, state scope, coverage, the reader's name and that each document is a real PDF; derives fixed-rule placebos; and validates with the unchanged rolling validator. A synthetic 2026 fixture plus the real 2024–2025 rows pass validation for issuance 0. A blank form is at `review/calendar_entry_2026_v1/`.
+- **Singapore layer** (`src/singapore_replication_v1.py`, 7 tests): the calendar, case, feature and daily-energy code, ready for when C3 passes. The model runners and real file formats are still to do. No data was touched.
+- **Your next actions:** (1) push `2c7b267` and later; (2) download the three 2026 state PDFs, fill in `review/calendar_entry_2026_v1/` and run the build command in its README; (3) C3; (4) source-rights/report-day evidence for activation; (5) C5 on/after 12 Nov.
+
 ## 00. Decisions taken — 31 October 2026, 21:47 IST (the author delegated all three)
 
 | Decision | Choice | What was done | What it does not do |
