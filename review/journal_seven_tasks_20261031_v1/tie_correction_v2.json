@@ -1,0 +1,38 @@
+{
+ "defect": "Correction v2 to the registered descriptive re-analysis (original outputs preserved unchanged).\n\nDefect found 31 Oct 2026: descriptive_reanalysis.py classified an exact zero contrast as 'typed better'\n(and the year/leave-one-family-out comparisons used (x > 0) != (y > 0)), so exact ties were counted\nas sign disagreements. Here an exact tie (|x| < 1e-12) is its own category. No other rule changes.",
+ "original_outputs_preserved": true,
+ "A_typed_minus_pooled": {
+  "cells": 36,
+  "same_sign": 22,
+  "opposite_sign": 11,
+  "exact_tie_in_either": 3,
+  "timesfm_opposite": 6
+ },
+ "A_typed_minus_calendar": {
+  "cells": 36,
+  "same_sign": 19,
+  "opposite_sign": 11,
+  "exact_tie_in_either": 6,
+  "timesfm_opposite": 2
+ },
+ "A_pooled_minus_calendar": {
+  "cells": 36,
+  "same_sign": 19,
+  "opposite_sign": 14,
+  "exact_tie_in_either": 3,
+  "timesfm_opposite": 4
+ },
+ "B_years": {
+  "cells": 36,
+  "opposite_sign": 19,
+  "exact_tie_in_either_year": 1,
+  "tie_cells": [
+   "lightgbm/day/lead1"
+  ]
+ },
+ "B_lofo": {
+  "cells_with_sign_flip": 17,
+  "cells_with_exact_zero_in_lofo_or_balanced": 0,
+  "note": "Flip count unaffected unless a LOFO or balanced value is an exact zero."
+ }
+}

@@ -25,7 +25,7 @@ Known discrepancies that must not be reported as passes: the earlier float64-tre
 ## Questions for the reviewer
 
 1. **Contribution.** Ziel (2018) compared single pooled, grouped and individual holiday dummies for load forecasting. Is extending that question to TSFM covariate channels, with matched zero/placebo controls, a sufficient contribution? Or is it a re-application?
-2. **Instability as the finding.** The typed-versus-pooled ordering changes sign between 2024 and 2025 in 20 of 36 India cells and reverses for TimesFM-3 between India and NYC. Is "the preferred representation is unstable" a defensible primary message given 10 family-year clusters? Is the framing appropriate?
+2. **Instability as the finding.** The typed-versus-pooled ordering has opposite signs in 2024 and 2025 in 19 of 36 India cells (one more is an exact tie) and reverses for TimesFM-3 between India and NYC. Is "the preferred representation is unstable" a defensible primary message given 10 family-year clusters? Is the framing appropriate?
 3. **Statistical unit.** Is reporting signs and ranges per family-year cluster, without p-values, adequate? Is there a dependence-respecting analysis you would require?
 4. **Data and calendar.** Check observation-day versus report-day alignment of the GRID-INDIA-derived series against primary daily PSP reports. Check the Karnataka 2025 correction and the Maharashtra 2022 evidence gap.
 5. **Data sharing.** `data/external/POSOCO_data.csv` (curator compilation; no licence found) is in the public repository. Advise on an appropriate data-availability statement.
