@@ -1,0 +1,56 @@
+{
+ "created_utc": "2026-10-31T14:45:12.304615+00:00",
+ "author": "Binay Verma (analysis prepared by an AI assistant session; not an independent reviewer)",
+ "status": "Descriptive re-analysis of ALREADY INSPECTED retrospective forecasts. Registered before these specific summaries were computed. No new forecasts, sources, cases, models, tuning or untouched-test claim. Results cannot change any frozen forecast or select any future arm.",
+ "inputs": {
+  "india_predictions": {
+   "path": "results/calendar_recenter_recovery_v1/analysis/breadth/event_window/predictions_compared.csv",
+   "sha256": "86772d0ae3af36bf9268e5441d689fd2f07a56514e905a1097e0ea00f6d95d81"
+  },
+  "india_metrics": {
+   "path": "results/calendar_recenter_recovery_v1/analysis/breadth/event_window/metrics_balanced.csv",
+   "sha256": "e6f4ca418cbfce3c476c9f74dce391f103394cd4a5b23b3fcd16b569f5a7c948"
+  },
+  "india_native_cases": {
+   "path": "results/calendar_recenter_recovery_v1/analysis/breadth/event_window/native_uncertainty_cases.csv",
+   "sha256": "512e068e108abfe9157f8e4994280c991e63bf6c9ec3bdd7e9e60fec0f2ff5b9"
+  },
+  "nyc_predictions": {
+   "path": "results/mta_holiday_recovery_v1/analysis/event_window/predictions_compared.csv",
+   "sha256": "ef0ba9c4797f500a945363cd08c98d4fca0bc49e181c597cb2a1c33529379f22"
+  },
+  "nyc_metrics": {
+   "path": "results/mta_holiday_recovery_v1/analysis/event_window/metrics_balanced.csv",
+   "sha256": "7ae676bf6973ba3d0e6b8e463cd780d2069abb4cb59b3636e1e4d7a760377c7f"
+  },
+  "nyc_contrasts_series_year": {
+   "path": "results/mta_holiday_recovery_v1/analysis/event_window/contrasts_series_year.csv",
+   "sha256": "7e091aaafcf1f26fbbe2f80216b15ea7d57014685ec398ca08259ebaa517d78c"
+  }
+ },
+ "analyses": {
+  "A_cross_source_sign_agreement": {
+   "purpose": "Priority 1/2: does the typed-versus-pooled ordering and the event-information-versus-calendar ordering repeat across India (document_aligned) and NYC for the same model/representation/decision lead?",
+   "cells": "6 models x {day, window} x decision leads {1,7,14} = 36 typed-minus-pooled cells per source; plus typed-minus-calendar and pooled-minus-calendar per source.",
+   "rule": "Use existing balanced MASE values unchanged. Report sign of each difference per source and count agreements. A difference with |value| < 0.005 MASE is ALSO reported as 'near-zero' (fixed threshold declared here, not tuned); agreement counts are reported both with and without this band.",
+   "interpretation_limit": "Agreement counts are not independent trials (models, leads and representations share cases). No p-value is computed."
+  },
+  "B_cluster_dependence_india": {
+   "purpose": "Priority 7: show the contrast at the level of real event clusters rather than rows.",
+   "reconstruction_check": "First reconstruct balanced MASE from case-level predictions using the declared hierarchy (cases within state/year/family -> states within year -> years within family -> families equally). Must match metrics_balanced.csv to 1e-12 for every document_aligned model/arm/lead; otherwise stop and report failure.",
+   "clusters": "family x year (10 groups; states averaged equally within each), year (2), family (5).",
+   "outputs": "typed-minus-pooled per cluster for every model/representation/lead; count of clusters favouring pooling (>0), typed (<0); leave-one-family-out and leave-one-year-out balanced contrasts (min/max); unique target dates; state-date episodes.",
+   "inference": "No bootstrap, t-test or p-value. Two event years make interval estimates for annual generalisation uninformative; years and families share states, weather and source vintage."
+  },
+  "C_native_interval_clusters": {
+   "purpose": "Priority 7: dispersion of native 80% coverage across family-year clusters, reported with width and WIS and invalid/crossing counts.",
+   "scope": "Chronos-2 and TimesFM-3, document_aligned, arms calendar/day5/pooled_day5/window5/pooled_window5, all three leads.",
+   "rule": "Cluster coverage = mean over states of case-mean coverage80 within family-year. Rows with invalid80 retained and counted; if any case in a cluster has an undefined interval quantity, that cluster value is reported as undefined. No sorting, clipping or recalibration."
+  },
+  "D_nyc_cells": {
+   "purpose": "Priority 7: report the 4 NYC family-mode cells as cells, without treating them as independent.",
+   "rule": "Copy typed-minus-pooled per series/family/decision lead from contrasts_series_year.csv; count signs."
+  }
+ },
+ "not_done": "No new outcome acquisition. No change to frozen prospective files."
+}
