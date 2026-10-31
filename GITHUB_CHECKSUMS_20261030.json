@@ -1,6 +1,6 @@
 {
   "description": "Final reviewed checkpoint: all historical studies/v5paper; unactivated rolling runtime/scalar audit/actualmodelAPIpass; public andfreshlocalclones3172files/104tests. External/clockgatesremainopen. Finalfollowupmetadataonly.",
-  "updated_utc": "2026-10-31T16:20:37.135783+00:00",
+  "updated_utc": "2026-10-31T17:52:57.805820+00:00",
   "files": {
     ".github/workflows/prospective-evaluation.yml": "c0bbe903d75456a5f1fc7e82fcaabc29df2bbd59c75117e24be6670138795739",
     ".gitignore": "bbf77a0288645d6e0013c3ea6898864263d33fad4132520dc67a21a59f76a279",
@@ -3253,7 +3253,12 @@
     "results/rolling_confirmation_timing_v2/README.md": "703ed08c99cff0bb35e338d446b4bbba6ce223ca12756c4a664969fe2a339313",
     "results/rolling_confirmation_timing_v2/registration.json": "df4304a46f87ef34ed369220056521e9e630fda39af718fb91f8c09a3e7ca44c",
     "src/rolling_execution_v2_timing.py": "335d1b57813cd0d7df0b7ba5782e82b067f1d40d6d66c1bbab8bb839f270fae4",
-    "src/test_rolling_timing_v2.py": "5e7c30edb1b9350dd7c23b039772706892224fbd413376f8b6884ceaa74d3d5e"
+    "src/test_rolling_timing_v2.py": "5e7c30edb1b9350dd7c23b039772706892224fbd413376f8b6884ceaa74d3d5e",
+    "review/calendar_entry_2026_v1/README.md": "7e36e93cc896ef6a8ee4bb7e9caa51b44735b796aa99d14d465c94d1a9feea28",
+    "review/calendar_entry_2026_v1/documents_2026.csv": "f5a7a08670d3e0529d6ed8d1f66d4063b702b92ac6d5ec5523f5bfcd6d5bfa35",
+    "review/calendar_entry_2026_v1/entries_2026.csv": "e085f8fb63a2bf524d1b9dad9bb1c31ad17742ab02d3f96f476fc812403921e1",
+    "src/calendar_package_builder_v1.py": "37a4f4a9f8267ef29308f7df69622d2370f20625dd9d62d1e32144586041bda0",
+    "src/test_calendar_package_builder_v1.py": "5951f08789fcae97a1e7b3c28e186cc043caad5475d9892cac1620e251e09471"
   },
   "live_progress_files_excluded": [],
   "completed_progress_policy": "All staged progress files are now closed/immutable; original transient5a7467f snapshots/failures remain retained."
