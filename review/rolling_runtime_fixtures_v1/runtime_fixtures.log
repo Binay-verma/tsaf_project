@@ -1,0 +1,17 @@
+test_all_arms_inputs_ignore_unavailable_and_future_targets (test_rolling_runtime_v1.RollingRuntimeChecks.test_all_arms_inputs_ignore_unavailable_and_future_targets) ... ok
+test_calendar_contract_and_tampered_documents (test_rolling_runtime_v1.RollingRuntimeChecks.test_calendar_contract_and_tampered_documents) ... ok
+test_clock_boundaries_and_year_rollover (test_rolling_runtime_v1.RollingRuntimeChecks.test_clock_boundaries_and_year_rollover) ... ok
+test_complete_attempt_without_seal_blocks_another_capture (test_rolling_runtime_v1.RollingRuntimeChecks.test_complete_attempt_without_seal_blocks_another_capture) ... ok
+test_complete_six_model_fixture_and_native_scoring (test_rolling_runtime_v1.RollingRuntimeChecks.test_complete_six_model_fixture_and_native_scoring) ... ok
+test_early_issue_and_collection_make_no_network_request (test_rolling_runtime_v1.RollingRuntimeChecks.test_early_issue_and_collection_make_no_network_request) ... ok
+test_failed_direct_fit_is_recorded_before_error (test_rolling_runtime_v1.RollingRuntimeChecks.test_failed_direct_fit_is_recorded_before_error) ... ok
+test_first_commit_blob_runtime_and_receipt_guards (test_rolling_runtime_v1.RollingRuntimeChecks.test_first_commit_blob_runtime_and_receipt_guards) ... ok
+test_first_complete_vintage_is_sealed_scored_once_and_never_refetched (test_rolling_runtime_v1.RollingRuntimeChecks.test_first_complete_vintage_is_sealed_scored_once_and_never_refetched) ... ok
+test_late_completion_preserves_failure_without_issuing_predictions (test_rolling_runtime_v1.RollingRuntimeChecks.test_late_completion_preserves_failure_without_issuing_predictions) ... ok
+test_real_local_fixed_parameters_and_past_only_design (test_rolling_runtime_v1.RollingRuntimeChecks.test_real_local_fixed_parameters_and_past_only_design) ... ok
+test_source_units_duplicates_compression_and_unavailable_labels (test_rolling_runtime_v1.RollingRuntimeChecks.test_source_units_duplicates_compression_and_unavailable_labels) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 4.081s
+
+OK

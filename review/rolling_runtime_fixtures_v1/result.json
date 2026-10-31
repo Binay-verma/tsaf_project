@@ -1,0 +1,14 @@
+{
+  "status": "pass",
+  "checked_utc": "2026-10-31T04:11:34.432747+00:00",
+  "working_tests": 102,
+  "isolated_tests": 102,
+  "new_runtime_tests": 12,
+  "scope": "Temporary synthetic six-model432row/768nativepath fixtures, actuallocalRidge/tree fits, cutoffperturbation/source-unit/datedcalendar/firstcommit/firstcompletevintage/latecompletion/missinglabel/nativeinvalidendpoint guards. Provider models mocked in end-to-end fixtures; no actualfutureissuance/data/scores/activation. ActualfoundationAPI smoke separately registered and NOT YET RUN.",
+  "inputs": {
+    "src/rolling_execution_v1.py": "a2501bb2a3e96865fa86f2347e92743f5ff11a529301dba35a3c660f00a2b461",
+    "src/rolling_evidence_v1.py": "571bcb2d56fad2eac153d7dc6180792996fb7df71dbd8d5d35fa5713b72b40b6",
+    "src/rolling_models_v1.py": "7081d73e8ce66b9c80b7b580fbd51ba06be92ceb3641b9e5b601357fa81c99ef",
+    "src/test_rolling_runtime_v1.py": "9af4fc8b75b249f91cc973324b369e0446400c0fba05665881a395cfb2914ce0"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "status": "internal_all_pages_visual_and_render_pass",
+  "checked_utc": "2026-10-31T04:11:34.413143+00:00",
+  "pages": 12,
+  "pages_visually_inspected": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "out_of_page_blocks": [],
+  "replacement_glyphs": 0,
+  "tables": 9,
+  "figures": 3,
+  "data_cells_separately_checked": 291,
+  "numeric_tables_byte_identical_to_v4": 9,
+  "visual_notes": "All12rasterpages individually inspected. Alltables/figures/captions and publicChronosstatus readable, no clipping or missing text. AppendixA3 now onpage12. Internal rendering check, not independenthuman or scientific review.",
+  "sha256": {
+    "Integrated_Review_Binay_Verma.pdf": "5a063858fb9f5806650506ad9a4a9bad7660aba719d104e088695a584d2fb0f6",
+    "Integrated_Review_Binay_Verma.docx": "4dc2d6964b93a3b5e01f7454d4cae920c53f32bbfda208cb9e4b01e1b7c7b42a",
+    "MANUSCRIPT.md": "86e286bc19bd15ada23630ee0117ded63c3e9805695f9185c20816b334a1a8d4",
+    "independent_reporting_audit.json": "4ef4e232e2173cd193fb4089cd06b6a5bf7583aed76b7f9256c15fd721a7a9cd"
+  }
+}

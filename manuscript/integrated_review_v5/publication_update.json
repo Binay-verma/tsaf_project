@@ -1,0 +1,7 @@
+{
+  "completed_utc": "2026-10-31T03:56:07.302991+00:00",
+  "registration_sha256": "8581171866cb6e2f4e341d6942f59423db7d4f662253ca65a681845fc5d299dd",
+  "tables_byte_identical_to_v4": 9,
+  "future_first_commit": "0e4ab330d6a798545f31476f79c59f55975eb8e3",
+  "status": "Numeric audit passes; new PDF all-page visual review pending"
+}

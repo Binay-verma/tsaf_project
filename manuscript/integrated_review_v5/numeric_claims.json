@@ -1,0 +1,10 @@
+{
+  "india_min": -0.03970895731458857,
+  "india_max": 0.055643822464000015,
+  "mta_min": -0.34441467273633686,
+  "mta_max": 0.15136345851114152,
+  "aligned_feature_change_min": -0.001191579661242,
+  "aligned_feature_change_max": 0.0083597350161581,
+  "composition_change_min": -0.0025060153393023,
+  "composition_change_max": 0.0017120271332677
+}
