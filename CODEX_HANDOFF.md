@@ -2,6 +2,10 @@
 
 Updated 30 October 2026. Continue `/workspace/tsaf_project`; do not restart or use the stale `/workspace/tsfm_india` tree. Earlier checkpoint sections below retain their historical status. Current instructions and completed evidence are summarized here.
 
+## Decisions — 31 October 2026 21:47 IST (delegated by the author)
+
+Rolling timing **option B** registered locally: `results/rolling_confirmation_timing_v2/`, `src/rolling_execution_v2_timing.py`, 4 tests. Only the global 2024–2027 calendar check is removed; per-issuance coverage, rights and observation-day prerequisites are unchanged. Still UNACTIVATED. It must be publicly pushed before 2026-11-16T09:00Z to count, and issuance uses the v2 command. `POSOCO_data.csv` is kept with `data/external/RIGHTS_NOTICE.md`. The v6 title is kept. Not pushed from this session.
+
 ## Second pass — 31 October 2026 evening (Claude; still LOCAL commits, not pushed)
 
 - Repository audit: 46 commits scanned. No deletions; results changes confined to AUTOMATION.md wording; post-freeze code changes were benign and pre-outcome; no secrets; pyflakes clean except legacy star imports. All frozen scorers dry-run to PENDING with registered hashes matching.
