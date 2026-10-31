@@ -2,6 +2,15 @@
 
 Updated 30 October 2026. Continue `/workspace/tsaf_project`; do not restart or use the stale `/workspace/tsfm_india` tree. Earlier checkpoint sections below retain their historical status. Current instructions and completed evidence are summarized here.
 
+## Second pass — 31 October 2026 evening (Claude; still LOCAL commits, not pushed)
+
+- Repository audit: 46 commits scanned. No deletions; results changes confined to AUTOMATION.md wording; post-freeze code changes were benign and pre-outcome; no secrets; pyflakes clean except legacy star imports. All frozen scorers dry-run to PENDING with registered hashes matching.
+- Correction: exact ties had been counted as sign disagreements. India year-opposite count is 19/36 (+1 tie), India–NYC opposite is 11/36 (+3 ties). Original outputs preserved; `review/journal_seven_tasks_20261031_v1/tie_correction_v2.json`.
+- NEW `manuscript/integrated_review_v6/` built by `src/build_integrated_review_v6.py` from the unchanged v5: R1–R8 applied, 9 v5 tables byte-identical, Appendix A4–A5 added. Separate `src/audit_integrated_review_v6.py` passes. Rendered with pandoc + LibreOffice, so styling differs from v5.
+- `review/india2026_calendar_feasibility_v2/`: 2026 Delhi/Karnataka/Maharashtra notifications located on SECONDARY hosts. Entries are machine-extracted and unverified; no feature dates were created. The rolling activation rule (complete 2024–2027 package) is not satisfiable before 2027 state lists are issued. The author must choose A (record misses) or B (register a new timing rule before 16 Nov).
+- `CLOSEST_METHOD_MAP.md`: Ziel's additive single and per-holiday dummies correspond to the existing pooled/typed local arms; the replacing variant is missing.
+NEXT: push the bundle; author decisions (POSOCO public file; rolling option A/B; v6 title); a human verifies the 2026 PDFs; C3 Singapore metadata; C5 scoring on/after 12 Nov 05:30 IST.
+
 ## Latest checkpoint — 31 October 2026, seven-task journal session (Claude, Colab route)
 
 Branch `journal-seven-tasks-20261031-claude` from `cb03c72`; LOCAL commits only. **Not pushed**: this session had no GitHub push access. Delivered as a git bundle; push from Colab (see `review/journal_seven_tasks_20261031_v1/SEVEN_TASK_LEDGER.md` section 6). Read that ledger first.

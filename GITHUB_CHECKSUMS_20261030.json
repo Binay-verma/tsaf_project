@@ -1,6 +1,6 @@
 {
   "description": "Final reviewed checkpoint: all historical studies/v5paper; unactivated rolling runtime/scalar audit/actualmodelAPIpass; public andfreshlocalclones3172files/104tests. External/clockgatesremainopen. Finalfollowupmetadataonly.",
-  "updated_utc": "2026-10-31T15:28:15.218685+00:00",
+  "updated_utc": "2026-10-31T15:32:03.038821+00:00",
   "files": {
     ".github/workflows/prospective-evaluation.yml": "c0bbe903d75456a5f1fc7e82fcaabc29df2bbd59c75117e24be6670138795739",
     ".gitignore": "bbf77a0288645d6e0013c3ea6898864263d33fad4132520dc67a21a59f76a279",
@@ -8,7 +8,7 @@
     "ARCHITECTURE.md": "5d2a35ebf3af1004b0647447e803a44a13499032cc5721cc9f7ed0051be713c0",
     "CALENDAR_SEMANTICS_CORRECTION_BRIEF.md": "40978c5eaf0d543d72634ae3da6caac2fb97318476bcfb6c5487b5bddad84da2",
     "CALENDAR_VERIFICATION.md": "b88b6f397cd4dbe4ea768dda5a3df7770503cd99b682300478a338554c1087c6",
-    "CODEX_HANDOFF.md": "e2a9dc762edb9ea4e539fb17c3b9421db5b3531cc346b82b0641f03cb724f010",
+    "CODEX_HANDOFF.md": "492f58a893a1dd11246d3059a438c6aace2619f2c63d33f7590ac3b167c808e4",
     "CODEX_START_PROMPT.txt": "ca56731747d2673755e5326df10a0f33618265bfdc640a61ca70d375510caa56",
     "COMPLETE_RESULTS_20261031.md": "34d20adb3e73271946dad6acea26dd405121065220e653edf0c5464f7366401e",
     "CONTINUATION_CHECKSUMS_20261030.json": "548d1fdd44a4500dabdea6c83cb2f2fbf6ee7e068561a0bbdb1d24fef2a98e33",
@@ -54,7 +54,7 @@
     "START_HERE.md": "600642ed83e13b004f88914e4b387262c5b48b68b440d6c9d733b21ee2656fec",
     "USER_LITERATURE_SURVEY.pdf": "29831040a8f062a684db9e09400717bdcb9f8da367bbd0d253f3b3e036f4dfbb",
     "VALIDATION_REPORT.md": "967f5a6ac930bbc2a98cb06ca38bc06f621713d336721aa6ba2144d5fa7336fc",
-    "WORK_LOG.md": "f1d38e2bb2cb132472f31f24af2fd0d44517bc9371a94d82980435aced0e2359",
+    "WORK_LOG.md": "13cad9045c54c7d01d880db07828a8e7f122cd5f54644ec1a93323659db750be",
     "data/clean_daily_energy_GWh.csv": "69fc12519e22e84699cd586bcca829f9b4e799226a3c62113ee7555edd3e0440",
     "data/exploratory_calendar.csv": "32dbf0b5bf934b84fca1d9a4015c6b6339b04f5dd99621a9a499f01f516a31e1",
     "data/external/._daily_agg_IND_demand.csv": "3b58a247406813635c7f8da9c0b12da012f57c431a37570ace70ae930361099b",
@@ -3188,7 +3188,7 @@
     "review/journal_seven_tasks_20261031_v1/C_native_cluster_coverage.csv": "f4a28ddd10326b7fa51b61ec8a1226629c924f94272e4454037545ec8f4827f9",
     "review/journal_seven_tasks_20261031_v1/D_nyc_cells.csv": "90b748ef0b706c250c1aa18a5b66aedb4ca9dd244f8f855c5a599ddedc33546f",
     "review/journal_seven_tasks_20261031_v1/REVIEWER_PACKET_v6.md": "9b81a149965f2cabdf17fb4bf64dcfb7525b121e05dc675750ea739183acc20a",
-    "review/journal_seven_tasks_20261031_v1/SEVEN_TASK_LEDGER.md": "6868780f4f67e5a4347952dc4864be4220f9d9f1d9a3e34a2b4e7fa57c6f646a",
+    "review/journal_seven_tasks_20261031_v1/SEVEN_TASK_LEDGER.md": "505f381cc61a80d23716522331ff7d8a62504df653408b8fef7d439275e0080e",
     "review/journal_seven_tasks_20261031_v1/descriptive_reanalysis.py": "4a68e0fda55d987c57d85b4d1ba30c05f421b1d2e920eecddccb99ae538a6147",
     "review/journal_seven_tasks_20261031_v1/descriptive_reanalysis_result.json": "8b367830795acab598bde2f3837be574feb07bc1054b7133a334f34f0e27b6dc",
     "review/journal_seven_tasks_20261031_v1/pytest_py312_core.txt": "87094e10666f530dc0d675f9266c574208d2fe391f543516b98bc614c6bd098e",
@@ -3245,7 +3245,10 @@
     "review/journal_seven_tasks_20261031_v1/tie_correction_v2.json": "03746c899087c3b7100088521ac2c54212159314d9b453c52f0dfb6cecb1dfd6",
     "review/journal_seven_tasks_20261031_v1/tie_correction_v2.py": "a54293841bcc2a8af663565f4f90cd2d8285b4f215f959225f921805bf5177b7",
     "src/audit_integrated_review_v6.py": "c57504df09b93c06064288a008e1093259eb040c80408a808efc25490c690daa",
-    "src/build_integrated_review_v6.py": "234bd7a4997ccf3ef4e94971bc5c22f6aa3c13e3e51246755510a37e6523640d"
+    "src/build_integrated_review_v6.py": "234bd7a4997ccf3ef4e94971bc5c22f6aa3c13e3e51246755510a37e6523640d",
+    "review/india2026_calendar_feasibility_v2/README.md": "cb4f7ada292bbb9dff3bb9f26772ab6f537e73bba65ae32dcdc38a7002f8b5b0",
+    "review/india2026_calendar_feasibility_v2/record.json": "61d204358dda2f044b4964fd012599ce68c031b0bdc77f607a0205f1d4fd2832",
+    "review/journal_seven_tasks_20261031_v1/CLOSEST_METHOD_MAP.md": "d3eaeb351d84e9c4a706546c55007978a543dac7af45bd6f49382b7ba4c30b5e"
   },
   "live_progress_files_excluded": [],
   "completed_progress_policy": "All staged progress files are now closed/immutable; original transient5a7467f snapshots/failures remain retained."
