@@ -1,6 +1,6 @@
 {
   "description": "First public Chronos future competitor freeze:84 stored/66 full Nov1\u201311 eligible, no outcomes; all registered historical lanes completed/audited, integrated PDF visual QA pending.",
-  "updated_utc": "2026-10-31T03:49:28.962236+00:00",
+  "updated_utc": "2026-10-31T03:49:43.742294+00:00",
   "files": {
     ".github/workflows/prospective-evaluation.yml": "c0bbe903d75456a5f1fc7e82fcaabc29df2bbd59c75117e24be6670138795739",
     ".gitignore": "bbf77a0288645d6e0013c3ea6898864263d33fad4132520dc67a21a59f76a279",
@@ -2127,6 +2127,7 @@
     "results/prospective_chronos_20261031_v1/inputs.json": "0522edc7e8fcbc5738527d96533ae717d6bc342f514973c7f3da63ac08671dd8",
     "results/prospective_chronos_20261031_v1/predictions.csv": "1f6bb8a09bc75f2df4fc07db47eff6b6848a68c0e1dc97b7bf85b05a4993c807",
     "results/prospective_chronos_20261031_v1/protocol.json": "8201d79a0eb05408ec7178e2864ac36c3f72c4b8dffb01da627c8c212afb8aec",
+    "results/prospective_chronos_20261031_v1/public_receipt.json": "2120d90921e8845c6c7cf069e09df7c3131099e241638145f552cae3efd91bde",
     "results/prospective_chronos_20261031_v1/queue.json": "8582fb3dd3bfc91bc71dbf469ac9b4f96220149284f815fce2afaa17a115e485",
     "results/prospective_chronos_20261031_v1/solo_batch_audit.json": "ecdc991ca44cdffb91b17b367e7e8cdc77796789479496727455fa75a702e6be",
     "results/prospective_chronos_20261031_v1/started.json": "00cffaa2d4130ce7310405dce339348f1b93ebc140b6a7163e2d5068492d21b3",
