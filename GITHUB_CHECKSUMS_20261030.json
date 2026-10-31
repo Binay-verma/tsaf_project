@@ -1,6 +1,6 @@
 {
   "description": "Final reviewed checkpoint: all historical studies/v5paper; unactivated rolling runtime/scalar audit/actualmodelAPIpass; public andfreshlocalclones3172files/104tests. External/clockgatesremainopen. Finalfollowupmetadataonly.",
-  "updated_utc": "2026-10-31T17:54:53.290563+00:00",
+  "updated_utc": "2026-10-31T18:34:40.002840+00:00",
   "files": {
     ".github/workflows/prospective-evaluation.yml": "c0bbe903d75456a5f1fc7e82fcaabc29df2bbd59c75117e24be6670138795739",
     ".gitignore": "bbf77a0288645d6e0013c3ea6898864263d33fad4132520dc67a21a59f76a279",
@@ -54,7 +54,7 @@
     "START_HERE.md": "600642ed83e13b004f88914e4b387262c5b48b68b440d6c9d733b21ee2656fec",
     "USER_LITERATURE_SURVEY.pdf": "29831040a8f062a684db9e09400717bdcb9f8da367bbd0d253f3b3e036f4dfbb",
     "VALIDATION_REPORT.md": "967f5a6ac930bbc2a98cb06ca38bc06f621713d336721aa6ba2144d5fa7336fc",
-    "WORK_LOG.md": "8b60a7953815a4f87f7ada4433cd34af2620cd7c7b003c3b7e6504072caf1415",
+    "WORK_LOG.md": "52125cb705fe036d547bf5c660faad7904c78f088e5d2620da41b30844138b57",
     "data/clean_daily_energy_GWh.csv": "69fc12519e22e84699cd586bcca829f9b4e799226a3c62113ee7555edd3e0440",
     "data/exploratory_calendar.csv": "32dbf0b5bf934b84fca1d9a4015c6b6339b04f5dd99621a9a499f01f516a31e1",
     "data/external/._daily_agg_IND_demand.csv": "3b58a247406813635c7f8da9c0b12da012f57c431a37570ace70ae930361099b",
@@ -3261,7 +3261,18 @@
     "src/test_calendar_package_builder_v1.py": "5951f08789fcae97a1e7b3c28e186cc043caad5475d9892cac1620e251e09471",
     "results/singapore_festival_replication_v1/README.md": "9a351d0d7655bb1a13f269ad70b492aeabacd69ea5c6da699017d088c1284499",
     "src/singapore_replication_v1.py": "530c93e3f7ba0960e55f418d2ed7b8dc7202c41c6877394afb8fddc777a6626b",
-    "src/test_singapore_replication_v1.py": "482d7625013b3916c6af90a3d106794fff2a5e3ec7353629c7c82ce3c4c19736"
+    "src/test_singapore_replication_v1.py": "482d7625013b3916c6af90a3d106794fff2a5e3ec7353629c7c82ce3c4c19736",
+    "manuscript/project_report_v1/Project_Report_Binay_Verma.docx": "add6dd7867a046cad478de9e6b710558b63ee5e54db36d1a0088556c7f2c38e2",
+    "manuscript/project_report_v1/Project_Report_Binay_Verma.pdf": "d7fb674a46a6255cf833406991611bcbdb104bbaca001c5a1fc07bbdf6b790b1",
+    "manuscript/project_report_v1/build_report.js": "c41dac2606f0fe5f118665b4343b83fd47773e47584960b53a666d1364778c8d",
+    "manuscript/project_report_v1/extract_tables.py": "3761b2480c06c56a464328bebdff0f3089cf99021a3bfd4eb58cbe881ead75d7",
+    "manuscript/project_report_v1/tables.json": "f90eb4fe1fc89ab7b8715ce4b98232d3422cb7ed87e25429dee782ec9004943a",
+    "presentation/build_viva_update_v2.py": "570625b81e98f76977fcd41b6b2f8a448a6eee2ba2390bdd03b2306f7196e8a5",
+    "presentation/viva_update_v2/SPEAKER_NOTES.md": "2ff463ad7ea591b5ecca05acbc957b64af0d509e864f2493a248f07133801ad3",
+    "presentation/viva_update_v2/Viva_Update_Binay_Verma_v2.pdf": "4447a72bb762e14e33e09d9297371fe636774bf4b105306b48122e7c6df5a5e5",
+    "presentation/viva_update_v2/Viva_Update_Binay_Verma_v2.pptx": "5f84162ec88d7163b20eee786ecdf815b42542402d44de49c238a683934d3501",
+    "presentation/viva_update_v2/lead1_mase.png": "2e7cd7289f0d371df33bcee9332205ae29999369e40b39d49e537cd88b76b399",
+    "presentation/viva_update_v2/year_split_day_lead1.png": "48085bb8eb41fad46e0350e237e08df9655277b53c65727645762f64c1c23f64"
   },
   "live_progress_files_excluded": [],
   "completed_progress_policy": "All staged progress files are now closed/immutable; original transient5a7467f snapshots/failures remain retained."

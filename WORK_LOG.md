@@ -375,3 +375,7 @@ Registered timing rule v2 (option B) as a new versioned wrapper; v1 runtime and 
 ## 31 October 2026 23:30 IST — calendar builder and Singapore layer
 
 Added `src/calendar_package_builder_v1.py` (6 tests) and the blank `review/calendar_entry_2026_v1/` form; added `src/singapore_replication_v1.py` (7 tests). Synthetic fixtures only; no dates entered as features, no data acquired, nothing issued or scored.
+
+## 1 November 2026 — viva deck v2 and full project report
+
+Added `presentation/viva_update_v2/` (12 slides; built by `presentation/build_viva_update_v2.py` in the original deck style; original deck unchanged; validated and visually checked) and `manuscript/project_report_v1/` (Word + PDF, 11 pages; tables extracted from v6 by script; all 11 tables match v6 cell-for-cell). No results were changed.

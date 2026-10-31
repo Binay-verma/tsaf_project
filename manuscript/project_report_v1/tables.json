@@ -1,0 +1,726 @@
+{
+ "Table 1": {
+  "caption": "Document-aligned, recentered Indian festival windows: lead-1 MASE.",
+  "header": [
+   "Model",
+   "Calendar",
+   "Typed day",
+   "Pooled day",
+   "Typed window",
+   "Pooled window"
+  ],
+  "rows": [
+   [
+    "Rich Ridge",
+    "0.57699",
+    "0.45317",
+    "0.46093",
+    "0.57914",
+    "0.60838"
+   ],
+   [
+    "SARIMAX",
+    "0.57301",
+    "0.42533",
+    "0.45345",
+    "0.57787",
+    "0.57511"
+   ],
+   [
+    "Stable LightGBM",
+    "0.69865",
+    "0.69483",
+    "0.66110",
+    "0.70168",
+    "0.71233"
+   ],
+   [
+    "Tree leaf minimum 2",
+    "0.68582",
+    "0.64952",
+    "0.60469",
+    "0.69028",
+    "0.70001"
+   ],
+   [
+    "Chronos-2",
+    "0.53767",
+    "0.52009",
+    "0.51752",
+    "0.53720",
+    "0.53268"
+   ],
+   [
+    "TimesFM-3",
+    "0.55148",
+    "0.48005",
+    "0.42459",
+    "0.55540",
+    "0.55131"
+   ]
+  ]
+ },
+ "Table 2": {
+  "caption": "The matched Indian seasonal ordinary sample: lead-1 MASE.",
+  "header": [
+   "Model",
+   "Calendar",
+   "Typed day",
+   "Pooled day",
+   "Typed window",
+   "Pooled window"
+  ],
+  "rows": [
+   [
+    "Rich Ridge",
+    "0.28458",
+    "0.27908",
+    "0.28363",
+    "0.28887",
+    "0.28709"
+   ],
+   [
+    "SARIMAX",
+    "0.23073",
+    "0.22949",
+    "0.22910",
+    "0.22995",
+    "0.23155"
+   ],
+   [
+    "Stable LightGBM",
+    "0.39366",
+    "0.39545",
+    "0.38932",
+    "0.39507",
+    "0.39604"
+   ],
+   [
+    "Tree leaf minimum 2",
+    "0.39178",
+    "0.37852",
+    "0.36518",
+    "0.38876",
+    "0.37951"
+   ],
+   [
+    "Chronos-2",
+    "0.24924",
+    "0.26482",
+    "0.26567",
+    "0.26108",
+    "0.26287"
+   ],
+   [
+    "TimesFM-3",
+    "0.26547",
+    "0.26931",
+    "0.26685",
+    "0.26196",
+    "0.25877"
+   ]
+  ]
+ },
+ "Table 3": {
+  "caption": "Matched Indian festival windows: every registered pure encoding and calendar reference, lead-1 MASE.",
+  "header": [
+   "Encoding",
+   "Chronos-2",
+   "TimesFM-3"
+  ],
+  "rows": [
+   [
+    "history",
+    "0.54769",
+    "0.55366"
+   ],
+   [
+    "zero1",
+    "0.55892",
+    "0.55616"
+   ],
+   [
+    "ordinal",
+    "0.51574",
+    "0.42608"
+   ],
+   [
+    "onehot",
+    "0.51171",
+    "0.43188"
+   ],
+   [
+    "cyclic",
+    "0.51636",
+    "0.45004"
+   ],
+   [
+    "te_weekday",
+    "0.56433",
+    "0.55172"
+   ],
+   [
+    "te_sunday",
+    "0.51563",
+    "0.42528"
+   ],
+   [
+    "te_holiday",
+    "0.52400",
+    "0.39840"
+   ],
+   [
+    "te_joint",
+    "0.53781",
+    "0.44470"
+   ],
+   [
+    "te_separate",
+    "0.52832",
+    "0.41227"
+   ],
+   [
+    "calendar",
+    "0.53767",
+    "0.55148"
+   ]
+  ]
+ },
+ "Table 4": {
+  "caption": "NYC event windows: decision lead 1, actual model step 8, MASE.",
+  "header": [
+   "Model",
+   "Calendar",
+   "Typed day",
+   "Pooled day",
+   "Typed window",
+   "Pooled window"
+  ],
+  "rows": [
+   [
+    "Rich Ridge",
+    "0.99718",
+    "1.00451",
+    "1.16887",
+    "1.19074",
+    "1.31328"
+   ],
+   [
+    "SARIMAX",
+    "0.99947",
+    "0.79417",
+    "1.04067",
+    "1.15250",
+    "1.40939"
+   ],
+   [
+    "Stable LightGBM",
+    "0.91940",
+    "0.91940",
+    "0.91940",
+    "0.91940",
+    "1.08484"
+   ],
+   [
+    "Tree leaf minimum 2",
+    "0.84819",
+    "0.84610",
+    "0.87819",
+    "0.88083",
+    "1.02851"
+   ],
+   [
+    "Chronos-2",
+    "0.93276",
+    "0.86384",
+    "0.76003",
+    "0.93928",
+    "0.92961"
+   ],
+   [
+    "TimesFM-3",
+    "0.88394",
+    "0.75636",
+    "0.79143",
+    "0.86121",
+    "0.91833"
+   ]
+  ]
+ },
+ "Table 5": {
+  "caption": "NESO calendar models at decision lead 1: ideal model step 1 versus lag-21 model step 22, MASE.",
+  "header": [
+   "Model",
+   "Ideal",
+   "Lag 21"
+  ],
+  "rows": [
+   [
+    "Rich Ridge",
+    "0.48703",
+    "0.50152"
+   ],
+   [
+    "SARIMAX",
+    "0.48080",
+    "0.46981"
+   ],
+   [
+    "Stable LightGBM",
+    "0.53385",
+    "0.46448"
+   ],
+   [
+    "Tree leaf minimum 2",
+    "0.55685",
+    "0.47201"
+   ],
+   [
+    "Chronos-2",
+    "0.53605",
+    "0.59170"
+   ],
+   [
+    "TimesFM-3",
+    "0.45629",
+    "0.38886"
+   ]
+  ]
+ },
+ "Table 6": {
+  "caption": "Unmodified native Indian festival-window intervals at lead 1. Undefined interval cells retain invalid endpoints.",
+  "header": [
+   "Model",
+   "Arm",
+   "Coverage 80%",
+   "Scaled width",
+   "Scaled WIS80"
+  ],
+  "rows": [
+   [
+    "Chronos-2",
+    "Calendar",
+    "0.70714",
+    "1.44736",
+    "0.36718"
+   ],
+   [
+    "Chronos-2",
+    "Typed day",
+    "0.73466",
+    "1.44335",
+    "0.35160"
+   ],
+   [
+    "Chronos-2",
+    "Pooled day",
+    "0.72619",
+    "1.45710",
+    "0.34982"
+   ],
+   [
+    "Chronos-2",
+    "Pooled window",
+    "0.73228",
+    "1.48578",
+    "0.36511"
+   ],
+   [
+    "Chronos-2",
+    "Typed window",
+    "0.72381",
+    "1.45537",
+    "0.36526"
+   ],
+   [
+    "TimesFM-3",
+    "Calendar",
+    "0.65926",
+    "1.21333",
+    "0.38483"
+   ],
+   [
+    "TimesFM-3",
+    "Typed day",
+    "0.70238",
+    "1.23353",
+    "0.32158"
+   ],
+   [
+    "TimesFM-3",
+    "Pooled day",
+    "0.70741",
+    "1.16836",
+    "0.27890"
+   ],
+   [
+    "TimesFM-3",
+    "Pooled window",
+    "0.63651",
+    "1.19181",
+    "0.38615"
+   ],
+   [
+    "TimesFM-3",
+    "Typed window",
+    "0.64735",
+    "1.21759",
+    "0.38944"
+   ]
+  ]
+ },
+ "Table A1": {
+  "caption": "NYC ordinary sample: decision lead 1, actual model step 8, MASE.",
+  "header": [
+   "Model",
+   "Calendar",
+   "Typed day",
+   "Pooled day",
+   "Typed window",
+   "Pooled window"
+  ],
+  "rows": [
+   [
+    "Rich Ridge",
+    "0.93022",
+    "0.82514",
+    "0.74570",
+    "0.82214",
+    "0.69602"
+   ],
+   [
+    "SARIMAX",
+    "0.69848",
+    "0.57159",
+    "0.53110",
+    "0.61851",
+    "0.54580"
+   ],
+   [
+    "Stable LightGBM",
+    "0.83653",
+    "0.83653",
+    "0.83653",
+    "0.83653",
+    "0.75887"
+   ],
+   [
+    "Tree leaf minimum 2",
+    "0.76625",
+    "0.75037",
+    "0.71580",
+    "0.72767",
+    "0.71070"
+   ],
+   [
+    "Chronos-2",
+    "0.32126",
+    "0.35468",
+    "0.37401",
+    "0.31593",
+    "0.40822"
+   ],
+   [
+    "TimesFM-3",
+    "0.36890",
+    "0.40051",
+    "0.39322",
+    "0.33823",
+    "0.35082"
+   ]
+  ]
+ },
+ "Table A2": {
+  "caption": "Fixed response-profile comparators on the original Indian case ledger. This is a separate, unchanged sensitivity.",
+  "header": [
+   "Method",
+   "Lead 1",
+   "Lead 7",
+   "Lead 14"
+  ],
+  "rows": [
+   [
+    "response_none",
+    "1.05617",
+    "1.05617",
+    "1.12777"
+   ],
+   [
+    "response_partial",
+    "0.99059",
+    "1.04974",
+    "1.08356"
+   ],
+   [
+    "response_pooled",
+    "1.04499",
+    "1.06250",
+    "1.11693"
+   ],
+   [
+    "response_typed",
+    "1.02429",
+    "1.11325",
+    "1.11001"
+   ]
+  ]
+ },
+ "Table A3": {
+  "caption": "Prespecified day-representation, lead-1 Spearman diagnostics. Positive forecast contrasts favour pooling; n counts available family/state/year cells, not independent replications. Undefined means insufficient variation or support.",
+  "header": [
+   "Model",
+   "Support rho",
+   "Support n",
+   "Response rho",
+   "Response n"
+  ],
+  "rows": [
+   [
+    "Rich Ridge",
+    "0.05912",
+    "24",
+    "0.15478",
+    "24"
+   ],
+   [
+    "SARIMAX",
+    "0.46684",
+    "24",
+    "0.12087",
+    "24"
+   ],
+   [
+    "Stable LightGBM",
+    "0.30970",
+    "24",
+    "0.01451",
+    "24"
+   ],
+   [
+    "Tree leaf minimum 2",
+    "0.37794",
+    "24",
+    "0.08000",
+    "24"
+   ],
+   [
+    "Chronos-2",
+    "-0.04204",
+    "24",
+    "0.17391",
+    "24"
+   ],
+   [
+    "TimesFM-3",
+    "0.10992",
+    "24",
+    "-0.02174",
+    "24"
+   ]
+  ]
+ },
+ "Table A4": {
+  "caption": "Indian typed-minus-pooled MASE at lead 1 by event year and family. Positive favours pooling. Clusters are family/year groups; they share states, weather and source vintage and are not independent replications. LOFO: leave-one-family-out balanced contrast. Exact ties are not counted in the cluster column.",
+  "header": [
+   "Model",
+   "Rep.",
+   "Balanced",
+   "2024",
+   "2025",
+   "Pooled / typed clusters",
+   "LOFO range"
+  ],
+  "rows": [
+   [
+    "Rich Ridge",
+    "day",
+    "-0.00776",
+    "-0.01727",
+    "0.00175",
+    "3 / 7",
+    "-0.01819 to -0.00060"
+   ],
+   [
+    "Rich Ridge",
+    "window",
+    "-0.02924",
+    "-0.04483",
+    "-0.01365",
+    "4 / 6",
+    "-0.04266 to -0.01290"
+   ],
+   [
+    "SARIMAX",
+    "day",
+    "-0.02812",
+    "-0.03562",
+    "-0.02063",
+    "4 / 6",
+    "-0.04526 to -0.00690"
+   ],
+   [
+    "SARIMAX",
+    "window",
+    "0.00276",
+    "0.00899",
+    "-0.00347",
+    "4 / 6",
+    "-0.00285 to 0.00699"
+   ],
+   [
+    "Stable LightGBM",
+    "day",
+    "0.03374",
+    "0.00000",
+    "0.06747",
+    "4 / 1",
+    "0.02864 to 0.04316"
+   ],
+   [
+    "Stable LightGBM",
+    "window",
+    "-0.01065",
+    "-0.02319",
+    "0.00190",
+    "4 / 6",
+    "-0.01804 to -0.00069"
+   ],
+   [
+    "Tree leaf minimum 2",
+    "day",
+    "0.04483",
+    "0.02723",
+    "0.06242",
+    "7 / 3",
+    "0.03075 to 0.07359"
+   ],
+   [
+    "Tree leaf minimum 2",
+    "window",
+    "-0.00973",
+    "-0.01785",
+    "-0.00161",
+    "6 / 4",
+    "-0.01763 to 0.00141"
+   ],
+   [
+    "Chronos-2",
+    "day",
+    "0.00257",
+    "-0.00069",
+    "0.00583",
+    "8 / 2",
+    "-0.00191 to 0.01638"
+   ],
+   [
+    "Chronos-2",
+    "window",
+    "0.00452",
+    "0.00740",
+    "0.00163",
+    "6 / 4",
+    "0.00082 to 0.00828"
+   ],
+   [
+    "TimesFM-3",
+    "day",
+    "0.05546",
+    "0.06834",
+    "0.04257",
+    "9 / 1",
+    "0.04781 to 0.06439"
+   ],
+   [
+    "TimesFM-3",
+    "window",
+    "0.00409",
+    "0.00895",
+    "-0.00078",
+    "8 / 2",
+    "0.00227 to 0.00627"
+   ]
+  ]
+ },
+ "Table A5": {
+  "caption": "Native 80% coverage across the ten Indian family/year clusters at lead 1 (unmodified intervals).",
+  "header": [
+   "Model",
+   "Arm",
+   "Minimum",
+   "Maximum",
+   "Clusters below 0.80"
+  ],
+  "rows": [
+   [
+    "Chronos-2",
+    "Calendar",
+    "0.429",
+    "0.857",
+    "8 of 10"
+   ],
+   [
+    "Chronos-2",
+    "Typed day",
+    "0.500",
+    "0.857",
+    "8 of 10"
+   ],
+   [
+    "Chronos-2",
+    "Pooled day",
+    "0.357",
+    "0.929",
+    "7 of 10"
+   ],
+   [
+    "Chronos-2",
+    "Typed window",
+    "0.500",
+    "0.929",
+    "8 of 10"
+   ],
+   [
+    "Chronos-2",
+    "Pooled window",
+    "0.429",
+    "0.929",
+    "8 of 10"
+   ],
+   [
+    "TimesFM-3",
+    "Calendar",
+    "0.357",
+    "0.786",
+    "10 of 10"
+   ],
+   [
+    "TimesFM-3",
+    "Typed day",
+    "0.500",
+    "0.841",
+    "9 of 10"
+   ],
+   [
+    "TimesFM-3",
+    "Pooled day",
+    "0.500",
+    "0.926",
+    "7 of 10"
+   ],
+   [
+    "TimesFM-3",
+    "Typed window",
+    "0.357",
+    "0.786",
+    "10 of 10"
+   ],
+   [
+    "TimesFM-3",
+    "Pooled window",
+    "0.357",
+    "0.786",
+    "10 of 10"
+   ]
+  ]
+ }
+}
