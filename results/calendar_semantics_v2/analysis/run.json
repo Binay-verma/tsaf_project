@@ -1,0 +1,28 @@
+{
+  "status": "completed",
+  "completed_utc": "2026-10-31T00:31:41.940140+00:00",
+  "part": "all",
+  "cohorts": {
+    "breadth/event_window": {
+      "compared_view_rows": 50688,
+      "new_rows": 1440,
+      "predictions_sha256": "f6c77715c268ed1085db5a044c96da4cdd07fbae742dfdbdd6a62d29fdef567a"
+    },
+    "breadth/ordinary": {
+      "compared_view_rows": 20736,
+      "new_rows": 360,
+      "predictions_sha256": "7e25af6c5b2322b23432014945d67d355cac7b28c0857c9eb176f5e491b20a44"
+    },
+    "encoding/event_window": {
+      "compared_view_rows": 21120,
+      "new_rows": 672,
+      "predictions_sha256": "a430a78029b50743e5f2338a6af5929ba5c579cf7d674741e5feaf5f731c45a4"
+    },
+    "encoding/ordinary": {
+      "compared_view_rows": 8640,
+      "new_rows": 168,
+      "predictions_sha256": "ce307b1393018e792ca3950b7405e38ad0d6c693a24c99cd9351e944a23745e4"
+    }
+  },
+  "analysis_registration_sha256": "deeb157dfcea9795f55e38e634d9dba4bf8a04552dc400cf6fdf5a40f983d58f"
+}

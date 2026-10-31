@@ -1,0 +1,33 @@
+{
+  "started_utc": "2026-10-30T19:19:35.926918+00:00",
+  "status": "completed_analysis_audit",
+  "completed_steps": [
+    [
+      "src/finalize_calendar_semantics.py",
+      "analyze"
+    ],
+    [
+      "src/audit_calendar_semantics.py"
+    ]
+  ],
+  "completed_workers": [
+    "breadth/event_window/ridge",
+    "breadth/event_window/lightgbm",
+    "breadth/event_window/lightgbm_capacity2",
+    "breadth/event_window/sarimax",
+    "breadth/event_window/chronos",
+    "breadth/event_window/timesfm",
+    "breadth/ordinary/ridge",
+    "breadth/ordinary/lightgbm",
+    "breadth/ordinary/lightgbm_capacity2",
+    "breadth/ordinary/sarimax",
+    "breadth/ordinary/chronos",
+    "breadth/ordinary/timesfm",
+    "encoding/event_window/chronos",
+    "encoding/event_window/timesfm",
+    "encoding/ordinary/chronos",
+    "encoding/ordinary/timesfm"
+  ],
+  "observed_utc": "2026-10-31T00:31:36.859844+00:00",
+  "completed_utc": "2026-10-31T00:32:30.603558+00:00"
+}

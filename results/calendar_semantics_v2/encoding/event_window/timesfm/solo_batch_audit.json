@@ -1,0 +1,450 @@
+[
+  {
+    "arm": "ordinal",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "ordinal",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "ordinal",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "ordinal",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "ordinal",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "ordinal",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "ordinal",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "ordinal",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "ordinal",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "ordinal",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "ordinal",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "ordinal",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "ordinal",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "ordinal",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "ordinal",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "ordinal",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "onehot",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "onehot",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "onehot",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "onehot",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "onehot",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "onehot",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "onehot",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "onehot",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "onehot",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "onehot",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "onehot",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "onehot",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "onehot",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "onehot",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "onehot",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "onehot",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "cyclic",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "cyclic",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "cyclic",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "cyclic",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "cyclic",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "cyclic",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "cyclic",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "cyclic",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "cyclic",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "cyclic",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "cyclic",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "cyclic",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "cyclic",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "cyclic",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "cyclic",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "cyclic",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "te_sunday",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "te_sunday",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "te_sunday",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "te_sunday",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "te_sunday",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "te_sunday",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "te_sunday",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "te_sunday",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "te_sunday",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "te_sunday",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "te_sunday",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "te_sunday",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "te_sunday",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "te_sunday",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "te_sunday",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "te_sunday",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "te_holiday",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "te_holiday",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "te_holiday",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "te_holiday",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "te_holiday",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "te_holiday",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "te_holiday",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "te_holiday",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "te_holiday",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "te_holiday",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "te_holiday",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "te_holiday",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "te_holiday",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "te_holiday",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "te_holiday",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "te_holiday",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "te_joint",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "te_joint",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "te_joint",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "te_joint",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "te_joint",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "te_joint",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "te_joint",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "te_joint",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "te_joint",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "te_joint",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "te_joint",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "te_joint",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "te_joint",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "te_joint",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "te_joint",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "te_joint",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "te_separate",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "te_separate",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "te_separate",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "te_separate",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "te_separate",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "te_separate",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "te_separate",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "te_separate",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "te_separate",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "te_separate",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "te_separate",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "te_separate",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "te_separate",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "te_separate",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "te_separate",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "te_separate",
+    "max_abs_difference": 0.0
+  }
+]

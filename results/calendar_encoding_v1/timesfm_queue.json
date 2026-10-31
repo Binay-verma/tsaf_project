@@ -1,0 +1,11 @@
+{
+  "created_utc": "2026-10-30T18:21:29.833929+00:00",
+  "worker": "timesfm",
+  "status": "completed",
+  "completed_cohorts": [
+    "event_window",
+    "ordinary"
+  ],
+  "started_utc": "2026-10-30T23:22:10.537944+00:00",
+  "completed_utc": "2026-10-30T23:39:14.573506+00:00"
+}

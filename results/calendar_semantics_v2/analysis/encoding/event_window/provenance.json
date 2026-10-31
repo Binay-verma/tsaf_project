@@ -1,0 +1,22 @@
+{
+  "workers": [
+    {
+      "model": "chronos",
+      "parent_prediction_sha256": "2e576105dc98c4313e941c81ece306845faae637965f6d567663bb410da35410",
+      "new_prediction_sha256": "f6a91b2d48b08278c75a5a7c337ab3f89a47f118def2d5616cfb52b68a5d3fae",
+      "new_rows": 336,
+      "replacement_rows": 336,
+      "reused_rows_per_corrected_view": 4944
+    },
+    {
+      "model": "timesfm",
+      "parent_prediction_sha256": "0935206af171306737f6582428593f3cf76e50715f837d047f5f9ec79054cbcf",
+      "new_prediction_sha256": "3bfd0b01a455b3b6d07f534ffe765b126e0a1123df2a79292a6ba638cd9ad13e",
+      "new_rows": 336,
+      "replacement_rows": 336,
+      "reused_rows_per_corrected_view": 4944
+    }
+  ],
+  "repeated_calendar": [],
+  "scope": "Same complete originalcases; only60case subsetrecomputed. Not a newly centeredwindow cohort."
+}

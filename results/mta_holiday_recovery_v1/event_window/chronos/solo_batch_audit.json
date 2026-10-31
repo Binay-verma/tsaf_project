@@ -1,0 +1,578 @@
+[
+  {
+    "arm": "history",
+    "max_abs_difference": 1.7881393432617188e-07
+  },
+  {
+    "arm": "history",
+    "max_abs_difference": 2.384185791015625e-07
+  },
+  {
+    "arm": "history",
+    "max_abs_difference": 2.384185791015625e-07
+  },
+  {
+    "arm": "history",
+    "max_abs_difference": 1.7881393432617188e-07
+  },
+  {
+    "arm": "history",
+    "max_abs_difference": 2.384185791015625e-07
+  },
+  {
+    "arm": "history",
+    "max_abs_difference": 1.1920928955078125e-07
+  },
+  {
+    "arm": "history",
+    "max_abs_difference": 2.384185791015625e-07
+  },
+  {
+    "arm": "history",
+    "max_abs_difference": 1.1920928955078125e-07
+  },
+  {
+    "arm": "history",
+    "max_abs_difference": 1.1920928955078125e-07
+  },
+  {
+    "arm": "history",
+    "max_abs_difference": 1.1920928955078125e-07
+  },
+  {
+    "arm": "history",
+    "max_abs_difference": 1.1920928955078125e-07
+  },
+  {
+    "arm": "history",
+    "max_abs_difference": 1.7881393432617188e-07
+  },
+  {
+    "arm": "history",
+    "max_abs_difference": 1.1920928955078125e-07
+  },
+  {
+    "arm": "history",
+    "max_abs_difference": 2.384185791015625e-07
+  },
+  {
+    "arm": "history",
+    "max_abs_difference": 1.1920928955078125e-07
+  },
+  {
+    "arm": "history",
+    "max_abs_difference": 3.5762786865234375e-07
+  },
+  {
+    "arm": "calendar",
+    "max_abs_difference": 1.1920928955078125e-07
+  },
+  {
+    "arm": "calendar",
+    "max_abs_difference": 1.1920928955078125e-07
+  },
+  {
+    "arm": "calendar",
+    "max_abs_difference": 1.1920928955078125e-07
+  },
+  {
+    "arm": "calendar",
+    "max_abs_difference": 1.1920928955078125e-07
+  },
+  {
+    "arm": "calendar",
+    "max_abs_difference": 1.1920928955078125e-07
+  },
+  {
+    "arm": "calendar",
+    "max_abs_difference": 1.1920928955078125e-07
+  },
+  {
+    "arm": "calendar",
+    "max_abs_difference": 1.1920928955078125e-07
+  },
+  {
+    "arm": "calendar",
+    "max_abs_difference": 1.1920928955078125e-07
+  },
+  {
+    "arm": "calendar",
+    "max_abs_difference": 1.1920928955078125e-07
+  },
+  {
+    "arm": "calendar",
+    "max_abs_difference": 1.7881393432617188e-07
+  },
+  {
+    "arm": "calendar",
+    "max_abs_difference": 1.1920928955078125e-07
+  },
+  {
+    "arm": "calendar",
+    "max_abs_difference": 1.1920928955078125e-07
+  },
+  {
+    "arm": "calendar",
+    "max_abs_difference": 1.1920928955078125e-07
+  },
+  {
+    "arm": "calendar",
+    "max_abs_difference": 1.1920928955078125e-07
+  },
+  {
+    "arm": "calendar",
+    "max_abs_difference": 1.7881393432617188e-07
+  },
+  {
+    "arm": "calendar",
+    "max_abs_difference": 1.1920928955078125e-07
+  },
+  {
+    "arm": "zero5",
+    "max_abs_difference": 1.1920928955078125e-07
+  },
+  {
+    "arm": "zero5",
+    "max_abs_difference": 1.7881393432617188e-07
+  },
+  {
+    "arm": "zero5",
+    "max_abs_difference": 2.384185791015625e-07
+  },
+  {
+    "arm": "zero5",
+    "max_abs_difference": 1.1920928955078125e-07
+  },
+  {
+    "arm": "zero5",
+    "max_abs_difference": 5.960464477539063e-08
+  },
+  {
+    "arm": "zero5",
+    "max_abs_difference": 1.1920928955078125e-07
+  },
+  {
+    "arm": "zero5",
+    "max_abs_difference": 1.1920928955078125e-07
+  },
+  {
+    "arm": "zero5",
+    "max_abs_difference": 1.1920928955078125e-07
+  },
+  {
+    "arm": "zero5",
+    "max_abs_difference": 1.1920928955078125e-07
+  },
+  {
+    "arm": "zero5",
+    "max_abs_difference": 1.1920928955078125e-07
+  },
+  {
+    "arm": "zero5",
+    "max_abs_difference": 1.1920928955078125e-07
+  },
+  {
+    "arm": "zero5",
+    "max_abs_difference": 1.1920928955078125e-07
+  },
+  {
+    "arm": "zero5",
+    "max_abs_difference": 1.1920928955078125e-07
+  },
+  {
+    "arm": "zero5",
+    "max_abs_difference": 1.1920928955078125e-07
+  },
+  {
+    "arm": "zero5",
+    "max_abs_difference": 1.1920928955078125e-07
+  },
+  {
+    "arm": "zero5",
+    "max_abs_difference": 1.1920928955078125e-07
+  },
+  {
+    "arm": "day5",
+    "max_abs_difference": 1.1920928955078125e-07
+  },
+  {
+    "arm": "day5",
+    "max_abs_difference": 1.1920928955078125e-07
+  },
+  {
+    "arm": "day5",
+    "max_abs_difference": 1.1920928955078125e-07
+  },
+  {
+    "arm": "day5",
+    "max_abs_difference": 1.1920928955078125e-07
+  },
+  {
+    "arm": "day5",
+    "max_abs_difference": 1.1920928955078125e-07
+  },
+  {
+    "arm": "day5",
+    "max_abs_difference": 1.1920928955078125e-07
+  },
+  {
+    "arm": "day5",
+    "max_abs_difference": 1.1920928955078125e-07
+  },
+  {
+    "arm": "day5",
+    "max_abs_difference": 1.1920928955078125e-07
+  },
+  {
+    "arm": "day5",
+    "max_abs_difference": 1.1920928955078125e-07
+  },
+  {
+    "arm": "day5",
+    "max_abs_difference": 1.1920928955078125e-07
+  },
+  {
+    "arm": "day5",
+    "max_abs_difference": 1.1920928955078125e-07
+  },
+  {
+    "arm": "day5",
+    "max_abs_difference": 1.1920928955078125e-07
+  },
+  {
+    "arm": "day5",
+    "max_abs_difference": 1.1920928955078125e-07
+  },
+  {
+    "arm": "day5",
+    "max_abs_difference": 1.1920928955078125e-07
+  },
+  {
+    "arm": "day5",
+    "max_abs_difference": 1.1920928955078125e-07
+  },
+  {
+    "arm": "day5",
+    "max_abs_difference": 1.1920928955078125e-07
+  },
+  {
+    "arm": "pooled_day5",
+    "max_abs_difference": 1.7881393432617188e-07
+  },
+  {
+    "arm": "pooled_day5",
+    "max_abs_difference": 1.1920928955078125e-07
+  },
+  {
+    "arm": "pooled_day5",
+    "max_abs_difference": 1.1920928955078125e-07
+  },
+  {
+    "arm": "pooled_day5",
+    "max_abs_difference": 1.1920928955078125e-07
+  },
+  {
+    "arm": "pooled_day5",
+    "max_abs_difference": 1.1920928955078125e-07
+  },
+  {
+    "arm": "pooled_day5",
+    "max_abs_difference": 1.1920928955078125e-07
+  },
+  {
+    "arm": "pooled_day5",
+    "max_abs_difference": 2.384185791015625e-07
+  },
+  {
+    "arm": "pooled_day5",
+    "max_abs_difference": 1.1920928955078125e-07
+  },
+  {
+    "arm": "pooled_day5",
+    "max_abs_difference": 1.1920928955078125e-07
+  },
+  {
+    "arm": "pooled_day5",
+    "max_abs_difference": 1.1920928955078125e-07
+  },
+  {
+    "arm": "pooled_day5",
+    "max_abs_difference": 1.1920928955078125e-07
+  },
+  {
+    "arm": "pooled_day5",
+    "max_abs_difference": 1.1920928955078125e-07
+  },
+  {
+    "arm": "pooled_day5",
+    "max_abs_difference": 1.1920928955078125e-07
+  },
+  {
+    "arm": "pooled_day5",
+    "max_abs_difference": 1.1920928955078125e-07
+  },
+  {
+    "arm": "pooled_day5",
+    "max_abs_difference": 1.1920928955078125e-07
+  },
+  {
+    "arm": "pooled_day5",
+    "max_abs_difference": 1.1920928955078125e-07
+  },
+  {
+    "arm": "window5",
+    "max_abs_difference": 1.1920928955078125e-07
+  },
+  {
+    "arm": "window5",
+    "max_abs_difference": 1.1920928955078125e-07
+  },
+  {
+    "arm": "window5",
+    "max_abs_difference": 1.1920928955078125e-07
+  },
+  {
+    "arm": "window5",
+    "max_abs_difference": 1.1920928955078125e-07
+  },
+  {
+    "arm": "window5",
+    "max_abs_difference": 1.1920928955078125e-07
+  },
+  {
+    "arm": "window5",
+    "max_abs_difference": 1.1920928955078125e-07
+  },
+  {
+    "arm": "window5",
+    "max_abs_difference": 2.384185791015625e-07
+  },
+  {
+    "arm": "window5",
+    "max_abs_difference": 1.1920928955078125e-07
+  },
+  {
+    "arm": "window5",
+    "max_abs_difference": 1.1920928955078125e-07
+  },
+  {
+    "arm": "window5",
+    "max_abs_difference": 1.1920928955078125e-07
+  },
+  {
+    "arm": "window5",
+    "max_abs_difference": 1.1920928955078125e-07
+  },
+  {
+    "arm": "window5",
+    "max_abs_difference": 1.1920928955078125e-07
+  },
+  {
+    "arm": "window5",
+    "max_abs_difference": 1.7881393432617188e-07
+  },
+  {
+    "arm": "window5",
+    "max_abs_difference": 1.1920928955078125e-07
+  },
+  {
+    "arm": "window5",
+    "max_abs_difference": 2.384185791015625e-07
+  },
+  {
+    "arm": "window5",
+    "max_abs_difference": 1.1920928955078125e-07
+  },
+  {
+    "arm": "pooled_window5",
+    "max_abs_difference": 1.1920928955078125e-07
+  },
+  {
+    "arm": "pooled_window5",
+    "max_abs_difference": 1.1920928955078125e-07
+  },
+  {
+    "arm": "pooled_window5",
+    "max_abs_difference": 1.1920928955078125e-07
+  },
+  {
+    "arm": "pooled_window5",
+    "max_abs_difference": 1.1920928955078125e-07
+  },
+  {
+    "arm": "pooled_window5",
+    "max_abs_difference": 1.7881393432617188e-07
+  },
+  {
+    "arm": "pooled_window5",
+    "max_abs_difference": 1.1920928955078125e-07
+  },
+  {
+    "arm": "pooled_window5",
+    "max_abs_difference": 1.7881393432617188e-07
+  },
+  {
+    "arm": "pooled_window5",
+    "max_abs_difference": 1.7881393432617188e-07
+  },
+  {
+    "arm": "pooled_window5",
+    "max_abs_difference": 1.1920928955078125e-07
+  },
+  {
+    "arm": "pooled_window5",
+    "max_abs_difference": 1.1920928955078125e-07
+  },
+  {
+    "arm": "pooled_window5",
+    "max_abs_difference": 1.1920928955078125e-07
+  },
+  {
+    "arm": "pooled_window5",
+    "max_abs_difference": 1.1920928955078125e-07
+  },
+  {
+    "arm": "pooled_window5",
+    "max_abs_difference": 1.1920928955078125e-07
+  },
+  {
+    "arm": "pooled_window5",
+    "max_abs_difference": 2.384185791015625e-07
+  },
+  {
+    "arm": "pooled_window5",
+    "max_abs_difference": 1.1920928955078125e-07
+  },
+  {
+    "arm": "pooled_window5",
+    "max_abs_difference": 1.7881393432617188e-07
+  },
+  {
+    "arm": "placebo_day5",
+    "max_abs_difference": 1.1920928955078125e-07
+  },
+  {
+    "arm": "placebo_day5",
+    "max_abs_difference": 1.1920928955078125e-07
+  },
+  {
+    "arm": "placebo_day5",
+    "max_abs_difference": 1.1920928955078125e-07
+  },
+  {
+    "arm": "placebo_day5",
+    "max_abs_difference": 1.1920928955078125e-07
+  },
+  {
+    "arm": "placebo_day5",
+    "max_abs_difference": 1.1920928955078125e-07
+  },
+  {
+    "arm": "placebo_day5",
+    "max_abs_difference": 1.1920928955078125e-07
+  },
+  {
+    "arm": "placebo_day5",
+    "max_abs_difference": 1.1920928955078125e-07
+  },
+  {
+    "arm": "placebo_day5",
+    "max_abs_difference": 1.1920928955078125e-07
+  },
+  {
+    "arm": "placebo_day5",
+    "max_abs_difference": 1.1920928955078125e-07
+  },
+  {
+    "arm": "placebo_day5",
+    "max_abs_difference": 1.1920928955078125e-07
+  },
+  {
+    "arm": "placebo_day5",
+    "max_abs_difference": 1.1920928955078125e-07
+  },
+  {
+    "arm": "placebo_day5",
+    "max_abs_difference": 1.1920928955078125e-07
+  },
+  {
+    "arm": "placebo_day5",
+    "max_abs_difference": 2.384185791015625e-07
+  },
+  {
+    "arm": "placebo_day5",
+    "max_abs_difference": 1.1920928955078125e-07
+  },
+  {
+    "arm": "placebo_day5",
+    "max_abs_difference": 1.1920928955078125e-07
+  },
+  {
+    "arm": "placebo_day5",
+    "max_abs_difference": 1.1920928955078125e-07
+  },
+  {
+    "arm": "placebo_window5",
+    "max_abs_difference": 1.1920928955078125e-07
+  },
+  {
+    "arm": "placebo_window5",
+    "max_abs_difference": 1.1920928955078125e-07
+  },
+  {
+    "arm": "placebo_window5",
+    "max_abs_difference": 1.1920928955078125e-07
+  },
+  {
+    "arm": "placebo_window5",
+    "max_abs_difference": 1.1920928955078125e-07
+  },
+  {
+    "arm": "placebo_window5",
+    "max_abs_difference": 1.1920928955078125e-07
+  },
+  {
+    "arm": "placebo_window5",
+    "max_abs_difference": 1.1920928955078125e-07
+  },
+  {
+    "arm": "placebo_window5",
+    "max_abs_difference": 1.1920928955078125e-07
+  },
+  {
+    "arm": "placebo_window5",
+    "max_abs_difference": 1.1920928955078125e-07
+  },
+  {
+    "arm": "placebo_window5",
+    "max_abs_difference": 1.1920928955078125e-07
+  },
+  {
+    "arm": "placebo_window5",
+    "max_abs_difference": 1.1920928955078125e-07
+  },
+  {
+    "arm": "placebo_window5",
+    "max_abs_difference": 1.1920928955078125e-07
+  },
+  {
+    "arm": "placebo_window5",
+    "max_abs_difference": 1.1920928955078125e-07
+  },
+  {
+    "arm": "placebo_window5",
+    "max_abs_difference": 1.1920928955078125e-07
+  },
+  {
+    "arm": "placebo_window5",
+    "max_abs_difference": 1.1920928955078125e-07
+  },
+  {
+    "arm": "placebo_window5",
+    "max_abs_difference": 1.1920928955078125e-07
+  },
+  {
+    "arm": "placebo_window5",
+    "max_abs_difference": 1.1920928955078125e-07
+  }
+]

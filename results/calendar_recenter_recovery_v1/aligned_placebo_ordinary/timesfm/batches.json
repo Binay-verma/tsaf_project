@@ -1,0 +1,14 @@
+[
+  {
+    "arm": "placebo_day5",
+    "offset": 0,
+    "tasks": 12,
+    "seconds": 54.264130566996755
+  },
+  {
+    "arm": "placebo_window5",
+    "offset": 0,
+    "tasks": 12,
+    "seconds": 53.02296621000278
+  }
+]

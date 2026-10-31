@@ -1,0 +1,21 @@
+{
+  "started_utc": "2026-10-30T19:04:18.048123+00:00",
+  "status": "completed_analysis_audit",
+  "completed_steps": [
+    [
+      "src/finalize_calendar_encoding.py",
+      "analyze"
+    ],
+    [
+      "src/audit_calendar_encoding.py"
+    ]
+  ],
+  "completed_workers": [
+    "event_window/chronos",
+    "event_window/timesfm",
+    "ordinary/chronos",
+    "ordinary/timesfm"
+  ],
+  "observed_utc": "2026-10-30T23:39:33.583093+00:00",
+  "completed_utc": "2026-10-30T23:39:50.397358+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "event_window": {
+    "model_rows": 4200,
+    "naive_rows": 168,
+    "compared_rows": 4368,
+    "cases_per_arm": 84,
+    "common_crossing_pairs": 0,
+    "invalid80": 0,
+    "predictions_sha256": "ef0ba9c4797f500a945363cd08c98d4fca0bc49e181c597cb2a1c33529379f22"
+  },
+  "ordinary": {
+    "model_rows": 2100,
+    "naive_rows": 84,
+    "compared_rows": 2184,
+    "cases_per_arm": 42,
+    "common_crossing_pairs": 0,
+    "invalid80": 0,
+    "predictions_sha256": "d3819995b34927e30f3853e7065dbd8f0b9d844337a89684dd1634dda7c6109e"
+  }
+}

@@ -1,0 +1,28 @@
+Loading weights:   0%|          | 0/170 [00:00<?, ?it/s]Loading weights: 100%|██████████| 170/170 [00:00<00:00, 9161.99it/s]
+chronos history 16 / 42
+chronos history 32 / 42
+chronos history 42 / 42
+chronos calendar 16 / 42
+chronos calendar 32 / 42
+chronos calendar 42 / 42
+chronos zero5 16 / 42
+chronos zero5 32 / 42
+chronos zero5 42 / 42
+chronos day5 16 / 42
+chronos day5 32 / 42
+chronos day5 42 / 42
+chronos pooled_day5 16 / 42
+chronos pooled_day5 32 / 42
+chronos pooled_day5 42 / 42
+chronos window5 16 / 42
+chronos window5 32 / 42
+chronos window5 42 / 42
+chronos pooled_window5 16 / 42
+chronos pooled_window5 32 / 42
+chronos pooled_window5 42 / 42
+chronos placebo_day5 16 / 42
+chronos placebo_day5 32 / 42
+chronos placebo_day5 42 / 42
+chronos placebo_window5 16 / 42
+chronos placebo_window5 32 / 42
+chronos placebo_window5 42 / 42

@@ -1,0 +1,14 @@
+{
+  "registered_utc": "2026-10-31T03:53:55.057173+00:00",
+  "scope": "Output-directory-only refresh using unchanged frozen v4 builder/auditor after observed Chronos public receipt. No new forecasts/data/method/case/metric/tolerance. All nine exported table CSVs must remain byte-identical; future-status paragraph and build provenance update. Preserve v4.",
+  "first_forecast_commit": "0e4ab330d6a798545f31476f79c59f55975eb8e3",
+  "inputs": {
+    "src/update_integrated_public_status.py": "1f46a34ecb596eaa4f1d402cafa08d34a4a5e99f1a449a1b72904715468f87de",
+    "src/build_integrated_review_v4.py": "a0d216c1e11bc715e8ccf2ec55bcd1230f11ced72343bb12f4cc5b55f87e1acc",
+    "src/audit_integrated_review_v4.py": "be4784fe8c470e62126b4309d792584dee73c7dbdb9d68f2e191429f9dfdfe18",
+    "manuscript/integrated_review_v4/build.json": "15a168ec2a1dc0cbd1d761bbb08d2991aea707675c407fbeee3ccf4bcede0442",
+    "manuscript/integrated_review_v4/independent_reporting_audit.json": "b8101994bfd2bde5c6038fb0de3828a4e3faab07f820c0129530eeba399c5cef",
+    "manuscript/integrated_review_v4/render_qa.json": "3c831740b2784a5ce48183bec363c97eb806e314cf81fb9546c914dd2f218c5d",
+    "results/prospective_chronos_20261031_v1/public_receipt.json": "2120d90921e8845c6c7cf069e09df7c3131099e241638145f552cae3efd91bde"
+  }
+}

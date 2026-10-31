@@ -1,0 +1,19 @@
+{
+  "started_utc": "2026-10-30T23:18:20.077554+00:00",
+  "status": "completed_full_science_reporting_PDF_visual_review_pending",
+  "completed": [
+    "finalize_calendar_recenter",
+    "audit_calendar_recenter",
+    "recenter_contrasts",
+    "event_support_scalar_audit",
+    "finalize_mta_holiday",
+    "audit_mta_holiday",
+    [
+      "src/build_integrated_review_v4.py"
+    ],
+    [
+      "src/audit_integrated_review_v4.py"
+    ]
+  ],
+  "completed_utc": "2026-10-31T01:35:53.612728+00:00"
+}

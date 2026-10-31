@@ -1,0 +1,23 @@
+{
+  "status": "pass",
+  "scope": "Internal separate rawcountconversion/preyearPDFdate/digest/weekdayplacebo/case/actualfeaturebyte/labelpurge/parameter/scalarpoint/probability/composition audit. All72past-onlyselectionfits rerun with separately constructed matrices and same numerical model libraries. Not independenthuman or independent modelimplementation; complete source means no realmissinglabel imputation case exercised.",
+  "source_days": 1390,
+  "source_records": 2780,
+  "verified_calendar_anchors": 15,
+  "reproduced_selection_fits": 72,
+  "max_validation_MAE_difference_million_rides": 0.0,
+  "local_fit_bytechecks": 624,
+  "foundation_input_bytechecks": 2196,
+  "cohorts": {
+    "event_window": {
+      "compared_rows": 4368,
+      "cases_per_arm": 84,
+      "native_all_grid_crossing_pairs": 0
+    },
+    "ordinary": {
+      "compared_rows": 2184,
+      "cases_per_arm": 42,
+      "native_all_grid_crossing_pairs": 0
+    }
+  }
+}

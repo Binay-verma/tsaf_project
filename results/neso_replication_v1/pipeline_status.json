@@ -1,0 +1,29 @@
+{
+  "started_utc": "2026-10-30T19:04:19.367654+00:00",
+  "status": "completed_analysis_audit",
+  "completed_steps": [
+    [
+      "src/finalize_neso_replication.py",
+      "analyze"
+    ],
+    [
+      "src/audit_neso_replication.py"
+    ]
+  ],
+  "completed_workers": [
+    "ideal/ridge",
+    "ideal/lightgbm",
+    "ideal/lightgbm_capacity2",
+    "ideal/sarimax",
+    "ideal/chronos",
+    "ideal/timesfm",
+    "lag21/ridge",
+    "lag21/lightgbm",
+    "lag21/lightgbm_capacity2",
+    "lag21/sarimax",
+    "lag21/chronos",
+    "lag21/timesfm"
+  ],
+  "observed_utc": "2026-10-31T00:10:20.047056+00:00",
+  "completed_utc": "2026-10-31T00:10:38.278179+00:00"
+}

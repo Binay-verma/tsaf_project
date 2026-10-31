@@ -1,0 +1,15 @@
+{
+  "started_utc": "2026-10-30T23:07:56.582262+00:00",
+  "status": "completed_provider_continuation_v2",
+  "completed": [
+    "old_added",
+    "aligned_added",
+    "aligned_placebo_event",
+    "aligned_placebo_ordinary",
+    "old_encoding_added",
+    "aligned_encoding_added",
+    "MTA/event_window",
+    "MTA/ordinary"
+  ],
+  "completed_utc": "2026-10-31T01:34:57.003548+00:00"
+}

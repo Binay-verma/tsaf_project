@@ -1,0 +1,12 @@
+{
+  "created_utc": "2026-10-30T19:14:36.370446+00:00",
+  "status": "completed",
+  "worker": "timesfm",
+  "completed": [
+    "breadth/event_window",
+    "breadth/ordinary",
+    "encoding/event_window",
+    "encoding/ordinary"
+  ],
+  "completed_utc": "2026-10-31T00:31:21.233449+00:00"
+}

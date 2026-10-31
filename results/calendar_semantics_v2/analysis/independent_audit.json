@@ -1,0 +1,33 @@
+{
+  "status": "pass",
+  "scope": "Internal separate named-date/reuse-block/NumPyfeaturebyte/past-label/parameter/scalarpoint/interval/hierarchy audit. Same source/libraries, not independent human/model reimplementation or amendment certification.",
+  "changed_named_dates": 1,
+  "unchanged_case_block_proofs": 1368,
+  "new_foundation_input_checks": 1248,
+  "cohorts": {
+    "breadth/event_window": {
+      "new_local_fit_bytechecks": 90,
+      "new_foundation_input_bytechecks": 400,
+      "compared_view_rows": 50688,
+      "point_aggregate_cells": 288
+    },
+    "breadth/ordinary": {
+      "new_local_fit_bytechecks": 150,
+      "new_foundation_input_bytechecks": 120,
+      "compared_view_rows": 20736,
+      "point_aggregate_cells": 288
+    },
+    "encoding/event_window": {
+      "new_local_fit_bytechecks": 0,
+      "new_foundation_input_bytechecks": 560,
+      "compared_view_rows": 21120,
+      "point_aggregate_cells": 120
+    },
+    "encoding/ordinary": {
+      "new_local_fit_bytechecks": 0,
+      "new_foundation_input_bytechecks": 168,
+      "compared_view_rows": 8640,
+      "point_aggregate_cells": 120
+    }
+  }
+}

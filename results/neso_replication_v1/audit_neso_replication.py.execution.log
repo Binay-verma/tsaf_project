@@ -1,0 +1,60 @@
+{
+  "status": "pass",
+  "scope": "Internal separate rawintegration/DST/actualflag/source/date/featurebyte/selectioncutoff/parameter/label/scale/point/nativeinterval audit. Same source and libraries, not independent human/fullmodelforecast reproduction. No missingdailylabels in snapshot, so no real missinglabel imputation certification.",
+  "compared_rows": 4800,
+  "source_days": 1369,
+  "source_quality": {
+    "2023": {
+      "days": 365,
+      "period_counts": {
+        "48": 363,
+        "46": 1,
+        "50": 1
+      },
+      "nonactual_rows_excluded": 0
+    },
+    "2024": {
+      "days": 366,
+      "period_counts": {
+        "48": 364,
+        "46": 1,
+        "50": 1
+      },
+      "nonactual_rows_excluded": 0
+    },
+    "2025": {
+      "days": 365,
+      "period_counts": {
+        "48": 363,
+        "46": 1,
+        "50": 1
+      },
+      "nonactual_rows_excluded": 0
+    },
+    "2026": {
+      "days": 273,
+      "period_counts": {
+        "48": 272,
+        "46": 1
+      },
+      "nonactual_rows_excluded": 0
+    }
+  },
+  "selection_fits": 72,
+  "scenarios": {
+    "ideal": {
+      "fit_input_bytechecks": 72,
+      "foundation_input_bytechecks": 464,
+      "sarimax_attempts": 8,
+      "cases_per_arm": 48
+    },
+    "lag21": {
+      "fit_input_bytechecks": 120,
+      "foundation_input_bytechecks": 464,
+      "sarimax_attempts": 16,
+      "cases_per_arm": 48
+    }
+  },
+  "common_crossing_pairs": 0,
+  "predictions_sha256": "f9eecb8c1349787796eaa7d8af6b0a17b817ba8cc9253c3c52fdb5bca0667a0c"
+}

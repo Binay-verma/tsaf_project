@@ -1,0 +1,578 @@
+[
+  {
+    "arm": "history",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "history",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "history",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "history",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "history",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "history",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "history",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "history",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "history",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "history",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "history",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "history",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "history",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "history",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "history",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "history",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "calendar",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "calendar",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "calendar",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "calendar",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "calendar",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "calendar",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "calendar",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "calendar",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "calendar",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "calendar",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "calendar",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "calendar",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "calendar",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "calendar",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "calendar",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "calendar",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "zero5",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "zero5",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "zero5",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "zero5",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "zero5",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "zero5",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "zero5",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "zero5",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "zero5",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "zero5",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "zero5",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "zero5",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "zero5",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "zero5",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "zero5",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "zero5",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "day5",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "day5",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "day5",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "day5",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "day5",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "day5",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "day5",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "day5",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "day5",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "day5",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "day5",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "day5",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "day5",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "day5",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "day5",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "day5",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "pooled_day5",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "pooled_day5",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "pooled_day5",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "pooled_day5",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "pooled_day5",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "pooled_day5",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "pooled_day5",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "pooled_day5",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "pooled_day5",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "pooled_day5",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "pooled_day5",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "pooled_day5",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "pooled_day5",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "pooled_day5",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "pooled_day5",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "pooled_day5",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "window5",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "window5",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "window5",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "window5",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "window5",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "window5",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "window5",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "window5",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "window5",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "window5",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "window5",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "window5",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "window5",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "window5",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "window5",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "window5",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "pooled_window5",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "pooled_window5",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "pooled_window5",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "pooled_window5",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "pooled_window5",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "pooled_window5",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "pooled_window5",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "pooled_window5",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "pooled_window5",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "pooled_window5",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "pooled_window5",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "pooled_window5",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "pooled_window5",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "pooled_window5",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "pooled_window5",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "pooled_window5",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "placebo_day5",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "placebo_day5",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "placebo_day5",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "placebo_day5",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "placebo_day5",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "placebo_day5",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "placebo_day5",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "placebo_day5",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "placebo_day5",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "placebo_day5",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "placebo_day5",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "placebo_day5",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "placebo_day5",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "placebo_day5",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "placebo_day5",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "placebo_day5",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "placebo_window5",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "placebo_window5",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "placebo_window5",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "placebo_window5",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "placebo_window5",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "placebo_window5",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "placebo_window5",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "placebo_window5",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "placebo_window5",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "placebo_window5",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "placebo_window5",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "placebo_window5",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "placebo_window5",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "placebo_window5",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "placebo_window5",
+    "max_abs_difference": 0.0
+  },
+  {
+    "arm": "placebo_window5",
+    "max_abs_difference": 0.0
+  }
+]

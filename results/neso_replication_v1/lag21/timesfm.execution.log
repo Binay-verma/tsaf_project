@@ -1,0 +1,17 @@
+Loading weights from local directory
+timesfm calendar 16 / 29
+timesfm calendar 29 / 29
+timesfm zero6 16 / 29
+timesfm zero6 29 / 29
+timesfm day6 16 / 29
+timesfm day6 29 / 29
+timesfm pooled_day6 16 / 29
+timesfm pooled_day6 29 / 29
+timesfm window6 16 / 29
+timesfm window6 29 / 29
+timesfm pooled_window6 16 / 29
+timesfm pooled_window6 29 / 29
+timesfm placebo_day6 16 / 29
+timesfm placebo_day6 29 / 29
+timesfm placebo_window6 16 / 29
+timesfm placebo_window6 29 / 29

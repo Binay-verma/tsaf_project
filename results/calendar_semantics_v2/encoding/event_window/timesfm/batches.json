@@ -1,0 +1,128 @@
+[
+  {
+    "arm": "ordinal",
+    "offset": 0,
+    "tasks": 16,
+    "seconds": 15.7291125979973
+  },
+  {
+    "arm": "ordinal",
+    "offset": 16,
+    "tasks": 16,
+    "seconds": 5.980274511006428
+  },
+  {
+    "arm": "ordinal",
+    "offset": 32,
+    "tasks": 8,
+    "seconds": 3.4642774410021957
+  },
+  {
+    "arm": "onehot",
+    "offset": 0,
+    "tasks": 16,
+    "seconds": 37.2267068640067
+  },
+  {
+    "arm": "onehot",
+    "offset": 16,
+    "tasks": 16,
+    "seconds": 16.563189386986778
+  },
+  {
+    "arm": "onehot",
+    "offset": 32,
+    "tasks": 8,
+    "seconds": 8.581460832996527
+  },
+  {
+    "arm": "cyclic",
+    "offset": 0,
+    "tasks": 16,
+    "seconds": 17.947128191997763
+  },
+  {
+    "arm": "cyclic",
+    "offset": 16,
+    "tasks": 16,
+    "seconds": 7.849874998006271
+  },
+  {
+    "arm": "cyclic",
+    "offset": 32,
+    "tasks": 8,
+    "seconds": 3.982826399995247
+  },
+  {
+    "arm": "te_sunday",
+    "offset": 0,
+    "tasks": 16,
+    "seconds": 13.027659105995554
+  },
+  {
+    "arm": "te_sunday",
+    "offset": 16,
+    "tasks": 16,
+    "seconds": 3.6134478229942033
+  },
+  {
+    "arm": "te_sunday",
+    "offset": 32,
+    "tasks": 8,
+    "seconds": 2.186030512006255
+  },
+  {
+    "arm": "te_holiday",
+    "offset": 0,
+    "tasks": 16,
+    "seconds": 12.34693893000076
+  },
+  {
+    "arm": "te_holiday",
+    "offset": 16,
+    "tasks": 16,
+    "seconds": 3.711084465991007
+  },
+  {
+    "arm": "te_holiday",
+    "offset": 32,
+    "tasks": 8,
+    "seconds": 2.010536558998865
+  },
+  {
+    "arm": "te_joint",
+    "offset": 0,
+    "tasks": 16,
+    "seconds": 11.911094608993153
+  },
+  {
+    "arm": "te_joint",
+    "offset": 16,
+    "tasks": 16,
+    "seconds": 3.9322784209944075
+  },
+  {
+    "arm": "te_joint",
+    "offset": 32,
+    "tasks": 8,
+    "seconds": 1.9969624999939697
+  },
+  {
+    "arm": "te_separate",
+    "offset": 0,
+    "tasks": 16,
+    "seconds": 17.521465889993124
+  },
+  {
+    "arm": "te_separate",
+    "offset": 16,
+    "tasks": 16,
+    "seconds": 5.752502464994905
+  },
+  {
+    "arm": "te_separate",
+    "offset": 32,
+    "tasks": 8,
+    "seconds": 2.865002040998661
+  }
+]

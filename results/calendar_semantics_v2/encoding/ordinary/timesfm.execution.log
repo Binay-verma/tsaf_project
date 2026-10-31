@@ -1,0 +1,8 @@
+Loading weights from local directory
+timesfm ordinal 12 / 12
+timesfm onehot 12 / 12
+timesfm cyclic 12 / 12
+timesfm te_sunday 12 / 12
+timesfm te_holiday 12 / 12
+timesfm te_joint 12 / 12
+timesfm te_separate 12 / 12

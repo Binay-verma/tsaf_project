@@ -1,0 +1,19 @@
+{
+  "model": "timesfm",
+  "completed_utc": "2026-10-31T00:21:29.972669+00:00",
+  "rows": 240,
+  "cases_per_arm": 48,
+  "arms": [
+    "calendar",
+    "day5",
+    "pooled_day5",
+    "window5",
+    "pooled_window5"
+  ],
+  "inference_tasks": 200,
+  "seconds": 677.1713250780012,
+  "weight_sha256": "a7592b0a8432baee54483254e5647856911ce69e09d09a9bb65904b2d98f17da",
+  "native_quantile_crossings": 0,
+  "predictions_sha256": "a30a90b8f363dd87471b67ff8549e5548b7057c57084d848f86ca161cb89ed80",
+  "protocol_sha256": "89e8694851c1168b08935713c59e09459209061271f9277c11655e73708e17bc"
+}

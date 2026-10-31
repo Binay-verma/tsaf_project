@@ -1,0 +1,79 @@
+{
+  "workers": [
+    {
+      "model": "ridge",
+      "parent_prediction_sha256": "c3a50f4864f32ba2954cda36794cdc30003b8d5732858d769b6b1e2ce01fc71e",
+      "new_prediction_sha256": "6d6af2635b95f98f71f8cba52e85ca8857e455243f57ecbb231adeab02225b0c",
+      "new_rows": 60,
+      "replacement_rows": 48,
+      "reused_rows_per_corrected_view": 1680
+    },
+    {
+      "model": "lightgbm",
+      "parent_prediction_sha256": "8f788db9261b8b64166f30f47239a577a211549a2c024432caf7caacc574047d",
+      "new_prediction_sha256": "f5dcc09cb8e19afb1def96b1de03d95b94f5b1ee039ae21915bbf986d8816ade",
+      "new_rows": 60,
+      "replacement_rows": 48,
+      "reused_rows_per_corrected_view": 1680
+    },
+    {
+      "model": "lightgbm_capacity2",
+      "parent_prediction_sha256": "cd3283807a9101b382e06513c93b11ebf00c20610c42ce52c3cbeb673b6bd1a6",
+      "new_prediction_sha256": "e278f8142b22b3e85e69d51090858f88020a4861af28ba85ae4d4706093d3693",
+      "new_rows": 60,
+      "replacement_rows": 48,
+      "reused_rows_per_corrected_view": 1680
+    },
+    {
+      "model": "sarimax",
+      "parent_prediction_sha256": "f04b73342148e04a4b67388dd4db006dd039bc34f307aae5329a670b09c2cf3f",
+      "new_prediction_sha256": "39522e6c8bd0f6abfe598c678051e51d43b4950f1efcc3cdbe925016d0f25506",
+      "new_rows": 60,
+      "replacement_rows": 48,
+      "reused_rows_per_corrected_view": 1680
+    },
+    {
+      "model": "chronos",
+      "parent_prediction_sha256": "69e3a596655542f4b6e1deacb20450fc5f3541b34abc2a518f2893ed13aedfd3",
+      "new_prediction_sha256": "b6903d1493f9e08633b8e6732b82d9f658925ffa37478f07eaa62340a46e2e77",
+      "new_rows": 60,
+      "replacement_rows": 48,
+      "reused_rows_per_corrected_view": 1680
+    },
+    {
+      "model": "timesfm",
+      "parent_prediction_sha256": "965b214b40ba1672a192602c9e8cda1079c4e0043c427648f64a4ba75bea7f8e",
+      "new_prediction_sha256": "516d53a719cb961a6809fb125ff3680ef341a711d4cd05a8b63a093433613d28",
+      "new_rows": 60,
+      "replacement_rows": 48,
+      "reused_rows_per_corrected_view": 1680
+    }
+  ],
+  "repeated_calendar": [
+    {
+      "model": "ridge",
+      "calendar_max_point_difference_GWh": 0.0
+    },
+    {
+      "model": "lightgbm",
+      "calendar_max_point_difference_GWh": 0.0
+    },
+    {
+      "model": "lightgbm_capacity2",
+      "calendar_max_point_difference_GWh": 0.0
+    },
+    {
+      "model": "sarimax",
+      "calendar_max_point_difference_GWh": 5.684341886080802e-14
+    },
+    {
+      "model": "chronos",
+      "calendar_max_point_difference_GWh": 0.0
+    },
+    {
+      "model": "timesfm",
+      "calendar_max_point_difference_GWh": 0.0
+    }
+  ],
+  "scope": "Same complete originalcases; only60case subsetrecomputed. Not a newly centeredwindow cohort."
+}

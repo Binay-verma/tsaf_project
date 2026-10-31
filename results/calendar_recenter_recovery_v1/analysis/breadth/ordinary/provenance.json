@@ -1,0 +1,49 @@
+{
+  "workers": [
+    {
+      "model": "ridge",
+      "parent_predictions_sha256": "c3a50f4864f32ba2954cda36794cdc30003b8d5732858d769b6b1e2ce01fc71e",
+      "v2_predictions_sha256": "6d6af2635b95f98f71f8cba52e85ca8857e455243f57ecbb231adeab02225b0c",
+      "cases_per_arm": 216,
+      "arms": 8
+    },
+    {
+      "model": "lightgbm",
+      "parent_predictions_sha256": "8f788db9261b8b64166f30f47239a577a211549a2c024432caf7caacc574047d",
+      "v2_predictions_sha256": "f5dcc09cb8e19afb1def96b1de03d95b94f5b1ee039ae21915bbf986d8816ade",
+      "cases_per_arm": 216,
+      "arms": 8
+    },
+    {
+      "model": "lightgbm_capacity2",
+      "parent_predictions_sha256": "cd3283807a9101b382e06513c93b11ebf00c20610c42ce52c3cbeb673b6bd1a6",
+      "v2_predictions_sha256": "e278f8142b22b3e85e69d51090858f88020a4861af28ba85ae4d4706093d3693",
+      "cases_per_arm": 216,
+      "arms": 8
+    },
+    {
+      "model": "sarimax",
+      "parent_predictions_sha256": "f04b73342148e04a4b67388dd4db006dd039bc34f307aae5329a670b09c2cf3f",
+      "v2_predictions_sha256": "39522e6c8bd0f6abfe598c678051e51d43b4950f1efcc3cdbe925016d0f25506",
+      "cases_per_arm": 216,
+      "arms": 8
+    },
+    {
+      "model": "chronos",
+      "parent_predictions_sha256": "69e3a596655542f4b6e1deacb20450fc5f3541b34abc2a518f2893ed13aedfd3",
+      "v2_predictions_sha256": "b6903d1493f9e08633b8e6732b82d9f658925ffa37478f07eaa62340a46e2e77",
+      "cases_per_arm": 216,
+      "arms": 8
+    },
+    {
+      "model": "timesfm",
+      "parent_predictions_sha256": "965b214b40ba1672a192602c9e8cda1079c4e0043c427648f64a4ba75bea7f8e",
+      "v2_predictions_sha256": "516d53a719cb961a6809fb125ff3680ef341a711d4cd05a8b63a093433613d28",
+      "cases_per_arm": 216,
+      "arms": 8
+    }
+  ],
+  "source_registration_sha256": "654b44d717f1bb25e0f0def2f72a55f9ceb0f62ddcd8d404957f961723aeed14",
+  "case_sha256": "ebeaa1cdd98ec5c8b76afd92e46974b925131b3e2e466c04795abc7a6dea970a",
+  "calendar_reference": null
+}

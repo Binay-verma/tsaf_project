@@ -1,0 +1,29 @@
+{
+  "status": "completed",
+  "completed_utc": "2026-10-31T00:44:40.816400+00:00",
+  "part": "all",
+  "new_forecast_rows": 1092,
+  "cohorts": {
+    "breadth/event_window": {
+      "compared_view_rows": 50688,
+      "cases_per_arm": 528,
+      "predictions_sha256": "86772d0ae3af36bf9268e5441d689fd2f07a56514e905a1097e0ea00f6d95d81"
+    },
+    "breadth/ordinary": {
+      "compared_view_rows": 20736,
+      "cases_per_arm": 216,
+      "predictions_sha256": "6587f617a96cfc21eb79e4cdb710cf354f7ff79b9bc02381762bf07700eb821a"
+    },
+    "encoding/event_window": {
+      "compared_view_rows": 23232,
+      "cases_per_arm": 528,
+      "predictions_sha256": "8bbe19e4dae4684e7ee2af80e45b5ff0b71037799f88fe0d6c66b6272f87ade0"
+    },
+    "encoding/ordinary": {
+      "compared_view_rows": 9504,
+      "cases_per_arm": 216,
+      "predictions_sha256": "d8526e8e8edf8ffa0e4965288fcd78943880d3513243b4aeee6fb30d03fceea9"
+    }
+  },
+  "analysis_registration_sha256": "c1c42c6cbbade1bbd8c2e4a8852a5b087e7e573e390a972d91bcc6d642d45a0b"
+}

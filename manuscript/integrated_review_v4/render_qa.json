@@ -1,0 +1,31 @@
+{
+  "status": "internal_all_pages_render_visual_pass",
+  "checked_utc": "2026-10-31T03:51:29.792883+00:00",
+  "pages": 12,
+  "pages_visually_inspected": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "out_of_page_blocks": [],
+  "replacement_glyphs": 0,
+  "reporting_audit_cells": 291,
+  "tables": 9,
+  "figures": 3,
+  "visual_notes": "All12rasterpages individually inspected. Everytable/figure/caption readable, no clipping or missing text. Lastshortcontinuationparagraph spillsonto page12. Original v4 status accurately reflects before new public receipt; see later prospective addendum/new draft version. Internal rendering check, not independent human scientific approval.",
+  "sha256": {
+    "Integrated_Review_Binay_Verma.pdf": "4ada70ecf1a1291935d93f77550ecd7d0f1cdab75f42d2e14d069ce559e2e207",
+    "Integrated_Review_Binay_Verma.docx": "94b1232114bb66e3e67a01a76cdd8f7180f4593c569649c8265ae4411f858eaa",
+    "MANUSCRIPT.md": "7200aafd2a60f46f611dbd9956823eb3ae6b35eedbb472608eadeac8bf39089d",
+    "independent_reporting_audit.json": "b8101994bfd2bde5c6038fb0de3828a4e3faab07f820c0129530eeba399c5cef"
+  }
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "arm": "history",
+    "offset": 0,
+    "tasks": 3,
+    "seconds": 1.8574242879985832
+  },
+  {
+    "arm": "zero1",
+    "offset": 0,
+    "tasks": 3,
+    "seconds": 2.407839139996213
+  },
+  {
+    "arm": "ordinal",
+    "offset": 0,
+    "tasks": 3,
+    "seconds": 3.2809504100005142
+  },
+  {
+    "arm": "onehot",
+    "offset": 0,
+    "tasks": 3,
+    "seconds": 7.3050069349992555
+  },
+  {
+    "arm": "cyclic",
+    "offset": 0,
+    "tasks": 3,
+    "seconds": 3.748387300001923
+  },
+  {
+    "arm": "te_weekday",
+    "offset": 0,
+    "tasks": 3,
+    "seconds": 2.4222609999997076
+  },
+  {
+    "arm": "te_sunday",
+    "offset": 0,
+    "tasks": 3,
+    "seconds": 2.6073162620014045
+  },
+  {
+    "arm": "te_holiday",
+    "offset": 0,
+    "tasks": 3,
+    "seconds": 2.5253557370015187
+  },
+  {
+    "arm": "te_joint",
+    "offset": 0,
+    "tasks": 3,
+    "seconds": 2.463528596999822
+  },
+  {
+    "arm": "te_separate",
+    "offset": 0,
+    "tasks": 3,
+    "seconds": 3.158167362998938
+  }
+]

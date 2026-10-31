@@ -1,0 +1,32 @@
+[
+  {
+    "arm": "calendar",
+    "offset": 0,
+    "tasks": 12,
+    "seconds": 42.263004944994464
+  },
+  {
+    "arm": "day5",
+    "offset": 0,
+    "tasks": 12,
+    "seconds": 58.14091010300035
+  },
+  {
+    "arm": "pooled_day5",
+    "offset": 0,
+    "tasks": 12,
+    "seconds": 60.171875183994416
+  },
+  {
+    "arm": "window5",
+    "offset": 0,
+    "tasks": 12,
+    "seconds": 55.02377021498978
+  },
+  {
+    "arm": "pooled_window5",
+    "offset": 0,
+    "tasks": 12,
+    "seconds": 56.065941099004704
+  }
+]

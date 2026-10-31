@@ -1,0 +1,11 @@
+Loading weights from local directory
+timesfm history 3 / 3
+timesfm zero1 3 / 3
+timesfm ordinal 3 / 3
+timesfm onehot 3 / 3
+timesfm cyclic 3 / 3
+timesfm te_weekday 3 / 3
+timesfm te_sunday 3 / 3
+timesfm te_holiday 3 / 3
+timesfm te_joint 3 / 3
+timesfm te_separate 3 / 3

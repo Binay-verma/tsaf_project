@@ -1,5 +1,17 @@
 # Current status — 31 October 2026 India time
 
+## Current completed checkpoint
+
+All registered historical lanes are COMPLETE and their separate audits pass: 35,712 original breadth forecasts; both-model pure encodings; NESO ordinary/delay comparison; source-driven calendar semantics and full recentering; both-model NYC holidays; past-support diagnostics. See [COMPLETE_RESULTS_20261031.md](COMPLETE_RESULTS_20261031.md) for current corrected tables, mixed/negative findings and exact source links. Historical running/pending sections below are retained snapshots, not current process state.
+
+The 12-page integrated v4 draft passes every table/claim audit (9 tables, 291 data cells, eight claims) and all-page internal visual review. A new output-only v5 refresh is registered to include the observed public Chronos receipt; all nine numeric tables must remain byte-identical. This is a professor-review draft, not submission-ready.
+
+Chronos future forecasts completed31October05:14:07IST;84stored/66eligible full1–11November rows. First public commit0e4ab330d6a798545f31476f79c59f55975eb8e3 and actual observed remote receipt are recorded; first-commit/time guards pass. No future accuracy or festival-feature confirmation exists yet. Old freezes and paused automation remain unchanged.
+
+Remaining executable work: manual rolling-confirmation source/runner/scorer software and fixtures, current paper publication-status refresh and final public-clone checks. Remaining external/clock gates: Indian reuse/report-day clarification, dated2026–2027calendars/amendments includingMH2022evidencegap, independent human review, exact closest learned-event replication details, and actual repeated untouched outcomes. No internal audit closes those gates.
+
+### Historical continuation snapshots
+
 ## Latest continuation: completed breadth, two preserved integration repairs
 
 The full original-calendar study is complete: 35,712 forecasts and its separate source/input/fit/native/metric audit pass. The focused v2 MD/DOCX exists; PDF/visual review is pending. The corrected-calendar foundation panel remains unfinished.

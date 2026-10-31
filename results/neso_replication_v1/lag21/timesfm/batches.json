@@ -1,0 +1,98 @@
+[
+  {
+    "arm": "calendar",
+    "offset": 0,
+    "tasks": 16,
+    "seconds": 59.293658505994244
+  },
+  {
+    "arm": "calendar",
+    "offset": 16,
+    "tasks": 13,
+    "seconds": 21.175509815991973
+  },
+  {
+    "arm": "zero6",
+    "offset": 0,
+    "tasks": 16,
+    "seconds": 86.28885183000239
+  },
+  {
+    "arm": "zero6",
+    "offset": 16,
+    "tasks": 13,
+    "seconds": 33.654758759992546
+  },
+  {
+    "arm": "day6",
+    "offset": 0,
+    "tasks": 16,
+    "seconds": 87.7907233290025
+  },
+  {
+    "arm": "day6",
+    "offset": 16,
+    "tasks": 13,
+    "seconds": 37.82402067100338
+  },
+  {
+    "arm": "pooled_day6",
+    "offset": 0,
+    "tasks": 16,
+    "seconds": 84.7187197519961
+  },
+  {
+    "arm": "pooled_day6",
+    "offset": 16,
+    "tasks": 13,
+    "seconds": 30.5599809520063
+  },
+  {
+    "arm": "window6",
+    "offset": 0,
+    "tasks": 16,
+    "seconds": 85.18003028399835
+  },
+  {
+    "arm": "window6",
+    "offset": 16,
+    "tasks": 13,
+    "seconds": 31.13138825299393
+  },
+  {
+    "arm": "pooled_window6",
+    "offset": 0,
+    "tasks": 16,
+    "seconds": 87.09809118299745
+  },
+  {
+    "arm": "pooled_window6",
+    "offset": 16,
+    "tasks": 13,
+    "seconds": 30.89668588200584
+  },
+  {
+    "arm": "placebo_day6",
+    "offset": 0,
+    "tasks": 16,
+    "seconds": 87.67994783500035
+  },
+  {
+    "arm": "placebo_day6",
+    "offset": 16,
+    "tasks": 13,
+    "seconds": 33.46448570000939
+  },
+  {
+    "arm": "placebo_window6",
+    "offset": 0,
+    "tasks": 16,
+    "seconds": 87.55244057800155
+  },
+  {
+    "arm": "placebo_window6",
+    "offset": 16,
+    "tasks": 13,
+    "seconds": 32.02785774299991
+  }
+]

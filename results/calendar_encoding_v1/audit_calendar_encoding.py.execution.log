@@ -1,0 +1,87 @@
+{
+  "status": "pass",
+  "scope": "Internal separate date/category/NumPy input-byte and scalar metric/interval audit; not independent human or exact hourly benchmark replication.",
+  "cohorts": {
+    "event_window": {
+      "compared_rows": 11616,
+      "cases_per_arm": 528,
+      "inputs": {
+        "chronos": {
+          "reconstructed_inputs": 4700,
+          "new_native_crossing_pairs": 37,
+          "future_unseen_covariate_entries_by_arm": {
+            "history": 0,
+            "zero1": 0,
+            "ordinal": 0,
+            "onehot": 0,
+            "cyclic": 0,
+            "te_weekday": 0,
+            "te_sunday": 0,
+            "te_holiday": 0,
+            "te_joint": 154,
+            "te_separate": 0
+          },
+          "max_solo_batch_difference_GWh": 1.52587890625e-05
+        },
+        "timesfm": {
+          "reconstructed_inputs": 4700,
+          "new_native_crossing_pairs": 0,
+          "future_unseen_covariate_entries_by_arm": {
+            "history": 0,
+            "zero1": 0,
+            "ordinal": 0,
+            "onehot": 0,
+            "cyclic": 0,
+            "te_weekday": 0,
+            "te_sunday": 0,
+            "te_holiday": 0,
+            "te_joint": 154,
+            "te_separate": 0
+          },
+          "max_solo_batch_difference_GWh": 0.0
+        }
+      }
+    },
+    "ordinary": {
+      "compared_rows": 4752,
+      "cases_per_arm": 216,
+      "inputs": {
+        "chronos": {
+          "reconstructed_inputs": 2160,
+          "new_native_crossing_pairs": 21,
+          "future_unseen_covariate_entries_by_arm": {
+            "history": 0,
+            "zero1": 0,
+            "ordinal": 0,
+            "onehot": 0,
+            "cyclic": 0,
+            "te_weekday": 0,
+            "te_sunday": 0,
+            "te_holiday": 0,
+            "te_joint": 15,
+            "te_separate": 0
+          },
+          "max_solo_batch_difference_GWh": 3.0517578125e-05
+        },
+        "timesfm": {
+          "reconstructed_inputs": 2160,
+          "new_native_crossing_pairs": 0,
+          "future_unseen_covariate_entries_by_arm": {
+            "history": 0,
+            "zero1": 0,
+            "ordinal": 0,
+            "onehot": 0,
+            "cyclic": 0,
+            "te_weekday": 0,
+            "te_sunday": 0,
+            "te_holiday": 0,
+            "te_joint": 15,
+            "te_separate": 0
+          },
+          "max_solo_batch_difference_GWh": 0.0
+        }
+      }
+    }
+  },
+  "new_native_crossing_pairs": 58
+}

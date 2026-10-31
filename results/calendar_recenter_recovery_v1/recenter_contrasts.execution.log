@@ -1,0 +1,26 @@
+{
+  "breadth/event_window": {
+    "pairs": 28,
+    "balanced_cells": 504,
+    "cell_pairs": 12096,
+    "balanced_sha256": "1afef3969f6510df272c33eed916a631006b72a4ba5dde5a21bf6b92b164ca01"
+  },
+  "breadth/ordinary": {
+    "pairs": 28,
+    "balanced_cells": 504,
+    "cell_pairs": 3024,
+    "balanced_sha256": "5b57b2e550ad6fe221370dfcf16cdc361e65b8e6aa56cbb1138e469fdb5888ae"
+  },
+  "encoding/event_window": {
+    "pairs": 55,
+    "balanced_cells": 330,
+    "cell_pairs": 7920,
+    "balanced_sha256": "8647d332556f68d502d6ac9a9e8bced26b7e82bcfeb349cc31365f2c7be324e8"
+  },
+  "encoding/ordinary": {
+    "pairs": 55,
+    "balanced_cells": 330,
+    "cell_pairs": 1980,
+    "balanced_sha256": "580c8a08772b086c7de7ca172739acea1241d63df84505b53c655da13b84b784"
+  }
+}

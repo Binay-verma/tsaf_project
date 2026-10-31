@@ -1,0 +1,44 @@
+[
+  {
+    "arm": "ordinal",
+    "offset": 0,
+    "tasks": 12,
+    "seconds": 12.42203593099839
+  },
+  {
+    "arm": "onehot",
+    "offset": 0,
+    "tasks": 12,
+    "seconds": 27.90321027599566
+  },
+  {
+    "arm": "cyclic",
+    "offset": 0,
+    "tasks": 12,
+    "seconds": 13.805813775004935
+  },
+  {
+    "arm": "te_sunday",
+    "offset": 0,
+    "tasks": 12,
+    "seconds": 8.784033916002954
+  },
+  {
+    "arm": "te_holiday",
+    "offset": 0,
+    "tasks": 12,
+    "seconds": 9.601685672998428
+  },
+  {
+    "arm": "te_joint",
+    "offset": 0,
+    "tasks": 12,
+    "seconds": 10.394247543998063
+  },
+  {
+    "arm": "te_separate",
+    "offset": 0,
+    "tasks": 12,
+    "seconds": 13.15335525199771
+  }
+]

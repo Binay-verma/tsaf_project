@@ -1,0 +1,20 @@
+{
+  "event_window": {
+    "new_rows": 10560,
+    "reused_calendar_rows": 1056,
+    "compared_rows": 11616,
+    "invalid80": 0,
+    "common_crossing_pairs": 0,
+    "predictions_sha256": "01f593dd2721e2caf79f2fe6e27d29d84759e32856cc0a0d0efdfbe3c48b0c26",
+    "parent_predictions_sha256": "253eda901ee9dc6ac2665845b4f8cce1a6dca1add623f9bb9e8cacdb2eebe9df"
+  },
+  "ordinary": {
+    "new_rows": 4320,
+    "reused_calendar_rows": 432,
+    "compared_rows": 4752,
+    "invalid80": 0,
+    "common_crossing_pairs": 0,
+    "predictions_sha256": "383e153187136833cade70e35be365c8c65f9c9603477278019cfe5831168f54",
+    "parent_predictions_sha256": "49a13c7d438f6edc155eabf6332a82b5bbb3c374933403774bb270f7fff50988"
+  }
+}

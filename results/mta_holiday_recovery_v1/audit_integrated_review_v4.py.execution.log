@@ -1,0 +1,13 @@
+{
+  "status": "pass",
+  "audited_utc": "2026-10-31T01:35:52.426957+00:00",
+  "scope": "Internal independent CSV/scalar reconstruction of every integrated DOCX table cell and eight narrative claims; no independent human scientific/visual approval.",
+  "tables": 9,
+  "data_cells_checked": 291,
+  "numeric_claims": 8,
+  "figures": 3,
+  "source_files_checked": 33,
+  "docx_sha256": "94b1232114bb66e3e67a01a76cdd8f7180f4593c569649c8265ae4411f858eaa",
+  "manuscript_sha256": "7200aafd2a60f46f611dbd9956823eb3ae6b35eedbb472608eadeac8bf39089d",
+  "audit_source_sha256": "be4784fe8c470e62126b4309d792584dee73c7dbdb9d68f2e191429f9dfdfe18"
+}

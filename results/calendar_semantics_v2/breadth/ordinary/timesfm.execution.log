@@ -1,0 +1,6 @@
+Loading weights from local directory
+timesfm calendar 12 / 12
+timesfm day5 12 / 12
+timesfm pooled_day5 12 / 12
+timesfm window5 12 / 12
+timesfm pooled_window5 12 / 12

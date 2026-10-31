@@ -1,0 +1,164 @@
+[
+  {
+    "arm": "history",
+    "offset": 0,
+    "tasks": 16,
+    "seconds": 4.1074928140005795
+  },
+  {
+    "arm": "history",
+    "offset": 16,
+    "tasks": 16,
+    "seconds": 1.3675443459942471
+  },
+  {
+    "arm": "history",
+    "offset": 32,
+    "tasks": 10,
+    "seconds": 0.937930583000707
+  },
+  {
+    "arm": "calendar",
+    "offset": 0,
+    "tasks": 16,
+    "seconds": 41.76508631100296
+  },
+  {
+    "arm": "calendar",
+    "offset": 16,
+    "tasks": 16,
+    "seconds": 21.676084941995214
+  },
+  {
+    "arm": "calendar",
+    "offset": 32,
+    "tasks": 10,
+    "seconds": 15.24836363599752
+  },
+  {
+    "arm": "zero5",
+    "offset": 0,
+    "tasks": 16,
+    "seconds": 55.56333822799206
+  },
+  {
+    "arm": "zero5",
+    "offset": 16,
+    "tasks": 16,
+    "seconds": 28.418166020011995
+  },
+  {
+    "arm": "zero5",
+    "offset": 32,
+    "tasks": 10,
+    "seconds": 18.334861273004208
+  },
+  {
+    "arm": "day5",
+    "offset": 0,
+    "tasks": 16,
+    "seconds": 52.72659426700557
+  },
+  {
+    "arm": "day5",
+    "offset": 16,
+    "tasks": 16,
+    "seconds": 27.737166253995383
+  },
+  {
+    "arm": "day5",
+    "offset": 32,
+    "tasks": 10,
+    "seconds": 17.269718169001862
+  },
+  {
+    "arm": "pooled_day5",
+    "offset": 0,
+    "tasks": 16,
+    "seconds": 52.911832401994616
+  },
+  {
+    "arm": "pooled_day5",
+    "offset": 16,
+    "tasks": 16,
+    "seconds": 29.841079841004102
+  },
+  {
+    "arm": "pooled_day5",
+    "offset": 32,
+    "tasks": 10,
+    "seconds": 16.649804614004097
+  },
+  {
+    "arm": "window5",
+    "offset": 0,
+    "tasks": 16,
+    "seconds": 55.02702472799865
+  },
+  {
+    "arm": "window5",
+    "offset": 16,
+    "tasks": 16,
+    "seconds": 27.330872773003648
+  },
+  {
+    "arm": "window5",
+    "offset": 32,
+    "tasks": 10,
+    "seconds": 18.015095593989827
+  },
+  {
+    "arm": "pooled_window5",
+    "offset": 0,
+    "tasks": 16,
+    "seconds": 54.42438638101157
+  },
+  {
+    "arm": "pooled_window5",
+    "offset": 16,
+    "tasks": 16,
+    "seconds": 28.315587853998295
+  },
+  {
+    "arm": "pooled_window5",
+    "offset": 32,
+    "tasks": 10,
+    "seconds": 19.203555881002103
+  },
+  {
+    "arm": "placebo_day5",
+    "offset": 0,
+    "tasks": 16,
+    "seconds": 53.521817500004545
+  },
+  {
+    "arm": "placebo_day5",
+    "offset": 16,
+    "tasks": 16,
+    "seconds": 26.667187019993435
+  },
+  {
+    "arm": "placebo_day5",
+    "offset": 32,
+    "tasks": 10,
+    "seconds": 18.02297935700335
+  },
+  {
+    "arm": "placebo_window5",
+    "offset": 0,
+    "tasks": 16,
+    "seconds": 52.48268354400352
+  },
+  {
+    "arm": "placebo_window5",
+    "offset": 16,
+    "tasks": 16,
+    "seconds": 26.97940024601121
+  },
+  {
+    "arm": "placebo_window5",
+    "offset": 32,
+    "tasks": 10,
+    "seconds": 16.302627381999628
+  }
+]

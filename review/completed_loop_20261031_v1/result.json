@@ -1,0 +1,26 @@
+{
+  "checked_utc": "2026-10-31T03:55:27.560786+00:00",
+  "status": "listed_registered_historical_lanes_and_internal_audits_complete",
+  "scope": "Completed executable loop, not every external journal gate. No new forecasts or outcome-based selection.",
+  "inputs": {
+    "results/feature_breadth_v1/independent_audit.json": "d8e6fcb7e06ee166dc483b7de3334387d3b2d78ff179e1805a697c1a2228a0d1",
+    "results/calendar_encoding_v1/independent_audit.json": "082c2832f6e0a534ab8c460a044a3acb8b702654c387b3dca3a774e42df8741d",
+    "results/neso_replication_v1/analysis/independent_audit.json": "635d2cc98f05fa51dcd7492ccc288d5537a01529f199e5c97794f6f16328479f",
+    "results/calendar_semantics_v2/analysis/independent_audit.json": "6699fa68a0564a2915aaadeef5989b078a316bb17e36478e47f32c3f070efc7f",
+    "results/calendar_recenter_recovery_v1/analysis/independent_audit.json": "3abdf5f526ae793c58a52d917add56e51cf5c758aef4292ef8d0a065873f9c25",
+    "results/calendar_recenter_recovery_v1/analysis/contrasts/audit.json": "cdd49c2c02e02140b6aab802e375898e7ea7d5ef3cae68aa977aedc21019c163",
+    "results/mta_holiday_recovery_v1/analysis/independent_audit.json": "93088595bba78c301be1e9e1cf6b72a705b50983bf05eb24f108b42d9e384176",
+    "results/event_support_v1/independent_audit.json": "69e57dc6c217e3cb9bce49c86a948924e441eb2a3d10e5ffea51e96e22f51b3f",
+    "review/clean_mta_v1/comparison.json": "b0a0e8fef5b2a2915819587f42600783c7c2397685dcc072584ae151f436626e",
+    "review/clean_extended_v1/comparison.json": "7c4a5eb253513215574727aa5968ce5fb8183415a1a89e3b201bc7a5c91f3572",
+    "results/prospective_chronos_20261031_v1/independent_audit.json": "ec9c54f0aec36647f29d24667ff7db200838b135856171fb5af736a60f86ada2",
+    "manuscript/integrated_review_v4/independent_reporting_audit.json": "b8101994bfd2bde5c6038fb0de3828a4e3faab07f820c0129530eeba399c5cef",
+    "results/calendar_recenter_recovery_v1/analysis/encoding/event_window/metrics_balanced.csv": "b33d77d4e4976d0263ff0e88eedf6faeea686555481e6b95940941626d655c77",
+    "manuscript/integrated_review_v4/supplement/india_event.csv": "854ed7855e6392b96299b0d387dbb2a4d4a181e6d7aba2a93274de61c09c2d81",
+    "manuscript/integrated_review_v4/supplement/mta_event.csv": "0823b422341a2bc53e472488e7b28a8289ea159c7a57fcec327fca7a33ab176c",
+    "manuscript/integrated_review_v4/supplement/neso.csv": "39efd4c612e4af213dda78c33b5f7d384b248fd26bc6f281b9dba726db1cbd09",
+    "manuscript/integrated_review_v4/supplement/support_diagnostics.csv": "65ce5b585e1b38535e7b392c4e2d1738e6b71d9dab09b86242766b03f6aa4a82"
+  },
+  "summary_sha256": "34d20adb3e73271946dad6acea26dd405121065220e653edf0c5464f7366401e",
+  "builder_sha256": "f153c912e1cf97d86a6607a48f9a5ab149cd4b38f387e30fc94fd4f41f4d1b3f"
+}

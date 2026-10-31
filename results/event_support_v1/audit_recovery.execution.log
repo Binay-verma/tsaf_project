@@ -1,0 +1,13 @@
+{
+  "status": "pass",
+  "audited_utc": "2026-10-31T00:45:09.197597+00:00",
+  "scope": "Separate scalar datedcalendar/recordedsupport/excludedordinaryweekdaybaseline/scaledpastresponse/heterogeneity/availability audit; no causal or independent human claim.",
+  "moderator_rows": 1056,
+  "reconstructed_contexts": 942,
+  "source_hash": "493f3b78887cb6c3c5c755ee11e17441b7bd98c007a35417d714455927f0de70",
+  "paired_cases": 6336,
+  "cells": 864,
+  "scalar_association_checks": 1728,
+  "full_point_source_sha256": "86772d0ae3af36bf9268e5441d689fd2f07a56514e905a1097e0ea00f6d95d81",
+  "associations_sha256": "150c80aac04645950ff416ef80b026c5834f9ef34ecbef69887ce09cbbd88247"
+}
