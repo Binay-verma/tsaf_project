@@ -1,0 +1,32 @@
+[
+  {
+    "state": "Karnataka",
+    "mode": "history",
+    "maximum_absolute_difference_GWh": 6.103515625e-05
+  },
+  {
+    "state": "Delhi",
+    "mode": "history",
+    "maximum_absolute_difference_GWh": 1.52587890625e-05
+  },
+  {
+    "state": "Maharashtra",
+    "mode": "history",
+    "maximum_absolute_difference_GWh": 6.103515625e-05
+  },
+  {
+    "state": "Karnataka",
+    "mode": "calendar",
+    "maximum_absolute_difference_GWh": 3.0517578125e-05
+  },
+  {
+    "state": "Delhi",
+    "mode": "calendar",
+    "maximum_absolute_difference_GWh": 1.52587890625e-05
+  },
+  {
+    "state": "Maharashtra",
+    "mode": "calendar",
+    "maximum_absolute_difference_GWh": 6.103515625e-05
+  }
+]

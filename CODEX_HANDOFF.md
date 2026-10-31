@@ -6,6 +6,14 @@ Updated 30 October 2026. Continue `/workspace/tsaf_project`; do not restart or u
 
 The user reports their professor expects a journal paper, targets a Q1 venue without naming one, and explicitly requests continuing executable phases. Completed tasks should be committed and pushed to the existing public `Binay-verma/tsaf_project` repository. The prior sharing hold was superseded by explicit push authorization. Do not change visibility, publish an environment or re-enable the deliberately paused prospective workflow. No new future actuals were retrieved. The author reports manually emailing the curator; do not send a duplicate. Binay Verma is author/requester, not an independent reviewer. No professor authorship or sign-off is assumed.
 
+## Completed lanes and urgent prospective publication checkpoint — 31 October 2026
+
+All registered provider chains completed without restarts: pure calendar encodings, NESO, document-aligned semantics, full recenter recovery and MTA recovery. Their full separate audits pass. The past-support associations and scalar audit pass. Integrated-v4 MD/DOCX/PDF exists, reporting audit passes 9 tables/291 data cells/8 claims; all-page PDF visual review still pending. Earlier running/waiting sections are historical snapshots.
+
+Chronos future competitor completed 31October05:14:07IST:84stored/66eligible full1–11November rows, no actual outcomes/crossings; separate input/fullIndia-day/parent-preservation audit PASS. THIS checkpoint commits/pushes every six first-commit-guarded artifact together. NEXT immediately verify remote SHA, write `public_receipt.json` with actual observed UTC/first forecast commit/prediction SHA, push receipt, run first_commit_guard without labels. Never edit guarded blobs, backdate, score early or activate workflow. Old future episodes remain immutable.
+
+After receipt: inspect all integrated-v4 PDF pages, summarize all fixed corrected/pure/cross-source/support results including negatives, update latest status/roadmap/handoff/log, stage completed scientific outputs and final immutable queue logs, verify checksum/unit/source/future guards, normal push. Stop calling active old failure tombstones current. Rights/amendments/independent human review/actual future outcomes and verified dated future festival issuance remain open.
+
 ## Current execution: original draft PDF checked; analysis renderer continuation v3
 
 Latest pushed checkpoint before this update: 21a80ae. The two provider continuation-v2 lanes ARE RUNNING (Chronos new MTA foundation event worker; TimesFM waits its existing pure-encoding → NESO → semantic pipeline, then recovered recenter/MTA). Do not restart them or the completed workers. Earlier paragraphs saying queues not started are historical protocol checkpoints.

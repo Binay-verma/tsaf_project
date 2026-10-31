@@ -1,0 +1,14 @@
+{
+  "status": "pass",
+  "audited_utc": "2026-10-30T23:44:08.872159+00:00",
+  "scope": "Separate NumPy/scalar past-input/calendar/scales/fullIndia-day/native/parent-preservation audit; no future actuals or independent human review.",
+  "reconstructed_input_tasks": 6,
+  "rows": 84,
+  "eligible_rows": 66,
+  "recorded_issued_utc": "2026-10-30T23:44:07.261024+00:00",
+  "eligible_start": "2026-11-01",
+  "predictions_sha256": "1f6bb8a09bc75f2df4fc07db47eff6b6848a68c0e1dc97b7bf85b05a4993c807",
+  "native_crossing_pairs": 0,
+  "public_freeze_status": "Normal public push/observed receipt before eligible day still required",
+  "future_accuracy_available": false
+}
