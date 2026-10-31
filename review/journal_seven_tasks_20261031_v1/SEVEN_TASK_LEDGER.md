@@ -7,6 +7,38 @@ Branch `journal-seven-tasks-20261031-claude`, local commits only. **Nothing was 
 
 > **Correction (31 Oct 2026, later the same day).** The first version of this ledger counted exact ties as sign disagreements. The corrected counts are 19/36 opposite year signs plus 1 tie (not 20), and 11/36 opposite India–NYC signs plus 3 ties (not 14 implied). See `tie_correction_v2.json`; the original outputs are preserved.
 
+## 0. Second pass — 31 October 2026 evening (current status; sections 1–6 below are the first pass)
+
+**Repository and code check.**
+- **History.** All 46 commits were scanned. No commit deletes a file. The only renames are four live-progress logs, moved byte-identically into `review/progress_snapshot_5a7467f/`. Changes inside `results/` are confined to `prospective_20261030_v1/AUTOMATION.md` (status wording). The two post-freeze code changes were an import path in `score_frozen.py` and a *stricter* completeness check in `collect_prospective_actuals.py`, both before any outcome. No credential patterns were found in any revision.
+- **Static analysis.** pyflakes over 189 source files found no undefined names outside legacy star-import modules.
+- **Dry runs.** All three frozen-episode scorers stop at PENDING with no network request before 12 Nov UTC. Registered self-hashes match: the interval scorer, and 8/8 source files of the Chronos competitor.
+- **Rolling runner.** It checks the issuance window before any network or model access.
+
+**Correction to the first pass.** Exact ties were counted as sign disagreements. Corrected: India 2024 vs 2025 opposite in **19**/36 (+1 tie); India vs NYC opposite in **11**/36 (+3 ties, all Stable LightGBM day flags with identical NYC forecasts); agreement is still 22/36. The original outputs are preserved; see `tie_correction_v2.json`.
+
+| # | Task | Deliverable now | Status | Remaining blocker | Next action |
+| --- | --- | --- | --- | --- | --- |
+| 1 | Distinct contribution | **Manuscript v6** (`manuscript/integrated_review_v6/`, MD/DOCX/PDF, 15 pages). R1–R8 applied as asserted edits to v5; all 9 v5 tables byte-identical. Separate audit `independent_v6_audit.json` recomputes every new number from case-level files: **pass** | Done internally | Distinctiveness is a human judgement | Professor reads v6; decide whether to keep the reframed title |
+| 2 | Generalisation | Assessment plus Singapore draft protocol | Blocked | EMA history start and terms scope; protocol must be pushed before any acquisition | Run C3, then push the protocol |
+| 3 | Untouched confirmation | Guards and dry runs verified. Calendar/activation assessment `review/india2026_calendar_feasibility_v2/` | Guards intact. Rolling activation **not satisfiable** as registered (2027 state lists not issued) | Author decision A/B (record.json) before 16 Nov | Choose A (record misses) or B (register a new timing rule before 16 Nov). Score the frozen episodes with C5 on/after 12 Nov 05:30 IST |
+| 4 | Closest-method comparison | `CLOSEST_METHOD_MAP.md` | Mapped. Ziel's additive single and per-holiday dummies correspond to the existing pooled/typed local arms; only Ziel's replacing (holiday-as-Sunday) variant is missing; Alipour is not reproducible | — | Optional: register and run the replacing variant (exploratory, multi-hour) |
+| 5 | Source and calendar credibility | Data-statement correction in v6. 2026 notifications located on secondary hosts (Maharashtra gazette of 8 Dec 2025 from two hosts; Karnataka; GNCTD order of 4 Dec 2025) | Located, not verified | Bytes could not be downloaded here. The Delhi extraction looks truncated. Curator reply pending. `POSOCO_data.csv` decision pending | A human downloads and reads the three PDFs, records hashes and checks amendments. You decide on the public file |
+| 6 | Independent review | Reviewer packet v6 (corrected counts) | Ready | No reviewer | Send v6 PDF and packet to a real external researcher |
+| 7 | Dependence and uncertainty | Cluster tables, now in v6 Appendix A4–A5 | Done (descriptive) | Two event years | — |
+
+**Possibly important if confirmed by a human reading:** 2026 Dussehra appears on 20 Oct (Delhi, Maharashtra) but Vijayadashami on 21 Oct (Karnataka). National Diwali, 8 Nov 2026, is a Sunday. The frozen 31 Oct–11 Nov episode therefore spans Diwali, so its 12 Nov scoring tests history-only models across a festival. It is still one episode.
+
+**C5 — on or after 12 Nov 2026 05:30 IST only** (frozen episodes; read-only on forecasts):
+
+```bash
+cd /content/tsaf_project && git pull --ff-only
+python src/collect_prospective_actuals.py      # prints PENDING if labels are incomplete; rerun later, never edit
+python src/score_interval_annex.py
+python src/score_chronos_competitor.py
+git status --short                              # new scoring dirs only; commit and push them
+```
+
 ## 1. What was actually done in this session
 
 | Category | Item | Evidence |

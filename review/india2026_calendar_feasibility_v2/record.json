@@ -1,0 +1,58 @@
+{
+ "created_utc": "2026-10-31T15:30:35.598712+00:00",
+ "status": "EVIDENCE-LOCATION RECORD ONLY. Not a feature ledger, not certification. Every entry below was machine-extracted (summariser over PDF text) from SECONDARY hosts; no file bytes could be downloaded or hashed from this workspace (allowlist). No date here may enter a forecast feature until a human reads the document, records its bytes/hash and authorship, and checks amendments.",
+ "documents": {
+  "Maharashtra_2026": {
+   "described_as": "GAD notification PHD-1125/C.R.199/Japuk (29), 5 Dec 2025, Maharashtra Government Gazette Extraordinary Part One (Madhya Upa-vibhag) Vol. 11 No. 77, 8 Dec 2025",
+   "secondary_hosts": [
+    "https://bombaychamber.com/wp-content/uploads/2025/12/Public-Holiday-2026-1.pdf",
+    "https://uncomplycate.com/wp-content/uploads/2025/12/Maharashtra-Govt-issued-the-list-of-Public-Holiday-for-2026-Dec092025.pdf"
+   ],
+   "cross_host_text_agreement": "both extractions report the same notification number, gazette issue and family entries (byte identity not checked)",
+   "family_entries_extracted": {
+    "Holi": "Holi (Second Day) 2026-03-03 Tue",
+    "Ugadi_Gudi_Padwa": "Gudi Padwa 2026-03-19 Thu",
+    "Ganesh_Chaturthi": "2026-09-14 Mon",
+    "Dussehra": "Dasara 2026-10-20 Tue",
+    "Diwali": "Diwali Amavasya (Laxmi Pujan) 2026-11-08 Sun; Diwali (Bali Pratipada) 2026-11-10 Tue; Bhaubeej 2026-11-11 Wed in a separate same-date notification for state offices/PSUs/local bodies"
+   }
+  },
+  "Karnataka_2026": {
+   "described_as": "Karnataka Government Secretariat notification (number rendered 'CIAUI 16 HHHL 2025', likely a transliteration of the Kannada reference), English list, date field blank in extracted text",
+   "secondary_hosts": [
+    "https://sgcservicesblog.com/wp-content/uploads/2025/11/Karnataka-Holiday-list-2026-English.pdf"
+   ],
+   "family_entries_extracted": {
+    "Ugadi_Gudi_Padwa": "Ugadi Festival 2026-03-19 Thu",
+    "Ganesh_Chaturthi": "Varasiddhi Vinayaka Vrata 2026-09-14 Mon",
+    "Dussehra": "Mahanavami, Ayudha Puja 2026-10-20 Tue; Vijayadashami 2026-10-21 Wed",
+    "Diwali": "Balipadyami, Deepavali 2026-11-10 Tue; Naraka Chaturdashi 2026-11-08 listed in Note 1 among excluded Sunday/holiday-coincident days"
+   },
+   "caution": "Translation status unknown; authorship and date not confirmed."
+  },
+  "Delhi_2026": {
+   "described_as": "GNCTD GAD order No. F.53/812/GAD/CN/2025/4540-4576, 4 Dec 2025, signed Jt. Secy (GAD)",
+   "secondary_hosts": [
+    "https://sgcservicesblog.com/wp-content/uploads/2025/12/Delhi-Holiday-list-2026.pdf"
+   ],
+   "family_entries_extracted": {
+    "Holi": "2026-03-04 Wed",
+    "Dussehra": "2026-10-20 Tue",
+    "Diwali": "reported only in the restricted list, 2026-11-08 Sun"
+   },
+   "caution": "Extraction reports 15 gazetted rows and omits Guru Nanak's Birthday and Christmas, which suggests truncated text; must be read by a human."
+  },
+  "government_url_attempt": "https://delhi.gov.in/sites/default/files/documents/Gazzeted_holiday_2026.pdf returned a fetch error (as in v1)."
+ },
+ "observations_not_findings": [
+  "If confirmed, Dussehra is named on 20 Oct in Delhi and Maharashtra but Vijayadashami on 21 Oct in Karnataka (Mahanavami 20 Oct): the same kind of state-level named-date difference as the Karnataka 2025 correction. A shared generic date would be wrong for at least one state.",
+  "If confirmed, the national Diwali day (8 Nov 2026) is a Sunday; Karnataka and Maharashtra name 10 Nov (Bali Pratipada) as the working-day holiday, and Delhi may list Diwali only as restricted.",
+  "The 2026 lists were issued 4-8 Dec 2025 (Delhi, Maharashtra). By analogy, 2027 state lists are unlikely to exist before December 2026."
+ ],
+ "rolling_activation_assessment": {
+  "registered_requirement": "rolling_execution_v1.prerequisites(): complete primary 2024-2027 package for all 3 states x 5 families, plus reviewed source-rights and observation-day evidence, before ANY issuance.",
+  "status_on_2026-10-31": "Not satisfiable: 2027 state lists not issued; 2026 lists located only as secondary copies; source rights and report-day review still pending.",
+  "consequence": "Under the registered plan, 16 Nov 2026 and subsequent windows until all prerequisites exist are recorded misses (MANUAL_OPERATIONS step 6). This is the plan working as registered, not a failure to hide.",
+  "author_decision_needed": "Option A: keep the registered rule and record misses. Option B: before 16 Nov 2026 and before any rolling outcome, register a NEW versioned activation rule (e.g. calendars required only for years covering each issuance's context and target dates) with its own commit/push; the original rule and any misses stay on record. Option B changes the plan's timing only, not models, arms, leads or scoring, but it is still a protocol change and must be your explicit decision. Neither option removes the source-rights/report-day prerequisite."
+ }
+}
