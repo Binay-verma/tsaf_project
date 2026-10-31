@@ -1,0 +1,12 @@
+{
+  "created_utc": "2026-10-31T14:25:56.196614+00:00",
+  "scope": "Descriptive audit of completed retrospective results. No new forecasts, source acquisition, tuning or untouched-test claim.",
+  "source_hashes": {
+    "india_metrics": "e6f4ca418cbfce3c476c9f74dce391f103394cd4a5b23b3fcd16b569f5a7c948",
+    "nyc_metrics": "7ae676bf6973ba3d0e6b8e463cd780d2069abb4cb59b3636e1e4d7a760377c7f",
+    "india_cases": "951e4e6e2c24fcd9155ef2254ffae9df7aba1edb2a2edd3a9688830affe28beb",
+    "nyc_cases": "1e3fbe1ead6489d8fcd39d9cb865804dd76a0c29f85eff907d51ea79bd52d5da",
+    "paper": "86e286bc19bd15ada23630ee0117ded63c3e9805695f9185c20816b334a1a8d4",
+    "claims": "3bbe51d28395a46fc5d14ab8c5b24a735bea7194fabf4e3f07bf49e7ab40c9c3"
+  }
+}
