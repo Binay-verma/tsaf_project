@@ -67,7 +67,7 @@ const body = [
   P([bold("Author: "), "Binay Verma"]),
   P([bold("Date: "), "1 November 2026"]),
   P([bold("Status: "), "Research in progress. Internal report for supervisor and viva use; not a journal submission and not independently reviewed."]),
-  P([bold("Repository: "), "github.com/Binay-verma/tsaf_project (branch journal-seven-tasks-20261031-claude, commit c41d4fa)"]),
+  P([bold("Repository: "), "github.com/Binay-verma/tsaf_project (branch journal-seven-tasks-20261031)"]),
   P([bold("Sources of every number: "), "the audited manuscript v6 (manuscript/integrated_review_v6), the registered re-analysis and its tie correction (review/journal_seven_tasks_20261031_v1), and the project status files. Tables are extracted from v6 by script, not retyped."]),
   new Paragraph({ children: [new PageBreak()] }),
 

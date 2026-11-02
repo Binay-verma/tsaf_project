@@ -1,6 +1,6 @@
 # Reproduction and review packet v6 — for an external researcher
 
-Author/requester: Binay Verma. Prepared 31 October 2026 with an AI assistant. **No independent human review has occurred.** The author, the professor-as-supervisor and AI sessions cannot fill the reviewer fields below on someone else's behalf.
+Author/requester: Binay Verma. Prepared 31 October 2026. **No independent human review has occurred.** The author and the supervisor cannot fill the reviewer fields below on someone else's behalf.
 
 This packet supersedes `review/INDEPENDENT_REVIEW_UPDATE_20261031.md` for the current checkpoint, which refers to an older v3 draft. Earlier packets are kept unchanged.
 

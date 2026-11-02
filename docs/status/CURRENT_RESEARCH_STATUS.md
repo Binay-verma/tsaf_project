@@ -16,13 +16,13 @@ Manual rolling-confirmation source/runner/receipt/vintage/scorer/miss software a
 
 The full original-calendar study is complete: 35,712 forecasts and its separate source/input/fit/native/metric audit pass. The focused v2 MD/DOCX exists; PDF/visual review is pending. The corrected-calendar foundation panel remains unfinished.
 
-The ten-arm encoder repair succeeded. Recenter recovery retains 870 completed forecasts and needs only 222 TimesFM rows. The first MTA foundation batch then failed while writing a foreign `scenario` field, before a complete forecast file. A versioned metadata-only fix and synthetic end-to-end tests for both providers/all nine arms are registered; 90 tests pass. New MTA recovery carries all 4,032 local forecasts byte-for-byte and needs 2,268 foundation rows. All original sources, failures and completed results remain unchanged. Read the latest CODEX_HANDOFF.md for continuation-v2 launch/state details. The active upstream TimesFM model was not stopped.
+The ten-arm encoder repair succeeded. Recenter recovery retains 870 completed forecasts and needs only 222 TimesFM rows. The first MTA foundation batch then failed while writing a foreign `scenario` field, before a complete forecast file. A versioned metadata-only fix and synthetic end-to-end tests for both providers/all nine arms are registered; 90 tests pass. New MTA recovery carries all 4,032 local forecasts byte-for-byte and needs 2,268 foundation rows. All original sources, failures and completed results remain unchanged. Read the latest docs/status/HANDOFF.md for continuation-v2 launch/state details. The active upstream TimesFM model was not stopped.
 
 The 1,056 past-only diagnostic rows remain separately audited; associations wait for complete corrected forecasts. New future Chronos predictions are not issued yet; old future blobs/workflow stay unchanged. No future accuracy, independent human review, source permission or amendment certification is inferred.
 
 ## Latest operational finding: targeted recovery registered
 
-A real integration error stopped the final aligned pure-encoding group before any forecast: the seven-arm holiday-dependent encoder was asked for history-only. The completed work is preserved. New `calendar_recenter_recovery_v1` carries 840 closed forecasts byte-for-byte and computes only 252 missing forecasts, with a registered adapter implementing the original ten-arm contract. Two all-arm regression checks pass; 89 tests in total. Original source, failures and statuses remain unchanged. New recovery queues and output-root redirects replace only failed/waiting orchestration; the active TimesFM upstream model was not stopped. See CODEX_HANDOFF.md for exact launch/state details.
+A real integration error stopped the final aligned pure-encoding group before any forecast: the seven-arm holiday-dependent encoder was asked for history-only. The completed work is preserved. New `calendar_recenter_recovery_v1` carries 840 closed forecasts byte-for-byte and computes only 252 missing forecasts, with a registered adapter implementing the original ten-arm contract. Two all-arm regression checks pass; 89 tests in total. Original source, failures and statuses remain unchanged. New recovery queues and output-root redirects replace only failed/waiting orchestration; the active TimesFM upstream model was not stopped. See docs/status/HANDOFF.md for exact launch/state details.
 
 The past-support diagnostic's 1,056 rows pass a separate scalar audit; performance associations await the corrected full forecasts. A fresh public GitHub clone passes 2,187 checksum files and 87 pre-repair tests in the isolated environment. That check alone did not cover this integration error. Older scientific/numerical limitations and all external gates remain open. No future outcomes, workflow activation or environment publication occurred.
 
@@ -50,7 +50,7 @@ Coverage can improve but intervals widen. For TimesFM history next day, coverage
 
 A separate interval annex was issued30October at20:42:14IST, using ORIGINAL frozen TimesFM quantiles without new future inference. All methods were frozen before reviewing new historical calibration coverage results. Public first commit29bdd984770904a032cebe9efcd2a12a8d5ffc17 was remote-verified before eligible dates.216eligibleintervalrows=72originalTimesFMfuturecases×3arms, sameepisode/source;31October–11November. Original252six-configuration forecasts/protocol/freeze remain unchanged. Future results remain pending, manual scorer refuses early labels and uses the original collector's exact actual vintage after the full period; automation remains paused.
 
-Read [calibration brief](NATIVE_CALIBRATION_RESULTS_BRIEF.md), [four-page review supplement](manuscript/calibration_update_v1/CALIBRATION_UPDATE.md), [reproduction](NATIVE_CALIBRATION_REPRODUCTION.md) and [prospective annex](results/prospective_interval_20261030_v1/README.md). The supplement preserves the prior integrated paper;144table cells and rendered pages are checked. The annex preview shows only recorded past and pending future bands.
+Read [calibration brief](../results_briefs/NATIVE_CALIBRATION_RESULTS_BRIEF.md), [four-page review supplement](../../manuscript/calibration_update_v1/CALIBRATION_UPDATE.md), [reproduction](../reproduction/NATIVE_CALIBRATION_REPRODUCTION.md) and [prospective annex](../../results/prospective_interval_20261030_v1/README.md). The supplement preserves the prior integrated paper;144table cells and rendered pages are checked. The annex preview shows only recorded past and pending future bands.
 
 ## Current objective: a defensible paper for a verified Q1 venue
 
@@ -69,11 +69,11 @@ Next-day event MASE for calendar / pooled-day5 / typed-day5: Ridge1.24369/0.5969
 
 The broader daily panel uses target dates15September–28October2026and origins2Septemberor later, after both audited weight uploads. History-only TimesFM MASE is0.54620/1.16303/1.30856at leads1/7/14, versus Chronos history0.58548/1.31670/1.59292. This does not erase the earlier different-cohort Chronos result. Native next-day coverage is around74–76%on this daily panel, versus nominal80%; event coverage can be much worse. See full reports for all models/leads/interval widths.
 
-Read [pooled brief](POOLED_FEATURE_RESULTS_BRIEF.md), [transfer brief](LABEL_TRANSFER_RESULTS_BRIEF.md), [daily report](results/postweight_daily_v1/REPORT.md), [claim matrix](manuscript/CLAIM_EVIDENCE_MATRIX.md) and [author/professor packet](review/AUTHOR_PROFESSOR_REVIEW_PACKET.md). All686protectedpriorfiles, earlier college decks and frozen future predictions remain unchanged.45tests passed before the final checkpoint. No model job remains running. The daily report-only formatter failure was recovered from saved audited outputs without rewriting scientific files; original source/failure remain.
+Read [pooled brief](../results_briefs/POOLED_FEATURE_RESULTS_BRIEF.md), [transfer brief](../results_briefs/LABEL_TRANSFER_RESULTS_BRIEF.md), [daily report](../../results/postweight_daily_v1/REPORT.md), [claim matrix](../../manuscript/CLAIM_EVIDENCE_MATRIX.md) and [author/professor packet](../../review/AUTHOR_PROFESSOR_REVIEW_PACKET.md). All686protectedpriorfiles, earlier college decks and frozen future predictions remain unchanged.45tests passed before the final checkpoint. No model job remains running. The daily report-only formatter failure was recovered from saved audited outputs without rewriting scientific files; original source/failure remain.
 
 ## Sharing, outreach and prospective status
 
-Explicit user authorization permits normal pushes to existing public `Binay-verma/tsaf_project`; visibility remains public and no new licence is inferred. The author reports sending the curator email manually. No assistant duplicate email, professor/journal contact or submission occurred. Source reuse/processing/report-day reply is still pending. Binay Verma is author/requester, not an independent reviewer.
+Explicit user authorization permits normal pushes to existing public `Binay-verma/tsaf_project`; visibility remains public and no new licence is inferred. The author reports sending the curator email manually. No duplicate email, professor/journal contact or submission occurred. Source reuse/processing/report-day reply is still pending. Binay Verma is author/requester, not an independent reviewer.
 
 Prospective `cabd598` blobs remain immutable:216eligible rows for31October–11November2026, unscored. The auto-scoring workflow remains disabled_manually even after public synchronization; no future outcomes were retrieved. One later episode remains limited shared-source confirmation. No environment publication occurred.
 
@@ -117,16 +117,16 @@ These equal-dimension increments differ from the earlier calendar-to-regional co
 
 ## Evidence and presentation
 
-- [Presentation files](presentation/README.md) and [speaker notes](presentation/SPEAKER_NOTES.md).
-- [Mechanism controls](results/mechanism_controls_v1/REPORT.md).
-- [Numerical-contract study](results/stable_tree_refit_v2/REPORT.md).
-- [Source/internal review](results/provenance_review_v1/REPORT.md), [availability sensitivity](results/vintage_sensitivity_v1/REPORT.md).
-- [Working manuscript](manuscript/DRAFT.md), [submission gates](manuscript/SUBMISSION_GATES.md).
-- [Reproduction](RESEARCH_GATE_REPRODUCTION.md).
+- [Presentation files](../../presentation/README.md) and [speaker notes](../../presentation/SPEAKER_NOTES.md).
+- [Mechanism controls](../../results/mechanism_controls_v1/REPORT.md).
+- [Numerical-contract study](../../results/stable_tree_refit_v2/REPORT.md).
+- [Source/internal review](../../results/provenance_review_v1/REPORT.md), [availability sensitivity](../../results/vintage_sensitivity_v1/REPORT.md).
+- [Working manuscript](../../manuscript/DRAFT.md), [submission gates](../../manuscript/SUBMISSION_GATES.md).
+- [Reproduction](../reproduction/RESEARCH_GATE_REPRODUCTION.md).
 
 ## Actual dependencies still open
 
-The user reports emailing Robbie Andrew and is awaiting a reply. No assistant email was sent and no reuse grant is assumed. Verified professional contact is in the reference request; do not send a duplicate. An independent human reviewer is not yet named. The user's name is author/requester, not a fabricated independent sign-off. Calendar amendment certification and source processing/report-day/rights clarifications require evidence/review not yet obtained.
+The user reports emailing Robbie Andrew and is awaiting a reply. No duplicate email was sent and no reuse grant is assumed. Verified professional contact is in the reference request; do not send a duplicate. An independent human reviewer is not yet named. The user's name is author/requester, not a fabricated independent sign-off. Calendar amendment certification and source processing/report-day/rights clarifications require evidence/review not yet obtained.
 
 Future31October–11November outcomes have not completed; never fabricate their scores. The original cabd598 prospective forecasts/hashes remain immutable. Once sharing is confirmed, the tested workflow can be re-enabled for12–20November checks (07:15UTC/12:45India time) or scoring run manually after complete actuals. One episode remains limited confirmation evidence.
 

@@ -26,4 +26,4 @@ Version1aborted at an exact-control matching guard for2022-08-28; its partial fi
 
 The source is still retrospectively compiled; historical/proxy exposure, source processing/reuse, amendment certification, independent human review and untouched/source-independent confirmation remain open. No new foundation inference or foundation pretraining-exposure test is implied by this classical study. Frozen prospective predictions and the paused workflow remain unchanged.
 
-Full tables, non-event costs and all families/years: [REPORT.md](results/festival_label_transfer_v2/REPORT.md). Exact protocol and failed version are retained beside the results.
+Full tables, non-event costs and all families/years: [REPORT.md](../../results/festival_label_transfer_v2/REPORT.md). Exact protocol and failed version are retained beside the results.

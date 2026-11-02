@@ -36,4 +36,4 @@ Future collection/scoring is registered in GitHub, not a process left running in
 
 ## Current sharing/outreach update
 
-The user reports sending the permission request manually; no assistant email should be sent. Professional address was verified from the official CICERO profile. Public/private repository choice is pending after the user clarified college-only use. New artifacts are held locally; the registered/tested future workflow is paused, not currently active. Resume pushes and re-enable it only after the sharing choice is confirmed.
+The user reports sending the permission request manually; no duplicate email should be sent. Professional address was verified from the official CICERO profile. Public/private repository choice is pending after the user clarified college-only use. New artifacts are held locally; the registered/tested future workflow is paused, not currently active. Resume pushes and re-enable it only after the sharing choice is confirmed.

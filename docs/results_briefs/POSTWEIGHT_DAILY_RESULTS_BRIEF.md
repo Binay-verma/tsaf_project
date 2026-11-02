@@ -25,4 +25,4 @@ Every scored target postdates both actual weight uploads, conditional on correct
 
 The first finalizer completed scientific tables, then failed on integer Markdown headers. Its execution source/failure note remain. A report-only recovery verified that all seven scientific output hashes were unchanged; no model rerun or invented timing. Source rights, amendments, independent human review and later/source-independent confirmation remain open. The original prospective freeze and paused workflow remain unchanged.
 
-Full state/lead/native tables and audit: [REPORT.md](results/postweight_daily_v1/REPORT.md). The editable paper and figures are under `manuscript/journal_draft_v1/`.
+Full state/lead/native tables and audit: [REPORT.md](../../results/postweight_daily_v1/REPORT.md). The editable paper and figures are under `manuscript/journal_draft_v1/`.

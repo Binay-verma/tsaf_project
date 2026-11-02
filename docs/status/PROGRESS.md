@@ -12,7 +12,7 @@ Run `python setup_project.py`, then `python run_extended.py`. Inspect `results/e
 
 # Latest status: completed scheduled-origin software benchmark
 
-See FINAL_REPORT.md and START_HERE.md. Earlier entries below document the pilot and data-discovery stages and may describe tasks that have since been completed.
+See FINAL_REPORT.md and README.md. Earlier entries below document the pilot and data-discovery stages and may describe tasks that have since been completed.
 
 # Progress — 29 October 2026
 

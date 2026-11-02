@@ -55,6 +55,6 @@ The bounded separate clean scalar review reproduces all135checked forecasts with
 
 Separate versus pooled channels changes statistical sharing and signal allocation. Same dimensions do not identify a causal festival-identity mechanism. State scopes differ; annual dates are not complete amendment histories; two years and related dates provide limited independent evidence. Source reuse/processing clarification, independent human review, historical/proxy exposure and untouched/source-independent confirmation remain open. Frozen future forecasts and the paused workflow are unchanged.
 
-Reproduction: [POOLED_FEATURE_REPRODUCTION.md](POOLED_FEATURE_REPRODUCTION.md). Full results: [event](results/pooled_festival_v1/event/REPORT.md), [non-event](results/pooled_festival_v1/non_event/REPORT.md).
+Reproduction: [POOLED_FEATURE_REPRODUCTION.md](../reproduction/POOLED_FEATURE_REPRODUCTION.md). Full results: [event](../../results/pooled_festival_v1/event/REPORT.md), [non-event](../../results/pooled_festival_v1/non_event/REPORT.md).
 
 Later checkpoint: the separately registered supervised family-label exclusion study is now completed and audited; see [label-transfer brief](LABEL_TRANSFER_RESULTS_BRIEF.md). Target-history exposure remains allowed and longer-lead failures are retained. External rights/human and later prospective gates remain open.

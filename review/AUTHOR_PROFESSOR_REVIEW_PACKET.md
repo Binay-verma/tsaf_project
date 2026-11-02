@@ -19,9 +19,9 @@ Start with the editable manuscript under `manuscript/journal_draft_v1/` after it
 ## Author decisions and external evidence
 
 - Confirm affiliation, corresponding contact, true author contributions, coauthorship, funding, competing interests and acknowledgements. A professor is not automatically a coauthor or independent reviewer; actual contribution and conflicts matter.
-- Obtain and preserve the curator’s applicable source-reuse/processing reply. The author already emailed manually; no duplicate message was sent by the assistant. An unanswered request is not permission.
+- Obtain and preserve the curator’s applicable source-reuse/processing reply. The author already emailed manually; no duplicate message was sent. An unanswered request is not permission.
 - Verify target ranking database, year, category and ISSN with the university. See `journal_target_v1/Q1_TARGET_AND_POLICY.md`; current quartile was not verified through accessible pages. IJF’s official society policy emphasizes data/code sharing and acceptance-conditional reproducibility checks.
 - Arrange an actual independent scientific/calendar review; leave sign-off fields blank until it occurs. If the professor is an author, disclose that relationship rather than describing their review as independent peer review.
 - Select a genuinely untouched or source-independent confirmation with an explicitly frozen protocol and audited model exposure. The original prospective 31October–11November episode is unchanged and remains unscored; its automation is paused. One eventual episode is still limited evidence.
 
-The assistant can prepare code, evidence, drafts and repairs. It cannot supply a rightsholder response, an independent human’s judgement or future observations. These are concrete remaining dependencies, not completed gates. The author should approve the final paper and declarations before any submission; this packet does not authorize contacting others or submitting to a journal.
+Code, evidence, drafts and repairs can be prepared internally, but internal work cannot supply a rightsholder response, an independent human’s judgement or future observations. These are concrete remaining dependencies, not completed gates. The author should approve the final paper and declarations before any submission; this packet does not authorize contacting others or submitting to a journal.

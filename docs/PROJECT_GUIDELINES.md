@@ -2,11 +2,11 @@
 
 ## Read before continuing
 
-Read `CODEX_HANDOFF.md`, `VALIDATION_REPORT.md`, `DEEP_RESEARCH.md`, `JOURNAL_PROTOCOL.json`, `REGIONAL_CALENDAR_AUDIT.md` and `PRETRAINING_AUDIT.md`. The initial survey is `USER_LITERATURE_SURVEY.pdf`; treat its literature claims as background to verify. Earlier pilot documentation is historical. The expanded evaluation is completed; journal research is unfinished.
+Read `docs/status/HANDOFF.md`, `VALIDATION_REPORT.md`, `DEEP_RESEARCH.md`, `JOURNAL_PROTOCOL.json`, `REGIONAL_CALENDAR_AUDIT.md` and `PRETRAINING_AUDIT.md`. The initial survey is `USER_LITERATURE_SURVEY.pdf`; treat its literature claims as background to verify. Earlier pilot documentation is historical. The expanded evaluation is completed; journal research is unfinished.
 
 ## User goal and working preferences
 
-Build a defensible journal-level study of foundation-model forecasting for Indian electricity with regional festival/calendar features. The user wants substantial research, autonomous execution and honest results. Continue useful authorised work; avoid repeatedly asking whether to proceed. Explain material findings in plain language. Never optimise for attractive reported numbers, promise zero mistakes, promise acceptance or claim that planned work has been performed.
+Build a defensible journal-level study of foundation-model forecasting for Indian electricity with regional festival/calendar features. The user wants substantial research, autonomous execution and honest results. Continue useful authorised work; without unnecessary pauses. Explain material findings in plain language. Never optimise for attractive reported numbers, promise zero mistakes, promise acceptance or claim that planned work has been performed.
 
 ## Research integrity
 
@@ -23,9 +23,9 @@ Build a defensible journal-level study of foundation-model forecasting for India
 
 ## Commands and continuity
 
-Use Python 3.12. Start with `python src/verify_continuation.py` for the current GitHub checkpoint (standard library only). The original `src/verify_package.py` manifest is historical and will flag intentional later edits. See `CONTINUE_IN_CODEX.md` for environment setup and staged checks. `run_extended.py` reproduces expanded results; `run_all.py` is the older scheduled-origin experiment. Model weights are not bundled.
+Use Python 3.12. Start with `python src/verify_continuation.py` for the current GitHub checkpoint (standard library only). The original `src/verify_package.py` manifest is historical and will flag intentional later edits. See `docs/reproduction/ENVIRONMENT_SETUP.md` for environment setup and staged checks. `run_extended.py` reproduces expanded results; `run_all.py` is the older scheduled-origin experiment. Model weights are not bundled.
 
-Before ending a substantial session, update `WORK_LOG.md` and the current-state/next-action sections of `CODEX_HANDOFF.md`. Record exact commands, outcomes, experiment directories, failures and actual blockers. Distinguish completed, running and planned work. Keep run checkpoints so work can resume without this conversation. Do not claim a process will continue after the session ends without verifying an actual persistent mechanism.
+Before ending a substantial session, update `WORK_LOG.md` and the current-state/next-action sections of `docs/status/HANDOFF.md`. Record exact commands, outcomes, experiment directories, failures and actual blockers. Distinguish completed, running and planned work. Keep run checkpoints so work can resume without this conversation. Do not claim a process will continue after the session ends without verifying an actual persistent mechanism.
 
 ## GitHub checkpoints
 

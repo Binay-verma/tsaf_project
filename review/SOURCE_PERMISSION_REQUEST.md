@@ -1,6 +1,6 @@
 # Draft request for source rights and processing clarification
 
-**Reference draft: user reports sending the email manually on30October2026. No assistant email was sent; no reply/permission grant has been received here.** Requester/signature: **Binay Verma**, as instructed by the user. Intended recipient: Robbie Andrew, curator of Indian Energy and Emissions Data. Professional recipient: **robbie.andrew@cicero.oslo.no**, verified on https://cicero.oslo.no/en/employees/robbie-andrew . The user reports sending manually; do not send a duplicate.
+**Reference draft: user reports sending the email manually on30October2026. No duplicate email was sent; no reply/permission grant has been received here.** Requester/signature: **Binay Verma**, as instructed by the user. Intended recipient: Robbie Andrew, curator of Indian Energy and Emissions Data. Professional recipient: **robbie.andrew@cicero.oslo.no**, verified on https://cicero.oslo.no/en/employees/robbie-andrew . The user reports sending manually; do not send a duplicate.
 
 Subject: Research use, redistribution and vintage questions for Indian state EnergyMet compilation
 

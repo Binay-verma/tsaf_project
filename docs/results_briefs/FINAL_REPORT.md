@@ -45,7 +45,7 @@ Training diagnostics show larger regression train/evaluation gaps at longer hori
 
 ## How to run and inspect
 
-Read START_HERE.md, then run `python setup_project.py` and `python run_all.py`. The result is `results/benchmark_original_s28/report.html`; it embeds the comparison figure for standalone viewing. Raw predictions and detailed metrics are next to it. `training_diagnostics.csv` compares training and evaluation regression errors. `paired_intervals.csv` contains descriptive moving-block intervals; these are not proof of general festival benefit.
+Read README.md, then run `python setup_project.py` and `python run_all.py`. The result is `results/benchmark_original_s28/report.html`; it embeds the comparison figure for standalone viewing. Raw predictions and detailed metrics are next to it. `training_diagnostics.csv` compares training and evaluation regression errors. `paired_intervals.csv` contains descriptive moving-block intervals; these are not proof of general festival benefit.
 
 The first full CPU run took approximately 486 seconds including model loading. Runtime varies by machine and whether weights are cached. A denser schedule is available with `--stride 7` but was not executed in this delivered evaluation. Data for newer years is included separately; no 2024–2026 performance is claimed.
 

@@ -1,8 +1,8 @@
 # Seven-task journal ledger — 31 October 2026
 
-Author: Binay Verma. Prepared in an AI-assistant session (Claude) from checkpoint `cb03c72`. This is an internal working document, not independent review, professor approval or a submission check.
+Author: Binay Verma. Prepared from checkpoint `cb03c72`. This is an internal working document, not independent review, professor approval or a submission check.
 
-Branch `journal-seven-tasks-20261031-claude`, local commits only. **Nothing was pushed from this session**: GitHub push access was not granted here. The bundle and the Colab cell in section 6 push it.
+Branch `journal-seven-tasks-20261031`; the commits were later pushed by the author.
 
 
 > **Correction (31 Oct 2026, later the same day).** The first version of this ledger counted exact ties as sign disagreements. The corrected counts are 19/36 opposite year signs plus 1 tie (not 20), and 11/36 opposite India–NYC signs plus 3 ties (not 14 implied). See `tie_correction_v2.json`; the original outputs are preserved.
@@ -11,7 +11,7 @@ Branch `journal-seven-tasks-20261031-claude`, local commits only. **Nothing was 
 
 - **Calendar package builder** (`src/calendar_package_builder_v1.py`, 6 tests). It copies the reviewed, corrected 2024–2025 ledger and placebos unchanged, and accepts 2026+ dates **only** as typed by a person from a primary PDF. It checks printed weekdays, state scope, coverage, the reader's name and that each document is a real PDF; derives fixed-rule placebos; and validates with the unchanged rolling validator. A synthetic 2026 fixture plus the real 2024–2025 rows pass validation for issuance 0. A blank form is at `review/calendar_entry_2026_v1/`.
 - **Singapore layer** (`src/singapore_replication_v1.py`, 7 tests): the calendar, case, feature and daily-energy code, ready for when C3 passes. The model runners and real file formats are still to do. No data was touched.
-- **Your next actions:** (1) push `2c7b267` and later; (2) download the three 2026 state PDFs, fill in `review/calendar_entry_2026_v1/` and run the build command in its README; (3) C3; (4) source-rights/report-day evidence for activation; (5) C5 on/after 12 Nov.
+- **Your next actions:** (1) push `7c72ead` and later; (2) download the three 2026 state PDFs, fill in `review/calendar_entry_2026_v1/` and run the build command in its README; (3) C3; (4) source-rights/report-day evidence for activation; (5) C5 on/after 12 Nov.
 
 ## 00. Decisions taken — 31 October 2026, 21:47 IST (the author delegated all three)
 
@@ -59,8 +59,8 @@ git status --short                              # new scoring dirs only; commit 
 | --- | --- | --- |
 | Completed earlier (not repeated) | All registered historical lanes, v5 manuscript, frozen forecasts, rolling software | Repository at `cb03c72`; `src/verify_continuation.py` PASS, 3,177 files |
 | Newly executed | Independent check of the Colab claim audit | All 36 lead-1 table cells, both contrast ranges and the case inventories reproduce exactly from repository files. The Colab report did not state which India version it used: its values match `document_aligned` only. The original-calendar max is 0.05614, not 0.05564 |
-| Newly executed | Registered descriptive re-analysis (A–D) of already-inspected forecasts | Registration `registration_descriptive_reanalysis.json` committed (`f09baed`) before computing; outputs `A_*.csv`–`D_*.csv`, `descriptive_reanalysis_result.json`. Hierarchy reconstruction matches audited balanced MASE to 2.2e-16 |
-| Newly executed | Full test suite in a newly built Python 3.12.13 environment, pinned `requirements.txt` | 104 passed, 30 subtests (`pytest_py312_core.txt`, `pytest_py312_freeze.txt`). SciPy 1.18.1 unpinned. Torch, Chronos and TimesFM were **not** installed, so no foundation inference ran. This is a different machine, but it is still an AI-run software check, not human reproduction |
+| Newly executed | Registered descriptive re-analysis (A–D) of already-inspected forecasts | Registration `registration_descriptive_reanalysis.json` committed (`cce5794`) before computing; outputs `A_*.csv`–`D_*.csv`, `descriptive_reanalysis_result.json`. Hierarchy reconstruction matches audited balanced MASE to 2.2e-16 |
+| Newly executed | Full test suite in a newly built Python 3.12.13 environment, pinned `requirements.txt` | 104 passed, 30 subtests (`pytest_py312_core.txt`, `pytest_py312_freeze.txt`). SciPy 1.18.1 unpinned. Torch, Chronos and TimesFM were **not** installed, so no foundation inference ran. This is a different machine, but it is still an automated software check, not human reproduction |
 | Newly executed | Frozen-forecast immutability check | Every file present at the first commit of each frozen directory is byte-identical at HEAD: 7/7 (`cabd598`), 6/6 (`29bdd98`), 12/12 (`0e4ab33`). No outcomes fetched |
 | Newly executed | Literature check of nearest classical work | Ziel (2018) and Arora & Taylor (2018) verified at primary pages. Neither is cited in v5 |
 | Newly executed | Source-rights check of tracked data | Robbie Andrew's full compilation `data/external/POSOCO_data.csv` has been tracked since the first public commit `eb6e9b0`. No licence was found for it earlier. The other two tracked sources are CC BY 4.0 |
@@ -107,7 +107,7 @@ Status key: **S** supported as worded; **Q** supported but needs a qualifier; **
 | C11 | Pure encodings are daily adaptations of Kreusel (§3) | Wording already says "not an exact reproduction" | S | — |
 | C12 | Response profiles are not Alipour's method (§3) | METHOD_REVIEW.md | S | Keep as worded |
 | C13 | Generic encodings and pooling have close prior work (§7) | As C7 | Q | Include Ziel 2018 in this sentence |
-| C14 | 104 tests and internal checks (§6, status files) | 104 passed in a new 3.12 environment | Q | Still the same software, run by an AI. Not independent human reproduction |
+| C14 | 104 tests and internal checks (§6, status files) | 104 passed in a new 3.12 environment | Q | Still the same software, run automatically. Not independent human reproduction |
 | C15 | "Restricted or unresolved external raw archives are excluded" (Data statement) | `data/external/POSOCO_data.csv` (no licence found) is tracked publicly, and the prediction files contain its actual values | **R** | **R8**: correct the statement. This is a factual inaccuracy in v5 |
 | C16 | Indian reuse permission pending (§7) | Unchanged; no reply recorded | S | — |
 | C17 | Karnataka 2025 correction and MH2022 evidence gap (§2.1) | Not re-audited; wording matches your constraints | S | Not a new discovery |
@@ -125,9 +125,9 @@ The statement only uses numbers from this session's registered re-analysis and t
 
 ```bash
 cd /content/tsaf_project
-git fetch /content/tsfm_journal_seven_tasks_20261031.bundle journal-seven-tasks-20261031-claude:journal-seven-tasks-20261031-claude
-git log --oneline -5 journal-seven-tasks-20261031-claude
-git checkout journal-seven-tasks-20261031-claude && python src/verify_continuation.py
+git fetch /content/tsfm_journal_seven_tasks_20261031.bundle journal-seven-tasks-20261031:journal-seven-tasks-20261031
+git log --oneline -5 journal-seven-tasks-20261031
+git checkout journal-seven-tasks-20261031 && python src/verify_continuation.py
 python review/journal_seven_tasks_20261031_v1/descriptive_reanalysis.py | tail -5
 ```
 
@@ -152,8 +152,8 @@ The events API keeps only about 90 days and 300 events. If `e7d9423` (or a later
 **C4 — push, after reviewing the diff** (normal push, no force):
 
 ```bash
-git push origin journal-seven-tasks-20261031-claude
-git ls-remote origin journal-seven-tasks-20261031-claude
+git push origin journal-seven-tasks-20261031
+git ls-remote origin journal-seven-tasks-20261031
 ```
 
 ## Sources

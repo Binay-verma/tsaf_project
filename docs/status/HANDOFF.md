@@ -1,4 +1,4 @@
-# Codex handoff — TSFM India
+# Project handoff — TSFM India
 
 Updated 30 October 2026. Continue `/workspace/tsaf_project`; do not restart or use the stale `/workspace/tsfm_india` tree. Earlier checkpoint sections below retain their historical status. Current instructions and completed evidence are summarized here.
 
@@ -6,7 +6,7 @@ Updated 30 October 2026. Continue `/workspace/tsaf_project`; do not restart or u
 
 Rolling timing **option B** registered locally: `results/rolling_confirmation_timing_v2/`, `src/rolling_execution_v2_timing.py`, 4 tests. Only the global 2024–2027 calendar check is removed; per-issuance coverage, rights and observation-day prerequisites are unchanged. Still UNACTIVATED. It must be publicly pushed before 2026-11-16T09:00Z to count, and issuance uses the v2 command. `POSOCO_data.csv` is kept with `data/external/RIGHTS_NOTICE.md`. The v6 title is kept. Not pushed from this session.
 
-## Second pass — 31 October 2026 evening (Claude; still LOCAL commits, not pushed)
+## Second pass — 31 October 2026 evening
 
 - Repository audit: 46 commits scanned. No deletions; results changes confined to AUTOMATION.md wording; post-freeze code changes were benign and pre-outcome; no secrets; pyflakes clean except legacy star imports. All frozen scorers dry-run to PENDING with registered hashes matching.
 - Correction: exact ties had been counted as sign disagreements. India year-opposite count is 19/36 (+1 tie), India–NYC opposite is 11/36 (+3 ties). Original outputs preserved; `review/journal_seven_tasks_20261031_v1/tie_correction_v2.json`.
@@ -15,13 +15,13 @@ Rolling timing **option B** registered locally: `results/rolling_confirmation_ti
 - `CLOSEST_METHOD_MAP.md`: Ziel's additive single and per-holiday dummies correspond to the existing pooled/typed local arms; the replacing variant is missing.
 NEXT: push the bundle; author decisions (POSOCO public file; rolling option A/B; v6 title); a human verifies the 2026 PDFs; C3 Singapore metadata; C5 scoring on/after 12 Nov 05:30 IST.
 
-## Latest checkpoint — 31 October 2026, seven-task journal session (Claude, Colab route)
+## Checkpoint — 31 October 2026, seven-task journal session (Colab route)
 
-Branch `journal-seven-tasks-20261031-claude` from `cb03c72`; LOCAL commits only. **Not pushed**: this session had no GitHub push access. Delivered as a git bundle; push from Colab (see `review/journal_seven_tasks_20261031_v1/SEVEN_TASK_LEDGER.md` section 6). Read that ledger first.
+Branch `journal-seven-tasks-20261031` from `cb03c72`, pushed by the author. Read `review/journal_seven_tasks_20261031_v1/SEVEN_TASK_LEDGER.md` first.
 
 Done and evidenced:
 - The Colab claim audit (`review/journal_claim_audit_20261031T142556189989Z`) was verified independently. All 36 cells, both ranges and the inventories match the **document_aligned** India panel and NYC. The report itself does not name the version.
-- A registered descriptive re-analysis (registration committed first, `f09baed`) uses only already-inspected forecasts. Within India, the 2024 and 2025 typed−pooled signs are opposite in 19/36 cells plus 1 exact tie (corrected from 20; see tie_correction_v2.json), and leave-one-family-out flips the sign in 17/36. Between India and NYC the signs agree in 22/36 cells, are opposite in 11 and tie in 3, and in all 6 TimesFM cells they are opposite. Native 80% coverage is below 0.8 in 85/100 lead-1 family-year clusters, with 0 crossings or invalid endpoints in this cohort.
+- A registered descriptive re-analysis (registration committed first, `cce5794`) uses only already-inspected forecasts. Within India, the 2024 and 2025 typed−pooled signs are opposite in 19/36 cells plus 1 exact tie (corrected from 20; see tie_correction_v2.json), and leave-one-family-out flips the sign in 17/36. Between India and NYC the signs agree in 22/36 cells, are opposite in 11 and tie in 3, and in all 6 TimesFM cells they are opposite. Native 80% coverage is below 0.8 in 85/100 lead-1 family-year clusters, with 0 crossings or invalid endpoints in this cohort.
 - 104 tests passed in a new Python 3.12.13 environment (pinned requirements.txt, SciPy 1.18.1). Foundation packages were not installed and no inference ran.
 - All 25 frozen prospective files are byte-identical to their first-commit blobs. No outcomes were fetched.
 - Ziel (2018) and Arora & Taylor (2018) were verified as missing nearest classical work.
@@ -274,7 +274,7 @@ Next authorized scientific experiment: incremental additional-festival covariate
 
 ## Earlier checkpoint — gate studies completed; college deadline and sharing hold
 
-The user now needs a college presentation on1November2026 (day after tomorrow from30October). They report sending the source-permission email manually. Verified address supplied from the official CICERO employee profile; no assistant email was sent. A previous Gmail send authorization was superseded by manual sending. **Do not send duplicate email.** Binay Verma is author/requester, not an independent reviewer.
+The user now needs a college presentation on1November2026 (day after tomorrow from30October). They report sending the source-permission email manually. Verified address supplied from the official CICERO employee profile; no duplicate email was sent. A previous Gmail send authorization was superseded by manual sending. **Do not send duplicate email.** Binay Verma is author/requester, not an independent reviewer.
 
 Presentation: `presentation/College_Presentation_Binay_Verma_2026-11-01.pptx`, matching PDF and SPEAKER_NOTES.md;12slides/12pages, embedded notes, source credit, own aggregate charts only. Renders checked. Label as ongoing academic research; no completed prospective accuracy result by1November.
 
@@ -336,21 +336,21 @@ The user requests pushes after completed tasks and explicitly authorized the ful
 
 ## Goal and user intent
 
-The user, Binay, began with a literature survey and no code/data. They asked for automatic data discovery, understanding, implementation, training, testing, festival features and deeper research. They explicitly rejected overfitting or changing experiments to obtain impressive numbers. They want a project strong enough to submit to a credible journal, not merely a quickly completed demo. They prefer sustained autonomous execution and dislike repeated requests to proceed. They asked for careful work and continuity into Codex.
+The user, Binay, began with a literature survey and no code/data. They asked for automatic data discovery, understanding, implementation, training, testing, festival features and deeper research. They explicitly rejected overfitting or changing experiments to obtain impressive numbers. They want a project strong enough to submit to a credible journal, not merely a quickly completed demo. They prefer sustained autonomous execution and dislike repeated requests to proceed. They asked for careful work and continuity across sessions.
 
-The earlier assistant over-described a runnable benchmark as a finished project. This was corrected: **software and expanded evaluation work; journal-level research remains unfinished.** Acceptance, novelty and zero errors are not guaranteed. Estimated 3–6 active research weeks is a plan, not time already spent or an acceptance promise.
+An earlier summary over-described a runnable benchmark as a finished project. This was corrected: **software and expanded evaluation work; journal-level research remains unfinished.** Acceptance, novelty and zero errors are not guaranteed. Estimated 3–6 active research weeks is a plan, not time already spent or an acceptance promise.
 
 ## Read in this order
 
-1. `AGENTS.md`: compact working rules.
+1. `docs/PROJECT_GUIDELINES.md`: compact working rules.
 2. `VALIDATION_REPORT.md`: current coverage, numbers, methods and limitations.
 3. `DEEP_RESEARCH.md` and `RESEARCH_REFERENCES.md`: nearest prior work, contribution assessment and research sequence.
 4. `JOURNAL_PROTOCOL.json`: draft next-study design and open gates; not externally preregistered.
 5. `REGIONAL_CALENDAR_AUDIT.md` and `PRETRAINING_AUDIT.md`: exact evidence and residual uncertainty.
-6. `CONTINUE_IN_CODEX.md`: setup, commands and how to preserve future context.
+6. `docs/reproduction/ENVIRONMENT_SETUP.md`: setup, commands and how to preserve future context.
 7. `USER_LITERATURE_SURVEY.pdf`: original user-provided starting document. Its claims are background, not automatically verified facts.
 
-`README.md`, `START_HERE.md`, `PLAN.md`, `PROGRESS.md` and `FINAL_REPORT.md` have current-status notices above older material. Avoid confusing their historical pilot numbers with the expanded evaluation.
+`README.md`, `README.md`, `PLAN.md`, `PROGRESS.md` and `FINAL_REPORT.md` have current-status notices above older material. Avoid confusing their historical pilot numbers with the expanded evaluation.
 
 ## Data and target
 
