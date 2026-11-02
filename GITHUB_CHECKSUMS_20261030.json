@@ -4,7 +4,7 @@
   "files": {
     ".github/workflows/prospective-evaluation.yml": "c0bbe903d75456a5f1fc7e82fcaabc29df2bbd59c75117e24be6670138795739",
     ".gitignore": "bbf77a0288645d6e0013c3ea6898864263d33fad4132520dc67a21a59f76a279",
-    "README.md": "bcaabd6bbcb2e97b834cf911410f93750a64dee0578bd8efb302bad2a819853f",
+    "README.md": "0f52da3d5867178128b7ba11b86621a2667968acf142ac7713bbf57876531692",
     "archive/integrity_manifests_20261030/CONTINUATION_CHECKSUMS_20261030.json": "548d1fdd44a4500dabdea6c83cb2f2fbf6ee7e068561a0bbdb1d24fef2a98e33",
     "archive/integrity_manifests_20261030/PACKAGE_CHECKSUMS.json": "40cc753c80c870ada154f6b2a485a9661314f1dee7662575bde3f07a849005bb",
     "data/clean_daily_energy_GWh.csv": "69fc12519e22e84699cd586bcca829f9b4e799226a3c62113ee7555edd3e0440",
