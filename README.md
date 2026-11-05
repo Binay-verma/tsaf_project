@@ -1,6 +1,6 @@
 # TSFM India: festival covariates in foundation and local forecasting models
 
-B.Tech CSE (Data Science), RV University. Research in progress.
+B.Tech(H) CSE (Data Science), RV University. Research in progress.
 
 This repository studies how festival information should be given to forecasting models for **daily electricity supplied (GWh)** in Delhi, Karnataka and Maharashtra. Two pretrained time-series foundation models (Chronos-2, TimesFM-3) and four local models (Ridge, SARIMAX, LightGBM and a leaf-2 tree variant) are compared on the same cases with matched input designs: calendar only, typed festival flags (one per festival), pooled flags (one shared flag), ±3-day windows, zero channels and fake-date placebos.
 
