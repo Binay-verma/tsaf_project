@@ -237,3 +237,7 @@ Model weights are not included. TimesFM-3 weights carry their own noncommercial 
 ## Status and limits
 
 Historical outcomes were inspected, so all historical results are exploratory. Two event years and three related states limit generalisation. Independent human review, data-reuse permission and calendar amendment certification are outstanding. Earlier README content is kept in [docs/status/README_HISTORY.md](docs/status/README_HISTORY.md).
+
+contributor
+-Binay Verma
+-Dhanush D
