@@ -1,0 +1,80 @@
+{
+  "experiment": "ziel_nyc_v1/ordinary",
+  "created_utc": "2026-11-06T20:43:36.084960+00:00",
+  "author": "Binay Verma",
+  "status": "Exploratory. Registered and committed before any sunday_day, replace_pooled or replace_typed NYC forecast exists. The NYC calendar, typed and pooled arms were already inspected. Not a confirmation.",
+  "question": "Do the Ziel (2018) hSun and replacing encodings change the local-model ordering on the separate NYC holiday cases?",
+  "source_method": "Ziel (2018) J. Mod. Power Syst. Clean Energy 6(2), 191-207: Section 4.3 hSun and Section 4.5 replacing (Rph, RpH, Eq. 11), adapted to daily observance anchors.",
+  "arms": [
+    "calendar",
+    "day5",
+    "pooled_day5",
+    "sunday_day",
+    "replace_pooled",
+    "replace_typed"
+  ],
+  "new_arms": [
+    "sunday_day",
+    "replace_pooled",
+    "replace_typed"
+  ],
+  "reference_arms": [
+    "calendar",
+    "day5",
+    "pooled_day5"
+  ],
+  "models": [
+    "ridge",
+    "lightgbm",
+    "lightgbm_capacity2",
+    "sarimax"
+  ],
+  "new_arm_definition": "sunday_day: calendar with weekday one-hot replaced by dow_6 on any family anchor day, plus five zeros. replace_pooled: pooled_day5 with dow_0..dow_6 = 0 on flagged days. replace_typed: day5 with dow_0..dow_6 = 0 on any family anchor day. 18 channels each; training and query dates alike.",
+  "parent_rules": {
+    "cases": "84eventcases:two2026eventoccurrences(YomKippur21Sep,ColumbusDay12Oct), seven\u00b13daytargets each, two relatedNYCmodes and3decisionleads.42ordinarycases:firsteligible date perweekday15Sep\u201328Oct, excluding\u00b13daysaround ALLSeptember/OctoberDOTobservances, not just modelledfamilies. Onecity/year/twoevents, not84independent events or twoindependentgeographies.",
+    "availability": "Sevenadditionalcalendar-day observationbuffer:decisionorigin=firstunseen decisiondateD, modelorigin=D-7, recordedcontextendsD-8. Decisionleads1/7/14 maptoactualmodelsteps8/14/21. Sevenbridge predictionsunscored. Allactualdecisions afterbothmodelreleases; bufferis a fixedsensitivity to nextday/weekdaypublication, not first-vintage reconstruction or certified realtimeavailability.",
+    "selection": "Eachmode/effectivelead8/14/21:trainbefore1Jan2026, validateorigin/targets1Jan\u201330Jun2026; allvalidationlabels strictlybefore earliestmodelcontext cutoff. Ridgealpha[.1,1,10,100]; treeleaves[7,15]xestimators[100,300]xL2[1,10], minleaf20. Stabletieorder;72past-onlyfits, noSeptember/Octobertuning.",
+    "local": "27pasthistory+samecalendar/eventfeatures; monthlyrefits bymodeloriginmonth, strictactualmodelleadpurging. Ridge/treeparameters selected oncalendarONLYbeforequeriedcontexts, thenunchangedacrossallarms. Fixedleaf2sensitivity; no arm-specificsearch. SARIMAX(1,0,0)x(1,0,0,7), monthly730dayfits/pastupdates, targetinmillionrides(no100GWhnormalisation), convergence-onlyretries retained.",
+    "metrics": "Pre2026weeklydifference scale over730calendar days ending31Dec2025, recordedlabels only. MAE_million_rides/MASE perdecisionlead, equalrelatedmodes/year/families. Nativecommon0.1\u20130.9 pinball/80coverage/scaledwidth/WIS; allcrossings retained, invalid80propagatesundefinedaggregate. Bothfamilies and composition sensitivities, no independent-row significance."
+  },
+  "reproduction_check": "Reference-arm predictions must match results/mta_holiday_v1 local predictions within atol 1e-7, rtol 1e-9, and the stored balanced MASE within 1e-12. Otherwise the new arms are not interpreted.",
+  "metrics": "Row MASE = |prediction - actual| / fixed 2024-01-02..2025-12-31 weekly scale. Balanced MASE = mean over families of the mean over (mode, year) cells (the parent aggregate). Model steps 8/14/21 = decision leads 1/7/14.",
+  "contrasts": [
+    "sunday_day - pooled_day5",
+    "replace_pooled - pooled_day5",
+    "replace_typed - day5",
+    "replace_typed - replace_pooled",
+    "sunday_day - calendar",
+    "replace_pooled - calendar",
+    "replace_typed - calendar"
+  ],
+  "reporting": "Every model, contrast and lead: balanced value, value per mode, leave-one-family-out values, and family/mode cell signs. No p-values or bootstrap. Two observances and two related modes: a bounded robustness check only.",
+  "interpretation": "Consistent only if the sign holds in both modes and in both leave-one-family-out subsets; values below 0.005 MASE in absolute size are negligible; otherwise unstable.",
+  "input_hashes": {
+    "src/ziel_nyc_v1.py": "8d26c7a22ce78063dbd6dd7699a417a7aa2d64df166ae66678f9e4328c737a9a",
+    "src/ziel_nyc_analysis_v1.py": "726ca0759580091e5871ceae41e85b8e8f3bb936c4915963c54c79393e5b2214",
+    "src/test_ziel_nyc_v1.py": "8c50525b16b28df2ed6cd9a1dbf3d6dadf623c4faf8fa3cba0cfd88b764982fd",
+    "src/ziel_replacing_v1.py": "81a1823d536a610f630e8816820426210b45646b8f7523a53a735fd0276a2a42",
+    "src/ziel_replacing_v2.py": "4c5827458d907916ce9378d220a7527098d39e18d4d7044f33f08b0b273f04ed",
+    "src/mta_holiday_study.py": "0bcf63f953e8de0b5095d1e8b9cadc624888702b05b79ef471b7c3029669284b",
+    "src/mta_model_engine_v1.py": "b1e90adc49b6253e7a63183376f094cc1c06f59fc65d5107c88209085c1265f1",
+    "src/robust_baselines.py": "568152c6351826389ae8248fe50fe5bcde5f8db82dfe715c691d6a5f63bca88c",
+    "src/multifestival_models.py": "1a03a120cd2135dca04c7988411db500de98b14d2d3a5cba7339bfb607daa0ac",
+    "src/forecasting.py": "8a6b9b1e8632a2bf77d9855a1d370ed23c350ffe731138787e30c609a59ec21e",
+    "results/mta_holiday_v1/anchors.csv": "dbcdcdd6abe80b4531012e50a80f4957741737639e5ad4466c8e9c4ecde3d6c0",
+    "results/mta_holiday_v1/snapshot.json": "035fb0bd5241c20d7a0ea903e743811026951376a6e362c51f6318517fb0ee11",
+    "results/mta_holiday_v1/source_records.json": "04d93473f9f448653daa9bf8b5159586d965394482388a43abd8fe26af96eef4",
+    "results/mta_holiday_v1/source_snapshot_million_rides.csv": "63288eb56ca716204abbcae270dada8c2d66c7634016f2f14bbdacbf86c846ec",
+    "results/mta_holiday_v1/selection.json": "52860fec9fc86946bf54bc35f8a401c2ed9c8ac35cae5ed3d503af6062039eac",
+    "results/mta_holiday_v1/event_window/protocol.json": "7383b49d75b0739ec5e2961567632df42685f168215eb2608b0b4f60763f1847",
+    "results/mta_holiday_v1/ordinary/protocol.json": "d6604dfd9340876489deef5ce33a55bae120f62dd7ae9c5a0cef2558410a22e8",
+    "results/mta_holiday_recovery_v1/analysis/event_window/predictions_compared.csv": "ef0ba9c4797f500a945363cd08c98d4fca0bc49e181c597cb2a1c33529379f22",
+    "results/mta_holiday_recovery_v1/analysis/ordinary/predictions_compared.csv": "d3819995b34927e30f3853e7065dbd8f0b9d844337a89684dd1634dda7c6109e",
+    "results/ziel_replacing_v1/LABEL_CORRECTION.md": "ef7477859cd7b742efe9b88fe617092de9f18adca666ed5311286dc9eca3968a"
+  },
+  "design_hashes": {
+    "primary_cases.csv": "ad204d4224e9a088c0d857a6be1323f367310197f48e908b81a858e70ac9bcb8",
+    "window_cases.csv": "ad204d4224e9a088c0d857a6be1323f367310197f48e908b81a858e70ac9bcb8"
+  },
+  "parent_protocol_sha256": "d6604dfd9340876489deef5ce33a55bae120f62dd7ae9c5a0cef2558410a22e8"
+}

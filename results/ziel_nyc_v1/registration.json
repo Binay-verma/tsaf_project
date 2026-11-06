@@ -1,0 +1,9 @@
+{
+  "created_utc": "2026-11-06T20:43:36.086960+00:00",
+  "author": "Binay Verma",
+  "protocols": {
+    "event_window": "7becad8f3f8cc213416c4bb6e04174784a951b10ada1092085e9e3600eeb4bdf",
+    "ordinary": "8ed01681dea87bc1bc90049e7bae7f06160f8ca8a2adb3282d6ed14cf1032b69"
+  },
+  "statement": "Protocol fixed before any new-arm NYC forecast was produced. Commit before running any worker."
+}
