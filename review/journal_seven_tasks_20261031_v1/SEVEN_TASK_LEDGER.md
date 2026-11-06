@@ -7,6 +7,17 @@ Branch `journal-seven-tasks-20261031`; the commits were later pushed by the auth
 
 > **Correction (31 Oct 2026, later the same day).** The first version of this ledger counted exact ties as sign disagreements. The corrected counts are 19/36 opposite year signs plus 1 tie (not 20), and 11/36 opposite India–NYC signs plus 3 ties (not 14 implied). See `tie_correction_v2.json`; the original outputs are preserved.
 
+## 0000. Fourth pass — 7 November 2026 (overnight)
+
+| Task | What was done | Evidence | Still open |
+| --- | --- | --- | --- |
+| 4 Closest method | Ziel (2018) designs adapted for the local models and run on India and NYC: hSun (holiday as Sunday) and replacing Rph/RpH (Eq. 11). Each protocol and its analysis code were committed before any forecast of the new arms existed (`a8975c9`, `5e1e4dc`, `add10e1`; local commits, not yet pushed when written, so the order rests on commit history and file time stamps). The first protocol mislabelled hSun as "replacing"; a correction note (`86406ec`, 20:39:38 UTC) was committed before its registered analysis ran (20:40:50 UTC) | `results/ziel_replacing_v1`, `results/ziel_replacing_v2`, `results/ziel_nyc_v1`. Reference arms reproduce the stored forecasts (≤1.14e-13 GWh; NYC exact) and balanced MASE (≤2.2e-16) | Foundation-model versions not run. Results are exploratory (other arms already inspected) |
+| 1 Contribution | Manuscript v7 (`manuscript/integrated_review_v7/`): v6 plus Tables A6–A9 and text; all v6 tables unchanged. Ziel's findings re-described from the paper (M-RpH is his reference best multivariate model) | `recomputation_v7_audit.json`: 225 items recomputed from raw predictions by a second code path (same author, not independent review), pass. v7 was rebuilt after an internal AI fresh-eyes check of the first build (`f030451`) corrected wording, not numbers | Professor and external review |
+| 2 Generalisation | Singapore C3 metadata check: **not passed** (EMA history start and licence scope not verifiable) | `review/singapore_c3_metadata_check_v1/` | A human checks the EMA page and asks EMA about the licence |
+| 3 Confirmation | Runbook for 12 Nov scoring and 16 Nov registered miss | `docs/reproduction/RUNBOOK_NOVEMBER_2026.md`; collector dry run still PENDING with no network request | Author runs it in Colab at the stated times |
+
+Main finding of the new comparators: in India all three Ziel designs lower local-model event MASE relative to calendar in 12 of 12 model/lead cells, as the additive flags also do, but they differ consistently from the additive flags in only 3 (Rph) and 4 (RpH) of 12 cells. In NYC event windows hSun raises MASE relative to calendar in 12 of 12 cells (6 consistent), while on the NYC ordinary sample it lowers it in 12 of 12. Replacing keeps the local typed-versus-pooled sign in 11 of 12 Indian cells.
+
 ## 000. Third pass — 31 October 2026, 23:30 IST
 
 - **Calendar package builder** (`src/calendar_package_builder_v1.py`, 6 tests). It copies the reviewed, corrected 2024–2025 ledger and placebos unchanged, and accepts 2026+ dates **only** as typed by a person from a primary PDF. It checks printed weekdays, state scope, coverage, the reader's name and that each document is a real PDF; derives fixed-rule placebos; and validates with the unchanged rolling validator. A synthetic 2026 fixture plus the real 2024–2025 rows pass validation for issuance 0. A blank form is at `review/calendar_entry_2026_v1/`.

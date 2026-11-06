@@ -17,7 +17,7 @@ Forecasts for 31 Oct–11 Nov 2026 were frozen before outcomes and are scored fr
 
 | Read | Where |
 | --- | --- |
-| Current paper draft (v6) | [manuscript/integrated_review_v6/](manuscript/integrated_review_v6/) |
+| Current paper draft (v7) | [manuscript/integrated_review_v7/](manuscript/integrated_review_v7/) |
 | Full project report (Word/PDF) | [manuscript/project_report_v1/](manuscript/project_report_v1/) |
 | Current status and next steps | [docs/status/CURRENT_RESEARCH_STATUS.md](docs/status/CURRENT_RESEARCH_STATUS.md), [docs/status/HANDOFF.md](docs/status/HANDOFF.md) |
 | Seven-task journal ledger | [review/journal_seven_tasks_20261031_v1/SEVEN_TASK_LEDGER.md](review/journal_seven_tasks_20261031_v1/SEVEN_TASK_LEDGER.md) |
@@ -164,9 +164,10 @@ NYC:    7-day observation buffer  → decision lead 1 / 7 / 14 = model step 8 / 
 | Calendar correction | `results/calendar_semantics_v2` | document-aligned named dates (Karnataka 2025) |
 | Separate sources | `results/mta_holiday_recovery_v1`, `results/neso_replication_v1` | NYC holidays; England/Wales delay sensitivity |
 | Comparators and simulation | `results/event_comparators_v1`, `results/pooling_simulation_v1`, `results/event_support_v1` | response-profile comparators; pooling trade-off simulation; support diagnostics |
+| Ziel (2018) holiday designs | `results/ziel_replacing_v1`, `results/ziel_replacing_v2`, `results/ziel_nyc_v1` | holiday-as-Sunday and replacing dummies for the local models, India and NYC (exploratory) |
 | Frozen future forecasts | `results/prospective_20261030_v1`, `results/prospective_interval_20261030_v1`, `results/prospective_chronos_20261031_v1` | 31 Oct–11 Nov 2026, scored from 12 Nov |
 | Rolling study | `results/rolling_confirmation_runtime_v1`, `results/rolling_confirmation_timing_v2` | 52 weekly issuances (not activated) |
-| Singapore replication | `results/singapore_festival_replication_v1` | drafted, not registered, no data acquired |
+| Singapore replication | `results/singapore_festival_replication_v1`, `review/singapore_c3_metadata_check_v1` | drafted; metadata check not passed, so not registered; no data acquired |
 
 ## Code map (`src/`)
 
@@ -198,7 +199,7 @@ data/           raw and external source snapshots (see data/external/RIGHTS_NOTI
 evidence/       retained calendar documents and model/corpus evidence
 results/        one folder per registered experiment: protocol, forecasts, metrics, audits (frozen records)
 review/         claim audits, re-analyses, calendar reviews, reviewer packets
-manuscript/     paper drafts (v1–v6), supplements, project report
+manuscript/     paper drafts (v1–v7), supplements, project report
 presentation/   college and viva decks with their builders
 docs/
   PROJECT_GUIDELINES.md     research-integrity and working rules

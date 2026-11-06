@@ -113,6 +113,27 @@ cross_same = sum(rep_i[(m, h)] * rep_n[(m, h + 7)] > 0 for m in LOCAL for h in (
 cross_opp = sum(rep_i[(m, h)] * rep_n[(m, h + 7)] < 0 for m in LOCAL for h in (1, 7, 14))
 cross_tie = 12 - cross_same - cross_opp
 
+# consistency labels, the additive flags versus calendar, ordinary cohorts, year spread of negligible cells
+def lab_up(rows, contrast):  # consistent cells whose balanced value is positive (a consistent rise)
+    return sum(r["label"] == "consistent" and float(r["balanced"]) > 0 for r in rows if r["contrast"] == contrast)
+n_hsun_cal_c = lab_up(NC, "sunday_day - calendar")
+n_rph_cal_c = lab_up(NC, "replace_pooled - calendar")
+n_rpH_cal_c = lab_up(NC, "replace_typed - calendar")
+assert n_hsun_cal_c == lab(NC, "sunday_day - calendar", "consistent")
+i_rpH_cal_c = lab(IC, "replace_typed - calendar", "consistent")
+assert lab(IC, "sunday_day - calendar", "consistent") == 12 and lab(IC, "replace_pooled - calendar", "consistent") == 12
+add_beats_cal = sum(ib[(m, a, h)] < ib[(m, "calendar", h)] for m in LOCAL for a in ("day5", "pooled_day5") for h in (1, 7, 14))
+IO = read(I1 / "ordinary_contrasts.csv") + read(I2 / "ordinary_contrasts.csv")
+NO = read(NY / "ordinary_contrasts.csv")
+io_counts = [cnt(IO, f"{a} - calendar", -1) for a in ("sunday_day", "replace_pooled", "replace_typed")]
+no_counts = [cnt(NO, f"{a} - calendar", -1) for a in ("sunday_day", "replace_pooled", "replace_typed")]
+neg_rows = [r for r in IC if r["contrast"] == "sunday_day - pooled_day5" and r["label"] == "negligible"]
+neg_year_max = max(max(abs(float(r["year_2024"])), abs(float(r["year_2025"]))) for r in neg_rows)
+reg_times = {c: subprocess.run(["git", "log", "-1", "--format=%ad", "--date=format-local:%H:%M:%S", c], cwd=ROOT,
+                               capture_output=True, text=True, env={"TZ": "UTC"}, check=True).stdout.strip() for c in ["86406ec"]}
+first_analysis = json.load(open(I1 / "summary.json"))["created_utc"][11:19]
+assert reg_times["86406ec"] < first_analysis
+
 sg = json.load(open(SG))
 assert sg["decision"].startswith("C3 NOT PASSED")
 
@@ -123,12 +144,13 @@ E = [
   "**Integrated research draft for professor review, version 7. Not submitted or submission-ready.** Version 7 adds registered daily adaptations of Ziel's holiday-as-Sunday and replacing designs for the local models (Sections 3–5, Tables A6–A9) and the Singapore metadata-check outcome to version 6; all version 6 tables are unchanged."),
  ("abstract",
   "Source revisions, sparse event years, unmatched adaptation policies,",
-  f"Registered adaptations of Ziel's holiday-as-Sunday (hSun) and replacing (Rph, RpH) dummy designs lower local-model event MASE relative to calendar in all 12 Indian local model/lead cells for each design, but in NYC hSun raises it in {n_hsun_cal} of 12 cells and pooled replacing in {n_rph_cal} of 12. "
+  f"Registered adaptations of Ziel's holiday-as-Sunday (hSun) and replacing (Rph, RpH) dummy designs lower local-model event MASE relative to calendar in all 12 Indian local model/lead cells for each design, as the additive flags also do, "
+  f"but they differ consistently from the additive flags they carry in only {i_rph_add_c} (Rph) and {i_rpH_add_c} (RpH) of 12 cells, and in NYC hSun raises event MASE relative to calendar in {n_hsun_cal} of 12 cells ({n_hsun_cal_c} of them consistent). "
   "Source revisions, sparse event years, unmatched adaptation policies,"),
  ("closest work, Ziel findings",
   "and found that separate dummies did not generally improve on a single dummy, with univariate results mixed by holiday type.",
   "and reported that many additional per-holiday dummies did not seem to improve on one additional dummy, with univariate results mixed by holiday type; "
-  "his multivariate comparison nevertheless tests other models against a replacing design with one dummy per holiday (M-RpH) as the best model forecast."),
+  "in his multivariate comparison three models were not significantly worse than the best model forecast, M-RpH (a replacing design with one dummy per holiday), and the holiday-as-Saturday and holiday-as-Sunday designs were in most cases significantly worse than the best approach."),
  ("closest work, new comparator",
   "What is examined here is how that choice behaves through foundation-model covariate channels under a fixed channel budget with zero and placebo controls.",
   "What is examined here is how that choice behaves through foundation-model covariate channels under a fixed channel budget with zero and placebo controls. "
@@ -138,16 +160,21 @@ E = [
   "Equal dimensions do not imply equal information, and zero padding is not assumed inert.\n\n"
   "Three further local-model arms adapt Ziel's German load designs [9] to daily festival anchors. hSun treats every family anchor day as a Sunday (weekday one-hot replaced by the Sunday one-hot) with no festival indicator, plus five zeros. "
   "Rph adds the pooled day flag and sets all seven weekday dummies to zero on flagged days; RpH does the same with the five typed day flags (Ziel's Eq. 11). Each has 18 channels. "
-  "They were committed with their protocols and analysis code before any of their forecasts existed (local commits a8975c9, 5e1e4dc and add10e1, published later), but on cases whose other arms had already been inspected, so they are exploratory. "
-  "The hSun protocol first called that arm the replacing variant; a dated note corrected the label before any of its metrics were computed. "
-  f"The same runs recompute the calendar, typed-day and pooled-day arms: they reproduce the stored forecasts within {ref_diff:.1e} GWh in India and exactly in NYC, and the stored balanced MASE within 1e-12. "
+  "Their protocols and analysis code were committed before any of their forecasts existed (commits a8975c9, 5e1e4dc and add10e1). These were local commits, not yet pushed when this draft was built, so the order rests on the author's commit history and file time stamps rather than a public timestamp. "
+  "The cases' other arms had already been inspected, so the comparators are exploratory. "
+  f"The hSun protocol first called that arm the replacing variant; a correction note was committed (86406ec, {reg_times['86406ec']} UTC) before its registered analysis ran ({first_analysis} UTC). "
+  "Only the five festival families are treated, not all public holidays as in Ziel, and the lag features and SARIMAX's weekly seasonal term are not holiday-adjusted, so only the calendar channels change. "
+  f"The same runs recompute the calendar, typed-day and pooled-day arms: they reproduce the stored forecasts within {ref_diff:.2e} GWh in India and exactly in NYC, and the stored balanced MASE within 1e-12. "
   "Foundation-model versions of these designs were not run."),
  ("India Ziel results",
   "Learned category means are past-only summaries of this dataset, not newly discovered holidays or learned causal event effects.",
   "Learned category means are past-only summaries of this dataset, not newly discovered holidays or learned causal event effects.\n\n"
-  "Tables A6–A7 give the Ziel adaptations for the four local models. In India each design lowers event MASE relative to calendar in all 12 local model/lead cells. "
+  "Tables A6–A7 give the Ziel adaptations for the four local models. In India each design lowers event MASE relative to calendar in all 12 local model/lead cells "
+  f"(consistent in 12, 12 and {i_rpH_cal_c} cells for hSun, Rph and RpH). The additive typed and pooled day flags also beat calendar in {add_beats_cal} of their 24 cells, so this gain is not specific to Ziel's designs. "
   f"Relative to the additive flags it carries, Rph is lower than pooled day in {i_rph_add} of 12 cells and RpH lower than typed day in {i_rpH_add} of 12, but the difference keeps its sign in both years and under every leave-one-family-out subset in only {i_rph_add_c} and {i_rpH_add_c} cells. "
-  f"hSun differs from pooled day by less than 0.005 MASE in {i_hsun_pool_neg} of 12 cells; the clear exception is Stable LightGBM, whose lead-1 hSun MASE is {f5(-float(lgb['balanced']))} below pooled day in both years and every leave-one-family-out subset. "
+  f"The balanced hSun-minus-pooled-day difference is below 0.005 MASE in {i_hsun_pool_neg} of 12 cells, although single years in those cells differ by up to {neg_year_max:.3f}; "
+  f"the clear exception is Stable LightGBM, whose lead-1 hSun MASE is {f5(-float(lgb['balanced']))} below pooled day in both years and every leave-one-family-out subset. "
+  f"On the Indian ordinary sample the three designs also lower MASE relative to calendar in {io_counts[0]}, {io_counts[1]} and {io_counts[2]} of 12 cells, so their effect is not confined to festival windows. "
   f"Replacing rarely reverses the local typed-versus-pooled ordering: RpH minus Rph has the same sign as typed minus pooled day in {same_i} of 12 cells; "
   f"the exception is SARIMAX at lead 7, where the additive difference is only {opp_i_add:.6f}."),
  ("NYC Ziel results",
@@ -159,11 +186,14 @@ E = [
   "A drafted Singapore replication was not registered because its metadata check did not pass: the EMA history start and whether the series is covered by the Singapore Open Data Licence could not be verified, and no demand data were acquired."),
  ("limits, closest methods",
   "Generic encodings, sparse pooling and pooled-versus-separate holiday dummies [9] have close prior work;",
-  "Generic encodings, sparse pooling and pooled-versus-separate holiday dummies [9] have close prior work; Ziel's holiday-as-Sunday and replacing designs are now compared for the local models only, and their advantage over calendar in India does not carry over to NYC;"),
+  "Generic encodings, sparse pooling and pooled-versus-separate holiday dummies [9] have close prior work; Ziel's holiday-as-Sunday and replacing designs are now compared for the local models only; their advantage over calendar in Indian festival windows, which the additive flags share, does not carry over to NYC event windows;"),
 ]
 
-nyc_par = (f"Tables A8–A9 repeat the Ziel adaptations on NYC. There hSun raises event MASE relative to calendar in {n_hsun_cal} of 12 local model/step cells, Rph in {n_rph_cal} and RpH in {n_rpH_cal}; "
-           f"Rph is lower than pooled day in {n_rph_add} of 12 cells, while RpH is higher than typed day in {n_rpH_add}. In these ridership series, encoding an observance as a Sunday raised errors, unlike for the Indian festival days. "
+nyc_par = (f"Tables A8–A9 repeat the Ziel adaptations on NYC. There hSun raises event MASE relative to calendar in {n_hsun_cal} of 12 local model/step cells ({n_hsun_cal_c} of these rises consistent across both modes and leave-one-family-out subsets), "
+           f"Rph in {n_rph_cal} ({n_rph_cal_c} consistent rises) and RpH in {n_rpH_cal} ({n_rpH_cal_c} consistent rise); "
+           f"Rph is lower than pooled day in {n_rph_add} of 12 cells, while RpH is higher than typed day in {n_rpH_add}. "
+           f"On the NYC ordinary sample, by contrast, the three designs lower MASE relative to calendar in {no_counts[0]}, {no_counts[1]} and {no_counts[2]} of 12 cells. "
+           "So hSun is associated with higher NYC event-window MASE but lower ordinary-day MASE, whereas in India both mostly fall; with two observances and two related modes this is a bounded robustness check, and the mechanism is not identified. "
            f"RpH minus Rph has the same sign as typed minus pooled day in {same_n} of 12 NYC cells, the opposite sign in {opp_n} and ties in {tie_n} (Stable LightGBM gives identical typed and pooled forecasts). "
            f"Under replacing, India and NYC agree in sign in {cross_same} of 12 local model/lead cells, are opposite in {cross_opp} and tie in {cross_tie}. ")
 
@@ -246,7 +276,8 @@ build = {"created_utc": datetime.datetime.now(datetime.timezone.utc).isoformat()
          "inputs": {str(p.relative_to(ROOT)): sha(p) for d in (I1, I2, NY) for p in sorted(d.glob("*"))} | {str(SG.relative_to(ROOT)): sha(SG)},
          "supplement_copies": copies,
          "outputs": {p.name: sha(p) for p in [OUT / "MANUSCRIPT.md", docx]},
-         "renderer": "pandoc + LibreOffice (same as v6)"}
+         "renderer": "pandoc + LibreOffice (same as v6)",
+         "revision": "Rebuilt after an internal fresh-eyes check of the first v7 build (commit f030451): push status, reproduction bound, NYC and ordinary-cohort wording, Ziel findings and scope sentences corrected; numbers unchanged."}
 json.dump(build, open(OUT / "build.json", "w"), indent=1)
 print(json.dumps({k: build[k] for k in ("edits_applied", "v6_tables_unchanged")}, indent=1))
 print(dict(same_i=same_i, same_n=same_n, opp_n=opp_n, tie_n=tie_n, cross=(cross_same, cross_opp, cross_tie)))

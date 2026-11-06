@@ -1,6 +1,6 @@
 {
   "check": "C3 metadata-only probe for the Singapore replication draft",
-  "checked_utc": "2026-11-06T20:50:00Z",
+  "checked_utc": "approximately 2026-11-06T20:36Z to 20:41Z (between commits a8975c9 and 1b904cb)",
   "author": "Binay Verma",
   "demand_values_viewed": false,
   "criteria_from_draft_protocol": [
@@ -25,5 +25,6 @@
     }
   },
   "decision": "C3 NOT PASSED (inconclusive). The Singapore protocol stays an unregistered draft. No EMA or MOM file was acquired. Generalisation beyond India and NYC remains an open limitation.",
-  "what_would_resolve_it": "A human opens the EMA page in a browser, records the earliest selectable year, and asks EMA (or checks the downloaded file's licence notice) whether the series is offered under the Singapore Open Data Licence. Only after both criteria pass may the protocol be pushed and calendars acquired."
+  "what_would_resolve_it": "A human opens the EMA page in a browser, records the earliest selectable year, and asks EMA (or checks the downloaded file's licence notice) whether the series is offered under the Singapore Open Data Licence. Only after both criteria pass may the protocol be pushed and calendars acquired.",
+  "timestamp_correction": "The first version of this file recorded 2026-11-06T20:50:00Z, which is later than the commit (1b904cb, 20:41:12 UTC) that contains it. That value was an error; the check was made in the interval above."
 }
