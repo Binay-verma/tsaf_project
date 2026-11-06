@@ -2,6 +2,8 @@
 
 What each nearest method does, which existing arm comes closest, and what is genuinely missing. No new experiment was run for this map.
 
+> **Correction (6–7 November 2026).** The row "Ziel (2018), replacing / holiday-as-Sunday" merged two different designs. In Ziel's Section 4.3 the holiday is treated as a Sunday with no holiday dummy (**hSun**). In Section 4.5 "replacing" (**Rph**, **RpH**) adds holiday dummies and sets the weekday dummy to zero on holidays (Eq. 11). Both are now run as registered exploratory comparators: `results/ziel_replacing_v1` (hSun; see its `LABEL_CORRECTION.md`), `results/ziel_replacing_v2` (Rph, RpH) and `results/ziel_nyc_v1` (all three on NYC). The table below is kept as first written.
+
 | Nearest method | What it does | Closest existing arm(s) | Fidelity | Missing / not reproducible |
 | --- | --- | --- | --- | --- |
 | Ziel (2018), additive single holiday dummy ("Adh") | One extra dummy for all public holidays, added to weekday effects, in hourly German load models | `pooled_day5` in Ridge/SARIMAX/trees: one binary on any family anchor (plus four zero channels), added to 13 calendar channels | Same additive pooled-dummy idea. It differs in daily vs hourly resolution, festivals vs all public holidays, Ridge/SARIMAX/trees vs Ziel's models, and the four padding zeros | — |

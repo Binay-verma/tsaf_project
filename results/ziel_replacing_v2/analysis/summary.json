@@ -1,0 +1,71 @@
+{
+  "event_window": {
+    "labels": {
+      "replace_pooled - calendar": {
+        "consistent": 12,
+        "negligible": 0,
+        "unstable": 0
+      },
+      "replace_pooled - pooled_day5": {
+        "consistent": 3,
+        "negligible": 1,
+        "unstable": 8
+      },
+      "replace_typed - calendar": {
+        "consistent": 10,
+        "negligible": 0,
+        "unstable": 2
+      },
+      "replace_typed - day5": {
+        "consistent": 4,
+        "negligible": 0,
+        "unstable": 8
+      },
+      "replace_typed - replace_pooled": {
+        "consistent": 4,
+        "negligible": 4,
+        "unstable": 4
+      }
+    }
+  },
+  "ordinary": {
+    "labels": {
+      "replace_pooled - calendar": {
+        "consistent": 7,
+        "negligible": 4,
+        "unstable": 1
+      },
+      "replace_pooled - pooled_day5": {
+        "consistent": 2,
+        "negligible": 9,
+        "unstable": 1
+      },
+      "replace_typed - calendar": {
+        "consistent": 7,
+        "negligible": 5,
+        "unstable": 0
+      },
+      "replace_typed - day5": {
+        "consistent": 5,
+        "negligible": 7,
+        "unstable": 0
+      },
+      "replace_typed - replace_pooled": {
+        "consistent": 3,
+        "negligible": 8,
+        "unstable": 1
+      }
+    }
+  },
+  "created_utc": "2026-11-06T20:46:15.230496+00:00",
+  "inputs": {
+    "event_window/ridge": "0531e482accc7eee74ff3a6bad721b12610ea844dfd404231e6f0abc3774be8d",
+    "event_window/lightgbm": "4bffbb527771514163d997c00f9d1be0b60706ca5bb135af68fa3b21a188034b",
+    "event_window/lightgbm_capacity2": "bbef7b3f877a35fb15f7810f0945c5d79f574df3e1a0de74ebe8d521ed45021c",
+    "event_window/sarimax": "d1b4638cbe7bcdb21ffd2797259551e23200b2066a164c3e51ac8546c08fe64f",
+    "ordinary/ridge": "70116d1c417afe1608f2948ee91c879fd43ef306c6893353480753e59982c06a",
+    "ordinary/lightgbm": "dbc15bcf5659a2ff910ccd707231ce1a0c209b6af35d16fee426f23f8bf83172",
+    "ordinary/lightgbm_capacity2": "9501f004975bef210a0169e48b6ae4ad4712350b2dc2ca098e09e493c7581562",
+    "ordinary/sarimax": "49416d7b59503d716c00f91417c73f57739a692594be54b60c088fd3e722188e"
+  }
+}

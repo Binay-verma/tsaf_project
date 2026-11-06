@@ -1,0 +1,164 @@
+{
+  "event_window": {
+    "reference_predictions_match": true,
+    "reference_max_abs_diff_GWh": 1.1368683772161603e-13,
+    "stored_balanced_MASE_max_abs_diff": 2.220446049250313e-16,
+    "rows": 10560,
+    "arms": [
+      "calendar",
+      "day5",
+      "pooled_day5",
+      "replace_pooled",
+      "replace_typed"
+    ],
+    "models": [
+      "lightgbm",
+      "lightgbm_capacity2",
+      "ridge",
+      "sarimax"
+    ],
+    "per_model_arm": [
+      {
+        "model": "lightgbm",
+        "arm": "calendar",
+        "diff": 5.684341886080802e-14
+      },
+      {
+        "model": "lightgbm",
+        "arm": "day5",
+        "diff": 5.684341886080802e-14
+      },
+      {
+        "model": "lightgbm",
+        "arm": "pooled_day5",
+        "diff": 5.684341886080802e-14
+      },
+      {
+        "model": "lightgbm_capacity2",
+        "arm": "calendar",
+        "diff": 5.684341886080802e-14
+      },
+      {
+        "model": "lightgbm_capacity2",
+        "arm": "day5",
+        "diff": 2.842170943040401e-14
+      },
+      {
+        "model": "lightgbm_capacity2",
+        "arm": "pooled_day5",
+        "diff": 5.684341886080802e-14
+      },
+      {
+        "model": "ridge",
+        "arm": "calendar",
+        "diff": 5.684341886080802e-14
+      },
+      {
+        "model": "ridge",
+        "arm": "day5",
+        "diff": 8.526512829121202e-14
+      },
+      {
+        "model": "ridge",
+        "arm": "pooled_day5",
+        "diff": 1.1368683772161603e-13
+      },
+      {
+        "model": "sarimax",
+        "arm": "calendar",
+        "diff": 2.842170943040401e-14
+      },
+      {
+        "model": "sarimax",
+        "arm": "day5",
+        "diff": 1.1368683772161603e-13
+      },
+      {
+        "model": "sarimax",
+        "arm": "pooled_day5",
+        "diff": 8.526512829121202e-14
+      }
+    ]
+  },
+  "ordinary": {
+    "reference_predictions_match": true,
+    "reference_max_abs_diff_GWh": 5.684341886080802e-14,
+    "stored_balanced_MASE_max_abs_diff": 2.220446049250313e-16,
+    "rows": 4320,
+    "arms": [
+      "calendar",
+      "day5",
+      "pooled_day5",
+      "replace_pooled",
+      "replace_typed"
+    ],
+    "models": [
+      "lightgbm",
+      "lightgbm_capacity2",
+      "ridge",
+      "sarimax"
+    ],
+    "per_model_arm": [
+      {
+        "model": "lightgbm",
+        "arm": "calendar",
+        "diff": 2.842170943040401e-14
+      },
+      {
+        "model": "lightgbm",
+        "arm": "day5",
+        "diff": 2.842170943040401e-14
+      },
+      {
+        "model": "lightgbm",
+        "arm": "pooled_day5",
+        "diff": 2.842170943040401e-14
+      },
+      {
+        "model": "lightgbm_capacity2",
+        "arm": "calendar",
+        "diff": 2.842170943040401e-14
+      },
+      {
+        "model": "lightgbm_capacity2",
+        "arm": "day5",
+        "diff": 2.842170943040401e-14
+      },
+      {
+        "model": "lightgbm_capacity2",
+        "arm": "pooled_day5",
+        "diff": 2.842170943040401e-14
+      },
+      {
+        "model": "ridge",
+        "arm": "calendar",
+        "diff": 5.684341886080802e-14
+      },
+      {
+        "model": "ridge",
+        "arm": "day5",
+        "diff": 2.842170943040401e-14
+      },
+      {
+        "model": "ridge",
+        "arm": "pooled_day5",
+        "diff": 2.842170943040401e-14
+      },
+      {
+        "model": "sarimax",
+        "arm": "calendar",
+        "diff": 5.684341886080802e-14
+      },
+      {
+        "model": "sarimax",
+        "arm": "day5",
+        "diff": 5.684341886080802e-14
+      },
+      {
+        "model": "sarimax",
+        "arm": "pooled_day5",
+        "diff": 2.842170943040401e-14
+      }
+    ]
+  }
+}
