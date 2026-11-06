@@ -1,0 +1,1154 @@
+[
+  {
+    "state": "MTA_Bus",
+    "horizon": 8,
+    "arm": "calendar",
+    "refit": "2026-09-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "feature_count": 40,
+    "training_X_sha256": "ca7f8407049d30ce5fcc71de92dc5c0389b22f356b962b8d862fc3864f079379",
+    "training_y_sha256": "ed937050f67df40a20aa303ce9070bb0c1744f711270286d3a5f8e5890ae7052",
+    "query_X_sha256": "37b4307ca6486c9bca7c9a7ba15210f6957791c8671b03406a0d3b5beef1b3da",
+    "training_n": 723,
+    "training_target_max": "2026-08-31",
+    "training_origin_max": "2026-08-24"
+  },
+  {
+    "state": "MTA_Bus",
+    "horizon": 8,
+    "arm": "calendar",
+    "refit": "2026-10-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "feature_count": 40,
+    "training_X_sha256": "f350bcc8c1f612d5e2df83621d293c630ddd2fb4deeaca14bd775d3fc30e9c0a",
+    "training_y_sha256": "14c8a3fcee4e460ec78cc30fe8fce312997b38d8e744d4aa96ee23926b4a332a",
+    "query_X_sha256": "f253ac4c2e7682f9b51c9e0f655257396c762569f7476e7f2c291b3c0ee6ff95",
+    "training_n": 723,
+    "training_target_max": "2026-09-30",
+    "training_origin_max": "2026-09-23"
+  },
+  {
+    "state": "MTA_Bus",
+    "horizon": 8,
+    "arm": "day5",
+    "refit": "2026-09-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "feature_count": 45,
+    "training_X_sha256": "7f5af3b2a267282855341bad6b631e886da36385ccf4c8f673d48ee0ade0086a",
+    "training_y_sha256": "ed937050f67df40a20aa303ce9070bb0c1744f711270286d3a5f8e5890ae7052",
+    "query_X_sha256": "eaa923c749c20c1fb536ef8c1dd0db426b33df044a87d36ad800bc02c1409565",
+    "training_n": 723,
+    "training_target_max": "2026-08-31",
+    "training_origin_max": "2026-08-24"
+  },
+  {
+    "state": "MTA_Bus",
+    "horizon": 8,
+    "arm": "day5",
+    "refit": "2026-10-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "feature_count": 45,
+    "training_X_sha256": "c9f91eb79cbe7e3242c5c44097834f81564972a12fe6f88195f5371d6249a8e0",
+    "training_y_sha256": "14c8a3fcee4e460ec78cc30fe8fce312997b38d8e744d4aa96ee23926b4a332a",
+    "query_X_sha256": "6282ae4b8446c0444ba7d3960564c49c9eab3e609751c59b6502c6df01262aa6",
+    "training_n": 723,
+    "training_target_max": "2026-09-30",
+    "training_origin_max": "2026-09-23"
+  },
+  {
+    "state": "MTA_Bus",
+    "horizon": 8,
+    "arm": "pooled_day5",
+    "refit": "2026-09-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "feature_count": 45,
+    "training_X_sha256": "c0cc043aae7420de06b667fe6982fdd9006b3165cfad948fb3ffd2f8cbf27324",
+    "training_y_sha256": "ed937050f67df40a20aa303ce9070bb0c1744f711270286d3a5f8e5890ae7052",
+    "query_X_sha256": "1eb3b8d39e7b234225bb1116a4ac9e7fb25ea88f30320d1c35c34c3980fea2a6",
+    "training_n": 723,
+    "training_target_max": "2026-08-31",
+    "training_origin_max": "2026-08-24"
+  },
+  {
+    "state": "MTA_Bus",
+    "horizon": 8,
+    "arm": "pooled_day5",
+    "refit": "2026-10-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "feature_count": 45,
+    "training_X_sha256": "e14164517244c17ec2a26af4f03348d5c6bec6cff7bb95f5f90c31897310fc23",
+    "training_y_sha256": "14c8a3fcee4e460ec78cc30fe8fce312997b38d8e744d4aa96ee23926b4a332a",
+    "query_X_sha256": "6347d676b3e3c8defe2d81795a16b207d970b244767e9e5f8c00b2c4ec1e2c19",
+    "training_n": 723,
+    "training_target_max": "2026-09-30",
+    "training_origin_max": "2026-09-23"
+  },
+  {
+    "state": "MTA_Bus",
+    "horizon": 8,
+    "arm": "sunday_day",
+    "refit": "2026-09-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "feature_count": 45,
+    "training_X_sha256": "72fb9447456063d67de6eb313b78641ba2e9f84c31713b239296de930859d6be",
+    "training_y_sha256": "ed937050f67df40a20aa303ce9070bb0c1744f711270286d3a5f8e5890ae7052",
+    "query_X_sha256": "41d92bce515bf8b99808fa00d0b9aa09a24194507570bda8e36f92f192465fa7",
+    "training_n": 723,
+    "training_target_max": "2026-08-31",
+    "training_origin_max": "2026-08-24"
+  },
+  {
+    "state": "MTA_Bus",
+    "horizon": 8,
+    "arm": "sunday_day",
+    "refit": "2026-10-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "feature_count": 45,
+    "training_X_sha256": "7c80a2b163b85551d4c9a9bcded467fd90dba196f3a6ac8fbedc2581e0896412",
+    "training_y_sha256": "14c8a3fcee4e460ec78cc30fe8fce312997b38d8e744d4aa96ee23926b4a332a",
+    "query_X_sha256": "85fc77a9b144353f9bd1f2fb19a037bb2f843ea6e36db89271cb873163d9fc68",
+    "training_n": 723,
+    "training_target_max": "2026-09-30",
+    "training_origin_max": "2026-09-23"
+  },
+  {
+    "state": "MTA_Bus",
+    "horizon": 8,
+    "arm": "replace_pooled",
+    "refit": "2026-09-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "feature_count": 45,
+    "training_X_sha256": "d55c35eccec0486bcb70be9da4437ec8ca356371a059c18ca768ff8ebac9c820",
+    "training_y_sha256": "ed937050f67df40a20aa303ce9070bb0c1744f711270286d3a5f8e5890ae7052",
+    "query_X_sha256": "b0f0b905e849860ecddbb88e02a84f119f5f80d89f02f7a0880874f3db64c2e9",
+    "training_n": 723,
+    "training_target_max": "2026-08-31",
+    "training_origin_max": "2026-08-24"
+  },
+  {
+    "state": "MTA_Bus",
+    "horizon": 8,
+    "arm": "replace_pooled",
+    "refit": "2026-10-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "feature_count": 45,
+    "training_X_sha256": "15308bc3c320533ff543309bead3588a130fa2dcc9f4e54e4718a00ca609be47",
+    "training_y_sha256": "14c8a3fcee4e460ec78cc30fe8fce312997b38d8e744d4aa96ee23926b4a332a",
+    "query_X_sha256": "ebde0d0dc7d78ba0e09b963d0b2139afb9400b66d2e90dd8b2e4e94663c56a00",
+    "training_n": 723,
+    "training_target_max": "2026-09-30",
+    "training_origin_max": "2026-09-23"
+  },
+  {
+    "state": "MTA_Bus",
+    "horizon": 8,
+    "arm": "replace_typed",
+    "refit": "2026-09-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "feature_count": 45,
+    "training_X_sha256": "fa59f87680af364bafa4858850eda7c27f229f0224c1f4689a63b29328c2af52",
+    "training_y_sha256": "ed937050f67df40a20aa303ce9070bb0c1744f711270286d3a5f8e5890ae7052",
+    "query_X_sha256": "8b1353395ce6e0dc196bc9ffddde28a7ae2c2dc6aad9086f5f7742f5c667ffb1",
+    "training_n": 723,
+    "training_target_max": "2026-08-31",
+    "training_origin_max": "2026-08-24"
+  },
+  {
+    "state": "MTA_Bus",
+    "horizon": 8,
+    "arm": "replace_typed",
+    "refit": "2026-10-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "feature_count": 45,
+    "training_X_sha256": "6bef1a9ba038f4389f9088a2d808d4779e8d4b955860c39626671766149a1a1b",
+    "training_y_sha256": "14c8a3fcee4e460ec78cc30fe8fce312997b38d8e744d4aa96ee23926b4a332a",
+    "query_X_sha256": "794d3b696870c6037221023b2f1427233683b7f127fd16754fbcb48efd0a8507",
+    "training_n": 723,
+    "training_target_max": "2026-09-30",
+    "training_origin_max": "2026-09-23"
+  },
+  {
+    "state": "MTA_Bus",
+    "horizon": 14,
+    "arm": "calendar",
+    "refit": "2026-09-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "feature_count": 40,
+    "training_X_sha256": "9971dae740c03f995b676a211c63eb9a8c3a9d9a36bcad421289c1d05cd38024",
+    "training_y_sha256": "eaf53045212347c380157990223b18f02fe44e62f90cd6f70db1df683821b85c",
+    "query_X_sha256": "200fbf3060a707fe480de4b68be6176c2a49538d0f4bcdbe39d86d69a62f2d36",
+    "training_n": 717,
+    "training_target_max": "2026-08-31",
+    "training_origin_max": "2026-08-18"
+  },
+  {
+    "state": "MTA_Bus",
+    "horizon": 14,
+    "arm": "calendar",
+    "refit": "2026-10-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "feature_count": 40,
+    "training_X_sha256": "c5fcb68381e9fed151bb752d99c36b1542b2aeb34cacddf0a552e0d7f73d2272",
+    "training_y_sha256": "4ad57dd434b138d9b05b81fb415a41b327479b599cf256f6a93a5708a3b2c4a1",
+    "query_X_sha256": "0c1761bdb30e5e3ac392e6516ed0e24a429fac525d9cbe2c1c405f251f8f95f6",
+    "training_n": 717,
+    "training_target_max": "2026-09-30",
+    "training_origin_max": "2026-09-17"
+  },
+  {
+    "state": "MTA_Bus",
+    "horizon": 14,
+    "arm": "day5",
+    "refit": "2026-09-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "feature_count": 45,
+    "training_X_sha256": "49ae4d27e6da7b8388ec336054033361cf461f498596885206872a76e0fe3c15",
+    "training_y_sha256": "eaf53045212347c380157990223b18f02fe44e62f90cd6f70db1df683821b85c",
+    "query_X_sha256": "b3bd4af03ee13ee74c59ede83b11e6280e41f5813706c9dcf0486ff70533f5bc",
+    "training_n": 717,
+    "training_target_max": "2026-08-31",
+    "training_origin_max": "2026-08-18"
+  },
+  {
+    "state": "MTA_Bus",
+    "horizon": 14,
+    "arm": "day5",
+    "refit": "2026-10-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "feature_count": 45,
+    "training_X_sha256": "f8dc6d259c6fe9e10b66de6891e3789042fb779780d335349404c651497aa1b1",
+    "training_y_sha256": "4ad57dd434b138d9b05b81fb415a41b327479b599cf256f6a93a5708a3b2c4a1",
+    "query_X_sha256": "1bbca4b19c61dec5a4898de8addd8eaf8a3bd0a3c8a5680c6c7527d994af5a4d",
+    "training_n": 717,
+    "training_target_max": "2026-09-30",
+    "training_origin_max": "2026-09-17"
+  },
+  {
+    "state": "MTA_Bus",
+    "horizon": 14,
+    "arm": "pooled_day5",
+    "refit": "2026-09-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "feature_count": 45,
+    "training_X_sha256": "dcaf099d7982ae2b57810f7e1698b441028a0b82425a39a1e396008dd74bd06e",
+    "training_y_sha256": "eaf53045212347c380157990223b18f02fe44e62f90cd6f70db1df683821b85c",
+    "query_X_sha256": "7282d19af9056e88e76529e89aa15e78204a0321414f20bf82c67ecc3179a9c4",
+    "training_n": 717,
+    "training_target_max": "2026-08-31",
+    "training_origin_max": "2026-08-18"
+  },
+  {
+    "state": "MTA_Bus",
+    "horizon": 14,
+    "arm": "pooled_day5",
+    "refit": "2026-10-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "feature_count": 45,
+    "training_X_sha256": "eee572d6f0b07e3cc8c2efc86a0f18e7907ec08f826c6a5f88b38ddf22eaf076",
+    "training_y_sha256": "4ad57dd434b138d9b05b81fb415a41b327479b599cf256f6a93a5708a3b2c4a1",
+    "query_X_sha256": "1bbca4b19c61dec5a4898de8addd8eaf8a3bd0a3c8a5680c6c7527d994af5a4d",
+    "training_n": 717,
+    "training_target_max": "2026-09-30",
+    "training_origin_max": "2026-09-17"
+  },
+  {
+    "state": "MTA_Bus",
+    "horizon": 14,
+    "arm": "sunday_day",
+    "refit": "2026-09-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "feature_count": 45,
+    "training_X_sha256": "5fad949aecfe625a7278d540dae73e53f44bd64976c1f9c22a59234f3d368acf",
+    "training_y_sha256": "eaf53045212347c380157990223b18f02fe44e62f90cd6f70db1df683821b85c",
+    "query_X_sha256": "88f638ce37312dd050329c90fa9f5eaca2618464888e323d9198b66e846b2210",
+    "training_n": 717,
+    "training_target_max": "2026-08-31",
+    "training_origin_max": "2026-08-18"
+  },
+  {
+    "state": "MTA_Bus",
+    "horizon": 14,
+    "arm": "sunday_day",
+    "refit": "2026-10-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "feature_count": 45,
+    "training_X_sha256": "78df88709ea03cef8cfc211391632ad5c9297a15b1701d9dd060a0b582ed4bdb",
+    "training_y_sha256": "4ad57dd434b138d9b05b81fb415a41b327479b599cf256f6a93a5708a3b2c4a1",
+    "query_X_sha256": "1bbca4b19c61dec5a4898de8addd8eaf8a3bd0a3c8a5680c6c7527d994af5a4d",
+    "training_n": 717,
+    "training_target_max": "2026-09-30",
+    "training_origin_max": "2026-09-17"
+  },
+  {
+    "state": "MTA_Bus",
+    "horizon": 14,
+    "arm": "replace_pooled",
+    "refit": "2026-09-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "feature_count": 45,
+    "training_X_sha256": "9fa014d753de0d26eead327ba44ffb76ac6617bf9e5ffac422f4f79c71d37616",
+    "training_y_sha256": "eaf53045212347c380157990223b18f02fe44e62f90cd6f70db1df683821b85c",
+    "query_X_sha256": "5e8f52591fd8fe7283efc3172975c2b67e3535cd1c74ceb411f6630eb8508660",
+    "training_n": 717,
+    "training_target_max": "2026-08-31",
+    "training_origin_max": "2026-08-18"
+  },
+  {
+    "state": "MTA_Bus",
+    "horizon": 14,
+    "arm": "replace_pooled",
+    "refit": "2026-10-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "feature_count": 45,
+    "training_X_sha256": "acf9a80568312813c75058ae9a33cace7aa1e17a8f1c306a6931c8415a04b0a7",
+    "training_y_sha256": "4ad57dd434b138d9b05b81fb415a41b327479b599cf256f6a93a5708a3b2c4a1",
+    "query_X_sha256": "1bbca4b19c61dec5a4898de8addd8eaf8a3bd0a3c8a5680c6c7527d994af5a4d",
+    "training_n": 717,
+    "training_target_max": "2026-09-30",
+    "training_origin_max": "2026-09-17"
+  },
+  {
+    "state": "MTA_Bus",
+    "horizon": 14,
+    "arm": "replace_typed",
+    "refit": "2026-09-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "feature_count": 45,
+    "training_X_sha256": "5a61a5e7311d1e25edd8b2ced7e45fd6d2b43721501686786bb4b6d500d38ac9",
+    "training_y_sha256": "eaf53045212347c380157990223b18f02fe44e62f90cd6f70db1df683821b85c",
+    "query_X_sha256": "d215ab5c8869c73fa4774ce3d70acb8e00a12d457e419d3e5f37974e8e9f8334",
+    "training_n": 717,
+    "training_target_max": "2026-08-31",
+    "training_origin_max": "2026-08-18"
+  },
+  {
+    "state": "MTA_Bus",
+    "horizon": 14,
+    "arm": "replace_typed",
+    "refit": "2026-10-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "feature_count": 45,
+    "training_X_sha256": "207c62cae79afeb5c4622793e0cde8e8e0bef6aebde9dcf429493c94f4cdd146",
+    "training_y_sha256": "4ad57dd434b138d9b05b81fb415a41b327479b599cf256f6a93a5708a3b2c4a1",
+    "query_X_sha256": "1bbca4b19c61dec5a4898de8addd8eaf8a3bd0a3c8a5680c6c7527d994af5a4d",
+    "training_n": 717,
+    "training_target_max": "2026-09-30",
+    "training_origin_max": "2026-09-17"
+  },
+  {
+    "state": "MTA_Bus",
+    "horizon": 21,
+    "arm": "calendar",
+    "refit": "2026-08-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "feature_count": 40,
+    "training_X_sha256": "a9de86f4d9af2a5ff7180556137021a6590b504c3a85111e094bede7f03048ca",
+    "training_y_sha256": "3750748f09351bf9c21dc6a03428778be0a2cace938149dc969c15042ced46d1",
+    "query_X_sha256": "6c6f05733d5df22411a4c645b375797c3a8166f1e12fe902c5b3fdbd5d95e047",
+    "training_n": 710,
+    "training_target_max": "2026-07-31",
+    "training_origin_max": "2026-07-11"
+  },
+  {
+    "state": "MTA_Bus",
+    "horizon": 21,
+    "arm": "calendar",
+    "refit": "2026-09-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "feature_count": 40,
+    "training_X_sha256": "524f4c39631defc809215390d1385d4e3772ba6bfec234fa7af036dd6de44d06",
+    "training_y_sha256": "e57415984f97f3280f2195b8622313de0b1f87e4ed08764d469f9fe50f1c22e0",
+    "query_X_sha256": "2d0a72dbb140fac7a8921f1768460eb42562fbf7bb0b76cd343894dce9b91f4f",
+    "training_n": 710,
+    "training_target_max": "2026-08-31",
+    "training_origin_max": "2026-08-11"
+  },
+  {
+    "state": "MTA_Bus",
+    "horizon": 21,
+    "arm": "day5",
+    "refit": "2026-08-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "feature_count": 45,
+    "training_X_sha256": "632675f5c7344d4f38ba76933530173013846efbc48f7a642daf6c39b35f039b",
+    "training_y_sha256": "3750748f09351bf9c21dc6a03428778be0a2cace938149dc969c15042ced46d1",
+    "query_X_sha256": "048f8df34103882867623fd5379d1b125fd266215a7e691f339e3c1521efca74",
+    "training_n": 710,
+    "training_target_max": "2026-07-31",
+    "training_origin_max": "2026-07-11"
+  },
+  {
+    "state": "MTA_Bus",
+    "horizon": 21,
+    "arm": "day5",
+    "refit": "2026-09-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "feature_count": 45,
+    "training_X_sha256": "b61acdf38f201a74afafe63941fb85a372e4f48d3fe9a364d641b76056505941",
+    "training_y_sha256": "e57415984f97f3280f2195b8622313de0b1f87e4ed08764d469f9fe50f1c22e0",
+    "query_X_sha256": "3df896094ae528f213d4ca34f6c745fa4ca56c635bafc4424b9eaf89cff40b68",
+    "training_n": 710,
+    "training_target_max": "2026-08-31",
+    "training_origin_max": "2026-08-11"
+  },
+  {
+    "state": "MTA_Bus",
+    "horizon": 21,
+    "arm": "pooled_day5",
+    "refit": "2026-08-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "feature_count": 45,
+    "training_X_sha256": "4afeb4c45286ecc584fdc8abf3e497cf1f7179b6b75e189d72503053d9655261",
+    "training_y_sha256": "3750748f09351bf9c21dc6a03428778be0a2cace938149dc969c15042ced46d1",
+    "query_X_sha256": "048f8df34103882867623fd5379d1b125fd266215a7e691f339e3c1521efca74",
+    "training_n": 710,
+    "training_target_max": "2026-07-31",
+    "training_origin_max": "2026-07-11"
+  },
+  {
+    "state": "MTA_Bus",
+    "horizon": 21,
+    "arm": "pooled_day5",
+    "refit": "2026-09-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "feature_count": 45,
+    "training_X_sha256": "945c9b620e98290beb6c29e6c1e94b4dc6b90ea4c60a747e4dc7e08f1cd64e28",
+    "training_y_sha256": "e57415984f97f3280f2195b8622313de0b1f87e4ed08764d469f9fe50f1c22e0",
+    "query_X_sha256": "5fe95d14a1e368a56b6812feeedbae299faa56d9ab8df5870144c5165b6f7d3d",
+    "training_n": 710,
+    "training_target_max": "2026-08-31",
+    "training_origin_max": "2026-08-11"
+  },
+  {
+    "state": "MTA_Bus",
+    "horizon": 21,
+    "arm": "sunday_day",
+    "refit": "2026-08-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "feature_count": 45,
+    "training_X_sha256": "c0ee2814e5be46f996e8f6d0ad22ce8f7d83e3d6b3394912c1ac4b5e05e8082a",
+    "training_y_sha256": "3750748f09351bf9c21dc6a03428778be0a2cace938149dc969c15042ced46d1",
+    "query_X_sha256": "048f8df34103882867623fd5379d1b125fd266215a7e691f339e3c1521efca74",
+    "training_n": 710,
+    "training_target_max": "2026-07-31",
+    "training_origin_max": "2026-07-11"
+  },
+  {
+    "state": "MTA_Bus",
+    "horizon": 21,
+    "arm": "sunday_day",
+    "refit": "2026-09-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "feature_count": 45,
+    "training_X_sha256": "1a633f24bb777eb8320800259ae63d0a06159c1dc3b3302989e7258448e92763",
+    "training_y_sha256": "e57415984f97f3280f2195b8622313de0b1f87e4ed08764d469f9fe50f1c22e0",
+    "query_X_sha256": "2f8e1bad80fe4e41cb559fb63e4f7f90d1f0f9d16edb0223a6e5c4348d8f4495",
+    "training_n": 710,
+    "training_target_max": "2026-08-31",
+    "training_origin_max": "2026-08-11"
+  },
+  {
+    "state": "MTA_Bus",
+    "horizon": 21,
+    "arm": "replace_pooled",
+    "refit": "2026-08-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "feature_count": 45,
+    "training_X_sha256": "6539c31ce5554a378ddf8831a5ed74f8534cc95b280373bc1150f693ef9c5c97",
+    "training_y_sha256": "3750748f09351bf9c21dc6a03428778be0a2cace938149dc969c15042ced46d1",
+    "query_X_sha256": "048f8df34103882867623fd5379d1b125fd266215a7e691f339e3c1521efca74",
+    "training_n": 710,
+    "training_target_max": "2026-07-31",
+    "training_origin_max": "2026-07-11"
+  },
+  {
+    "state": "MTA_Bus",
+    "horizon": 21,
+    "arm": "replace_pooled",
+    "refit": "2026-09-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "feature_count": 45,
+    "training_X_sha256": "475e05135f513dfb2e49a69e9d42390852f9a65ae7fe5a753501bd747df304e3",
+    "training_y_sha256": "e57415984f97f3280f2195b8622313de0b1f87e4ed08764d469f9fe50f1c22e0",
+    "query_X_sha256": "16931962fc1d5a411184a9639561b24de993090c1e2c1f29257dac1ed1278207",
+    "training_n": 710,
+    "training_target_max": "2026-08-31",
+    "training_origin_max": "2026-08-11"
+  },
+  {
+    "state": "MTA_Bus",
+    "horizon": 21,
+    "arm": "replace_typed",
+    "refit": "2026-08-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "feature_count": 45,
+    "training_X_sha256": "0306810e09c0cecf34bcf0c5ba8011f8bffc69da5d4f57704af58924701b1f55",
+    "training_y_sha256": "3750748f09351bf9c21dc6a03428778be0a2cace938149dc969c15042ced46d1",
+    "query_X_sha256": "048f8df34103882867623fd5379d1b125fd266215a7e691f339e3c1521efca74",
+    "training_n": 710,
+    "training_target_max": "2026-07-31",
+    "training_origin_max": "2026-07-11"
+  },
+  {
+    "state": "MTA_Bus",
+    "horizon": 21,
+    "arm": "replace_typed",
+    "refit": "2026-09-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "feature_count": 45,
+    "training_X_sha256": "3133e02dc56ad071d0dbf10a83b48b89de50fa0d67197cb3d3f36b7fb4a9e07c",
+    "training_y_sha256": "e57415984f97f3280f2195b8622313de0b1f87e4ed08764d469f9fe50f1c22e0",
+    "query_X_sha256": "195705e9c9a02fc75078700f7d0e580abfa458ae8d3d54099b5e869f1e07b47e",
+    "training_n": 710,
+    "training_target_max": "2026-08-31",
+    "training_origin_max": "2026-08-11"
+  },
+  {
+    "state": "MTA_Subway",
+    "horizon": 8,
+    "arm": "calendar",
+    "refit": "2026-09-01",
+    "parameters": {
+      "alpha": 10.0
+    },
+    "feature_count": 40,
+    "training_X_sha256": "58b85ea3f36af3378351ef704b247cdf89fec4f4d05457700423c9b338f99719",
+    "training_y_sha256": "b429fcfe22b366df41ed5e8bb75d1103ac593c030eea8073d676899c760ca242",
+    "query_X_sha256": "b6ded7e707f3ca7589cbe0d52e3db744cc44344df250bbbfc9a1781fc9e580ef",
+    "training_n": 723,
+    "training_target_max": "2026-08-31",
+    "training_origin_max": "2026-08-24"
+  },
+  {
+    "state": "MTA_Subway",
+    "horizon": 8,
+    "arm": "calendar",
+    "refit": "2026-10-01",
+    "parameters": {
+      "alpha": 10.0
+    },
+    "feature_count": 40,
+    "training_X_sha256": "6b0d765441ed8db13f0f438fe0f5bf842f5d6e7605bd01bd532e2bc1c1c321ab",
+    "training_y_sha256": "17d133051e8918681a8b53347158c42989a3ffb70fc9ecda0826f029e35b7c7c",
+    "query_X_sha256": "397849f5274dc53a09c4f8c016edc83d87a2f04bd73e81aa57d4ba75e2b77f32",
+    "training_n": 723,
+    "training_target_max": "2026-09-30",
+    "training_origin_max": "2026-09-23"
+  },
+  {
+    "state": "MTA_Subway",
+    "horizon": 8,
+    "arm": "day5",
+    "refit": "2026-09-01",
+    "parameters": {
+      "alpha": 10.0
+    },
+    "feature_count": 45,
+    "training_X_sha256": "15c0a87165a5b3e45284773e387566e68ff44dfd3ce612b8ae4d5c43e9fa4026",
+    "training_y_sha256": "b429fcfe22b366df41ed5e8bb75d1103ac593c030eea8073d676899c760ca242",
+    "query_X_sha256": "49b33e82b50f4a4342c15ab0017fc8434771a2bc1b1cf9ddd3ab1a66331eea05",
+    "training_n": 723,
+    "training_target_max": "2026-08-31",
+    "training_origin_max": "2026-08-24"
+  },
+  {
+    "state": "MTA_Subway",
+    "horizon": 8,
+    "arm": "day5",
+    "refit": "2026-10-01",
+    "parameters": {
+      "alpha": 10.0
+    },
+    "feature_count": 45,
+    "training_X_sha256": "8071558f5d5fdafe665962794638e52b680635bd5796e99569912e14d93f714d",
+    "training_y_sha256": "17d133051e8918681a8b53347158c42989a3ffb70fc9ecda0826f029e35b7c7c",
+    "query_X_sha256": "b1bae818dc61f5f8d94f932ce5829c33450a18e6ebc6927b7261c5a6f3895609",
+    "training_n": 723,
+    "training_target_max": "2026-09-30",
+    "training_origin_max": "2026-09-23"
+  },
+  {
+    "state": "MTA_Subway",
+    "horizon": 8,
+    "arm": "pooled_day5",
+    "refit": "2026-09-01",
+    "parameters": {
+      "alpha": 10.0
+    },
+    "feature_count": 45,
+    "training_X_sha256": "080be4327dc361c96838fe180a0caf1e6e679fe6bc29806005d069bbcc9599a0",
+    "training_y_sha256": "b429fcfe22b366df41ed5e8bb75d1103ac593c030eea8073d676899c760ca242",
+    "query_X_sha256": "ed0138a0b481fec5804718a6b02a2d844fe0bb8fdfff2233f0a66203dacf2db0",
+    "training_n": 723,
+    "training_target_max": "2026-08-31",
+    "training_origin_max": "2026-08-24"
+  },
+  {
+    "state": "MTA_Subway",
+    "horizon": 8,
+    "arm": "pooled_day5",
+    "refit": "2026-10-01",
+    "parameters": {
+      "alpha": 10.0
+    },
+    "feature_count": 45,
+    "training_X_sha256": "74198fff1ca8ecfb2c4257706c51ec13ca3566bf0ebaa64640e78e18735fb896",
+    "training_y_sha256": "17d133051e8918681a8b53347158c42989a3ffb70fc9ecda0826f029e35b7c7c",
+    "query_X_sha256": "d68dbb65505089b9b32ab9a0b2767e3a0985a258c860aa947ba57ac9b4e2b101",
+    "training_n": 723,
+    "training_target_max": "2026-09-30",
+    "training_origin_max": "2026-09-23"
+  },
+  {
+    "state": "MTA_Subway",
+    "horizon": 8,
+    "arm": "sunday_day",
+    "refit": "2026-09-01",
+    "parameters": {
+      "alpha": 10.0
+    },
+    "feature_count": 45,
+    "training_X_sha256": "2934588d7bc91c3a8f62d672d9fbb13fea9ca6fe8a01437ab95c1670f579476f",
+    "training_y_sha256": "b429fcfe22b366df41ed5e8bb75d1103ac593c030eea8073d676899c760ca242",
+    "query_X_sha256": "0d529306a65470022c49f3e4d7d50c06aba25cb42e3cb0cf6f048b5c916c3461",
+    "training_n": 723,
+    "training_target_max": "2026-08-31",
+    "training_origin_max": "2026-08-24"
+  },
+  {
+    "state": "MTA_Subway",
+    "horizon": 8,
+    "arm": "sunday_day",
+    "refit": "2026-10-01",
+    "parameters": {
+      "alpha": 10.0
+    },
+    "feature_count": 45,
+    "training_X_sha256": "34f8a5c961c1b869b438256779716c70eaaaed3dca5115fefbb1844f02f5c140",
+    "training_y_sha256": "17d133051e8918681a8b53347158c42989a3ffb70fc9ecda0826f029e35b7c7c",
+    "query_X_sha256": "cd6d19bb079b05bd1da38684d6b781abab1bf6c10f8c28081d98e452363af6c4",
+    "training_n": 723,
+    "training_target_max": "2026-09-30",
+    "training_origin_max": "2026-09-23"
+  },
+  {
+    "state": "MTA_Subway",
+    "horizon": 8,
+    "arm": "replace_pooled",
+    "refit": "2026-09-01",
+    "parameters": {
+      "alpha": 10.0
+    },
+    "feature_count": 45,
+    "training_X_sha256": "280c0d02d1a98655b3a40c1c271f569d7cbf2782a838220029aa5b831c97d62b",
+    "training_y_sha256": "b429fcfe22b366df41ed5e8bb75d1103ac593c030eea8073d676899c760ca242",
+    "query_X_sha256": "ed9e03ac3b73f9129a75b1dafcefccfd34def4d396ea14c067875ba942e39ebc",
+    "training_n": 723,
+    "training_target_max": "2026-08-31",
+    "training_origin_max": "2026-08-24"
+  },
+  {
+    "state": "MTA_Subway",
+    "horizon": 8,
+    "arm": "replace_pooled",
+    "refit": "2026-10-01",
+    "parameters": {
+      "alpha": 10.0
+    },
+    "feature_count": 45,
+    "training_X_sha256": "4de0733afc3261223fc084ad76973e559244e051873b7e7fe77ffdfa75778be3",
+    "training_y_sha256": "17d133051e8918681a8b53347158c42989a3ffb70fc9ecda0826f029e35b7c7c",
+    "query_X_sha256": "d766edc414bd4b565f24814d79f3e8018d2c46cffda5975d815f86f1810576e0",
+    "training_n": 723,
+    "training_target_max": "2026-09-30",
+    "training_origin_max": "2026-09-23"
+  },
+  {
+    "state": "MTA_Subway",
+    "horizon": 8,
+    "arm": "replace_typed",
+    "refit": "2026-09-01",
+    "parameters": {
+      "alpha": 10.0
+    },
+    "feature_count": 45,
+    "training_X_sha256": "ec0ff8b27c0a5c9833cdf65f2ab188a67b1ad0cf5769de36af771c4ecbcfe364",
+    "training_y_sha256": "b429fcfe22b366df41ed5e8bb75d1103ac593c030eea8073d676899c760ca242",
+    "query_X_sha256": "326347e81d642b4a164a8a5c95d901b6fe1d7255a0ffade506e5e6ec80fa061e",
+    "training_n": 723,
+    "training_target_max": "2026-08-31",
+    "training_origin_max": "2026-08-24"
+  },
+  {
+    "state": "MTA_Subway",
+    "horizon": 8,
+    "arm": "replace_typed",
+    "refit": "2026-10-01",
+    "parameters": {
+      "alpha": 10.0
+    },
+    "feature_count": 45,
+    "training_X_sha256": "e63175e71a43ce54b406c082cb2c5d323254c44a9f56d63abdbd470dae676372",
+    "training_y_sha256": "17d133051e8918681a8b53347158c42989a3ffb70fc9ecda0826f029e35b7c7c",
+    "query_X_sha256": "d5c79734fccf828904fcc16fedfb7e592c9d0775cf7f452bd55d2b62be3f42e6",
+    "training_n": 723,
+    "training_target_max": "2026-09-30",
+    "training_origin_max": "2026-09-23"
+  },
+  {
+    "state": "MTA_Subway",
+    "horizon": 14,
+    "arm": "calendar",
+    "refit": "2026-09-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "feature_count": 40,
+    "training_X_sha256": "aa11f6ad846c3c1e8faf04067ea1fb702b5427ea9b0026a7fcc874c5d96f6590",
+    "training_y_sha256": "f4411076057e7d954260cda11fca3dde2228a77fd73bf9d16f64b4f033fb7c5e",
+    "query_X_sha256": "9f774ad98719cb9cabca62536306a3c73c68738a9f8fb5e57b7f66fa4b35d7b6",
+    "training_n": 717,
+    "training_target_max": "2026-08-31",
+    "training_origin_max": "2026-08-18"
+  },
+  {
+    "state": "MTA_Subway",
+    "horizon": 14,
+    "arm": "calendar",
+    "refit": "2026-10-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "feature_count": 40,
+    "training_X_sha256": "7e2f509d211fbdfc00bc34362ea4a978061401f88bae8861bebccf75e7dcf85c",
+    "training_y_sha256": "88fcf16fb29b4e055bfb553e93e8d637675645523781a644844fd6f66babd4b1",
+    "query_X_sha256": "d887c526564b476eb9da48bbd906bc38ee3684440ac08f8c02c8837fdd726740",
+    "training_n": 717,
+    "training_target_max": "2026-09-30",
+    "training_origin_max": "2026-09-17"
+  },
+  {
+    "state": "MTA_Subway",
+    "horizon": 14,
+    "arm": "day5",
+    "refit": "2026-09-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "feature_count": 45,
+    "training_X_sha256": "db3d056d77ab9eb2a5ca3451d5e3a8941da4b4054ad32f5966cb1df1f8851880",
+    "training_y_sha256": "f4411076057e7d954260cda11fca3dde2228a77fd73bf9d16f64b4f033fb7c5e",
+    "query_X_sha256": "3324f837bd333782ee86722f700aa83dafc9a3ca7ab9caf68d9ccd9769f30c3d",
+    "training_n": 717,
+    "training_target_max": "2026-08-31",
+    "training_origin_max": "2026-08-18"
+  },
+  {
+    "state": "MTA_Subway",
+    "horizon": 14,
+    "arm": "day5",
+    "refit": "2026-10-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "feature_count": 45,
+    "training_X_sha256": "497cee590d4d41044bef695fe4102f6bd7f9bd5e53cd33b7fb9e8324258eb168",
+    "training_y_sha256": "88fcf16fb29b4e055bfb553e93e8d637675645523781a644844fd6f66babd4b1",
+    "query_X_sha256": "4eb17620814918d17eab6a40ece101c4d1aed4aad04770ffff96e675075c7483",
+    "training_n": 717,
+    "training_target_max": "2026-09-30",
+    "training_origin_max": "2026-09-17"
+  },
+  {
+    "state": "MTA_Subway",
+    "horizon": 14,
+    "arm": "pooled_day5",
+    "refit": "2026-09-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "feature_count": 45,
+    "training_X_sha256": "95473eb328fb2984b97a2ffc45adfebe2ba9e988a28bc33257a2d1044be8c076",
+    "training_y_sha256": "f4411076057e7d954260cda11fca3dde2228a77fd73bf9d16f64b4f033fb7c5e",
+    "query_X_sha256": "d2caf8482260f640e6a90654eb7dce29c31ff8c27fac0cb37364bdc9702310ee",
+    "training_n": 717,
+    "training_target_max": "2026-08-31",
+    "training_origin_max": "2026-08-18"
+  },
+  {
+    "state": "MTA_Subway",
+    "horizon": 14,
+    "arm": "pooled_day5",
+    "refit": "2026-10-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "feature_count": 45,
+    "training_X_sha256": "a9af97c8141abe782574415f047ac8bf1b0af7c8773b858d4626d2f0148bdb31",
+    "training_y_sha256": "88fcf16fb29b4e055bfb553e93e8d637675645523781a644844fd6f66babd4b1",
+    "query_X_sha256": "4eb17620814918d17eab6a40ece101c4d1aed4aad04770ffff96e675075c7483",
+    "training_n": 717,
+    "training_target_max": "2026-09-30",
+    "training_origin_max": "2026-09-17"
+  },
+  {
+    "state": "MTA_Subway",
+    "horizon": 14,
+    "arm": "sunday_day",
+    "refit": "2026-09-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "feature_count": 45,
+    "training_X_sha256": "6a900e8c529a63ca83498ce9a0d5f16b545b903a0a610930619771b880efeaef",
+    "training_y_sha256": "f4411076057e7d954260cda11fca3dde2228a77fd73bf9d16f64b4f033fb7c5e",
+    "query_X_sha256": "d00f97ee9780b438d41e9359d53dd3018b4b7c06de98b25596325ee5f16dd8f9",
+    "training_n": 717,
+    "training_target_max": "2026-08-31",
+    "training_origin_max": "2026-08-18"
+  },
+  {
+    "state": "MTA_Subway",
+    "horizon": 14,
+    "arm": "sunday_day",
+    "refit": "2026-10-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "feature_count": 45,
+    "training_X_sha256": "95b4ad4e9b0250012eebcab860826ab3b9fd37540ca17926c3aac9d7e6162f8d",
+    "training_y_sha256": "88fcf16fb29b4e055bfb553e93e8d637675645523781a644844fd6f66babd4b1",
+    "query_X_sha256": "4eb17620814918d17eab6a40ece101c4d1aed4aad04770ffff96e675075c7483",
+    "training_n": 717,
+    "training_target_max": "2026-09-30",
+    "training_origin_max": "2026-09-17"
+  },
+  {
+    "state": "MTA_Subway",
+    "horizon": 14,
+    "arm": "replace_pooled",
+    "refit": "2026-09-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "feature_count": 45,
+    "training_X_sha256": "ea0c6f1e5a0fc0b99dd91773a607f615321441e09ba9894d994f1dc8a992123c",
+    "training_y_sha256": "f4411076057e7d954260cda11fca3dde2228a77fd73bf9d16f64b4f033fb7c5e",
+    "query_X_sha256": "57069e5973067d87439ca54ad0166f1a9eb1c964fce9745b242e3eb1e7e88a13",
+    "training_n": 717,
+    "training_target_max": "2026-08-31",
+    "training_origin_max": "2026-08-18"
+  },
+  {
+    "state": "MTA_Subway",
+    "horizon": 14,
+    "arm": "replace_pooled",
+    "refit": "2026-10-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "feature_count": 45,
+    "training_X_sha256": "c07456671f47f67e9c190bf706bc94ed754013a3fbad8ab9577bfd31d149c71a",
+    "training_y_sha256": "88fcf16fb29b4e055bfb553e93e8d637675645523781a644844fd6f66babd4b1",
+    "query_X_sha256": "4eb17620814918d17eab6a40ece101c4d1aed4aad04770ffff96e675075c7483",
+    "training_n": 717,
+    "training_target_max": "2026-09-30",
+    "training_origin_max": "2026-09-17"
+  },
+  {
+    "state": "MTA_Subway",
+    "horizon": 14,
+    "arm": "replace_typed",
+    "refit": "2026-09-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "feature_count": 45,
+    "training_X_sha256": "f16ba6442217c94012bfb97df97e60d149937ef56bc95924f3cda547be1889f6",
+    "training_y_sha256": "f4411076057e7d954260cda11fca3dde2228a77fd73bf9d16f64b4f033fb7c5e",
+    "query_X_sha256": "5d4f3c896e006f7d482d75319d5ea0a1214eea19c4871c1afe5b1218befc5b39",
+    "training_n": 717,
+    "training_target_max": "2026-08-31",
+    "training_origin_max": "2026-08-18"
+  },
+  {
+    "state": "MTA_Subway",
+    "horizon": 14,
+    "arm": "replace_typed",
+    "refit": "2026-10-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "feature_count": 45,
+    "training_X_sha256": "d24941277d665e8b0214c1b2700aec548bc79b54cf2d1c31c55e754006c27ac8",
+    "training_y_sha256": "88fcf16fb29b4e055bfb553e93e8d637675645523781a644844fd6f66babd4b1",
+    "query_X_sha256": "4eb17620814918d17eab6a40ece101c4d1aed4aad04770ffff96e675075c7483",
+    "training_n": 717,
+    "training_target_max": "2026-09-30",
+    "training_origin_max": "2026-09-17"
+  },
+  {
+    "state": "MTA_Subway",
+    "horizon": 21,
+    "arm": "calendar",
+    "refit": "2026-08-01",
+    "parameters": {
+      "alpha": 0.1
+    },
+    "feature_count": 40,
+    "training_X_sha256": "85d0cec0dc5a6a9eb8cad39336b1b9c85dc44fb7bec4fb270bde7982c202edd4",
+    "training_y_sha256": "5109dd9c37ed6cc932366d7ed254a08b9aa84c61ed6359083ba3192c5ea0ec0f",
+    "query_X_sha256": "f22ae9451c21698b52a78ad8f2a182eb7a4c6cc2ce57915252c17ef6bb3bd949",
+    "training_n": 710,
+    "training_target_max": "2026-07-31",
+    "training_origin_max": "2026-07-11"
+  },
+  {
+    "state": "MTA_Subway",
+    "horizon": 21,
+    "arm": "calendar",
+    "refit": "2026-09-01",
+    "parameters": {
+      "alpha": 0.1
+    },
+    "feature_count": 40,
+    "training_X_sha256": "1903c69ed6f30ab17c9369dbf487398f4386fe1575f0d0d00002499d980c4534",
+    "training_y_sha256": "0eef62a5fb5067534c4542befbedecaaa41f375ec343bdadce1ad214dd16d2e3",
+    "query_X_sha256": "249363b613171873cd70dbf328c1249000d9a0091fd7a74a222bcb61507d4ecd",
+    "training_n": 710,
+    "training_target_max": "2026-08-31",
+    "training_origin_max": "2026-08-11"
+  },
+  {
+    "state": "MTA_Subway",
+    "horizon": 21,
+    "arm": "day5",
+    "refit": "2026-08-01",
+    "parameters": {
+      "alpha": 0.1
+    },
+    "feature_count": 45,
+    "training_X_sha256": "d9ea536723a78b94ebdf6ed71152e1356a10979d105b6e31bb802b94b27f5755",
+    "training_y_sha256": "5109dd9c37ed6cc932366d7ed254a08b9aa84c61ed6359083ba3192c5ea0ec0f",
+    "query_X_sha256": "1997f43675fb0cfab9dee47843e86463f45acf48801360002c8320c9dbd5152e",
+    "training_n": 710,
+    "training_target_max": "2026-07-31",
+    "training_origin_max": "2026-07-11"
+  },
+  {
+    "state": "MTA_Subway",
+    "horizon": 21,
+    "arm": "day5",
+    "refit": "2026-09-01",
+    "parameters": {
+      "alpha": 0.1
+    },
+    "feature_count": 45,
+    "training_X_sha256": "ef75c600c9b9d6b31d9dfc637faf9ae55aa89fa752502085306428baf84237a2",
+    "training_y_sha256": "0eef62a5fb5067534c4542befbedecaaa41f375ec343bdadce1ad214dd16d2e3",
+    "query_X_sha256": "bbe7a18e6e7661ca21d0c85e99470b442ae6741542beab4b6b6ffadfcacbc019",
+    "training_n": 710,
+    "training_target_max": "2026-08-31",
+    "training_origin_max": "2026-08-11"
+  },
+  {
+    "state": "MTA_Subway",
+    "horizon": 21,
+    "arm": "pooled_day5",
+    "refit": "2026-08-01",
+    "parameters": {
+      "alpha": 0.1
+    },
+    "feature_count": 45,
+    "training_X_sha256": "4c9585ca66800a55a5022208d396c2ba056b4f50db38c45f475b47875d5c2856",
+    "training_y_sha256": "5109dd9c37ed6cc932366d7ed254a08b9aa84c61ed6359083ba3192c5ea0ec0f",
+    "query_X_sha256": "1997f43675fb0cfab9dee47843e86463f45acf48801360002c8320c9dbd5152e",
+    "training_n": 710,
+    "training_target_max": "2026-07-31",
+    "training_origin_max": "2026-07-11"
+  },
+  {
+    "state": "MTA_Subway",
+    "horizon": 21,
+    "arm": "pooled_day5",
+    "refit": "2026-09-01",
+    "parameters": {
+      "alpha": 0.1
+    },
+    "feature_count": 45,
+    "training_X_sha256": "54ed5c2159ecae33055275916f7d104132ad3ce4add2d50df56af38b825cd792",
+    "training_y_sha256": "0eef62a5fb5067534c4542befbedecaaa41f375ec343bdadce1ad214dd16d2e3",
+    "query_X_sha256": "7f42507dc3bc6243f4c95e06a5e99150fedb1c9bbbe95db34b991623d442918f",
+    "training_n": 710,
+    "training_target_max": "2026-08-31",
+    "training_origin_max": "2026-08-11"
+  },
+  {
+    "state": "MTA_Subway",
+    "horizon": 21,
+    "arm": "sunday_day",
+    "refit": "2026-08-01",
+    "parameters": {
+      "alpha": 0.1
+    },
+    "feature_count": 45,
+    "training_X_sha256": "d315c8b57b95b90d83acf7308ad4ecb826cb412ee9f247d36a5a58b881372f55",
+    "training_y_sha256": "5109dd9c37ed6cc932366d7ed254a08b9aa84c61ed6359083ba3192c5ea0ec0f",
+    "query_X_sha256": "1997f43675fb0cfab9dee47843e86463f45acf48801360002c8320c9dbd5152e",
+    "training_n": 710,
+    "training_target_max": "2026-07-31",
+    "training_origin_max": "2026-07-11"
+  },
+  {
+    "state": "MTA_Subway",
+    "horizon": 21,
+    "arm": "sunday_day",
+    "refit": "2026-09-01",
+    "parameters": {
+      "alpha": 0.1
+    },
+    "feature_count": 45,
+    "training_X_sha256": "cdfbefc6a65e5c6b6d1d19e29d5d9c1b3f28eda203edc9ab6cc68184a0aca7cc",
+    "training_y_sha256": "0eef62a5fb5067534c4542befbedecaaa41f375ec343bdadce1ad214dd16d2e3",
+    "query_X_sha256": "a5b63b9c645c9681276251248c859e9e56e489a165881f1cd16fccf2a0b6f9c6",
+    "training_n": 710,
+    "training_target_max": "2026-08-31",
+    "training_origin_max": "2026-08-11"
+  },
+  {
+    "state": "MTA_Subway",
+    "horizon": 21,
+    "arm": "replace_pooled",
+    "refit": "2026-08-01",
+    "parameters": {
+      "alpha": 0.1
+    },
+    "feature_count": 45,
+    "training_X_sha256": "c5d84c3bd3df716a4b599e533ef93a4d6f6d9a9c1aefa2783bbd5aecf88e1b71",
+    "training_y_sha256": "5109dd9c37ed6cc932366d7ed254a08b9aa84c61ed6359083ba3192c5ea0ec0f",
+    "query_X_sha256": "1997f43675fb0cfab9dee47843e86463f45acf48801360002c8320c9dbd5152e",
+    "training_n": 710,
+    "training_target_max": "2026-07-31",
+    "training_origin_max": "2026-07-11"
+  },
+  {
+    "state": "MTA_Subway",
+    "horizon": 21,
+    "arm": "replace_pooled",
+    "refit": "2026-09-01",
+    "parameters": {
+      "alpha": 0.1
+    },
+    "feature_count": 45,
+    "training_X_sha256": "c1ffc26d922ef1c10e32e8cc164b4d1988ac0dcf0ada9628e08b881d832961f8",
+    "training_y_sha256": "0eef62a5fb5067534c4542befbedecaaa41f375ec343bdadce1ad214dd16d2e3",
+    "query_X_sha256": "8f58da13d3006128feaf54ce819206a18f9083cb9a89cd7f6dc24131afdfefb6",
+    "training_n": 710,
+    "training_target_max": "2026-08-31",
+    "training_origin_max": "2026-08-11"
+  },
+  {
+    "state": "MTA_Subway",
+    "horizon": 21,
+    "arm": "replace_typed",
+    "refit": "2026-08-01",
+    "parameters": {
+      "alpha": 0.1
+    },
+    "feature_count": 45,
+    "training_X_sha256": "5faae183a5693d6c55f14281b764c1ee95ec78e40a966d2615c4a86ac93da37f",
+    "training_y_sha256": "5109dd9c37ed6cc932366d7ed254a08b9aa84c61ed6359083ba3192c5ea0ec0f",
+    "query_X_sha256": "1997f43675fb0cfab9dee47843e86463f45acf48801360002c8320c9dbd5152e",
+    "training_n": 710,
+    "training_target_max": "2026-07-31",
+    "training_origin_max": "2026-07-11"
+  },
+  {
+    "state": "MTA_Subway",
+    "horizon": 21,
+    "arm": "replace_typed",
+    "refit": "2026-09-01",
+    "parameters": {
+      "alpha": 0.1
+    },
+    "feature_count": 45,
+    "training_X_sha256": "7f299669ac4bfb9b44d00057bb95c62771fd6b9ce788367662f1997fce4a9c69",
+    "training_y_sha256": "0eef62a5fb5067534c4542befbedecaaa41f375ec343bdadce1ad214dd16d2e3",
+    "query_X_sha256": "b82dd49ef52ebce362fbbe252a9730c514494cc04afab18318b1a629c3731dc7",
+    "training_n": 710,
+    "training_target_max": "2026-08-31",
+    "training_origin_max": "2026-08-11"
+  }
+]

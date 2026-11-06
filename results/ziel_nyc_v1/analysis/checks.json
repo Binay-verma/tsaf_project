@@ -1,0 +1,14 @@
+{
+  "event_window": {
+    "reference_predictions_match": true,
+    "reference_max_abs_diff": 0.0,
+    "stored_balanced_MASE_max_abs_diff": 2.220446049250313e-16,
+    "rows": 2016
+  },
+  "ordinary": {
+    "reference_predictions_match": true,
+    "reference_max_abs_diff": 0.0,
+    "stored_balanced_MASE_max_abs_diff": 1.1102230246251565e-16,
+    "rows": 1008
+  }
+}

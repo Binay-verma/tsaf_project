@@ -1,0 +1,91 @@
+{
+  "event_window": {
+    "labels": {
+      "replace_pooled - calendar": {
+        "consistent": 5,
+        "negligible": 1,
+        "unstable": 6
+      },
+      "replace_pooled - pooled_day5": {
+        "consistent": 5,
+        "negligible": 2,
+        "unstable": 5
+      },
+      "replace_typed - calendar": {
+        "consistent": 4,
+        "negligible": 0,
+        "unstable": 8
+      },
+      "replace_typed - day5": {
+        "consistent": 8,
+        "negligible": 0,
+        "unstable": 4
+      },
+      "replace_typed - replace_pooled": {
+        "consistent": 6,
+        "negligible": 3,
+        "unstable": 3
+      },
+      "sunday_day - calendar": {
+        "consistent": 6,
+        "negligible": 0,
+        "unstable": 6
+      },
+      "sunday_day - pooled_day5": {
+        "consistent": 4,
+        "negligible": 1,
+        "unstable": 7
+      }
+    }
+  },
+  "ordinary": {
+    "labels": {
+      "replace_pooled - calendar": {
+        "consistent": 9,
+        "negligible": 0,
+        "unstable": 3
+      },
+      "replace_pooled - pooled_day5": {
+        "consistent": 6,
+        "negligible": 1,
+        "unstable": 5
+      },
+      "replace_typed - calendar": {
+        "consistent": 8,
+        "negligible": 0,
+        "unstable": 4
+      },
+      "replace_typed - day5": {
+        "consistent": 7,
+        "negligible": 1,
+        "unstable": 4
+      },
+      "replace_typed - replace_pooled": {
+        "consistent": 9,
+        "negligible": 3,
+        "unstable": 0
+      },
+      "sunday_day - calendar": {
+        "consistent": 10,
+        "negligible": 0,
+        "unstable": 2
+      },
+      "sunday_day - pooled_day5": {
+        "consistent": 5,
+        "negligible": 3,
+        "unstable": 4
+      }
+    }
+  },
+  "created_utc": "2026-11-06T20:47:10.562819+00:00",
+  "inputs": {
+    "event_window/ridge": "78e16102c4df1eb65cbff090f888114a6ab62272246c342f007f617bf900717b",
+    "event_window/lightgbm": "1cec4516f6239a6c1059e157945ca7030654b403ba78b9349b7f6cf2a351dce4",
+    "event_window/lightgbm_capacity2": "90235bba685bc4b4e068427046551c5dd094dd25e59dfe3dfda5746e59e1387a",
+    "event_window/sarimax": "c8ea0810ed3356bc37950c270bd020a61fd46222b3f1cca8febae7a72db68b9b",
+    "ordinary/ridge": "a3c2f09b54629b03f48a6cf19a9360dd49dc1ac60269ffdb1d64e4abbfdc730f",
+    "ordinary/lightgbm": "9a8d1d837a5332644dbd113970972c40d3660f61f1929599376f5700ec96ffd8",
+    "ordinary/lightgbm_capacity2": "eff66be4e78b5f978bbfd7b1ba4d27f548d9b4f372e7d2440796c40676e9f83f",
+    "ordinary/sarimax": "b31c0cbaeb0062c778ad3f05a8447db18eaff0f3f2ea034451ca619d7be35aea"
+  }
+}
