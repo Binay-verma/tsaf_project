@@ -1,0 +1,10 @@
+{
+  "created_utc": "2026-11-06T20:40:31.999895+00:00",
+  "author": "Binay Verma",
+  "protocols": {
+    "event_window": "0ad6964184e9e14a5d1d203045ce93a5cf4d35b0641064ece9d589d76dc6ceaa",
+    "ordinary": "b11ff2079009411426d564e1ce48930cc4e96728798723c2ab7085425b21004f"
+  },
+  "new_rows": 14880,
+  "statement": "Protocol fixed before any replace_pooled or replace_typed forecast was produced. Commit before running any worker."
+}
