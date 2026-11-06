@@ -1,0 +1,10 @@
+{
+  "created_utc": "2026-11-06T20:35:49.041507+00:00",
+  "author": "Binay Verma",
+  "protocols": {
+    "event_window": "ffb1b7de5190958e13e88596204a90ca3ecabcc5538595f25b7005f84ffced76",
+    "ordinary": "4488a8b6ea3929d23e22b25a71d7f8e05e9733f169fb68a381f8aa74eb12512b"
+  },
+  "new_rows": 11904,
+  "statement": "Protocol fixed before any sunday_day forecast was produced. Commit this registration before running any worker."
+}
