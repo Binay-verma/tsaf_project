@@ -1,0 +1,51 @@
+{
+  "event_window": {
+    "labels": {
+      "sunday_day - calendar": {
+        "consistent": 12,
+        "negligible": 0,
+        "unstable": 0
+      },
+      "sunday_day - day5": {
+        "consistent": 6,
+        "negligible": 4,
+        "unstable": 2
+      },
+      "sunday_day - pooled_day5": {
+        "consistent": 2,
+        "negligible": 8,
+        "unstable": 2
+      }
+    }
+  },
+  "ordinary": {
+    "labels": {
+      "sunday_day - calendar": {
+        "consistent": 6,
+        "negligible": 3,
+        "unstable": 3
+      },
+      "sunday_day - day5": {
+        "consistent": 4,
+        "negligible": 5,
+        "unstable": 3
+      },
+      "sunday_day - pooled_day5": {
+        "consistent": 3,
+        "negligible": 7,
+        "unstable": 2
+      }
+    }
+  },
+  "created_utc": "2026-11-06T20:40:50.837175+00:00",
+  "inputs": {
+    "event_window/ridge": "eeb0a1f4692ab727559a972f1411388d457caf7b66cb89cf61bbc0eeb7137d91",
+    "event_window/lightgbm": "1754579212a3b821f357cc88f0acc7638dfe0e4b5fef39b04ec0e8b484293977",
+    "event_window/lightgbm_capacity2": "31288fd549ccf7a67135b7d421e0ec71b576334025e2a3b30635887fdaed2a81",
+    "event_window/sarimax": "46757c9ec6e7aa03de570642631eddf594948b8ad4b06b810a0d711cecf716c2",
+    "ordinary/ridge": "0bdad60c6c33edc3c05073e6c7a4c19ab9dac90680238b400c72373b37ca5f00",
+    "ordinary/lightgbm": "d9799bb8747cb66c92bf9b6a77132e8f3e4efe35d1669578a35aa02cd375b1c7",
+    "ordinary/lightgbm_capacity2": "0e36509b529406d31bc44791e746ff262a9f69391c9045ae58c27718353940f0",
+    "ordinary/sarimax": "030c19da067a1c5890e22de7f4f2f609a7ba24673edc88e177c7f76882173bbe"
+  }
+}

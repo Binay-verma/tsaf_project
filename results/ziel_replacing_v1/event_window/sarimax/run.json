@@ -1,0 +1,16 @@
+{
+  "model": "sarimax",
+  "completed_utc": "2026-11-06T20:37:36.318312+00:00",
+  "fit_attempts": 26,
+  "rows": 2112,
+  "cases_per_arm": 528,
+  "arms": [
+    "calendar",
+    "day5",
+    "pooled_day5",
+    "sunday_day"
+  ],
+  "seconds": 58.70718375800004,
+  "predictions_sha256": "46757c9ec6e7aa03de570642631eddf594948b8ad4b06b810a0d711cecf716c2",
+  "protocol_sha256": "ffb1b7de5190958e13e88596204a90ca3ecabcc5538595f25b7005f84ffced76"
+}

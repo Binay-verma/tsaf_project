@@ -1,0 +1,29 @@
+{
+  "check": "C3 metadata-only probe for the Singapore replication draft",
+  "checked_utc": "2026-11-06T20:50:00Z",
+  "author": "Binay Verma",
+  "demand_values_viewed": false,
+  "criteria_from_draft_protocol": [
+    "at least 730 complete days before the first 2024 origin",
+    "explicit open terms permitting redistribution of derived files"
+  ],
+  "findings": {
+    "ema_half_hourly_page": {
+      "url": "https://ema.gov.sg/resources/statistics/half-hourly-system-demand-data",
+      "result": "Page served as an unrendered template (year/month selectors are placeholders; 'no records to display'). History start NOT visible. Download formats listed as PDF and XLSX. Page 'Last Updated 02 Nov 2026'.",
+      "history_criterion": "not verified"
+    },
+    "ema_terms_of_use": {
+      "url": "https://ema.gov.sg/terms-of-use",
+      "result": "Section 'Terms of Use of Datasets' grants Singapore Open Data Licence v1.0 for 'any data ... offered for use under the terms of this Licence'. Section 6 forbids commercial reproduction of website materials without permission. Page last updated 03 Nov 2023. Whether the half-hourly statistics page is a licensed dataset is not stated.",
+      "terms_criterion": "not verified"
+    },
+    "data_gov_sg_alternatives": {
+      "d_926d3e304c0b41e56d4cbd3304acf105": "Peak System Demand, 2005 to Jul 2021: monthly, ends 2021; does not meet the daily-target or history requirement",
+      "d_64530b45dd5c5dd6d7950e84874da8be": "Average monthly household consumption by region; not a system-demand series",
+      "d_90009364978a4acd3132be18b4d23be2": "dataset not found"
+    }
+  },
+  "decision": "C3 NOT PASSED (inconclusive). The Singapore protocol stays an unregistered draft. No EMA or MOM file was acquired. Generalisation beyond India and NYC remains an open limitation.",
+  "what_would_resolve_it": "A human opens the EMA page in a browser, records the earliest selectable year, and asks EMA (or checks the downloaded file's licence notice) whether the series is offered under the Singapore Open Data Licence. Only after both criteria pass may the protocol be pushed and calendars acquired."
+}
