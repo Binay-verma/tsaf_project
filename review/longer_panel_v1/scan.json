@@ -1,0 +1,58 @@
+{
+ "created_utc": "2026-11-07T05:34:55.151072+00:00",
+ "states": [
+  "Delhi",
+  "Karnataka",
+  "Maharashtra"
+ ],
+ "event_years": [
+  2016,
+  2017,
+  2018,
+  2019,
+  2020,
+  2021,
+  2022,
+  2023,
+  2024,
+  2025
+ ],
+ "new_calendar_years": [
+  2014,
+  2015,
+  2016,
+  2017,
+  2018,
+  2019,
+  2020,
+  2021
+ ],
+ "family_scope": {
+  "Delhi": [
+   "Diwali",
+   "Dussehra",
+   "Holi"
+  ],
+  "Karnataka": [
+   "Diwali",
+   "Dussehra",
+   "Ganesh_Chaturthi",
+   "Ugadi_Gudi_Padwa"
+  ],
+  "Maharashtra": [
+   "Diwali",
+   "Dussehra",
+   "Ganesh_Chaturthi",
+   "Holi",
+   "Ugadi_Gudi_Padwa"
+  ]
+ },
+ "template_rows": 120,
+ "worst_year_2014_2025_bad_days": 8,
+ "year_2013_bad_days": {
+  "Delhi": 98,
+  "Karnataka": 98,
+  "Maharashtra": 98
+ },
+ "note": "Event years 2016-2025 (10 years). 2013 is incomplete and is used only as context before 2015, so 2015 is not an event year. COVID years 2020-2021 are to be pre-declared as a sensitivity. Calendar rows must be filled from official state notifications and checked by a person; machine-found candidates are marked in candidate_source and never used unchecked."
+}
