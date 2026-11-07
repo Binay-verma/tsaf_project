@@ -1,0 +1,35 @@
+{
+  "India": {
+    "cells": 36,
+    "combine_below_both": 10,
+    "combine_below_worse": 36,
+    "mean_combine_regret": 0.0032006874180541297,
+    "max_combine_regret": 0.021914651885737157,
+    "mean_abs_typed_minus_pooled": 0.01891657000334339,
+    "holm_detected_vs_typed": 0,
+    "holm_detected_vs_pooled": 0,
+    "india_2025": {
+      "cells": 36,
+      "follow_picked_worse": 19,
+      "mean_follow_regret": 0.01132526058342758,
+      "mean_combine_regret": 0.008399737728550077,
+      "combine_beats_follow": 21
+    }
+  },
+  "NYC": {
+    "cells": 12,
+    "combine_below_both": 2,
+    "combine_below_worse": 12,
+    "mean_combine_regret": 0.0016623708602258591,
+    "max_combine_regret": 0.0756817292555707,
+    "mean_abs_typed_minus_pooled": 0.0827493758253796,
+    "holm_detected_vs_typed": 0,
+    "holm_detected_vs_pooled": 0
+  },
+  "created_utc": "2026-11-07T05:00:09.091769+00:00",
+  "outputs": {
+    "india_2025_decision_rules.csv": "05f0ea6f6537ef3926d402a55302692233eddfcaf7ad6104b0c58419389d1870",
+    "india_combination.csv": "592e69f11896eae26ce363a5d13e1295425cc7d1d0063ec62b9d3454fd237389",
+    "nyc_combination.csv": "7bca139c88d57b62198d99a0220c3795dd22e793527dee3900c8cdcf9d849a01"
+  }
+}
