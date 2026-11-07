@@ -1,0 +1,33 @@
+state,column,missing_days,mean_GWh,first,last,usable,already_in_study
+Maharashtra,Maharashtra: EnergyMet,1,514.2,2013-01-02,2026-10-28,True,True
+UP,UP: EnergyMet,1,391.6,2013-01-02,2026-10-28,True,False
+Gujarat,Gujarat: EnergyMet,1,383.4,2013-01-02,2026-10-28,True,False
+Tamil Nadu,Tamil Nadu: EnergyMet,1,325.7,2013-01-02,2026-10-28,True,False
+Rajasthan,Rajasthan: EnergyMet,1,272.8,2013-01-02,2026-10-28,True,False
+MP,MP: EnergyMet,1,255.0,2013-01-02,2026-10-28,True,False
+Karnataka,Karnataka: EnergyMet,1,226.8,2013-01-02,2026-10-28,True,True
+Telangana,Telangana: EnergyMet,1,215.5,2013-01-02,2026-10-28,True,False
+Andhra Pradesh,Andhra Pradesh: EnergyMet,1,200.1,2013-01-02,2026-10-28,True,False
+Punjab,Punjab: EnergyMet,1,187.8,2013-01-02,2026-10-28,True,False
+Haryana,Haryana: EnergyMet,1,168.3,2013-01-02,2026-10-28,True,False
+West Bengal,West Bengal: EnergyMet,1,166.9,2013-01-02,2026-10-28,True,False
+Bihar,Bihar: EnergyMet,1,108.6,2013-01-02,2026-10-28,True,False
+Odisha,Odisha: EnergyMet,1,106.6,2013-01-02,2026-10-28,True,False
+Chhattisgarh,Chhattisgarh: EnergyMet,1,102.0,2013-01-02,2026-10-28,True,False
+Delhi,Delhi: EnergyMet,1,93.8,2013-01-02,2026-10-28,True,True
+Kerala,Kerala: EnergyMet,1,78.4,2013-01-02,2026-10-28,True,False
+J&K(UT) & Ladakh(UT),J&K(UT) & Ladakh(UT): EnergyMet,1,52.2,2013-01-02,2026-10-28,True,False
+Uttarakhand,Uttarakhand: EnergyMet,1,41.7,2013-01-02,2026-10-28,False,False
+Jharkhand,Jharkhand: EnergyMet,1,32.7,2013-01-02,2026-10-28,False,False
+HP,HP: EnergyMet,1,32.2,2013-01-02,2026-10-28,False,False
+Assam,Assam: EnergyMet,1,32.1,2013-01-02,2026-10-28,False,False
+Goa,Goa: EnergyMet,2,12.8,2013-01-02,2026-10-28,False,False
+Puducherry,Puducherry: EnergyMet,1,8.7,2013-01-02,2026-10-28,False,False
+Meghalaya,Meghalaya: EnergyMet,1,5.8,2013-01-02,2026-10-28,False,False
+Chandigarh,Chandigarh: EnergyMet,1,4.8,2013-01-02,2026-10-28,False,False
+Tripura,Tripura: EnergyMet,1,4.7,2013-01-02,2026-10-28,False,False
+Manipur,Manipur: EnergyMet,1,2.8,2013-01-02,2026-10-28,False,False
+Arunachal Pradesh,Arunachal Pradesh: EnergyMet,1,2.6,2013-01-02,2026-10-28,False,False
+Nagaland,Nagaland: EnergyMet,1,2.5,2013-01-02,2026-10-28,False,False
+Mizoram,Mizoram: EnergyMet,1,1.8,2013-01-02,2026-10-28,False,False
+Sikkim,Sikkim: EnergyMet,1,1.5,2013-01-02,2026-10-28,False,False

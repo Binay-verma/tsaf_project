@@ -1,0 +1,27 @@
+{
+ "created_utc": "2026-11-07T04:57:48.454608+00:00",
+ "source": "data/external/POSOCO_data.csv",
+ "window": [
+  "2020-01-01",
+  "2025-12-31"
+ ],
+ "rule": "usable = at most 7 missing or non-positive days in the window and mean >= 50 GWh/day",
+ "usable_new_states": [
+  "UP",
+  "Gujarat",
+  "Tamil Nadu",
+  "Rajasthan",
+  "MP",
+  "Telangana",
+  "Andhra Pradesh",
+  "Punjab",
+  "Haryana",
+  "West Bengal",
+  "Bihar",
+  "Odisha",
+  "Chhattisgarh",
+  "Kerala",
+  "J&K(UT) & Ladakh(UT)"
+ ],
+ "demand_values_inspected": "means and missing counts only"
+}
