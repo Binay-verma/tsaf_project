@@ -1,0 +1,29 @@
+{
+  "created_utc": "2026-11-07T04:54:40.988435+00:00",
+  "T1": {
+    "cells": 36,
+    "raw_below_005": 3,
+    "holm_detected": 0,
+    "min_raw_p": 0.005859375
+  },
+  "T2": {
+    "cells": 36,
+    "raw_below_005": 0,
+    "holm_detected": 0,
+    "min_raw_p": 0.0625
+  },
+  "T3": {
+    "cells": 36,
+    "raw_below_005": 0,
+    "holm_detected": 0,
+    "min_raw_p": 0.125
+  },
+  "t_interval_excludes_zero": {
+    "India": 3,
+    "NYC": 11
+  },
+  "outputs": {
+    "india_cluster_tests.csv": "12294135c6a9f11a301dcd358dd0932b852b8f098e84657fcc6768b215f2b6f0",
+    "nyc_cluster_tests.csv": "8e7cb5d28ff02c843b28cbf441c623c94e6b4ed8645228464d4c18455280d3d6"
+  }
+}
