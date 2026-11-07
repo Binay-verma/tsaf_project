@@ -1,0 +1,23 @@
+{
+  "experiment": "cluster_inference_v1",
+  "created_utc": "2026-11-07T04:54:39.361324+00:00",
+  "author": "Binay Verma",
+  "status": "Registered before any p-value or interval was computed. The cluster values themselves were already reported descriptively (signs, ranges), so this is a pre-specified secondary analysis, not a confirmation.",
+  "question": "Are the typed-minus-pooled event MASE differences distinguishable from zero, and from year to year, once clusters are the unit?",
+  "tests": {
+    "T1": "India: exact sign-flip on 10 family-year cluster differences per model/representation/lead (36 cells).",
+    "T2": "India: exact sign-flip on 5 family-level (2025 - 2024) differences per cell (year interaction).",
+    "T3": "NYC: exact sign-flip on 4 family-mode cell differences per model/representation/decision lead (36 cells)."
+  },
+  "statistic": "mean of cluster values; two-sided; ties counted with tolerance 1e-12",
+  "multiplicity": "Holm across the 36 cells within each of T1, T2, T3; alpha 0.05",
+  "secondary": "95% cluster-mean t interval (df = clusters - 1), descriptive only",
+  "interpretation": "A cell is called \"detected\" only if its Holm-adjusted p < 0.05. Otherwise \"not detected\", which is not evidence of no difference. Minimum attainable two-sided p: T1 2/1024, T2 2/32, T3 2/16 (T2 and T3 cannot reach 0.05 after Holm; this is reported as a power limit).",
+  "assumptions": "Clusters exchangeable in sign under H0. Family-year clusters in the same year share conditions and the NYC modes are related, so the tests are approximate; no p-value here is a confirmation.",
+  "input_hashes": {
+    "review/journal_seven_tasks_20261031_v1/B_family_year_clusters.csv": "075925503cfccbd67d61639b412538d232f90763854e289c6042dddb3c5a068b",
+    "review/journal_seven_tasks_20261031_v1/D_nyc_cells.csv": "90b748ef0b706c250c1aa18a5b66aedb4ca9dd244f8f855c5a599ddedc33546f",
+    "src/cluster_inference_v1.py": "b1920d31527c6b0d52dc542301288d05af82ec0b22e2d9329418e7372692c260",
+    "src/test_cluster_inference_v1.py": "99384c5df7bb32c4bde5b5c4bd445bcd1d401ab2ccef2778f8712ae995a57ed2"
+  }
+}
