@@ -1,0 +1,22 @@
+{
+  "experiment": "representation_combination_v1",
+  "created_utc": "2026-11-07T05:00:07.613440+00:00",
+  "author": "Binay Verma",
+  "status": "Exploratory secondary analysis of already-reported forecasts; registered before any combined forecast or decision-rule metric was computed.",
+  "rules": [
+    "typed",
+    "pooled",
+    "combine (equal-weight mean of typed and pooled point forecasts)",
+    "follow_2024 (India 2025 only)",
+    "oracle (hindsight bound)"
+  ],
+  "metrics": "balanced event MASE; regret versus oracle; counts of cells; sign-flip on 10 India family-year clusters / 4 NYC family-mode cells with Holm across 36 cells",
+  "interpretation": "Descriptive. \"Combination helps\" may be said only of cells where combine is below both single representations; no claim of general superiority.",
+  "input_hashes": {
+    "results/calendar_recenter_recovery_v1/analysis/breadth/event_window/predictions_compared.csv": "86772d0ae3af36bf9268e5441d689fd2f07a56514e905a1097e0ea00f6d95d81",
+    "results/mta_holiday_recovery_v1/analysis/event_window/predictions_compared.csv": "ef0ba9c4797f500a945363cd08c98d4fca0bc49e181c597cb2a1c33529379f22",
+    "src/representation_combination_v1.py": "733103c7405cee0eec5409e4800f33cadf483fc087a955361da777b4600b0bb1",
+    "src/cluster_inference_v1.py": "b1920d31527c6b0d52dc542301288d05af82ec0b22e2d9329418e7372692c260",
+    "src/test_representation_combination_v1.py": "7a67214fbef6e358c223c63fe4421cd801585c46e65177f2edad7440e0d0c6c0"
+  }
+}
