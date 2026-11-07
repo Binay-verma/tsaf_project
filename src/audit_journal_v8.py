@@ -30,7 +30,7 @@ def tables(md):
 
 t8 = tables(V8)
 v7_rows = set(l for l in V7.splitlines() if l.startswith('|'))
-new_tables = {'Table 3', 'Table 6', 'Table A11'}
+new_tables = {'Table 3', 'Table 6', 'Table A11', 'Table A12'}
 for label, body in t8.items():
     if label in new_tables:
         continue
@@ -170,6 +170,39 @@ for B, tag in [(BI, 'i'), (BN, 'n')]:
     computed |= {f'{mean(reg):.4f}', f'{mean(bound):.4f}', str(below)}
     assert all(B['combine'][k] <= max(B['typed'][k], B['pooled'][k])+1e-12 for k in B['typed'])
 
+# ---- post hoc descriptive numbers and the controls table ----
+from math import comb as _comb
+from statistics import median
+computed |= {f'{36*2/1024:.3f}', f'{12*min(p1[k] for k in keys if k[2] == 1):.3f}', f'{36*0.05:.1f}'}
+computed |= {f"{mean(abs(B25['typed'][k]-B25['pooled'][k])/2 for k in follow):.4f}", f'{median(follow.values()):.4f}',
+             f'{median(creg.values()):.4f}', f'{max(follow.values()):.3f}', f'{max(creg.values()):.3f}'}
+computed |= {f'{min(1, 2*sum(_comb(36, j) for j in range(max(beats, 36-beats), 37))/2**36):.2f}'}
+for B in (BI, BN):
+    for col in ['typed', 'pooled', 'combine']:
+        reg = [B[col][k]-min(B['typed'][k], B['pooled'][k]) for k in B['typed']]
+        computed |= {f'{mean(reg):.4f}', f'{max(reg):.4f}'}
+MET = {}
+for path, ver, h in [('results/calendar_recenter_recovery_v1/analysis/breadth/event_window/metrics_balanced.csv', 'document_aligned', '1'),
+                     ('results/mta_holiday_recovery_v1/analysis/event_window/metrics_balanced.csv', None, '8')]:
+    for r in csv.DictReader(open(ROOT/path)):
+        if (ver is None or r.get('version') == ver) and r['horizon'] == h:
+            MET[('India' if ver else 'NYC', r['model'], r['arm'])] = f"{float(r['MASE']):.5f}"
+ARM = ['history', 'calendar', 'zero5', 'placebo_day5', 'day5', 'pooled_day5']
+NM = dict(NAMES, **{'Last value': 'last', 'Seasonal naive': 'seasonal'})
+for row in rows('Table A12'):
+    for arm, cell in zip(ARM, row[2:]):
+        checked += 1
+        want = MET.get((row[0], NM[row[1]], arm), '–')
+        if cell != want:
+            problems.append(('Table A12', row[:2], arm, cell, want))
+# claim: India zero/placebo within 0.005 of calendar for local specifications; day flags lower Ridge/SARIMAX by > 0.1
+for m in ['ridge', 'sarimax', 'lightgbm', 'lightgbm_capacity2']:
+    c = float(MET[('India', m, 'calendar')])
+    assert all(abs(float(MET[('India', m, a)])-c) < 0.005 for a in ['zero5', 'placebo_day5']), m
+for m in ['ridge', 'sarimax']:
+    c = float(MET[('India', m, 'calendar')])
+    assert all(c-float(MET[('India', m, a)]) > 0.1 for a in ['day5', 'pooled_day5']), m
+
 # ---- number provenance in prose ----
 prose = []
 for line in V8.split('## References')[0].splitlines():
@@ -182,6 +215,15 @@ for line in V8.split('## References')[0].splitlines():
 text = '\n'.join(prose)
 text = re.sub(r'(?m)^#+ [\d.]+ ', '# ', text)          # section numbers in headings
 text = text.replace('follow-2024', 'follow-rule')     # rule label, not a number
+text = text.replace('lead-14 window cell', 'last window cell')
+# verify the TimesFM-3 India/NYC direction sentence
+_bs = {(r['model'], r['representation'], int(r['lead'])): float(r['balanced']) for r in csv.DictReader(open(ROOT/'review/journal_seven_tasks_20261031_v1/B_cluster_summary.csv'))}
+_nd = defaultdict(list)
+for r in csv.DictReader(open(ROOT/'review/journal_seven_tasks_20261031_v1/D_nyc_cells.csv')):
+    _nd[(r['model'], r['representation'], int(r['model_step'])-7)].append(float(r['typed_minus_pooled']))
+_pairs = [(_bs[('timesfm', rp, h)], mean(_nd[('timesfm', rp, h)])) for rp in ['day', 'window'] for h in [1, 7, 14]]
+assert all(i*n < 0 for i, n in _pairs)
+assert sum(i > 0 and n < 0 for i, n in _pairs) == 5 and _bs[('timesfm', 'window', 14)] < 0 < mean(_nd[('timesfm', 'window', 14)])
 # values traced to other committed sources, each checked against that source
 proto = json.loads((ROOT/'results/cluster_inference_v1/protocol.json').read_text())
 assert '2/1024' in proto['interpretation'] and '2/32' in proto['interpretation'] and '2/16' in proto['interpretation'] and 'alpha 0.05' in proto['multiplicity']

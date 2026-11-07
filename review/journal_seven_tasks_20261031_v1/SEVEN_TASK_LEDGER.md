@@ -7,6 +7,18 @@ Branch `journal-seven-tasks-20261031`; the commits were later pushed by the auth
 
 > **Correction (31 Oct 2026, later the same day).** The first version of this ledger counted exact ties as sign disagreements. The corrected counts are 19/36 opposite year signs plus 1 tie (not 20), and 11/36 opposite India–NYC signs plus 3 ties (not 14 implied). See `tie_correction_v2.json`; the original outputs are preserved.
 
+## 00000. Fifth pass — 7 November 2026 (day)
+
+| Item | What was done | Evidence | Note |
+| --- | --- | --- | --- |
+| Cluster statistics | Registered exact sign-flip tests on family-year clusters, Holm-adjusted | `results/cluster_inference_v1` | T1 could not reach 0.05 after Holm by construction (`NOTE_RESOLUTION.md`); raw p reported instead |
+| Decision rules (new) | Equal-weight average of typed and pooled vs following the 2024 winner, on stored forecasts | `results/representation_combination_v2` (v1 kept; its NYC filter dropped the local models, `NOTE_NYC_FILTER.md`) | Exploratory; follow rule no better than a random pick; average has the smallest worst-case regret; mean advantage not distinguishable |
+| Foundation-model Ziel study | Registered; Colab runbook | `results/ziel_foundation_v1`, `docs/reproduction/ZIEL_FOUNDATION_COLAB.md` | Author runs it |
+| State expansion | Data scan, draft protocol, 200-row calendar template | `review/state_expansion_v1` | Not registered until calendars are entered and checked |
+| Journal draft v8 | IJF-style structure, 5 figures, controls table, cover-letter draft | `manuscript/journal_v8`, `recomputation_v8_audit.json` (492 items, pass) | Revised after an internal AI referee check; generative-AI, funding, competing-interest and affiliation fields left for the author |
+
+**Correction to v6/v7 text.** The sentence "TimesFM-3 favours pooling in India and separate identities in NYC in all 6 of its cells" is wrong for one cell: in the lead-14 window cell India favours typed (−0.0208) and NYC pooled (+0.0185). The signs differ in all 6 cells, as the v6/v7 abstracts say, but the direction is reversed in that cell. v6 and v7 are left unchanged; v8 states it correctly.
+
 ## 0000. Fourth pass — 7 November 2026 (overnight)
 
 | Task | What was done | Evidence | Still open |

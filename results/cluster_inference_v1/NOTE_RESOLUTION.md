@@ -1,0 +1,3 @@
+# Note: the India test (T1) could not reach 0.05 after Holm adjustment
+
+Recorded 7 November 2026, after the analysis was written. The registered protocol says the minimum attainable p is 2/1024 for T1 and that T2 and T3 cannot reach 0.05 after Holm. It failed to note the same for T1: with Holm over 36 cells the smallest attainable adjusted p is 36 × 2/1024 = 0.070. The "0 detected after Holm" result for T1 is therefore uninformative by design, not evidence about the data. The raw p-values (3 of 36 below 0.05, against 1.8 expected if every null were true) and the sign consistency across clusters are the informative outputs. The registered outputs are unchanged; manuscript v8 reports this limitation. Found by an internal fresh-eyes check, not by an independent reviewer.

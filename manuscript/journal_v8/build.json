@@ -1,5 +1,5 @@
 {
- "created_utc": "2026-11-07T05:06:19.561708+00:00",
+ "created_utc": "2026-11-07T05:16:46.027957+00:00",
  "status": "Journal-format draft v8 for supervisor review; not submitted; not independently reviewed.",
  "base": {
   "manuscript/integrated_review_v7/MANUSCRIPT.md": "139afd9a7649d69204a1e10a320a6513806bd484813302c94e63faeff9834941"
@@ -30,9 +30,9 @@
   "Table A8",
   "Table A9"
  ],
- "words_main_text": 4244,
+ "words_main_text": 5008,
  "outputs": {
-  "MANUSCRIPT.md": "29f3bd9b9860981bc6a12652e808d1a03e7cf53954cb6b1850d4a43123971cd0",
-  "Typed_or_Pooled_Binay_Verma_v8.docx": "17664f6de2fbfeb42aa75e9bf8de57d3b772ae660db2ad2daeadfd3702d2be05"
+  "MANUSCRIPT.md": "569a8c13353b51d2a11e5d2d82a6e8702d20b8a877f0b1b4702e305af71af410",
+  "Typed_or_Pooled_Binay_Verma_v8.docx": "73fb8b2598fd15ee493375a18a2648814302759dcef9bd0b3509138955f8e954"
  }
 }
