@@ -1,0 +1,38 @@
+{
+ "created_utc": "2026-11-07T05:06:19.561708+00:00",
+ "status": "Journal-format draft v8 for supervisor review; not submitted; not independently reviewed.",
+ "base": {
+  "manuscript/integrated_review_v7/MANUSCRIPT.md": "139afd9a7649d69204a1e10a320a6513806bd484813302c94e63faeff9834941"
+ },
+ "new_inputs": {
+  "results/cluster_inference_v1/analysis/india_cluster_tests.csv": "12294135c6a9f11a301dcd358dd0932b852b8f098e84657fcc6768b215f2b6f0",
+  "results/cluster_inference_v1/analysis/nyc_cluster_tests.csv": "8e7cb5d28ff02c843b28cbf441c623c94e6b4ed8645228464d4c18455280d3d6",
+  "results/cluster_inference_v1/analysis/summary.json": "64e1c561d69a384a21682e0858a07ff0fe150527ddb0b4790dbcc3510c567f91",
+  "results/representation_combination_v2/analysis/india_2025_decision_rules.csv": "05f0ea6f6537ef3926d402a55302692233eddfcaf7ad6104b0c58419389d1870",
+  "results/representation_combination_v2/analysis/india_combination.csv": "592e69f11896eae26ce363a5d13e1295425cc7d1d0063ec62b9d3454fd237389",
+  "results/representation_combination_v2/analysis/nyc_combination.csv": "92ae473700f1dd7d9b448785fb30a75d169a51ebdadeb2e6616d24836e5b21d8",
+  "results/representation_combination_v2/analysis/summary.json": "0768fd39a35012d9345ef5c813208257d9ad43eb4a9ede43b331b3523c25acd7"
+ },
+ "v7_tables_copied": [
+  "Table 1",
+  "Table 2",
+  "Table A6",
+  "Table 4",
+  "Table 6",
+  "Table A1",
+  "Table A2",
+  "Table A3",
+  "Table A4",
+  "Table A5",
+  "Table 3",
+  "Table 5",
+  "Table A7",
+  "Table A8",
+  "Table A9"
+ ],
+ "words_main_text": 4244,
+ "outputs": {
+  "MANUSCRIPT.md": "29f3bd9b9860981bc6a12652e808d1a03e7cf53954cb6b1850d4a43123971cd0",
+  "Typed_or_Pooled_Binay_Verma_v8.docx": "17664f6de2fbfeb42aa75e9bf8de57d3b772ae660db2ad2daeadfd3702d2be05"
+ }
+}
