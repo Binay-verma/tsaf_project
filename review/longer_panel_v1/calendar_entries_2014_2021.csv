@@ -1,16 +1,16 @@
 state,year,family,role,date,label_in_document,not_listed_this_year,document_title,issuing_authority,document_url,page,quoted_line,candidate_source,entered_by,checked_by,check_date,notes
-Delhi,2014,Diwali,annual_as_issued_anchor,,,,,,,,,,,,,
-Delhi,2014,Dussehra,annual_as_issued_anchor,,,,,,,,,,,,,
-Delhi,2014,Holi,annual_as_issued_anchor,,,,,,,,,,,,,
-Delhi,2014,Diwali,regional_subsidiary,,,,,,,,,,,,,Only if the state notice lists a second Diwali-related holiday (e.g. Balipratipada / Diwali Padwa)
+Delhi,2014,Diwali,annual_as_issued_anchor,,,,,,,,,https://www.india.gov.in/sites/upload_files/npi/files/govt_holiday_list_14.pdf,,,,"SOURCE NOTE: CENTRAL government offices in Delhi, not GNCTD - use only if no GNCTD order is found, and say so"
+Delhi,2014,Dussehra,annual_as_issued_anchor,,,,,,,,,https://www.india.gov.in/sites/upload_files/npi/files/govt_holiday_list_14.pdf,,,,"SOURCE NOTE: CENTRAL government offices in Delhi, not GNCTD - use only if no GNCTD order is found, and say so"
+Delhi,2014,Holi,annual_as_issued_anchor,,,,,,,,,https://www.india.gov.in/sites/upload_files/npi/files/govt_holiday_list_14.pdf,,,,"SOURCE NOTE: CENTRAL government offices in Delhi, not GNCTD - use only if no GNCTD order is found, and say so"
+Delhi,2014,Diwali,regional_subsidiary,,,,,,,,,https://www.india.gov.in/sites/upload_files/npi/files/govt_holiday_list_14.pdf,,,,"Only if the state notice lists a second Diwali-related holiday (e.g. Balipratipada / Diwali Padwa) | SOURCE NOTE: CENTRAL government offices in Delhi, not GNCTD - use only if no GNCTD order is found, and say so"
 Delhi,2015,Diwali,annual_as_issued_anchor,,,,,,,,,,,,,
 Delhi,2015,Dussehra,annual_as_issued_anchor,,,,,,,,,,,,,
 Delhi,2015,Holi,annual_as_issued_anchor,,,,,,,,,,,,,
 Delhi,2015,Diwali,regional_subsidiary,,,,,,,,,,,,,Only if the state notice lists a second Diwali-related holiday (e.g. Balipratipada / Diwali Padwa)
-Delhi,2016,Diwali,annual_as_issued_anchor,,,,,,,,,,,,,
-Delhi,2016,Dussehra,annual_as_issued_anchor,,,,,,,,,,,,,
-Delhi,2016,Holi,annual_as_issued_anchor,,,,,,,,,,,,,
-Delhi,2016,Diwali,regional_subsidiary,,,,,,,,,,,,,Only if the state notice lists a second Diwali-related holiday (e.g. Balipratipada / Diwali Padwa)
+Delhi,2016,Diwali,annual_as_issued_anchor,,,,,,,,,https://nationalarchives.nic.in/sites/default/files/2023-07/holiday-list-2016-english_0.pdf,,,,SOURCE NOTE: CENTRAL government list - same caveat as 2014
+Delhi,2016,Dussehra,annual_as_issued_anchor,,,,,,,,,https://nationalarchives.nic.in/sites/default/files/2023-07/holiday-list-2016-english_0.pdf,,,,SOURCE NOTE: CENTRAL government list - same caveat as 2014
+Delhi,2016,Holi,annual_as_issued_anchor,,,,,,,,,https://nationalarchives.nic.in/sites/default/files/2023-07/holiday-list-2016-english_0.pdf,,,,SOURCE NOTE: CENTRAL government list - same caveat as 2014
+Delhi,2016,Diwali,regional_subsidiary,,,,,,,,,https://nationalarchives.nic.in/sites/default/files/2023-07/holiday-list-2016-english_0.pdf,,,,Only if the state notice lists a second Diwali-related holiday (e.g. Balipratipada / Diwali Padwa) | SOURCE NOTE: CENTRAL government list - same caveat as 2014
 Delhi,2017,Diwali,annual_as_issued_anchor,,,,,,,,,,,,,
 Delhi,2017,Dussehra,annual_as_issued_anchor,,,,,,,,,,,,,
 Delhi,2017,Holi,annual_as_issued_anchor,,,,,,,,,,,,,
@@ -19,23 +19,23 @@ Delhi,2018,Diwali,annual_as_issued_anchor,,,,,,,,,,,,,
 Delhi,2018,Dussehra,annual_as_issued_anchor,,,,,,,,,,,,,
 Delhi,2018,Holi,annual_as_issued_anchor,,,,,,,,,,,,,
 Delhi,2018,Diwali,regional_subsidiary,,,,,,,,,,,,,Only if the state notice lists a second Diwali-related holiday (e.g. Balipratipada / Diwali Padwa)
-Delhi,2019,Diwali,annual_as_issued_anchor,,,,,,,,,,,,,
-Delhi,2019,Dussehra,annual_as_issued_anchor,,,,,,,,,,,,,
-Delhi,2019,Holi,annual_as_issued_anchor,,,,,,,,,,,,,
-Delhi,2019,Diwali,regional_subsidiary,,,,,,,,,,,,,Only if the state notice lists a second Diwali-related holiday (e.g. Balipratipada / Diwali Padwa)
-Delhi,2020,Diwali,annual_as_issued_anchor,,,,,,,,,,,,,
-Delhi,2020,Dussehra,annual_as_issued_anchor,,,,,,,,,,,,,
-Delhi,2020,Holi,annual_as_issued_anchor,,,,,,,,,,,,,
-Delhi,2020,Diwali,regional_subsidiary,,,,,,,,,,,,,Only if the state notice lists a second Diwali-related holiday (e.g. Balipratipada / Diwali Padwa)
-Delhi,2021,Diwali,annual_as_issued_anchor,,,,,,,,,,,,,
-Delhi,2021,Dussehra,annual_as_issued_anchor,,,,,,,,,,,,,
-Delhi,2021,Holi,annual_as_issued_anchor,,,,,,,,,,,,,
-Delhi,2021,Diwali,regional_subsidiary,,,,,,,,,,,,,Only if the state notice lists a second Diwali-related holiday (e.g. Balipratipada / Diwali Padwa)
-Karnataka,2014,Diwali,annual_as_issued_anchor,,,,,,,,,,,,,
-Karnataka,2014,Dussehra,annual_as_issued_anchor,,,,,,,,,,,,,
-Karnataka,2014,Ganesh_Chaturthi,annual_as_issued_anchor,,,,,,,,,,,,,
-Karnataka,2014,Ugadi_Gudi_Padwa,annual_as_issued_anchor,,,,,,,,,,,,,
-Karnataka,2014,Diwali,regional_subsidiary,,,,,,,,,,,,,Only if the state notice lists a second Diwali-related holiday (e.g. Balipratipada / Diwali Padwa)
+Delhi,2019,Diwali,annual_as_issued_anchor,,,,,,,,,https://dtc.delhi.gov.in/sites/default/files/DTC/circulars-orders/cir20193425_1_0.pdf,,,,SOURCE NOTE: Delhi government (DTC) circular; check it reproduces the GNCTD holiday order
+Delhi,2019,Dussehra,annual_as_issued_anchor,,,,,,,,,https://dtc.delhi.gov.in/sites/default/files/DTC/circulars-orders/cir20193425_1_0.pdf,,,,SOURCE NOTE: Delhi government (DTC) circular; check it reproduces the GNCTD holiday order
+Delhi,2019,Holi,annual_as_issued_anchor,,,,,,,,,https://dtc.delhi.gov.in/sites/default/files/DTC/circulars-orders/cir20193425_1_0.pdf,,,,SOURCE NOTE: Delhi government (DTC) circular; check it reproduces the GNCTD holiday order
+Delhi,2019,Diwali,regional_subsidiary,,,,,,,,,https://dtc.delhi.gov.in/sites/default/files/DTC/circulars-orders/cir20193425_1_0.pdf,,,,Only if the state notice lists a second Diwali-related holiday (e.g. Balipratipada / Diwali Padwa) | SOURCE NOTE: Delhi government (DTC) circular; check it reproduces the GNCTD holiday order
+Delhi,2020,Diwali,annual_as_issued_anchor,,,,,,,,,https://www.gconnect.in/?p=28510,,,,SOURCE NOTE: repost; check GNCTD order number/date
+Delhi,2020,Dussehra,annual_as_issued_anchor,,,,,,,,,https://www.gconnect.in/?p=28510,,,,SOURCE NOTE: repost; check GNCTD order number/date
+Delhi,2020,Holi,annual_as_issued_anchor,,,,,,,,,https://www.gconnect.in/?p=28510,,,,SOURCE NOTE: repost; check GNCTD order number/date
+Delhi,2020,Diwali,regional_subsidiary,,,,,,,,,https://www.gconnect.in/?p=28510,,,,Only if the state notice lists a second Diwali-related holiday (e.g. Balipratipada / Diwali Padwa) | SOURCE NOTE: repost; check GNCTD order number/date
+Delhi,2021,Diwali,annual_as_issued_anchor,,,,,,,,,https://www.staffnews.in/2020/11/holidays-list-2021-all-government-offices-under-govt-of-national-capital-territory-of-delhi-notification.html,,,,SOURCE NOTE: repost of the GNCTD notification; check order number/date
+Delhi,2021,Dussehra,annual_as_issued_anchor,,,,,,,,,https://www.staffnews.in/2020/11/holidays-list-2021-all-government-offices-under-govt-of-national-capital-territory-of-delhi-notification.html,,,,SOURCE NOTE: repost of the GNCTD notification; check order number/date
+Delhi,2021,Holi,annual_as_issued_anchor,,,,,,,,,https://www.staffnews.in/2020/11/holidays-list-2021-all-government-offices-under-govt-of-national-capital-territory-of-delhi-notification.html,,,,SOURCE NOTE: repost of the GNCTD notification; check order number/date
+Delhi,2021,Diwali,regional_subsidiary,,,,,,,,,https://www.staffnews.in/2020/11/holidays-list-2021-all-government-offices-under-govt-of-national-capital-territory-of-delhi-notification.html,,,,Only if the state notice lists a second Diwali-related holiday (e.g. Balipratipada / Diwali Padwa) | SOURCE NOTE: repost of the GNCTD notification; check order number/date
+Karnataka,2014,Diwali,annual_as_issued_anchor,,,,,,,,,https://www.deccanherald.com/amp/story/india%2Fkarnataka%2Fgeneral-holidays-2014-declared-2290792,,,,SOURCE NOTE: news report only - find the DPAR notification
+Karnataka,2014,Dussehra,annual_as_issued_anchor,,,,,,,,,https://www.deccanherald.com/amp/story/india%2Fkarnataka%2Fgeneral-holidays-2014-declared-2290792,,,,SOURCE NOTE: news report only - find the DPAR notification
+Karnataka,2014,Ganesh_Chaturthi,annual_as_issued_anchor,,,,,,,,,https://www.deccanherald.com/amp/story/india%2Fkarnataka%2Fgeneral-holidays-2014-declared-2290792,,,,SOURCE NOTE: news report only - find the DPAR notification
+Karnataka,2014,Ugadi_Gudi_Padwa,annual_as_issued_anchor,,,,,,,,,https://www.deccanherald.com/amp/story/india%2Fkarnataka%2Fgeneral-holidays-2014-declared-2290792,,,,SOURCE NOTE: news report only - find the DPAR notification
+Karnataka,2014,Diwali,regional_subsidiary,,,,,,,,,https://www.deccanherald.com/amp/story/india%2Fkarnataka%2Fgeneral-holidays-2014-declared-2290792,,,,Only if the state notice lists a second Diwali-related holiday (e.g. Balipratipada / Diwali Padwa) | SOURCE NOTE: news report only - find the DPAR notification
 Karnataka,2015,Diwali,annual_as_issued_anchor,,,,,,,,,,,,,
 Karnataka,2015,Dussehra,annual_as_issued_anchor,,,,,,,,,,,,,
 Karnataka,2015,Ganesh_Chaturthi,annual_as_issued_anchor,,,,,,,,,,,,,
@@ -46,76 +46,76 @@ Karnataka,2016,Dussehra,annual_as_issued_anchor,,,,,,,,,,,,,
 Karnataka,2016,Ganesh_Chaturthi,annual_as_issued_anchor,,,,,,,,,,,,,
 Karnataka,2016,Ugadi_Gudi_Padwa,annual_as_issued_anchor,,,,,,,,,,,,,
 Karnataka,2016,Diwali,regional_subsidiary,,,,,,,,,,,,,Only if the state notice lists a second Diwali-related holiday (e.g. Balipratipada / Diwali Padwa)
-Karnataka,2017,Diwali,annual_as_issued_anchor,,,,,,,,,,,,,
-Karnataka,2017,Dussehra,annual_as_issued_anchor,,,,,,,,,,,,,
-Karnataka,2017,Ganesh_Chaturthi,annual_as_issued_anchor,,,,,,,,,,,,,
-Karnataka,2017,Ugadi_Gudi_Padwa,annual_as_issued_anchor,,,,,,,,,,,,,
-Karnataka,2017,Diwali,regional_subsidiary,,,,,,,,,,,,,Only if the state notice lists a second Diwali-related holiday (e.g. Balipratipada / Diwali Padwa)
-Karnataka,2018,Diwali,annual_as_issued_anchor,,,,,,,,,,,,,
-Karnataka,2018,Dussehra,annual_as_issued_anchor,,,,,,,,,,,,,
-Karnataka,2018,Ganesh_Chaturthi,annual_as_issued_anchor,,,,,,,,,,,,,
-Karnataka,2018,Ugadi_Gudi_Padwa,annual_as_issued_anchor,,,,,,,,,,,,,
-Karnataka,2018,Diwali,regional_subsidiary,,,,,,,,,,,,,Only if the state notice lists a second Diwali-related holiday (e.g. Balipratipada / Diwali Padwa)
+Karnataka,2017,Diwali,annual_as_issued_anchor,,,,,,,,,https://www.careerindia.com/features/list-holidays-karnataka-the-year-2017-018178.html,,,,SOURCE NOTE: news/listing only - find the DPAR notification
+Karnataka,2017,Dussehra,annual_as_issued_anchor,,,,,,,,,https://www.careerindia.com/features/list-holidays-karnataka-the-year-2017-018178.html,,,,SOURCE NOTE: news/listing only - find the DPAR notification
+Karnataka,2017,Ganesh_Chaturthi,annual_as_issued_anchor,,,,,,,,,https://www.careerindia.com/features/list-holidays-karnataka-the-year-2017-018178.html,,,,SOURCE NOTE: news/listing only - find the DPAR notification
+Karnataka,2017,Ugadi_Gudi_Padwa,annual_as_issued_anchor,,,,,,,,,https://www.careerindia.com/features/list-holidays-karnataka-the-year-2017-018178.html,,,,SOURCE NOTE: news/listing only - find the DPAR notification
+Karnataka,2017,Diwali,regional_subsidiary,,,,,,,,,https://www.careerindia.com/features/list-holidays-karnataka-the-year-2017-018178.html,,,,Only if the state notice lists a second Diwali-related holiday (e.g. Balipratipada / Diwali Padwa) | SOURCE NOTE: news/listing only - find the DPAR notification
+Karnataka,2018,Diwali,annual_as_issued_anchor,,,,,,,,,https://newsable.asianetnews.com/karnataka/87-government-holidays-in-2018,,,,SOURCE NOTE: news only - find the DPAR notification
+Karnataka,2018,Dussehra,annual_as_issued_anchor,,,,,,,,,https://newsable.asianetnews.com/karnataka/87-government-holidays-in-2018,,,,SOURCE NOTE: news only - find the DPAR notification
+Karnataka,2018,Ganesh_Chaturthi,annual_as_issued_anchor,,,,,,,,,https://newsable.asianetnews.com/karnataka/87-government-holidays-in-2018,,,,SOURCE NOTE: news only - find the DPAR notification
+Karnataka,2018,Ugadi_Gudi_Padwa,annual_as_issued_anchor,,,,,,,,,https://newsable.asianetnews.com/karnataka/87-government-holidays-in-2018,,,,SOURCE NOTE: news only - find the DPAR notification
+Karnataka,2018,Diwali,regional_subsidiary,,,,,,,,,https://newsable.asianetnews.com/karnataka/87-government-holidays-in-2018,,,,Only if the state notice lists a second Diwali-related holiday (e.g. Balipratipada / Diwali Padwa) | SOURCE NOTE: news only - find the DPAR notification
 Karnataka,2019,Diwali,annual_as_issued_anchor,,,,,,,,,,,,,
 Karnataka,2019,Dussehra,annual_as_issued_anchor,,,,,,,,,,,,,
 Karnataka,2019,Ganesh_Chaturthi,annual_as_issued_anchor,,,,,,,,,,,,,
 Karnataka,2019,Ugadi_Gudi_Padwa,annual_as_issued_anchor,,,,,,,,,,,,,
 Karnataka,2019,Diwali,regional_subsidiary,,,,,,,,,,,,,Only if the state notice lists a second Diwali-related holiday (e.g. Balipratipada / Diwali Padwa)
-Karnataka,2020,Diwali,annual_as_issued_anchor,,,,,,,,,,,,,
-Karnataka,2020,Dussehra,annual_as_issued_anchor,,,,,,,,,,,,,
-Karnataka,2020,Ganesh_Chaturthi,annual_as_issued_anchor,,,,,,,,,,,,,
-Karnataka,2020,Ugadi_Gudi_Padwa,annual_as_issued_anchor,,,,,,,,,,,,,
-Karnataka,2020,Diwali,regional_subsidiary,,,,,,,,,,,,,Only if the state notice lists a second Diwali-related holiday (e.g. Balipratipada / Diwali Padwa)
-Karnataka,2021,Diwali,annual_as_issued_anchor,,,,,,,,,,,,,
-Karnataka,2021,Dussehra,annual_as_issued_anchor,,,,,,,,,,,,,
-Karnataka,2021,Ganesh_Chaturthi,annual_as_issued_anchor,,,,,,,,,,,,,
-Karnataka,2021,Ugadi_Gudi_Padwa,annual_as_issued_anchor,,,,,,,,,,,,,
-Karnataka,2021,Diwali,regional_subsidiary,,,,,,,,,,,,,Only if the state notice lists a second Diwali-related holiday (e.g. Balipratipada / Diwali Padwa)
+Karnataka,2020,Diwali,annual_as_issued_anchor,,,,,,,,,https://www.gconnect.in/news/state-government-holidays-2020-karnataka.html,,,,SOURCE NOTE: repost; check notification number/date
+Karnataka,2020,Dussehra,annual_as_issued_anchor,,,,,,,,,https://www.gconnect.in/news/state-government-holidays-2020-karnataka.html,,,,SOURCE NOTE: repost; check notification number/date
+Karnataka,2020,Ganesh_Chaturthi,annual_as_issued_anchor,,,,,,,,,https://www.gconnect.in/news/state-government-holidays-2020-karnataka.html,,,,SOURCE NOTE: repost; check notification number/date
+Karnataka,2020,Ugadi_Gudi_Padwa,annual_as_issued_anchor,,,,,,,,,https://www.gconnect.in/news/state-government-holidays-2020-karnataka.html,,,,SOURCE NOTE: repost; check notification number/date
+Karnataka,2020,Diwali,regional_subsidiary,,,,,,,,,https://www.gconnect.in/news/state-government-holidays-2020-karnataka.html,,,,Only if the state notice lists a second Diwali-related holiday (e.g. Balipratipada / Diwali Padwa) | SOURCE NOTE: repost; check notification number/date
+Karnataka,2021,Diwali,annual_as_issued_anchor,,,,,,,,,https://cag.gov.in/uploads/media/onlyholiday-list-2021-20210929144336.pdf ; https://www.staffnews.in/2020/12/holiday-list-2021-general-restricted-holidays-sanctioned-by-the-karnataka-government-for-the-year-2021.html,,,,SOURCE NOTE: CAG-hosted list (same host type as the 2025 anchor) and a repost; check both agree
+Karnataka,2021,Dussehra,annual_as_issued_anchor,,,,,,,,,https://cag.gov.in/uploads/media/onlyholiday-list-2021-20210929144336.pdf ; https://www.staffnews.in/2020/12/holiday-list-2021-general-restricted-holidays-sanctioned-by-the-karnataka-government-for-the-year-2021.html,,,,SOURCE NOTE: CAG-hosted list (same host type as the 2025 anchor) and a repost; check both agree
+Karnataka,2021,Ganesh_Chaturthi,annual_as_issued_anchor,,,,,,,,,https://cag.gov.in/uploads/media/onlyholiday-list-2021-20210929144336.pdf ; https://www.staffnews.in/2020/12/holiday-list-2021-general-restricted-holidays-sanctioned-by-the-karnataka-government-for-the-year-2021.html,,,,SOURCE NOTE: CAG-hosted list (same host type as the 2025 anchor) and a repost; check both agree
+Karnataka,2021,Ugadi_Gudi_Padwa,annual_as_issued_anchor,,,,,,,,,https://cag.gov.in/uploads/media/onlyholiday-list-2021-20210929144336.pdf ; https://www.staffnews.in/2020/12/holiday-list-2021-general-restricted-holidays-sanctioned-by-the-karnataka-government-for-the-year-2021.html,,,,SOURCE NOTE: CAG-hosted list (same host type as the 2025 anchor) and a repost; check both agree
+Karnataka,2021,Diwali,regional_subsidiary,,,,,,,,,https://cag.gov.in/uploads/media/onlyholiday-list-2021-20210929144336.pdf ; https://www.staffnews.in/2020/12/holiday-list-2021-general-restricted-holidays-sanctioned-by-the-karnataka-government-for-the-year-2021.html,,,,Only if the state notice lists a second Diwali-related holiday (e.g. Balipratipada / Diwali Padwa) | SOURCE NOTE: CAG-hosted list (same host type as the 2025 anchor) and a repost; check both agree
 Maharashtra,2014,Diwali,annual_as_issued_anchor,,,,,,,,,,,,,
 Maharashtra,2014,Dussehra,annual_as_issued_anchor,,,,,,,,,,,,,
 Maharashtra,2014,Ganesh_Chaturthi,annual_as_issued_anchor,,,,,,,,,,,,,
 Maharashtra,2014,Holi,annual_as_issued_anchor,,,,,,,,,,,,,
 Maharashtra,2014,Ugadi_Gudi_Padwa,annual_as_issued_anchor,,,,,,,,,,,,,
 Maharashtra,2014,Diwali,regional_subsidiary,,,,,,,,,,,,,Only if the state notice lists a second Diwali-related holiday (e.g. Balipratipada / Diwali Padwa)
-Maharashtra,2015,Diwali,annual_as_issued_anchor,,,,,,,,,,,,,
-Maharashtra,2015,Dussehra,annual_as_issued_anchor,,,,,,,,,,,,,
-Maharashtra,2015,Ganesh_Chaturthi,annual_as_issued_anchor,,,,,,,,,,,,,
-Maharashtra,2015,Holi,annual_as_issued_anchor,,,,,,,,,,,,,
-Maharashtra,2015,Ugadi_Gudi_Padwa,annual_as_issued_anchor,,,,,,,,,,,,,
-Maharashtra,2015,Diwali,regional_subsidiary,,,,,,,,,,,,,Only if the state notice lists a second Diwali-related holiday (e.g. Balipratipada / Diwali Padwa)
+Maharashtra,2015,Diwali,annual_as_issued_anchor,,,,,,,,,https://www.gconnect.in/news/maharashtra-state-government-holiday-list-2015.html,,,,SOURCE NOTE: repost; check it reproduces the GAD notification
+Maharashtra,2015,Dussehra,annual_as_issued_anchor,,,,,,,,,https://www.gconnect.in/news/maharashtra-state-government-holiday-list-2015.html,,,,SOURCE NOTE: repost; check it reproduces the GAD notification
+Maharashtra,2015,Ganesh_Chaturthi,annual_as_issued_anchor,,,,,,,,,https://www.gconnect.in/news/maharashtra-state-government-holiday-list-2015.html,,,,SOURCE NOTE: repost; check it reproduces the GAD notification
+Maharashtra,2015,Holi,annual_as_issued_anchor,,,,,,,,,https://www.gconnect.in/news/maharashtra-state-government-holiday-list-2015.html,,,,SOURCE NOTE: repost; check it reproduces the GAD notification
+Maharashtra,2015,Ugadi_Gudi_Padwa,annual_as_issued_anchor,,,,,,,,,https://www.gconnect.in/news/maharashtra-state-government-holiday-list-2015.html,,,,SOURCE NOTE: repost; check it reproduces the GAD notification
+Maharashtra,2015,Diwali,regional_subsidiary,,,,,,,,,https://www.gconnect.in/news/maharashtra-state-government-holiday-list-2015.html,,,,Only if the state notice lists a second Diwali-related holiday (e.g. Balipratipada / Diwali Padwa) | SOURCE NOTE: repost; check it reproduces the GAD notification
 Maharashtra,2016,Diwali,annual_as_issued_anchor,,,,,,,,,,,,,
 Maharashtra,2016,Dussehra,annual_as_issued_anchor,,,,,,,,,,,,,
 Maharashtra,2016,Ganesh_Chaturthi,annual_as_issued_anchor,,,,,,,,,,,,,
 Maharashtra,2016,Holi,annual_as_issued_anchor,,,,,,,,,,,,,
 Maharashtra,2016,Ugadi_Gudi_Padwa,annual_as_issued_anchor,,,,,,,,,,,,,
 Maharashtra,2016,Diwali,regional_subsidiary,,,,,,,,,,,,,Only if the state notice lists a second Diwali-related holiday (e.g. Balipratipada / Diwali Padwa)
-Maharashtra,2017,Diwali,annual_as_issued_anchor,,,,,,,,,,,,,
-Maharashtra,2017,Dussehra,annual_as_issued_anchor,,,,,,,,,,,,,
-Maharashtra,2017,Ganesh_Chaturthi,annual_as_issued_anchor,,,,,,,,,,,,,
-Maharashtra,2017,Holi,annual_as_issued_anchor,,,,,,,,,,,,,
-Maharashtra,2017,Ugadi_Gudi_Padwa,annual_as_issued_anchor,,,,,,,,,,,,,
-Maharashtra,2017,Diwali,regional_subsidiary,,,,,,,,,,,,,Only if the state notice lists a second Diwali-related holiday (e.g. Balipratipada / Diwali Padwa)
-Maharashtra,2018,Diwali,annual_as_issued_anchor,,,,,,,,,,,,,
-Maharashtra,2018,Dussehra,annual_as_issued_anchor,,,,,,,,,,,,,
-Maharashtra,2018,Ganesh_Chaturthi,annual_as_issued_anchor,,,,,,,,,,,,,
-Maharashtra,2018,Holi,annual_as_issued_anchor,,,,,,,,,,,,,
-Maharashtra,2018,Ugadi_Gudi_Padwa,annual_as_issued_anchor,,,,,,,,,,,,,
-Maharashtra,2018,Diwali,regional_subsidiary,,,,,,,,,,,,,Only if the state notice lists a second Diwali-related holiday (e.g. Balipratipada / Diwali Padwa)
-Maharashtra,2019,Diwali,annual_as_issued_anchor,,,,,,,,,,,,,
-Maharashtra,2019,Dussehra,annual_as_issued_anchor,,,,,,,,,,,,,
-Maharashtra,2019,Ganesh_Chaturthi,annual_as_issued_anchor,,,,,,,,,,,,,
-Maharashtra,2019,Holi,annual_as_issued_anchor,,,,,,,,,,,,,
-Maharashtra,2019,Ugadi_Gudi_Padwa,annual_as_issued_anchor,,,,,,,,,,,,,
-Maharashtra,2019,Diwali,regional_subsidiary,,,,,,,,,,,,,Only if the state notice lists a second Diwali-related holiday (e.g. Balipratipada / Diwali Padwa)
-Maharashtra,2020,Diwali,annual_as_issued_anchor,,,,,,,,,,,,,
-Maharashtra,2020,Dussehra,annual_as_issued_anchor,,,,,,,,,,,,,
-Maharashtra,2020,Ganesh_Chaturthi,annual_as_issued_anchor,,,,,,,,,,,,,
-Maharashtra,2020,Holi,annual_as_issued_anchor,,,,,,,,,,,,,
-Maharashtra,2020,Ugadi_Gudi_Padwa,annual_as_issued_anchor,,,,,,,,,,,,,
-Maharashtra,2020,Diwali,regional_subsidiary,,,,,,,,,,,,,Only if the state notice lists a second Diwali-related holiday (e.g. Balipratipada / Diwali Padwa)
-Maharashtra,2021,Diwali,annual_as_issued_anchor,,,,,,,,,,,,,
-Maharashtra,2021,Dussehra,annual_as_issued_anchor,,,,,,,,,,,,,
-Maharashtra,2021,Ganesh_Chaturthi,annual_as_issued_anchor,,,,,,,,,,,,,
-Maharashtra,2021,Holi,annual_as_issued_anchor,,,,,,,,,,,,,
-Maharashtra,2021,Ugadi_Gudi_Padwa,annual_as_issued_anchor,,,,,,,,,,,,,
-Maharashtra,2021,Diwali,regional_subsidiary,,,,,,,,,,,,,Only if the state notice lists a second Diwali-related holiday (e.g. Balipratipada / Diwali Padwa)
+Maharashtra,2017,Diwali,annual_as_issued_anchor,,,,,,,,,https://www.gconnect.in/state-government-employees/maharashtra-government/maharashtra-holiday-list-2017.html,,,,SOURCE NOTE: repost; check notification number/date
+Maharashtra,2017,Dussehra,annual_as_issued_anchor,,,,,,,,,https://www.gconnect.in/state-government-employees/maharashtra-government/maharashtra-holiday-list-2017.html,,,,SOURCE NOTE: repost; check notification number/date
+Maharashtra,2017,Ganesh_Chaturthi,annual_as_issued_anchor,,,,,,,,,https://www.gconnect.in/state-government-employees/maharashtra-government/maharashtra-holiday-list-2017.html,,,,SOURCE NOTE: repost; check notification number/date
+Maharashtra,2017,Holi,annual_as_issued_anchor,,,,,,,,,https://www.gconnect.in/state-government-employees/maharashtra-government/maharashtra-holiday-list-2017.html,,,,SOURCE NOTE: repost; check notification number/date
+Maharashtra,2017,Ugadi_Gudi_Padwa,annual_as_issued_anchor,,,,,,,,,https://www.gconnect.in/state-government-employees/maharashtra-government/maharashtra-holiday-list-2017.html,,,,SOURCE NOTE: repost; check notification number/date
+Maharashtra,2017,Diwali,regional_subsidiary,,,,,,,,,https://www.gconnect.in/state-government-employees/maharashtra-government/maharashtra-holiday-list-2017.html,,,,Only if the state notice lists a second Diwali-related holiday (e.g. Balipratipada / Diwali Padwa) | SOURCE NOTE: repost; check notification number/date
+Maharashtra,2018,Diwali,annual_as_issued_anchor,,,,,,,,,https://www.simpliance.in/uploads/notifdocs/259/Holiday%20List%20For%20Maharashtra%20-%202018.pdf,,,,SOURCE NOTE: compliance-site copy; check it is the government notification
+Maharashtra,2018,Dussehra,annual_as_issued_anchor,,,,,,,,,https://www.simpliance.in/uploads/notifdocs/259/Holiday%20List%20For%20Maharashtra%20-%202018.pdf,,,,SOURCE NOTE: compliance-site copy; check it is the government notification
+Maharashtra,2018,Ganesh_Chaturthi,annual_as_issued_anchor,,,,,,,,,https://www.simpliance.in/uploads/notifdocs/259/Holiday%20List%20For%20Maharashtra%20-%202018.pdf,,,,SOURCE NOTE: compliance-site copy; check it is the government notification
+Maharashtra,2018,Holi,annual_as_issued_anchor,,,,,,,,,https://www.simpliance.in/uploads/notifdocs/259/Holiday%20List%20For%20Maharashtra%20-%202018.pdf,,,,SOURCE NOTE: compliance-site copy; check it is the government notification
+Maharashtra,2018,Ugadi_Gudi_Padwa,annual_as_issued_anchor,,,,,,,,,https://www.simpliance.in/uploads/notifdocs/259/Holiday%20List%20For%20Maharashtra%20-%202018.pdf,,,,SOURCE NOTE: compliance-site copy; check it is the government notification
+Maharashtra,2018,Diwali,regional_subsidiary,,,,,,,,,https://www.simpliance.in/uploads/notifdocs/259/Holiday%20List%20For%20Maharashtra%20-%202018.pdf,,,,Only if the state notice lists a second Diwali-related holiday (e.g. Balipratipada / Diwali Padwa) | SOURCE NOTE: compliance-site copy; check it is the government notification
+Maharashtra,2019,Diwali,annual_as_issued_anchor,,,,,,,,,https://www.gconnect.in/?p=25203 (links https://www.maharashtra.gov.in/pdf/HolidayList_2019.pdf),,,,SOURCE NOTE: repost; its Diwali dates looked doubtful in an automated reading - check the official PDF
+Maharashtra,2019,Dussehra,annual_as_issued_anchor,,,,,,,,,https://www.gconnect.in/?p=25203 (links https://www.maharashtra.gov.in/pdf/HolidayList_2019.pdf),,,,SOURCE NOTE: repost; its Diwali dates looked doubtful in an automated reading - check the official PDF
+Maharashtra,2019,Ganesh_Chaturthi,annual_as_issued_anchor,,,,,,,,,https://www.gconnect.in/?p=25203 (links https://www.maharashtra.gov.in/pdf/HolidayList_2019.pdf),,,,SOURCE NOTE: repost; its Diwali dates looked doubtful in an automated reading - check the official PDF
+Maharashtra,2019,Holi,annual_as_issued_anchor,,,,,,,,,https://www.gconnect.in/?p=25203 (links https://www.maharashtra.gov.in/pdf/HolidayList_2019.pdf),,,,SOURCE NOTE: repost; its Diwali dates looked doubtful in an automated reading - check the official PDF
+Maharashtra,2019,Ugadi_Gudi_Padwa,annual_as_issued_anchor,,,,,,,,,https://www.gconnect.in/?p=25203 (links https://www.maharashtra.gov.in/pdf/HolidayList_2019.pdf),,,,SOURCE NOTE: repost; its Diwali dates looked doubtful in an automated reading - check the official PDF
+Maharashtra,2019,Diwali,regional_subsidiary,,,,,,,,,https://www.gconnect.in/?p=25203 (links https://www.maharashtra.gov.in/pdf/HolidayList_2019.pdf),,,,Only if the state notice lists a second Diwali-related holiday (e.g. Balipratipada / Diwali Padwa) | SOURCE NOTE: repost; its Diwali dates looked doubtful in an automated reading - check the official PDF
+Maharashtra,2020,Diwali,annual_as_issued_anchor,,,,,,,,,https://www.gconnect.in/news/state-government-holidays-2020-maharashtra.html,,,,SOURCE NOTE: repost; check notification number/date
+Maharashtra,2020,Dussehra,annual_as_issued_anchor,,,,,,,,,https://www.gconnect.in/news/state-government-holidays-2020-maharashtra.html,,,,SOURCE NOTE: repost; check notification number/date
+Maharashtra,2020,Ganesh_Chaturthi,annual_as_issued_anchor,,,,,,,,,https://www.gconnect.in/news/state-government-holidays-2020-maharashtra.html,,,,SOURCE NOTE: repost; check notification number/date
+Maharashtra,2020,Holi,annual_as_issued_anchor,,,,,,,,,https://www.gconnect.in/news/state-government-holidays-2020-maharashtra.html,,,,SOURCE NOTE: repost; check notification number/date
+Maharashtra,2020,Ugadi_Gudi_Padwa,annual_as_issued_anchor,,,,,,,,,https://www.gconnect.in/news/state-government-holidays-2020-maharashtra.html,,,,SOURCE NOTE: repost; check notification number/date
+Maharashtra,2020,Diwali,regional_subsidiary,,,,,,,,,https://www.gconnect.in/news/state-government-holidays-2020-maharashtra.html,,,,Only if the state notice lists a second Diwali-related holiday (e.g. Balipratipada / Diwali Padwa) | SOURCE NOTE: repost; check notification number/date
+Maharashtra,2021,Diwali,annual_as_issued_anchor,,,,,,,,,https://www.staffnews.in/2020/12/holiday-list-2021-general-restricted-holidays-sanctioned-by-the-maharashtra-government-for-the-year-2021.html,,,,SOURCE NOTE: repost; check notification number/date
+Maharashtra,2021,Dussehra,annual_as_issued_anchor,,,,,,,,,https://www.staffnews.in/2020/12/holiday-list-2021-general-restricted-holidays-sanctioned-by-the-maharashtra-government-for-the-year-2021.html,,,,SOURCE NOTE: repost; check notification number/date
+Maharashtra,2021,Ganesh_Chaturthi,annual_as_issued_anchor,,,,,,,,,https://www.staffnews.in/2020/12/holiday-list-2021-general-restricted-holidays-sanctioned-by-the-maharashtra-government-for-the-year-2021.html,,,,SOURCE NOTE: repost; check notification number/date
+Maharashtra,2021,Holi,annual_as_issued_anchor,,,,,,,,,https://www.staffnews.in/2020/12/holiday-list-2021-general-restricted-holidays-sanctioned-by-the-maharashtra-government-for-the-year-2021.html,,,,SOURCE NOTE: repost; check notification number/date
+Maharashtra,2021,Ugadi_Gudi_Padwa,annual_as_issued_anchor,,,,,,,,,https://www.staffnews.in/2020/12/holiday-list-2021-general-restricted-holidays-sanctioned-by-the-maharashtra-government-for-the-year-2021.html,,,,SOURCE NOTE: repost; check notification number/date
+Maharashtra,2021,Diwali,regional_subsidiary,,,,,,,,,https://www.staffnews.in/2020/12/holiday-list-2021-general-restricted-holidays-sanctioned-by-the-maharashtra-government-for-the-year-2021.html,,,,Only if the state notice lists a second Diwali-related holiday (e.g. Balipratipada / Diwali Padwa) | SOURCE NOTE: repost; check notification number/date
