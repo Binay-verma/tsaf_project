@@ -1,0 +1,3 @@
+# Model-class hypothesis (registered before testing)
+
+After Stage A (event years 2022-2025) the typed-versus-pooled ordering looked model-dependent: tree models (LightGBM) did better with one pooled festival flag, SARIMAX with one flag per festival. Because that pattern was noticed after seeing the data, it is written down here as two directional hypotheses (H1 LightGBM pooled better; H2 SARIMAX typed better) and will be tested only on data no model has seen: Maharashtra event years 2019-2021 (Stage B) and, later, future event years. Decision rule, test and allowed sensitivity are in `registration.json`.

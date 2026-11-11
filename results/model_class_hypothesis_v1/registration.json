@@ -1,0 +1,33 @@
+{
+ "experiment": "model_class_hypothesis_v1",
+ "created_utc": "2026-11-11T14:13:30.926921+00:00",
+ "author": "Binay Verma",
+ "origin": "Stated after inspecting results/longer_panel_stage_a_v1 (event years 2022-2025): Stable LightGBM and leaf-2 LightGBM day flags favoured pooling in every year with a non-zero difference, SARIMAX day flags favoured typed flags in all four years. This file fixes the hypotheses before any test data exist.",
+ "hypotheses": {
+  "H1": "For Stable LightGBM (float32, past-selected parameters), typed-day minus pooled-day event MASE at lead 1 is POSITIVE (pooling better).",
+  "H2": "For SARIMAX(1,0,0)(1,0,0,7), typed-day minus pooled-day event MASE at lead 1 is NEGATIVE (typed better).",
+  "H1b (secondary)": "Same as H1 for the leaf-2 LightGBM sensitivity.",
+  "H3 (secondary)": "Ridge shows no consistent ordering (reported, not tested as a directional claim)."
+ },
+ "test_data": [
+  {
+   "name": "Stage B",
+   "what": "Maharashtra event years 2019, 2020, 2021 (unseen by every model and arm)",
+   "requires": "Maharashtra 2017-2021 calendar rows checked by a person; Stage B protocol committed before any run",
+   "design": "Same arms, cases rule, conventions, local models and pre-year parameter selection as Stage A"
+  },
+  {
+   "name": "Prospective",
+   "what": "Any future event year scored with calendars fixed before the outcomes exist",
+   "requires": "Registered separately; not part of this file"
+  }
+ ],
+ "test": "Exact one-sided sign-flip test on family-year clusters (Maharashtra: 5 families x 3 years = 15 clusters), mean of cluster differences, direction as stated. Holm across H1 and H2. Alpha 0.05.",
+ "decision": "H1 or H2 is CONFIRMED in Stage B only if its Holm-adjusted one-sided p < 0.05 AND its sign holds in at least 2 of the 3 years. Otherwise NOT CONFIRMED, reported as such. A sign opposite to the hypothesis in the balanced value is reported as CONTRADICTED.",
+ "sensitivity": "Pre-declared: repeat with 2020 removed (COVID lockdown year); reported alongside, does not change the decision.",
+ "not_allowed": [
+  "changing models, arms, leads, cases or parameters after seeing Stage B outcomes",
+  "dropping a year or family other than the pre-declared 2020 sensitivity",
+  "counting Stage A data as confirmation"
+ ]
+}
