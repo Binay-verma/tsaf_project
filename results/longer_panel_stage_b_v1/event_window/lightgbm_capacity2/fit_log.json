@@ -1,0 +1,3992 @@
+[
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "calendar",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 1,
+    "refit": "2019-03-01",
+    "parameters": {
+      "num_leaves": 31,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "ef0389dcf77f3fea5989a529b7369d420485aac71f50ebd4e879ed7b62cb7fb8",
+    "query_X_sha256": "65a8aed39581e22d8d30e0fb9ed06e028fcb21abf1c6923084064eb79da82553",
+    "training_n": 730,
+    "training_target_max": "2019-02-28",
+    "training_origin_max": "2019-02-28"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "calendar",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 1,
+    "refit": "2019-04-01",
+    "parameters": {
+      "num_leaves": 31,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "5c5c0706059461efafb3349182a1e9c7a4417695dde1b6cb6006171bc3c9f46d",
+    "query_X_sha256": "93fe1b66c5dd6f1896d6470a0355e8428fc9509ad999e18499e6d2056c8365b0",
+    "training_n": 730,
+    "training_target_max": "2019-03-31",
+    "training_origin_max": "2019-03-31"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "calendar",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 1,
+    "refit": "2019-08-01",
+    "parameters": {
+      "num_leaves": 31,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "874fc6d3eedeeb7e785c7a003283e532eb7f94ee97854b3d3fd26f08e5efa969",
+    "query_X_sha256": "873a683aed74da5346c3ad50863dec9193e6086df96c596c904d82d2538c4066",
+    "training_n": 729,
+    "training_target_max": "2019-07-31",
+    "training_origin_max": "2019-07-31"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "calendar",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 1,
+    "refit": "2019-09-01",
+    "parameters": {
+      "num_leaves": 31,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "bdecef0645eb561d80fd09b05edb46c04568d059223cd78c490cf0cc47413535",
+    "query_X_sha256": "efd6ccaeeae091296826791575771bff09e731d726b0a25cc8d0ab86ebb4a62b",
+    "training_n": 729,
+    "training_target_max": "2019-08-31",
+    "training_origin_max": "2019-08-31"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "calendar",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 1,
+    "refit": "2019-10-01",
+    "parameters": {
+      "num_leaves": 31,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "c5c893aff7ddcbb5dd9aed722205e47f5934ce87f6f599fb269aebe4ad9aef95",
+    "query_X_sha256": "c69d7247c322ff01ea6b2db411fdc7f00c8d80dd8bf85a531884f74582e9b54d",
+    "training_n": 729,
+    "training_target_max": "2019-09-30",
+    "training_origin_max": "2019-09-30"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "zero5",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 1,
+    "refit": "2019-03-01",
+    "parameters": {
+      "num_leaves": 31,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "e026e642d4dd144e14defae8bef295ddc86df54bc43815ca1133f7696ab424c9",
+    "query_X_sha256": "ff4ea51b0186ae04122330ebba1bb370991c274d8ea31048d3b32c11d3dcad73",
+    "training_n": 730,
+    "training_target_max": "2019-02-28",
+    "training_origin_max": "2019-02-28"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "zero5",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 1,
+    "refit": "2019-04-01",
+    "parameters": {
+      "num_leaves": 31,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "291c4e0d6a8340dfafa06926321198314b4e1705dffd9130546fc070bfb4ab4d",
+    "query_X_sha256": "a1981a96a4941250f6ee0390572c98da682f42960f35df428a6648be6aeec067",
+    "training_n": 730,
+    "training_target_max": "2019-03-31",
+    "training_origin_max": "2019-03-31"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "zero5",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 1,
+    "refit": "2019-08-01",
+    "parameters": {
+      "num_leaves": 31,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "6bfd92513dd34db4ab3a569421cab7abf80d2dea506bc3d5cb390263ec8e65a1",
+    "query_X_sha256": "4f74eb71039bb525c4133e84181a3aedf53f3ab42760d8648bd6b89070a2f07c",
+    "training_n": 729,
+    "training_target_max": "2019-07-31",
+    "training_origin_max": "2019-07-31"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "zero5",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 1,
+    "refit": "2019-09-01",
+    "parameters": {
+      "num_leaves": 31,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "2264cf251e56ed11ea9d0a5f91083f21e33ac1d0e8f81267ad933f505fc7df0c",
+    "query_X_sha256": "dcd3689913e47d766f1e195426b0a1422769160c67faa9683c6433a5cb80a1f1",
+    "training_n": 729,
+    "training_target_max": "2019-08-31",
+    "training_origin_max": "2019-08-31"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "zero5",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 1,
+    "refit": "2019-10-01",
+    "parameters": {
+      "num_leaves": 31,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "78ba87f4138dfa41fae14f75e117c2fde85be50e42ea2958a14c92f9b3bfbe37",
+    "query_X_sha256": "078370bf251bc72fcc128ca993d3d7c9b16cd33815a58063e57ba5a148888234",
+    "training_n": 729,
+    "training_target_max": "2019-09-30",
+    "training_origin_max": "2019-09-30"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "day5",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 1,
+    "refit": "2019-03-01",
+    "parameters": {
+      "num_leaves": 31,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "0a9ebfad10ac849915582bc747d6dbd7fce2e956b3f562092e6e0f833385b502",
+    "query_X_sha256": "9eb4188be2f243cb4b508c85a297333aca66e2db0c22a66ecfc96fdb3e03e3ac",
+    "training_n": 730,
+    "training_target_max": "2019-02-28",
+    "training_origin_max": "2019-02-28"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "day5",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 1,
+    "refit": "2019-04-01",
+    "parameters": {
+      "num_leaves": 31,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "1df545f0d0e1099e4d94e8e7e28001d7da66949874aa5477e7c31e2dc0cee065",
+    "query_X_sha256": "7ece07f8f06f34e5b586b6cfbdef4e5a7cea197a1f8732b6cce37541195345b0",
+    "training_n": 730,
+    "training_target_max": "2019-03-31",
+    "training_origin_max": "2019-03-31"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "day5",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 1,
+    "refit": "2019-08-01",
+    "parameters": {
+      "num_leaves": 31,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "decd28d987210b91e9e0b5db9aed8f43573e348ceca4dc1e5d97b27b88ca6b5d",
+    "query_X_sha256": "4f74eb71039bb525c4133e84181a3aedf53f3ab42760d8648bd6b89070a2f07c",
+    "training_n": 729,
+    "training_target_max": "2019-07-31",
+    "training_origin_max": "2019-07-31"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "day5",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 1,
+    "refit": "2019-09-01",
+    "parameters": {
+      "num_leaves": 31,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "53a20fb0667d8987715c6cd901f89abaeb2ce6de6a4ef11bdfd810af0730dcfb",
+    "query_X_sha256": "8759c66730f770824cf70393974638cc6a24610a69a1800ffe448ab17c78cd76",
+    "training_n": 729,
+    "training_target_max": "2019-08-31",
+    "training_origin_max": "2019-08-31"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "day5",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 1,
+    "refit": "2019-10-01",
+    "parameters": {
+      "num_leaves": 31,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "de3e876d2fc72e1e952b8fc7f639cf8b2d8dbeec0fddb24abb54a1ce95ee5b27",
+    "query_X_sha256": "1a1083a218ca9c8affb78fac6224f22320753026dfa431fd32db7ac97f23a049",
+    "training_n": 729,
+    "training_target_max": "2019-09-30",
+    "training_origin_max": "2019-09-30"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "pooled_day5",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 1,
+    "refit": "2019-03-01",
+    "parameters": {
+      "num_leaves": 31,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "2078750851045a136dc8d48c58736960284cdc4c481f1c887127d553a0a385e3",
+    "query_X_sha256": "9eb4188be2f243cb4b508c85a297333aca66e2db0c22a66ecfc96fdb3e03e3ac",
+    "training_n": 730,
+    "training_target_max": "2019-02-28",
+    "training_origin_max": "2019-02-28"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "pooled_day5",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 1,
+    "refit": "2019-04-01",
+    "parameters": {
+      "num_leaves": 31,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "d9e3cf47c043791fd2f0e5e90faaceffd97df04053b137a787d309182749c1e9",
+    "query_X_sha256": "9f21e6fe2ed6385ca1e9467e393c8f3f8dc22b42402e2089c256c98fef13afba",
+    "training_n": 730,
+    "training_target_max": "2019-03-31",
+    "training_origin_max": "2019-03-31"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "pooled_day5",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 1,
+    "refit": "2019-08-01",
+    "parameters": {
+      "num_leaves": 31,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "71199d94e103f9480b5995a72306d50dbe909d027ea410a8c39b253b7fea155f",
+    "query_X_sha256": "4f74eb71039bb525c4133e84181a3aedf53f3ab42760d8648bd6b89070a2f07c",
+    "training_n": 729,
+    "training_target_max": "2019-07-31",
+    "training_origin_max": "2019-07-31"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "pooled_day5",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 1,
+    "refit": "2019-09-01",
+    "parameters": {
+      "num_leaves": 31,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "f1cfbd2908d3e76816f37dcebec5d19dc98f1d0fbbf6c73904e1f6db734f09d0",
+    "query_X_sha256": "41ed2720200caec8e82dc60f8ced8fc2bbb4a81e6ccd97cd5d6f099bf88e063a",
+    "training_n": 729,
+    "training_target_max": "2019-08-31",
+    "training_origin_max": "2019-08-31"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "pooled_day5",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 1,
+    "refit": "2019-10-01",
+    "parameters": {
+      "num_leaves": 31,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "060fcfa2b80c7d4cfac694b1f81431daacb440d679c87b510d0c0da578f7d62f",
+    "query_X_sha256": "467b86d1af70b3baa7710dba8ca8a4b8b2dcbff7c502ccf0e9af6af773874646",
+    "training_n": 729,
+    "training_target_max": "2019-09-30",
+    "training_origin_max": "2019-09-30"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "placebo_day5",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 1,
+    "refit": "2019-03-01",
+    "parameters": {
+      "num_leaves": 31,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "f1a83fe67132b7f08b73d2de3f53cc6e6a6c84530e9a7d4d84b11c99b4635f53",
+    "query_X_sha256": "ff4ea51b0186ae04122330ebba1bb370991c274d8ea31048d3b32c11d3dcad73",
+    "training_n": 730,
+    "training_target_max": "2019-02-28",
+    "training_origin_max": "2019-02-28"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "placebo_day5",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 1,
+    "refit": "2019-04-01",
+    "parameters": {
+      "num_leaves": 31,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "c9339b440f4784b1a92072ca1991f65850e04b8b987009e49ea85f8e1e420cbb",
+    "query_X_sha256": "a1981a96a4941250f6ee0390572c98da682f42960f35df428a6648be6aeec067",
+    "training_n": 730,
+    "training_target_max": "2019-03-31",
+    "training_origin_max": "2019-03-31"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "placebo_day5",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 1,
+    "refit": "2019-08-01",
+    "parameters": {
+      "num_leaves": 31,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "b20eeb031726987c8c41e43449fc01ac8a758f118d9b0d3b4b16f6d970574ce7",
+    "query_X_sha256": "4f74eb71039bb525c4133e84181a3aedf53f3ab42760d8648bd6b89070a2f07c",
+    "training_n": 729,
+    "training_target_max": "2019-07-31",
+    "training_origin_max": "2019-07-31"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "placebo_day5",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 1,
+    "refit": "2019-09-01",
+    "parameters": {
+      "num_leaves": 31,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "fbffe8d24d78f054b6eaa5a05dc63bc58f05c7ec47dc11eff23b17f0c7f1f01d",
+    "query_X_sha256": "dcd3689913e47d766f1e195426b0a1422769160c67faa9683c6433a5cb80a1f1",
+    "training_n": 729,
+    "training_target_max": "2019-08-31",
+    "training_origin_max": "2019-08-31"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "placebo_day5",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 1,
+    "refit": "2019-10-01",
+    "parameters": {
+      "num_leaves": 31,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "98e1cf8a7c4ae33e4ca1c823a8fbf8e857b3ac9471b88a450542c0c3df7643b5",
+    "query_X_sha256": "078370bf251bc72fcc128ca993d3d7c9b16cd33815a58063e57ba5a148888234",
+    "training_n": 729,
+    "training_target_max": "2019-09-30",
+    "training_origin_max": "2019-09-30"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "calendar",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 7,
+    "refit": "2019-03-01",
+    "parameters": {
+      "num_leaves": 7,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "da94fb5e4e04a2c55593b144987d0665042e4375b9147dae0b4827413f3f7442",
+    "query_X_sha256": "28c4a735f7b8d1201251480ef4085add95455f5e7a23672db9a9e5656969fe14",
+    "training_n": 724,
+    "training_target_max": "2019-02-28",
+    "training_origin_max": "2019-02-22"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "calendar",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 7,
+    "refit": "2019-04-01",
+    "parameters": {
+      "num_leaves": 7,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "825d12657787302231310abb8d40f324c65335ba3e431904ead6db2dcafc9b15",
+    "query_X_sha256": "f74ddcaa8e24dbe2d920024f3bcd82e1bb363cec43982690d73936a68115b0a4",
+    "training_n": 724,
+    "training_target_max": "2019-03-31",
+    "training_origin_max": "2019-03-25"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "calendar",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 7,
+    "refit": "2019-08-01",
+    "parameters": {
+      "num_leaves": 7,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "5a95778cab5c9ce7f830f7358cd29355018046d26cc7ea24765ec3f99357eae3",
+    "query_X_sha256": "5ea6536312f3f137b043365a38f0d2a1858188cf02cad6c81ace1a1bba1e861b",
+    "training_n": 723,
+    "training_target_max": "2019-07-31",
+    "training_origin_max": "2019-07-25"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "calendar",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 7,
+    "refit": "2019-09-01",
+    "parameters": {
+      "num_leaves": 7,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "3bcaf8eb8fb4768e4bdc1e2ed928578cc84e611893746b003a1b0435ef71e8cf",
+    "query_X_sha256": "534a7f525b62b33587523de473aec3525b41392553b705295c7461d51ad962ea",
+    "training_n": 723,
+    "training_target_max": "2019-08-31",
+    "training_origin_max": "2019-08-25"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "calendar",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 7,
+    "refit": "2019-10-01",
+    "parameters": {
+      "num_leaves": 7,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "8823d3e907e575ae301ff91ec885667902afebf0a273274cfc41c4b21d581d8f",
+    "query_X_sha256": "cc47e06b791f3799c3a5677a8bc4be5b0bdba547742a1e2416c61d8de071ba51",
+    "training_n": 723,
+    "training_target_max": "2019-09-30",
+    "training_origin_max": "2019-09-24"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "zero5",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 7,
+    "refit": "2019-03-01",
+    "parameters": {
+      "num_leaves": 7,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "5f45234b3f1e9a8058dd52a144e912e5764a44de9e989a93defc24bacc2c0a10",
+    "query_X_sha256": "ab30ed59b580adfca9828e8c4ce3c39a50b2e84f0f4ba7adff4d16ca9777c7aa",
+    "training_n": 724,
+    "training_target_max": "2019-02-28",
+    "training_origin_max": "2019-02-22"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "zero5",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 7,
+    "refit": "2019-04-01",
+    "parameters": {
+      "num_leaves": 7,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "858b0e96b7e82e6d67b4a4e29ff25a5caa27f969906cb936b1c2dfa141a5727d",
+    "query_X_sha256": "4d4149c33548163bcad5daae685f015fb85cb1caee23a78321402553de18ae3a",
+    "training_n": 724,
+    "training_target_max": "2019-03-31",
+    "training_origin_max": "2019-03-25"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "zero5",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 7,
+    "refit": "2019-08-01",
+    "parameters": {
+      "num_leaves": 7,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "c42d0ea89e38d6d9e3042fe61e5106f85e8405c154645c495b3d0a9384505440",
+    "query_X_sha256": "f13eb675a561151dc8745bc7b9f428fb42ad9c13804d01fca5399a349b7d23bf",
+    "training_n": 723,
+    "training_target_max": "2019-07-31",
+    "training_origin_max": "2019-07-25"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "zero5",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 7,
+    "refit": "2019-09-01",
+    "parameters": {
+      "num_leaves": 7,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "f7baff6f36f6f3798646a5a8dd0302501e761ea5149c99f25daa872b2c4e2c8e",
+    "query_X_sha256": "cba68568cc57ed3bd4e6a7de96cc679b146b5edf36ed2594cf8a511e1e87df94",
+    "training_n": 723,
+    "training_target_max": "2019-08-31",
+    "training_origin_max": "2019-08-25"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "zero5",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 7,
+    "refit": "2019-10-01",
+    "parameters": {
+      "num_leaves": 7,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "0dd18f2cd077d6a0979c41b8c7fdaec6c3f0a2b272edcca327113509b47f59cb",
+    "query_X_sha256": "3e739d6f501b6e57b6e1be8239815f84c4f77f5afc5a15f9764717c1c675c9b2",
+    "training_n": 723,
+    "training_target_max": "2019-09-30",
+    "training_origin_max": "2019-09-24"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "day5",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 7,
+    "refit": "2019-03-01",
+    "parameters": {
+      "num_leaves": 7,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "80bfbf55b8039d4e601cba743e6bfe8104502eb4c40538cac68f224839750edb",
+    "query_X_sha256": "aa188e4c71bf7c6fa0266831bb1e92787924a413ddee0b01b4bc474a9ec0eba6",
+    "training_n": 724,
+    "training_target_max": "2019-02-28",
+    "training_origin_max": "2019-02-22"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "day5",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 7,
+    "refit": "2019-04-01",
+    "parameters": {
+      "num_leaves": 7,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "dc2d9242845ada69a90b8ee6bcf44d642f3cf2c91512677369debaf976d350dd",
+    "query_X_sha256": "4d4149c33548163bcad5daae685f015fb85cb1caee23a78321402553de18ae3a",
+    "training_n": 724,
+    "training_target_max": "2019-03-31",
+    "training_origin_max": "2019-03-25"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "day5",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 7,
+    "refit": "2019-08-01",
+    "parameters": {
+      "num_leaves": 7,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "ace4c47660ee31357ec547c9c9e6c5fe1ac9edd1bc8d2c73a6bc102695f1174f",
+    "query_X_sha256": "62cd4662c6721ca78c45dff099d4544f47b5c77a960d949158506a13c9873acd",
+    "training_n": 723,
+    "training_target_max": "2019-07-31",
+    "training_origin_max": "2019-07-25"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "day5",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 7,
+    "refit": "2019-09-01",
+    "parameters": {
+      "num_leaves": 7,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "d3f18fe119e03fb835b4bd80ec338cd5ab1ad31250cb62ddeacc8772b7a8868c",
+    "query_X_sha256": "cba68568cc57ed3bd4e6a7de96cc679b146b5edf36ed2594cf8a511e1e87df94",
+    "training_n": 723,
+    "training_target_max": "2019-08-31",
+    "training_origin_max": "2019-08-25"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "day5",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 7,
+    "refit": "2019-10-01",
+    "parameters": {
+      "num_leaves": 7,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "87fe894ff9a39834ccba69c66e95429b01e2c831932c254ce7c7b53f51412d39",
+    "query_X_sha256": "8afadbfee21783fe3e08d746530787fac4380c8dece4a8e60d5f36aee2cb8b43",
+    "training_n": 723,
+    "training_target_max": "2019-09-30",
+    "training_origin_max": "2019-09-24"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "pooled_day5",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 7,
+    "refit": "2019-03-01",
+    "parameters": {
+      "num_leaves": 7,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "c4c8970c869d6847e899f1d91b580f5496d48d7b8ef958f11042cc819c57baa0",
+    "query_X_sha256": "e89e774135b674394adba1d29acb5b408c32dbacdd8719194e36810d4b44218e",
+    "training_n": 724,
+    "training_target_max": "2019-02-28",
+    "training_origin_max": "2019-02-22"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "pooled_day5",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 7,
+    "refit": "2019-04-01",
+    "parameters": {
+      "num_leaves": 7,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "11a95ba4fc2224cc828e03e433a74713b8a917363f5356e080be4f8d37b853a4",
+    "query_X_sha256": "4d4149c33548163bcad5daae685f015fb85cb1caee23a78321402553de18ae3a",
+    "training_n": 724,
+    "training_target_max": "2019-03-31",
+    "training_origin_max": "2019-03-25"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "pooled_day5",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 7,
+    "refit": "2019-08-01",
+    "parameters": {
+      "num_leaves": 7,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "4e10ede943ca88474dc5d63e9506289f84dc3e90aec92489c5a86e6bb0455401",
+    "query_X_sha256": "d3d3c36d70a5924d1a6b4117d68764ac9d00faffef94c0afdce37e93d945d3f1",
+    "training_n": 723,
+    "training_target_max": "2019-07-31",
+    "training_origin_max": "2019-07-25"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "pooled_day5",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 7,
+    "refit": "2019-09-01",
+    "parameters": {
+      "num_leaves": 7,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "c19b7bdf820be0fa7f96ec679c00e2e3367bac4a37ee3d4357f4a4cc3cd00fd9",
+    "query_X_sha256": "cba68568cc57ed3bd4e6a7de96cc679b146b5edf36ed2594cf8a511e1e87df94",
+    "training_n": 723,
+    "training_target_max": "2019-08-31",
+    "training_origin_max": "2019-08-25"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "pooled_day5",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 7,
+    "refit": "2019-10-01",
+    "parameters": {
+      "num_leaves": 7,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "4b5a25834336c9639cbb1495115a0108e2aa33ca66ba3f116729890a9a0b994b",
+    "query_X_sha256": "43a67b3ec3d55c3172b50deb4f4a4ff0887daae78fd86bb4d53dfbce13d6b465",
+    "training_n": 723,
+    "training_target_max": "2019-09-30",
+    "training_origin_max": "2019-09-24"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "placebo_day5",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 7,
+    "refit": "2019-03-01",
+    "parameters": {
+      "num_leaves": 7,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "6fbbd6170e56700b7de79bb670ea8ee3f83543ea92e8f592ed24de39c9c2abdc",
+    "query_X_sha256": "ab30ed59b580adfca9828e8c4ce3c39a50b2e84f0f4ba7adff4d16ca9777c7aa",
+    "training_n": 724,
+    "training_target_max": "2019-02-28",
+    "training_origin_max": "2019-02-22"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "placebo_day5",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 7,
+    "refit": "2019-04-01",
+    "parameters": {
+      "num_leaves": 7,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "96a682a35eb49abd535a4f0a5d99ec560aa1bda0b99b18222c512f8e33e8229a",
+    "query_X_sha256": "4d4149c33548163bcad5daae685f015fb85cb1caee23a78321402553de18ae3a",
+    "training_n": 724,
+    "training_target_max": "2019-03-31",
+    "training_origin_max": "2019-03-25"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "placebo_day5",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 7,
+    "refit": "2019-08-01",
+    "parameters": {
+      "num_leaves": 7,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "e66200d9406a19da190546fed6ff7a2645907439d8d395c75cef2afdac8d9a6a",
+    "query_X_sha256": "f13eb675a561151dc8745bc7b9f428fb42ad9c13804d01fca5399a349b7d23bf",
+    "training_n": 723,
+    "training_target_max": "2019-07-31",
+    "training_origin_max": "2019-07-25"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "placebo_day5",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 7,
+    "refit": "2019-09-01",
+    "parameters": {
+      "num_leaves": 7,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "1e47b530e3806251f927541418b6f56c781561e7a339e2ea85fc85016abf91d8",
+    "query_X_sha256": "cba68568cc57ed3bd4e6a7de96cc679b146b5edf36ed2594cf8a511e1e87df94",
+    "training_n": 723,
+    "training_target_max": "2019-08-31",
+    "training_origin_max": "2019-08-25"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "placebo_day5",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 7,
+    "refit": "2019-10-01",
+    "parameters": {
+      "num_leaves": 7,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "c3e806ee6c4df636b60f1ebeb3d3599e36ec7666ed34ceff600f9ad6482861f9",
+    "query_X_sha256": "3e739d6f501b6e57b6e1be8239815f84c4f77f5afc5a15f9764717c1c675c9b2",
+    "training_n": 723,
+    "training_target_max": "2019-09-30",
+    "training_origin_max": "2019-09-24"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "calendar",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 14,
+    "refit": "2019-03-01",
+    "parameters": {
+      "num_leaves": 7,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "b42924016886669ae4106f260a8c33e19478d5a6ee295cd9057671bf98e169d5",
+    "query_X_sha256": "d613e6041ac70e69bea6c35b302f7c1ad15ffe652a7fdb796e774973fc67efd1",
+    "training_n": 717,
+    "training_target_max": "2019-02-28",
+    "training_origin_max": "2019-02-15"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "calendar",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 14,
+    "refit": "2019-08-01",
+    "parameters": {
+      "num_leaves": 7,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "c82e53d5d2bb0c8b49141e74d06031ac2a4df237f09406e569e6ec99bcc2ab97",
+    "query_X_sha256": "b3bb42333052a0e912b6b0270382dbf58f5baf01951bade320233af31e67ff83",
+    "training_n": 716,
+    "training_target_max": "2019-07-31",
+    "training_origin_max": "2019-07-18"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "calendar",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 14,
+    "refit": "2019-09-01",
+    "parameters": {
+      "num_leaves": 7,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "f9f134fc50a3468a26a9a55b4284abab9dfa7a47daebd7de09ca04c14dcdbfe7",
+    "query_X_sha256": "d63203d946bbf111a8fa58d7cbf609e517856339e7f5f836f64e7381ac0beeef",
+    "training_n": 716,
+    "training_target_max": "2019-08-31",
+    "training_origin_max": "2019-08-18"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "calendar",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 14,
+    "refit": "2019-10-01",
+    "parameters": {
+      "num_leaves": 7,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "7cbc9e03290833d512b0f2c15171682b82dd0b19ffc9272e144d5f3c43a2c1bc",
+    "query_X_sha256": "cef01c5a20576f7d2652b37aa78a912c7a5944a0474f84173f022f155a2c9358",
+    "training_n": 716,
+    "training_target_max": "2019-09-30",
+    "training_origin_max": "2019-09-17"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "zero5",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 14,
+    "refit": "2019-03-01",
+    "parameters": {
+      "num_leaves": 7,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "bafbe94c10152fe8752c3b9c7773e15efc9c8bd86ade5bddaa7440e6b361e50a",
+    "query_X_sha256": "ec119e2df63722d41aba1133d0f01504b4c18612e69c916b2638d7816237f691",
+    "training_n": 717,
+    "training_target_max": "2019-02-28",
+    "training_origin_max": "2019-02-15"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "zero5",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 14,
+    "refit": "2019-08-01",
+    "parameters": {
+      "num_leaves": 7,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "e9c6fb3b6c506a117a4ff49d02fa911839c32ee73b505996822fabfdaeac6b6a",
+    "query_X_sha256": "e519fed025c3349368e316db03633670223b93fa5dc9c96b212ca0f53c314167",
+    "training_n": 716,
+    "training_target_max": "2019-07-31",
+    "training_origin_max": "2019-07-18"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "zero5",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 14,
+    "refit": "2019-09-01",
+    "parameters": {
+      "num_leaves": 7,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "b194bb7a0b94f646c07d898a22319c3e3dfbc69ee94f9982db4872b451b2b620",
+    "query_X_sha256": "9a5edea688dc6791723d0f6abf70f5d89963e49ba1f85aa168b8197b5d09d1ad",
+    "training_n": 716,
+    "training_target_max": "2019-08-31",
+    "training_origin_max": "2019-08-18"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "zero5",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 14,
+    "refit": "2019-10-01",
+    "parameters": {
+      "num_leaves": 7,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "05cb8ff59835bfb2a181d2aa43561b243d1e09555410ff5366f7d478bf74e41f",
+    "query_X_sha256": "602c44e46764b780f2766bd491d7cb55f8bc228285f76680ea945b4ce3041ae1",
+    "training_n": 716,
+    "training_target_max": "2019-09-30",
+    "training_origin_max": "2019-09-17"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "day5",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 14,
+    "refit": "2019-03-01",
+    "parameters": {
+      "num_leaves": 7,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "3e261de4e9c44b24312e6be8f55620525a9f1a35f8e83562cbc812b47dc8c6f9",
+    "query_X_sha256": "7bbb51a9276361d4cb0d5e0f190d2042be6c902f7d568a4a129a6b9fb795e895",
+    "training_n": 717,
+    "training_target_max": "2019-02-28",
+    "training_origin_max": "2019-02-15"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "day5",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 14,
+    "refit": "2019-08-01",
+    "parameters": {
+      "num_leaves": 7,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "a3255d723ddb77806a8a1ee5ce0f0f9a2da0266e052afd534bf638643e1e6502",
+    "query_X_sha256": "758bdce399d004564dea0f7b32bcde99c432518c8ecad779ada4d26fa02d0169",
+    "training_n": 716,
+    "training_target_max": "2019-07-31",
+    "training_origin_max": "2019-07-18"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "day5",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 14,
+    "refit": "2019-09-01",
+    "parameters": {
+      "num_leaves": 7,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "0390eedf704585a33db7ab721ae4e33ecef5eeb2556ca9aeead3ab340bf30ee0",
+    "query_X_sha256": "0d8a8901498ba9fe30e36c5c3e8ab24c6e22a2d5d0eb196593cf95da829c5302",
+    "training_n": 716,
+    "training_target_max": "2019-08-31",
+    "training_origin_max": "2019-08-18"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "day5",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 14,
+    "refit": "2019-10-01",
+    "parameters": {
+      "num_leaves": 7,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "9290f55b11010841130b847b3f6f403d48e85a5ccf2601a8fa6969abe5dd0235",
+    "query_X_sha256": "496bd5ecb2ec5b31e29d9ae890e9c8aa126e16feb10d11b81da1ae3d8876146d",
+    "training_n": 716,
+    "training_target_max": "2019-09-30",
+    "training_origin_max": "2019-09-17"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "pooled_day5",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 14,
+    "refit": "2019-03-01",
+    "parameters": {
+      "num_leaves": 7,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "158d808be2e95d56d03f253e1514018ad28e53013a9d468489356dc731e91584",
+    "query_X_sha256": "035ba03ca13ae4a7cf9455890974673866331c8755a62b347ab600ee6c179d9a",
+    "training_n": 717,
+    "training_target_max": "2019-02-28",
+    "training_origin_max": "2019-02-15"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "pooled_day5",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 14,
+    "refit": "2019-08-01",
+    "parameters": {
+      "num_leaves": 7,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "7a69cf3de674fd79b2307767556aa204aca7471b0dff3ce80e993184383d90e9",
+    "query_X_sha256": "ec4660536516001456323897ebcf8f3074129701888b587b4fa0f69ff73915cc",
+    "training_n": 716,
+    "training_target_max": "2019-07-31",
+    "training_origin_max": "2019-07-18"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "pooled_day5",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 14,
+    "refit": "2019-09-01",
+    "parameters": {
+      "num_leaves": 7,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "2f537f607b2edb18d77ba5b31b021e4fb237912c33b26ba27bbdb9d6a90e8e89",
+    "query_X_sha256": "ec2a5f9a0cf7a443d60dbd1796d8f12a1817819f6ccc5f8cba9342f42a19d4ed",
+    "training_n": 716,
+    "training_target_max": "2019-08-31",
+    "training_origin_max": "2019-08-18"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "pooled_day5",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 14,
+    "refit": "2019-10-01",
+    "parameters": {
+      "num_leaves": 7,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "7f24bed5580086d630f9b8a1cadc0f4b1b164f456c2a29ee906d8e4342389ec4",
+    "query_X_sha256": "fcaa9d0c771fd56966fa4ce886157ee9153885e29d2006541be4e04974409c72",
+    "training_n": 716,
+    "training_target_max": "2019-09-30",
+    "training_origin_max": "2019-09-17"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "placebo_day5",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 14,
+    "refit": "2019-03-01",
+    "parameters": {
+      "num_leaves": 7,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "b21d3407ef275ad820a7cec2d74c499aa87bc256ad761fb18d02d093ac3ee433",
+    "query_X_sha256": "ec119e2df63722d41aba1133d0f01504b4c18612e69c916b2638d7816237f691",
+    "training_n": 717,
+    "training_target_max": "2019-02-28",
+    "training_origin_max": "2019-02-15"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "placebo_day5",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 14,
+    "refit": "2019-08-01",
+    "parameters": {
+      "num_leaves": 7,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "5afb509a28b57e992991cca5e7e40b3686f52fa0757c37c802bb97056319fb8e",
+    "query_X_sha256": "e519fed025c3349368e316db03633670223b93fa5dc9c96b212ca0f53c314167",
+    "training_n": 716,
+    "training_target_max": "2019-07-31",
+    "training_origin_max": "2019-07-18"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "placebo_day5",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 14,
+    "refit": "2019-09-01",
+    "parameters": {
+      "num_leaves": 7,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "2ea2d249d3b413429090a27bcb102f8f1497ca91ef04d1293975c557e61784aa",
+    "query_X_sha256": "9a5edea688dc6791723d0f6abf70f5d89963e49ba1f85aa168b8197b5d09d1ad",
+    "training_n": 716,
+    "training_target_max": "2019-08-31",
+    "training_origin_max": "2019-08-18"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "placebo_day5",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 14,
+    "refit": "2019-10-01",
+    "parameters": {
+      "num_leaves": 7,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "2616106a69fda9a0d3651ec53cb4dfa198b0386be910c5935ca75acf4adb8e87",
+    "query_X_sha256": "602c44e46764b780f2766bd491d7cb55f8bc228285f76680ea945b4ce3041ae1",
+    "training_n": 716,
+    "training_target_max": "2019-09-30",
+    "training_origin_max": "2019-09-17"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "calendar",
+    "state": "Maharashtra",
+    "year": 2020,
+    "horizon": 1,
+    "refit": "2020-03-01",
+    "parameters": {
+      "num_leaves": 31,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "7746fdb4152963d0612c286645df0b6b5fff39d2d490729a94f14388f69c017e",
+    "query_X_sha256": "d18bb0889a381b3053dcefa441e5185af5a8a254590f936e469ae8e3d68193b4",
+    "training_n": 729,
+    "training_target_max": "2020-02-29",
+    "training_origin_max": "2020-02-29"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "calendar",
+    "state": "Maharashtra",
+    "year": 2020,
+    "horizon": 1,
+    "refit": "2020-08-01",
+    "parameters": {
+      "num_leaves": 31,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "feaa59af05cd61acbec155210f3217136899fc2724ff32ba031c2fee300ba3bc",
+    "query_X_sha256": "f18ae4a5421146965830e86b974ffe5f430ae3d98a2119eed88dd98918d19a26",
+    "training_n": 729,
+    "training_target_max": "2020-07-31",
+    "training_origin_max": "2020-07-31"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "calendar",
+    "state": "Maharashtra",
+    "year": 2020,
+    "horizon": 1,
+    "refit": "2020-10-01",
+    "parameters": {
+      "num_leaves": 31,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "152959d2585e7a312b642a98692ee1ff433aa50c5a7365c557706a208895e7f0",
+    "query_X_sha256": "c71104c53add2c488280356f510e291b07455a10be70084ce24d4251a2bd6a41",
+    "training_n": 728,
+    "training_target_max": "2020-09-29",
+    "training_origin_max": "2020-09-29"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "calendar",
+    "state": "Maharashtra",
+    "year": 2020,
+    "horizon": 1,
+    "refit": "2020-11-01",
+    "parameters": {
+      "num_leaves": 31,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "518ddc43347843f920c68244c24f2da6397840802c81c54f44d5b659d6bc5918",
+    "query_X_sha256": "f641778d477acc599de0378251e84fbd7c1d37f2431bc8abe216da3434f02525",
+    "training_n": 728,
+    "training_target_max": "2020-10-31",
+    "training_origin_max": "2020-10-31"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "zero5",
+    "state": "Maharashtra",
+    "year": 2020,
+    "horizon": 1,
+    "refit": "2020-03-01",
+    "parameters": {
+      "num_leaves": 31,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "c3ab38ae05fb625d59d7205f79af5dc5da16283a5ab7f334433d2aff52f4101c",
+    "query_X_sha256": "ee4a23050f86f2915041a581828da3b9ced176c2bf8236629d9f89de97e1d0a5",
+    "training_n": 729,
+    "training_target_max": "2020-02-29",
+    "training_origin_max": "2020-02-29"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "zero5",
+    "state": "Maharashtra",
+    "year": 2020,
+    "horizon": 1,
+    "refit": "2020-08-01",
+    "parameters": {
+      "num_leaves": 31,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "ec5bd32e485e23935ab6c0eae3a709d4bf351365131f4b636df761df87ebe9b0",
+    "query_X_sha256": "b7259033692c11e8458dd0b60caa81d22f599ac27aafa54387475251331600c7",
+    "training_n": 729,
+    "training_target_max": "2020-07-31",
+    "training_origin_max": "2020-07-31"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "zero5",
+    "state": "Maharashtra",
+    "year": 2020,
+    "horizon": 1,
+    "refit": "2020-10-01",
+    "parameters": {
+      "num_leaves": 31,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "872137a701c8fb551a71bc809788baadfac6ebea14d9927e2ce761efad2035e4",
+    "query_X_sha256": "759af310aeaa2f6f4a3bbb6fecd1d5c1dae8fad2f2c70763ba94c355f7ad650b",
+    "training_n": 728,
+    "training_target_max": "2020-09-29",
+    "training_origin_max": "2020-09-29"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "zero5",
+    "state": "Maharashtra",
+    "year": 2020,
+    "horizon": 1,
+    "refit": "2020-11-01",
+    "parameters": {
+      "num_leaves": 31,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "0dae20012d5b3bd05915ab2488113c23520addce542fafb0d0746e168b660103",
+    "query_X_sha256": "3b3d10ff3c0188e127f038392cc7a34574c3936a95b9dfe1b7d75ee165afdbb8",
+    "training_n": 728,
+    "training_target_max": "2020-10-31",
+    "training_origin_max": "2020-10-31"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "day5",
+    "state": "Maharashtra",
+    "year": 2020,
+    "horizon": 1,
+    "refit": "2020-03-01",
+    "parameters": {
+      "num_leaves": 31,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "b43a8f1235d8099f111ba4a92b11eec405aff6861e3d008a5c823b117f18f086",
+    "query_X_sha256": "3dd88ecce397640b27391196aab36a0f96d83484c9ba9d84a6da44f61627dde1",
+    "training_n": 729,
+    "training_target_max": "2020-02-29",
+    "training_origin_max": "2020-02-29"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "day5",
+    "state": "Maharashtra",
+    "year": 2020,
+    "horizon": 1,
+    "refit": "2020-08-01",
+    "parameters": {
+      "num_leaves": 31,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "3c3b33b0bf365261e2dc338e066767f996fa48de1bd0dcc8df50770dded648bf",
+    "query_X_sha256": "2d15b3151043146f5fb87489a600dbe55fd82f5295f80b99943ec2060cc1f60c",
+    "training_n": 729,
+    "training_target_max": "2020-07-31",
+    "training_origin_max": "2020-07-31"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "day5",
+    "state": "Maharashtra",
+    "year": 2020,
+    "horizon": 1,
+    "refit": "2020-10-01",
+    "parameters": {
+      "num_leaves": 31,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "225678ca3531f9409858be4dd1bc268aaba8b61d9a968ea2c299a9e7fa3aa1df",
+    "query_X_sha256": "6342e72bb019efd36b705131bc0215654642742fe7ab97075b3d81dec790334c",
+    "training_n": 728,
+    "training_target_max": "2020-09-29",
+    "training_origin_max": "2020-09-29"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "day5",
+    "state": "Maharashtra",
+    "year": 2020,
+    "horizon": 1,
+    "refit": "2020-11-01",
+    "parameters": {
+      "num_leaves": 31,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "59107c1c5aff6f8d13869b15d2d451d8a6bed7dde71ca4551e98b00ae1afb9f5",
+    "query_X_sha256": "857380005c947166c164ec945b2ffa54b70a3dbde9b97dfd9e755348663425fc",
+    "training_n": 728,
+    "training_target_max": "2020-10-31",
+    "training_origin_max": "2020-10-31"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "pooled_day5",
+    "state": "Maharashtra",
+    "year": 2020,
+    "horizon": 1,
+    "refit": "2020-03-01",
+    "parameters": {
+      "num_leaves": 31,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "3d46ab6acb11698e2af7d8f04da33a2f1494168ed1ef712770adb9eedaecd413",
+    "query_X_sha256": "050dd6ef1d05fd5003843ee7e1718523468a53463b13e9c3f0e16679766f5d7f",
+    "training_n": 729,
+    "training_target_max": "2020-02-29",
+    "training_origin_max": "2020-02-29"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "pooled_day5",
+    "state": "Maharashtra",
+    "year": 2020,
+    "horizon": 1,
+    "refit": "2020-08-01",
+    "parameters": {
+      "num_leaves": 31,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "7f125a83c4193b872d0f5fded0a05aa780608a9cc43d066e270ed4e4530a82a7",
+    "query_X_sha256": "0b739ad07129a602833ff5ac8c4e986751ea5b9933f3cc6221fb0f17161b16b6",
+    "training_n": 729,
+    "training_target_max": "2020-07-31",
+    "training_origin_max": "2020-07-31"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "pooled_day5",
+    "state": "Maharashtra",
+    "year": 2020,
+    "horizon": 1,
+    "refit": "2020-10-01",
+    "parameters": {
+      "num_leaves": 31,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "0b7b1048e7e4cf4ebad850032fd3e5479e6a7106566294a6548f436ce5f377b6",
+    "query_X_sha256": "1f0747af522106746f0609d18062b18a6be511d75d866d3f98b162e81411034f",
+    "training_n": 728,
+    "training_target_max": "2020-09-29",
+    "training_origin_max": "2020-09-29"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "pooled_day5",
+    "state": "Maharashtra",
+    "year": 2020,
+    "horizon": 1,
+    "refit": "2020-11-01",
+    "parameters": {
+      "num_leaves": 31,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "cd0ce96c175b5fb7ee24cac7b817d049b3f9d7acbd650b235c97d398afb1e55b",
+    "query_X_sha256": "c5e3736fafb80f14cfbddc03c09995c3cc6d9a8dbb3d0a20da57763bd816a959",
+    "training_n": 728,
+    "training_target_max": "2020-10-31",
+    "training_origin_max": "2020-10-31"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "placebo_day5",
+    "state": "Maharashtra",
+    "year": 2020,
+    "horizon": 1,
+    "refit": "2020-03-01",
+    "parameters": {
+      "num_leaves": 31,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "c56c256d91fc8e3f743f45630ae54159756a58dc1b36f962e9898254f432cca9",
+    "query_X_sha256": "ee4a23050f86f2915041a581828da3b9ced176c2bf8236629d9f89de97e1d0a5",
+    "training_n": 729,
+    "training_target_max": "2020-02-29",
+    "training_origin_max": "2020-02-29"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "placebo_day5",
+    "state": "Maharashtra",
+    "year": 2020,
+    "horizon": 1,
+    "refit": "2020-08-01",
+    "parameters": {
+      "num_leaves": 31,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "5e257d57a99d3045409fea562eeb1d5afc29181b1560e3642cbd82d5929baaa2",
+    "query_X_sha256": "b7259033692c11e8458dd0b60caa81d22f599ac27aafa54387475251331600c7",
+    "training_n": 729,
+    "training_target_max": "2020-07-31",
+    "training_origin_max": "2020-07-31"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "placebo_day5",
+    "state": "Maharashtra",
+    "year": 2020,
+    "horizon": 1,
+    "refit": "2020-10-01",
+    "parameters": {
+      "num_leaves": 31,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "4c898f895b105135eefa306bad49a19eedb9a1d7a1223fdadd0287d7d8d2813f",
+    "query_X_sha256": "759af310aeaa2f6f4a3bbb6fecd1d5c1dae8fad2f2c70763ba94c355f7ad650b",
+    "training_n": 728,
+    "training_target_max": "2020-09-29",
+    "training_origin_max": "2020-09-29"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "placebo_day5",
+    "state": "Maharashtra",
+    "year": 2020,
+    "horizon": 1,
+    "refit": "2020-11-01",
+    "parameters": {
+      "num_leaves": 31,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "d7ed42aa6621d00ac9b573e06016fe9ff2edfebd8ae28b66d1b9e1bde8ce1422",
+    "query_X_sha256": "3b3d10ff3c0188e127f038392cc7a34574c3936a95b9dfe1b7d75ee165afdbb8",
+    "training_n": 728,
+    "training_target_max": "2020-10-31",
+    "training_origin_max": "2020-10-31"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "calendar",
+    "state": "Maharashtra",
+    "year": 2020,
+    "horizon": 7,
+    "refit": "2020-03-01",
+    "parameters": {
+      "num_leaves": 31,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "10ca93b719bc73bb4327bfd4cc95a2840d7b6b0c5550899a6713bf430983b120",
+    "query_X_sha256": "2be528dbba3da164bd19fc6438437de46b9caddb5039f47ca53c7f7f3df2c494",
+    "training_n": 723,
+    "training_target_max": "2020-02-29",
+    "training_origin_max": "2020-02-23"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "calendar",
+    "state": "Maharashtra",
+    "year": 2020,
+    "horizon": 7,
+    "refit": "2020-08-01",
+    "parameters": {
+      "num_leaves": 31,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "455a850e4a9019e01d374baad9ccf49cf9849472843925029fb71beafb8998ea",
+    "query_X_sha256": "af8b6a4231e9135d4ae8c50c746c45fc6f035c06e0fd05c2e9b9c1fbb685c0c4",
+    "training_n": 723,
+    "training_target_max": "2020-07-31",
+    "training_origin_max": "2020-07-25"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "calendar",
+    "state": "Maharashtra",
+    "year": 2020,
+    "horizon": 7,
+    "refit": "2020-10-01",
+    "parameters": {
+      "num_leaves": 31,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "3ad8fc687b47c2c696fb7e6832bb403044d7dd42121689c06cc32e309b52397c",
+    "query_X_sha256": "904fde8d8712493ad8ec0bf62146b8e9ba133e9827d94cb52db6656796b4832a",
+    "training_n": 722,
+    "training_target_max": "2020-09-29",
+    "training_origin_max": "2020-09-23"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "calendar",
+    "state": "Maharashtra",
+    "year": 2020,
+    "horizon": 7,
+    "refit": "2020-11-01",
+    "parameters": {
+      "num_leaves": 31,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "83059a267be8a9e0fa134b79c1ae353d0cae69626922f9cc05ef06e252243f47",
+    "query_X_sha256": "1728884eb0ad53812cae1d5ab185b26232f3976599ed5f30ed2cb930b95abe1b",
+    "training_n": 722,
+    "training_target_max": "2020-10-31",
+    "training_origin_max": "2020-10-25"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "zero5",
+    "state": "Maharashtra",
+    "year": 2020,
+    "horizon": 7,
+    "refit": "2020-03-01",
+    "parameters": {
+      "num_leaves": 31,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "f6436086b1818fed95ccea45b00b64c4124391a340a517cbfcb373e52ea9a22c",
+    "query_X_sha256": "8f0bc6accf9728866568572a92e1bea22b48933d517a653bbccdc54005213954",
+    "training_n": 723,
+    "training_target_max": "2020-02-29",
+    "training_origin_max": "2020-02-23"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "zero5",
+    "state": "Maharashtra",
+    "year": 2020,
+    "horizon": 7,
+    "refit": "2020-08-01",
+    "parameters": {
+      "num_leaves": 31,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "884119d2dfe5415a1bdc1ce8a4c4dac049188aaee7fefac6dc83b08473c058df",
+    "query_X_sha256": "1b9c558c678fe392dff7186394a27f18ec354e9ec55d6394acb304b6fca7dd52",
+    "training_n": 723,
+    "training_target_max": "2020-07-31",
+    "training_origin_max": "2020-07-25"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "zero5",
+    "state": "Maharashtra",
+    "year": 2020,
+    "horizon": 7,
+    "refit": "2020-10-01",
+    "parameters": {
+      "num_leaves": 31,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "80227303966402c9c6e683a922001adafbf6e14ec50581699694f6104e351dfb",
+    "query_X_sha256": "1a019a919d2e4f4640fe89fba821b628ec9415211ba73b3803dd46535a1f5a4f",
+    "training_n": 722,
+    "training_target_max": "2020-09-29",
+    "training_origin_max": "2020-09-23"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "zero5",
+    "state": "Maharashtra",
+    "year": 2020,
+    "horizon": 7,
+    "refit": "2020-11-01",
+    "parameters": {
+      "num_leaves": 31,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "32874150c10d11c1256d46c4b6d7a7846bb04d0a61c41dc028ffce6c8f2b7450",
+    "query_X_sha256": "165011711349b9a5413b9c47ad9479cb226ac1de1c6dfb4309e46792f765d4c4",
+    "training_n": 722,
+    "training_target_max": "2020-10-31",
+    "training_origin_max": "2020-10-25"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "day5",
+    "state": "Maharashtra",
+    "year": 2020,
+    "horizon": 7,
+    "refit": "2020-03-01",
+    "parameters": {
+      "num_leaves": 31,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "a446180113046d670c57dfe3f9ef0c7a336fcffa0125425927ff55825951c6c2",
+    "query_X_sha256": "90d2c059d94c80302c5342a4c9cde62ae3922abcfd4593581262363838e3dcc2",
+    "training_n": 723,
+    "training_target_max": "2020-02-29",
+    "training_origin_max": "2020-02-23"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "day5",
+    "state": "Maharashtra",
+    "year": 2020,
+    "horizon": 7,
+    "refit": "2020-08-01",
+    "parameters": {
+      "num_leaves": 31,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "95d5c569f83a389ae8d7e5075744b34b3a281b78db435c7141f35704f873e5a4",
+    "query_X_sha256": "52a656e8f137be624d3daf61dfbf78aeed4b81ce8beba5dffc0aa3f3a74860c4",
+    "training_n": 723,
+    "training_target_max": "2020-07-31",
+    "training_origin_max": "2020-07-25"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "day5",
+    "state": "Maharashtra",
+    "year": 2020,
+    "horizon": 7,
+    "refit": "2020-10-01",
+    "parameters": {
+      "num_leaves": 31,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "e584768b6e73860d55a95a9c1043465761120a3a2d5ea3771d56709340c7b73d",
+    "query_X_sha256": "8820170f6d19924bd8fa7a78cb0a6dce3b28bc88618016418fe94e210e7cf7b8",
+    "training_n": 722,
+    "training_target_max": "2020-09-29",
+    "training_origin_max": "2020-09-23"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "day5",
+    "state": "Maharashtra",
+    "year": 2020,
+    "horizon": 7,
+    "refit": "2020-11-01",
+    "parameters": {
+      "num_leaves": 31,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "66846a19d790929d8fff5b9daeec720872431a020e99c0c0547a7ad221b8d778",
+    "query_X_sha256": "c134e72235431a5a8b9979cbec5b70fc181abd28ea9e463fc579b8bac1815521",
+    "training_n": 722,
+    "training_target_max": "2020-10-31",
+    "training_origin_max": "2020-10-25"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "pooled_day5",
+    "state": "Maharashtra",
+    "year": 2020,
+    "horizon": 7,
+    "refit": "2020-03-01",
+    "parameters": {
+      "num_leaves": 31,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "5afb2f1bb8b3602efae3d5211eab0d7983e5858ab54c4aecb68640935d5c8f48",
+    "query_X_sha256": "5993edda2fc2950893529d1542cb142a60d0c037f12b13c27f9a3e4d409bb508",
+    "training_n": 723,
+    "training_target_max": "2020-02-29",
+    "training_origin_max": "2020-02-23"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "pooled_day5",
+    "state": "Maharashtra",
+    "year": 2020,
+    "horizon": 7,
+    "refit": "2020-08-01",
+    "parameters": {
+      "num_leaves": 31,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "b24db6d02d3502284d490e6e3623c42d2820e426db990e1b4f3032b0ef4f6c9a",
+    "query_X_sha256": "aaa5620b7e6ff24e8baa81348cf7079b100873c4dc38c15d0ed20d1638d9cfe7",
+    "training_n": 723,
+    "training_target_max": "2020-07-31",
+    "training_origin_max": "2020-07-25"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "pooled_day5",
+    "state": "Maharashtra",
+    "year": 2020,
+    "horizon": 7,
+    "refit": "2020-10-01",
+    "parameters": {
+      "num_leaves": 31,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "258c875125abb98ccde6edd0d2ad0b2ba0245d1489cc22dfe6dd430e2829127b",
+    "query_X_sha256": "d9dffa74b814229a86f05e4e811c61f1abe7ede6c21a0992a679bebe1f03f9a5",
+    "training_n": 722,
+    "training_target_max": "2020-09-29",
+    "training_origin_max": "2020-09-23"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "pooled_day5",
+    "state": "Maharashtra",
+    "year": 2020,
+    "horizon": 7,
+    "refit": "2020-11-01",
+    "parameters": {
+      "num_leaves": 31,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "5b71a4a0357032fb350f488abba813190b3911016e157bfcf0babe4502268bed",
+    "query_X_sha256": "e4ac85cca48b8ac7781065d3ff51baafee98ec2255552cc718fd5da95de190b0",
+    "training_n": 722,
+    "training_target_max": "2020-10-31",
+    "training_origin_max": "2020-10-25"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "placebo_day5",
+    "state": "Maharashtra",
+    "year": 2020,
+    "horizon": 7,
+    "refit": "2020-03-01",
+    "parameters": {
+      "num_leaves": 31,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "c4305d500e6d634034f0b4b53fc36dffc52bae20b1cf76a443a0ad0bac362e05",
+    "query_X_sha256": "8f0bc6accf9728866568572a92e1bea22b48933d517a653bbccdc54005213954",
+    "training_n": 723,
+    "training_target_max": "2020-02-29",
+    "training_origin_max": "2020-02-23"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "placebo_day5",
+    "state": "Maharashtra",
+    "year": 2020,
+    "horizon": 7,
+    "refit": "2020-08-01",
+    "parameters": {
+      "num_leaves": 31,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "8db6b1474eb6c49fddc254b095293a4c1c4208b666075e70dd017f0e4c21a114",
+    "query_X_sha256": "1b9c558c678fe392dff7186394a27f18ec354e9ec55d6394acb304b6fca7dd52",
+    "training_n": 723,
+    "training_target_max": "2020-07-31",
+    "training_origin_max": "2020-07-25"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "placebo_day5",
+    "state": "Maharashtra",
+    "year": 2020,
+    "horizon": 7,
+    "refit": "2020-10-01",
+    "parameters": {
+      "num_leaves": 31,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "2daa6322b12add3427baa02e8cd913d5f70f7d7bd07f8520f95fc38b2acd0a69",
+    "query_X_sha256": "1a019a919d2e4f4640fe89fba821b628ec9415211ba73b3803dd46535a1f5a4f",
+    "training_n": 722,
+    "training_target_max": "2020-09-29",
+    "training_origin_max": "2020-09-23"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "placebo_day5",
+    "state": "Maharashtra",
+    "year": 2020,
+    "horizon": 7,
+    "refit": "2020-11-01",
+    "parameters": {
+      "num_leaves": 31,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "7280654a5cfed6c8c04e68c3fe929c245a53ac0a267cc32b4933c2d47d4c355e",
+    "query_X_sha256": "165011711349b9a5413b9c47ad9479cb226ac1de1c6dfb4309e46792f765d4c4",
+    "training_n": 722,
+    "training_target_max": "2020-10-31",
+    "training_origin_max": "2020-10-25"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "calendar",
+    "state": "Maharashtra",
+    "year": 2020,
+    "horizon": 14,
+    "refit": "2020-02-01",
+    "parameters": {
+      "num_leaves": 31,
+      "n_estimators": 500,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "d85a2303d56600166212bf1aecf521e0dbb8f3d0017f3acee1bb67052a217032",
+    "query_X_sha256": "c1c05deb853f7008614557990ad04d9b73260e37e2b1500ba7e9cab90cb384d0",
+    "training_n": 716,
+    "training_target_max": "2020-01-31",
+    "training_origin_max": "2020-01-18"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "calendar",
+    "state": "Maharashtra",
+    "year": 2020,
+    "horizon": 14,
+    "refit": "2020-03-01",
+    "parameters": {
+      "num_leaves": 31,
+      "n_estimators": 500,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "df51f6f14ddfa29b62dd8c45d732da0521ba49b90d03e9f482bcf6279ea07499",
+    "query_X_sha256": "b00e16657cf2ee3433cc9dc6592e600aa0f4dc5396fee2d9cb21278e41603371",
+    "training_n": 716,
+    "training_target_max": "2020-02-29",
+    "training_origin_max": "2020-02-16"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "calendar",
+    "state": "Maharashtra",
+    "year": 2020,
+    "horizon": 14,
+    "refit": "2020-08-01",
+    "parameters": {
+      "num_leaves": 31,
+      "n_estimators": 500,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "7229105bef53239ca5bd977d9f5fd006f0d158f8cab3f12b7ae96dadbdc9e5f9",
+    "query_X_sha256": "be243341db37e5cb6af7cc7ca8563c88b92b2a10693b1096b77e446d5d14a91b",
+    "training_n": 716,
+    "training_target_max": "2020-07-31",
+    "training_origin_max": "2020-07-18"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "calendar",
+    "state": "Maharashtra",
+    "year": 2020,
+    "horizon": 14,
+    "refit": "2020-10-01",
+    "parameters": {
+      "num_leaves": 31,
+      "n_estimators": 500,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "d210ef90df2997005ded6a89a0f18ba457e6ac1df11f1c09ad74c2c85c1f3441",
+    "query_X_sha256": "06ca044c7d480264637cee10d5806d4e1e355d24c659526ac99121e3889f09e9",
+    "training_n": 715,
+    "training_target_max": "2020-09-29",
+    "training_origin_max": "2020-09-16"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "calendar",
+    "state": "Maharashtra",
+    "year": 2020,
+    "horizon": 14,
+    "refit": "2020-11-01",
+    "parameters": {
+      "num_leaves": 31,
+      "n_estimators": 500,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "bad560139e47deab05c9288902568bf1b48ca99bf7a1ac6c80dc5887a6520f43",
+    "query_X_sha256": "92dea99021b7ceeb36c54011a1669ff546b0c7354c15ef28ff626c0421130620",
+    "training_n": 715,
+    "training_target_max": "2020-10-31",
+    "training_origin_max": "2020-10-18"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "zero5",
+    "state": "Maharashtra",
+    "year": 2020,
+    "horizon": 14,
+    "refit": "2020-02-01",
+    "parameters": {
+      "num_leaves": 31,
+      "n_estimators": 500,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "c69108a37efe6ad19c69022f2d82c9749a390f44b85e4e6992554ca7790c1ded",
+    "query_X_sha256": "ced9f4337856787ffd55ec0fc18cc5376ea836de3599592630ac916bda12695c",
+    "training_n": 716,
+    "training_target_max": "2020-01-31",
+    "training_origin_max": "2020-01-18"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "zero5",
+    "state": "Maharashtra",
+    "year": 2020,
+    "horizon": 14,
+    "refit": "2020-03-01",
+    "parameters": {
+      "num_leaves": 31,
+      "n_estimators": 500,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "a1b1285d046064f44e4a213e0f773bbbf3bcf3cb5aa987b185d36f33a4c3dfa6",
+    "query_X_sha256": "c5ff701325b1e49cb29a79fcc9ec7f078351648cee2279c0dc59206391a6e521",
+    "training_n": 716,
+    "training_target_max": "2020-02-29",
+    "training_origin_max": "2020-02-16"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "zero5",
+    "state": "Maharashtra",
+    "year": 2020,
+    "horizon": 14,
+    "refit": "2020-08-01",
+    "parameters": {
+      "num_leaves": 31,
+      "n_estimators": 500,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "35aa4865b128668ce4750d817d29d3dafe073f64318fb16f0408f45a0a062cc8",
+    "query_X_sha256": "ff1a370db7a95121ad38d4aa2f6e443ffb12194b21ad166660bf84696b3593ee",
+    "training_n": 716,
+    "training_target_max": "2020-07-31",
+    "training_origin_max": "2020-07-18"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "zero5",
+    "state": "Maharashtra",
+    "year": 2020,
+    "horizon": 14,
+    "refit": "2020-10-01",
+    "parameters": {
+      "num_leaves": 31,
+      "n_estimators": 500,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "a895702dd3c39bdfb19bebe55c6ded7120b43c88d3449b440a05928bd62485d3",
+    "query_X_sha256": "ca0a2cb752fe8b856e89d6ee7e4ce4669ac9a76ce400b2af26529334513644fb",
+    "training_n": 715,
+    "training_target_max": "2020-09-29",
+    "training_origin_max": "2020-09-16"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "zero5",
+    "state": "Maharashtra",
+    "year": 2020,
+    "horizon": 14,
+    "refit": "2020-11-01",
+    "parameters": {
+      "num_leaves": 31,
+      "n_estimators": 500,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "7e79c82b6fe047fbd4baf85da3fd04dd44fd032f0753d298b11d0b551babc3af",
+    "query_X_sha256": "2546d2d31e6950d7ce75cceee4308fd2e28f7a3ec9abe93ef4512bdd6ff05701",
+    "training_n": 715,
+    "training_target_max": "2020-10-31",
+    "training_origin_max": "2020-10-18"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "day5",
+    "state": "Maharashtra",
+    "year": 2020,
+    "horizon": 14,
+    "refit": "2020-02-01",
+    "parameters": {
+      "num_leaves": 31,
+      "n_estimators": 500,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "f3f4fad60f1119cde8a7b3f1b4efd95a46d529aea9d52deebde22f5cc6054cbe",
+    "query_X_sha256": "d818a6eb6c71a9be77e5c28718fff31035f0edf83b8519f8c59664895055f374",
+    "training_n": 716,
+    "training_target_max": "2020-01-31",
+    "training_origin_max": "2020-01-18"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "day5",
+    "state": "Maharashtra",
+    "year": 2020,
+    "horizon": 14,
+    "refit": "2020-03-01",
+    "parameters": {
+      "num_leaves": 31,
+      "n_estimators": 500,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "1eb69f2361c8976d717c9b6e7329a117c0383014d08c63a0172c0d9acc0a9ec9",
+    "query_X_sha256": "a88fbe861ce0621bfdcbf744631c8154119b834aca4afbec485dbf1ba20d57e2",
+    "training_n": 716,
+    "training_target_max": "2020-02-29",
+    "training_origin_max": "2020-02-16"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "day5",
+    "state": "Maharashtra",
+    "year": 2020,
+    "horizon": 14,
+    "refit": "2020-08-01",
+    "parameters": {
+      "num_leaves": 31,
+      "n_estimators": 500,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "e768a5d04e8294ac75ddbc3de4b01dee4a0905180497ccaff265b5c39ce32ab0",
+    "query_X_sha256": "b13c1edf96a4d037d573a3595e90c3e7dd55d8745c47ba8dbd085d50fb32f06b",
+    "training_n": 716,
+    "training_target_max": "2020-07-31",
+    "training_origin_max": "2020-07-18"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "day5",
+    "state": "Maharashtra",
+    "year": 2020,
+    "horizon": 14,
+    "refit": "2020-10-01",
+    "parameters": {
+      "num_leaves": 31,
+      "n_estimators": 500,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "13d20537606476696add51f5a17cf0bac0dfd8f2277c9dc73b2107cb8f07847b",
+    "query_X_sha256": "5ad07e09bc9bc0d61c8d3d0f5d18f9f1bec05ed76f68aa6d414f4267e7480b4d",
+    "training_n": 715,
+    "training_target_max": "2020-09-29",
+    "training_origin_max": "2020-09-16"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "day5",
+    "state": "Maharashtra",
+    "year": 2020,
+    "horizon": 14,
+    "refit": "2020-11-01",
+    "parameters": {
+      "num_leaves": 31,
+      "n_estimators": 500,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "7beaa0845aefd1e45959544e85ef41e5fe2b5746b4caed75c6d68936308f0cd8",
+    "query_X_sha256": "c84db24ecf60a7cd2bb9142e0047be7b4d8eca930a516610e1791ad33b2c1e22",
+    "training_n": 715,
+    "training_target_max": "2020-10-31",
+    "training_origin_max": "2020-10-18"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "pooled_day5",
+    "state": "Maharashtra",
+    "year": 2020,
+    "horizon": 14,
+    "refit": "2020-02-01",
+    "parameters": {
+      "num_leaves": 31,
+      "n_estimators": 500,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "4789ccf0e236ba71b245566fcd192fe227ca5eb7bce96c0c19ba75384b5d5f29",
+    "query_X_sha256": "d818a6eb6c71a9be77e5c28718fff31035f0edf83b8519f8c59664895055f374",
+    "training_n": 716,
+    "training_target_max": "2020-01-31",
+    "training_origin_max": "2020-01-18"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "pooled_day5",
+    "state": "Maharashtra",
+    "year": 2020,
+    "horizon": 14,
+    "refit": "2020-03-01",
+    "parameters": {
+      "num_leaves": 31,
+      "n_estimators": 500,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "fe5385c021b1eb82db1919c13f2894c0ff913b72b7ba22b3eb6d29ab9d5347e1",
+    "query_X_sha256": "64756cfdbf2057f08df0f37c1a81e3e7b5a01ee3d0e07fc252120d65194eab3a",
+    "training_n": 716,
+    "training_target_max": "2020-02-29",
+    "training_origin_max": "2020-02-16"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "pooled_day5",
+    "state": "Maharashtra",
+    "year": 2020,
+    "horizon": 14,
+    "refit": "2020-08-01",
+    "parameters": {
+      "num_leaves": 31,
+      "n_estimators": 500,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "dfedf5de64910ff4319b8f19f50d463d61f2192b7373dcdc4d5d2f21562bfe43",
+    "query_X_sha256": "e151459c424b2d0c5c3f3dd214323c8f797a3ab01c709eaf72e5dbdccb0f8c3b",
+    "training_n": 716,
+    "training_target_max": "2020-07-31",
+    "training_origin_max": "2020-07-18"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "pooled_day5",
+    "state": "Maharashtra",
+    "year": 2020,
+    "horizon": 14,
+    "refit": "2020-10-01",
+    "parameters": {
+      "num_leaves": 31,
+      "n_estimators": 500,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "eb83d49227be1f17e4bfbfa127762f41812a5fcf9152c1102366f4bc0aae49c0",
+    "query_X_sha256": "0d7eff1ff49d631704a11f6a38d278b89d9c1f3a7a7bf37fe1a99b459146965e",
+    "training_n": 715,
+    "training_target_max": "2020-09-29",
+    "training_origin_max": "2020-09-16"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "pooled_day5",
+    "state": "Maharashtra",
+    "year": 2020,
+    "horizon": 14,
+    "refit": "2020-11-01",
+    "parameters": {
+      "num_leaves": 31,
+      "n_estimators": 500,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "a101b0ae9bf11d8cc7e81400572b51f73941f4b6857f9d54a7b93c9a8686cddd",
+    "query_X_sha256": "83f2dc8913b87b2feb7ee9c6bd291a86c60df0512e5b7c2722908549c3ef1f15",
+    "training_n": 715,
+    "training_target_max": "2020-10-31",
+    "training_origin_max": "2020-10-18"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "placebo_day5",
+    "state": "Maharashtra",
+    "year": 2020,
+    "horizon": 14,
+    "refit": "2020-02-01",
+    "parameters": {
+      "num_leaves": 31,
+      "n_estimators": 500,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "5bb4768e2f1b95f7df898ace4e733270d25e73ca348403134dac14692aaceb5c",
+    "query_X_sha256": "ced9f4337856787ffd55ec0fc18cc5376ea836de3599592630ac916bda12695c",
+    "training_n": 716,
+    "training_target_max": "2020-01-31",
+    "training_origin_max": "2020-01-18"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "placebo_day5",
+    "state": "Maharashtra",
+    "year": 2020,
+    "horizon": 14,
+    "refit": "2020-03-01",
+    "parameters": {
+      "num_leaves": 31,
+      "n_estimators": 500,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "eed070b1680b02a283d57de47d5d8b3c1a95d50ee39c1be205f4225889a13777",
+    "query_X_sha256": "c5ff701325b1e49cb29a79fcc9ec7f078351648cee2279c0dc59206391a6e521",
+    "training_n": 716,
+    "training_target_max": "2020-02-29",
+    "training_origin_max": "2020-02-16"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "placebo_day5",
+    "state": "Maharashtra",
+    "year": 2020,
+    "horizon": 14,
+    "refit": "2020-08-01",
+    "parameters": {
+      "num_leaves": 31,
+      "n_estimators": 500,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "df88d7d1f75fd5cbe505a7647784a9af5615d00f8c1580d520960165bc60a51c",
+    "query_X_sha256": "ff1a370db7a95121ad38d4aa2f6e443ffb12194b21ad166660bf84696b3593ee",
+    "training_n": 716,
+    "training_target_max": "2020-07-31",
+    "training_origin_max": "2020-07-18"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "placebo_day5",
+    "state": "Maharashtra",
+    "year": 2020,
+    "horizon": 14,
+    "refit": "2020-10-01",
+    "parameters": {
+      "num_leaves": 31,
+      "n_estimators": 500,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "df65e533976e58b0407781f17afc2ec267026b861f4481ad61f387d5febf5097",
+    "query_X_sha256": "ca0a2cb752fe8b856e89d6ee7e4ce4669ac9a76ce400b2af26529334513644fb",
+    "training_n": 715,
+    "training_target_max": "2020-09-29",
+    "training_origin_max": "2020-09-16"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "placebo_day5",
+    "state": "Maharashtra",
+    "year": 2020,
+    "horizon": 14,
+    "refit": "2020-11-01",
+    "parameters": {
+      "num_leaves": 31,
+      "n_estimators": 500,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "713f2165c6e45291cdb1c29be7a0e4d966e158ea57a6242000a4f89a6085dabe",
+    "query_X_sha256": "2546d2d31e6950d7ce75cceee4308fd2e28f7a3ec9abe93ef4512bdd6ff05701",
+    "training_n": 715,
+    "training_target_max": "2020-10-31",
+    "training_origin_max": "2020-10-18"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "calendar",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 1,
+    "refit": "2021-03-01",
+    "parameters": {
+      "num_leaves": 7,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "3a7ef4d1acf8d8fbfe513db2f4d31d9065baccbcbe6812dfceb1eb0a305e2abd",
+    "query_X_sha256": "8efeaae7ab02bd20c8db7c94977e08da5583c872b63ac111877c4de1dbe45b54",
+    "training_n": 728,
+    "training_target_max": "2021-02-28",
+    "training_origin_max": "2021-02-28"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "calendar",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 1,
+    "refit": "2021-04-01",
+    "parameters": {
+      "num_leaves": 7,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "7a4edb6fb3340087d9b330bf8ea061a43c460c3ecf84fdc7a52eabb673bafbb0",
+    "query_X_sha256": "10fe9b1a61a64ca25cbc1c19ece6ea8b286fdd59e606428d2a14d8afb861bfec",
+    "training_n": 728,
+    "training_target_max": "2021-03-31",
+    "training_origin_max": "2021-03-31"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "calendar",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 1,
+    "refit": "2021-09-01",
+    "parameters": {
+      "num_leaves": 7,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "a78a01824a3b17b42d74f443e97f4671806db28660ac444b9c678f5e63321d79",
+    "query_X_sha256": "e2af1774fd8f7a9dec22639ce15ae6d9f0e6a9086b54b1ba121f63cbeafef103",
+    "training_n": 729,
+    "training_target_max": "2021-08-31",
+    "training_origin_max": "2021-08-31"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "calendar",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 1,
+    "refit": "2021-10-01",
+    "parameters": {
+      "num_leaves": 7,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "1306c598b839828dc978c1acd381c3052f4fa7db40605077d62d139354369b2a",
+    "query_X_sha256": "aadec9e25c6414d282fe7263bad76b70ea7f8825ac44a4492ebb5a459a9be334",
+    "training_n": 729,
+    "training_target_max": "2021-09-30",
+    "training_origin_max": "2021-09-30"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "calendar",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 1,
+    "refit": "2021-11-01",
+    "parameters": {
+      "num_leaves": 7,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "2ca9378debd3805224f885f4b29fc26479d732aece32db02fb63537162691b9d",
+    "query_X_sha256": "81c28bc1a4bed032f9b0b2cbb76f044d1e298d8a5e69a709ad09de5e7d7e33d0",
+    "training_n": 729,
+    "training_target_max": "2021-10-31",
+    "training_origin_max": "2021-10-31"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "zero5",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 1,
+    "refit": "2021-03-01",
+    "parameters": {
+      "num_leaves": 7,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "74ee7da8094d496daeb8088799df72005d2d31c58cfc27f91745f913e4af5909",
+    "query_X_sha256": "4f089e1ed61ee3e9598b952c8f705e1c48863c724c936c530d7b2b00085b9554",
+    "training_n": 728,
+    "training_target_max": "2021-02-28",
+    "training_origin_max": "2021-02-28"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "zero5",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 1,
+    "refit": "2021-04-01",
+    "parameters": {
+      "num_leaves": 7,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "053da94b77eee21743ab0ff91276c6b834da9e329f5c87166eeedc855a1c9742",
+    "query_X_sha256": "de5a3bb704e189c948454d00460a05848b5116e5d60fc02c16b045e1a2b88b19",
+    "training_n": 728,
+    "training_target_max": "2021-03-31",
+    "training_origin_max": "2021-03-31"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "zero5",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 1,
+    "refit": "2021-09-01",
+    "parameters": {
+      "num_leaves": 7,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "2372679ca876f0360199cc851bbfd4028cf6e5906ef319535d00397d073ba21e",
+    "query_X_sha256": "4a6de71e3bb28e7964116b28ce2eeb289f95dc70fbbb9b35fa8b6e562a637fee",
+    "training_n": 729,
+    "training_target_max": "2021-08-31",
+    "training_origin_max": "2021-08-31"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "zero5",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 1,
+    "refit": "2021-10-01",
+    "parameters": {
+      "num_leaves": 7,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "bbf822c09c7cc332a7f223c537ecfb6784150055389f8605960c9b9452bfc1ee",
+    "query_X_sha256": "325c3935458e5a0d877a6803f1d7a9a7c3aef09dd6a70a289a701ec00545c35d",
+    "training_n": 729,
+    "training_target_max": "2021-09-30",
+    "training_origin_max": "2021-09-30"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "zero5",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 1,
+    "refit": "2021-11-01",
+    "parameters": {
+      "num_leaves": 7,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "ab4640f85bfdade09dfbffe140b27b12027d44be71326da568af1d520075cc9f",
+    "query_X_sha256": "055bd55db949beca2f9679603606447fb6091d5bc1225309324a0ec1389ba10e",
+    "training_n": 729,
+    "training_target_max": "2021-10-31",
+    "training_origin_max": "2021-10-31"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "day5",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 1,
+    "refit": "2021-03-01",
+    "parameters": {
+      "num_leaves": 7,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "e88cf0e4b4557196d292fffa7541361aaef5b471ad75fe8464347d846bda8c3a",
+    "query_X_sha256": "7741d78957c92e14b1664008088ea82777df948c20b5fb82d432e5eab4f07c46",
+    "training_n": 728,
+    "training_target_max": "2021-02-28",
+    "training_origin_max": "2021-02-28"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "day5",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 1,
+    "refit": "2021-04-01",
+    "parameters": {
+      "num_leaves": 7,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "fcce199313541b240cf1fd7ecf7b34e95c8bbf5c1e83b527a7544612a55b77e1",
+    "query_X_sha256": "ff80a169e7df4b2eb99e15ba4c0a71c887a04e24a705ed9e929a8c75417e42ec",
+    "training_n": 728,
+    "training_target_max": "2021-03-31",
+    "training_origin_max": "2021-03-31"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "day5",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 1,
+    "refit": "2021-09-01",
+    "parameters": {
+      "num_leaves": 7,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "45cdc32739ce214a8e1599e25cbc56c0541a5ca5ccafb79bd0f3c56892dc9323",
+    "query_X_sha256": "89f19f8fd3948786b7d4fef75e82ccc8d18a893ead2c89f9d0e4fe55e9d6af9a",
+    "training_n": 729,
+    "training_target_max": "2021-08-31",
+    "training_origin_max": "2021-08-31"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "day5",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 1,
+    "refit": "2021-10-01",
+    "parameters": {
+      "num_leaves": 7,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "ad51b81e53cdd09ff0e9778f8079f69781efb36a4cf12b3f649e1cc409f85452",
+    "query_X_sha256": "014979ca60fa9c85005d16154958efae6be67e59c124a5c550a2c8c4ce5af339",
+    "training_n": 729,
+    "training_target_max": "2021-09-30",
+    "training_origin_max": "2021-09-30"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "day5",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 1,
+    "refit": "2021-11-01",
+    "parameters": {
+      "num_leaves": 7,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "7cabc18415449f552d90ed758c1592a2ea454cd2acc49f94ab864022b5689f6f",
+    "query_X_sha256": "c395e55ff26b7fde3830ecad0f11a9869a4edcb0615f058d27a87b887a4455e1",
+    "training_n": 729,
+    "training_target_max": "2021-10-31",
+    "training_origin_max": "2021-10-31"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "pooled_day5",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 1,
+    "refit": "2021-03-01",
+    "parameters": {
+      "num_leaves": 7,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "e24b88448c48f4bd91875888e05aeb814965b12b6c30815fc084e9243a3c0473",
+    "query_X_sha256": "7741d78957c92e14b1664008088ea82777df948c20b5fb82d432e5eab4f07c46",
+    "training_n": 728,
+    "training_target_max": "2021-02-28",
+    "training_origin_max": "2021-02-28"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "pooled_day5",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 1,
+    "refit": "2021-04-01",
+    "parameters": {
+      "num_leaves": 7,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "e1d4468db4e8f02331652f3af03ab553fcc95e176eaeda662a1423ce81759c18",
+    "query_X_sha256": "d4e3fc016cdd488b803e46021ad3f40740f8b34ec4ebfbc1fbc2b0b8a9fda188",
+    "training_n": 728,
+    "training_target_max": "2021-03-31",
+    "training_origin_max": "2021-03-31"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "pooled_day5",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 1,
+    "refit": "2021-09-01",
+    "parameters": {
+      "num_leaves": 7,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "b2eff879f22b34443f3d623ebcb2b8d4d4780d4fe70a243a7d71af8690fbabfc",
+    "query_X_sha256": "dc6b66385f3ba1a57c0661209e456318cd512c9d155aa2fc842d440484120026",
+    "training_n": 729,
+    "training_target_max": "2021-08-31",
+    "training_origin_max": "2021-08-31"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "pooled_day5",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 1,
+    "refit": "2021-10-01",
+    "parameters": {
+      "num_leaves": 7,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "8a1948b01b162ea4823d7d1ffdac757329b7c1823087b22ed7cc00a7cc7c733d",
+    "query_X_sha256": "68e68127a83c24390c1f9d83614b56581ddfabe315e81d2fe8922cbb06310845",
+    "training_n": 729,
+    "training_target_max": "2021-09-30",
+    "training_origin_max": "2021-09-30"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "pooled_day5",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 1,
+    "refit": "2021-11-01",
+    "parameters": {
+      "num_leaves": 7,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "95758ab4b321bffa5dc4efa729fff7f1158920cbd93ee6bc112ec07b57590204",
+    "query_X_sha256": "65b2d7bc31ca764656d306217b73ccc5c8c0a9b230d64d0c3eaa380563e8412d",
+    "training_n": 729,
+    "training_target_max": "2021-10-31",
+    "training_origin_max": "2021-10-31"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "placebo_day5",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 1,
+    "refit": "2021-03-01",
+    "parameters": {
+      "num_leaves": 7,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "9b66ea450e4f8efeb142db0a60ae986de179e06e72fdc1d9bc832ec3b1c18e85",
+    "query_X_sha256": "4f089e1ed61ee3e9598b952c8f705e1c48863c724c936c530d7b2b00085b9554",
+    "training_n": 728,
+    "training_target_max": "2021-02-28",
+    "training_origin_max": "2021-02-28"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "placebo_day5",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 1,
+    "refit": "2021-04-01",
+    "parameters": {
+      "num_leaves": 7,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "d38d0a5d2b14e844fc7f5a5f724653e2de89a5041cf9de35d900bc0d9979e7f4",
+    "query_X_sha256": "de5a3bb704e189c948454d00460a05848b5116e5d60fc02c16b045e1a2b88b19",
+    "training_n": 728,
+    "training_target_max": "2021-03-31",
+    "training_origin_max": "2021-03-31"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "placebo_day5",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 1,
+    "refit": "2021-09-01",
+    "parameters": {
+      "num_leaves": 7,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "47a4bbac647b2459169de00ea2d969a270fe28950bf43da49d66ac1d3132e9f9",
+    "query_X_sha256": "4a6de71e3bb28e7964116b28ce2eeb289f95dc70fbbb9b35fa8b6e562a637fee",
+    "training_n": 729,
+    "training_target_max": "2021-08-31",
+    "training_origin_max": "2021-08-31"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "placebo_day5",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 1,
+    "refit": "2021-10-01",
+    "parameters": {
+      "num_leaves": 7,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "c506d680c31f9fd404bd153f573e3237e57facd10a24b6ba53b7f42ca79b562a",
+    "query_X_sha256": "325c3935458e5a0d877a6803f1d7a9a7c3aef09dd6a70a289a701ec00545c35d",
+    "training_n": 729,
+    "training_target_max": "2021-09-30",
+    "training_origin_max": "2021-09-30"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "placebo_day5",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 1,
+    "refit": "2021-11-01",
+    "parameters": {
+      "num_leaves": 7,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "a9bfc3809d3c9e72f1824ebd36944b0f325333416ac0a074f10dd0cbe73ed152",
+    "query_X_sha256": "055bd55db949beca2f9679603606447fb6091d5bc1225309324a0ec1389ba10e",
+    "training_n": 729,
+    "training_target_max": "2021-10-31",
+    "training_origin_max": "2021-10-31"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "calendar",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 7,
+    "refit": "2021-03-01",
+    "parameters": {
+      "num_leaves": 7,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "c524f45369e9396873b68b60b18a139b8daf3692068aeb299fb5ffb464dcfa84",
+    "query_X_sha256": "9ccdcb4de4b8659e86ec2d57ab327e3c6d1a4d85ad3f049f7b4faae72d85229b",
+    "training_n": 722,
+    "training_target_max": "2021-02-28",
+    "training_origin_max": "2021-02-22"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "calendar",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 7,
+    "refit": "2021-04-01",
+    "parameters": {
+      "num_leaves": 7,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "750922847b2c900f8edea511a8578e9c6499a3ba82be55605dbfdbfe17eceb55",
+    "query_X_sha256": "6a6c932265aba6cae28af2978e804ece508ecec81ff80d833fe56facf5a72746",
+    "training_n": 722,
+    "training_target_max": "2021-03-31",
+    "training_origin_max": "2021-03-25"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "calendar",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 7,
+    "refit": "2021-09-01",
+    "parameters": {
+      "num_leaves": 7,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "098d2207672c3a40f2c58f79428c3bf90e95c551bc53e6a669d6f73f141e2a21",
+    "query_X_sha256": "676fda6d44dd2f0347a3083e17afe0da71468970b1d84f0ad16c28f04030623b",
+    "training_n": 723,
+    "training_target_max": "2021-08-31",
+    "training_origin_max": "2021-08-25"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "calendar",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 7,
+    "refit": "2021-10-01",
+    "parameters": {
+      "num_leaves": 7,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "e47d16ea323f8675e32ecc94c457d71526879260bcb8eaf24a2460b8a49e7915",
+    "query_X_sha256": "f291591ef0bf40e485fcc56e0073a70fef35abee161d1c13b3982918ca706468",
+    "training_n": 723,
+    "training_target_max": "2021-09-30",
+    "training_origin_max": "2021-09-24"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "calendar",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 7,
+    "refit": "2021-11-01",
+    "parameters": {
+      "num_leaves": 7,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "468f494ce3e68edbdeec9eb215e78d8d42424c41009e39392ef6e89f418519d3",
+    "query_X_sha256": "25c3ca81364f12feaf384dd0f1c2a4998df7d1b829fe24b183077fbe8308df7d",
+    "training_n": 723,
+    "training_target_max": "2021-10-31",
+    "training_origin_max": "2021-10-25"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "zero5",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 7,
+    "refit": "2021-03-01",
+    "parameters": {
+      "num_leaves": 7,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "7eaef8d37fe9da1b34f0bfa880e814c22ec880f3c21490d3ded72358573fff64",
+    "query_X_sha256": "27c1c80ddf9909d38624887d31d9dce6913931af2e254c75df2224dad5a65207",
+    "training_n": 722,
+    "training_target_max": "2021-02-28",
+    "training_origin_max": "2021-02-22"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "zero5",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 7,
+    "refit": "2021-04-01",
+    "parameters": {
+      "num_leaves": 7,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "2993e3677253ca8ce4fee4f1896909217bdb80b95e1c3561e0305259dfe5831b",
+    "query_X_sha256": "7f4f90c3400af8927560c1ee6060b25bd4653fb4d668ce3cbaba02623c00e3c5",
+    "training_n": 722,
+    "training_target_max": "2021-03-31",
+    "training_origin_max": "2021-03-25"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "zero5",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 7,
+    "refit": "2021-09-01",
+    "parameters": {
+      "num_leaves": 7,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "91be3787be1bb37faf2e40c40c7c859604e24ebca36923c69e8bd5117c0378ed",
+    "query_X_sha256": "9daf696ebda78272a74fcfecefe4477ba1cd720ba9cdbf9c10c71b9805a52fae",
+    "training_n": 723,
+    "training_target_max": "2021-08-31",
+    "training_origin_max": "2021-08-25"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "zero5",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 7,
+    "refit": "2021-10-01",
+    "parameters": {
+      "num_leaves": 7,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "66b6fac0ebec98847d7bdb6cffad0bd99b7978dd94ff47cf3f8065d194f5a25d",
+    "query_X_sha256": "8326520013e121bbe930c8eadd2ce33daba250aa2554bdedfd65d55338ef02a5",
+    "training_n": 723,
+    "training_target_max": "2021-09-30",
+    "training_origin_max": "2021-09-24"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "zero5",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 7,
+    "refit": "2021-11-01",
+    "parameters": {
+      "num_leaves": 7,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "303ea205cb586db21b5e77d495bdbee308e829a94cd57b91ddf8eb783fba9b32",
+    "query_X_sha256": "76c3afa496837bf03531a4409127f01041dd35d379c837ef2eac3b95c289ce73",
+    "training_n": 723,
+    "training_target_max": "2021-10-31",
+    "training_origin_max": "2021-10-25"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "day5",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 7,
+    "refit": "2021-03-01",
+    "parameters": {
+      "num_leaves": 7,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "7bf73bd6c7bffb5c1ae33c109e818cd5954ed1089920cee0f7cfa5f76bc24d5e",
+    "query_X_sha256": "14d42cae708edb797b90e02b8f6d72922eaa8e4df439fe48de38d3a4fee4144c",
+    "training_n": 722,
+    "training_target_max": "2021-02-28",
+    "training_origin_max": "2021-02-22"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "day5",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 7,
+    "refit": "2021-04-01",
+    "parameters": {
+      "num_leaves": 7,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "29ded182c07ac7e85e990753da0a66424996397aaa3c9a8676dc3d9a0bbce3c9",
+    "query_X_sha256": "af2189dc77dd7341ac4cd94e5e46d8abb14808f0b830d447a9b57d9efceaf240",
+    "training_n": 722,
+    "training_target_max": "2021-03-31",
+    "training_origin_max": "2021-03-25"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "day5",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 7,
+    "refit": "2021-09-01",
+    "parameters": {
+      "num_leaves": 7,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "d5d14b74820e7369b6bed7bae9703e3cf3d4af8eb5b3b33ae77d2406cc70cda5",
+    "query_X_sha256": "d46aef8cba7ca8f2e3a253f73bceb09b0cabe384274d49a2a8154c1f89cff1d2",
+    "training_n": 723,
+    "training_target_max": "2021-08-31",
+    "training_origin_max": "2021-08-25"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "day5",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 7,
+    "refit": "2021-10-01",
+    "parameters": {
+      "num_leaves": 7,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "8898a27ea3081db84446119cbf8c6a2009c6c21a80be29cc55e845d0bffd75fa",
+    "query_X_sha256": "795694b697dfc76b77a8ac572fe0cd53a1f28eda5dda89a322c1d185468491ba",
+    "training_n": 723,
+    "training_target_max": "2021-09-30",
+    "training_origin_max": "2021-09-24"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "day5",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 7,
+    "refit": "2021-11-01",
+    "parameters": {
+      "num_leaves": 7,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "72dcbc289d8fcbbaf6518dddd7981882c5c2dfa9bd3383605394eb43d75e680e",
+    "query_X_sha256": "76c3afa496837bf03531a4409127f01041dd35d379c837ef2eac3b95c289ce73",
+    "training_n": 723,
+    "training_target_max": "2021-10-31",
+    "training_origin_max": "2021-10-25"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "pooled_day5",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 7,
+    "refit": "2021-03-01",
+    "parameters": {
+      "num_leaves": 7,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "2ee1d3abb31d0aa9933e03f9d3cd26b6545285b74bb1288f09c0b3a5903a2a5c",
+    "query_X_sha256": "14d42cae708edb797b90e02b8f6d72922eaa8e4df439fe48de38d3a4fee4144c",
+    "training_n": 722,
+    "training_target_max": "2021-02-28",
+    "training_origin_max": "2021-02-22"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "pooled_day5",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 7,
+    "refit": "2021-04-01",
+    "parameters": {
+      "num_leaves": 7,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "bd098bdaebed465cf703558c303dab95c42c00caa6d80e49d59c5856fa40f405",
+    "query_X_sha256": "0837105aefc65a2c36de50a10c66935ce147f5434dd9e63656488de4d03bc433",
+    "training_n": 722,
+    "training_target_max": "2021-03-31",
+    "training_origin_max": "2021-03-25"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "pooled_day5",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 7,
+    "refit": "2021-09-01",
+    "parameters": {
+      "num_leaves": 7,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "1836eba304aea63440115b3154ae7ea4b98eb010fd136956ec5764756bd36611",
+    "query_X_sha256": "61e7299514bb04f622a5821820b29c714d354f13eb5fa25432004893a50ffaca",
+    "training_n": 723,
+    "training_target_max": "2021-08-31",
+    "training_origin_max": "2021-08-25"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "pooled_day5",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 7,
+    "refit": "2021-10-01",
+    "parameters": {
+      "num_leaves": 7,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "8958d676e539c8def1661203ccfa40c62592f0c9fcd23de3538d83fe2db5b892",
+    "query_X_sha256": "16ca88895f65f33898176fbc66e48c287b890b6871e6198f9801558cce84325e",
+    "training_n": 723,
+    "training_target_max": "2021-09-30",
+    "training_origin_max": "2021-09-24"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "pooled_day5",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 7,
+    "refit": "2021-11-01",
+    "parameters": {
+      "num_leaves": 7,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "2314ca1fe254ba1443a175e6acf99dc4296d421d0a1201b7a3148398ab02f68f",
+    "query_X_sha256": "76c3afa496837bf03531a4409127f01041dd35d379c837ef2eac3b95c289ce73",
+    "training_n": 723,
+    "training_target_max": "2021-10-31",
+    "training_origin_max": "2021-10-25"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "placebo_day5",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 7,
+    "refit": "2021-03-01",
+    "parameters": {
+      "num_leaves": 7,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "29c0e1442bd04b89eaeb251f8b4a0eb66d3b80afe989097e593ce1c1a1dc15e6",
+    "query_X_sha256": "27c1c80ddf9909d38624887d31d9dce6913931af2e254c75df2224dad5a65207",
+    "training_n": 722,
+    "training_target_max": "2021-02-28",
+    "training_origin_max": "2021-02-22"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "placebo_day5",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 7,
+    "refit": "2021-04-01",
+    "parameters": {
+      "num_leaves": 7,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "8b36a72effb9a8d01713ef84a577d57a53631dd88a7a6fafa819a732a14383c6",
+    "query_X_sha256": "7f4f90c3400af8927560c1ee6060b25bd4653fb4d668ce3cbaba02623c00e3c5",
+    "training_n": 722,
+    "training_target_max": "2021-03-31",
+    "training_origin_max": "2021-03-25"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "placebo_day5",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 7,
+    "refit": "2021-09-01",
+    "parameters": {
+      "num_leaves": 7,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "586a69e31c1d50353cbafd09cba3442880b7e0c9ad55fba3f3941185388013a4",
+    "query_X_sha256": "9daf696ebda78272a74fcfecefe4477ba1cd720ba9cdbf9c10c71b9805a52fae",
+    "training_n": 723,
+    "training_target_max": "2021-08-31",
+    "training_origin_max": "2021-08-25"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "placebo_day5",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 7,
+    "refit": "2021-10-01",
+    "parameters": {
+      "num_leaves": 7,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "493b56d1777495140166db66a652c610509f34970b027c1f96049ebd6dfcb09e",
+    "query_X_sha256": "8326520013e121bbe930c8eadd2ce33daba250aa2554bdedfd65d55338ef02a5",
+    "training_n": 723,
+    "training_target_max": "2021-09-30",
+    "training_origin_max": "2021-09-24"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "placebo_day5",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 7,
+    "refit": "2021-11-01",
+    "parameters": {
+      "num_leaves": 7,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "1cc9c6fbd91a9c2198d77d6b4a7440bd7f78e8e47147f95f8196a43de3a6089f",
+    "query_X_sha256": "76c3afa496837bf03531a4409127f01041dd35d379c837ef2eac3b95c289ce73",
+    "training_n": 723,
+    "training_target_max": "2021-10-31",
+    "training_origin_max": "2021-10-25"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "calendar",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 14,
+    "refit": "2021-03-01",
+    "parameters": {
+      "num_leaves": 7,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "c3d322c5dd64aad3a76ac74f228ca7b2cebea0d98bc6326ac0e583bb39a2c215",
+    "query_X_sha256": "6e5191ed1f9cd0c22718c0406e4dd8c74a083860f51e6a661309a047b78df243",
+    "training_n": 715,
+    "training_target_max": "2021-02-28",
+    "training_origin_max": "2021-02-15"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "calendar",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 14,
+    "refit": "2021-04-01",
+    "parameters": {
+      "num_leaves": 7,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "37bf0d90fd8b6729e84006c525ab74b6a0f22fb52d4826f3ed0329c502d20e84",
+    "query_X_sha256": "f9f3cf30c0c9ef312c124712631061b9daa9e03231fa02c0f410027f19890ab0",
+    "training_n": 715,
+    "training_target_max": "2021-03-31",
+    "training_origin_max": "2021-03-18"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "calendar",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 14,
+    "refit": "2021-08-01",
+    "parameters": {
+      "num_leaves": 7,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "b05d6030e9c7a74bfbc202f4856a442c2d39772a80e9b35c57abc46a1bdf50bf",
+    "query_X_sha256": "6e95cc09628818ff7e56d3e9bb78b8fa665724a370a0d2e4d2b612415d4ead6a",
+    "training_n": 716,
+    "training_target_max": "2021-07-31",
+    "training_origin_max": "2021-07-18"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "calendar",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 14,
+    "refit": "2021-09-01",
+    "parameters": {
+      "num_leaves": 7,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "aaaa68842903a303ee7467fa78d501d66f6d4cac3f352b77f1cf08b71bf1ecca",
+    "query_X_sha256": "a0b1b259045bfa84fdeac25e9d932c805049e1e0e649c9d59fba55dd82fcb55e",
+    "training_n": 716,
+    "training_target_max": "2021-08-31",
+    "training_origin_max": "2021-08-18"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "calendar",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 14,
+    "refit": "2021-10-01",
+    "parameters": {
+      "num_leaves": 7,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "74dd4b523e998543607658723ae75c4a20a8682b66504a3d45424193283bc6c6",
+    "query_X_sha256": "350ac4718565c25f1447975009e29ba3df8686479bd8070b589af271e5bfc8f7",
+    "training_n": 716,
+    "training_target_max": "2021-09-30",
+    "training_origin_max": "2021-09-17"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "zero5",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 14,
+    "refit": "2021-03-01",
+    "parameters": {
+      "num_leaves": 7,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "8a22bfd393c306b751de63bb9fe84873b51294af2f475748a803b8f47aaff1a4",
+    "query_X_sha256": "101cb328dde1946a24ab6c9492dd9bbeafaa39f693380e5db1650264ff690446",
+    "training_n": 715,
+    "training_target_max": "2021-02-28",
+    "training_origin_max": "2021-02-15"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "zero5",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 14,
+    "refit": "2021-04-01",
+    "parameters": {
+      "num_leaves": 7,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "d5f89dde618c0c981d33d596de0488dde307c6e98d498ef0471b89ac9fcb9e0e",
+    "query_X_sha256": "0c0af6412c550f7f9c1e66aa495596049b457830d2ea596e2096e804d0bc214c",
+    "training_n": 715,
+    "training_target_max": "2021-03-31",
+    "training_origin_max": "2021-03-18"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "zero5",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 14,
+    "refit": "2021-08-01",
+    "parameters": {
+      "num_leaves": 7,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "89f3e63fc9bf050c02bcce9fc80fb802ba47a3629c3f4c721771836ecdbc022b",
+    "query_X_sha256": "82a7f400442765541617d03b0a651b87de5432897344101f661959682d71cd2c",
+    "training_n": 716,
+    "training_target_max": "2021-07-31",
+    "training_origin_max": "2021-07-18"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "zero5",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 14,
+    "refit": "2021-09-01",
+    "parameters": {
+      "num_leaves": 7,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "433fa6c1a5ce6316713e2818222f459090a2b384f8e00135a951d19eb3da7bc6",
+    "query_X_sha256": "cead84c3d8681ea6b57ec354c8d34278171f05ee69c78eec5bf5799ca3387c0c",
+    "training_n": 716,
+    "training_target_max": "2021-08-31",
+    "training_origin_max": "2021-08-18"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "zero5",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 14,
+    "refit": "2021-10-01",
+    "parameters": {
+      "num_leaves": 7,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "9d0fd0281b0ce241738b1ebf71fd914c66418aaf9ad87de6e050db5d7cd1e97b",
+    "query_X_sha256": "9403a0f5bd6c98a4806253439797f5ceaff37fbe587ded26ea84062cab74601e",
+    "training_n": 716,
+    "training_target_max": "2021-09-30",
+    "training_origin_max": "2021-09-17"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "day5",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 14,
+    "refit": "2021-03-01",
+    "parameters": {
+      "num_leaves": 7,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "55648de5d01e660cf8c8116d37cb60cc866524403fc4510caecdc763bc3547a2",
+    "query_X_sha256": "2901e7a3597000340f4ec93bf663afad3f54b4b131062149b71eb6206e605f70",
+    "training_n": 715,
+    "training_target_max": "2021-02-28",
+    "training_origin_max": "2021-02-15"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "day5",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 14,
+    "refit": "2021-04-01",
+    "parameters": {
+      "num_leaves": 7,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "59a3817996266039a12db80fba62439b8d1ea3e388421cb6db7179705f483105",
+    "query_X_sha256": "0c0af6412c550f7f9c1e66aa495596049b457830d2ea596e2096e804d0bc214c",
+    "training_n": 715,
+    "training_target_max": "2021-03-31",
+    "training_origin_max": "2021-03-18"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "day5",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 14,
+    "refit": "2021-08-01",
+    "parameters": {
+      "num_leaves": 7,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "78181d3a44c15dca5cfa737b183d5393a674cc460ef690a264298ca244caae21",
+    "query_X_sha256": "cc9cde12885ea933e7bc87b795b1359c00f6c05d7152eca4a9e73f325efe4d46",
+    "training_n": 716,
+    "training_target_max": "2021-07-31",
+    "training_origin_max": "2021-07-18"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "day5",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 14,
+    "refit": "2021-09-01",
+    "parameters": {
+      "num_leaves": 7,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "b5bd34d3fa4e6929c30d43f3d0dc094ef6cee0df0bc895b1a0a9d835b1ebf386",
+    "query_X_sha256": "cead84c3d8681ea6b57ec354c8d34278171f05ee69c78eec5bf5799ca3387c0c",
+    "training_n": 716,
+    "training_target_max": "2021-08-31",
+    "training_origin_max": "2021-08-18"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "day5",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 14,
+    "refit": "2021-10-01",
+    "parameters": {
+      "num_leaves": 7,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "3601d29f62dca7725bd5759c2fbf7761c7ed449f53091601d7293fcdbf8a1a49",
+    "query_X_sha256": "5450491bd2d86cede551f68c0ea94fc8a486566bbe7632cc817ba5062f6092a7",
+    "training_n": 716,
+    "training_target_max": "2021-09-30",
+    "training_origin_max": "2021-09-17"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "pooled_day5",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 14,
+    "refit": "2021-03-01",
+    "parameters": {
+      "num_leaves": 7,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "fbfab953ba9f673eaf7a017334c8cd3bf853497a4a8efc948b0fb5580fd1655c",
+    "query_X_sha256": "7ab250f0540b12777b2141018caeac856e96dcf93fcf56341fa960cd531bb4c5",
+    "training_n": 715,
+    "training_target_max": "2021-02-28",
+    "training_origin_max": "2021-02-15"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "pooled_day5",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 14,
+    "refit": "2021-04-01",
+    "parameters": {
+      "num_leaves": 7,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "19b12d263328e22bca0ee59a6f06d93e8dcc24713ad5e9cfd1f926d77c6715e4",
+    "query_X_sha256": "0c0af6412c550f7f9c1e66aa495596049b457830d2ea596e2096e804d0bc214c",
+    "training_n": 715,
+    "training_target_max": "2021-03-31",
+    "training_origin_max": "2021-03-18"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "pooled_day5",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 14,
+    "refit": "2021-08-01",
+    "parameters": {
+      "num_leaves": 7,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "ae40c8e775fd8b9ed11e1425665ae4012bfb07e8b815f1972ce85fdde84a6c87",
+    "query_X_sha256": "1b1751731cc6a91fafb5c12273320f055c664fc40bbb6cac36f5d7ed40fb0f79",
+    "training_n": 716,
+    "training_target_max": "2021-07-31",
+    "training_origin_max": "2021-07-18"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "pooled_day5",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 14,
+    "refit": "2021-09-01",
+    "parameters": {
+      "num_leaves": 7,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "cb521378ff17cf37615201926bb446839a2b560934fc24cafb377b2797202aff",
+    "query_X_sha256": "cead84c3d8681ea6b57ec354c8d34278171f05ee69c78eec5bf5799ca3387c0c",
+    "training_n": 716,
+    "training_target_max": "2021-08-31",
+    "training_origin_max": "2021-08-18"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "pooled_day5",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 14,
+    "refit": "2021-10-01",
+    "parameters": {
+      "num_leaves": 7,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "da9b9a75edfd2f20f43e93ed85bd21952a4ddd2b004a3020a53ce3ee0a4c4e77",
+    "query_X_sha256": "63ed07499dac8e47b53def4b7c314ea24837c478041e44e6e152d065c0020017",
+    "training_n": 716,
+    "training_target_max": "2021-09-30",
+    "training_origin_max": "2021-09-17"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "placebo_day5",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 14,
+    "refit": "2021-03-01",
+    "parameters": {
+      "num_leaves": 7,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "16494917a46747c016594563e1e9d45782c51b68fe30db087c7851d89f3cef8d",
+    "query_X_sha256": "101cb328dde1946a24ab6c9492dd9bbeafaa39f693380e5db1650264ff690446",
+    "training_n": 715,
+    "training_target_max": "2021-02-28",
+    "training_origin_max": "2021-02-15"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "placebo_day5",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 14,
+    "refit": "2021-04-01",
+    "parameters": {
+      "num_leaves": 7,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "f28788f08d8a19f0188970fed9fdefdf16e08564310ec146a65742e056cb7a63",
+    "query_X_sha256": "0c0af6412c550f7f9c1e66aa495596049b457830d2ea596e2096e804d0bc214c",
+    "training_n": 715,
+    "training_target_max": "2021-03-31",
+    "training_origin_max": "2021-03-18"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "placebo_day5",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 14,
+    "refit": "2021-08-01",
+    "parameters": {
+      "num_leaves": 7,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "3a0b942da796ecc7965ba68db35c55655c0339109a5d484fe31326c53b94845d",
+    "query_X_sha256": "82a7f400442765541617d03b0a651b87de5432897344101f661959682d71cd2c",
+    "training_n": 716,
+    "training_target_max": "2021-07-31",
+    "training_origin_max": "2021-07-18"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "placebo_day5",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 14,
+    "refit": "2021-09-01",
+    "parameters": {
+      "num_leaves": 7,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "1630f0c1ebed02b80e01cb6cc1e0517eb028fa36414e52f2035e6ada7f390146",
+    "query_X_sha256": "cead84c3d8681ea6b57ec354c8d34278171f05ee69c78eec5bf5799ca3387c0c",
+    "training_n": 716,
+    "training_target_max": "2021-08-31",
+    "training_origin_max": "2021-08-18"
+  },
+  {
+    "model": "lightgbm_capacity2",
+    "arm": "placebo_day5",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 14,
+    "refit": "2021-10-01",
+    "parameters": {
+      "num_leaves": 7,
+      "n_estimators": 200,
+      "min_child_samples": 2,
+      "reg_lambda": 10.0
+    },
+    "training_X_sha256": "cd2799dd452a72cb3f273f3691a305ccf85355131d03a2e55d6c5626c0a33ec8",
+    "query_X_sha256": "9403a0f5bd6c98a4806253439797f5ceaff37fbe587ded26ea84062cab74601e",
+    "training_n": 716,
+    "training_target_max": "2021-09-30",
+    "training_origin_max": "2021-09-17"
+  }
+]
