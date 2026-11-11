@@ -1,0 +1,11 @@
+{
+  "event_cases": 327,
+  "dropped": 0,
+  "by_year": {
+    "2019": 108,
+    "2020": 111,
+    "2021": 108
+  },
+  "clusters": 15,
+  "unchecked_dry_run": false
+}

@@ -1,0 +1,18 @@
+{
+  "src/longer_panel_stage_b_v1.py": "6b818d97df5ab3cf506f54aad8b159c185a987dfd37905cf071ae4a741fe7ad3",
+  "src/longer_panel_analysis_stage_b_v1.py": "86f3fd5806c0cceb7802169f303fc8d6f5541b1eb2178ff3d0fe43089e495e6f",
+  "src/test_longer_panel_stage_b_v1.py": "62e4e2330e241397e4644b7cfa78bb6af044c1cd36bd28998eea4abe41ef4256",
+  "src/longer_panel_stage_a_v1.py": "f31e3b2cc430928833b2b1b1de72e1e1123b59f5c2674e182e68d6a579e1e17c",
+  "src/breadth_model_engine_v1.py": "051861ddc30513087ec726a8215f42d700a4c26ca43584031cdcc41026e6914d",
+  "src/robust_baselines.py": "568152c6351826389ae8248fe50fe5bcde5f8db82dfe715c691d6a5f63bca88c",
+  "src/stable_tree_refit.py": "b52cb8b7b755b4afa81a742605a1adf161e6fcdea112faa20846dd834245c986",
+  "src/extended_validation.py": "2312ef9ef5f78ad8bf47b47999576cd0875c7ba3adca53acfb5434b83b2f8218",
+  "src/forecasting.py": "8a6b9b1e8632a2bf77d9855a1d370ed23c350ffe731138787e30c609a59ec21e",
+  "src/multifestival_models.py": "1a03a120cd2135dca04c7988411db500de98b14d2d3a5cba7339bfb607daa0ac",
+  "src/cluster_inference_v1.py": "b1920d31527c6b0d52dc542301288d05af82ec0b22e2d9329418e7372692c260",
+  "data/external/latest_state_energy_GWh.csv": "74d22d5e85b022db13d97dad7c84dca5b9dc8e38d23570bf095d870e71a2f690",
+  "review/longer_panel_v1/calendar_entries_2014_2021.csv": "c57ffb0d5b5785c7c0fd7e5c6eb463a50d47e4794612f6b39ee11556afdb4fba",
+  "results/model_class_hypothesis_v1/registration.json": "1c61d16cf2ec9ef589576dddca6cb03fba9fdb08a51568e6a7ba7cfb212d7e3f",
+  "results/strong_refit_v1/protocol.json": "e0c7d8532de5faf31d16c6d8552e78ecc7f60eedfc3c977f0f93990ad8d37324",
+  "results/stable_tree_refit_v2/protocol.json": "4da8160ce45801e1b9e8ca134334a46bfd9d29f1f5ed6d28e76a988cb1fe34c3"
+}

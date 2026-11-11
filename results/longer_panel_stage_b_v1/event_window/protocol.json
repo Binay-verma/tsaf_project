@@ -1,0 +1,76 @@
+{
+  "experiment": "longer_panel_stage_b_v1/event_window",
+  "created_utc": "2026-11-11T14:18:52.041654+00:00",
+  "author": "Binay Verma",
+  "status": "Confirmatory test of results/model_class_hypothesis_v1, registered before any Stage B selection or forecast.",
+  "hypotheses": {
+    "H1": "For Stable LightGBM (float32, past-selected parameters), typed-day minus pooled-day event MASE at lead 1 is POSITIVE (pooling better).",
+    "H2": "For SARIMAX(1,0,0)(1,0,0,7), typed-day minus pooled-day event MASE at lead 1 is NEGATIVE (typed better).",
+    "H1b (secondary)": "Same as H1 for the leaf-2 LightGBM sensitivity.",
+    "H3 (secondary)": "Ridge shows no consistent ordering (reported, not tested as a directional claim)."
+  },
+  "test": "Exact one-sided sign-flip test on family-year clusters (Maharashtra: 5 families x 3 years = 15 clusters), mean of cluster differences, direction as stated. Holm across H1 and H2. Alpha 0.05.",
+  "decision": "H1 or H2 is CONFIRMED in Stage B only if its Holm-adjusted one-sided p < 0.05 AND its sign holds in at least 2 of the 3 years. Otherwise NOT CONFIRMED, reported as such. A sign opposite to the hypothesis in the balanced value is reported as CONTRADICTED.",
+  "sensitivity": "Pre-declared: repeat with 2020 removed (COVID lockdown year); reported alongside, does not change the decision.",
+  "state": "Maharashtra",
+  "event_years": [
+    2019,
+    2020,
+    2021
+  ],
+  "calendar_years": [
+    2017,
+    2018,
+    2019,
+    2020,
+    2021
+  ],
+  "arms": [
+    "calendar",
+    "zero5",
+    "day5",
+    "pooled_day5",
+    "placebo_day5"
+  ],
+  "models": [
+    "ridge",
+    "lightgbm",
+    "lightgbm_capacity2",
+    "sarimax"
+  ],
+  "parameter_selection": {
+    "ridge": "results/longer_panel_stage_b_v1_selection_ridge",
+    "tree": "results/longer_panel_stage_b_v1_selection_tree"
+  },
+  "cases": "327 event-window cases (union of +/-3-day windows, leads 1/7/14); 0 dropped for a missing label",
+  "conventions": [
+    "first Diwali anchor = Maharashtra Laxmi Pujan (equals extended_validation.MAIN in 2020-2021)",
+    "weekend-listed festivals stay flagged",
+    "same Stage A cases rule, frames, regression and SARIMAX code"
+  ],
+  "hypothesis_sha256": "1c61d16cf2ec9ef589576dddca6cb03fba9fdb08a51568e6a7ba7cfb212d7e3f",
+  "input_hashes": {
+    "src/longer_panel_stage_b_v1.py": "6b818d97df5ab3cf506f54aad8b159c185a987dfd37905cf071ae4a741fe7ad3",
+    "src/longer_panel_analysis_stage_b_v1.py": "86f3fd5806c0cceb7802169f303fc8d6f5541b1eb2178ff3d0fe43089e495e6f",
+    "src/test_longer_panel_stage_b_v1.py": "62e4e2330e241397e4644b7cfa78bb6af044c1cd36bd28998eea4abe41ef4256",
+    "src/longer_panel_stage_a_v1.py": "f31e3b2cc430928833b2b1b1de72e1e1123b59f5c2674e182e68d6a579e1e17c",
+    "src/breadth_model_engine_v1.py": "051861ddc30513087ec726a8215f42d700a4c26ca43584031cdcc41026e6914d",
+    "src/robust_baselines.py": "568152c6351826389ae8248fe50fe5bcde5f8db82dfe715c691d6a5f63bca88c",
+    "src/stable_tree_refit.py": "b52cb8b7b755b4afa81a742605a1adf161e6fcdea112faa20846dd834245c986",
+    "src/extended_validation.py": "2312ef9ef5f78ad8bf47b47999576cd0875c7ba3adca53acfb5434b83b2f8218",
+    "src/forecasting.py": "8a6b9b1e8632a2bf77d9855a1d370ed23c350ffe731138787e30c609a59ec21e",
+    "src/multifestival_models.py": "1a03a120cd2135dca04c7988411db500de98b14d2d3a5cba7339bfb607daa0ac",
+    "src/cluster_inference_v1.py": "b1920d31527c6b0d52dc542301288d05af82ec0b22e2d9329418e7372692c260",
+    "data/external/latest_state_energy_GWh.csv": "74d22d5e85b022db13d97dad7c84dca5b9dc8e38d23570bf095d870e71a2f690",
+    "review/longer_panel_v1/calendar_entries_2014_2021.csv": "c57ffb0d5b5785c7c0fd7e5c6eb463a50d47e4794612f6b39ee11556afdb4fba",
+    "results/model_class_hypothesis_v1/registration.json": "1c61d16cf2ec9ef589576dddca6cb03fba9fdb08a51568e6a7ba7cfb212d7e3f",
+    "results/strong_refit_v1/protocol.json": "e0c7d8532de5faf31d16c6d8552e78ecc7f60eedfc3c977f0f93990ad8d37324",
+    "results/stable_tree_refit_v2/protocol.json": "4da8160ce45801e1b9e8ca134334a46bfd9d29f1f5ed6d28e76a988cb1fe34c3"
+  },
+  "design_hashes": {
+    "window_cases.csv": "d989634f21ee22dc93017abdb3e518b404040f30b79fec4ed99712caf81ab6f2",
+    "primary_cases.csv": "d989634f21ee22dc93017abdb3e518b404040f30b79fec4ed99712caf81ab6f2",
+    "../anchors_2017_2021.csv": "957b2bf7c2d7ed6d2a44a697c014581bc605525d9a492d2234f8fc8440b392bc",
+    "../placebo_anchors_2017_2021.csv": "39f2217d66d31443bbf64afe36bc0e042c3b1ce6b7454adda90580696156181d"
+  }
+}
