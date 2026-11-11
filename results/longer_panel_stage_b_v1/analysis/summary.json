@@ -1,0 +1,18 @@
+{
+  "created_utc": "2026-11-11T14:25:18.814796+00:00",
+  "decisions": {
+    "H1": "NOT CONFIRMED",
+    "H2": "CONFIRMED",
+    "H1b (secondary)": "CONFIRMED"
+  },
+  "sensitivity_without_2020": {
+    "H1": "NOT CONFIRMED",
+    "H2": "CONFIRMED",
+    "H1b (secondary)": "NOT CONFIRMED"
+  },
+  "outputs": {
+    "balanced.csv": "ab72eb209b6fa203c0c68cb235b16a7f232f41c7b0c0b9aa9b4753986afc4a27",
+    "hypothesis_tests.csv": "2ae974ee183d5fcd19f2749d33c93f76c94e58c38d608110053b08c8c0b3b47d",
+    "sensitivity_without_2020.csv": "b29a6beedbd7411e1bb83ae070c9799dfe1c3a23e6a14a576a05b868278a4806"
+  }
+}
