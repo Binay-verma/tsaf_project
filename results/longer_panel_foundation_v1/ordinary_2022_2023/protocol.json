@@ -1,0 +1,62 @@
+{
+  "experiment": "longer_panel_foundation_v1/ordinary_2022_2023",
+  "created_utc": "2026-11-11T14:22:10.111745+00:00",
+  "author": "Binay Verma",
+  "status": "Exploratory extension of results/longer_panel_stage_a_v1 to the foundation models. Registered and committed before any forecast of this study existed; local-model Stage A results and the stored 2024-2025 foundation forecasts were already inspected. To be run by the author in Google Colab.",
+  "source_cohort": "ordinary",
+  "years": [
+    2022,
+    2023
+  ],
+  "arms": [
+    "calendar",
+    "zero5",
+    "day5",
+    "pooled_day5",
+    "window5",
+    "pooled_window5",
+    "placebo_day5",
+    "placebo_window5"
+  ],
+  "models": [
+    "chronos",
+    "timesfm"
+  ],
+  "threads": 2,
+  "seed": 42,
+  "batch": 16,
+  "expected_tasks": 216,
+  "weights": {
+    "chronos_revision": "29ec3766d36d6f73f0696f85560a422f50e8498c",
+    "timesfm_revision": "43046b85ec22d584a13f8098c2ed39c889e129c2",
+    "timesfm_code_revision": "e51928e27119cb17bebc005be2696b75e0a9e688"
+  },
+  "reproduction_check": "reproduce_2024 predictions must match the stored document_aligned foundation predictions within rtol 2e-4, atol 1e-3 GWh. If they do not, the failure is reported and the 2022-2023 forecasts are not combined with stored 2024-2025 ones.",
+  "analysis": "As results/longer_panel_stage_a_v1 (row MASE, fixed pre-year scale, family-year-state balanced hierarchy, 20 family-year clusters, exact two-sided sign-flip, Holm over the four lead-1 cells, supported = Holm < 0.05 and same sign in >= 3 of 4 years). Exploratory: no confirmatory claim; the registered model-class hypothesis concerns local models.",
+  "input_hashes": {
+    "src/longer_panel_foundation_v1.py": "51cc2a24d7a5610c826ad7c66a2cc90ab109170b046cec0426375cf9f6bf028f",
+    "src/longer_panel_foundation_analysis_v1.py": "55f4232ed3f10d85977b3cd07091f92e53b3a314a83d5df99a1319255e2f3b57",
+    "src/test_longer_panel_foundation_v1.py": "c083fd092cada1af0cb0e301669048b51504021b03a1c4bb9b75a7056c98ccb0",
+    "src/longer_panel_stage_a_v1.py": "f31e3b2cc430928833b2b1b1de72e1e1123b59f5c2674e182e68d6a579e1e17c",
+    "src/longer_panel_analysis_stage_a_v1.py": "353b9a563f5a705775e27c909120a0873bd9db6205feee214e79ee246db83c26",
+    "src/ziel_foundation_v1.py": "990b1a8daa451e1d98adf45de38bc68825a155f0ad2a43aeb5db8e86051adc89",
+    "src/breadth_model_engine_v1.py": "051861ddc30513087ec726a8215f42d700a4c26ca43584031cdcc41026e6914d",
+    "src/extended_validation.py": "2312ef9ef5f78ad8bf47b47999576cd0875c7ba3adca53acfb5434b83b2f8218",
+    "src/festival_feature_design.py": "54e9dd42e3784b5f20208f08eb54ff823914fd342237b0fccda28bf08cb271c2",
+    "src/forecasting.py": "8a6b9b1e8632a2bf77d9855a1d370ed23c350ffe731138787e30c609a59ec21e",
+    "data/external/latest_state_energy_GWh.csv": "74d22d5e85b022db13d97dad7c84dca5b9dc8e38d23570bf095d870e71a2f690",
+    "results/longer_panel_stage_a_v1/anchors_2020_2025.csv": "edcdc8ccdad88f7aea5393bcfd13ef82707b952fd34ffa4da511ea80a7a27017",
+    "results/longer_panel_stage_a_v1/placebo_anchors_2020_2025.csv": "f61d516816cc0ee58d794d0d1d8b06d2e553858dda7bf0d50db4e8ec55585650",
+    "results/longer_panel_stage_a_v1/event_window/primary_cases.csv": "792dde14e780223a8bfae2bc4d2b17a63a162abf7f7e8794beb7528044b86027",
+    "results/longer_panel_stage_a_v1/ordinary/primary_cases.csv": "2fe8fee892de63e7aca61c1e615e6297d9f2e845ea7e8e1644b506462cf6a322",
+    "results/mechanism_controls_v1/chronos_download.json": "b7bc0b9b2f018de37b60148e226546dd15e47965efdc246f500062721f3f3c15",
+    "results/second_model_audit_v1/weight_download.json": "33513d544578b60db98abd0ad667c97597e0b7b49062588a87fc980b012c4cf4",
+    "results/feature_breadth_v1/event_window/protocol.json": "705c32713d427739ed872fb4dcaa7747393cb04f4f14562490554ac137af8a1b",
+    "results/calendar_recenter_recovery_v1/analysis/breadth/event_window/predictions_compared.csv": "86772d0ae3af36bf9268e5441d689fd2f07a56514e905a1097e0ea00f6d95d81",
+    "results/calendar_recenter_recovery_v1/analysis/breadth/ordinary/predictions_compared.csv": "6587f617a96cfc21eb79e4cdb710cf354f7ff79b9bc02381762bf07700eb821a"
+  },
+  "design_hashes": {
+    "primary_cases.csv": "74e0330f606c4ed5d9b1ccd1005d74e0b6ef41c56b9c4fc7771119901ad8f2e7",
+    "window_cases.csv": "74e0330f606c4ed5d9b1ccd1005d74e0b6ef41c56b9c4fc7771119901ad8f2e7"
+  }
+}

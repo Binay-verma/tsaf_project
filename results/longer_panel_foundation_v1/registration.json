@@ -1,0 +1,10 @@
+{
+  "created_utc": "2026-11-11T14:22:10.126831+00:00",
+  "author": "Binay Verma",
+  "protocols": {
+    "reproduce_2024": "678e690adff77c361f9d26696c0c22d9f3d7e3b04ce1db519bbb50344c96561e",
+    "event_2022_2023": "aafeb8fa8085ac883f87b1b2f9ad7dfbf23203d9f2c2a78a8fe6e5f664ca6696",
+    "ordinary_2022_2023": "402910894a225c6734511964703f6d62ca8a7e639de90a98af647a1f3fabd6c6"
+  },
+  "statement": "Protocol fixed before any forecast of this study was produced. Commit before running."
+}
