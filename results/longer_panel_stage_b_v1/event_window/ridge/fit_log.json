@@ -1,0 +1,3362 @@
+[
+  {
+    "model": "ridge",
+    "arm": "calendar",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 1,
+    "refit": "2019-03-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "training_X_sha256": "62b4cfcba02bce167873b70c7672dd3bb753ee03bd84913f79922917f0355c9d",
+    "query_X_sha256": "543727e5db410fe4f3c6dc496bddba0bb9afb5661e7013bbfa482a21ef154542",
+    "training_n": 730,
+    "training_target_max": "2019-02-28",
+    "training_origin_max": "2019-02-28"
+  },
+  {
+    "model": "ridge",
+    "arm": "calendar",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 1,
+    "refit": "2019-04-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "training_X_sha256": "a63e331bf2260f440b12221212f47e9a5971526de001b5d45e9fdc365e7f1e5d",
+    "query_X_sha256": "cc91ffcdc0af48629dad672c3ed46169926ff68b7f4617a18226f442f502c097",
+    "training_n": 730,
+    "training_target_max": "2019-03-31",
+    "training_origin_max": "2019-03-31"
+  },
+  {
+    "model": "ridge",
+    "arm": "calendar",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 1,
+    "refit": "2019-08-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "training_X_sha256": "6cc73678c0914b248a63b9262cc1ee77921e567e9526d9fcb20470a1f0583754",
+    "query_X_sha256": "0fb2633f1b0b7c64c1b12eefe9b0b2cad7ca1158cd003b3cf314910fc028bfb6",
+    "training_n": 729,
+    "training_target_max": "2019-07-31",
+    "training_origin_max": "2019-07-31"
+  },
+  {
+    "model": "ridge",
+    "arm": "calendar",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 1,
+    "refit": "2019-09-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "training_X_sha256": "e503e0c5cf5931747fe225bd4363f7173a63c63670afc572eb9f1180c1bbd3ed",
+    "query_X_sha256": "fb616ec6c09be03790a8644be55e07686dc779dab017dbbe0773f3bb1cda5834",
+    "training_n": 729,
+    "training_target_max": "2019-08-31",
+    "training_origin_max": "2019-08-31"
+  },
+  {
+    "model": "ridge",
+    "arm": "calendar",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 1,
+    "refit": "2019-10-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "training_X_sha256": "5bf22db8048f3cc475c9c9510b8bab8b254d73336de031b1b9e16405c1dbbdb9",
+    "query_X_sha256": "fed8c2ffb96db44a3f15636c9b67b6fcdbbeb336020eddb538e46138d0c25637",
+    "training_n": 729,
+    "training_target_max": "2019-09-30",
+    "training_origin_max": "2019-09-30"
+  },
+  {
+    "model": "ridge",
+    "arm": "zero5",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 1,
+    "refit": "2019-03-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "training_X_sha256": "a02db43595441e240efba6a2a16e004e9ebcec10497a0e09c7da91313f3d0e70",
+    "query_X_sha256": "8a12e6bec554db3a021808c8b0b85bcdd9c8782355c7eb41856abe4bcc02a2c6",
+    "training_n": 730,
+    "training_target_max": "2019-02-28",
+    "training_origin_max": "2019-02-28"
+  },
+  {
+    "model": "ridge",
+    "arm": "zero5",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 1,
+    "refit": "2019-04-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "training_X_sha256": "4c70557a3dc720ccd85bc6c0806e39bdbfe522bb40fc04cfe4e005e606f61695",
+    "query_X_sha256": "9d0c3075cfe98eb20b2f0aa186a63dccb9b31fec1fea6b5caa1c5dcb2a08b443",
+    "training_n": 730,
+    "training_target_max": "2019-03-31",
+    "training_origin_max": "2019-03-31"
+  },
+  {
+    "model": "ridge",
+    "arm": "zero5",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 1,
+    "refit": "2019-08-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "training_X_sha256": "fa5f609f3a3894ce1cf2b05be9746e91918ad235f189239dbf5d696459bff9ff",
+    "query_X_sha256": "865c6d7c59383c06effd4c936c3cf30876a4c6d0572c3cf874a9b58c169965ff",
+    "training_n": 729,
+    "training_target_max": "2019-07-31",
+    "training_origin_max": "2019-07-31"
+  },
+  {
+    "model": "ridge",
+    "arm": "zero5",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 1,
+    "refit": "2019-09-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "training_X_sha256": "aed21428d5b0c21975db3c6825e42bca12cb71b0b95ecfd0469576cd4778fc5d",
+    "query_X_sha256": "f18510a8ab81654c1c85dbb5d7203722490088679ae5c9b5d464560be1923aff",
+    "training_n": 729,
+    "training_target_max": "2019-08-31",
+    "training_origin_max": "2019-08-31"
+  },
+  {
+    "model": "ridge",
+    "arm": "zero5",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 1,
+    "refit": "2019-10-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "training_X_sha256": "6b3a8944749a44a3bca9fb630205b1a7beb5a18e45eb241c25185369481bfa65",
+    "query_X_sha256": "7242a95c2c1c929af30a074ad747b6e5fa2ed25843c791c7d8b680c33860f76f",
+    "training_n": 729,
+    "training_target_max": "2019-09-30",
+    "training_origin_max": "2019-09-30"
+  },
+  {
+    "model": "ridge",
+    "arm": "day5",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 1,
+    "refit": "2019-03-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "training_X_sha256": "1e2dc9bce332e516ab9055b28963b76c8a4dd9fc7c1d51b70d7697c574fe444b",
+    "query_X_sha256": "41a0e713e74f53d9d88130ef1566b189b0978de7edc874d8516f66f90abb3b88",
+    "training_n": 730,
+    "training_target_max": "2019-02-28",
+    "training_origin_max": "2019-02-28"
+  },
+  {
+    "model": "ridge",
+    "arm": "day5",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 1,
+    "refit": "2019-04-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "training_X_sha256": "15e054efe67de937f84f1fdeb6f4961c3d8597ff1a2521e3ff3e45305c1cc28c",
+    "query_X_sha256": "bc47959a6ea2a83eea377c1dcc655cfe137a7809f3150c3aa8f1adeebcb2626b",
+    "training_n": 730,
+    "training_target_max": "2019-03-31",
+    "training_origin_max": "2019-03-31"
+  },
+  {
+    "model": "ridge",
+    "arm": "day5",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 1,
+    "refit": "2019-08-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "training_X_sha256": "a986015cdfd87a83c21a74dfd30cb73c17d94214476d3dc5b2eadf55e47c40fb",
+    "query_X_sha256": "865c6d7c59383c06effd4c936c3cf30876a4c6d0572c3cf874a9b58c169965ff",
+    "training_n": 729,
+    "training_target_max": "2019-07-31",
+    "training_origin_max": "2019-07-31"
+  },
+  {
+    "model": "ridge",
+    "arm": "day5",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 1,
+    "refit": "2019-09-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "training_X_sha256": "d12f20edbd96634976087485112ae23f08f9a52c703ad959b117e1716db5ae03",
+    "query_X_sha256": "36522850ebe1d53d50488cfcaaba449c5b6a5791f1d867ea033dde28f66de995",
+    "training_n": 729,
+    "training_target_max": "2019-08-31",
+    "training_origin_max": "2019-08-31"
+  },
+  {
+    "model": "ridge",
+    "arm": "day5",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 1,
+    "refit": "2019-10-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "training_X_sha256": "1d0dfa340dd7f4cb2504971538a5881998ddaa0c6807151848797d98f0b52fb7",
+    "query_X_sha256": "58d8a1c51478f270dc95da0a17cc36621966034930da29a34124135b42d1df5e",
+    "training_n": 729,
+    "training_target_max": "2019-09-30",
+    "training_origin_max": "2019-09-30"
+  },
+  {
+    "model": "ridge",
+    "arm": "pooled_day5",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 1,
+    "refit": "2019-03-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "training_X_sha256": "80056c31aabc13fe01103e2e58cce46182facc5e1009ef8dab898d022f8fdcf6",
+    "query_X_sha256": "41a0e713e74f53d9d88130ef1566b189b0978de7edc874d8516f66f90abb3b88",
+    "training_n": 730,
+    "training_target_max": "2019-02-28",
+    "training_origin_max": "2019-02-28"
+  },
+  {
+    "model": "ridge",
+    "arm": "pooled_day5",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 1,
+    "refit": "2019-04-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "training_X_sha256": "6ea72bffcaad4882a3b8c9e52d26cba5568eab0751368544543dba703984569e",
+    "query_X_sha256": "f88349a1f8516fd851cbd944c8981ad0d54cb2f57cbe3be5d2a538b1a36f096b",
+    "training_n": 730,
+    "training_target_max": "2019-03-31",
+    "training_origin_max": "2019-03-31"
+  },
+  {
+    "model": "ridge",
+    "arm": "pooled_day5",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 1,
+    "refit": "2019-08-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "training_X_sha256": "9f169d473530b299c3a6cf5b129265eb9d4f0039ec6bf9881b0a42a3e6a68fe9",
+    "query_X_sha256": "865c6d7c59383c06effd4c936c3cf30876a4c6d0572c3cf874a9b58c169965ff",
+    "training_n": 729,
+    "training_target_max": "2019-07-31",
+    "training_origin_max": "2019-07-31"
+  },
+  {
+    "model": "ridge",
+    "arm": "pooled_day5",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 1,
+    "refit": "2019-09-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "training_X_sha256": "69ad212e8c6704ab1f7bd883eacecdf321d3a0ff932e87b23e3257be4cc77117",
+    "query_X_sha256": "930a31b0f43cc15eb813e97e0d0e0a239f3f92d03aba70286f348f6cc876749f",
+    "training_n": 729,
+    "training_target_max": "2019-08-31",
+    "training_origin_max": "2019-08-31"
+  },
+  {
+    "model": "ridge",
+    "arm": "pooled_day5",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 1,
+    "refit": "2019-10-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "training_X_sha256": "59dbeeb1ccf4ca713f3899019edf87dfdc1774716dbbd2040f556a7ee833bbc2",
+    "query_X_sha256": "f2f12bcffafa1571a0f97756e1745a1dc6a05031d124a4577a24391bc2cf839e",
+    "training_n": 729,
+    "training_target_max": "2019-09-30",
+    "training_origin_max": "2019-09-30"
+  },
+  {
+    "model": "ridge",
+    "arm": "placebo_day5",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 1,
+    "refit": "2019-03-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "training_X_sha256": "fe0c1656644dc8c27b578970e2b351ad1296f84d7c3d312847219f28d9c07e6c",
+    "query_X_sha256": "8a12e6bec554db3a021808c8b0b85bcdd9c8782355c7eb41856abe4bcc02a2c6",
+    "training_n": 730,
+    "training_target_max": "2019-02-28",
+    "training_origin_max": "2019-02-28"
+  },
+  {
+    "model": "ridge",
+    "arm": "placebo_day5",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 1,
+    "refit": "2019-04-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "training_X_sha256": "89682cc337e694bab463954e477b3a1f78a2488432efe77a7cabc63fceb6b873",
+    "query_X_sha256": "9d0c3075cfe98eb20b2f0aa186a63dccb9b31fec1fea6b5caa1c5dcb2a08b443",
+    "training_n": 730,
+    "training_target_max": "2019-03-31",
+    "training_origin_max": "2019-03-31"
+  },
+  {
+    "model": "ridge",
+    "arm": "placebo_day5",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 1,
+    "refit": "2019-08-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "training_X_sha256": "9d34c3c08c4ec8ac4d3c54a8af9d9c6e172aa5cdbf8640d80856b796f0f02dbc",
+    "query_X_sha256": "865c6d7c59383c06effd4c936c3cf30876a4c6d0572c3cf874a9b58c169965ff",
+    "training_n": 729,
+    "training_target_max": "2019-07-31",
+    "training_origin_max": "2019-07-31"
+  },
+  {
+    "model": "ridge",
+    "arm": "placebo_day5",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 1,
+    "refit": "2019-09-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "training_X_sha256": "b800f943c0818ba17a1078ac560dc3660ea7e8dd895e64b7f3c590cc3128d527",
+    "query_X_sha256": "f18510a8ab81654c1c85dbb5d7203722490088679ae5c9b5d464560be1923aff",
+    "training_n": 729,
+    "training_target_max": "2019-08-31",
+    "training_origin_max": "2019-08-31"
+  },
+  {
+    "model": "ridge",
+    "arm": "placebo_day5",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 1,
+    "refit": "2019-10-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "training_X_sha256": "0751ecf58a5d990609943e8c5c4f9c29ad8a3e67c378b8de0c0440707c9d1cc1",
+    "query_X_sha256": "7242a95c2c1c929af30a074ad747b6e5fa2ed25843c791c7d8b680c33860f76f",
+    "training_n": 729,
+    "training_target_max": "2019-09-30",
+    "training_origin_max": "2019-09-30"
+  },
+  {
+    "model": "ridge",
+    "arm": "calendar",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 7,
+    "refit": "2019-03-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "training_X_sha256": "4788a29e54b0c1e09861020ebdab303fd48c547645ff080474d0195fdf460afd",
+    "query_X_sha256": "5769cbb01d74ce2860bee58dc940e35793ccc1be8bc322edd9e9978e66e51fb4",
+    "training_n": 724,
+    "training_target_max": "2019-02-28",
+    "training_origin_max": "2019-02-22"
+  },
+  {
+    "model": "ridge",
+    "arm": "calendar",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 7,
+    "refit": "2019-04-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "training_X_sha256": "80bb6d8c1d41ef70110271e82e483214e79a998b8fd394d3555027387dad164c",
+    "query_X_sha256": "a5e627d5bb70549a4036744f515428b1006b4aa44786449ab79ad45b4d076230",
+    "training_n": 724,
+    "training_target_max": "2019-03-31",
+    "training_origin_max": "2019-03-25"
+  },
+  {
+    "model": "ridge",
+    "arm": "calendar",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 7,
+    "refit": "2019-08-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "training_X_sha256": "65c17b7c954bb667fb2dfd7dcb2c1c407e9dd0bd3d6604ff23f3e79deb93dd24",
+    "query_X_sha256": "000a2fcd18f91bd491e3ccb7297624f157b8025c0a3ab5425df600a5f7d0cf50",
+    "training_n": 723,
+    "training_target_max": "2019-07-31",
+    "training_origin_max": "2019-07-25"
+  },
+  {
+    "model": "ridge",
+    "arm": "calendar",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 7,
+    "refit": "2019-09-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "training_X_sha256": "02d38bbd4415d3c8fff6c837e05168b6c8b3dda05a59880a4849e04dcb3cb616",
+    "query_X_sha256": "2b9f3a603a716f531a836e49ec7bd8562fe693fa9a50e3ebf2a948485fe05b37",
+    "training_n": 723,
+    "training_target_max": "2019-08-31",
+    "training_origin_max": "2019-08-25"
+  },
+  {
+    "model": "ridge",
+    "arm": "calendar",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 7,
+    "refit": "2019-10-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "training_X_sha256": "24799a83ed07faaecaaf04dda498cf1095be246989e325e76563ff50bae0448a",
+    "query_X_sha256": "0a094e382361ee31db31bf6726b1ffd43570db3e2653049d4733296a780898dc",
+    "training_n": 723,
+    "training_target_max": "2019-09-30",
+    "training_origin_max": "2019-09-24"
+  },
+  {
+    "model": "ridge",
+    "arm": "zero5",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 7,
+    "refit": "2019-03-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "training_X_sha256": "72652a526010d9d3347d2bb5a5e3cafa99b83fa1aec84deb5d4547fec09c79af",
+    "query_X_sha256": "25f925c1eb75e26c290782ecb51538007069c37e9e1e5918533330111bb95597",
+    "training_n": 724,
+    "training_target_max": "2019-02-28",
+    "training_origin_max": "2019-02-22"
+  },
+  {
+    "model": "ridge",
+    "arm": "zero5",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 7,
+    "refit": "2019-04-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "training_X_sha256": "f3c3e63b5a6fa807640f49718d0b24eb765b03e34282387c26d1a525e5e0ca3e",
+    "query_X_sha256": "bc9e457eb234f26db57d2187a3e4d40a1bb69957863adde78b6f5da92cdd2264",
+    "training_n": 724,
+    "training_target_max": "2019-03-31",
+    "training_origin_max": "2019-03-25"
+  },
+  {
+    "model": "ridge",
+    "arm": "zero5",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 7,
+    "refit": "2019-08-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "training_X_sha256": "3a61d8e111801eb67a81af186a5a5520fb08b78c4fbc07c91a68cdc7bd0f13b1",
+    "query_X_sha256": "960b9f3ad2d0cb7f481c41ebf455fe0a0594c5312596820c2e2531a968370307",
+    "training_n": 723,
+    "training_target_max": "2019-07-31",
+    "training_origin_max": "2019-07-25"
+  },
+  {
+    "model": "ridge",
+    "arm": "zero5",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 7,
+    "refit": "2019-09-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "training_X_sha256": "e38457e649e808b084757920038c82c5448099d575e2a7a3117b4136f2f07708",
+    "query_X_sha256": "8cba4b7427ce5f90da3b532d0af7913cfff5831b5cd67644ee6dd144270b3ee3",
+    "training_n": 723,
+    "training_target_max": "2019-08-31",
+    "training_origin_max": "2019-08-25"
+  },
+  {
+    "model": "ridge",
+    "arm": "zero5",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 7,
+    "refit": "2019-10-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "training_X_sha256": "a4813abc7192b8750973479ab4e87fb7243a49d6be8a8a294e73437e3dec3178",
+    "query_X_sha256": "08875a78e1f17ed98ff41557437897f8953c38a7df2d3cef01de03a1d4a72785",
+    "training_n": 723,
+    "training_target_max": "2019-09-30",
+    "training_origin_max": "2019-09-24"
+  },
+  {
+    "model": "ridge",
+    "arm": "day5",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 7,
+    "refit": "2019-03-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "training_X_sha256": "fcf87625e840ff005fe290788d312413a2ea546d176c19ff5bed58450b6ad5eb",
+    "query_X_sha256": "b36a0dac93fec77dededa5f90cd4e874f9347d55b5d0012ce53372983f1d80c6",
+    "training_n": 724,
+    "training_target_max": "2019-02-28",
+    "training_origin_max": "2019-02-22"
+  },
+  {
+    "model": "ridge",
+    "arm": "day5",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 7,
+    "refit": "2019-04-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "training_X_sha256": "a785b9dc1675fbb027d3306eb7b599a405b4cde0294ea4cd99319633397e727a",
+    "query_X_sha256": "bc9e457eb234f26db57d2187a3e4d40a1bb69957863adde78b6f5da92cdd2264",
+    "training_n": 724,
+    "training_target_max": "2019-03-31",
+    "training_origin_max": "2019-03-25"
+  },
+  {
+    "model": "ridge",
+    "arm": "day5",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 7,
+    "refit": "2019-08-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "training_X_sha256": "1aa777c3da21af0d5bdbc4e742e0e03fa1f63523a58b501df85408726e3e6589",
+    "query_X_sha256": "39c5a7f3127882a65f89dcdfee00ee5d3d294c673fcfc9b6f51ca4c88ac88b94",
+    "training_n": 723,
+    "training_target_max": "2019-07-31",
+    "training_origin_max": "2019-07-25"
+  },
+  {
+    "model": "ridge",
+    "arm": "day5",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 7,
+    "refit": "2019-09-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "training_X_sha256": "eb495b07f78b16caaacd020d04ea1eed46ba03e63750c68d44de9e072f4e7b15",
+    "query_X_sha256": "8cba4b7427ce5f90da3b532d0af7913cfff5831b5cd67644ee6dd144270b3ee3",
+    "training_n": 723,
+    "training_target_max": "2019-08-31",
+    "training_origin_max": "2019-08-25"
+  },
+  {
+    "model": "ridge",
+    "arm": "day5",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 7,
+    "refit": "2019-10-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "training_X_sha256": "b7c057767b9657b25a8453b897fcea214ec08e06af5f40c40737222a59d79e8e",
+    "query_X_sha256": "7b1bc0804f0dac6823bd3a7e9b43da3cd3006d74d2f707f5e664aa942e184b40",
+    "training_n": 723,
+    "training_target_max": "2019-09-30",
+    "training_origin_max": "2019-09-24"
+  },
+  {
+    "model": "ridge",
+    "arm": "pooled_day5",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 7,
+    "refit": "2019-03-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "training_X_sha256": "1851e427cbe60c9a718b6cf7d6a571f1d09b19d1e72f15c04a176b57b8d5bfea",
+    "query_X_sha256": "0a3647583b582a55afcdc0370403ce6258818afc1238d568c335c297dbaa6fc7",
+    "training_n": 724,
+    "training_target_max": "2019-02-28",
+    "training_origin_max": "2019-02-22"
+  },
+  {
+    "model": "ridge",
+    "arm": "pooled_day5",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 7,
+    "refit": "2019-04-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "training_X_sha256": "a64795bc6e32d7f3740344bcce63c4fbfd53d67f07d28a6ee7465ce089fbb00b",
+    "query_X_sha256": "bc9e457eb234f26db57d2187a3e4d40a1bb69957863adde78b6f5da92cdd2264",
+    "training_n": 724,
+    "training_target_max": "2019-03-31",
+    "training_origin_max": "2019-03-25"
+  },
+  {
+    "model": "ridge",
+    "arm": "pooled_day5",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 7,
+    "refit": "2019-08-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "training_X_sha256": "58bb483f971a2f5fffa4cb4e3c7d1f8a3baccd0a53587a55b9bc1e3365b25bb7",
+    "query_X_sha256": "09d399fad5c953055b000bad6f166de53401cb2d2fb744a34ab913f7aadb29a1",
+    "training_n": 723,
+    "training_target_max": "2019-07-31",
+    "training_origin_max": "2019-07-25"
+  },
+  {
+    "model": "ridge",
+    "arm": "pooled_day5",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 7,
+    "refit": "2019-09-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "training_X_sha256": "48a931aba11984cff01e97001be26eea2ff961c0f0a6772da8ea9cf8574129f9",
+    "query_X_sha256": "8cba4b7427ce5f90da3b532d0af7913cfff5831b5cd67644ee6dd144270b3ee3",
+    "training_n": 723,
+    "training_target_max": "2019-08-31",
+    "training_origin_max": "2019-08-25"
+  },
+  {
+    "model": "ridge",
+    "arm": "pooled_day5",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 7,
+    "refit": "2019-10-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "training_X_sha256": "2c617952b2036bb75a90e53d51f23eb0fdb52af7aa186c92ede230e6b809947c",
+    "query_X_sha256": "2cd12a49aed5db91b0311321837e1ba421924caa6c1ea655f12deb46153a0c01",
+    "training_n": 723,
+    "training_target_max": "2019-09-30",
+    "training_origin_max": "2019-09-24"
+  },
+  {
+    "model": "ridge",
+    "arm": "placebo_day5",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 7,
+    "refit": "2019-03-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "training_X_sha256": "1b2ef08ed33fbf7805f91d792c6f519504cc96eae699a4e71d34e7d85bebcda8",
+    "query_X_sha256": "25f925c1eb75e26c290782ecb51538007069c37e9e1e5918533330111bb95597",
+    "training_n": 724,
+    "training_target_max": "2019-02-28",
+    "training_origin_max": "2019-02-22"
+  },
+  {
+    "model": "ridge",
+    "arm": "placebo_day5",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 7,
+    "refit": "2019-04-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "training_X_sha256": "08223e91aa0a1f7aff096a3e046a06360f856e1f9337cb4e45558b669200aec2",
+    "query_X_sha256": "bc9e457eb234f26db57d2187a3e4d40a1bb69957863adde78b6f5da92cdd2264",
+    "training_n": 724,
+    "training_target_max": "2019-03-31",
+    "training_origin_max": "2019-03-25"
+  },
+  {
+    "model": "ridge",
+    "arm": "placebo_day5",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 7,
+    "refit": "2019-08-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "training_X_sha256": "9e824d9297f5c8cbbf0037e7e4474b1b8efb1e5fc9942404ebca636b3183d41a",
+    "query_X_sha256": "960b9f3ad2d0cb7f481c41ebf455fe0a0594c5312596820c2e2531a968370307",
+    "training_n": 723,
+    "training_target_max": "2019-07-31",
+    "training_origin_max": "2019-07-25"
+  },
+  {
+    "model": "ridge",
+    "arm": "placebo_day5",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 7,
+    "refit": "2019-09-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "training_X_sha256": "a9a4eb92b139458f508821a6f35bc318d555a6705b3fce4cf26023589f4e5e80",
+    "query_X_sha256": "8cba4b7427ce5f90da3b532d0af7913cfff5831b5cd67644ee6dd144270b3ee3",
+    "training_n": 723,
+    "training_target_max": "2019-08-31",
+    "training_origin_max": "2019-08-25"
+  },
+  {
+    "model": "ridge",
+    "arm": "placebo_day5",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 7,
+    "refit": "2019-10-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "training_X_sha256": "cfe7ef667ef0ba37a0a761da791c02f589c74987dcf018840ee616f2f47ab8fe",
+    "query_X_sha256": "08875a78e1f17ed98ff41557437897f8953c38a7df2d3cef01de03a1d4a72785",
+    "training_n": 723,
+    "training_target_max": "2019-09-30",
+    "training_origin_max": "2019-09-24"
+  },
+  {
+    "model": "ridge",
+    "arm": "calendar",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 14,
+    "refit": "2019-03-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "training_X_sha256": "8919cb8443eb23f01b582fc67088f95dfb155f5992ce7baf1e1389db1cdcbd26",
+    "query_X_sha256": "acfa1dd5a9c18ff4542981f8ca8e2671c538759ccee0f484e03a955ffc846cab",
+    "training_n": 717,
+    "training_target_max": "2019-02-28",
+    "training_origin_max": "2019-02-15"
+  },
+  {
+    "model": "ridge",
+    "arm": "calendar",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 14,
+    "refit": "2019-08-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "training_X_sha256": "498aa7709b9b5e599910698333d5646a1fd456b2b0ffb47f4578571d38693dc1",
+    "query_X_sha256": "38010677bd09ae8b69f98b31d884fe1e2a3723b1afb404e130aa704f425b47d9",
+    "training_n": 716,
+    "training_target_max": "2019-07-31",
+    "training_origin_max": "2019-07-18"
+  },
+  {
+    "model": "ridge",
+    "arm": "calendar",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 14,
+    "refit": "2019-09-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "training_X_sha256": "634520b6857a6ba36c732a2e28cdfc672228b38ddbe85c601ab94367d95e3ac9",
+    "query_X_sha256": "8f4ba2f49e6a7a59d66488b3dd6b4e5abb6d1a9082928ffd489a7b9b890c766d",
+    "training_n": 716,
+    "training_target_max": "2019-08-31",
+    "training_origin_max": "2019-08-18"
+  },
+  {
+    "model": "ridge",
+    "arm": "calendar",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 14,
+    "refit": "2019-10-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "training_X_sha256": "f24b209079ac61d148cfcf7ee02c4e66e05e4439434391029a78cf3993548ac9",
+    "query_X_sha256": "ae2d1040658d4198f763a07d815807104d6461526052c522adf8507cd91a0322",
+    "training_n": 716,
+    "training_target_max": "2019-09-30",
+    "training_origin_max": "2019-09-17"
+  },
+  {
+    "model": "ridge",
+    "arm": "zero5",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 14,
+    "refit": "2019-03-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "training_X_sha256": "4d90a9c4765ce242d64067673e3467f8f63701f851df68c9e71934d117057ea0",
+    "query_X_sha256": "18edf0eb67e583e54415078803204ad862024113cb333eabe7e84389f5bd644d",
+    "training_n": 717,
+    "training_target_max": "2019-02-28",
+    "training_origin_max": "2019-02-15"
+  },
+  {
+    "model": "ridge",
+    "arm": "zero5",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 14,
+    "refit": "2019-08-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "training_X_sha256": "7d26b036d60e8e82d4535ffb28f68fca44fd0e30766efda55492091c55b95189",
+    "query_X_sha256": "04581be9e3c965d5c91599e796aa66cb416e9c6e630e851b88320f4aca23a784",
+    "training_n": 716,
+    "training_target_max": "2019-07-31",
+    "training_origin_max": "2019-07-18"
+  },
+  {
+    "model": "ridge",
+    "arm": "zero5",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 14,
+    "refit": "2019-09-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "training_X_sha256": "9a8d93425f7dbaa31d0432a0abae73aa8fafdf6d912d84342812c55c9d2741d4",
+    "query_X_sha256": "6c61f659ebce264ba6d6a7a66c288f96cd2160c8024420ea0a0553363b0e22b1",
+    "training_n": 716,
+    "training_target_max": "2019-08-31",
+    "training_origin_max": "2019-08-18"
+  },
+  {
+    "model": "ridge",
+    "arm": "zero5",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 14,
+    "refit": "2019-10-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "training_X_sha256": "e035e5e902f12556ee266a6978b9615646e0b7024cf3b557b5c7d01482379295",
+    "query_X_sha256": "6550f78f5e997e4c2d1a401f52be002109332c053dcc02d50204eb0fed22e891",
+    "training_n": 716,
+    "training_target_max": "2019-09-30",
+    "training_origin_max": "2019-09-17"
+  },
+  {
+    "model": "ridge",
+    "arm": "day5",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 14,
+    "refit": "2019-03-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "training_X_sha256": "3e8b9221a0ffce69b80dd59a04b5478c106654a6ef3c5fe129c33e0d1e02c125",
+    "query_X_sha256": "3817f02caa316fa9551f2768524fabf829156ba3e6ff22ac1a4d059907f76e76",
+    "training_n": 717,
+    "training_target_max": "2019-02-28",
+    "training_origin_max": "2019-02-15"
+  },
+  {
+    "model": "ridge",
+    "arm": "day5",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 14,
+    "refit": "2019-08-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "training_X_sha256": "e1e4e734ab7441eb7200fd1149daef189410da5a7c6451eeda6db95a2ca8850c",
+    "query_X_sha256": "c4499f08d33bfdefe40dcc1665d43d512325b85f6910b2c8c12a872c62c4fc13",
+    "training_n": 716,
+    "training_target_max": "2019-07-31",
+    "training_origin_max": "2019-07-18"
+  },
+  {
+    "model": "ridge",
+    "arm": "day5",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 14,
+    "refit": "2019-09-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "training_X_sha256": "15bba0f5b6233d8d8367edb92e9dccc1c387dea5e9b1ef6f4da3f73c9773042c",
+    "query_X_sha256": "3a6bdcfa3ecedb9773290c7c812d460349098b726d113d9f6ce6d70315e3cea3",
+    "training_n": 716,
+    "training_target_max": "2019-08-31",
+    "training_origin_max": "2019-08-18"
+  },
+  {
+    "model": "ridge",
+    "arm": "day5",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 14,
+    "refit": "2019-10-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "training_X_sha256": "d4d1a7a901a3e8f3685a9199e5a0fc86355dcb941eb79c8e9662d9e9532b53a1",
+    "query_X_sha256": "f78773c2a807056a0a0381f493a08af8e922423561f9882945763470913f05d1",
+    "training_n": 716,
+    "training_target_max": "2019-09-30",
+    "training_origin_max": "2019-09-17"
+  },
+  {
+    "model": "ridge",
+    "arm": "pooled_day5",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 14,
+    "refit": "2019-03-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "training_X_sha256": "9e834494ace4d004c6961c5686c51b980c96643b5cbb96732ad12f2e9481a40a",
+    "query_X_sha256": "16faa7aeb99d51e2eb209a900b7072ee72b37adcdaef75d744fcb7191579b141",
+    "training_n": 717,
+    "training_target_max": "2019-02-28",
+    "training_origin_max": "2019-02-15"
+  },
+  {
+    "model": "ridge",
+    "arm": "pooled_day5",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 14,
+    "refit": "2019-08-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "training_X_sha256": "93c576540a6c5deba8c8d488f47a4af13b86af66baf9e06c13dfefe3652d119a",
+    "query_X_sha256": "91cfc34b6c606451f05ad22b355930a22902a74f17ba75684ff972d597a955d2",
+    "training_n": 716,
+    "training_target_max": "2019-07-31",
+    "training_origin_max": "2019-07-18"
+  },
+  {
+    "model": "ridge",
+    "arm": "pooled_day5",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 14,
+    "refit": "2019-09-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "training_X_sha256": "7c8c353141f37f0ddd6ff008c1f4964638c0f7574edc5eeacd727fd64118bbe0",
+    "query_X_sha256": "61977191493dbc71bc455d29251f96d7e1ccfe90c822c5cd65d2c127cd0e5748",
+    "training_n": 716,
+    "training_target_max": "2019-08-31",
+    "training_origin_max": "2019-08-18"
+  },
+  {
+    "model": "ridge",
+    "arm": "pooled_day5",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 14,
+    "refit": "2019-10-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "training_X_sha256": "62b9f09fc08564dd06e45ab37397879a5a78f4584e7ee9f47cec6bf81ce37d26",
+    "query_X_sha256": "090d99eb3bf51dc08c3bcaa1b4b2bbe4de02e74c10bc912154d234b6a06eb630",
+    "training_n": 716,
+    "training_target_max": "2019-09-30",
+    "training_origin_max": "2019-09-17"
+  },
+  {
+    "model": "ridge",
+    "arm": "placebo_day5",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 14,
+    "refit": "2019-03-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "training_X_sha256": "d4ab8a2ffb92324ecb18b5204bed24b6ae62255dfd8fdd21d9096487d81cfbe2",
+    "query_X_sha256": "18edf0eb67e583e54415078803204ad862024113cb333eabe7e84389f5bd644d",
+    "training_n": 717,
+    "training_target_max": "2019-02-28",
+    "training_origin_max": "2019-02-15"
+  },
+  {
+    "model": "ridge",
+    "arm": "placebo_day5",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 14,
+    "refit": "2019-08-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "training_X_sha256": "ff486226bfddc25cbf4342e8860ef4a65e9726d4881d2b8172b183a5449dd577",
+    "query_X_sha256": "04581be9e3c965d5c91599e796aa66cb416e9c6e630e851b88320f4aca23a784",
+    "training_n": 716,
+    "training_target_max": "2019-07-31",
+    "training_origin_max": "2019-07-18"
+  },
+  {
+    "model": "ridge",
+    "arm": "placebo_day5",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 14,
+    "refit": "2019-09-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "training_X_sha256": "4f3edce6090f902fc392401426eae5fe0a847ab765e7fb36daadc75519f2910b",
+    "query_X_sha256": "6c61f659ebce264ba6d6a7a66c288f96cd2160c8024420ea0a0553363b0e22b1",
+    "training_n": 716,
+    "training_target_max": "2019-08-31",
+    "training_origin_max": "2019-08-18"
+  },
+  {
+    "model": "ridge",
+    "arm": "placebo_day5",
+    "state": "Maharashtra",
+    "year": 2019,
+    "horizon": 14,
+    "refit": "2019-10-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "training_X_sha256": "b2cbee88a1f35bcee86d445975ea1f5b2830786a537eb2646be17247e671a37a",
+    "query_X_sha256": "6550f78f5e997e4c2d1a401f52be002109332c053dcc02d50204eb0fed22e891",
+    "training_n": 716,
+    "training_target_max": "2019-09-30",
+    "training_origin_max": "2019-09-17"
+  },
+  {
+    "model": "ridge",
+    "arm": "calendar",
+    "state": "Maharashtra",
+    "year": 2020,
+    "horizon": 1,
+    "refit": "2020-03-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "training_X_sha256": "93cd4cd3faf1f40b32bb89e3f0c8040c14e8c1ed7bc7c6609113fb72232459e9",
+    "query_X_sha256": "e7f8d52fc9d6e403060ea3fb4fff2b67b94d026b93d8866656784a260a8c2799",
+    "training_n": 729,
+    "training_target_max": "2020-02-29",
+    "training_origin_max": "2020-02-29"
+  },
+  {
+    "model": "ridge",
+    "arm": "calendar",
+    "state": "Maharashtra",
+    "year": 2020,
+    "horizon": 1,
+    "refit": "2020-08-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "training_X_sha256": "ebeb33c095701fe88fa556ac39eb92896b2068109c2f6ed85a633c438a6d684b",
+    "query_X_sha256": "5cf35bee4bc8b304792fc36aaecd22db001faa4f4e531b0b4462573b42bb2160",
+    "training_n": 729,
+    "training_target_max": "2020-07-31",
+    "training_origin_max": "2020-07-31"
+  },
+  {
+    "model": "ridge",
+    "arm": "calendar",
+    "state": "Maharashtra",
+    "year": 2020,
+    "horizon": 1,
+    "refit": "2020-10-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "training_X_sha256": "a1f01b59f76a2bcecd97c67718d50a793cc7ecdef05551228e18365be06713d4",
+    "query_X_sha256": "ad4145e4c7dbdf7f77f783fd3521ec7b44fb5b8f2aa298e87067baa3f4942a54",
+    "training_n": 728,
+    "training_target_max": "2020-09-29",
+    "training_origin_max": "2020-09-29"
+  },
+  {
+    "model": "ridge",
+    "arm": "calendar",
+    "state": "Maharashtra",
+    "year": 2020,
+    "horizon": 1,
+    "refit": "2020-11-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "training_X_sha256": "206090b41f2064a3614ee692c58a21042be4fa15c5fa762b000fa3b81fb294e4",
+    "query_X_sha256": "afb3e1588dac720d9208c4ea7f5c61ebcc0fe992dc0cca85102cd8b79253617b",
+    "training_n": 728,
+    "training_target_max": "2020-10-31",
+    "training_origin_max": "2020-10-31"
+  },
+  {
+    "model": "ridge",
+    "arm": "zero5",
+    "state": "Maharashtra",
+    "year": 2020,
+    "horizon": 1,
+    "refit": "2020-03-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "training_X_sha256": "343f6bcaf9f5cf98a7774c29310a3f65bba207c8a2dc086ce7b1a32e51e81e2e",
+    "query_X_sha256": "22a3bb89fc3d19dd944130c07bf6265d70517739c239edeae52cfa24a14e285c",
+    "training_n": 729,
+    "training_target_max": "2020-02-29",
+    "training_origin_max": "2020-02-29"
+  },
+  {
+    "model": "ridge",
+    "arm": "zero5",
+    "state": "Maharashtra",
+    "year": 2020,
+    "horizon": 1,
+    "refit": "2020-08-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "training_X_sha256": "0f843a5d3d572f02026e490451af6181fed0a8f1f0f4ca5a5d8bb75f3ece7d08",
+    "query_X_sha256": "76411dbe2b769159f4b7ea8b104c87e14b9daefb0429d2eeebadfa3c0af9d3c7",
+    "training_n": 729,
+    "training_target_max": "2020-07-31",
+    "training_origin_max": "2020-07-31"
+  },
+  {
+    "model": "ridge",
+    "arm": "zero5",
+    "state": "Maharashtra",
+    "year": 2020,
+    "horizon": 1,
+    "refit": "2020-10-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "training_X_sha256": "0c901ee5dcdeab72deafe0bc034024181cf02300328830396d890e6b20657ddf",
+    "query_X_sha256": "e0a70d611969206d3147c6b7f49842d625cf916244452e6b2c5d09ed7055c9f3",
+    "training_n": 728,
+    "training_target_max": "2020-09-29",
+    "training_origin_max": "2020-09-29"
+  },
+  {
+    "model": "ridge",
+    "arm": "zero5",
+    "state": "Maharashtra",
+    "year": 2020,
+    "horizon": 1,
+    "refit": "2020-11-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "training_X_sha256": "2b6f5c0f9fa1c5df1002d29ab43abc3b179cf8cf89892d607c918e132eaad4e2",
+    "query_X_sha256": "a190967b79094cfaed744521edea48a5089b95e8c5310b6db3c7a46a2ca4efe8",
+    "training_n": 728,
+    "training_target_max": "2020-10-31",
+    "training_origin_max": "2020-10-31"
+  },
+  {
+    "model": "ridge",
+    "arm": "day5",
+    "state": "Maharashtra",
+    "year": 2020,
+    "horizon": 1,
+    "refit": "2020-03-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "training_X_sha256": "979c278a055c116591606fb73714d459ef21da454a294dca18e5650c038e60ff",
+    "query_X_sha256": "edd8268605d65c7dc17a1fcb6a8d35eb9bca58232f9637559639a0154cfaf818",
+    "training_n": 729,
+    "training_target_max": "2020-02-29",
+    "training_origin_max": "2020-02-29"
+  },
+  {
+    "model": "ridge",
+    "arm": "day5",
+    "state": "Maharashtra",
+    "year": 2020,
+    "horizon": 1,
+    "refit": "2020-08-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "training_X_sha256": "9b50d25e3f66b8281c0cd726c34ef1e1d6d3d25c779fb825a5f20f8d06ad076c",
+    "query_X_sha256": "90ad4f4a67fd71107e077333225b2652ee2e2ee8b01dd7ae35f9a2837bee127b",
+    "training_n": 729,
+    "training_target_max": "2020-07-31",
+    "training_origin_max": "2020-07-31"
+  },
+  {
+    "model": "ridge",
+    "arm": "day5",
+    "state": "Maharashtra",
+    "year": 2020,
+    "horizon": 1,
+    "refit": "2020-10-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "training_X_sha256": "0da0c015613f9d0ade7bfbf54eb8dac0f9b0778a2284c69bb76b280760972e38",
+    "query_X_sha256": "1f88aa4ee140108b706bee24c84980a5df54e55a0df0c6368b6734b82a1c4c08",
+    "training_n": 728,
+    "training_target_max": "2020-09-29",
+    "training_origin_max": "2020-09-29"
+  },
+  {
+    "model": "ridge",
+    "arm": "day5",
+    "state": "Maharashtra",
+    "year": 2020,
+    "horizon": 1,
+    "refit": "2020-11-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "training_X_sha256": "7ae120f31d30b088fd6c9f2832760286fe2e405bdbc350152a89296920f29d21",
+    "query_X_sha256": "8c024d2521cd23c198ad48649e37a84d3e35ad79df93b2885cdcadce39055eac",
+    "training_n": 728,
+    "training_target_max": "2020-10-31",
+    "training_origin_max": "2020-10-31"
+  },
+  {
+    "model": "ridge",
+    "arm": "pooled_day5",
+    "state": "Maharashtra",
+    "year": 2020,
+    "horizon": 1,
+    "refit": "2020-03-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "training_X_sha256": "504ba0edef01a507eb3969653d5c3dd9cba0d20d81cf0d5b98f6f5445f4f93eb",
+    "query_X_sha256": "f2c128dfd2bdb9051be6283baea6e038908dbbadc0dc2ab4af210eb36f7729ce",
+    "training_n": 729,
+    "training_target_max": "2020-02-29",
+    "training_origin_max": "2020-02-29"
+  },
+  {
+    "model": "ridge",
+    "arm": "pooled_day5",
+    "state": "Maharashtra",
+    "year": 2020,
+    "horizon": 1,
+    "refit": "2020-08-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "training_X_sha256": "d765e1def4ed73acb31d16c94f5ab8c169c03b86d7515ac59cab829e4d348a09",
+    "query_X_sha256": "7771087e7a9a710a0f05df9d3880700d05076fdcb8c8b67199a4c2d6a95f8d25",
+    "training_n": 729,
+    "training_target_max": "2020-07-31",
+    "training_origin_max": "2020-07-31"
+  },
+  {
+    "model": "ridge",
+    "arm": "pooled_day5",
+    "state": "Maharashtra",
+    "year": 2020,
+    "horizon": 1,
+    "refit": "2020-10-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "training_X_sha256": "7a1c8824a22d522b23738710ee8d1ded743191e51b1aa295d51964f72032ce0e",
+    "query_X_sha256": "0a6fe708fead0147af94ed3b1e8181c4563e7b875ba22043c379fb7e0173f858",
+    "training_n": 728,
+    "training_target_max": "2020-09-29",
+    "training_origin_max": "2020-09-29"
+  },
+  {
+    "model": "ridge",
+    "arm": "pooled_day5",
+    "state": "Maharashtra",
+    "year": 2020,
+    "horizon": 1,
+    "refit": "2020-11-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "training_X_sha256": "421c677e5f8adbff4853b5161f11d010a0f5b2aa4a7bd1daa3f80ad288937035",
+    "query_X_sha256": "9d4d3db643f910e71dd8dd1cb29b2892cff9fb1e1719f47fecaa6b75b752ab91",
+    "training_n": 728,
+    "training_target_max": "2020-10-31",
+    "training_origin_max": "2020-10-31"
+  },
+  {
+    "model": "ridge",
+    "arm": "placebo_day5",
+    "state": "Maharashtra",
+    "year": 2020,
+    "horizon": 1,
+    "refit": "2020-03-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "training_X_sha256": "2aa97ae28940d2a2f94356e04ec07f79d8353f117051efaf2254a51373d26da4",
+    "query_X_sha256": "22a3bb89fc3d19dd944130c07bf6265d70517739c239edeae52cfa24a14e285c",
+    "training_n": 729,
+    "training_target_max": "2020-02-29",
+    "training_origin_max": "2020-02-29"
+  },
+  {
+    "model": "ridge",
+    "arm": "placebo_day5",
+    "state": "Maharashtra",
+    "year": 2020,
+    "horizon": 1,
+    "refit": "2020-08-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "training_X_sha256": "a74d0619816fabfb6a499835789fa387da3028cfab22b9e2e10d39c588b337d6",
+    "query_X_sha256": "76411dbe2b769159f4b7ea8b104c87e14b9daefb0429d2eeebadfa3c0af9d3c7",
+    "training_n": 729,
+    "training_target_max": "2020-07-31",
+    "training_origin_max": "2020-07-31"
+  },
+  {
+    "model": "ridge",
+    "arm": "placebo_day5",
+    "state": "Maharashtra",
+    "year": 2020,
+    "horizon": 1,
+    "refit": "2020-10-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "training_X_sha256": "bbebbeb2c02c40762a197c6db74836b2067091d6696fbb1cff4f44935a4e66d5",
+    "query_X_sha256": "e0a70d611969206d3147c6b7f49842d625cf916244452e6b2c5d09ed7055c9f3",
+    "training_n": 728,
+    "training_target_max": "2020-09-29",
+    "training_origin_max": "2020-09-29"
+  },
+  {
+    "model": "ridge",
+    "arm": "placebo_day5",
+    "state": "Maharashtra",
+    "year": 2020,
+    "horizon": 1,
+    "refit": "2020-11-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "training_X_sha256": "b24d10a50b8d116232c57c9087ccd6d098571683415002d71d356fac3bad7d1f",
+    "query_X_sha256": "a190967b79094cfaed744521edea48a5089b95e8c5310b6db3c7a46a2ca4efe8",
+    "training_n": 728,
+    "training_target_max": "2020-10-31",
+    "training_origin_max": "2020-10-31"
+  },
+  {
+    "model": "ridge",
+    "arm": "calendar",
+    "state": "Maharashtra",
+    "year": 2020,
+    "horizon": 7,
+    "refit": "2020-03-01",
+    "parameters": {
+      "alpha": 10.0
+    },
+    "training_X_sha256": "92f10daf55dee3c4fedcd56a7f7a6467a6c0e94b6f9547221e83753c7ee65b02",
+    "query_X_sha256": "29273eb05fb937612203ded05d9364984194b3a6cb31103c12972ae3a819425a",
+    "training_n": 723,
+    "training_target_max": "2020-02-29",
+    "training_origin_max": "2020-02-23"
+  },
+  {
+    "model": "ridge",
+    "arm": "calendar",
+    "state": "Maharashtra",
+    "year": 2020,
+    "horizon": 7,
+    "refit": "2020-08-01",
+    "parameters": {
+      "alpha": 10.0
+    },
+    "training_X_sha256": "bb70f54a6c01852b28e93989a95222a7366151fa93822e2ece1c40568cc79f1a",
+    "query_X_sha256": "39159a2fb5d4037a66c012fc2333ccda0dba98aa8882cb79891dd20fe4dd8139",
+    "training_n": 723,
+    "training_target_max": "2020-07-31",
+    "training_origin_max": "2020-07-25"
+  },
+  {
+    "model": "ridge",
+    "arm": "calendar",
+    "state": "Maharashtra",
+    "year": 2020,
+    "horizon": 7,
+    "refit": "2020-10-01",
+    "parameters": {
+      "alpha": 10.0
+    },
+    "training_X_sha256": "f79e21807917d3dd02f8a22cb2d1e2c7718146759cc7e4d239016beba63a2b3d",
+    "query_X_sha256": "33fca1ebd693106897eae884a6d0efc581387561275f38f8457f902efc98234f",
+    "training_n": 722,
+    "training_target_max": "2020-09-29",
+    "training_origin_max": "2020-09-23"
+  },
+  {
+    "model": "ridge",
+    "arm": "calendar",
+    "state": "Maharashtra",
+    "year": 2020,
+    "horizon": 7,
+    "refit": "2020-11-01",
+    "parameters": {
+      "alpha": 10.0
+    },
+    "training_X_sha256": "affce8f3c89a3404737ba68e95078926a411730bac7d40175780e4003fd3becb",
+    "query_X_sha256": "cd995394f8fba1e260e51ca81c21bbecd6b77e83f57ff6374230c44063d74550",
+    "training_n": 722,
+    "training_target_max": "2020-10-31",
+    "training_origin_max": "2020-10-25"
+  },
+  {
+    "model": "ridge",
+    "arm": "zero5",
+    "state": "Maharashtra",
+    "year": 2020,
+    "horizon": 7,
+    "refit": "2020-03-01",
+    "parameters": {
+      "alpha": 10.0
+    },
+    "training_X_sha256": "16482e35412db309601bb19f6726979aeba1a00f8406a9095e79c3f726f53876",
+    "query_X_sha256": "70ae7b3825613f1ed0fa1602373f10f70b2e3a9d92d24165ae0b8f2f58d89fbb",
+    "training_n": 723,
+    "training_target_max": "2020-02-29",
+    "training_origin_max": "2020-02-23"
+  },
+  {
+    "model": "ridge",
+    "arm": "zero5",
+    "state": "Maharashtra",
+    "year": 2020,
+    "horizon": 7,
+    "refit": "2020-08-01",
+    "parameters": {
+      "alpha": 10.0
+    },
+    "training_X_sha256": "a52c77e0e0de41de95dd0d56603fe92318a1dd4f702ebda1f2f139c51cb3a033",
+    "query_X_sha256": "2ad88d5aaa3b40c96163fa2835faa6977bac86bcea7ddd3307ce9c70327b2346",
+    "training_n": 723,
+    "training_target_max": "2020-07-31",
+    "training_origin_max": "2020-07-25"
+  },
+  {
+    "model": "ridge",
+    "arm": "zero5",
+    "state": "Maharashtra",
+    "year": 2020,
+    "horizon": 7,
+    "refit": "2020-10-01",
+    "parameters": {
+      "alpha": 10.0
+    },
+    "training_X_sha256": "b4eaf1790987065b83e0d42a771630be94523440bdc5619fdb193c48505a81bc",
+    "query_X_sha256": "87bdedca668f7fc1a3fe32a1c6f33b70beed503b9c92884e2c42d06c43bde0a4",
+    "training_n": 722,
+    "training_target_max": "2020-09-29",
+    "training_origin_max": "2020-09-23"
+  },
+  {
+    "model": "ridge",
+    "arm": "zero5",
+    "state": "Maharashtra",
+    "year": 2020,
+    "horizon": 7,
+    "refit": "2020-11-01",
+    "parameters": {
+      "alpha": 10.0
+    },
+    "training_X_sha256": "080b4497c82d7615e5715eb35f810a88984a9765ba1baf621bbf9077063083c2",
+    "query_X_sha256": "538a2de6f28b2b65ceaeb69b20d7221d608e8df0ed3ff5f5f8b9a1bedfe3ae1e",
+    "training_n": 722,
+    "training_target_max": "2020-10-31",
+    "training_origin_max": "2020-10-25"
+  },
+  {
+    "model": "ridge",
+    "arm": "day5",
+    "state": "Maharashtra",
+    "year": 2020,
+    "horizon": 7,
+    "refit": "2020-03-01",
+    "parameters": {
+      "alpha": 10.0
+    },
+    "training_X_sha256": "9ec12ebec9dc54be8782a6ff991691abc432bde9909d9795eefad96825556387",
+    "query_X_sha256": "981eb30fbdc4c25e1d9b233974fd74475a0fd38e12deac92a6dff0b61611fcce",
+    "training_n": 723,
+    "training_target_max": "2020-02-29",
+    "training_origin_max": "2020-02-23"
+  },
+  {
+    "model": "ridge",
+    "arm": "day5",
+    "state": "Maharashtra",
+    "year": 2020,
+    "horizon": 7,
+    "refit": "2020-08-01",
+    "parameters": {
+      "alpha": 10.0
+    },
+    "training_X_sha256": "eba4b57f0e562739a8615f4c168bd33c27933c05cd3b233d67fea3e6eba881e2",
+    "query_X_sha256": "773205837691d497baf92aeea9d88d8947416082b3d2b648555914a3470a4005",
+    "training_n": 723,
+    "training_target_max": "2020-07-31",
+    "training_origin_max": "2020-07-25"
+  },
+  {
+    "model": "ridge",
+    "arm": "day5",
+    "state": "Maharashtra",
+    "year": 2020,
+    "horizon": 7,
+    "refit": "2020-10-01",
+    "parameters": {
+      "alpha": 10.0
+    },
+    "training_X_sha256": "70d599183f61afcc29dcb475bc8bcf8ab6f70e9ceed145d94c0bc6e9ed93a8fc",
+    "query_X_sha256": "d9a8c3797a0ee00b171a5037af888323beb29c3e4e97163bf6c8094314d9e95d",
+    "training_n": 722,
+    "training_target_max": "2020-09-29",
+    "training_origin_max": "2020-09-23"
+  },
+  {
+    "model": "ridge",
+    "arm": "day5",
+    "state": "Maharashtra",
+    "year": 2020,
+    "horizon": 7,
+    "refit": "2020-11-01",
+    "parameters": {
+      "alpha": 10.0
+    },
+    "training_X_sha256": "c8e29cd84e7b1ac969964f4ab859c247788dc14c733431520dbfa5a029c4caa3",
+    "query_X_sha256": "8e67d703a0103b34890a30d53cc63a53d6257b81ff8aa4aefe06443c73264afb",
+    "training_n": 722,
+    "training_target_max": "2020-10-31",
+    "training_origin_max": "2020-10-25"
+  },
+  {
+    "model": "ridge",
+    "arm": "pooled_day5",
+    "state": "Maharashtra",
+    "year": 2020,
+    "horizon": 7,
+    "refit": "2020-03-01",
+    "parameters": {
+      "alpha": 10.0
+    },
+    "training_X_sha256": "60e446cd04706fd898636a0621df9a1d090530bcd062cb6fecaaf7458811d788",
+    "query_X_sha256": "1830cb0792d32460f7c2671dfad1b245284210c4abba91c9e1a13e06c7ccafeb",
+    "training_n": 723,
+    "training_target_max": "2020-02-29",
+    "training_origin_max": "2020-02-23"
+  },
+  {
+    "model": "ridge",
+    "arm": "pooled_day5",
+    "state": "Maharashtra",
+    "year": 2020,
+    "horizon": 7,
+    "refit": "2020-08-01",
+    "parameters": {
+      "alpha": 10.0
+    },
+    "training_X_sha256": "c98912bb02c9304fa3da589dbdd7167fa7e79c0474e6f419666a5f9038602ffb",
+    "query_X_sha256": "7fcdd49fac488f2ceed1eb55dab424aec27b11965073a708533d1e4de33a1b76",
+    "training_n": 723,
+    "training_target_max": "2020-07-31",
+    "training_origin_max": "2020-07-25"
+  },
+  {
+    "model": "ridge",
+    "arm": "pooled_day5",
+    "state": "Maharashtra",
+    "year": 2020,
+    "horizon": 7,
+    "refit": "2020-10-01",
+    "parameters": {
+      "alpha": 10.0
+    },
+    "training_X_sha256": "440ec3ded98c7bf38b5076d0523ef47f1ea2e724a7b945e6934701b19d2c990f",
+    "query_X_sha256": "d351c594b9fc447ec847a363f2e652189a6a581c255001542a8db29163e5d9ec",
+    "training_n": 722,
+    "training_target_max": "2020-09-29",
+    "training_origin_max": "2020-09-23"
+  },
+  {
+    "model": "ridge",
+    "arm": "pooled_day5",
+    "state": "Maharashtra",
+    "year": 2020,
+    "horizon": 7,
+    "refit": "2020-11-01",
+    "parameters": {
+      "alpha": 10.0
+    },
+    "training_X_sha256": "f3e150972e400aa511c47bdb0df78708f9953c14c0b84f3be69158a30a401d6f",
+    "query_X_sha256": "c90a8861d48b5726e30bc1cbbdf9dd14e0fe4a71f9b9cdacdf17ad6c9d99c59e",
+    "training_n": 722,
+    "training_target_max": "2020-10-31",
+    "training_origin_max": "2020-10-25"
+  },
+  {
+    "model": "ridge",
+    "arm": "placebo_day5",
+    "state": "Maharashtra",
+    "year": 2020,
+    "horizon": 7,
+    "refit": "2020-03-01",
+    "parameters": {
+      "alpha": 10.0
+    },
+    "training_X_sha256": "a6effae819b3385d4932321109f38dba0b97a0b71dfcb3da7ea68031865d1cd6",
+    "query_X_sha256": "70ae7b3825613f1ed0fa1602373f10f70b2e3a9d92d24165ae0b8f2f58d89fbb",
+    "training_n": 723,
+    "training_target_max": "2020-02-29",
+    "training_origin_max": "2020-02-23"
+  },
+  {
+    "model": "ridge",
+    "arm": "placebo_day5",
+    "state": "Maharashtra",
+    "year": 2020,
+    "horizon": 7,
+    "refit": "2020-08-01",
+    "parameters": {
+      "alpha": 10.0
+    },
+    "training_X_sha256": "566a02c6dca20ba928258da55989810da8361e15975d906cdbe31c86ba127473",
+    "query_X_sha256": "2ad88d5aaa3b40c96163fa2835faa6977bac86bcea7ddd3307ce9c70327b2346",
+    "training_n": 723,
+    "training_target_max": "2020-07-31",
+    "training_origin_max": "2020-07-25"
+  },
+  {
+    "model": "ridge",
+    "arm": "placebo_day5",
+    "state": "Maharashtra",
+    "year": 2020,
+    "horizon": 7,
+    "refit": "2020-10-01",
+    "parameters": {
+      "alpha": 10.0
+    },
+    "training_X_sha256": "d62bae0e89619c7bd941581e5652d4fe4e172b7709df2987e23d3bad8aa6a559",
+    "query_X_sha256": "87bdedca668f7fc1a3fe32a1c6f33b70beed503b9c92884e2c42d06c43bde0a4",
+    "training_n": 722,
+    "training_target_max": "2020-09-29",
+    "training_origin_max": "2020-09-23"
+  },
+  {
+    "model": "ridge",
+    "arm": "placebo_day5",
+    "state": "Maharashtra",
+    "year": 2020,
+    "horizon": 7,
+    "refit": "2020-11-01",
+    "parameters": {
+      "alpha": 10.0
+    },
+    "training_X_sha256": "39c44c1d75fb508220c89b8e81e4b6b6313fe43bfd7e95c4ed0af3a2c3cb846b",
+    "query_X_sha256": "538a2de6f28b2b65ceaeb69b20d7221d608e8df0ed3ff5f5f8b9a1bedfe3ae1e",
+    "training_n": 722,
+    "training_target_max": "2020-10-31",
+    "training_origin_max": "2020-10-25"
+  },
+  {
+    "model": "ridge",
+    "arm": "calendar",
+    "state": "Maharashtra",
+    "year": 2020,
+    "horizon": 14,
+    "refit": "2020-02-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "training_X_sha256": "a0ff7e05aea911e2048213d8bcf6088390afa02a4fb8f9d49f1ce73d68a84d4a",
+    "query_X_sha256": "b2012ee970c56fededcd5c9320682dc40af6858968b091b6e37e76f62a4ce62d",
+    "training_n": 716,
+    "training_target_max": "2020-01-31",
+    "training_origin_max": "2020-01-18"
+  },
+  {
+    "model": "ridge",
+    "arm": "calendar",
+    "state": "Maharashtra",
+    "year": 2020,
+    "horizon": 14,
+    "refit": "2020-03-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "training_X_sha256": "f9f2d0d3aa6892fcb36d3d8c287f5cb9577daab94176140070b576cb15637805",
+    "query_X_sha256": "bc6d87d7c202058832641efa4036f14843a8c2d00313b4d658704b996c0b5830",
+    "training_n": 716,
+    "training_target_max": "2020-02-29",
+    "training_origin_max": "2020-02-16"
+  },
+  {
+    "model": "ridge",
+    "arm": "calendar",
+    "state": "Maharashtra",
+    "year": 2020,
+    "horizon": 14,
+    "refit": "2020-08-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "training_X_sha256": "72f979ea2fddfb9519ceb62b102dd8e9cd7c8297269b65aae1fff24337747672",
+    "query_X_sha256": "d654acf983ebe50c4a18134d9845fcae0ad248a6cba22241fea48e7971942542",
+    "training_n": 716,
+    "training_target_max": "2020-07-31",
+    "training_origin_max": "2020-07-18"
+  },
+  {
+    "model": "ridge",
+    "arm": "calendar",
+    "state": "Maharashtra",
+    "year": 2020,
+    "horizon": 14,
+    "refit": "2020-10-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "training_X_sha256": "11f197a26c9528b50ffb97805c7423746d5137a97aaf030f8a38a52479ce21f4",
+    "query_X_sha256": "6d37202937cc4eb270c12a2b349d322ba210e6d6c011052875b59c357ed7c24e",
+    "training_n": 715,
+    "training_target_max": "2020-09-29",
+    "training_origin_max": "2020-09-16"
+  },
+  {
+    "model": "ridge",
+    "arm": "calendar",
+    "state": "Maharashtra",
+    "year": 2020,
+    "horizon": 14,
+    "refit": "2020-11-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "training_X_sha256": "1f205e3370f3f54f80885355bb9e9906bd20b327ac5fe07494f559c59a3a252f",
+    "query_X_sha256": "9ff242d1a8b81345ae32d1da4887b041d77e3d91f830caa5ec041ec495dd4ef9",
+    "training_n": 715,
+    "training_target_max": "2020-10-31",
+    "training_origin_max": "2020-10-18"
+  },
+  {
+    "model": "ridge",
+    "arm": "zero5",
+    "state": "Maharashtra",
+    "year": 2020,
+    "horizon": 14,
+    "refit": "2020-02-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "training_X_sha256": "60b0f1c7fa3cf3150efc41dddfc70fe79a163ebc6d9201de7679b774c674a8d6",
+    "query_X_sha256": "f1a448fe78bb6b07cf5c61714d96ab73c4c56c673a86b81a605ba68faf43e585",
+    "training_n": 716,
+    "training_target_max": "2020-01-31",
+    "training_origin_max": "2020-01-18"
+  },
+  {
+    "model": "ridge",
+    "arm": "zero5",
+    "state": "Maharashtra",
+    "year": 2020,
+    "horizon": 14,
+    "refit": "2020-03-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "training_X_sha256": "cfd08ac21ba899cce8a05bfee7c2f218b8e12e6c164144cf852b5cfec9fbba7e",
+    "query_X_sha256": "cd8eb105dba3fe898a11d820ce19065cef0afb8d8a70f9c02d4c6c56ad4d15a5",
+    "training_n": 716,
+    "training_target_max": "2020-02-29",
+    "training_origin_max": "2020-02-16"
+  },
+  {
+    "model": "ridge",
+    "arm": "zero5",
+    "state": "Maharashtra",
+    "year": 2020,
+    "horizon": 14,
+    "refit": "2020-08-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "training_X_sha256": "4f8b6b7863768ca8e15c4cea91854bf721b182417d62e4592c870f4c998768ca",
+    "query_X_sha256": "b185949afb9ab965c0fdb6d7d61d724448cd1993f0cd4b9fc26e50ca5446f271",
+    "training_n": 716,
+    "training_target_max": "2020-07-31",
+    "training_origin_max": "2020-07-18"
+  },
+  {
+    "model": "ridge",
+    "arm": "zero5",
+    "state": "Maharashtra",
+    "year": 2020,
+    "horizon": 14,
+    "refit": "2020-10-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "training_X_sha256": "56e01cbf37db8af12129975e0772a0f541a6234fbf49e6dee747c9e060610c6e",
+    "query_X_sha256": "9dc1159a1fdea4d1965ed8f46e11e396cea771f5870fcb090c5594edcfbcaf06",
+    "training_n": 715,
+    "training_target_max": "2020-09-29",
+    "training_origin_max": "2020-09-16"
+  },
+  {
+    "model": "ridge",
+    "arm": "zero5",
+    "state": "Maharashtra",
+    "year": 2020,
+    "horizon": 14,
+    "refit": "2020-11-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "training_X_sha256": "86a28aa365499547bf54328083eb104dec301b80676c3ef10dc08eca6b096dd0",
+    "query_X_sha256": "9ead70fe7c71d8d53cdadd5ed20e61bf66a744c5ea67a7e47b0528e5caac86fa",
+    "training_n": 715,
+    "training_target_max": "2020-10-31",
+    "training_origin_max": "2020-10-18"
+  },
+  {
+    "model": "ridge",
+    "arm": "day5",
+    "state": "Maharashtra",
+    "year": 2020,
+    "horizon": 14,
+    "refit": "2020-02-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "training_X_sha256": "4a642d8412103e0aef676f2774b8b58b1fa0ebba660e4d6424e6dc98c6beb869",
+    "query_X_sha256": "a4604fdcbb17834d9083a06b0c34c06baa7c88fafe2d7f5f874699aa2bc75460",
+    "training_n": 716,
+    "training_target_max": "2020-01-31",
+    "training_origin_max": "2020-01-18"
+  },
+  {
+    "model": "ridge",
+    "arm": "day5",
+    "state": "Maharashtra",
+    "year": 2020,
+    "horizon": 14,
+    "refit": "2020-03-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "training_X_sha256": "92d76e82c663d6102f1ad4d1943c17ee6d6641a60b6f509710196f329c9edaed",
+    "query_X_sha256": "f79c2187049825321e9a634468b5ce4262e86412d50abe8dde68243d705ce57e",
+    "training_n": 716,
+    "training_target_max": "2020-02-29",
+    "training_origin_max": "2020-02-16"
+  },
+  {
+    "model": "ridge",
+    "arm": "day5",
+    "state": "Maharashtra",
+    "year": 2020,
+    "horizon": 14,
+    "refit": "2020-08-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "training_X_sha256": "1854b31179bfeb169bdfde9da4825d37cc36843c1b782d69e4213998c8f3c85b",
+    "query_X_sha256": "a46aa71148885ec6a1801f7087d9b56a4720c769695adf2d6fa58c4974cafb04",
+    "training_n": 716,
+    "training_target_max": "2020-07-31",
+    "training_origin_max": "2020-07-18"
+  },
+  {
+    "model": "ridge",
+    "arm": "day5",
+    "state": "Maharashtra",
+    "year": 2020,
+    "horizon": 14,
+    "refit": "2020-10-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "training_X_sha256": "29406a061f6d97504d8554bcdf728e29eeea8966352c72a9b7c117ee3a232ac2",
+    "query_X_sha256": "69efbf974758ddee84c1b70747fade77cc3f6029d1d0d2017c1eca81843717c0",
+    "training_n": 715,
+    "training_target_max": "2020-09-29",
+    "training_origin_max": "2020-09-16"
+  },
+  {
+    "model": "ridge",
+    "arm": "day5",
+    "state": "Maharashtra",
+    "year": 2020,
+    "horizon": 14,
+    "refit": "2020-11-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "training_X_sha256": "b272f45d9163882270bc04e8e106853a31e58b9074c9d51bca114b5ec057fece",
+    "query_X_sha256": "15fc9769a7ef2e329a56b63171c0f0995af92665f4a7c5fa553fe06922a02a47",
+    "training_n": 715,
+    "training_target_max": "2020-10-31",
+    "training_origin_max": "2020-10-18"
+  },
+  {
+    "model": "ridge",
+    "arm": "pooled_day5",
+    "state": "Maharashtra",
+    "year": 2020,
+    "horizon": 14,
+    "refit": "2020-02-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "training_X_sha256": "22199d0a156b03d3acd704a7d2292084a198bee1902bc8f906f69a31f5187101",
+    "query_X_sha256": "a4604fdcbb17834d9083a06b0c34c06baa7c88fafe2d7f5f874699aa2bc75460",
+    "training_n": 716,
+    "training_target_max": "2020-01-31",
+    "training_origin_max": "2020-01-18"
+  },
+  {
+    "model": "ridge",
+    "arm": "pooled_day5",
+    "state": "Maharashtra",
+    "year": 2020,
+    "horizon": 14,
+    "refit": "2020-03-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "training_X_sha256": "37505d3c0c98d712e444ac564834bd363560c989873ee353f140ce7d30d09e3c",
+    "query_X_sha256": "265c02597dbebc30831559f3f031a076e62e37a21a5d6f419fd4a8e17e97813f",
+    "training_n": 716,
+    "training_target_max": "2020-02-29",
+    "training_origin_max": "2020-02-16"
+  },
+  {
+    "model": "ridge",
+    "arm": "pooled_day5",
+    "state": "Maharashtra",
+    "year": 2020,
+    "horizon": 14,
+    "refit": "2020-08-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "training_X_sha256": "538d8cd003babcb763bb79f6fb83b5161f8197075d0050f54b25deed8a97ad37",
+    "query_X_sha256": "5d88b20dd486003ef5719639f431d6421ff61ee3150d470a1cdf6c3f3415d056",
+    "training_n": 716,
+    "training_target_max": "2020-07-31",
+    "training_origin_max": "2020-07-18"
+  },
+  {
+    "model": "ridge",
+    "arm": "pooled_day5",
+    "state": "Maharashtra",
+    "year": 2020,
+    "horizon": 14,
+    "refit": "2020-10-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "training_X_sha256": "61bbcfbce7a6e5b15bbeefc047b6c7005634ef758a76f06d1d984947e7626d47",
+    "query_X_sha256": "3fa5a36af2bd56e24fbf931d8779d40148440f174288ae4380c2b41022bdd75f",
+    "training_n": 715,
+    "training_target_max": "2020-09-29",
+    "training_origin_max": "2020-09-16"
+  },
+  {
+    "model": "ridge",
+    "arm": "pooled_day5",
+    "state": "Maharashtra",
+    "year": 2020,
+    "horizon": 14,
+    "refit": "2020-11-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "training_X_sha256": "0fb65446b079c11fd0964cfd1eeaa38c9f7106b6d89cc4794fd5cea33c13f86e",
+    "query_X_sha256": "176699329d58d44018832b8fa000750fabeae5b28b40ae774fc61b7860e337d1",
+    "training_n": 715,
+    "training_target_max": "2020-10-31",
+    "training_origin_max": "2020-10-18"
+  },
+  {
+    "model": "ridge",
+    "arm": "placebo_day5",
+    "state": "Maharashtra",
+    "year": 2020,
+    "horizon": 14,
+    "refit": "2020-02-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "training_X_sha256": "ddbef6a6051565ce577988a30e089ecb2624a3410eb8890038d9aa4780a93089",
+    "query_X_sha256": "f1a448fe78bb6b07cf5c61714d96ab73c4c56c673a86b81a605ba68faf43e585",
+    "training_n": 716,
+    "training_target_max": "2020-01-31",
+    "training_origin_max": "2020-01-18"
+  },
+  {
+    "model": "ridge",
+    "arm": "placebo_day5",
+    "state": "Maharashtra",
+    "year": 2020,
+    "horizon": 14,
+    "refit": "2020-03-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "training_X_sha256": "09e9601e45e7f8c6c0007d340028f5c762f18a282ada3ea1e2d49dbd95fc6692",
+    "query_X_sha256": "cd8eb105dba3fe898a11d820ce19065cef0afb8d8a70f9c02d4c6c56ad4d15a5",
+    "training_n": 716,
+    "training_target_max": "2020-02-29",
+    "training_origin_max": "2020-02-16"
+  },
+  {
+    "model": "ridge",
+    "arm": "placebo_day5",
+    "state": "Maharashtra",
+    "year": 2020,
+    "horizon": 14,
+    "refit": "2020-08-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "training_X_sha256": "ee0b118601101009f5a7b2944ec1eaaf9d114307a4ec1cf5eb4a39e330451667",
+    "query_X_sha256": "b185949afb9ab965c0fdb6d7d61d724448cd1993f0cd4b9fc26e50ca5446f271",
+    "training_n": 716,
+    "training_target_max": "2020-07-31",
+    "training_origin_max": "2020-07-18"
+  },
+  {
+    "model": "ridge",
+    "arm": "placebo_day5",
+    "state": "Maharashtra",
+    "year": 2020,
+    "horizon": 14,
+    "refit": "2020-10-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "training_X_sha256": "6d47df1bc505dac6bc0f02ce960f6e6e5b652af206d5d16b4588dd2d7073d40b",
+    "query_X_sha256": "9dc1159a1fdea4d1965ed8f46e11e396cea771f5870fcb090c5594edcfbcaf06",
+    "training_n": 715,
+    "training_target_max": "2020-09-29",
+    "training_origin_max": "2020-09-16"
+  },
+  {
+    "model": "ridge",
+    "arm": "placebo_day5",
+    "state": "Maharashtra",
+    "year": 2020,
+    "horizon": 14,
+    "refit": "2020-11-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "training_X_sha256": "7fc997a9a0b08849097edd7f68e23cc17d86db06324eb7eabf957442a914d7bc",
+    "query_X_sha256": "9ead70fe7c71d8d53cdadd5ed20e61bf66a744c5ea67a7e47b0528e5caac86fa",
+    "training_n": 715,
+    "training_target_max": "2020-10-31",
+    "training_origin_max": "2020-10-18"
+  },
+  {
+    "model": "ridge",
+    "arm": "calendar",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 1,
+    "refit": "2021-03-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "training_X_sha256": "d7031ad1b9aac9e6847a40f6a93adfd9e87f9a5317b29f8569adf3ef219c5f60",
+    "query_X_sha256": "afeb97ed98d3d2144e83fb643333fe58f87b363f482af08f725816b8e71813f5",
+    "training_n": 728,
+    "training_target_max": "2021-02-28",
+    "training_origin_max": "2021-02-28"
+  },
+  {
+    "model": "ridge",
+    "arm": "calendar",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 1,
+    "refit": "2021-04-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "training_X_sha256": "c8dad12a8620feb98b70f5388fa53d6f6183bbf4042654fbee8f99c5abd29985",
+    "query_X_sha256": "9c6c82d4de867ab5589ff81ab548bca8add1cc3f7f2ff4664b06be904c1c9b9e",
+    "training_n": 728,
+    "training_target_max": "2021-03-31",
+    "training_origin_max": "2021-03-31"
+  },
+  {
+    "model": "ridge",
+    "arm": "calendar",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 1,
+    "refit": "2021-09-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "training_X_sha256": "a3686dd26155133a292af134e0c7e91663adcfa0549b6f596f746b84392fd705",
+    "query_X_sha256": "3d6c885f48175854943cd94a035a98c17f29d466d8e2cea07c7b6c1a6fa5f7ff",
+    "training_n": 729,
+    "training_target_max": "2021-08-31",
+    "training_origin_max": "2021-08-31"
+  },
+  {
+    "model": "ridge",
+    "arm": "calendar",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 1,
+    "refit": "2021-10-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "training_X_sha256": "bf635caa556cdcaab7b832927962bae69f58dda76aaaa9e212a24d5cda7a69ca",
+    "query_X_sha256": "6806b3c2967a3d5a7c2d47ab3229ef3cdfcc0aff83636625905063b3e107c498",
+    "training_n": 729,
+    "training_target_max": "2021-09-30",
+    "training_origin_max": "2021-09-30"
+  },
+  {
+    "model": "ridge",
+    "arm": "calendar",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 1,
+    "refit": "2021-11-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "training_X_sha256": "07999381142b23611a177e1672daf7695373f194d5d6ea33ae45730efd58544c",
+    "query_X_sha256": "a28e92d8454b743923ea46a6d7aad4fddc4228295d2b89e6b5b62055508afdd9",
+    "training_n": 729,
+    "training_target_max": "2021-10-31",
+    "training_origin_max": "2021-10-31"
+  },
+  {
+    "model": "ridge",
+    "arm": "zero5",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 1,
+    "refit": "2021-03-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "training_X_sha256": "d099f5d42516500a5d1dc128b810374cc3cd601bfa17c9b2099ae0cc9105b22f",
+    "query_X_sha256": "d57e412a8b5fc0b8b05a70aeae052ec5027ca9d671a2919409992338771852d3",
+    "training_n": 728,
+    "training_target_max": "2021-02-28",
+    "training_origin_max": "2021-02-28"
+  },
+  {
+    "model": "ridge",
+    "arm": "zero5",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 1,
+    "refit": "2021-04-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "training_X_sha256": "34d70f551356f476df9f2bff14ca23b04411ca234439f5e405bebd1df87cf06c",
+    "query_X_sha256": "723564954d2b23c010835195aad1dbe7e5f318d58d09c0a62f5c158f9ce0f6f2",
+    "training_n": 728,
+    "training_target_max": "2021-03-31",
+    "training_origin_max": "2021-03-31"
+  },
+  {
+    "model": "ridge",
+    "arm": "zero5",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 1,
+    "refit": "2021-09-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "training_X_sha256": "fbcfe3eafd3f7bd09b574d2f59a71ac6c40a5942af8f139d8ed5983206ddfd40",
+    "query_X_sha256": "a6979ef075340728af502a7c849eb65d1d0852e8f81bd2c19ea65691802254de",
+    "training_n": 729,
+    "training_target_max": "2021-08-31",
+    "training_origin_max": "2021-08-31"
+  },
+  {
+    "model": "ridge",
+    "arm": "zero5",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 1,
+    "refit": "2021-10-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "training_X_sha256": "a556377f7093ef81dbe13bc2abe4f6984bf818e5b27dc26313910770847f7498",
+    "query_X_sha256": "246e09ce9c38439b0f9df523833e518a2289421956b50392f39e025f4bb2b33b",
+    "training_n": 729,
+    "training_target_max": "2021-09-30",
+    "training_origin_max": "2021-09-30"
+  },
+  {
+    "model": "ridge",
+    "arm": "zero5",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 1,
+    "refit": "2021-11-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "training_X_sha256": "6491adefb172b72aaca3fa7645077f217db7fa4e1b63c454f802ffbb06375c4b",
+    "query_X_sha256": "7336c713274c89fa0e399c98aa10349839bb9144cbb49f74c28a56cdf6d91228",
+    "training_n": 729,
+    "training_target_max": "2021-10-31",
+    "training_origin_max": "2021-10-31"
+  },
+  {
+    "model": "ridge",
+    "arm": "day5",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 1,
+    "refit": "2021-03-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "training_X_sha256": "2571dbfa51c9c8f51136ad017d3856d66fe5aeb1d6c3868157790b9078f6c37e",
+    "query_X_sha256": "39b5d1f1df1c5a0e26d18f53931c6f7d8214939d6207742451378edb5a68443b",
+    "training_n": 728,
+    "training_target_max": "2021-02-28",
+    "training_origin_max": "2021-02-28"
+  },
+  {
+    "model": "ridge",
+    "arm": "day5",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 1,
+    "refit": "2021-04-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "training_X_sha256": "09086b77975d4ed81deb5732528fa7b0771cd1c789dca2be3643b10eecd72747",
+    "query_X_sha256": "b12972560d0e691ddb1ddc1cc2c4afc7348cda40cdad2f1b629cdac584043859",
+    "training_n": 728,
+    "training_target_max": "2021-03-31",
+    "training_origin_max": "2021-03-31"
+  },
+  {
+    "model": "ridge",
+    "arm": "day5",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 1,
+    "refit": "2021-09-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "training_X_sha256": "25512ff1ed42aedaa5dad058bfb80a839906f40749ce8b80ceab5fe60bd00d8f",
+    "query_X_sha256": "55851aa53d87608db6a983c50988959553cd7e6c23f876dbfe80e1394c998a2a",
+    "training_n": 729,
+    "training_target_max": "2021-08-31",
+    "training_origin_max": "2021-08-31"
+  },
+  {
+    "model": "ridge",
+    "arm": "day5",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 1,
+    "refit": "2021-10-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "training_X_sha256": "7bf0189ebfc6c1ed4127e1b453dcedcfa979bd20c53afa1580e3baefb68aad21",
+    "query_X_sha256": "4d6cb4ba083d80f10883d0bbbd3e2b712aca26aa512b8312f01c40be784614c3",
+    "training_n": 729,
+    "training_target_max": "2021-09-30",
+    "training_origin_max": "2021-09-30"
+  },
+  {
+    "model": "ridge",
+    "arm": "day5",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 1,
+    "refit": "2021-11-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "training_X_sha256": "0dfcbee8485a196f406160a3b2491ad14a5efca3573da870b8514206b1553cc0",
+    "query_X_sha256": "b4d05b7f4e7ae2d19abc58507e96e34cfdea78e802b8ea53fc2a73870a9c3d4f",
+    "training_n": 729,
+    "training_target_max": "2021-10-31",
+    "training_origin_max": "2021-10-31"
+  },
+  {
+    "model": "ridge",
+    "arm": "pooled_day5",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 1,
+    "refit": "2021-03-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "training_X_sha256": "419c00c8898f6a643ba62119ec9a17a71aad216379e8ed5690faecc1e2fcf5de",
+    "query_X_sha256": "39b5d1f1df1c5a0e26d18f53931c6f7d8214939d6207742451378edb5a68443b",
+    "training_n": 728,
+    "training_target_max": "2021-02-28",
+    "training_origin_max": "2021-02-28"
+  },
+  {
+    "model": "ridge",
+    "arm": "pooled_day5",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 1,
+    "refit": "2021-04-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "training_X_sha256": "e315229a7f81905d641f50e823a5c4351e63351912eabb99289de49370b4106c",
+    "query_X_sha256": "7cb4a6e03f135708d85c86544fd2f1b332198c1725277e0a2fc44f61bb2f2cd7",
+    "training_n": 728,
+    "training_target_max": "2021-03-31",
+    "training_origin_max": "2021-03-31"
+  },
+  {
+    "model": "ridge",
+    "arm": "pooled_day5",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 1,
+    "refit": "2021-09-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "training_X_sha256": "2dfc7ad21554716ec0cfa7bb7f945a1b98b5153b03e62044f29fe3cda771d22d",
+    "query_X_sha256": "c838aceb8720d7e46b71aa53af975ff134b647977264cfe7f7b5cd98a51291fd",
+    "training_n": 729,
+    "training_target_max": "2021-08-31",
+    "training_origin_max": "2021-08-31"
+  },
+  {
+    "model": "ridge",
+    "arm": "pooled_day5",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 1,
+    "refit": "2021-10-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "training_X_sha256": "1a47dd58b23a79c4f4f904e738f71ba4b431876fffcf8f2ee97f8d0175b6457e",
+    "query_X_sha256": "8e0fa15a86eddae018b511244dadf349142d62f2ae498ebb9c707674bd0f8225",
+    "training_n": 729,
+    "training_target_max": "2021-09-30",
+    "training_origin_max": "2021-09-30"
+  },
+  {
+    "model": "ridge",
+    "arm": "pooled_day5",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 1,
+    "refit": "2021-11-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "training_X_sha256": "be38ab14f5e9a26b8c7a94efc25fdccf3d6d43d286718e86968d5b4e49410a24",
+    "query_X_sha256": "e98414013cd12c03718e6fdd4ee087a4c8c48d78c9948d4bad37ff47239a2431",
+    "training_n": 729,
+    "training_target_max": "2021-10-31",
+    "training_origin_max": "2021-10-31"
+  },
+  {
+    "model": "ridge",
+    "arm": "placebo_day5",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 1,
+    "refit": "2021-03-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "training_X_sha256": "7f62709a7c3d06f68f0782bde606e0776481b65b410b3092c821645ab9f59635",
+    "query_X_sha256": "d57e412a8b5fc0b8b05a70aeae052ec5027ca9d671a2919409992338771852d3",
+    "training_n": 728,
+    "training_target_max": "2021-02-28",
+    "training_origin_max": "2021-02-28"
+  },
+  {
+    "model": "ridge",
+    "arm": "placebo_day5",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 1,
+    "refit": "2021-04-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "training_X_sha256": "bd1c582ff6e57fa10c0a79cb5470bfa49f8bfdb2a7b55b29e5fedbeed2c875f0",
+    "query_X_sha256": "723564954d2b23c010835195aad1dbe7e5f318d58d09c0a62f5c158f9ce0f6f2",
+    "training_n": 728,
+    "training_target_max": "2021-03-31",
+    "training_origin_max": "2021-03-31"
+  },
+  {
+    "model": "ridge",
+    "arm": "placebo_day5",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 1,
+    "refit": "2021-09-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "training_X_sha256": "a1c2f7f1330d491ab045bcd1334a186a065630035ab4b585cde583c19acab95b",
+    "query_X_sha256": "a6979ef075340728af502a7c849eb65d1d0852e8f81bd2c19ea65691802254de",
+    "training_n": 729,
+    "training_target_max": "2021-08-31",
+    "training_origin_max": "2021-08-31"
+  },
+  {
+    "model": "ridge",
+    "arm": "placebo_day5",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 1,
+    "refit": "2021-10-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "training_X_sha256": "5cbd88ff5a827e979cd82d8865a8c6161d48d418d37e934331e7e682ae17832f",
+    "query_X_sha256": "246e09ce9c38439b0f9df523833e518a2289421956b50392f39e025f4bb2b33b",
+    "training_n": 729,
+    "training_target_max": "2021-09-30",
+    "training_origin_max": "2021-09-30"
+  },
+  {
+    "model": "ridge",
+    "arm": "placebo_day5",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 1,
+    "refit": "2021-11-01",
+    "parameters": {
+      "alpha": 1.0
+    },
+    "training_X_sha256": "167f94e87740487dc6d712873a28c838d9f5b1d3afc169948e22fc5760f17323",
+    "query_X_sha256": "7336c713274c89fa0e399c98aa10349839bb9144cbb49f74c28a56cdf6d91228",
+    "training_n": 729,
+    "training_target_max": "2021-10-31",
+    "training_origin_max": "2021-10-31"
+  },
+  {
+    "model": "ridge",
+    "arm": "calendar",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 7,
+    "refit": "2021-03-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "training_X_sha256": "2bd95e3a804f0189a5d1996c46115a95e94ebd092e0501d544a2e678b8c1f556",
+    "query_X_sha256": "fdf6aa46a68cced5a92100f510efea24031d93ff0868e76a2d17024b6a8ca3f0",
+    "training_n": 722,
+    "training_target_max": "2021-02-28",
+    "training_origin_max": "2021-02-22"
+  },
+  {
+    "model": "ridge",
+    "arm": "calendar",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 7,
+    "refit": "2021-04-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "training_X_sha256": "78687c6de685905eacfaf2660c170bb4e29fcef6bc359974650bdbafad0983f4",
+    "query_X_sha256": "fbb0b0224331877fb00fad6352ce806e3345ae891dae1a2fd1498d0b5d69afa0",
+    "training_n": 722,
+    "training_target_max": "2021-03-31",
+    "training_origin_max": "2021-03-25"
+  },
+  {
+    "model": "ridge",
+    "arm": "calendar",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 7,
+    "refit": "2021-09-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "training_X_sha256": "811a82d36d2b48730795ecef6a1b7444bbec4324e3b1d7ebb8ea04998e6ce9cc",
+    "query_X_sha256": "8969bfc755cf2e181b0ab9e68cc1862f6d7955d2a56bbc8426623d2829ea4a3c",
+    "training_n": 723,
+    "training_target_max": "2021-08-31",
+    "training_origin_max": "2021-08-25"
+  },
+  {
+    "model": "ridge",
+    "arm": "calendar",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 7,
+    "refit": "2021-10-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "training_X_sha256": "a51db6b652ae697ac78ba40c21004633678b6efc3b8eba11b048cc0c3fd85b38",
+    "query_X_sha256": "974e89d375a3069f651ca4e9e8b6611bbb538e112a56ba0f9464c4b15cdd3f7b",
+    "training_n": 723,
+    "training_target_max": "2021-09-30",
+    "training_origin_max": "2021-09-24"
+  },
+  {
+    "model": "ridge",
+    "arm": "calendar",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 7,
+    "refit": "2021-11-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "training_X_sha256": "4bbdde625875b8df5ca88d42cc62dbc582cac36d73ccb17f03fda284c85d10e8",
+    "query_X_sha256": "a43fff4c14530ddd8d914ee4c42f5c1ebb6b64569eb2f390730af0cd19cf2dc4",
+    "training_n": 723,
+    "training_target_max": "2021-10-31",
+    "training_origin_max": "2021-10-25"
+  },
+  {
+    "model": "ridge",
+    "arm": "zero5",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 7,
+    "refit": "2021-03-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "training_X_sha256": "e4bb12dacb81200da580418a920d86de0cc344ebad083b6c9016f19fbf0f8969",
+    "query_X_sha256": "77380e5c284bfda169fc3296a0600e094ef8a134b7d8cf5acb78d8363aa81b45",
+    "training_n": 722,
+    "training_target_max": "2021-02-28",
+    "training_origin_max": "2021-02-22"
+  },
+  {
+    "model": "ridge",
+    "arm": "zero5",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 7,
+    "refit": "2021-04-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "training_X_sha256": "21deb97b9c98bddc9234249f127d089ecefa61463b6be64b8bd1fbc9ee5d17f5",
+    "query_X_sha256": "1c316962034689d331fb6cf101e1770a079204f46c6815976d8990239024491c",
+    "training_n": 722,
+    "training_target_max": "2021-03-31",
+    "training_origin_max": "2021-03-25"
+  },
+  {
+    "model": "ridge",
+    "arm": "zero5",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 7,
+    "refit": "2021-09-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "training_X_sha256": "05262523496e192b67fffc6e7ab82a1e6b5a834c23104ac23a3549570e594198",
+    "query_X_sha256": "e2d53cd39e1712c394beb1143ce07a96e1f286d0fd912e87461f573257e7bbab",
+    "training_n": 723,
+    "training_target_max": "2021-08-31",
+    "training_origin_max": "2021-08-25"
+  },
+  {
+    "model": "ridge",
+    "arm": "zero5",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 7,
+    "refit": "2021-10-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "training_X_sha256": "b3f168a648e2edc84bd350a663e96fc510e5418ca9b4bb529dff50319d50d5e4",
+    "query_X_sha256": "e5b0dc6b3f51a719c29c163f9f056bb5ed508cf7a28ddb25e0f18b3efc3e158a",
+    "training_n": 723,
+    "training_target_max": "2021-09-30",
+    "training_origin_max": "2021-09-24"
+  },
+  {
+    "model": "ridge",
+    "arm": "zero5",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 7,
+    "refit": "2021-11-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "training_X_sha256": "81fc02d25899cb5d6f4fa55a78224505b9c015649571de3fc8433759d08edaf3",
+    "query_X_sha256": "8c551d39c0fac6ff51a4856fa9be78fbeea842d7363329dadb8400a123874b77",
+    "training_n": 723,
+    "training_target_max": "2021-10-31",
+    "training_origin_max": "2021-10-25"
+  },
+  {
+    "model": "ridge",
+    "arm": "day5",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 7,
+    "refit": "2021-03-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "training_X_sha256": "6f74cf2cd0684b2a5a1215739c7b68a3cb10219d0814302b5a531a4cc9a92418",
+    "query_X_sha256": "da4667da49cdbf9259f943d15bb1978270fb7eb03b4a9574622ebeca0a53d27d",
+    "training_n": 722,
+    "training_target_max": "2021-02-28",
+    "training_origin_max": "2021-02-22"
+  },
+  {
+    "model": "ridge",
+    "arm": "day5",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 7,
+    "refit": "2021-04-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "training_X_sha256": "f6469fbdaa399ca80b4009bda765337903c1bf51955a1245640c4ba1210826bd",
+    "query_X_sha256": "7f333124b8c395e7f5f1381852dad614b03ad730d25a88dab78c3e4c3e46ce93",
+    "training_n": 722,
+    "training_target_max": "2021-03-31",
+    "training_origin_max": "2021-03-25"
+  },
+  {
+    "model": "ridge",
+    "arm": "day5",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 7,
+    "refit": "2021-09-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "training_X_sha256": "af8c2f727f704fe97afbc37642fb404aa4b13385a2cfb41380b61ce94788a571",
+    "query_X_sha256": "879d8d02c7179ace1cee094d3c73d87b955432e3725f1725bb1ad08817e7fee5",
+    "training_n": 723,
+    "training_target_max": "2021-08-31",
+    "training_origin_max": "2021-08-25"
+  },
+  {
+    "model": "ridge",
+    "arm": "day5",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 7,
+    "refit": "2021-10-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "training_X_sha256": "2c718ef91eeaba9b15d5ad762bbc1bdf75789e6cfcba4e432ee78210eb14851f",
+    "query_X_sha256": "6c29442df2876c93620e6d8e2a1fd0b793fdd7cdecf11807c93f76930b595a47",
+    "training_n": 723,
+    "training_target_max": "2021-09-30",
+    "training_origin_max": "2021-09-24"
+  },
+  {
+    "model": "ridge",
+    "arm": "day5",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 7,
+    "refit": "2021-11-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "training_X_sha256": "fd7af478c347908d9a3bf571216b36814044ce9dfcd997ee9354818740efc1a6",
+    "query_X_sha256": "8c551d39c0fac6ff51a4856fa9be78fbeea842d7363329dadb8400a123874b77",
+    "training_n": 723,
+    "training_target_max": "2021-10-31",
+    "training_origin_max": "2021-10-25"
+  },
+  {
+    "model": "ridge",
+    "arm": "pooled_day5",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 7,
+    "refit": "2021-03-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "training_X_sha256": "7aa1b8098dc36f53146440c2990bd5c092aa7c1acbe6b3ea365321f29532608a",
+    "query_X_sha256": "da4667da49cdbf9259f943d15bb1978270fb7eb03b4a9574622ebeca0a53d27d",
+    "training_n": 722,
+    "training_target_max": "2021-02-28",
+    "training_origin_max": "2021-02-22"
+  },
+  {
+    "model": "ridge",
+    "arm": "pooled_day5",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 7,
+    "refit": "2021-04-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "training_X_sha256": "e26620daee985459473d7d71d0905ef34ea0df16ffb7f1bccb02db5007a992ad",
+    "query_X_sha256": "8f9eb498a811b5cc2df885ff7cb54bcbeb45039a6f0fa85fe19b81804410fd51",
+    "training_n": 722,
+    "training_target_max": "2021-03-31",
+    "training_origin_max": "2021-03-25"
+  },
+  {
+    "model": "ridge",
+    "arm": "pooled_day5",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 7,
+    "refit": "2021-09-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "training_X_sha256": "c8b86ea56bfc046b238de2ec070cd97f59f9adfa864a775329c7549dc02c53ed",
+    "query_X_sha256": "e0abee38ae087394aacd8c42b56bed91e2a4d61af541d521d1f91c0671d19eb1",
+    "training_n": 723,
+    "training_target_max": "2021-08-31",
+    "training_origin_max": "2021-08-25"
+  },
+  {
+    "model": "ridge",
+    "arm": "pooled_day5",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 7,
+    "refit": "2021-10-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "training_X_sha256": "b7bb7396709423aa0297a5457059089a29e7c8c9183b832e288f8b564acda182",
+    "query_X_sha256": "56c3e50197c7d5eff7ff09d039f6e8ff90210f3590516892abe0deb1aa331d35",
+    "training_n": 723,
+    "training_target_max": "2021-09-30",
+    "training_origin_max": "2021-09-24"
+  },
+  {
+    "model": "ridge",
+    "arm": "pooled_day5",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 7,
+    "refit": "2021-11-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "training_X_sha256": "673129efc85c96ac7280576f69bb7c94ac7bda9f699a870ff04a77d44675bfa4",
+    "query_X_sha256": "8c551d39c0fac6ff51a4856fa9be78fbeea842d7363329dadb8400a123874b77",
+    "training_n": 723,
+    "training_target_max": "2021-10-31",
+    "training_origin_max": "2021-10-25"
+  },
+  {
+    "model": "ridge",
+    "arm": "placebo_day5",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 7,
+    "refit": "2021-03-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "training_X_sha256": "bc0cfe20f4dfd6dfecb8091625aafa4b11f27abbd2ff9f71c54504b6def1cc4a",
+    "query_X_sha256": "77380e5c284bfda169fc3296a0600e094ef8a134b7d8cf5acb78d8363aa81b45",
+    "training_n": 722,
+    "training_target_max": "2021-02-28",
+    "training_origin_max": "2021-02-22"
+  },
+  {
+    "model": "ridge",
+    "arm": "placebo_day5",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 7,
+    "refit": "2021-04-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "training_X_sha256": "73ad0f8ddf4008614fd3ee67eaad033a1835c76d0fb7091e0dae9576ceb2b536",
+    "query_X_sha256": "1c316962034689d331fb6cf101e1770a079204f46c6815976d8990239024491c",
+    "training_n": 722,
+    "training_target_max": "2021-03-31",
+    "training_origin_max": "2021-03-25"
+  },
+  {
+    "model": "ridge",
+    "arm": "placebo_day5",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 7,
+    "refit": "2021-09-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "training_X_sha256": "5f8aacb8ef5ca853ea100d548dbb88e7c9f78fbc733e94763aaa9cebc3e56b27",
+    "query_X_sha256": "e2d53cd39e1712c394beb1143ce07a96e1f286d0fd912e87461f573257e7bbab",
+    "training_n": 723,
+    "training_target_max": "2021-08-31",
+    "training_origin_max": "2021-08-25"
+  },
+  {
+    "model": "ridge",
+    "arm": "placebo_day5",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 7,
+    "refit": "2021-10-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "training_X_sha256": "5b9b3a249978dffa6ffa1da076bf5edfcb5d2ffb7ad97e4e416b1f19d8682e7e",
+    "query_X_sha256": "e5b0dc6b3f51a719c29c163f9f056bb5ed508cf7a28ddb25e0f18b3efc3e158a",
+    "training_n": 723,
+    "training_target_max": "2021-09-30",
+    "training_origin_max": "2021-09-24"
+  },
+  {
+    "model": "ridge",
+    "arm": "placebo_day5",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 7,
+    "refit": "2021-11-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "training_X_sha256": "bfba4a4c6df3b1dbc34baf0d3150355b9fbc51806dfe836aa80f3528baf6af1e",
+    "query_X_sha256": "8c551d39c0fac6ff51a4856fa9be78fbeea842d7363329dadb8400a123874b77",
+    "training_n": 723,
+    "training_target_max": "2021-10-31",
+    "training_origin_max": "2021-10-25"
+  },
+  {
+    "model": "ridge",
+    "arm": "calendar",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 14,
+    "refit": "2021-03-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "training_X_sha256": "e1aea6cbb8cf05675c65fbeaab47a7fd00312b23c66020c1ac1b3d2b4a17b21c",
+    "query_X_sha256": "4634f3665d431e074a80e6b9321f51e6201a036e2c7fea8fb4f8d0994ab92109",
+    "training_n": 715,
+    "training_target_max": "2021-02-28",
+    "training_origin_max": "2021-02-15"
+  },
+  {
+    "model": "ridge",
+    "arm": "calendar",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 14,
+    "refit": "2021-04-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "training_X_sha256": "9a57017282fc1b2521db00eda9609dcbe3a76f95a0f7dac2a6da7e2ad6eb5460",
+    "query_X_sha256": "f9079bb361b247d58461d9c5165d4552e4b6244d7570249ce70569594ff89c15",
+    "training_n": 715,
+    "training_target_max": "2021-03-31",
+    "training_origin_max": "2021-03-18"
+  },
+  {
+    "model": "ridge",
+    "arm": "calendar",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 14,
+    "refit": "2021-08-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "training_X_sha256": "54078e2a6edcb892560a7507c1ae4ca42c437d374a672a7570da82f2aaf1a3c3",
+    "query_X_sha256": "f73f7938c415305921db5802b732d5e3a421dbc2d092a932feb4010cdb5a2c91",
+    "training_n": 716,
+    "training_target_max": "2021-07-31",
+    "training_origin_max": "2021-07-18"
+  },
+  {
+    "model": "ridge",
+    "arm": "calendar",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 14,
+    "refit": "2021-09-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "training_X_sha256": "d91692773d891f9a539b0cd2a3707221496d2ea50aca495f1f3b006880a531f7",
+    "query_X_sha256": "38719c6ae3a7d5c0facb955b93636773c3a97658e57b704774620a5a718d523a",
+    "training_n": 716,
+    "training_target_max": "2021-08-31",
+    "training_origin_max": "2021-08-18"
+  },
+  {
+    "model": "ridge",
+    "arm": "calendar",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 14,
+    "refit": "2021-10-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "training_X_sha256": "87465be94806dabc6bd8a405973d3c1e6cda40a6a96f42c3327df7f9fb6229df",
+    "query_X_sha256": "305644f4bdb5f9e3aec51f07f400f2148c0e057ecb834b07185bb9e244a4e679",
+    "training_n": 716,
+    "training_target_max": "2021-09-30",
+    "training_origin_max": "2021-09-17"
+  },
+  {
+    "model": "ridge",
+    "arm": "zero5",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 14,
+    "refit": "2021-03-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "training_X_sha256": "b6d0fd9168083471876f8981976e47caaa97bb05f676518461ad5164139a13a3",
+    "query_X_sha256": "af13118e771422a923d663c0682a1e607c1287700a494042bfda59f6d1da6b07",
+    "training_n": 715,
+    "training_target_max": "2021-02-28",
+    "training_origin_max": "2021-02-15"
+  },
+  {
+    "model": "ridge",
+    "arm": "zero5",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 14,
+    "refit": "2021-04-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "training_X_sha256": "e179cab9fb4cf22b1fa390398cd83c3eb5d444cb50bb5449a5416794992e1867",
+    "query_X_sha256": "70ee2b8bdc6ee5c5fe21ad2d8884aba943e459d470293f6758d8133c2191bcf8",
+    "training_n": 715,
+    "training_target_max": "2021-03-31",
+    "training_origin_max": "2021-03-18"
+  },
+  {
+    "model": "ridge",
+    "arm": "zero5",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 14,
+    "refit": "2021-08-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "training_X_sha256": "2cc312e7c032bdab6b1e9040c478f6ce08d354f971dd7e1f66a218778c03e8e3",
+    "query_X_sha256": "17662b1ec7cae12d7abf16d1a78c4745fef2f247eccb10ff12b5378bef73ff07",
+    "training_n": 716,
+    "training_target_max": "2021-07-31",
+    "training_origin_max": "2021-07-18"
+  },
+  {
+    "model": "ridge",
+    "arm": "zero5",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 14,
+    "refit": "2021-09-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "training_X_sha256": "79b825f25e388866895c73d951213ab3d2e0670d9cda50395a3bdaef02c4280f",
+    "query_X_sha256": "c8fe50cf4422b60ba559d69cfef1f230b18d109f112f9b97a47a6b54cf0c2111",
+    "training_n": 716,
+    "training_target_max": "2021-08-31",
+    "training_origin_max": "2021-08-18"
+  },
+  {
+    "model": "ridge",
+    "arm": "zero5",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 14,
+    "refit": "2021-10-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "training_X_sha256": "c02ab2ec6baf2b87570649ae27feaed5125ae9b1b89205feeb2702a73164e665",
+    "query_X_sha256": "b70201954a9aca20fc3327ce1e54a6b7d0dd8bee08de8206715e7496e66b9512",
+    "training_n": 716,
+    "training_target_max": "2021-09-30",
+    "training_origin_max": "2021-09-17"
+  },
+  {
+    "model": "ridge",
+    "arm": "day5",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 14,
+    "refit": "2021-03-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "training_X_sha256": "e14c64f6e04049b5381107da408fe5a2653f3caf4074cfbf63a485f61d2b74ed",
+    "query_X_sha256": "346c7c8d61a63cdd38811982a2d7812893b07d9c5b9031626e3fcbab15b3b9ce",
+    "training_n": 715,
+    "training_target_max": "2021-02-28",
+    "training_origin_max": "2021-02-15"
+  },
+  {
+    "model": "ridge",
+    "arm": "day5",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 14,
+    "refit": "2021-04-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "training_X_sha256": "93c043817bbf8ad41a204b09e18da3f17dd32b79974bdb20e14232eae83c23bc",
+    "query_X_sha256": "70ee2b8bdc6ee5c5fe21ad2d8884aba943e459d470293f6758d8133c2191bcf8",
+    "training_n": 715,
+    "training_target_max": "2021-03-31",
+    "training_origin_max": "2021-03-18"
+  },
+  {
+    "model": "ridge",
+    "arm": "day5",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 14,
+    "refit": "2021-08-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "training_X_sha256": "4c6934fc37549f94361c91a1298f30cb450b1df6c628a8bb79860956488138b1",
+    "query_X_sha256": "4603f9e657ef9b5fbcd6b9e5f06fe44754b19d169ca0dd672267fa5965e73906",
+    "training_n": 716,
+    "training_target_max": "2021-07-31",
+    "training_origin_max": "2021-07-18"
+  },
+  {
+    "model": "ridge",
+    "arm": "day5",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 14,
+    "refit": "2021-09-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "training_X_sha256": "7fe451159c74324dedbe434abf8840ba24fe6893764410aa12872fe1e220b4eb",
+    "query_X_sha256": "c8fe50cf4422b60ba559d69cfef1f230b18d109f112f9b97a47a6b54cf0c2111",
+    "training_n": 716,
+    "training_target_max": "2021-08-31",
+    "training_origin_max": "2021-08-18"
+  },
+  {
+    "model": "ridge",
+    "arm": "day5",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 14,
+    "refit": "2021-10-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "training_X_sha256": "5f7cf42bf7bc9a21994f6bdc87442432f68b8a6ebc6e7297796382ca2a74d530",
+    "query_X_sha256": "d004e67d6a23175098b9b6518cb1712ea2c8fd8b2f099687c44c4a4fc9756726",
+    "training_n": 716,
+    "training_target_max": "2021-09-30",
+    "training_origin_max": "2021-09-17"
+  },
+  {
+    "model": "ridge",
+    "arm": "pooled_day5",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 14,
+    "refit": "2021-03-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "training_X_sha256": "8b8c89d9c8f98060a72ae980cad1257ae86ae8e851c955d91b46a58e115e1966",
+    "query_X_sha256": "f0588f9b4ad55be90966234f8af29ba0f5943a39d0ea66c76b66d295de91e900",
+    "training_n": 715,
+    "training_target_max": "2021-02-28",
+    "training_origin_max": "2021-02-15"
+  },
+  {
+    "model": "ridge",
+    "arm": "pooled_day5",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 14,
+    "refit": "2021-04-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "training_X_sha256": "64f24b3e9f91b14a285ea57b1226821f5aa0cbef0cb255c8e45bb1f6eedc74d9",
+    "query_X_sha256": "70ee2b8bdc6ee5c5fe21ad2d8884aba943e459d470293f6758d8133c2191bcf8",
+    "training_n": 715,
+    "training_target_max": "2021-03-31",
+    "training_origin_max": "2021-03-18"
+  },
+  {
+    "model": "ridge",
+    "arm": "pooled_day5",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 14,
+    "refit": "2021-08-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "training_X_sha256": "6f29b026ed05f7c19fd1505fe6b2390aaa65d810049f82996aeafe49573326b8",
+    "query_X_sha256": "a550c095196cb6d98c659d403de0a5bb52e020cac1b983655435c087b3164c1d",
+    "training_n": 716,
+    "training_target_max": "2021-07-31",
+    "training_origin_max": "2021-07-18"
+  },
+  {
+    "model": "ridge",
+    "arm": "pooled_day5",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 14,
+    "refit": "2021-09-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "training_X_sha256": "64c5352833341825036e796537af7596c4eb5a0dfe34c221a60f04ad80d6802a",
+    "query_X_sha256": "c8fe50cf4422b60ba559d69cfef1f230b18d109f112f9b97a47a6b54cf0c2111",
+    "training_n": 716,
+    "training_target_max": "2021-08-31",
+    "training_origin_max": "2021-08-18"
+  },
+  {
+    "model": "ridge",
+    "arm": "pooled_day5",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 14,
+    "refit": "2021-10-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "training_X_sha256": "a3d188b98b3a770184e9f949756bb41216085758f3a0b8e12499dc39c39c5058",
+    "query_X_sha256": "25ca0649a6ba2fbbd63aab3e325f98460a366236e7174e5610a1dcd7456f47d4",
+    "training_n": 716,
+    "training_target_max": "2021-09-30",
+    "training_origin_max": "2021-09-17"
+  },
+  {
+    "model": "ridge",
+    "arm": "placebo_day5",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 14,
+    "refit": "2021-03-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "training_X_sha256": "fd0e60ae1ecf8185112ae8150276f58e45d5b4e33f6ac9e924743217157a313b",
+    "query_X_sha256": "af13118e771422a923d663c0682a1e607c1287700a494042bfda59f6d1da6b07",
+    "training_n": 715,
+    "training_target_max": "2021-02-28",
+    "training_origin_max": "2021-02-15"
+  },
+  {
+    "model": "ridge",
+    "arm": "placebo_day5",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 14,
+    "refit": "2021-04-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "training_X_sha256": "386b581a1cf3607ea9a19c527788b636048b0486421705c60c44c18156f9699c",
+    "query_X_sha256": "70ee2b8bdc6ee5c5fe21ad2d8884aba943e459d470293f6758d8133c2191bcf8",
+    "training_n": 715,
+    "training_target_max": "2021-03-31",
+    "training_origin_max": "2021-03-18"
+  },
+  {
+    "model": "ridge",
+    "arm": "placebo_day5",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 14,
+    "refit": "2021-08-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "training_X_sha256": "88da60f961b3ebedbd7a80b3e56dea90f1029be481ea534f63dc0992e334d19c",
+    "query_X_sha256": "17662b1ec7cae12d7abf16d1a78c4745fef2f247eccb10ff12b5378bef73ff07",
+    "training_n": 716,
+    "training_target_max": "2021-07-31",
+    "training_origin_max": "2021-07-18"
+  },
+  {
+    "model": "ridge",
+    "arm": "placebo_day5",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 14,
+    "refit": "2021-09-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "training_X_sha256": "4d3ce6f2487ea6a5fe4b417d6f77ecd6f88433034c199a7314d77dde75fba9c2",
+    "query_X_sha256": "c8fe50cf4422b60ba559d69cfef1f230b18d109f112f9b97a47a6b54cf0c2111",
+    "training_n": 716,
+    "training_target_max": "2021-08-31",
+    "training_origin_max": "2021-08-18"
+  },
+  {
+    "model": "ridge",
+    "arm": "placebo_day5",
+    "state": "Maharashtra",
+    "year": 2021,
+    "horizon": 14,
+    "refit": "2021-10-01",
+    "parameters": {
+      "alpha": 100.0
+    },
+    "training_X_sha256": "30a8e343b7d4e967338936a771098b083c7c9c02a112fe165f971e727c65591e",
+    "query_X_sha256": "b70201954a9aca20fc3327ce1e54a6b7d0dd8bee08de8206715e7496e66b9512",
+    "training_n": 716,
+    "training_target_max": "2021-09-30",
+    "training_origin_max": "2021-09-17"
+  }
+]
