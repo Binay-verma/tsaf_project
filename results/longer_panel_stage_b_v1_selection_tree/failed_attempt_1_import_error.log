@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/home/claude/handoff/repo/src/stable_tree_refit.py", line 6, in <module>
+    import robust_baselines
+  File "/home/claude/handoff/repo/src/robust_baselines.py", line 10, in <module>
+    from lightgbm import LGBMRegressor
+ModuleNotFoundError: No module named 'lightgbm'
