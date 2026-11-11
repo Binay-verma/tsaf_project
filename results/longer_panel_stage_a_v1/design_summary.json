@@ -1,0 +1,20 @@
+{
+  "event_cases": 1056,
+  "ordinary_cases": 432,
+  "event_by_year": {
+    "2022": 264,
+    "2023": 264,
+    "2024": 264,
+    "2025": 264
+  },
+  "ordinary_by_year": {
+    "2022": 108,
+    "2023": 108,
+    "2024": 108,
+    "2025": 108
+  },
+  "family_year_clusters": 20,
+  "new_anchor_rows": 28,
+  "placebo_rows_2020_2021": 28,
+  "unchecked_dry_run": false
+}
