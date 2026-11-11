@@ -32,3 +32,19 @@ Conventions to keep identical to the 2022–2025 ledger (to be fixed in the prot
 1. First Diwali anchor = the national main Diwali date (as in `src/extended_validation.py` MAIN); second = the state's listed second Diwali holiday. Karnataka's own Naraka Chaturdashi date differs in 2015, 2017 and 2021 (e.g. 2021-11-03 vs 2021-11-04): pre-declared sensitivity.
 2. A festival the state omits from the general list only because it falls on a Sunday or second/fourth Saturday is still flagged (the 2022–2025 ledger already flags the Sunday Diwali of 2023-11-12).
 3. COVID: 2020–2021 are context years only in Stage A; Stage B event years 2020–2021 get a pre-declared sensitivity that drops them.
+
+## Step 3 status (11 November 2026): pipeline built, not registered
+
+`src/longer_panel_stage_a_v1.py` and `src/longer_panel_analysis_stage_a_v1.py`. Dry run on the unchecked calendar: 1,056 event-window cases (264 per year 2022–2025), 432 ordinary cases, 20 family-year clusters; the 2024–2025 subsets equal the existing 528 and 216 cases exactly. A Ridge dry run on the 2024–2025 cases only reproduces all 4,224 stored forecasts across the 8 arms (max 1.1e-13 GWh). No 2022–2023 forecast or parameter selection has been run.
+
+To register and run (after the 28 Stage A calendar rows are checked):
+
+```bash
+cd src
+python longer_panel_stage_a_v1.py prepare            # refuses while any 2020-2021 row is unchecked
+# commit results/longer_panel_stage_a_v1* before running anything
+python robust_baselines.py --out ../results/longer_panel_stage_a_v1_selection_ridge
+python stable_tree_refit.py --out ../results/longer_panel_stage_a_v1_selection_tree
+for m in ridge lightgbm lightgbm_capacity2 sarimax; do for c in event_window ordinary; do python longer_panel_stage_a_v1.py $m --cohort $c; done; done
+python longer_panel_analysis_stage_a_v1.py
+```

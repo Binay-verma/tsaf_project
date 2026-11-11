@@ -172,6 +172,15 @@ def frames(index, state, anchors, fake):
     return {arm: out[arm] for arm in ARMS}
 
 
+INPUTS = ['src/longer_panel_stage_a_v1.py', 'src/longer_panel_analysis_stage_a_v1.py', 'src/test_longer_panel_stage_a_v1.py',
+          'src/breadth_model_engine_v1.py', 'src/robust_baselines.py', 'src/stable_tree_refit.py', 'src/extended_validation.py',
+          'src/forecasting.py', 'src/multifestival_models.py', 'data/external/latest_state_energy_GWh.csv',
+          'review/longer_panel_v1/calendar_entries_2014_2021.csv', 'results/calendar_semantics_v2/anchors_2022_2025.csv',
+          'results/calendar_recenter_recovery_v1/placebo_anchors.csv', 'results/extended_validation/regional_calendar_date_audit.csv',
+          'results/strong_refit_v1/selected.csv', 'results/stable_tree_refit_v2/selected.csv',
+          'results/strong_refit_v1/protocol.json', 'results/stable_tree_refit_v2/protocol.json']
+
+
 def prepare(out=OUT, allow_unchecked=False):
     out = Path(out)
     if out.exists():
@@ -189,6 +198,37 @@ def prepare(out=OUT, allow_unchecked=False):
     for name, c in [('event_window', ev), ('ordinary', od)]:
         (out/name).mkdir()
         c.to_csv(out/name/'window_cases.csv', index=False); c.to_csv(out/name/'primary_cases.csv', index=False)
+    sel = {}
+    for name, parent in [('ridge', 'strong_refit_v1'), ('tree', 'stable_tree_refit_v2')]:
+        d = Path(str(out)+f'_selection_{name}'); d.mkdir()
+        q = json.loads((ROOT/f'results/{parent}/protocol.json').read_text())
+        q.update(experiment=d.name, created_utc=datetime.now(timezone.utc).isoformat(), years=[2022, 2023], modes=['rich_calendar'],
+                 refits=['monthly'], status=('Parameter selection for Stage A event years 2022-2023 by the unchanged procedure of '
+                 f'results/{parent}; ordinary calendar only (no festival flags). Its full-year calendar-only predictions are a by-product.'))
+        dump(d/'protocol.json', q); sel[name] = str(d.relative_to(ROOT)) if d.is_relative_to(ROOT) else str(d)
+    for name in ['event_window', 'ordinary']:
+        dump(out/name/'protocol.json', dict(
+            experiment=f'{out.name}/{name}', created_utc=datetime.now(timezone.utc).isoformat(), author='Binay Verma',
+            status=('Registered before any Stage A forecast for event years 2022-2023 and before parameter selection for those years. '
+                    'Event years 2024-2025 and their arms were already inspected; 2022-2023 are new to every model and arm.'),
+            question='Is the typed-minus-pooled ordering stable across four event years (2022-2025) and 20 family-year clusters?',
+            arms=ARMS, models=MODELS, event_years=EVENT_YEARS, calendar_years='2020-2025', parameter_selection=sel,
+            conventions=['first Diwali anchor = national main date; second = state-listed second Diwali holiday',
+                         'festivals omitted from a state list only because of a weekend stay flagged',
+                         'ordinary weekday fallback: next weekday when the requested weekday has no eligible date'],
+            sensitivities=['new years only (2022-2023) versus old years only (2024-2025)'],
+            recorded_not_run=('Karnataka 2021 state-listed Diwali 2021-11-03 versus national 2021-11-04 '
+                              '(sensitivity_state_listed_diwali.csv); it affects only a training-context year'),
+            primary=('typed minus pooled balanced event MASE at lead 1, day and window representations, for the four local '
+                     'specifications (8 cells); exact sign-flip over 20 family-year clusters, Holm across the 8 cells, alpha 0.05'),
+            secondary=('all 24 local cells (leads 1/7/14); sign by year (4 years) and leave-one-family-out; placebo and zero controls; '
+                       'ordinary-day costs; decision rules (follow previous-year winner, equal-weight average) for 2023-2025'),
+            interpretation=('An ordering is called supported only if Holm-adjusted p < 0.05 and its sign holds in at least 3 of 4 years; '
+                            'otherwise not established. Not detected is not equivalence. Retrospective; calendars checked by a person.'),
+            input_hashes={f: sha(ROOT/f) for f in INPUTS},
+            design_hashes={'window_cases.csv': sha(out/name/'window_cases.csv'), 'primary_cases.csv': sha(out/name/'primary_cases.csv'),
+                           '../anchors_2020_2025.csv': sha(out/'anchors_2020_2025.csv'),
+                           '../placebo_anchors_2020_2025.csv': sha(out/'placebo_anchors_2020_2025.csv')}))
     summary = dict(event_cases=len(ev), ordinary_cases=len(od), event_by_year=ev.groupby('year').size().to_dict(),
                    ordinary_by_year=od.groupby('year').size().to_dict(), family_year_clusters=int(ev[['family', 'year']].drop_duplicates().shape[0]),
                    new_anchor_rows=len(new), placebo_rows_2020_2021=int(len(fake)-len(pd.read_csv(PLACEBO_2225))),
@@ -198,12 +238,84 @@ def prepare(out=OUT, allow_unchecked=False):
     return summary
 
 
+def bound(dates):
+    assert pd.Timestamp(min(dates)) >= pd.Timestamp('2020-01-01') and pd.Timestamp(max(dates)) <= pd.Timestamp('2025-12-31')
+
+
+def selected(model_name, year):
+    if year in (2024, 2025):
+        path = ROOT/('results/strong_refit_v1/selected.csv' if model_name == 'ridge' else 'results/stable_tree_refit_v2/selected.csv')
+    else:
+        path = Path(str(OUT)+('_selection_ridge' if model_name == 'ridge' else '_selection_tree'))/'selected.csv'
+    return pd.read_csv(path)
+
+
+def regression(engine, worker):
+    """Same as the registered Ziel/breadth regression: monthly refits, rich-history design with calendar columns
+    replaced in place by the arm frame at the target date, extra channels appended; parameters fixed per year."""
+    import hashlib, time, traceback
+    from robust_baselines import design_frame, fitting_cases, make_model
+    p, out, cases, data = engine.setup(worker)
+    anchors = pd.read_csv(engine.OUT.parent/'anchors_2020_2025.csv'); fake = pd.read_csv(engine.OUT.parent/'placebo_anchors_2020_2025.csv')
+    model_name = 'ridge' if worker == 'ridge' else 'lightgbm'
+    fixed = json.loads((ROOT/('results/strong_refit_v1/protocol.json' if model_name == 'ridge' else 'results/stable_tree_refit_v2/protocol.json')).read_text())
+    rows, fits = [], []
+    try:
+        for (state, year, horizon), group in cases.groupby(['state', 'year', 'horizon']):
+            observed = data[state]; fc = frames(data.index, state, anchors, fake)
+            base, _ = design_frame(observed, state, int(horizon), 'rich_calendar')
+            cal = list(fc['calendar'].columns)
+            sel = selected(model_name, int(year))
+            chosen = sel[sel.state.eq(state) & sel.year.eq(year) & sel.horizon.eq(horizon) & sel['mode'].eq('rich_calendar') & sel.model.eq(model_name)]
+            assert len(chosen) == 1, (state, year, horizon)
+            params = json.loads(chosen.parameters.iloc[0])
+            if worker == 'lightgbm_capacity2':
+                params['min_child_samples'] = 2
+            for arm in ARMS:
+                sh = fc[arm].reindex(data.index+pd.Timedelta(days=int(horizon)-1)).copy(); sh.index = data.index
+                x = base.copy(); x[cal] = sh.iloc[:, :13].to_numpy(); x = pd.concat([x, sh.iloc[:, 13:]], axis=1)
+                if model_name == 'lightgbm':
+                    x = x.astype(np.float32)
+                for month, seg in group.groupby(group.origin.dt.to_period('M')):
+                    refit = pd.Timestamp(month.start_time); cutoff = refit-pd.Timedelta(days=1)
+                    bound([cutoff-pd.Timedelta(days=729)+pd.Timedelta(days=int(horizon)-1), cutoff, seg.date.min(), seg.date.max()])
+                    xx, yy, log = fitting_cases(x, observed, int(horizon), cutoff)
+                    assert pd.Timestamp(log['training_target_max']) < refit <= seg.origin.min()
+                    q = x.reindex(pd.DatetimeIndex(seg.origin)).to_numpy()
+                    m = make_model(model_name, params, fixed).fit(xx, yy)
+                    a = seg.copy(); a['prediction'] = m.predict(q); a['mase_scale'] = engine.scale(data, state, int(year))
+                    a['model'] = worker; a['arm'] = arm; rows.append(a)
+                    fits.append(dict(model=worker, arm=arm, state=state, year=int(year), horizon=int(horizon), refit=str(refit.date()),
+                                     parameters=params, training_X_sha256=hashlib.sha256(xx.tobytes()).hexdigest(),
+                                     query_X_sha256=hashlib.sha256(q.tobytes()).hexdigest(), **log))
+            pd.concat(rows).to_csv(out/'checkpoint.csv', index=False); dump(out/'fit_log.json', fits)
+            print(worker, state, year, horizon, flush=True)
+        d = pd.concat(rows, ignore_index=True)
+        assert len(d) == len(cases)*len(ARMS) and np.isfinite(d.prediction).all()
+        d.to_csv(out/'predictions.csv', index=False)
+        dump(out/'run.json', dict(model=worker, completed_utc=datetime.now(timezone.utc).isoformat(), rows=len(d),
+                                  predictions_sha256=sha(out/'predictions.csv'), protocol_sha256=sha(engine.OUT/'protocol.json')))
+    except BaseException:
+        (out/'failure.txt').write_text(traceback.format_exc()); dump(out/'fit_log.json', fits); raise
+
+
+def run(cohort, worker):
+    import breadth_model_engine_v1 as engine
+    engine.OUT = OUT/cohort; engine.ARMS = ARMS; engine.EXTRA = []; engine.ledger_bound = bound
+    anchors = pd.read_csv(OUT/'anchors_2020_2025.csv'); fake = pd.read_csv(OUT/'placebo_anchors_2020_2025.csv')
+    engine.frames = lambda index, state: frames(index, state, anchors, fake)
+    for name in ['ridge', 'tree']:
+        assert (Path(str(OUT)+f'_selection_{name}')/'selected.csv').exists(), 'run the 2022-2023 parameter selection first'
+    engine.sarimax() if worker == 'sarimax' else regression(engine, worker)
+
+
 if __name__ == '__main__':
     a = argparse.ArgumentParser()
-    a.add_argument('action', choices=['prepare'])
+    a.add_argument('action', choices=['prepare', *MODELS])
+    a.add_argument('--cohort', choices=['event_window', 'ordinary'], default='event_window')
     a.add_argument('--allow-unchecked', action='store_true')
     a.add_argument('--out', default=str(OUT))
     args = a.parse_args()
     if args.allow_unchecked and Path(args.out).resolve() == OUT.resolve():
         raise SystemExit('Unchecked calendars may only be used for a dry run outside the registered folder')
-    prepare(args.out, args.allow_unchecked)
+    prepare(args.out, args.allow_unchecked) if args.action == 'prepare' else run(args.cohort, args.action)
