@@ -1,0 +1,37 @@
+{
+  "created_utc": "2026-11-11T13:48:40.080002+00:00",
+  "primary_cells": 8,
+  "primary_holm_below_005": 1,
+  "supported": [
+    {
+      "model": "lightgbm",
+      "representation": "day",
+      "lead": 1,
+      "typed_minus_pooled": 0.042855465172597196
+    }
+  ],
+  "all24_raw_below_005": 6,
+  "all24_holm_below_005": 0,
+  "smallest_attainable_p": 1.9073486328125e-06,
+  "follow_picked_worse": 30,
+  "decision_cells": 72,
+  "mean_regret": {
+    "follow": 0.011803389512951333,
+    "average": 0.007486970589700893,
+    "typed": 0.015116831016255942,
+    "pooled": 0.012571842479777951
+  },
+  "max_regret": {
+    "follow": 0.15654668451035958,
+    "average": 0.040452398660028255,
+    "typed": 0.15654668451035958,
+    "pooled": 0.08204184721495933
+  },
+  "outputs": {
+    "controls.csv": "a4b9a5bc3056fa6ea7056c209d62a43bf203be7e85fb83fc1f83b5784c2238c8",
+    "decision_rules.csv": "813fc00be41dfcca3036dee227b8b55a1845fa08c08955733b48186bc3e0d242",
+    "event_balanced.csv": "800f9bac9cbe1535d3edd276440e27a1c5fea158b55165bff0af496fbceda2db",
+    "ordinary_balanced.csv": "3613333409b849d69935df0dfe65ed739cd87a6df80a043c5101ee70b8b263fe",
+    "typed_vs_pooled.csv": "a89da1024ece48ce30cbee00d12bfb9f45b7b36665e76c0f40d531b91287f5da"
+  }
+}

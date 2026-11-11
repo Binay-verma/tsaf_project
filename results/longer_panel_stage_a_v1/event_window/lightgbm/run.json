@@ -1,0 +1,7 @@
+{
+  "model": "lightgbm",
+  "completed_utc": "2026-11-11T13:30:55.170322+00:00",
+  "rows": 8448,
+  "predictions_sha256": "915b700b1e663693118e67e748bdbda83b4b2188c4fb84c9d1eb626f9427b15c",
+  "protocol_sha256": "be68a291836a9a3a57b6d3953855e8f6402a6a5c27edd3e3abf9cd790345f631"
+}
