@@ -1,0 +1,58 @@
+{
+ "created_utc": "2026-11-12T16:51:44.654772+00:00",
+ "status": "Journal-format draft v9 for supervisor review; not submitted; two sections pending (foundation 2022-2023, frozen forecasts).",
+ "base": {
+  "manuscript/integrated_review_v7/MANUSCRIPT.md": "139afd9a7649d69204a1e10a320a6513806bd484813302c94e63faeff9834941",
+  "manuscript/journal_v8/MANUSCRIPT.md": "569a8c13353b51d2a11e5d2d82a6e8702d20b8a877f0b1b4702e305af71af410"
+ },
+ "new_inputs": {
+  "results/longer_panel_stage_a_v1/analysis/controls.csv": "a4b9a5bc3056fa6ea7056c209d62a43bf203be7e85fb83fc1f83b5784c2238c8",
+  "results/longer_panel_stage_a_v1/analysis/decision_rules.csv": "813fc00be41dfcca3036dee227b8b55a1845fa08c08955733b48186bc3e0d242",
+  "results/longer_panel_stage_a_v1/analysis/event_balanced.csv": "800f9bac9cbe1535d3edd276440e27a1c5fea158b55165bff0af496fbceda2db",
+  "results/longer_panel_stage_a_v1/analysis/ordinary_balanced.csv": "3613333409b849d69935df0dfe65ed739cd87a6df80a043c5101ee70b8b263fe",
+  "results/longer_panel_stage_a_v1/analysis/summary.json": "219ebf0ac58f8fa228d6c7db663e3443edf2e7f81a966393ca055e31988d17c5",
+  "results/longer_panel_stage_a_v1/analysis/typed_vs_pooled.csv": "a89da1024ece48ce30cbee00d12bfb9f45b7b36665e76c0f40d531b91287f5da",
+  "results/longer_panel_stage_b_v1/analysis/balanced.csv": "ab72eb209b6fa203c0c68cb235b16a7f232f41c7b0c0b9aa9b4753986afc4a27",
+  "results/longer_panel_stage_b_v1/analysis/hypothesis_tests.csv": "2ae974ee183d5fcd19f2749d33c93f76c94e58c38d608110053b08c8c0b3b47d",
+  "results/longer_panel_stage_b_v1/analysis/sensitivity_without_2020.csv": "b29a6beedbd7411e1bb83ae070c9799dfe1c3a23e6a14a576a05b868278a4806",
+  "results/longer_panel_stage_b_v1/analysis/summary.json": "fe3fb679e000c2ac8ec383585b76d89ba4b939054e2af34e42935c2521025108",
+  "results/model_class_hypothesis_v1/registration.json": "1c61d16cf2ec9ef589576dddca6cb03fba9fdb08a51568e6a7ba7cfb212d7e3f"
+ },
+ "commits": {
+  "Stage A protocol": "d60df30",
+  "Stage A results": "b2bebc3",
+  "hypothesis": "dec1274",
+  "Stage B protocol": "65d1880",
+  "Stage B results": "395c378"
+ },
+ "commit_times_utc": {
+  "Stage A protocol": "2026-11-11T13:23:06+00:00",
+  "Stage A results": "2026-11-11T13:49:09+00:00",
+  "hypothesis": "2026-11-11T14:13:31+00:00",
+  "Stage B protocol": "2026-11-11T14:18:52+00:00",
+  "Stage B results": "2026-11-11T14:25:54+00:00"
+ },
+ "v7_tables_copied": [
+  "Table 1",
+  "Table A6",
+  "Table 4",
+  "Table 2",
+  "Table A1",
+  "Table A2",
+  "Table A4",
+  "Table A3",
+  "Table 3",
+  "Table A8",
+  "Table A7",
+  "Table A9",
+  "Table 6",
+  "Table A5",
+  "Table 5"
+ ],
+ "abstract_words": 156,
+ "words_main_text": 4740,
+ "outputs": {
+  "MANUSCRIPT.md": "7de2cf835fc33f6a15f9ce2773de43eeb5bc5305b08656602b4c33a3259cc214",
+  "Typed_or_Pooled_Binay_Verma_v9.docx": "52d7b978a54621a56231492e7cc234513fdeee34e26efc9337983ecc34b58cdb"
+ }
+}
