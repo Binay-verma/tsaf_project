@@ -1,5 +1,5 @@
 {
- "created_utc": "2026-11-12T16:51:44.654772+00:00",
+ "created_utc": "2026-11-12T16:58:32.648372+00:00",
  "status": "Journal-format draft v9 for supervisor review; not submitted; two sections pending (foundation 2022-2023, frozen forecasts).",
  "base": {
   "manuscript/integrated_review_v7/MANUSCRIPT.md": "139afd9a7649d69204a1e10a320a6513806bd484813302c94e63faeff9834941",
@@ -49,10 +49,10 @@
   "Table A5",
   "Table 5"
  ],
- "abstract_words": 156,
- "words_main_text": 4740,
+ "abstract_words": 177,
+ "words_main_text": 5256,
  "outputs": {
-  "MANUSCRIPT.md": "7de2cf835fc33f6a15f9ce2773de43eeb5bc5305b08656602b4c33a3259cc214",
-  "Typed_or_Pooled_Binay_Verma_v9.docx": "52d7b978a54621a56231492e7cc234513fdeee34e26efc9337983ecc34b58cdb"
+  "MANUSCRIPT.md": "4c05ad9bd5eccc35ded31c7a433794a1d4cb7bb757e9ca7d484e240d2c46ceb3",
+  "Typed_or_Pooled_Binay_Verma_v9.docx": "78b7654e9333de441375ca262e1452696d47354c74ded6581845c656b4f3694e"
  }
 }
