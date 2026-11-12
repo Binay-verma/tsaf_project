@@ -1,0 +1,40 @@
+{
+  "created_utc": "2026-11-12T23:36:36.545855+00:00",
+  "status": "exploratory",
+  "reproduction": {
+    "rows": 1584,
+    "within_tolerance": 1584,
+    "max_abs_difference": 0.00018310546875,
+    "passed": true
+  },
+  "supported": [
+    {
+      "model": "timesfm",
+      "representation": "day",
+      "lead": 1,
+      "typed_minus_pooled": 0.05063564214671079
+    }
+  ],
+  "lead1_day": [
+    {
+      "model": "chronos",
+      "typed_minus_pooled": 0.003849817461703986,
+      "p_signflip": 0.5343475341796875,
+      "holm_primary": 1.0,
+      "years_same_sign": 3
+    },
+    {
+      "model": "timesfm",
+      "typed_minus_pooled": 0.05063564214671079,
+      "p_signflip": 0.004199981689453125,
+      "holm_primary": 0.0167999267578125,
+      "years_same_sign": 4
+    }
+  ],
+  "outputs": {
+    "controls.csv": "5ca329bee27e064dddb7b520ad83c121c709457910dd9968db68c2aef738df5f",
+    "event_balanced.csv": "eee81eda85c327883621f5c2d76c07ce573dc652ed8f76bfc4c96b539a318254",
+    "ordinary_balanced.csv": "7634e802f56bc694249a82f0dba8687c60c094358d4a70e31e2fcaf735597e39",
+    "typed_vs_pooled.csv": "374353facb1b600f216234f08a9d4e89a1affb0ea4ba8ed2f345e5fbee5eb8e6"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "chronos": {
+    "revision": "29ec3766d36d6f73f0696f85560a422f50e8498c",
+    "files": [
+      {
+        "name": "config.json",
+        "path": "/content/model-cache/chronos2/29ec3766d36d6f73f0696f85560a422f50e8498c/config.json",
+        "sha256": "ef1143bfdc9c0376d9a056eefca46cb4b1ec3d0ffacd541ff56feb40fb708031"
+      },
+      {
+        "name": "README.md",
+        "path": "/content/model-cache/chronos2/29ec3766d36d6f73f0696f85560a422f50e8498c/README.md",
+        "sha256": "c7b29bc88f5bc3ebc6e7213b6353be80090d671fefa4aa74ed20498838c16558"
+      },
+      {
+        "name": "model.safetensors",
+        "path": "/content/model-cache/chronos2/29ec3766d36d6f73f0696f85560a422f50e8498c/model.safetensors",
+        "sha256": "ddcda3c7508bf2528087723e98a20707cc04b7f370ae275a9fd88078ddba4f42"
+      }
+    ]
+  },
+  "timesfm": {
+    "revision": "43046b85ec22d584a13f8098c2ed39c889e129c2",
+    "path": "/content/model-cache/timesfm-3.0/43046b85ec22d584a13f8098c2ed39c889e129c2/model.safetensors",
+    "sha256": "a7592b0a8432baee54483254e5647856911ce69e09d09a9bb65904b2d98f17da"
+  },
+  "packages": {
+    "timesfm": "3.0.2",
+    "chronos-forecasting": "2.3.2",
+    "torch": "2.15.0+cpu",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3"
+  },
+  "verified_utc": "2026-11-12T13:25:37.683484+00:00"
+}
