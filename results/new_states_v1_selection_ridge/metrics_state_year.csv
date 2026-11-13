@@ -1,0 +1,1009 @@
+model,mode,schedule,state,year,horizon,MASE,MAE_GWh,n,scope
+lightgbm,rich_calendar,monthly,Andhra Pradesh,2017,1,0.4854251585964592,4.187259413696247,352,all
+lightgbm,rich_calendar,monthly,Andhra Pradesh,2017,7,1.1229280271639572,9.686335513059936,352,all
+lightgbm,rich_calendar,monthly,Andhra Pradesh,2017,14,1.343950892275599,11.592870549803267,352,all
+lightgbm,rich_calendar,monthly,Andhra Pradesh,2018,1,0.660201236118649,5.570275282984334,352,all
+lightgbm,rich_calendar,monthly,Andhra Pradesh,2018,7,1.2999102694104705,10.967652963456962,352,all
+lightgbm,rich_calendar,monthly,Andhra Pradesh,2018,14,1.570436354696225,13.250146063786353,352,all
+lightgbm,rich_calendar,monthly,Andhra Pradesh,2019,1,0.5393294100888182,4.562965516697499,351,all
+lightgbm,rich_calendar,monthly,Andhra Pradesh,2019,7,1.539967178194592,13.028803917425314,351,all
+lightgbm,rich_calendar,monthly,Andhra Pradesh,2019,14,1.4801816137994634,12.522991581535184,351,all
+lightgbm,rich_calendar,monthly,Andhra Pradesh,2020,1,0.5555023919350642,5.2145571967485544,352,all
+lightgbm,rich_calendar,monthly,Andhra Pradesh,2020,7,1.3478776010314535,12.652663511152538,352,all
+lightgbm,rich_calendar,monthly,Andhra Pradesh,2020,14,1.48877035124638,13.975238022566744,352,all
+lightgbm,rich_calendar,monthly,Andhra Pradesh,2021,1,0.582499077607909,6.16282403805753,352,all
+lightgbm,rich_calendar,monthly,Andhra Pradesh,2021,7,1.5713946401374115,16.625311582093584,352,all
+lightgbm,rich_calendar,monthly,Andhra Pradesh,2021,14,1.584322635162318,16.76208940984667,352,all
+lightgbm,rich_calendar,monthly,Andhra Pradesh,2022,1,0.473812713199024,5.483741423801077,352,all
+lightgbm,rich_calendar,monthly,Andhra Pradesh,2022,7,1.185718905530395,13.723092897488117,352,all
+lightgbm,rich_calendar,monthly,Andhra Pradesh,2022,14,1.2748997376578781,14.755240431151082,352,all
+lightgbm,rich_calendar,monthly,Andhra Pradesh,2023,1,0.5994931289009682,7.210501035854523,352,all
+lightgbm,rich_calendar,monthly,Andhra Pradesh,2023,7,1.7070182081589274,20.531438918603087,352,all
+lightgbm,rich_calendar,monthly,Andhra Pradesh,2023,14,2.022728478291455,24.3286955009993,352,all
+lightgbm,rich_calendar,monthly,Andhra Pradesh,2024,1,0.40631224117761733,5.598679213703867,353,all
+lightgbm,rich_calendar,monthly,Andhra Pradesh,2024,7,1.121678463926494,15.45589146475976,353,all
+lightgbm,rich_calendar,monthly,Andhra Pradesh,2024,14,1.0276391594150938,14.160100085417609,353,all
+lightgbm,rich_calendar,monthly,Andhra Pradesh,2025,1,0.3866281346598845,5.256629273668914,352,all
+lightgbm,rich_calendar,monthly,Andhra Pradesh,2025,7,1.0641485898908507,14.468255482945183,352,all
+lightgbm,rich_calendar,monthly,Andhra Pradesh,2025,14,1.2126059582672715,16.48669459417501,352,all
+lightgbm,rich_calendar,monthly,Gujarat,2017,1,0.5184833443826189,9.373601952017466,352,all
+lightgbm,rich_calendar,monthly,Gujarat,2017,7,1.474332642142319,26.65429368568082,352,all
+lightgbm,rich_calendar,monthly,Gujarat,2017,14,1.3564415151327045,24.522953286349935,352,all
+lightgbm,rich_calendar,monthly,Gujarat,2018,1,0.5750826356629907,9.833993276620355,352,all
+lightgbm,rich_calendar,monthly,Gujarat,2018,7,1.2676496037784748,21.676985023719837,352,all
+lightgbm,rich_calendar,monthly,Gujarat,2018,14,1.517112891762819,25.942842040900373,352,all
+lightgbm,rich_calendar,monthly,Gujarat,2019,1,0.4972858032931546,8.883120163362962,351,all
+lightgbm,rich_calendar,monthly,Gujarat,2019,7,1.2984520267415731,23.194519737994593,351,all
+lightgbm,rich_calendar,monthly,Gujarat,2019,14,1.6404520054796148,29.303736785573687,351,all
+lightgbm,rich_calendar,monthly,Gujarat,2020,1,0.5470655363387011,10.13990903539963,352,all
+lightgbm,rich_calendar,monthly,Gujarat,2020,7,1.4025339462504638,25.996093135786335,352,all
+lightgbm,rich_calendar,monthly,Gujarat,2020,14,1.7548878072421485,32.527003714871874,352,all
+lightgbm,rich_calendar,monthly,Gujarat,2021,1,0.5093834254930258,10.720501992911009,352,all
+lightgbm,rich_calendar,monthly,Gujarat,2021,7,1.493852813739249,31.439680337668552,352,all
+lightgbm,rich_calendar,monthly,Gujarat,2021,14,1.538623043339367,32.381916208783906,352,all
+lightgbm,rich_calendar,monthly,Gujarat,2022,1,0.5271476810884203,12.376053019861176,352,all
+lightgbm,rich_calendar,monthly,Gujarat,2022,7,1.6262957023343434,38.18118254168363,352,all
+lightgbm,rich_calendar,monthly,Gujarat,2022,14,1.9190610606935146,45.05454977333046,352,all
+lightgbm,rich_calendar,monthly,Gujarat,2023,1,0.5907082053286463,13.58759596063428,352,all
+lightgbm,rich_calendar,monthly,Gujarat,2023,7,1.5151397079074014,34.85156628813945,352,all
+lightgbm,rich_calendar,monthly,Gujarat,2023,14,1.8955002576302689,43.600700670188026,352,all
+lightgbm,rich_calendar,monthly,Gujarat,2024,1,0.5716008497863964,14.671713048627232,353,all
+lightgbm,rich_calendar,monthly,Gujarat,2024,7,1.4303846840450698,36.7147698281117,353,all
+lightgbm,rich_calendar,monthly,Gujarat,2024,14,1.477840313261569,37.93284949798397,353,all
+lightgbm,rich_calendar,monthly,Gujarat,2025,1,0.4559431617382072,13.186766682481919,352,all
+lightgbm,rich_calendar,monthly,Gujarat,2025,7,1.124652663152738,32.52715143547313,352,all
+lightgbm,rich_calendar,monthly,Gujarat,2025,14,1.21140770293489,35.03627661628579,352,all
+lightgbm,rich_calendar,monthly,Madhya Pradesh,2017,1,0.46185103848530945,5.634912092515417,352,all
+lightgbm,rich_calendar,monthly,Madhya Pradesh,2017,7,0.9632432248452378,11.752254392487686,352,all
+lightgbm,rich_calendar,monthly,Madhya Pradesh,2017,14,1.273207987394607,15.534045583152436,352,all
+lightgbm,rich_calendar,monthly,Madhya Pradesh,2018,1,0.728551745063406,7.152102047388837,352,all
+lightgbm,rich_calendar,monthly,Madhya Pradesh,2018,7,1.5080211974081534,14.804056906829526,352,all
+lightgbm,rich_calendar,monthly,Madhya Pradesh,2018,14,1.7158475239480653,16.84426215734065,352,all
+lightgbm,rich_calendar,monthly,Madhya Pradesh,2019,1,0.6884992557780183,6.901943161864343,351,all
+lightgbm,rich_calendar,monthly,Madhya Pradesh,2019,7,1.5631008847894676,15.669491829567221,351,all
+lightgbm,rich_calendar,monthly,Madhya Pradesh,2019,14,2.401215181798723,24.071268872255576,351,all
+lightgbm,rich_calendar,monthly,Madhya Pradesh,2020,1,0.5687432036849511,6.696339883608252,352,all
+lightgbm,rich_calendar,monthly,Madhya Pradesh,2020,7,1.6827003128361477,19.811987455847515,352,all
+lightgbm,rich_calendar,monthly,Madhya Pradesh,2020,14,2.053661731878968,24.179659420139476,352,all
+lightgbm,rich_calendar,monthly,Madhya Pradesh,2021,1,0.4081723936287153,5.706181939581408,352,all
+lightgbm,rich_calendar,monthly,Madhya Pradesh,2021,7,1.1500010547997397,16.076822812683705,352,all
+lightgbm,rich_calendar,monthly,Madhya Pradesh,2021,14,1.4916257597648332,20.852679171455108,352,all
+lightgbm,rich_calendar,monthly,Madhya Pradesh,2022,1,0.4812532564374454,7.291554193235302,352,all
+lightgbm,rich_calendar,monthly,Madhya Pradesh,2022,7,1.82044435841174,27.581878184868028,352,all
+lightgbm,rich_calendar,monthly,Madhya Pradesh,2022,14,2.0400562174927956,30.90925675435687,352,all
+lightgbm,rich_calendar,monthly,Madhya Pradesh,2023,1,0.49435940837486547,8.047118175965359,352,all
+lightgbm,rich_calendar,monthly,Madhya Pradesh,2023,7,1.6999563475648856,27.671668407823486,352,all
+lightgbm,rich_calendar,monthly,Madhya Pradesh,2023,14,2.1914351643718533,35.671896688763354,352,all
+lightgbm,rich_calendar,monthly,Madhya Pradesh,2024,1,0.3310021329142989,6.688175075188198,353,all
+lightgbm,rich_calendar,monthly,Madhya Pradesh,2024,7,1.008143044935167,20.370373828090962,353,all
+lightgbm,rich_calendar,monthly,Madhya Pradesh,2024,14,1.2004582763340903,24.256264006189465,353,all
+lightgbm,rich_calendar,monthly,Madhya Pradesh,2025,1,0.3376489695182137,7.121936778854136,352,all
+lightgbm,rich_calendar,monthly,Madhya Pradesh,2025,7,1.083852303363002,22.861398313109152,352,all
+lightgbm,rich_calendar,monthly,Madhya Pradesh,2025,14,1.395840883556032,29.44208756274528,352,all
+lightgbm,rich_calendar,monthly,Rajasthan,2017,1,0.4671410767545454,6.350253156515106,352,all
+lightgbm,rich_calendar,monthly,Rajasthan,2017,7,0.9869028482898645,13.415824981752648,352,all
+lightgbm,rich_calendar,monthly,Rajasthan,2017,14,0.8955496036401577,12.173981223920334,352,all
+lightgbm,rich_calendar,monthly,Rajasthan,2018,1,0.5819576762952884,7.152397823265983,352,all
+lightgbm,rich_calendar,monthly,Rajasthan,2018,7,1.3607960303146285,16.724505855977036,352,all
+lightgbm,rich_calendar,monthly,Rajasthan,2018,14,1.3583100623454738,16.693952720215545,352,all
+lightgbm,rich_calendar,monthly,Rajasthan,2019,1,0.5638174713531566,7.447069605026424,351,all
+lightgbm,rich_calendar,monthly,Rajasthan,2019,7,1.2611546567500829,16.657707482850054,351,all
+lightgbm,rich_calendar,monthly,Rajasthan,2019,14,1.2742322006830107,16.830439590100244,351,all
+lightgbm,rich_calendar,monthly,Rajasthan,2020,1,0.5478160404155379,7.9842858239981105,352,all
+lightgbm,rich_calendar,monthly,Rajasthan,2020,7,1.610935518613035,23.47899418001833,352,all
+lightgbm,rich_calendar,monthly,Rajasthan,2020,14,1.7032806198538004,24.824901616742963,352,all
+lightgbm,rich_calendar,monthly,Rajasthan,2021,1,0.48894889197885455,8.165854520157007,352,all
+lightgbm,rich_calendar,monthly,Rajasthan,2021,7,1.4788012966918826,24.697215703124424,352,all
+lightgbm,rich_calendar,monthly,Rajasthan,2021,14,1.522632014739191,25.429225270913392,352,all
+lightgbm,rich_calendar,monthly,Rajasthan,2022,1,0.5319970301144353,9.705219606797767,352,all
+lightgbm,rich_calendar,monthly,Rajasthan,2022,7,1.4444886840960882,26.3518010536098,352,all
+lightgbm,rich_calendar,monthly,Rajasthan,2022,14,2.1028998660547216,38.36319350650619,352,all
+lightgbm,rich_calendar,monthly,Rajasthan,2023,1,0.6230316149319838,11.615360222447721,352,all
+lightgbm,rich_calendar,monthly,Rajasthan,2023,7,1.7042552250280274,31.772927529288086,352,all
+lightgbm,rich_calendar,monthly,Rajasthan,2023,14,1.7390605453768757,32.42181327412094,352,all
+lightgbm,rich_calendar,monthly,Rajasthan,2024,1,0.40637693111243683,8.967378659176664,353,all
+lightgbm,rich_calendar,monthly,Rajasthan,2024,7,1.1298539951921742,24.93209586660447,353,all
+lightgbm,rich_calendar,monthly,Rajasthan,2024,14,1.2605913383677332,27.817031431083137,353,all
+lightgbm,rich_calendar,monthly,Rajasthan,2025,1,0.4608026163307441,9.928868722369332,352,all
+lightgbm,rich_calendar,monthly,Rajasthan,2025,7,1.1830247544475885,25.49051820876052,352,all
+lightgbm,rich_calendar,monthly,Rajasthan,2025,14,1.5546072885406987,33.496970580740395,352,all
+lightgbm,rich_calendar,monthly,Tamil Nadu,2017,1,0.4553507100289208,7.36459944368601,352,all
+lightgbm,rich_calendar,monthly,Tamil Nadu,2017,7,1.0000979861134363,16.175051251583017,352,all
+lightgbm,rich_calendar,monthly,Tamil Nadu,2017,14,0.9977337019375038,16.136812580722747,352,all
+lightgbm,rich_calendar,monthly,Tamil Nadu,2018,1,0.5079935902805466,7.96841438009244,352,all
+lightgbm,rich_calendar,monthly,Tamil Nadu,2018,7,0.982346847876476,15.40914471880326,352,all
+lightgbm,rich_calendar,monthly,Tamil Nadu,2018,14,0.9419899198255176,14.776103806535026,352,all
+lightgbm,rich_calendar,monthly,Tamil Nadu,2019,1,0.5664507718809849,8.52653354132885,351,all
+lightgbm,rich_calendar,monthly,Tamil Nadu,2019,7,1.203550008208327,18.11650724665453,351,all
+lightgbm,rich_calendar,monthly,Tamil Nadu,2019,14,1.1775379825716183,17.72495970169699,351,all
+lightgbm,rich_calendar,monthly,Tamil Nadu,2020,1,0.5931576460847157,9.150505617346,352,all
+lightgbm,rich_calendar,monthly,Tamil Nadu,2020,7,1.4196227320944954,21.90019107110603,352,all
+lightgbm,rich_calendar,monthly,Tamil Nadu,2020,14,1.7692790426201441,27.29425798523034,352,all
+lightgbm,rich_calendar,monthly,Tamil Nadu,2021,1,0.5752830803978762,9.934874760339845,352,all
+lightgbm,rich_calendar,monthly,Tamil Nadu,2021,7,1.1523427457150681,19.900430326835686,352,all
+lightgbm,rich_calendar,monthly,Tamil Nadu,2021,14,1.5757435283589343,27.212367514502386,352,all
+lightgbm,rich_calendar,monthly,Tamil Nadu,2022,1,0.5270929063103371,9.80568259686623,352,all
+lightgbm,rich_calendar,monthly,Tamil Nadu,2022,7,1.241414825975524,23.09444807324508,352,all
+lightgbm,rich_calendar,monthly,Tamil Nadu,2022,14,1.5221182814445045,28.316466725402414,352,all
+lightgbm,rich_calendar,monthly,Tamil Nadu,2023,1,0.5510613623454221,10.408123844597712,352,all
+lightgbm,rich_calendar,monthly,Tamil Nadu,2023,7,1.2015299880284243,22.693793782186653,352,all
+lightgbm,rich_calendar,monthly,Tamil Nadu,2023,14,1.1192969520156215,21.14062442315978,352,all
+lightgbm,rich_calendar,monthly,Tamil Nadu,2024,1,0.6255011127956193,12.837514913225874,353,all
+lightgbm,rich_calendar,monthly,Tamil Nadu,2024,7,1.4131779458788756,29.003454325092026,353,all
+lightgbm,rich_calendar,monthly,Tamil Nadu,2024,14,1.4796617261726144,30.367938741744666,353,all
+lightgbm,rich_calendar,monthly,Tamil Nadu,2025,1,0.4789663827857474,10.623845353831529,352,all
+lightgbm,rich_calendar,monthly,Tamil Nadu,2025,7,1.0090886563557542,22.3823679880779,352,all
+lightgbm,rich_calendar,monthly,Tamil Nadu,2025,14,0.9917624041755264,21.998058294663437,352,all
+lightgbm,rich_calendar,monthly,Telangana,2017,1,0.6730934347358273,5.102163458139464,352,all
+lightgbm,rich_calendar,monthly,Telangana,2017,7,1.8792597847932049,14.245110867982383,352,all
+lightgbm,rich_calendar,monthly,Telangana,2017,14,2.562264212871506,19.42240135226151,352,all
+lightgbm,rich_calendar,monthly,Telangana,2018,1,0.9758838823350744,8.63541545308663,352,all
+lightgbm,rich_calendar,monthly,Telangana,2018,7,2.0687431467538753,18.30592436386979,352,all
+lightgbm,rich_calendar,monthly,Telangana,2018,14,2.5709570328137525,22.749921883389312,352,all
+lightgbm,rich_calendar,monthly,Telangana,2019,1,0.5194814770724281,5.911957872060366,351,all
+lightgbm,rich_calendar,monthly,Telangana,2019,7,1.3893834801660168,15.811875813491012,351,all
+lightgbm,rich_calendar,monthly,Telangana,2019,14,1.7284033570493291,19.67009081900081,351,all
+lightgbm,rich_calendar,monthly,Telangana,2020,1,0.5617533689304781,7.698981851715007,352,all
+lightgbm,rich_calendar,monthly,Telangana,2020,7,1.6195147683116657,22.195887909946915,352,all
+lightgbm,rich_calendar,monthly,Telangana,2020,14,1.731324801923938,23.728274660487365,352,all
+lightgbm,rich_calendar,monthly,Telangana,2021,1,0.5674317099938346,9.16382481747484,352,all
+lightgbm,rich_calendar,monthly,Telangana,2021,7,1.3730094591397097,22.17362536265181,352,all
+lightgbm,rich_calendar,monthly,Telangana,2021,14,1.75641909484642,28.365557665811806,352,all
+lightgbm,rich_calendar,monthly,Telangana,2022,1,0.37563714210870935,6.719059593507879,352,all
+lightgbm,rich_calendar,monthly,Telangana,2022,7,1.028140048489713,18.390445144732915,352,all
+lightgbm,rich_calendar,monthly,Telangana,2022,14,1.2779253103090253,22.858379413219662,352,all
+lightgbm,rich_calendar,monthly,Telangana,2023,1,0.6171257251954844,10.25154231993821,352,all
+lightgbm,rich_calendar,monthly,Telangana,2023,7,1.6724475367186264,27.782291355811505,352,all
+lightgbm,rich_calendar,monthly,Telangana,2023,14,1.818552214630712,30.209346699003095,352,all
+lightgbm,rich_calendar,monthly,Telangana,2024,1,0.40945939135932474,7.780141859555652,353,all
+lightgbm,rich_calendar,monthly,Telangana,2024,7,1.0471140701824602,19.8962245855708,353,all
+lightgbm,rich_calendar,monthly,Telangana,2024,14,0.996618308789212,18.936754134443735,353,all
+lightgbm,rich_calendar,monthly,Telangana,2025,1,0.4381386923481653,9.235539434029002,352,all
+lightgbm,rich_calendar,monthly,Telangana,2025,7,1.0159139941953366,21.41448340179269,352,all
+lightgbm,rich_calendar,monthly,Telangana,2025,14,1.1849819537944557,24.978272300554682,352,all
+lightgbm,rich_calendar,monthly,Uttar Pradesh,2017,1,0.8100838206074985,13.148781351834863,352,all
+lightgbm,rich_calendar,monthly,Uttar Pradesh,2017,7,1.456240119183444,23.636792188435187,352,all
+lightgbm,rich_calendar,monthly,Uttar Pradesh,2017,14,1.7597963833637904,28.56393039827373,352,all
+lightgbm,rich_calendar,monthly,Uttar Pradesh,2018,1,0.7601872179345167,14.745829631457532,352,all
+lightgbm,rich_calendar,monthly,Uttar Pradesh,2018,7,1.187085375053509,23.026641708203222,352,all
+lightgbm,rich_calendar,monthly,Uttar Pradesh,2018,14,1.3563020706276232,26.309044391207873,352,all
+lightgbm,rich_calendar,monthly,Uttar Pradesh,2019,1,0.6680198258387002,15.341264711263062,351,all
+lightgbm,rich_calendar,monthly,Uttar Pradesh,2019,7,1.3097649004670988,30.079122311017507,351,all
+lightgbm,rich_calendar,monthly,Uttar Pradesh,2019,14,1.4454487424089415,33.19514021311732,351,all
+lightgbm,rich_calendar,monthly,Uttar Pradesh,2020,1,0.6199431260386964,16.756263047578784,352,all
+lightgbm,rich_calendar,monthly,Uttar Pradesh,2020,7,1.326628983504557,35.85707023833808,352,all
+lightgbm,rich_calendar,monthly,Uttar Pradesh,2020,14,1.4319560511124418,38.70392501700962,352,all
+lightgbm,rich_calendar,monthly,Uttar Pradesh,2021,1,0.49738936320969795,14.572678206806527,352,all
+lightgbm,rich_calendar,monthly,Uttar Pradesh,2021,7,1.052747663037663,30.843749507259933,352,all
+lightgbm,rich_calendar,monthly,Uttar Pradesh,2021,14,1.214419446121303,35.58046292387804,352,all
+lightgbm,rich_calendar,monthly,Uttar Pradesh,2022,1,0.636563758387759,19.466490545337507,352,all
+lightgbm,rich_calendar,monthly,Uttar Pradesh,2022,7,1.5020558641821262,45.93374331068797,352,all
+lightgbm,rich_calendar,monthly,Uttar Pradesh,2022,14,1.737912115270118,53.14636486094968,352,all
+lightgbm,rich_calendar,monthly,Uttar Pradesh,2023,1,0.5433561212914427,17.10534670799189,352,all
+lightgbm,rich_calendar,monthly,Uttar Pradesh,2023,7,1.4180870231659364,44.64267400853793,352,all
+lightgbm,rich_calendar,monthly,Uttar Pradesh,2023,14,1.4501441807180504,45.651862592073755,352,all
+lightgbm,rich_calendar,monthly,Uttar Pradesh,2024,1,0.5225896579834146,18.597252874394012,353,all
+lightgbm,rich_calendar,monthly,Uttar Pradesh,2024,7,1.2638504628056564,44.97629505894785,353,all
+lightgbm,rich_calendar,monthly,Uttar Pradesh,2024,14,1.369630565311157,48.74066215906476,353,all
+lightgbm,rich_calendar,monthly,Uttar Pradesh,2025,1,0.4827450625602131,18.56602790353117,352,all
+lightgbm,rich_calendar,monthly,Uttar Pradesh,2025,7,1.0125515760364865,38.94200536150083,352,all
+lightgbm,rich_calendar,monthly,Uttar Pradesh,2025,14,1.0517318889134286,40.448852015269885,352,all
+ridge,rich_calendar,monthly,Andhra Pradesh,2017,1,0.4784661958748767,4.12723165936691,352,all
+ridge,rich_calendar,monthly,Andhra Pradesh,2017,7,0.8553305100118201,7.378049255263156,352,all
+ridge,rich_calendar,monthly,Andhra Pradesh,2017,14,0.9121834350268763,7.868460477775341,352,all
+ridge,rich_calendar,monthly,Andhra Pradesh,2018,1,0.5017401245404086,4.2333010926181345,352,all
+ridge,rich_calendar,monthly,Andhra Pradesh,2018,7,1.1921597846683143,10.058536425873037,352,all
+ridge,rich_calendar,monthly,Andhra Pradesh,2018,14,1.4291437204856345,12.058026411545114,352,all
+ridge,rich_calendar,monthly,Andhra Pradesh,2019,1,0.44956620802761077,3.8035290980416216,351,all
+ridge,rich_calendar,monthly,Andhra Pradesh,2019,7,1.2077607724828519,10.218190690456925,351,all
+ridge,rich_calendar,monthly,Andhra Pradesh,2019,14,1.3899820540506278,11.759863383709938,351,all
+ridge,rich_calendar,monthly,Andhra Pradesh,2020,1,0.44770282127325417,4.2026317124265065,352,all
+ridge,rich_calendar,monthly,Andhra Pradesh,2020,7,1.2691211179929323,11.913368430912572,352,all
+ridge,rich_calendar,monthly,Andhra Pradesh,2020,14,1.393405149007606,13.080035213589985,352,all
+ridge,rich_calendar,monthly,Andhra Pradesh,2021,1,0.4094099261081649,4.331545629909333,352,all
+ridge,rich_calendar,monthly,Andhra Pradesh,2021,7,1.146587692591304,12.130865893660712,352,all
+ridge,rich_calendar,monthly,Andhra Pradesh,2021,14,1.418956669032839,15.012522088084573,352,all
+ridge,rich_calendar,monthly,Andhra Pradesh,2022,1,0.46224928988093217,5.3499104359784,352,all
+ridge,rich_calendar,monthly,Andhra Pradesh,2022,7,1.092272011622368,12.641571467661601,352,all
+ridge,rich_calendar,monthly,Andhra Pradesh,2022,14,1.2323020030861456,14.262229257909361,352,all
+ridge,rich_calendar,monthly,Andhra Pradesh,2023,1,0.4327763918915349,5.2052883871214215,352,all
+ridge,rich_calendar,monthly,Andhra Pradesh,2023,7,1.3345858183536154,16.05194782351734,352,all
+ridge,rich_calendar,monthly,Andhra Pradesh,2023,14,1.6294858649564974,19.598906060389627,352,all
+ridge,rich_calendar,monthly,Andhra Pradesh,2024,1,0.3610144607692766,4.974509632044041,353,all
+ridge,rich_calendar,monthly,Andhra Pradesh,2024,7,0.9336041813775572,12.86436832165391,353,all
+ridge,rich_calendar,monthly,Andhra Pradesh,2024,14,1.006928762926595,13.874726290152024,353,all
+ridge,rich_calendar,monthly,Andhra Pradesh,2025,1,0.35697796974458396,4.85350308886607,352,all
+ridge,rich_calendar,monthly,Andhra Pradesh,2025,7,0.9689603555656346,13.174068086306391,352,all
+ridge,rich_calendar,monthly,Andhra Pradesh,2025,14,0.9869323808746795,13.418417283577696,352,all
+ridge,rich_calendar,monthly,Gujarat,2017,1,0.3948720264185333,7.138846865064192,352,all
+ridge,rich_calendar,monthly,Gujarat,2017,7,1.2324621288547037,22.28154393382927,352,all
+ridge,rich_calendar,monthly,Gujarat,2017,14,1.394004460945393,25.202049550498216,352,all
+ridge,rich_calendar,monthly,Gujarat,2018,1,0.3816774818882051,6.5267381728520295,352,all
+ridge,rich_calendar,monthly,Gujarat,2018,7,1.0474604830968064,17.911720350283577,352,all
+ridge,rich_calendar,monthly,Gujarat,2018,14,1.2706122376175242,21.727646475566164,352,all
+ridge,rich_calendar,monthly,Gujarat,2019,1,0.44736039411144607,7.991292152128269,351,all
+ridge,rich_calendar,monthly,Gujarat,2019,7,1.242778300249454,22.200008334096438,351,all
+ridge,rich_calendar,monthly,Gujarat,2019,14,1.5774172344813127,28.17773350629268,351,all
+ridge,rich_calendar,monthly,Gujarat,2020,1,0.48663241387285244,9.019775662294071,352,all
+ridge,rich_calendar,monthly,Gujarat,2020,7,1.5244142424954548,28.25515541450868,352,all
+ridge,rich_calendar,monthly,Gujarat,2020,14,1.902093279162319,35.25547040786324,352,all
+ridge,rich_calendar,monthly,Gujarat,2021,1,0.4235980742707591,8.915060388974341,352,all
+ridge,rich_calendar,monthly,Gujarat,2021,7,1.2794358117729612,26.927052360680978,352,all
+ridge,rich_calendar,monthly,Gujarat,2021,14,1.4551890326441026,30.62596100260615,352,all
+ridge,rich_calendar,monthly,Gujarat,2022,1,0.38853850939448126,9.121871090460838,352,all
+ridge,rich_calendar,monthly,Gujarat,2022,7,1.4058807792597814,33.00641487751203,352,all
+ridge,rich_calendar,monthly,Gujarat,2022,14,2.0715469969597957,48.634521951370125,352,all
+ridge,rich_calendar,monthly,Gujarat,2023,1,0.48814225470565814,11.22835211771496,352,all
+ridge,rich_calendar,monthly,Gujarat,2023,7,1.3275000433584236,30.535438756675788,352,all
+ridge,rich_calendar,monthly,Gujarat,2023,14,1.4328762933151733,32.95932570346793,352,all
+ridge,rich_calendar,monthly,Gujarat,2024,1,0.46680282037430426,11.981782450780164,353,all
+ridge,rich_calendar,monthly,Gujarat,2024,7,1.1276607661432467,28.94452515812653,353,all
+ridge,rich_calendar,monthly,Gujarat,2024,14,1.3002194872848891,33.37372088373533,353,all
+ridge,rich_calendar,monthly,Gujarat,2025,1,0.4285505303300253,12.394518285068019,352,all
+ridge,rich_calendar,monthly,Gujarat,2025,7,1.1022722647651964,31.87986660577552,352,all
+ridge,rich_calendar,monthly,Gujarat,2025,14,1.2224493092304443,35.35562143432015,352,all
+ridge,rich_calendar,monthly,Madhya Pradesh,2017,1,0.3725940740374735,4.545913462225821,352,all
+ridge,rich_calendar,monthly,Madhya Pradesh,2017,7,0.7636412288549065,9.316967671936318,352,all
+ridge,rich_calendar,monthly,Madhya Pradesh,2017,14,0.9366990073910774,11.4283960064389,352,all
+ridge,rich_calendar,monthly,Madhya Pradesh,2018,1,0.4890451378509995,4.800895413935607,352,all
+ridge,rich_calendar,monthly,Madhya Pradesh,2018,7,1.219541816692925,11.972090634806824,352,all
+ridge,rich_calendar,monthly,Madhya Pradesh,2018,14,1.4209431767848555,13.949222787218359,352,all
+ridge,rich_calendar,monthly,Madhya Pradesh,2019,1,0.680730794719609,6.824067294562628,351,all
+ridge,rich_calendar,monthly,Madhya Pradesh,2019,7,1.8390920467150764,18.43619825197998,351,all
+ridge,rich_calendar,monthly,Madhya Pradesh,2019,14,2.5848103850638693,25.911740952788257,351,all
+ridge,rich_calendar,monthly,Madhya Pradesh,2020,1,0.4330454824766297,5.098645077314992,352,all
+ridge,rich_calendar,monthly,Madhya Pradesh,2020,7,1.3584238229575196,15.993980351021339,352,all
+ridge,rich_calendar,monthly,Madhya Pradesh,2020,14,1.895173607939058,22.313632118993983,352,all
+ridge,rich_calendar,monthly,Madhya Pradesh,2021,1,0.37213582759822983,5.202396760922959,352,all
+ridge,rich_calendar,monthly,Madhya Pradesh,2021,7,1.1366083234399005,15.889594663499526,352,all
+ridge,rich_calendar,monthly,Madhya Pradesh,2021,14,1.3414459068678288,18.75318989274267,352,all
+ridge,rich_calendar,monthly,Madhya Pradesh,2022,1,0.3838277097860334,5.815442304719318,352,all
+ridge,rich_calendar,monthly,Madhya Pradesh,2022,7,1.3763869964279143,20.853885643520854,352,all
+ridge,rich_calendar,monthly,Madhya Pradesh,2022,14,1.951713861894923,29.57076591864097,352,all
+ridge,rich_calendar,monthly,Madhya Pradesh,2023,1,0.41167667192941787,6.701219342005708,352,all
+ridge,rich_calendar,monthly,Madhya Pradesh,2023,7,1.5904452909831468,25.889061666737977,352,all
+ridge,rich_calendar,monthly,Madhya Pradesh,2023,14,1.8853945842865032,30.69020791564236,352,all
+ridge,rich_calendar,monthly,Madhya Pradesh,2024,1,0.2748171953881601,5.55291139741419,353,all
+ridge,rich_calendar,monthly,Madhya Pradesh,2024,7,0.8893933027455707,17.970935918417073,353,all
+ridge,rich_calendar,monthly,Madhya Pradesh,2024,14,1.0887610349692267,21.999327777149563,353,all
+ridge,rich_calendar,monthly,Madhya Pradesh,2025,1,0.3116836001289057,6.574256389086885,352,all
+ridge,rich_calendar,monthly,Madhya Pradesh,2025,7,1.0275197427331728,21.673191116833465,352,all
+ridge,rich_calendar,monthly,Madhya Pradesh,2025,14,1.2489699102096983,26.34417854701841,352,all
+ridge,rich_calendar,monthly,Rajasthan,2017,1,0.4740873550011715,6.444679931544456,352,all
+ridge,rich_calendar,monthly,Rajasthan,2017,7,0.8379098830574343,11.3904345914682,352,all
+ridge,rich_calendar,monthly,Rajasthan,2017,14,0.8677252591556514,11.795740816079812,352,all
+ridge,rich_calendar,monthly,Rajasthan,2018,1,0.4886533157332595,6.005665109585851,352,all
+ridge,rich_calendar,monthly,Rajasthan,2018,7,1.222851298411892,15.029132394331146,352,all
+ridge,rich_calendar,monthly,Rajasthan,2018,14,1.3969296577916273,17.16859670491715,352,all
+ridge,rich_calendar,monthly,Rajasthan,2019,1,0.48665436849252053,6.427876289565937,351,all
+ridge,rich_calendar,monthly,Rajasthan,2019,7,1.238229216385917,16.354901417425932,351,all
+ridge,rich_calendar,monthly,Rajasthan,2019,14,1.3212387722898036,17.45131643133984,351,all
+ridge,rich_calendar,monthly,Rajasthan,2020,1,0.49813498829661323,7.260196547872579,352,all
+ridge,rich_calendar,monthly,Rajasthan,2020,7,1.35354034605592,19.727522014554825,352,all
+ridge,rich_calendar,monthly,Rajasthan,2020,14,1.6088398969118354,23.448451002369392,352,all
+ridge,rich_calendar,monthly,Rajasthan,2021,1,0.4278746770226327,7.1458641644229095,352,all
+ridge,rich_calendar,monthly,Rajasthan,2021,7,1.2376952349997696,20.670543271701998,352,all
+ridge,rich_calendar,monthly,Rajasthan,2021,14,1.4598617581997468,24.38090960540576,352,all
+ridge,rich_calendar,monthly,Rajasthan,2022,1,0.4374694497209599,7.9807533509982385,352,all
+ridge,rich_calendar,monthly,Rajasthan,2022,7,1.5183116008110664,27.69855221607228,352,all
+ridge,rich_calendar,monthly,Rajasthan,2022,14,1.9482885329322082,35.54261959967257,352,all
+ridge,rich_calendar,monthly,Rajasthan,2023,1,0.4839201029205507,9.02186370577648,352,all
+ridge,rich_calendar,monthly,Rajasthan,2023,7,1.4862163984725176,27.707966053459074,352,all
+ridge,rich_calendar,monthly,Rajasthan,2023,14,1.8008003703697397,33.572846849586114,352,all
+ridge,rich_calendar,monthly,Rajasthan,2024,1,0.3416125551859173,7.538245659504303,353,all
+ridge,rich_calendar,monthly,Rajasthan,2024,7,1.0250144203898204,22.61863736602914,353,all
+ridge,rich_calendar,monthly,Rajasthan,2024,14,1.4737928118558747,32.521674330543405,353,all
+ridge,rich_calendar,monthly,Rajasthan,2025,1,0.42068967595563544,9.064559135275283,352,all
+ridge,rich_calendar,monthly,Rajasthan,2025,7,1.3158933840173181,28.35342552214278,352,all
+ridge,rich_calendar,monthly,Rajasthan,2025,14,1.6159093665425543,34.81784043546361,352,all
+ridge,rich_calendar,monthly,Tamil Nadu,2017,1,0.4062381522788154,6.570279137341365,352,all
+ridge,rich_calendar,monthly,Tamil Nadu,2017,7,0.8132843015233021,13.153626386520102,352,all
+ridge,rich_calendar,monthly,Tamil Nadu,2017,14,0.8523823026818603,13.785976597554724,352,all
+ridge,rich_calendar,monthly,Tamil Nadu,2018,1,0.4135160796590851,6.4864351413079,352,all
+ridge,rich_calendar,monthly,Tamil Nadu,2018,7,0.7824166295355085,12.273028717884115,352,all
+ridge,rich_calendar,monthly,Tamil Nadu,2018,14,0.836870515609126,13.127195260814894,352,all
+ridge,rich_calendar,monthly,Tamil Nadu,2019,1,0.46826840441802037,7.048637683653272,351,all
+ridge,rich_calendar,monthly,Tamil Nadu,2019,7,1.02052509905649,15.361514042920858,351,all
+ridge,rich_calendar,monthly,Tamil Nadu,2019,14,1.0091853217426294,15.190821378319551,351,all
+ridge,rich_calendar,monthly,Tamil Nadu,2020,1,0.5979092992165834,9.223808269620378,352,all
+ridge,rich_calendar,monthly,Tamil Nadu,2020,7,1.5614846068124186,24.088661353942427,352,all
+ridge,rich_calendar,monthly,Tamil Nadu,2020,14,2.1057714789123443,32.48524886060795,352,all
+ridge,rich_calendar,monthly,Tamil Nadu,2021,1,0.43653649585853427,7.538784925975312,352,all
+ridge,rich_calendar,monthly,Tamil Nadu,2021,7,0.9796708457341077,16.918465865523324,352,all
+ridge,rich_calendar,monthly,Tamil Nadu,2021,14,1.2435661067905555,21.475815903751002,352,all
+ridge,rich_calendar,monthly,Tamil Nadu,2022,1,0.45653353600565993,8.4930434375089,352,all
+ridge,rich_calendar,monthly,Tamil Nadu,2022,7,1.162565482409038,21.627587816300178,352,all
+ridge,rich_calendar,monthly,Tamil Nadu,2022,14,1.5180086246624969,28.240013429400936,352,all
+ridge,rich_calendar,monthly,Tamil Nadu,2023,1,0.4407256265317271,8.324167172429672,352,all
+ridge,rich_calendar,monthly,Tamil Nadu,2023,7,1.0114093015251,19.102905750907546,352,all
+ridge,rich_calendar,monthly,Tamil Nadu,2023,14,1.0753182396462426,20.309980295039043,352,all
+ridge,rich_calendar,monthly,Tamil Nadu,2024,1,0.45749913468746106,9.389514813312973,353,all
+ridge,rich_calendar,monthly,Tamil Nadu,2024,7,1.0657290949352993,21.872564044759667,353,all
+ridge,rich_calendar,monthly,Tamil Nadu,2024,14,1.2650519006941359,25.963379295333286,353,all
+ridge,rich_calendar,monthly,Tamil Nadu,2025,1,0.41434167435542135,9.190419265747696,352,all
+ridge,rich_calendar,monthly,Tamil Nadu,2025,7,0.9705857194875072,21.528343025871788,352,all
+ridge,rich_calendar,monthly,Tamil Nadu,2025,14,1.0283618705219733,22.809862806362005,352,all
+ridge,rich_calendar,monthly,Telangana,2017,1,0.5395950057039061,4.09022251327938,352,all
+ridge,rich_calendar,monthly,Telangana,2017,7,1.4903018441956741,11.296743094868122,352,all
+ridge,rich_calendar,monthly,Telangana,2017,14,2.0082459548382863,15.222848117295575,352,all
+ridge,rich_calendar,monthly,Telangana,2018,1,0.6584760757032856,5.8267326498006495,352,all
+ridge,rich_calendar,monthly,Telangana,2018,7,1.8870484643785042,16.698141823006775,352,all
+ridge,rich_calendar,monthly,Telangana,2018,14,2.735119867707601,24.202568357960455,352,all
+ridge,rich_calendar,monthly,Telangana,2019,1,0.4547384420697139,5.175149896533628,351,all
+ridge,rich_calendar,monthly,Telangana,2019,7,1.2991058035267287,14.784470901795677,351,all
+ridge,rich_calendar,monthly,Telangana,2019,14,1.8192150048874547,20.703572588816687,351,all
+ridge,rich_calendar,monthly,Telangana,2020,1,0.44781035457907237,6.137362023263666,352,all
+ridge,rich_calendar,monthly,Telangana,2020,7,1.465601915617742,20.086470636860913,352,all
+ridge,rich_calendar,monthly,Telangana,2020,14,1.9307228704301365,26.461079118107342,352,all
+ridge,rich_calendar,monthly,Telangana,2021,1,0.42328513668828954,6.835907779095607,352,all
+ridge,rich_calendar,monthly,Telangana,2021,7,1.264749945934851,20.42527186678319,352,all
+ridge,rich_calendar,monthly,Telangana,2021,14,1.4940865184335268,24.128977771130373,352,all
+ridge,rich_calendar,monthly,Telangana,2022,1,0.3500511336689804,6.2614000700074515,352,all
+ridge,rich_calendar,monthly,Telangana,2022,7,0.858878878071722,15.362853452066258,352,all
+ridge,rich_calendar,monthly,Telangana,2022,14,1.065504352763787,19.058784238354313,352,all
+ridge,rich_calendar,monthly,Telangana,2023,1,0.48048926094155886,7.981770637187281,352,all
+ridge,rich_calendar,monthly,Telangana,2023,7,1.4864435020142792,24.692437610293357,352,all
+ridge,rich_calendar,monthly,Telangana,2023,14,1.7342343498546804,28.808678854854314,352,all
+ridge,rich_calendar,monthly,Telangana,2024,1,0.3398316088034701,6.457143689083948,353,all
+ridge,rich_calendar,monthly,Telangana,2024,7,0.8652795816369696,16.441185708218043,353,all
+ridge,rich_calendar,monthly,Telangana,2024,14,0.9119627448700123,17.328212944789918,353,all
+ridge,rich_calendar,monthly,Telangana,2025,1,0.3287858471839147,6.9304873320905465,352,all
+ridge,rich_calendar,monthly,Telangana,2025,7,1.0028446284406909,21.138993825289223,352,all
+ridge,rich_calendar,monthly,Telangana,2025,14,1.193975139689518,25.167839952126986,352,all
+ridge,rich_calendar,monthly,Uttar Pradesh,2017,1,0.6347690577850071,10.303180161611083,352,all
+ridge,rich_calendar,monthly,Uttar Pradesh,2017,7,1.1455172445618613,18.593329974427636,352,all
+ridge,rich_calendar,monthly,Uttar Pradesh,2017,14,1.25046579567189,20.296790180191014,352,all
+ridge,rich_calendar,monthly,Uttar Pradesh,2018,1,0.6354111664335327,12.325470075138377,352,all
+ridge,rich_calendar,monthly,Uttar Pradesh,2018,7,1.0628927463040088,20.6175991699732,352,all
+ridge,rich_calendar,monthly,Uttar Pradesh,2018,14,1.160885183422373,22.51842011095775,352,all
+ridge,rich_calendar,monthly,Uttar Pradesh,2019,1,0.5788269171914788,13.292924274350751,351,all
+ridge,rich_calendar,monthly,Uttar Pradesh,2019,7,1.1963550874103288,27.474633797859415,351,all
+ridge,rich_calendar,monthly,Uttar Pradesh,2019,14,1.4003814755115302,32.16015765040926,351,all
+ridge,rich_calendar,monthly,Uttar Pradesh,2020,1,0.5028184448741851,13.590533991920468,352,all
+ridge,rich_calendar,monthly,Uttar Pradesh,2020,7,1.1181606254594236,30.222439418537604,352,all
+ridge,rich_calendar,monthly,Uttar Pradesh,2020,14,1.2864670777517615,34.771545729685165,352,all
+ridge,rich_calendar,monthly,Uttar Pradesh,2021,1,0.4642837727959892,13.602739660408776,352,all
+ridge,rich_calendar,monthly,Uttar Pradesh,2021,7,1.04167650623496,30.51938309053206,352,all
+ridge,rich_calendar,monthly,Uttar Pradesh,2021,14,1.193028846517067,34.953754056057406,352,all
+ridge,rich_calendar,monthly,Uttar Pradesh,2022,1,0.4838943673368259,14.797771633374118,352,all
+ridge,rich_calendar,monthly,Uttar Pradesh,2022,7,1.1482762352303408,35.11495617212162,352,all
+ridge,rich_calendar,monthly,Uttar Pradesh,2022,14,1.3660789633264074,41.77549047267493,352,all
+ridge,rich_calendar,monthly,Uttar Pradesh,2023,1,0.4557516013999041,14.347476450875234,352,all
+ridge,rich_calendar,monthly,Uttar Pradesh,2023,7,1.10593560957702,34.815862557260964,352,all
+ridge,rich_calendar,monthly,Uttar Pradesh,2023,14,1.1974501935924182,37.696825202349864,352,all
+ridge,rich_calendar,monthly,Uttar Pradesh,2024,1,0.4402561166179494,15.667272027228968,353,all
+ridge,rich_calendar,monthly,Uttar Pradesh,2024,7,1.1205642927948636,39.877209961518126,353,all
+ridge,rich_calendar,monthly,Uttar Pradesh,2024,14,1.3175969484859997,46.88895630288518,353,all
+ridge,rich_calendar,monthly,Uttar Pradesh,2025,1,0.411810329357594,15.837929082623816,352,all
+ridge,rich_calendar,monthly,Uttar Pradesh,2025,7,0.9467231368749139,36.4102909368355,352,all
+ridge,rich_calendar,monthly,Uttar Pradesh,2025,14,0.9354879510556163,35.97819377085688,352,all
+lightgbm,rich_calendar,monthly,Andhra Pradesh,2020,1,0.4795263506186303,4.501362404468726,7,event
+lightgbm,rich_calendar,monthly,Andhra Pradesh,2020,7,0.9578966874211009,8.991873190200765,7,event
+lightgbm,rich_calendar,monthly,Andhra Pradesh,2020,14,1.1055338574024016,10.377758252822739,7,event
+lightgbm,rich_calendar,monthly,Andhra Pradesh,2021,1,0.577271603801658,6.107517510596957,7,event
+lightgbm,rich_calendar,monthly,Andhra Pradesh,2021,7,2.3674799744332202,25.047872274705856,7,event
+lightgbm,rich_calendar,monthly,Andhra Pradesh,2021,14,2.0152437125969977,21.32122242242749,7,event
+lightgbm,rich_calendar,monthly,Andhra Pradesh,2022,1,0.5044627803824459,5.838474503716169,7,event
+lightgbm,rich_calendar,monthly,Andhra Pradesh,2022,7,0.5403813387100777,6.254183244105568,7,event
+lightgbm,rich_calendar,monthly,Andhra Pradesh,2022,14,0.9604165254614306,11.115522522004792,7,event
+lightgbm,rich_calendar,monthly,Andhra Pradesh,2023,1,0.33525548577468856,4.0323398399677615,7,event
+lightgbm,rich_calendar,monthly,Andhra Pradesh,2023,7,1.1608026269412552,13.961742246032028,7,event
+lightgbm,rich_calendar,monthly,Andhra Pradesh,2023,14,0.5492463909304968,6.606150228951037,7,event
+lightgbm,rich_calendar,monthly,Andhra Pradesh,2024,1,0.3663660649504394,5.0482507406116985,7,event
+lightgbm,rich_calendar,monthly,Andhra Pradesh,2024,7,0.6996167755953344,9.640196632352643,7,event
+lightgbm,rich_calendar,monthly,Andhra Pradesh,2024,14,0.5223888118284835,7.198127661078956,7,event
+lightgbm,rich_calendar,monthly,Andhra Pradesh,2025,1,0.2938279830413087,3.994910454296782,7,event
+lightgbm,rich_calendar,monthly,Andhra Pradesh,2025,7,1.6012458280799602,21.770675591495394,7,event
+lightgbm,rich_calendar,monthly,Andhra Pradesh,2025,14,2.5777508042580437,35.047320986628556,7,event
+lightgbm,rich_calendar,monthly,Gujarat,2020,1,0.9570517615272932,17.73904068058036,7,event
+lightgbm,rich_calendar,monthly,Gujarat,2020,7,2.1509971431240436,39.868925965715796,7,event
+lightgbm,rich_calendar,monthly,Gujarat,2020,14,2.912828942625618,53.989547050568966,7,event
+lightgbm,rich_calendar,monthly,Gujarat,2021,1,0.9739746963905489,20.49830668046095,7,event
+lightgbm,rich_calendar,monthly,Gujarat,2021,7,2.7426681561760256,57.722293193423134,7,event
+lightgbm,rich_calendar,monthly,Gujarat,2021,14,2.3399703551357773,49.24710071063992,7,event
+lightgbm,rich_calendar,monthly,Gujarat,2022,1,1.1479771739122406,26.951510704919947,7,event
+lightgbm,rich_calendar,monthly,Gujarat,2022,7,2.4235571085807903,56.89880150952671,7,event
+lightgbm,rich_calendar,monthly,Gujarat,2022,14,2.456125123465935,57.663413578269875,7,event
+lightgbm,rich_calendar,monthly,Gujarat,2023,1,1.3657154639292322,31.414478000582967,7,event
+lightgbm,rich_calendar,monthly,Gujarat,2023,7,3.6328556837239705,83.56372024030408,7,event
+lightgbm,rich_calendar,monthly,Gujarat,2023,14,3.296592715329833,75.82892781682479,7,event
+lightgbm,rich_calendar,monthly,Gujarat,2024,1,0.779851733186715,20.01704660527675,7,event
+lightgbm,rich_calendar,monthly,Gujarat,2024,7,3.237659776409005,83.10347195303633,7,event
+lightgbm,rich_calendar,monthly,Gujarat,2024,14,2.547831914093286,65.39713639978042,7,event
+lightgbm,rich_calendar,monthly,Gujarat,2025,1,1.0488005328431067,30.333359689701442,7,event
+lightgbm,rich_calendar,monthly,Gujarat,2025,7,2.493859454804685,72.12728587492961,7,event
+lightgbm,rich_calendar,monthly,Gujarat,2025,14,2.031462369015753,58.75385910455666,7,event
+lightgbm,rich_calendar,monthly,Madhya Pradesh,2020,1,1.0292015940459986,12.11774248523784,7,event
+lightgbm,rich_calendar,monthly,Madhya Pradesh,2020,7,1.0360004961776033,12.19779224972493,7,event
+lightgbm,rich_calendar,monthly,Madhya Pradesh,2020,14,1.2233016606690412,14.403062132343264,7,event
+lightgbm,rich_calendar,monthly,Madhya Pradesh,2021,1,0.33822623290370324,4.728346286552953,7,event
+lightgbm,rich_calendar,monthly,Madhya Pradesh,2021,7,1.2005847531784826,16.783974473676658,7,event
+lightgbm,rich_calendar,monthly,Madhya Pradesh,2021,14,0.510665078699687,7.139012571001258,7,event
+lightgbm,rich_calendar,monthly,Madhya Pradesh,2022,1,0.38356207795024944,5.8114176692489945,7,event
+lightgbm,rich_calendar,monthly,Madhya Pradesh,2022,7,0.6704470414087924,10.158063079541815,7,event
+lightgbm,rich_calendar,monthly,Madhya Pradesh,2022,14,1.027747586052141,15.571587558992494,7,event
+lightgbm,rich_calendar,monthly,Madhya Pradesh,2023,1,0.6370250828563834,10.36941147666458,7,event
+lightgbm,rich_calendar,monthly,Madhya Pradesh,2023,7,0.8562611411870158,13.93810753045072,7,event
+lightgbm,rich_calendar,monthly,Madhya Pradesh,2023,14,1.2383917872490962,20.158380504779927,7,event
+lightgbm,rich_calendar,monthly,Madhya Pradesh,2024,1,0.33946045594384167,6.859082569849948,7,event
+lightgbm,rich_calendar,monthly,Madhya Pradesh,2024,7,0.5267072227465187,10.642560179534987,7,event
+lightgbm,rich_calendar,monthly,Madhya Pradesh,2024,14,0.7433322490135824,15.019650105165422,7,event
+lightgbm,rich_calendar,monthly,Madhya Pradesh,2025,1,0.31313979427081495,6.60497149131632,7,event
+lightgbm,rich_calendar,monthly,Madhya Pradesh,2025,7,0.4517092495348471,9.527778871060027,7,event
+lightgbm,rich_calendar,monthly,Madhya Pradesh,2025,14,0.49487331977491944,10.438226724066823,7,event
+lightgbm,rich_calendar,monthly,Rajasthan,2020,1,0.6027737988465075,8.785281813867739,7,event
+lightgbm,rich_calendar,monthly,Rajasthan,2020,7,0.9252014412477001,13.484586442728613,7,event
+lightgbm,rich_calendar,monthly,Rajasthan,2020,14,1.3641029033514644,19.881468723409885,7,event
+lightgbm,rich_calendar,monthly,Rajasthan,2021,1,0.5197497327993986,8.680254264926146,7,event
+lightgbm,rich_calendar,monthly,Rajasthan,2021,7,0.9510977347861829,15.884125854713501,7,event
+lightgbm,rich_calendar,monthly,Rajasthan,2021,14,1.0558250008193286,17.633158591569423,7,event
+lightgbm,rich_calendar,monthly,Rajasthan,2022,1,0.6058657884921408,11.052807058522644,7,event
+lightgbm,rich_calendar,monthly,Rajasthan,2022,7,0.9426430559187524,17.196633346893943,7,event
+lightgbm,rich_calendar,monthly,Rajasthan,2022,14,0.7575686999076555,13.820322640257107,7,event
+lightgbm,rich_calendar,monthly,Rajasthan,2023,1,0.4963590979719082,9.253767520709747,7,event
+lightgbm,rich_calendar,monthly,Rajasthan,2023,7,0.7915064640705918,14.756286002564195,7,event
+lightgbm,rich_calendar,monthly,Rajasthan,2023,14,0.8785919298701338,16.37984575644885,7,event
+lightgbm,rich_calendar,monthly,Rajasthan,2024,1,0.42290835012944283,9.332171743501599,7,event
+lightgbm,rich_calendar,monthly,Rajasthan,2024,7,0.6174168508575983,13.624323302605514,7,event
+lightgbm,rich_calendar,monthly,Rajasthan,2024,14,0.8433556735643161,18.610036865315458,7,event
+lightgbm,rich_calendar,monthly,Rajasthan,2025,1,0.6580644096788582,14.179249212151063,7,event
+lightgbm,rich_calendar,monthly,Rajasthan,2025,7,1.616220626246383,34.8245471177357,7,event
+lightgbm,rich_calendar,monthly,Rajasthan,2025,14,2.442844845504389,52.63573799398898,7,event
+lightgbm,rich_calendar,monthly,Tamil Nadu,2020,1,1.5888366002538152,24.51061422141902,7,event
+lightgbm,rich_calendar,monthly,Tamil Nadu,2020,7,3.0318318027330995,46.77136697955541,7,event
+lightgbm,rich_calendar,monthly,Tamil Nadu,2020,14,3.2855718913884013,50.6857565552646,7,event
+lightgbm,rich_calendar,monthly,Tamil Nadu,2021,1,1.6565618821647679,28.608063391465215,7,event
+lightgbm,rich_calendar,monthly,Tamil Nadu,2021,7,4.19102076798263,72.37700510693564,7,event
+lightgbm,rich_calendar,monthly,Tamil Nadu,2021,14,4.8046844564009445,82.97469535221038,7,event
+lightgbm,rich_calendar,monthly,Tamil Nadu,2022,1,0.9729735384894035,18.10054656277166,7,event
+lightgbm,rich_calendar,monthly,Tamil Nadu,2022,7,2.270986407206808,42.24790662949364,7,event
+lightgbm,rich_calendar,monthly,Tamil Nadu,2022,14,1.8675464640197232,34.74258075159022,7,event
+lightgbm,rich_calendar,monthly,Tamil Nadu,2023,1,0.9579328284522094,18.09287348853664,7,event
+lightgbm,rich_calendar,monthly,Tamil Nadu,2023,7,1.7680474496821084,33.393843366361,7,event
+lightgbm,rich_calendar,monthly,Tamil Nadu,2023,14,2.395455322464677,45.243955327038236,7,event
+lightgbm,rich_calendar,monthly,Tamil Nadu,2024,1,0.9819943788006125,20.154028865294663,7,event
+lightgbm,rich_calendar,monthly,Tamil Nadu,2024,7,2.473613621107091,50.767378508080796,7,event
+lightgbm,rich_calendar,monthly,Tamil Nadu,2024,14,2.4087955053711387,49.43707947201917,7,event
+lightgbm,rich_calendar,monthly,Tamil Nadu,2025,1,1.4879150527666372,33.00310833568842,7,event
+lightgbm,rich_calendar,monthly,Tamil Nadu,2025,7,2.8853694716286467,63.99972974504442,7,event
+lightgbm,rich_calendar,monthly,Tamil Nadu,2025,14,2.588306672886673,57.41064677881286,7,event
+lightgbm,rich_calendar,monthly,Telangana,2020,1,0.3198764972735532,4.38399390819503,7,event
+lightgbm,rich_calendar,monthly,Telangana,2020,7,3.346362906355367,45.862808681207426,7,event
+lightgbm,rich_calendar,monthly,Telangana,2020,14,2.924245219776762,40.07757162167,7,event
+lightgbm,rich_calendar,monthly,Telangana,2021,1,0.37971788181904836,6.13231176151608,7,event
+lightgbm,rich_calendar,monthly,Telangana,2021,7,0.8011320455818156,12.938003978411416,7,event
+lightgbm,rich_calendar,monthly,Telangana,2021,14,0.8205268721531119,13.251223683856848,7,event
+lightgbm,rich_calendar,monthly,Telangana,2022,1,0.2580706277982706,4.616135448631313,7,event
+lightgbm,rich_calendar,monthly,Telangana,2022,7,0.4626678826435372,8.27578726116594,7,event
+lightgbm,rich_calendar,monthly,Telangana,2022,14,0.9321874746431923,16.674131741308454,7,event
+lightgbm,rich_calendar,monthly,Telangana,2023,1,0.2494564056907927,4.1439090861246575,7,event
+lightgbm,rich_calendar,monthly,Telangana,2023,7,1.3409523245317165,22.2755735868925,7,event
+lightgbm,rich_calendar,monthly,Telangana,2023,14,0.4136720317770588,6.871819091634868,7,event
+lightgbm,rich_calendar,monthly,Telangana,2024,1,0.34993306905849664,6.649081633190844,7,event
+lightgbm,rich_calendar,monthly,Telangana,2024,7,0.5963823410684206,11.331866636743948,7,event
+lightgbm,rich_calendar,monthly,Telangana,2024,14,1.282625028502347,24.371170584796058,7,event
+lightgbm,rich_calendar,monthly,Telangana,2025,1,0.2347324483525617,4.947932746107621,7,event
+lightgbm,rich_calendar,monthly,Telangana,2025,7,0.4012592376218191,8.458156234647012,7,event
+lightgbm,rich_calendar,monthly,Telangana,2025,14,0.2814888598112711,5.933512630655803,7,event
+lightgbm,rich_calendar,monthly,Uttar Pradesh,2020,1,0.703144792576832,19.00509677434054,7,event
+lightgbm,rich_calendar,monthly,Uttar Pradesh,2020,7,1.0107104397583788,27.318199496365274,7,event
+lightgbm,rich_calendar,monthly,Uttar Pradesh,2020,14,1.0028279976162342,27.105147252629525,7,event
+lightgbm,rich_calendar,monthly,Uttar Pradesh,2021,1,0.28736214081223604,8.419231122781863,7,event
+lightgbm,rich_calendar,monthly,Uttar Pradesh,2021,7,0.3703365157266853,10.85024182481292,7,event
+lightgbm,rich_calendar,monthly,Uttar Pradesh,2021,14,1.0337633984956027,30.287542240624642,7,event
+lightgbm,rich_calendar,monthly,Uttar Pradesh,2022,1,0.4815878600865983,14.727237298065704,7,event
+lightgbm,rich_calendar,monthly,Uttar Pradesh,2022,7,0.6972330589548689,21.321793098019864,7,event
+lightgbm,rich_calendar,monthly,Uttar Pradesh,2022,14,1.164764668946208,35.619182080065684,7,event
+lightgbm,rich_calendar,monthly,Uttar Pradesh,2023,1,0.28712275833265555,9.038886536074788,7,event
+lightgbm,rich_calendar,monthly,Uttar Pradesh,2023,7,0.5859090231293201,18.44495090282091,7,event
+lightgbm,rich_calendar,monthly,Uttar Pradesh,2023,14,0.850975485501135,26.789485107670373,7,event
+lightgbm,rich_calendar,monthly,Uttar Pradesh,2024,1,0.722691625407305,25.71822595910046,7,event
+lightgbm,rich_calendar,monthly,Uttar Pradesh,2024,7,2.568119133013416,91.39094162811729,7,event
+lightgbm,rich_calendar,monthly,Uttar Pradesh,2024,14,1.2904419280973092,45.92259814163388,7,event
+lightgbm,rich_calendar,monthly,Uttar Pradesh,2025,1,0.24480623190816475,9.415071608315827,7,event
+lightgbm,rich_calendar,monthly,Uttar Pradesh,2025,7,0.3208470990875691,12.33954866950884,7,event
+lightgbm,rich_calendar,monthly,Uttar Pradesh,2025,14,0.780154545319961,30.004182706002148,7,event
+ridge,rich_calendar,monthly,Andhra Pradesh,2020,1,0.45552540844636874,4.276063130243922,7,event
+ridge,rich_calendar,monthly,Andhra Pradesh,2020,7,1.3186436711932294,12.378241651876417,7,event
+ridge,rich_calendar,monthly,Andhra Pradesh,2020,14,1.3031277188691222,12.232591836446748,7,event
+ridge,rich_calendar,monthly,Andhra Pradesh,2021,1,0.5318903321979921,5.627384919374306,7,event
+ridge,rich_calendar,monthly,Andhra Pradesh,2021,7,1.807116961925969,19.119247189667384,7,event
+ridge,rich_calendar,monthly,Andhra Pradesh,2021,14,1.7133244279894266,18.1269247895905,7,event
+ridge,rich_calendar,monthly,Andhra Pradesh,2022,1,0.46696410231844016,5.404478014155972,7,event
+ridge,rich_calendar,monthly,Andhra Pradesh,2022,7,0.5366301458847258,6.210768259846994,7,event
+ridge,rich_calendar,monthly,Andhra Pradesh,2022,14,0.47111857263147544,5.452560389986977,7,event
+ridge,rich_calendar,monthly,Andhra Pradesh,2023,1,0.2309852809251858,2.778213005429344,7,event
+ridge,rich_calendar,monthly,Andhra Pradesh,2023,7,0.5063837706725233,6.090613097881414,7,event
+ridge,rich_calendar,monthly,Andhra Pradesh,2023,14,0.2264759932938323,2.7239768156060387,7,event
+ridge,rich_calendar,monthly,Andhra Pradesh,2024,1,0.40000328851801736,5.511746558135404,7,event
+ridge,rich_calendar,monthly,Andhra Pradesh,2024,7,0.9142719201096045,12.597984200414832,7,event
+ridge,rich_calendar,monthly,Andhra Pradesh,2024,14,0.6004186556410441,8.273320629264646,7,event
+ridge,rich_calendar,monthly,Andhra Pradesh,2025,1,0.4794359379087064,6.51845212526203,7,event
+ridge,rich_calendar,monthly,Andhra Pradesh,2025,7,1.7496506103865574,23.78839973801044,7,event
+ridge,rich_calendar,monthly,Andhra Pradesh,2025,14,2.194624381235635,29.838301284667857,7,event
+ridge,rich_calendar,monthly,Gujarat,2020,1,1.0504318725398716,19.469849456655112,7,event
+ridge,rich_calendar,monthly,Gujarat,2020,7,2.847447986381066,52.77770513231524,7,event
+ridge,rich_calendar,monthly,Gujarat,2020,14,3.1367807606766718,58.14051418797629,7,event
+ridge,rich_calendar,monthly,Gujarat,2021,1,1.0083328991406482,21.221410657978023,7,event
+ridge,rich_calendar,monthly,Gujarat,2021,7,2.691296393803693,56.641121224863504,7,event
+ridge,rich_calendar,monthly,Gujarat,2021,14,2.473965630999735,52.067170131920825,7,event
+ridge,rich_calendar,monthly,Gujarat,2022,1,1.1935664010890046,28.02182688559473,7,event
+ridge,rich_calendar,monthly,Gujarat,2022,7,2.5099294482310985,58.926598829538776,7,event
+ridge,rich_calendar,monthly,Gujarat,2022,14,2.1770899817183995,51.11239603126727,7,event
+ridge,rich_calendar,monthly,Gujarat,2023,1,1.0731868998589484,24.685673660849552,7,event
+ridge,rich_calendar,monthly,Gujarat,2023,7,3.3971546889537327,78.14207575396118,7,event
+ridge,rich_calendar,monthly,Gujarat,2023,14,3.1916456666591317,73.41491344943479,7,event
+ridge,rich_calendar,monthly,Gujarat,2024,1,1.1899473659706046,30.543282612359096,7,event
+ridge,rich_calendar,monthly,Gujarat,2024,7,2.604185116785299,66.84359684429744,7,event
+ridge,rich_calendar,monthly,Gujarat,2024,14,2.438460197280402,62.58980949445127,7,event
+ridge,rich_calendar,monthly,Gujarat,2025,1,0.9016259602917238,26.076783623442925,7,event
+ridge,rich_calendar,monthly,Gujarat,2025,7,2.2146008826865233,64.05058258461978,7,event
+ridge,rich_calendar,monthly,Gujarat,2025,14,2.2703878579802974,65.66405086061242,7,event
+ridge,rich_calendar,monthly,Madhya Pradesh,2020,1,0.5411099198749916,6.3709876696515995,7,event
+ridge,rich_calendar,monthly,Madhya Pradesh,2020,7,1.1689918872791236,13.763622928033953,7,event
+ridge,rich_calendar,monthly,Madhya Pradesh,2020,14,2.004785387639665,23.604193003707508,7,event
+ridge,rich_calendar,monthly,Madhya Pradesh,2021,1,0.35113908501129537,4.90886580388183,7,event
+ridge,rich_calendar,monthly,Madhya Pradesh,2021,7,1.0438969465890007,14.593505088510906,7,event
+ridge,rich_calendar,monthly,Madhya Pradesh,2021,14,0.5274342519550907,7.37344281436244,7,event
+ridge,rich_calendar,monthly,Madhya Pradesh,2022,1,0.32308895695182066,4.895178593261704,7,event
+ridge,rich_calendar,monthly,Madhya Pradesh,2022,7,0.7833964973980788,11.869380495945373,7,event
+ridge,rich_calendar,monthly,Madhya Pradesh,2022,14,1.855344343486987,28.11065410298453,7,event
+ridge,rich_calendar,monthly,Madhya Pradesh,2023,1,0.4008540664890554,6.525050377735885,7,event
+ridge,rich_calendar,monthly,Madhya Pradesh,2023,7,0.9536349848534739,15.523146297706846,7,event
+ridge,rich_calendar,monthly,Madhya Pradesh,2023,14,2.481318834851848,40.39058538795009,7,event
+ridge,rich_calendar,monthly,Madhya Pradesh,2024,1,0.31784988935860004,6.422422988464319,7,event
+ridge,rich_calendar,monthly,Madhya Pradesh,2024,7,0.6133266942948687,12.392779084576436,7,event
+ridge,rich_calendar,monthly,Madhya Pradesh,2024,14,0.6807203945613854,13.754525192913219,7,event
+ridge,rich_calendar,monthly,Madhya Pradesh,2025,1,0.2935813329590596,6.192430250178392,7,event
+ridge,rich_calendar,monthly,Madhya Pradesh,2025,7,0.4087846934403982,8.622383024002504,7,event
+ridge,rich_calendar,monthly,Madhya Pradesh,2025,14,0.6390631486170263,13.47958309672973,7,event
+ridge,rich_calendar,monthly,Rajasthan,2020,1,0.44782955486301024,6.527007065634474,7,event
+ridge,rich_calendar,monthly,Rajasthan,2020,7,1.1657694449875138,16.990806706944227,7,event
+ridge,rich_calendar,monthly,Rajasthan,2020,14,1.2334365180037608,17.97703787210918,7,event
+ridge,rich_calendar,monthly,Rajasthan,2021,1,0.5115461798447041,8.54324808478056,7,event
+ridge,rich_calendar,monthly,Rajasthan,2021,7,0.6615788578163183,11.048919008028609,7,event
+ridge,rich_calendar,monthly,Rajasthan,2021,14,1.0186015348887554,17.011495647831275,7,event
+ridge,rich_calendar,monthly,Rajasthan,2022,1,0.4707798404609193,8.588434670666524,7,event
+ridge,rich_calendar,monthly,Rajasthan,2022,7,0.7531727440735246,13.740127236266135,7,event
+ridge,rich_calendar,monthly,Rajasthan,2022,14,0.7252217385988212,13.230217159692115,7,event
+ridge,rich_calendar,monthly,Rajasthan,2023,1,0.43489710594467396,8.10791366630547,7,event
+ridge,rich_calendar,monthly,Rajasthan,2023,7,1.0884334006559808,20.291981536351354,7,event
+ridge,rich_calendar,monthly,Rajasthan,2023,14,0.9275382636429291,17.29236654145146,7,event
+ridge,rich_calendar,monthly,Rajasthan,2024,1,0.33367402354286707,7.363068837714211,7,event
+ridge,rich_calendar,monthly,Rajasthan,2024,7,0.7287847709941186,16.081840533259555,7,event
+ridge,rich_calendar,monthly,Rajasthan,2024,14,0.9762955930948074,21.54357591756189,7,event
+ridge,rich_calendar,monthly,Rajasthan,2025,1,0.4588720427984349,9.887270844054724,7,event
+ridge,rich_calendar,monthly,Rajasthan,2025,7,1.5359347055330719,33.09463426835887,7,event
+ridge,rich_calendar,monthly,Rajasthan,2025,14,2.2312038292427294,48.07552980015661,7,event
+ridge,rich_calendar,monthly,Tamil Nadu,2020,1,1.037546556556815,16.005990408619258,7,event
+ridge,rich_calendar,monthly,Tamil Nadu,2020,7,3.056768745780865,47.156063423990055,7,event
+ridge,rich_calendar,monthly,Tamil Nadu,2020,14,3.02217479470628,46.622390553508374,7,event
+ridge,rich_calendar,monthly,Tamil Nadu,2021,1,1.0181182412285175,17.58243473948019,7,event
+ridge,rich_calendar,monthly,Tamil Nadu,2021,7,2.6110555562209776,45.091731057697686,7,event
+ridge,rich_calendar,monthly,Tamil Nadu,2021,14,2.460376666294103,42.489575785870116,7,event
+ridge,rich_calendar,monthly,Tamil Nadu,2022,1,0.9723208151657003,18.088403736224052,7,event
+ridge,rich_calendar,monthly,Tamil Nadu,2022,7,1.6957851656832346,31.547248858958703,7,event
+ridge,rich_calendar,monthly,Tamil Nadu,2022,14,1.8691674155635083,34.77273584598244,7,event
+ridge,rich_calendar,monthly,Tamil Nadu,2023,1,0.570399591684422,10.77337297953775,7,event
+ridge,rich_calendar,monthly,Tamil Nadu,2023,7,2.5561778043948853,48.27958731078119,7,event
+ridge,rich_calendar,monthly,Tamil Nadu,2023,14,1.884940378003197,35.601648445173524,7,event
+ridge,rich_calendar,monthly,Tamil Nadu,2024,1,1.010035010451824,20.729522688782588,7,event
+ridge,rich_calendar,monthly,Tamil Nadu,2024,7,1.8400986811392628,37.76539126422158,7,event
+ridge,rich_calendar,monthly,Tamil Nadu,2024,14,1.966313585076063,40.355771486437845,7,event
+ridge,rich_calendar,monthly,Tamil Nadu,2025,1,0.8875252924542911,19.685998419781093,7,event
+ridge,rich_calendar,monthly,Tamil Nadu,2025,7,2.718835681421355,60.30588128941887,7,event
+ridge,rich_calendar,monthly,Tamil Nadu,2025,14,2.8147073547887564,62.43238926215885,7,event
+ridge,rich_calendar,monthly,Telangana,2020,1,0.21809586519831595,2.989062818248487,7,event
+ridge,rich_calendar,monthly,Telangana,2020,7,1.4035130959931614,19.235526571506828,7,event
+ridge,rich_calendar,monthly,Telangana,2020,14,2.051392316805941,28.114886516668385,7,event
+ridge,rich_calendar,monthly,Telangana,2021,1,0.3433456012494243,5.54491207714578,7,event
+ridge,rich_calendar,monthly,Telangana,2021,7,0.7249038921007107,11.706945804612811,7,event
+ridge,rich_calendar,monthly,Telangana,2021,14,0.5837522182100179,9.427395350441506,7,event
+ridge,rich_calendar,monthly,Telangana,2022,1,0.2456760355478998,4.394432122117954,7,event
+ridge,rich_calendar,monthly,Telangana,2022,7,0.22709532317069736,4.062077038562019,7,event
+ridge,rich_calendar,monthly,Telangana,2022,14,0.8682941828410999,15.531265961759402,7,event
+ridge,rich_calendar,monthly,Telangana,2023,1,0.1740193877802699,2.8907677082398004,7,event
+ridge,rich_calendar,monthly,Telangana,2023,7,0.8838803169802923,14.682804662556578,7,event
+ridge,rich_calendar,monthly,Telangana,2023,14,0.7675299109998492,12.750020041606486,7,event
+ridge,rich_calendar,monthly,Telangana,2024,1,0.3787292560581153,7.196238261171857,7,event
+ridge,rich_calendar,monthly,Telangana,2024,7,0.5168815090198672,9.821270557271784,7,event
+ridge,rich_calendar,monthly,Telangana,2024,14,1.0809067003211001,20.538318678011326,7,event
+ridge,rich_calendar,monthly,Telangana,2025,1,0.26007815459923866,5.482195694376267,7,event
+ridge,rich_calendar,monthly,Telangana,2025,7,0.6201272259781668,13.071681523815906,7,event
+ridge,rich_calendar,monthly,Telangana,2025,14,0.4500474032256032,9.486563529453175,7,event
+ridge,rich_calendar,monthly,Uttar Pradesh,2020,1,0.6356079718554458,17.179663624309807,7,event
+ridge,rich_calendar,monthly,Uttar Pradesh,2020,7,1.0640660494472987,28.76033280418048,7,event
+ridge,rich_calendar,monthly,Uttar Pradesh,2020,14,1.0456536001805552,28.262668050261592,7,event
+ridge,rich_calendar,monthly,Uttar Pradesh,2021,1,0.43431009733087445,12.724560994886698,7,event
+ridge,rich_calendar,monthly,Uttar Pradesh,2021,7,0.7932148230553281,23.23987045211685,7,event
+ridge,rich_calendar,monthly,Uttar Pradesh,2021,14,2.0116594554148564,58.93826461480064,7,event
+ridge,rich_calendar,monthly,Uttar Pradesh,2022,1,0.46538458680172556,14.231731762214322,7,event
+ridge,rich_calendar,monthly,Uttar Pradesh,2022,7,0.7702047536068232,23.55331002825992,7,event
+ridge,rich_calendar,monthly,Uttar Pradesh,2022,14,0.39606236984121473,12.111817985687944,7,event
+ridge,rich_calendar,monthly,Uttar Pradesh,2023,1,0.3175762462180836,9.997590134572524,7,event
+ridge,rich_calendar,monthly,Uttar Pradesh,2023,7,0.5840558121791651,18.38661013038219,7,event
+ridge,rich_calendar,monthly,Uttar Pradesh,2023,14,0.628185502397571,19.77585306282212,7,event
+ridge,rich_calendar,monthly,Uttar Pradesh,2024,1,0.49281358024526145,17.53761987392307,7,event
+ridge,rich_calendar,monthly,Uttar Pradesh,2024,7,0.9383631622338314,33.39326898166901,7,event
+ridge,rich_calendar,monthly,Uttar Pradesh,2024,14,1.0877534917287686,38.70958110565399,7,event
+ridge,rich_calendar,monthly,Uttar Pradesh,2025,1,0.2489414814188309,9.574110330319359,7,event
+ridge,rich_calendar,monthly,Uttar Pradesh,2025,7,0.7851571830460269,30.19658055492227,7,event
+ridge,rich_calendar,monthly,Uttar Pradesh,2025,14,1.0271099394049719,39.50190954590734,7,event
+lightgbm,rich_calendar,monthly,Andhra Pradesh,2017,1,0.4854251585964592,4.187259413696247,352,non_event
+lightgbm,rich_calendar,monthly,Andhra Pradesh,2017,7,1.1229280271639572,9.686335513059936,352,non_event
+lightgbm,rich_calendar,monthly,Andhra Pradesh,2017,14,1.343950892275599,11.592870549803267,352,non_event
+lightgbm,rich_calendar,monthly,Andhra Pradesh,2018,1,0.660201236118649,5.570275282984334,352,non_event
+lightgbm,rich_calendar,monthly,Andhra Pradesh,2018,7,1.2999102694104705,10.967652963456962,352,non_event
+lightgbm,rich_calendar,monthly,Andhra Pradesh,2018,14,1.570436354696225,13.250146063786353,352,non_event
+lightgbm,rich_calendar,monthly,Andhra Pradesh,2019,1,0.5393294100888182,4.562965516697499,351,non_event
+lightgbm,rich_calendar,monthly,Andhra Pradesh,2019,7,1.539967178194592,13.028803917425314,351,non_event
+lightgbm,rich_calendar,monthly,Andhra Pradesh,2019,14,1.4801816137994634,12.522991581535184,351,non_event
+lightgbm,rich_calendar,monthly,Andhra Pradesh,2020,1,0.5570439348023543,5.229027815722349,345,non_event
+lightgbm,rich_calendar,monthly,Andhra Pradesh,2020,7,1.3557902572496345,12.726940416215328,345,non_event
+lightgbm,rich_calendar,monthly,Andhra Pradesh,2020,14,1.4965461641649531,14.04823036572097,345,non_event
+lightgbm,rich_calendar,monthly,Andhra Pradesh,2021,1,0.582605142293833,6.163946199484267,345,non_event
+lightgbm,rich_calendar,monthly,Andhra Pradesh,2021,7,1.5552421840792354,16.454419046301453,345,non_event
+lightgbm,rich_calendar,monthly,Andhra Pradesh,2021,14,1.5755793089534986,16.66958526176532,345,non_event
+lightgbm,rich_calendar,monthly,Andhra Pradesh,2022,1,0.47319082777791116,5.476543941020191,345,non_event
+lightgbm,rich_calendar,monthly,Andhra Pradesh,2022,7,1.1988127112339955,13.874635991904574,345,non_event
+lightgbm,rich_calendar,monthly,Andhra Pradesh,2022,14,1.281280556456067,14.82908978003231,345,non_event
+lightgbm,rich_calendar,monthly,Andhra Pradesh,2023,1,0.6048544723846898,7.274985465915993,345,non_event
+lightgbm,rich_calendar,monthly,Andhra Pradesh,2023,7,1.7181008431401554,20.664737111959603,345,non_event
+lightgbm,rich_calendar,monthly,Andhra Pradesh,2023,14,2.0526252162958802,24.68828337608434,345,non_event
+lightgbm,rich_calendar,monthly,Andhra Pradesh,2024,1,0.40712040081227124,5.609815049864691,346,non_event
+lightgbm,rich_calendar,monthly,Andhra Pradesh,2024,7,1.1302172842106506,15.573550030733317,346,non_event
+lightgbm,rich_calendar,monthly,Andhra Pradesh,2024,14,1.0378609872564415,14.300949238511167,346,non_event
+lightgbm,rich_calendar,monthly,Andhra Pradesh,2025,1,0.38851103628692807,5.282229365656175,345,non_event
+lightgbm,rich_calendar,monthly,Andhra Pradesh,2025,7,1.0532509647681731,14.320090437264456,345,non_event
+lightgbm,rich_calendar,monthly,Andhra Pradesh,2025,14,1.1849073671891979,16.11010217461798,345,non_event
+lightgbm,rich_calendar,monthly,Gujarat,2017,1,0.5184833443826189,9.373601952017466,352,non_event
+lightgbm,rich_calendar,monthly,Gujarat,2017,7,1.474332642142319,26.65429368568082,352,non_event
+lightgbm,rich_calendar,monthly,Gujarat,2017,14,1.3564415151327045,24.522953286349935,352,non_event
+lightgbm,rich_calendar,monthly,Gujarat,2018,1,0.5750826356629907,9.833993276620355,352,non_event
+lightgbm,rich_calendar,monthly,Gujarat,2018,7,1.2676496037784748,21.676985023719837,352,non_event
+lightgbm,rich_calendar,monthly,Gujarat,2018,14,1.517112891762819,25.942842040900373,352,non_event
+lightgbm,rich_calendar,monthly,Gujarat,2019,1,0.4972858032931546,8.883120163362962,351,non_event
+lightgbm,rich_calendar,monthly,Gujarat,2019,7,1.2984520267415731,23.194519737994593,351,non_event
+lightgbm,rich_calendar,monthly,Gujarat,2019,14,1.6404520054796148,29.303736785573687,351,non_event
+lightgbm,rich_calendar,monthly,Gujarat,2020,1,0.538746975247918,9.98572375564234,345,non_event
+lightgbm,rich_calendar,monthly,Gujarat,2020,7,1.387347736458826,25.714615368222546,345,non_event
+lightgbm,rich_calendar,monthly,Gujarat,2020,14,1.7313933494227738,32.091531821104105,345,non_event
+lightgbm,rich_calendar,monthly,Gujarat,2021,1,0.49995693593858337,10.522111752873764,345,non_event
+lightgbm,rich_calendar,monthly,Gujarat,2021,7,1.4685145314289376,30.906409931899617,345,non_event
+lightgbm,rich_calendar,monthly,Gujarat,2021,14,1.5223638225203093,32.03972405947089,345,non_event
+lightgbm,rich_calendar,monthly,Gujarat,2022,1,0.5145511406543138,12.080319095816508,345,non_event
+lightgbm,rich_calendar,monthly,Gujarat,2022,7,1.6101193839467343,37.8014047655245,345,non_event
+lightgbm,rich_calendar,monthly,Gujarat,2022,14,1.9081641086952337,44.79871775409981,345,non_event
+lightgbm,rich_calendar,monthly,Gujarat,2023,1,0.574983420371533,13.225891107649815,345,non_event
+lightgbm,rich_calendar,monthly,Gujarat,2023,7,1.472171557673442,33.86320374418249,345,non_event
+lightgbm,rich_calendar,monthly,Gujarat,2023,14,1.8670722947204226,42.94679461214033,345,non_event
+lightgbm,rich_calendar,monthly,Gujarat,2024,1,0.5673876816251182,14.563570462221026,346,non_event
+lightgbm,rich_calendar,monthly,Gujarat,2024,7,1.393821315124412,35.776270074139234,346,non_event
+lightgbm,rich_calendar,monthly,Gujarat,2024,14,1.4561930843430082,37.3772136358089,346,non_event
+lightgbm,rich_calendar,monthly,Gujarat,2025,1,0.443914171599847,12.838864795378912,345,non_event
+lightgbm,rich_calendar,monthly,Gujarat,2025,7,1.0968716557858869,31.72367044684648,345,non_event
+lightgbm,rich_calendar,monthly,Gujarat,2025,14,1.1947689126086116,34.55505030492957,345,non_event
+lightgbm,rich_calendar,monthly,Madhya Pradesh,2017,1,0.46185103848530945,5.634912092515417,352,non_event
+lightgbm,rich_calendar,monthly,Madhya Pradesh,2017,7,0.9632432248452378,11.752254392487686,352,non_event
+lightgbm,rich_calendar,monthly,Madhya Pradesh,2017,14,1.273207987394607,15.534045583152436,352,non_event
+lightgbm,rich_calendar,monthly,Madhya Pradesh,2018,1,0.728551745063406,7.152102047388837,352,non_event
+lightgbm,rich_calendar,monthly,Madhya Pradesh,2018,7,1.5080211974081534,14.804056906829526,352,non_event
+lightgbm,rich_calendar,monthly,Madhya Pradesh,2018,14,1.7158475239480653,16.84426215734065,352,non_event
+lightgbm,rich_calendar,monthly,Madhya Pradesh,2019,1,0.6884992557780183,6.901943161864343,351,non_event
+lightgbm,rich_calendar,monthly,Madhya Pradesh,2019,7,1.5631008847894676,15.669491829567221,351,non_event
+lightgbm,rich_calendar,monthly,Madhya Pradesh,2019,14,2.401215181798723,24.071268872255576,351,non_event
+lightgbm,rich_calendar,monthly,Madhya Pradesh,2020,1,0.5594005696776255,6.586340410531711,345,non_event
+lightgbm,rich_calendar,monthly,Madhya Pradesh,2020,7,1.6958217583915385,19.96647837307319,345,non_event
+lightgbm,rich_calendar,monthly,Madhya Pradesh,2020,14,2.070509617381778,24.3780251622107,345,non_event
+lightgbm,rich_calendar,monthly,Madhya Pradesh,2021,1,0.40959159109270116,5.726022083266043,345,non_event
+lightgbm,rich_calendar,monthly,Madhya Pradesh,2021,7,1.1489747188906057,16.062474807967902,345,non_event
+lightgbm,rich_calendar,monthly,Madhya Pradesh,2021,14,1.5115293098154305,21.1309274792904,345,non_event
+lightgbm,rich_calendar,monthly,Madhya Pradesh,2022,1,0.48323539629080875,7.321585948794445,345,non_event
+lightgbm,rich_calendar,monthly,Madhya Pradesh,2022,7,1.8437776373074521,27.935404868164504,345,non_event
+lightgbm,rich_calendar,monthly,Madhya Pradesh,2022,14,2.060595812913331,31.220455839480206,345,non_event
+lightgbm,rich_calendar,monthly,Madhya Pradesh,2023,1,0.4914647425158202,7.999999181458418,345,non_event
+lightgbm,rich_calendar,monthly,Madhya Pradesh,2023,7,1.7170748010276249,27.950320367654243,345,non_event
+lightgbm,rich_calendar,monthly,Madhya Pradesh,2023,14,2.2107722763714457,35.9866636838007,345,non_event
+lightgbm,rich_calendar,monthly,Madhya Pradesh,2024,1,0.3308310107720827,6.684717409111226,346,non_event
+lightgbm,rich_calendar,monthly,Madhya Pradesh,2024,7,1.0178830760199085,20.567179306529955,346,non_event
+lightgbm,rich_calendar,monthly,Madhya Pradesh,2024,14,1.2097064907596498,24.443131917481857,346,non_event
+lightgbm,rich_calendar,monthly,Madhya Pradesh,2025,1,0.3381462571319291,7.132425929615773,345,non_event
+lightgbm,rich_calendar,monthly,Madhya Pradesh,2025,7,1.09667839431024,23.131935519179713,345,non_event
+lightgbm,rich_calendar,monthly,Madhya Pradesh,2025,14,1.4141213848501417,29.827673144979332,345,non_event
+lightgbm,rich_calendar,monthly,Rajasthan,2017,1,0.4671410767545454,6.350253156515106,352,non_event
+lightgbm,rich_calendar,monthly,Rajasthan,2017,7,0.9869028482898645,13.415824981752648,352,non_event
+lightgbm,rich_calendar,monthly,Rajasthan,2017,14,0.8955496036401577,12.173981223920334,352,non_event
+lightgbm,rich_calendar,monthly,Rajasthan,2018,1,0.5819576762952884,7.152397823265983,352,non_event
+lightgbm,rich_calendar,monthly,Rajasthan,2018,7,1.3607960303146285,16.724505855977036,352,non_event
+lightgbm,rich_calendar,monthly,Rajasthan,2018,14,1.3583100623454738,16.693952720215545,352,non_event
+lightgbm,rich_calendar,monthly,Rajasthan,2019,1,0.5638174713531566,7.447069605026424,351,non_event
+lightgbm,rich_calendar,monthly,Rajasthan,2019,7,1.2611546567500829,16.657707482850054,351,non_event
+lightgbm,rich_calendar,monthly,Rajasthan,2019,14,1.2742322006830107,16.830439590100244,351,non_event
+lightgbm,rich_calendar,monthly,Rajasthan,2020,1,0.546700955461866,7.9680337314500305,345,non_event
+lightgbm,rich_calendar,monthly,Rajasthan,2020,7,1.6248489636610275,23.681779264543046,345,non_event
+lightgbm,rich_calendar,monthly,Rajasthan,2020,14,1.7101624865654421,24.925203153709134,345,non_event
+lightgbm,rich_calendar,monthly,Rajasthan,2021,1,0.4883239473824956,8.155417423886327,345,non_event
+lightgbm,rich_calendar,monthly,Rajasthan,2021,7,1.4895083254841721,24.876032018889283,345,non_event
+lightgbm,rich_calendar,monthly,Rajasthan,2021,14,1.5321034613984343,25.587406333972545,345,non_event
+lightgbm,rich_calendar,monthly,Rajasthan,2022,1,0.5304982437125688,9.677877252704798,345,non_event
+lightgbm,rich_calendar,monthly,Rajasthan,2022,7,1.454671059160556,26.537558079543167,345,non_event
+lightgbm,rich_calendar,monthly,Rajasthan,2022,14,2.130196440440314,38.86116479944457,345,non_event
+lightgbm,rich_calendar,monthly,Rajasthan,2023,1,0.625601781942768,11.663276596106174,345,non_event
+lightgbm,rich_calendar,monthly,Rajasthan,2023,7,1.7227747651054246,32.11819271968538,345,non_event
+lightgbm,rich_calendar,monthly,Rajasthan,2023,14,1.756519328879911,32.747302470131686,345,non_event
+lightgbm,rich_calendar,monthly,Rajasthan,2024,1,0.4060424804386824,8.959998452268355,346,non_event
+lightgbm,rich_calendar,monthly,Rajasthan,2024,7,1.1402212206555904,25.16086583177208,346,non_event
+lightgbm,rich_calendar,monthly,Rajasthan,2024,14,1.2690325223377446,28.003300107269183,346,non_event
+lightgbm,rich_calendar,monthly,Rajasthan,2025,1,0.4568002031323765,9.842629118228832,345,non_event
+lightgbm,rich_calendar,monthly,Rajasthan,2025,7,1.1742352729908012,25.301132114955223,345,non_event
+lightgbm,rich_calendar,monthly,Rajasthan,2025,14,1.5365850772399865,33.10864776365999,345,non_event
+lightgbm,rich_calendar,monthly,Tamil Nadu,2017,1,0.4553507100289208,7.36459944368601,352,non_event
+lightgbm,rich_calendar,monthly,Tamil Nadu,2017,7,1.0000979861134363,16.175051251583017,352,non_event
+lightgbm,rich_calendar,monthly,Tamil Nadu,2017,14,0.9977337019375038,16.136812580722747,352,non_event
+lightgbm,rich_calendar,monthly,Tamil Nadu,2018,1,0.5079935902805466,7.96841438009244,352,non_event
+lightgbm,rich_calendar,monthly,Tamil Nadu,2018,7,0.982346847876476,15.40914471880326,352,non_event
+lightgbm,rich_calendar,monthly,Tamil Nadu,2018,14,0.9419899198255176,14.776103806535026,352,non_event
+lightgbm,rich_calendar,monthly,Tamil Nadu,2019,1,0.5664507718809849,8.52653354132885,351,non_event
+lightgbm,rich_calendar,monthly,Tamil Nadu,2019,7,1.203550008208327,18.11650724665453,351,non_event
+lightgbm,rich_calendar,monthly,Tamil Nadu,2019,14,1.1775379825716183,17.72495970169699,351,non_event
+lightgbm,rich_calendar,monthly,Tamil Nadu,2020,1,0.5729554644059224,8.838851239872056,345,non_event
+lightgbm,rich_calendar,monthly,Tamil Nadu,2020,7,1.3869112437047266,21.395558516441838,345,non_event
+lightgbm,rich_calendar,monthly,Tamil Nadu,2020,14,1.738513680471223,26.819647869316608,345,non_event
+lightgbm,rich_calendar,monthly,Tamil Nadu,2021,1,0.5533440902170987,9.555998469273534,345,non_event
+lightgbm,rich_calendar,monthly,Tamil Nadu,2021,7,1.0906884090313784,18.83568822984815,345,non_event
+lightgbm,rich_calendar,monthly,Tamil Nadu,2021,14,1.510228784891415,26.08095796417208,345,non_event
+lightgbm,rich_calendar,monthly,Tamil Nadu,2022,1,0.5180460529038052,9.637381009152207,345,non_event
+lightgbm,rich_calendar,monthly,Tamil Nadu,2022,7,1.2205249678056138,22.705827175002355,345,non_event
+lightgbm,rich_calendar,monthly,Tamil Nadu,2022,14,1.515109593682109,28.186081803131938,345,non_event
+lightgbm,rich_calendar,monthly,Tamil Nadu,2023,1,0.5428059992649945,10.252201388054026,345,non_event
+lightgbm,rich_calendar,monthly,Tamil Nadu,2023,7,1.190035430835451,22.47669132685558,345,non_event
+lightgbm,rich_calendar,monthly,Tamil Nadu,2023,14,1.0934038836296986,20.65157133235645,345,non_event
+lightgbm,rich_calendar,monthly,Tamil Nadu,2024,1,0.6182888212868477,12.68949295465801,346,non_event
+lightgbm,rich_calendar,monthly,Tamil Nadu,2024,7,1.3917240449349522,28.563143720233867,346,non_event
+lightgbm,rich_calendar,monthly,Tamil Nadu,2024,14,1.4608642219691763,29.98214687725934,346,non_event
+lightgbm,rich_calendar,monthly,Tamil Nadu,2025,1,0.4584949604962801,10.169773351301098,345,non_event
+lightgbm,rich_calendar,monthly,Tamil Nadu,2025,7,0.971019190538623,21.537957749530754,345,non_event
+lightgbm,rich_calendar,monthly,Tamil Nadu,2025,14,0.9593687523466046,21.279542006579245,345,non_event
+lightgbm,rich_calendar,monthly,Telangana,2017,1,0.6730934347358273,5.102163458139464,352,non_event
+lightgbm,rich_calendar,monthly,Telangana,2017,7,1.8792597847932049,14.245110867982383,352,non_event
+lightgbm,rich_calendar,monthly,Telangana,2017,14,2.562264212871506,19.42240135226151,352,non_event
+lightgbm,rich_calendar,monthly,Telangana,2018,1,0.9758838823350744,8.63541545308663,352,non_event
+lightgbm,rich_calendar,monthly,Telangana,2018,7,2.0687431467538753,18.30592436386979,352,non_event
+lightgbm,rich_calendar,monthly,Telangana,2018,14,2.5709570328137525,22.749921883389312,352,non_event
+lightgbm,rich_calendar,monthly,Telangana,2019,1,0.5194814770724281,5.911957872060366,351,non_event
+lightgbm,rich_calendar,monthly,Telangana,2019,7,1.3893834801660168,15.811875813491012,351,non_event
+lightgbm,rich_calendar,monthly,Telangana,2019,14,1.7284033570493291,19.67009081900081,351,non_event
+lightgbm,rich_calendar,monthly,Telangana,2020,1,0.5666610156017781,7.76624247665599,345,non_event
+lightgbm,rich_calendar,monthly,Telangana,2020,7,1.584477269858605,21.715689517486556,345,non_event
+lightgbm,rich_calendar,monthly,Telangana,2020,14,1.707120619532721,23.396549794608298,345,non_event
+lightgbm,rich_calendar,monthly,Telangana,2021,1,0.5712403963625984,9.225333778030524,345,non_event
+lightgbm,rich_calendar,monthly,Telangana,2021,7,1.3846127689800147,22.361014782042194,345,non_event
+lightgbm,rich_calendar,monthly,Telangana,2021,14,1.7754082124083133,28.672225311822483,345,non_event
+lightgbm,rich_calendar,monthly,Telangana,2022,1,0.37802254964544285,6.76172761963581,345,non_event
+lightgbm,rich_calendar,monthly,Telangana,2022,7,1.039613396782244,18.595670087298043,345,non_event
+lightgbm,rich_calendar,monthly,Telangana,2022,14,1.2849402808877524,22.983856902214963,345,non_event
+lightgbm,rich_calendar,monthly,Telangana,2023,1,0.624585682402826,10.37546531308805,345,non_event
+lightgbm,rich_calendar,monthly,Telangana,2023,7,1.6791735265311145,27.894021861267834,345,non_event
+lightgbm,rich_calendar,monthly,Telangana,2023,14,1.8470570299349889,30.682861751906216,345,non_event
+lightgbm,rich_calendar,monthly,Telangana,2024,1,0.4106636811168559,7.803024580898292,346,non_event
+lightgbm,rich_calendar,monthly,Telangana,2024,7,1.0562329201934375,20.069491942917004,346,non_event
+lightgbm,rich_calendar,monthly,Telangana,2024,14,0.9908320456736283,18.82680929296262,346,non_event
+lightgbm,rich_calendar,monthly,Telangana,2025,1,0.4422657755596703,9.322534352334653,345,non_event
+lightgbm,rich_calendar,monthly,Telangana,2025,7,1.0283852501258137,21.677365402285503,345,non_event
+lightgbm,rich_calendar,monthly,Telangana,2025,14,1.2033136977303465,25.364687714146836,345,non_event
+lightgbm,rich_calendar,monthly,Uttar Pradesh,2017,1,0.8100838206074985,13.148781351834863,352,non_event
+lightgbm,rich_calendar,monthly,Uttar Pradesh,2017,7,1.456240119183444,23.636792188435187,352,non_event
+lightgbm,rich_calendar,monthly,Uttar Pradesh,2017,14,1.7597963833637904,28.56393039827373,352,non_event
+lightgbm,rich_calendar,monthly,Uttar Pradesh,2018,1,0.7601872179345167,14.745829631457532,352,non_event
+lightgbm,rich_calendar,monthly,Uttar Pradesh,2018,7,1.187085375053509,23.026641708203222,352,non_event
+lightgbm,rich_calendar,monthly,Uttar Pradesh,2018,14,1.3563020706276232,26.309044391207873,352,non_event
+lightgbm,rich_calendar,monthly,Uttar Pradesh,2019,1,0.6680198258387002,15.341264711263062,351,non_event
+lightgbm,rich_calendar,monthly,Uttar Pradesh,2019,7,1.3097649004670988,30.079122311017507,351,non_event
+lightgbm,rich_calendar,monthly,Uttar Pradesh,2019,14,1.4454487424089415,33.19514021311732,351,non_event
+lightgbm,rich_calendar,monthly,Uttar Pradesh,2020,1,0.6182549762828502,16.71063453718072,345,non_event
+lightgbm,rich_calendar,monthly,Uttar Pradesh,2020,7,1.3330389249718708,36.03032268817522,345,non_event
+lightgbm,rich_calendar,monthly,Uttar Pradesh,2020,14,1.4406629971254084,38.9392625368666,345,non_event
+lightgbm,rich_calendar,monthly,Uttar Pradesh,2021,1,0.5016507851134147,14.69753075633746,345,non_event
+lightgbm,rich_calendar,monthly,Uttar Pradesh,2021,7,1.0665936863164365,31.249414880526974,345,non_event
+lightgbm,rich_calendar,monthly,Uttar Pradesh,2021,14,1.2180849311455924,35.68785551745129,345,non_event
+lightgbm,rich_calendar,monthly,Uttar Pradesh,2022,1,0.6397081969040144,19.562649306876352,345,non_event
+lightgbm,rich_calendar,monthly,Uttar Pradesh,2022,7,1.518385602259201,46.4331162135537,345,non_event
+lightgbm,rich_calendar,monthly,Uttar Pradesh,2022,14,1.7495411938911825,53.501988859402395,345,non_event
+lightgbm,rich_calendar,monthly,Uttar Pradesh,2023,1,0.5485550590906065,17.269014015827892,345,non_event
+lightgbm,rich_calendar,monthly,Uttar Pradesh,2023,7,1.4349717941811722,45.17422201358147,345,non_event
+lightgbm,rich_calendar,monthly,Uttar Pradesh,2023,14,1.4623012267079587,46.0345774975544,345,non_event
+lightgbm,rich_calendar,monthly,Uttar Pradesh,2024,1,0.5185413522840873,18.453186944934632,346,non_event
+lightgbm,rich_calendar,monthly,Uttar Pradesh,2024,7,1.2374635243910486,44.03727041737506,346,non_event
+lightgbm,rich_calendar,monthly,Uttar Pradesh,2024,14,1.3712326475669285,48.79767501490874,346,non_event
+lightgbm,rich_calendar,monthly,Uttar Pradesh,2025,1,0.4875728069502547,18.75169948053554,345,non_event
+lightgbm,rich_calendar,monthly,Uttar Pradesh,2025,7,1.0265861596267545,39.481765352352845,345,non_event
+lightgbm,rich_calendar,monthly,Uttar Pradesh,2025,14,1.057242153855905,40.66077284183474,345,non_event
+ridge,rich_calendar,monthly,Andhra Pradesh,2017,1,0.4784661958748767,4.12723165936691,352,non_event
+ridge,rich_calendar,monthly,Andhra Pradesh,2017,7,0.8553305100118201,7.378049255263156,352,non_event
+ridge,rich_calendar,monthly,Andhra Pradesh,2017,14,0.9121834350268763,7.868460477775341,352,non_event
+ridge,rich_calendar,monthly,Andhra Pradesh,2018,1,0.5017401245404086,4.2333010926181345,352,non_event
+ridge,rich_calendar,monthly,Andhra Pradesh,2018,7,1.1921597846683143,10.058536425873037,352,non_event
+ridge,rich_calendar,monthly,Andhra Pradesh,2018,14,1.4291437204856345,12.058026411545114,352,non_event
+ridge,rich_calendar,monthly,Andhra Pradesh,2019,1,0.44956620802761077,3.8035290980416216,351,non_event
+ridge,rich_calendar,monthly,Andhra Pradesh,2019,7,1.2077607724828519,10.218190690456925,351,non_event
+ridge,rich_calendar,monthly,Andhra Pradesh,2019,14,1.3899820540506278,11.759863383709938,351,non_event
+ridge,rich_calendar,monthly,Andhra Pradesh,2020,1,0.44754410211321993,4.201141799601225,345,non_event
+ridge,rich_calendar,monthly,Andhra Pradesh,2020,7,1.2681163125656798,11.903936220632145,345,non_event
+ridge,rich_calendar,monthly,Andhra Pradesh,2020,14,1.3952368649814304,13.09722971689434,345,non_event
+ridge,rich_calendar,monthly,Andhra Pradesh,2021,1,0.4069248164193858,4.305253238528884,345,non_event
+ridge,rich_calendar,monthly,Andhra Pradesh,2021,7,1.1331856494453834,11.989072649973618,345,non_event
+ridge,rich_calendar,monthly,Andhra Pradesh,2021,14,1.4129839898656038,14.949331308633726,345,non_event
+ridge,rich_calendar,monthly,Andhra Pradesh,2022,1,0.4621536270198813,5.348803267725522,345,non_event
+ridge,rich_calendar,monthly,Andhra Pradesh,2022,7,1.1035459045503784,12.772051532747694,345,non_event
+ridge,rich_calendar,monthly,Andhra Pradesh,2022,14,1.2477463045736314,14.440976162475902,345,non_event
+ridge,rich_calendar,monthly,Andhra Pradesh,2023,1,0.4368707042879536,5.2545333948658985,345,non_event
+ridge,rich_calendar,monthly,Andhra Pradesh,2023,7,1.3513899178717823,16.254061861428795,345,non_event
+ridge,rich_calendar,monthly,Andhra Pradesh,2023,14,1.6579527319177687,19.94129592912437,345,non_event
+ridge,rich_calendar,monthly,Andhra Pradesh,2024,1,0.3602256694564408,4.963640676891904,346,non_event
+ridge,rich_calendar,monthly,Andhra Pradesh,2024,7,0.9339952964899146,12.869757595783025,346,non_event
+ridge,rich_calendar,monthly,Andhra Pradesh,2024,14,1.0151529558485572,13.988049526065932,346,non_event
+ridge,rich_calendar,monthly,Andhra Pradesh,2025,1,0.35449331531806555,4.8197215142145575,345,non_event
+ridge,rich_calendar,monthly,Andhra Pradesh,2025,7,0.9531202634388332,12.958704835402251,345,non_event
+ridge,rich_calendar,monthly,Andhra Pradesh,2025,14,0.9624284852151819,13.08526021688891,345,non_event
+ridge,rich_calendar,monthly,Gujarat,2017,1,0.3948720264185333,7.138846865064192,352,non_event
+ridge,rich_calendar,monthly,Gujarat,2017,7,1.2324621288547037,22.28154393382927,352,non_event
+ridge,rich_calendar,monthly,Gujarat,2017,14,1.394004460945393,25.202049550498216,352,non_event
+ridge,rich_calendar,monthly,Gujarat,2018,1,0.3816774818882051,6.5267381728520295,352,non_event
+ridge,rich_calendar,monthly,Gujarat,2018,7,1.0474604830968064,17.911720350283577,352,non_event
+ridge,rich_calendar,monthly,Gujarat,2018,14,1.2706122376175242,21.727646475566164,352,non_event
+ridge,rich_calendar,monthly,Gujarat,2019,1,0.44736039411144607,7.991292152128269,351,non_event
+ridge,rich_calendar,monthly,Gujarat,2019,7,1.242778300249454,22.200008334096438,351,non_event
+ridge,rich_calendar,monthly,Gujarat,2019,14,1.5774172344813127,28.17773350629268,351,non_event
+ridge,rich_calendar,monthly,Gujarat,2020,1,0.4751930045665651,8.807745179509933,345,non_event
+ridge,rich_calendar,monthly,Gujarat,2020,7,1.4975700795760367,27.757596434727095,345,non_event
+ridge,rich_calendar,monthly,Gujarat,2020,14,1.8770416491026078,34.79113618623776,345,non_event
+ridge,rich_calendar,monthly,Gujarat,2021,1,0.4117338894183265,8.66536632554528,345,non_event
+ridge,rich_calendar,monthly,Gujarat,2021,7,1.2507893651810333,26.324158209813508,345,non_event
+ridge,rich_calendar,monthly,Gujarat,2021,14,1.4345182031122492,30.190921976793966,345,non_event
+ridge,rich_calendar,monthly,Gujarat,2022,1,0.3722046101427084,8.7383937265016,345,non_event
+ridge,rich_calendar,monthly,Gujarat,2022,7,1.3834797917734067,32.4804981016738,345,non_event
+ridge,rich_calendar,monthly,Gujarat,2022,14,2.0694055450951283,48.5842462454012,345,non_event
+ridge,rich_calendar,monthly,Gujarat,2023,1,0.4762717836445769,10.955305013941217,345,non_event
+ridge,rich_calendar,monthly,Gujarat,2023,7,1.2855070505492434,29.569506991513475,345,non_event
+ridge,rich_calendar,monthly,Gujarat,2023,14,1.3971911176241365,32.13848769123093,345,non_event
+ridge,rich_calendar,monthly,Gujarat,2024,1,0.45217272841137335,11.60626077121065,346,non_event
+ridge,rich_calendar,monthly,Gujarat,2024,7,1.0977888862169625,28.177780933261808,346,non_event
+ridge,rich_calendar,monthly,Gujarat,2024,14,1.2771914960422055,32.78264394652432,346,non_event
+ridge,rich_calendar,monthly,Gujarat,2025,1,0.41895189841775904,12.116907104289398,345,non_event
+ridge,rich_calendar,monthly,Gujarat,2025,7,1.0797032783146185,31.227127440987374,345,non_event
+ridge,rich_calendar,monthly,Gujarat,2025,14,1.2011867879514617,34.740667793786685,345,non_event
+ridge,rich_calendar,monthly,Madhya Pradesh,2017,1,0.3725940740374735,4.545913462225821,352,non_event
+ridge,rich_calendar,monthly,Madhya Pradesh,2017,7,0.7636412288549065,9.316967671936318,352,non_event
+ridge,rich_calendar,monthly,Madhya Pradesh,2017,14,0.9366990073910774,11.4283960064389,352,non_event
+ridge,rich_calendar,monthly,Madhya Pradesh,2018,1,0.4890451378509995,4.800895413935607,352,non_event
+ridge,rich_calendar,monthly,Madhya Pradesh,2018,7,1.219541816692925,11.972090634806824,352,non_event
+ridge,rich_calendar,monthly,Madhya Pradesh,2018,14,1.4209431767848555,13.949222787218359,352,non_event
+ridge,rich_calendar,monthly,Madhya Pradesh,2019,1,0.680730794719609,6.824067294562628,351,non_event
+ridge,rich_calendar,monthly,Madhya Pradesh,2019,7,1.8390920467150764,18.43619825197998,351,non_event
+ridge,rich_calendar,monthly,Madhya Pradesh,2019,14,2.5848103850638693,25.911740952788257,351,non_event
+ridge,rich_calendar,monthly,Madhya Pradesh,2020,1,0.4308528707033296,5.07282943051396,345,non_event
+ridge,rich_calendar,monthly,Madhya Pradesh,2020,7,1.3622673694785306,16.039233979893545,345,non_event
+ridge,rich_calendar,monthly,Madhya Pradesh,2020,14,1.8929496008146978,22.287446825680956,345,non_event
+ridge,rich_calendar,monthly,Madhya Pradesh,2021,1,0.37256184846231255,5.2083524615006045,345,non_event
+ridge,rich_calendar,monthly,Madhya Pradesh,2021,7,1.1384894238397738,15.915892133136976,345,non_event
+ridge,rich_calendar,monthly,Madhya Pradesh,2021,14,1.3579620853733048,18.9840833117243,345,non_event
+ridge,rich_calendar,monthly,Madhya Pradesh,2022,1,0.3850600902783217,5.8341143220532405,345,non_event
+ridge,rich_calendar,monthly,Madhya Pradesh,2022,7,1.3884186877125777,21.036179950862966,345,non_event
+ridge,rich_calendar,monthly,Madhya Pradesh,2022,14,1.9536691854568229,29.60039137577023,345,non_event
+ridge,rich_calendar,monthly,Madhya Pradesh,2023,1,0.41189626102530935,6.7047937847590084,345,non_event
+ridge,rich_calendar,monthly,Madhya Pradesh,2023,7,1.6033660798031693,26.099384587269046,345,non_event
+ridge,rich_calendar,monthly,Madhya Pradesh,2023,14,1.8733033676083657,30.493388662581044,345,non_event
+ridge,rich_calendar,monthly,Madhya Pradesh,2024,1,0.27394659175291997,5.53532012245075,346,non_event
+ridge,rich_calendar,monthly,Madhya Pradesh,2024,7,0.8949784653442843,18.083788802338706,346,non_event
+ridge,rich_calendar,monthly,Madhya Pradesh,2024,14,1.0970161924341253,22.16613014157053,346,non_event
+ridge,rich_calendar,monthly,Madhya Pradesh,2025,1,0.31205089250626494,6.5820035861082165,345,non_event
+ridge,rich_calendar,monthly,Madhya Pradesh,2025,7,1.0400737872115768,21.93799012161554,345,non_event
+ridge,rich_calendar,monthly,Madhya Pradesh,2025,14,1.2613448300101293,26.605199324270643,345,non_event
+ridge,rich_calendar,monthly,Rajasthan,2017,1,0.4740873550011715,6.444679931544456,352,non_event
+ridge,rich_calendar,monthly,Rajasthan,2017,7,0.8379098830574343,11.3904345914682,352,non_event
+ridge,rich_calendar,monthly,Rajasthan,2017,14,0.8677252591556514,11.795740816079812,352,non_event
+ridge,rich_calendar,monthly,Rajasthan,2018,1,0.4886533157332595,6.005665109585851,352,non_event
+ridge,rich_calendar,monthly,Rajasthan,2018,7,1.222851298411892,15.029132394331146,352,non_event
+ridge,rich_calendar,monthly,Rajasthan,2018,14,1.3969296577916273,17.16859670491715,352,non_event
+ridge,rich_calendar,monthly,Rajasthan,2019,1,0.48665436849252053,6.427876289565937,351,non_event
+ridge,rich_calendar,monthly,Rajasthan,2019,7,1.238229216385917,16.354901417425932,351,non_event
+ridge,rich_calendar,monthly,Rajasthan,2019,14,1.3212387722898036,17.45131643133984,351,non_event
+ridge,rich_calendar,monthly,Rajasthan,2020,1,0.4991556782503385,7.275072856207845,345,non_event
+ridge,rich_calendar,monthly,Rajasthan,2020,7,1.3573501904254242,19.783049571520838,345,non_event
+ridge,rich_calendar,monthly,Rajasthan,2020,14,1.6164567770635936,23.559465181823946,345,non_event
+ridge,rich_calendar,monthly,Rajasthan,2021,1,0.42617699435667766,7.117511447198261,345,non_event
+ridge,rich_calendar,monthly,Rajasthan,2021,7,1.2493845527976948,20.86576463357363,345,non_event
+ridge,rich_calendar,monthly,Rajasthan,2021,14,1.4688148641799699,24.53043394657394,345,non_event
+ridge,rich_calendar,monthly,Rajasthan,2022,1,0.43679358672043894,7.968423585091924,345,non_event
+ridge,rich_calendar,monthly,Rajasthan,2022,7,1.5338361573245816,27.981766635952404,345,non_event
+ridge,rich_calendar,monthly,Rajasthan,2022,14,1.9731043809331756,35.995335011498256,345,non_event
+ridge,rich_calendar,monthly,Rajasthan,2023,1,0.4849147724244091,9.040407619620819,345,non_event
+ridge,rich_calendar,monthly,Rajasthan,2023,7,1.4942873578485054,27.85843530453083,345,non_event
+ridge,rich_calendar,monthly,Rajasthan,2023,14,1.8185187319555012,33.90317543554826,345,non_event
+ridge,rich_calendar,monthly,Rajasthan,2024,1,0.3417731613174241,7.5417896992515,346,non_event
+ridge,rich_calendar,monthly,Rajasthan,2024,7,1.0310075057822192,22.750884700796156,346,non_event
+ridge,rich_calendar,monthly,Rajasthan,2024,14,1.4838577844897693,32.74377458745343,346,non_event
+ridge,rich_calendar,monthly,Rajasthan,2025,1,0.4199149612660714,9.04786643393773,345,non_event
+ridge,rich_calendar,monthly,Rajasthan,2025,7,1.31142877749381,28.257227083813753,345,non_event
+ridge,rich_calendar,monthly,Rajasthan,2025,14,1.603425131067478,34.54884383965825,345,non_event
+ridge,rich_calendar,monthly,Tamil Nadu,2017,1,0.4062381522788154,6.570279137341365,352,non_event
+ridge,rich_calendar,monthly,Tamil Nadu,2017,7,0.8132843015233021,13.153626386520102,352,non_event
+ridge,rich_calendar,monthly,Tamil Nadu,2017,14,0.8523823026818603,13.785976597554724,352,non_event
+ridge,rich_calendar,monthly,Tamil Nadu,2018,1,0.4135160796590851,6.4864351413079,352,non_event
+ridge,rich_calendar,monthly,Tamil Nadu,2018,7,0.7824166295355085,12.273028717884115,352,non_event
+ridge,rich_calendar,monthly,Tamil Nadu,2018,14,0.836870515609126,13.127195260814894,352,non_event
+ridge,rich_calendar,monthly,Tamil Nadu,2019,1,0.46826840441802037,7.048637683653272,351,non_event
+ridge,rich_calendar,monthly,Tamil Nadu,2019,7,1.02052509905649,15.361514042920858,351,non_event
+ridge,rich_calendar,monthly,Tamil Nadu,2019,14,1.0091853217426294,15.190821378319551,351,non_event
+ridge,rich_calendar,monthly,Tamil Nadu,2020,1,0.5889891229806946,9.086198776945038,345,non_event
+ridge,rich_calendar,monthly,Tamil Nadu,2020,7,1.531145508340595,23.62062710904291,345,non_event
+ridge,rich_calendar,monthly,Tamil Nadu,2020,14,2.0871777884469602,32.198408304520115,345,non_event
+ridge,rich_calendar,monthly,Tamil Nadu,2021,1,0.42473628653218687,7.33500072686072,345,non_event
+ridge,rich_calendar,monthly,Tamil Nadu,2021,7,0.946570286390896,16.346834397856018,345,non_event
+ridge,rich_calendar,monthly,Tamil Nadu,2021,14,1.2188771968875851,21.04944976121525,345,non_event
+ridge,rich_calendar,monthly,Tamil Nadu,2022,1,0.4460682868632823,8.298354967679897,345,non_event
+ridge,rich_calendar,monthly,Tamil Nadu,2022,7,1.1517465323136196,21.42631933137667,345,non_event
+ridge,rich_calendar,monthly,Tamil Nadu,2022,14,1.510883663687694,28.107465438339865,345,non_event
+ridge,rich_calendar,monthly,Tamil Nadu,2023,1,0.43809456057210716,8.274473141560811,345,non_event
+ridge,rich_calendar,monthly,Tamil Nadu,2023,7,0.9800661724813651,18.510915110562284,345,non_event
+ridge,rich_calendar,monthly,Tamil Nadu,2023,14,1.0588911237955216,19.999714564456607,345,non_event
+ridge,rich_calendar,monthly,Tamil Nadu,2024,1,0.4463206632124595,9.160092688664744,346,non_event
+ridge,rich_calendar,monthly,Tamil Nadu,2024,7,1.0500626582201902,21.55103285823876,346,non_event
+ridge,rich_calendar,monthly,Tamil Nadu,2024,14,1.2508645255765825,25.672203730773365,346,non_event
+ridge,rich_calendar,monthly,Tamil Nadu,2025,1,0.40474084732153126,8.977465485810788,345,non_event
+ridge,rich_calendar,monthly,Tamil Nadu,2025,7,0.9351139811294291,20.741552394437498,345,non_event
+ridge,rich_calendar,monthly,Tamil Nadu,2025,14,0.9921171795368502,22.005927486969025,345,non_event
+ridge,rich_calendar,monthly,Telangana,2017,1,0.5395950057039061,4.09022251327938,352,non_event
+ridge,rich_calendar,monthly,Telangana,2017,7,1.4903018441956741,11.296743094868122,352,non_event
+ridge,rich_calendar,monthly,Telangana,2017,14,2.0082459548382863,15.222848117295575,352,non_event
+ridge,rich_calendar,monthly,Telangana,2018,1,0.6584760757032856,5.8267326498006495,352,non_event
+ridge,rich_calendar,monthly,Telangana,2018,7,1.8870484643785042,16.698141823006775,352,non_event
+ridge,rich_calendar,monthly,Telangana,2018,14,2.735119867707601,24.202568357960455,352,non_event
+ridge,rich_calendar,monthly,Telangana,2019,1,0.4547384420697139,5.175149896533628,351,non_event
+ridge,rich_calendar,monthly,Telangana,2019,7,1.2991058035267287,14.784470901795677,351,non_event
+ridge,rich_calendar,monthly,Telangana,2019,14,1.8192150048874547,20.703572588816687,351,non_event
+ridge,rich_calendar,monthly,Telangana,2020,1,0.4524712282766529,6.201240557858178,345,non_event
+ridge,rich_calendar,monthly,Telangana,2020,7,1.4668616887695451,20.10373616862172,345,non_event
+ridge,rich_calendar,monthly,Telangana,2020,14,1.9282745048514969,26.427523605672768,345,non_event
+ridge,rich_calendar,monthly,Telangana,2021,1,0.4249070982769042,6.862101894787344,345,non_event
+ridge,rich_calendar,monthly,Telangana,2021,7,1.2757033441285872,20.60216543905911,345,non_event
+ridge,rich_calendar,monthly,Telangana,2021,14,1.5125570694525547,24.427270747782035,345,non_event
+ridge,rich_calendar,monthly,Telangana,2022,1,0.3521688892830313,6.299280579095064,345,non_event
+ridge,rich_calendar,monthly,Telangana,2022,7,0.8716976748378298,15.592144567702574,345,non_event
+ridge,rich_calendar,monthly,Telangana,2022,14,1.0695057185303345,19.130357072951888,345,non_event
+ridge,rich_calendar,monthly,Telangana,2023,1,0.48670749025207777,8.085066348789114,345,non_event
+ridge,rich_calendar,monthly,Telangana,2023,7,1.4986694217106211,24.895531612131496,345,non_event
+ridge,rich_calendar,monthly,Telangana,2023,14,1.7538486428169524,29.134506714833254,345,non_event
+ridge,rich_calendar,monthly,Telangana,2024,1,0.33904466218271134,6.442190908723789,346,non_event
+ridge,rich_calendar,monthly,Telangana,2024,7,0.8723280975569687,16.57511462745684,346,non_event
+ridge,rich_calendar,monthly,Telangana,2024,14,0.9085448035747591,17.263268609146714,346,non_event
+ridge,rich_calendar,monthly,Telangana,2025,1,0.33017991630882115,6.95987295952243,345,non_event
+ridge,rich_calendar,monthly,Telangana,2025,7,1.0106099090703653,21.30267842271042,345,non_event
+ridge,rich_calendar,monthly,Telangana,2025,14,1.2090693256467568,25.486010778094276,345,non_event
+ridge,rich_calendar,monthly,Uttar Pradesh,2017,1,0.6347690577850071,10.303180161611083,352,non_event
+ridge,rich_calendar,monthly,Uttar Pradesh,2017,7,1.1455172445618613,18.593329974427636,352,non_event
+ridge,rich_calendar,monthly,Uttar Pradesh,2017,14,1.25046579567189,20.296790180191014,352,non_event
+ridge,rich_calendar,monthly,Uttar Pradesh,2018,1,0.6354111664335327,12.325470075138377,352,non_event
+ridge,rich_calendar,monthly,Uttar Pradesh,2018,7,1.0628927463040088,20.6175991699732,352,non_event
+ridge,rich_calendar,monthly,Uttar Pradesh,2018,14,1.160885183422373,22.51842011095775,352,non_event
+ridge,rich_calendar,monthly,Uttar Pradesh,2019,1,0.5788269171914788,13.292924274350751,351,non_event
+ridge,rich_calendar,monthly,Uttar Pradesh,2019,7,1.1963550874103288,27.474633797859415,351,non_event
+ridge,rich_calendar,monthly,Uttar Pradesh,2019,14,1.4003814755115302,32.16015765040926,351,non_event
+ridge,rich_calendar,monthly,Uttar Pradesh,2020,1,0.5001241646165944,13.517711071843005,345,non_event
+ridge,rich_calendar,monthly,Uttar Pradesh,2020,7,1.1192581965669162,30.2521053498434,345,non_event
+ridge,rich_calendar,monthly,Uttar Pradesh,2020,14,1.291353148311177,34.90360991448506,345,non_event
+ridge,rich_calendar,monthly,Uttar Pradesh,2021,1,0.46489193432716547,13.620557778259949,345,non_event
+ridge,rich_calendar,monthly,Uttar Pradesh,2021,7,1.0467177577777351,30.667083346963672,345,non_event
+ridge,rich_calendar,monthly,Uttar Pradesh,2021,14,1.176418950104648,34.46711181283653,345,non_event
+ridge,rich_calendar,monthly,Uttar Pradesh,2022,1,0.4842699281013062,14.809256500325187,345,non_event
+ridge,rich_calendar,monthly,Uttar Pradesh,2022,7,1.1559472507995134,35.349540296779686,345,non_event
+ridge,rich_calendar,monthly,Uttar Pradesh,2022,14,1.385760459426107,42.377362088352925,345,non_event
+ridge,rich_calendar,monthly,Uttar Pradesh,2023,1,0.45855515933112934,14.435735013814712,345,non_event
+ridge,rich_calendar,monthly,Uttar Pradesh,2023,7,1.1165244750314693,35.14920970795126,345,non_event
+ridge,rich_calendar,monthly,Uttar Pradesh,2023,14,1.2090004916746326,38.06043912981854,345,non_event
+ridge,rich_calendar,monthly,Uttar Pradesh,2024,1,0.43919281533069165,15.62943261992591,346,non_event
+ridge,rich_calendar,monthly,Uttar Pradesh,2024,7,1.1242504428351157,40.008387958220275,346,non_event
+ridge,rich_calendar,monthly,Uttar Pradesh,2024,14,1.3222469606169263,47.0544349918465,346,non_event
+ridge,rich_calendar,monthly,Uttar Pradesh,2025,1,0.41511491467809064,15.965021057308252,345,non_event
+ridge,rich_calendar,monthly,Uttar Pradesh,2025,7,0.9500012866627464,36.53636621994678,345,non_event
+ridge,rich_calendar,monthly,Uttar Pradesh,2025,14,0.9336289541905569,35.90669808846456,345,non_event
