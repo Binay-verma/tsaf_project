@@ -61,3 +61,12 @@ author, as for the Maharashtra rows. Rows are refused by the code until checked.
 1. Data reuse terms of the compilation (or rebuild from the official GRID-INDIA daily reports).
 2. Whether to register on OSF in the author's name.
 3. Whether seven states and nine event years is the right scope for the time available.
+
+## Calendar conventions decided while sourcing (before any forecast)
+
+1. Amendments: `date` is the final date in force after any amendment; the originally issued date goes in notes.
+2. Scope: a family is in scope for a state if the state notifies it as a public (not optional) holiday in most years.
+3. Weekend festivals: some states do not notify a holiday that falls on a Sunday. For an in-scope family, such a
+   year keeps the festival flag on the festival date (as in the main study, where weekend festivals stay flagged),
+   with the date taken from the best available source and marked in notes.
+4. Gujarat lists Samvatsari, not Ganesh Chaturthi; Ganesh Chaturthi is out of scope for Gujarat.
