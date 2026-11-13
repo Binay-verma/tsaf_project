@@ -73,3 +73,10 @@ author, as for the Maharashtra rows. Rows are refused by the code until checked.
    year keeps the festival flag on the festival date (as in the main study, where weekend festivals stay flagged),
    with the date taken from the best available source and marked in notes.
 4. Gujarat lists Samvatsari, not Ganesh Chaturthi; Ganesh Chaturthi is out of scope for Gujarat.
+5. Ugadi_Gudi_Padwa covers Ugadi, Gudi Padwa and Telugu New Year. Cheti Chand (the Sindhi new year, usually the
+   following lunar day) is a different festival and is not counted; this puts the family out of scope for Gujarat and
+   Rajasthan. Madhya Pradesh lists Gudi Padwa (sometimes jointly with Cheti Chand) and stays in scope.
+6. Final family scope per state (listed as a public holiday in most years 2015-2025): Andhra Pradesh and Telangana all
+   five; Tamil Nadu Ugadi, Ganesh Chaturthi, Dussehra, Diwali; Madhya Pradesh Holi, Gudi Padwa, Dussehra, Diwali;
+   Gujarat, Rajasthan and Uttar Pradesh Holi, Dussehra, Diwali. In a year when an in-scope family is not a public
+   holiday at all (e.g. only optional), it gets no flag and no event cases in that state.
