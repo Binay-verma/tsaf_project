@@ -1,0 +1,7 @@
+{
+  "model": "ridge",
+  "completed_utc": "2026-11-13T14:23:56.675752+00:00",
+  "rows": 25785,
+  "predictions_sha256": "6f40deb7832490fdf0355ceec8ce4f4c93c00ea3abe05ef53daf9ae7977575af",
+  "protocol_sha256": "f290fb2fdbe242ebf3880a8ab0512ecd7c543c7849d4601011e29bdebbb5cdcd"
+}
