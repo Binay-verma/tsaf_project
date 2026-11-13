@@ -64,7 +64,10 @@ author, as for the Maharashtra rows. Rows are refused by the code until checked.
 
 ## Calendar conventions decided while sourcing (before any forecast)
 
-1. Amendments: `date` is the final date in force after any amendment; the originally issued date goes in notes.
+1. Amendments: the anchor is the day on which the state's final order says the festival is observed. If an amendment
+   corrects the festival day itself, the corrected day is used. If it only adds a substitute or extra day off (for
+   example because the festival falls on a Sunday), the anchor stays on the festival day and the extra day is noted.
+   Rows where the reason for an amendment is unclear are flagged for the author's check.
 2. Scope: a family is in scope for a state if the state notifies it as a public (not optional) holiday in most years.
 3. Weekend festivals: some states do not notify a holiday that falls on a Sunday. For an in-scope family, such a
    year keeps the festival flag on the festival date (as in the main study, where weekend festivals stay flagged),
