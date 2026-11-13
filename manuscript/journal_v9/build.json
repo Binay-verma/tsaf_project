@@ -1,6 +1,6 @@
 {
- "created_utc": "2026-11-13T03:47:44.566394+00:00",
- "status": "Journal-format draft v9 for supervisor review; not submitted; frozen-forecast section pending.",
+ "created_utc": "2026-11-13T11:55:09.179370+00:00",
+ "status": "Journal-format draft v9 for supervisor review; not submitted; not independently reviewed beyond an internal check.",
  "base": {
   "manuscript/integrated_review_v7/MANUSCRIPT.md": "139afd9a7649d69204a1e10a320a6513806bd484813302c94e63faeff9834941",
   "manuscript/journal_v8/MANUSCRIPT.md": "569a8c13353b51d2a11e5d2d82a6e8702d20b8a877f0b1b4702e305af71af410"
@@ -22,6 +22,26 @@
   "results/longer_panel_foundation_v1/analysis/reproduction.json": "61641e8e18d2d9a40c21b46c940711f8534048d6c098658f6324892e68a28813",
   "results/longer_panel_foundation_v1/analysis/summary.json": "68c340ba4d515bae20c09ae5a9fda778ed084306a44f67772ae613adbdd133c1",
   "results/longer_panel_foundation_v1/analysis/typed_vs_pooled.csv": "374353facb1b600f216234f08a9d4e89a1affb0ea4ba8ed2f345e5fbee5eb8e6",
+  "results/prospective_20261030_scoring_v1/actuals_snapshot.csv": "2e73324f55cfff61ec4eb3d0c586f03a4b6754bbb7274c4d6fa9048b62b687ec",
+  "results/prospective_20261030_scoring_v1/audit.json": "997442078990a12127d80cd06b0831c4b86bb7a13ccf87973d263001715f96ff",
+  "results/prospective_20261030_scoring_v1/collection.json": "785f17468e282ba62e875086abb584c7f4bac1db483aa1cce02061d879dd4089",
+  "results/prospective_20261030_scoring_v1/macro_metrics.csv": "3117717005cdc4edf28c12de37f83190161d97f97cb58b72a49ab358280d874c",
+  "results/prospective_20261030_scoring_v1/native_quantile_metrics.csv": "02f5de3e89038330415515bd479eb6f2ac7fdba0df1af83667546d44101c98f8",
+  "results/prospective_20261030_scoring_v1/scored_predictions.csv": "ede6300e62a49520af1eeb82e2c32acb5fbe180108ec09656b271340112fb89a",
+  "results/prospective_20261030_scoring_v1/source_metadata_snapshot.json": "d4755acbce942d223752e26b09bc90678397ccc280a2ca6e60b80f126c26c740",
+  "results/prospective_20261030_scoring_v1/state_metrics.csv": "38517d77abd57f34e21ca3db9b76731686cf10591989774b924790a9b95aea55",
+  "results/prospective_chronos_20261031_scoring_v1/audit.json": "70e83c95393419f8ebcd26af52a71fce4caa0d181e9b0713e84023cbbd8c70d4",
+  "results/prospective_chronos_20261031_scoring_v1/metrics_macro.csv": "38d0172e05e07987d8eb6e30a818d534fd6206272de1ff924f0e92afac417a0a",
+  "results/prospective_chronos_20261031_scoring_v1/metrics_model_step.csv": "2e3b6fb159afbe7728605ebbd80ba3d50adad6194b151a8ef24733727252bbcb",
+  "results/prospective_chronos_20261031_scoring_v1/metrics_state.csv": "590d1509f2d03fef02288936d79a8e33e86dbfed3bf703c48264c9a1bbd9d7bc",
+  "results/prospective_chronos_20261031_scoring_v1/native_cases.csv": "0a71c763c7dfce952f3cc153e1b490e105c6b5a2525b24a598ea0422574c4d07",
+  "results/prospective_chronos_20261031_scoring_v1/native_metrics_macro.csv": "141c768f243ce10a6213afc0b2af391b2d917cea3de7b6cb5ac203ab418e00a1",
+  "results/prospective_chronos_20261031_scoring_v1/scored_cases.csv": "9a8642652d6bab829df6261e2b8dc4b25cf4a9b446fbd841018fd1cf4eac25bf",
+  "results/prospective_interval_20261030_scoring_v1/audit.json": "599dcec408d6f78020acea72f927b38a947c52980627e63a4dd7c00b73eecfe9",
+  "results/prospective_interval_20261030_scoring_v1/metrics_lead.csv": "92f5168c5a37199374a6033dbf5b972612801361848d87f4cdfd4578708a6d0b",
+  "results/prospective_interval_20261030_scoring_v1/metrics_macro.csv": "e6f940a8ac42ac54631056b0ece4cc66f6a1e76fcd9a577c9080e9bdfd3cfd76",
+  "results/prospective_interval_20261030_scoring_v1/metrics_state_lead.csv": "d96603f8616d730859e5286b518e66b06d30eebe1c323e22c1759d2c6835bd72",
+  "results/prospective_interval_20261030_scoring_v1/scored_intervals.csv": "4c2a50dd458e98a2f14a6eb10e0940228d7c0529eac73741cfc007577c4db8c0",
   "results/model_class_hypothesis_v1/registration.json": "1c61d16cf2ec9ef589576dddca6cb03fba9fdb08a51568e6a7ba7cfb212d7e3f"
  },
  "commits": {
@@ -31,7 +51,8 @@
   "Stage B protocol": "65d1880",
   "Stage B results": "395c378",
   "foundation protocol": "5f71883",
-  "foundation results": "9064eea"
+  "foundation results": "9064eea",
+  "prospective scores": "f4a3f74"
  },
  "commit_times_utc": {
   "Stage A protocol": "2026-11-11T13:23:06+00:00",
@@ -40,7 +61,8 @@
   "Stage B protocol": "2026-11-11T14:18:52+00:00",
   "Stage B results": "2026-11-11T14:25:54+00:00",
   "foundation protocol": "2026-11-11T14:22:10+00:00",
-  "foundation results": "2026-11-12T23:36:38+00:00"
+  "foundation results": "2026-11-12T23:36:38+00:00",
+  "prospective scores": "2026-11-13T11:51:14+00:00"
  },
  "v7_tables_copied": [
   "Table 1",
@@ -60,9 +82,9 @@
   "Table 5"
  ],
  "abstract_words": 179,
- "words_main_text": 5694,
+ "words_main_text": 5967,
  "outputs": {
-  "MANUSCRIPT.md": "64a7ec81754edd2c1c1f029a68d09465d849bd0b753ee990aafb10d6ac0fa0ba",
-  "Typed_or_Pooled_Binay_Verma_v9.docx": "b8ddc94d8415a55fdae458c0e9dfc4a087342545b68d66e79129d8268d6782d7"
+  "MANUSCRIPT.md": "f17c436394b07b76cb5d105e8a61c9032e9afb9d10e239d1439cb911a34a36a4",
+  "Typed_or_Pooled_Binay_Verma_v9.docx": "63cf085e0ab330cee2068b4c12e4e787f12f3c53f3203c7f6139bb164a03039f"
  }
 }

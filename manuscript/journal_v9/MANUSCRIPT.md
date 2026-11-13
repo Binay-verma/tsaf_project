@@ -4,7 +4,7 @@ Binay Verma
 
 Affiliation: __________ . Corresponding author email: __________ .
 
-**Draft for supervisor review (journal format, version 9). Not submitted. One marked section is pending.**
+**Draft for supervisor review (journal format, version 9). Not submitted.**
 
 ## Abstract
 
@@ -234,7 +234,20 @@ Table 10. Stage A decision rules over 72 cells (regret in MASE relative to the h
 
 Both foundation models are compared on their native quantiles 0.1–0.9 for 2024–2025 (Appendix Table A9); family/year coverage of the nominal 80% interval falls below 0.80 in 85 of 100 cluster/arm cells (Appendix Table A10). The NESO delay check is in Appendix Table A15. Complete clean-environment reruns of all 5,952 direct-comparator forecasts and 2,560 simulation cells are byte-identical, and Stage A reproduced the stored 2024–2025 local forecasts to 1.4 × 10^-13. These are internal software checks, not independent review. Failures are retained with notes next to the results: in Stage B, one parameter-selection run stopped at import after an environment reset, a second could not write its final log because of a relative path (its integrity check had passed and all 16 protected inputs were re-checked), and two workers did not start on the first launch; none changed a forecast.
 
-**[Pending: frozen prospective forecasts.]** Forecasts frozen before their targets existed (31 October–11 November 2026) are to be scored with the first complete actual vintage from 12 November 2026. They do not test the typed-versus-pooled hypothesis directly.
+**Frozen prospective forecasts.** Two forecast episodes were frozen before their targets existed and scored afterwards with the first complete actual vintage (retrieved 2026-11-13), without retuning: episode 1 was issued on 2026-10-30 for 31 October–11 November 2026 (leads 3–14, three states), and episode 2, a Chronos-2 competitor, on 2026-10-30 UTC for 1–11 November; episode 2 was observed on the public repository before its first target day. The scorer checks that the forecast file is byte-identical to the original freeze commit. Both episodes use ordinary calendar features only, so they do not test typed versus pooled festival flags, and the window contains Diwali 2026, which none of the models was given. All forecasts have MASE above 1 on this window (episode 1: 1.214 to 1.928), but every forecasting model beats the last-value and weekly-repeat baselines; Chronos-2 with calendar features has the lowest error in episode 2 (Table 11). The TimesFM-3 80% intervals cover 0.75 to 0.86 of the 36 targets across its two arms and three interval calibrations. These are single 12-day episodes on one shared source, so no ranking or significance claim is made.
+
+Table 11. Frozen prospective episodes: MASE on all eligible targets (three states). Both episodes use the same forecast origin (29 October); episode 2 adds Chronos-2, and its other rows are the episode-1 forecasts restricted to the episode-2 targets.
+
+| Model | Episode 1: 31 Oct–11 Nov (36 cases) | Episode 2: 1–11 Nov (33 cases) |
+| --- | --- | --- |
+| Chronos-2, calendar | – | 1.177 |
+| Chronos-2, history only | – | 1.351 |
+| TimesFM-3, calendar | 1.335 | 1.404 |
+| TimesFM-3, history only | 1.415 | 1.482 |
+| Rich Ridge, calendar | 1.214 | 1.286 |
+| Stable LightGBM, calendar | 1.234 | 1.278 |
+| Last value | 1.645 | 1.708 |
+| Weekly repeat | 1.928 | 1.944 |
 
 ## 8. Limitations
 

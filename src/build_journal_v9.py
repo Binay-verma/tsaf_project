@@ -222,7 +222,26 @@ FN = dict(tf=g(ftv, model='timesfm', representation='day', lead=1), ch=g(ftv, mo
           tfc=g(fct, model='timesfm', lead=1), chc=g(fct, model='chronos', lead=1))
 f_gap = max(abs(float(FN[k][a])-float(FN[k]['calendar'])) for k in ['tfc', 'chc'] for a in ['zero5', 'placebo_day5', 'placebo_window5'])
 f_raw = sum(float(r['p_signflip']) < 0.05 for r in ftv)
-COMMITS = {'Stage A protocol': 'd60df30', 'Stage A results': 'b2bebc3', 'hypothesis': 'dec1274', 'Stage B protocol': '65d1880', 'Stage B results': '395c378', 'foundation protocol': '5f71883', 'foundation results': '9064eea'}
+# frozen prospective episodes (scored 13 Nov 2026 with the first complete actual vintage)
+P1 = ROOT/'results/prospective_20261030_scoring_v1'; P2 = ROOT/'results/prospective_chronos_20261031_scoring_v1'; PI = ROOT/'results/prospective_interval_20261030_scoring_v1'
+fz1 = json.load(open(ROOT/'results/prospective_20261030_v1/freeze.json')); fz2 = json.load(open(ROOT/'results/prospective_chronos_20261031_v1/freeze.json'))
+rc2 = json.load(open(ROOT/'results/prospective_chronos_20261031_v1/public_receipt.json'))
+col1 = json.load(open(P1/'collection.json'))
+assert col1['scored_predictions_sha256'] == sha(P1/'scored_predictions.csv') and fz1['predictions_sha256'] == json.load(open(P1/'audit.json'))['frozen_predictions_sha256']
+m1 = {r['model']: float(r['MASE']) for r in read(P1/'macro_metrics.csv')}
+m2 = {r['model']: float(r['MASE']) for r in read(P2/'metrics_macro.csv')}
+iv = read(PI/'metrics_macro.csv')
+assert fz1['eligible_rows'] == 216 and fz2['eligible_rows'] == 66
+PN = {'timesfm3_calendar': 'TimesFM-3, calendar', 'timesfm3_history': 'TimesFM-3, history only', 'chronos2_calendar': 'Chronos-2, calendar', 'chronos2_history': 'Chronos-2, history only',
+      'ridge_rich_calendar_monthly': 'Rich Ridge, calendar', 'lightgbm_rich_calendar_monthly': 'Stable LightGBM, calendar', 'last_value': 'Last value', 'weekly_repeat': 'Weekly repeat'}
+t_pro = ['| Model | Episode 1: 31 Oct–11 Nov (36 cases) | Episode 2: 1–11 Nov (33 cases) |', '| --- | --- | --- |']
+for k in ['chronos2_calendar', 'chronos2_history', 'timesfm3_calendar', 'timesfm3_history', 'ridge_rich_calendar_monthly', 'lightgbm_rich_calendar_monthly', 'last_value', 'weekly_repeat']:
+    t_pro.append(f"| {PN[k]} | {(f'{m1[k]:.3f}' if k in m1 else '–')} | {m2[k]:.3f} |")
+cov = {(r['model'], r['arm']): float(r['coverage80']) for r in iv}
+PRO = dict(best2=min(m2, key=m2.get), lo1=min(m1.values()), hi1=max(m1.values()), cov_lo=min(cov.values()), cov_hi=max(cov.values()),
+           cov_native=cov[('timesfm3_calendar', 'native')])
+assert PRO['best2'] == 'chronos2_calendar' and min(m1, key=m1.get) == 'ridge_rich_calendar_monthly'
+COMMITS = {'Stage A protocol': 'd60df30', 'Stage A results': 'b2bebc3', 'hypothesis': 'dec1274', 'Stage B protocol': '65d1880', 'Stage B results': '395c378', 'foundation protocol': '5f71883', 'foundation results': '9064eea', 'prospective scores': 'f4a3f74'}
 for k, c in COMMITS.items():
     assert subprocess.run(['git', 'cat-file', '-e', c], cwd=ROOT).returncode == 0, k
 CT = {k: subprocess.run(['git', 'show', '-s', '--format=%cI', c], cwd=ROOT, capture_output=True, text=True).stdout.strip() for k, c in COMMITS.items()}
@@ -249,14 +268,14 @@ def per_year_figure(path):
 # ---------------- manuscript ----------------
 TITLE = 'Typed or pooled festival indicators? The answer depends on the model class: Indian electricity evidence with a registered follow-up test'
 
-PENDING_P = '**[Pending: frozen prospective forecasts.]** Forecasts frozen before their targets existed (31 October–11 November 2026) are to be scored with the first complete actual vintage from 12 November 2026. They do not test the typed-versus-pooled hypothesis directly.'
+
 md = f"""# {TITLE}
 
 Binay Verma
 
 Affiliation: __________ . Corresponding author email: __________ .
 
-**Draft for supervisor review (journal format, version 9). Not submitted. One marked section is pending.**
+**Draft for supervisor review (journal format, version 9). Not submitted.**
 
 ## Abstract
 
@@ -439,7 +458,11 @@ Table 10. Stage A decision rules over {sa['decision_cells']} cells (regret in MA
 
 Both foundation models are compared on their native quantiles 0.1–0.9 for 2024–2025 (Appendix Table A9); family/year coverage of the nominal 80% interval falls below 0.80 in 85 of 100 cluster/arm cells (Appendix Table A10). The NESO delay check is in Appendix Table A15. Complete clean-environment reruns of all 5,952 direct-comparator forecasts and 2,560 simulation cells are byte-identical, and Stage A reproduced the stored 2024–2025 local forecasts to 1.4 × 10^-13. These are internal software checks, not independent review. Failures are retained with notes next to the results: in Stage B, one parameter-selection run stopped at import after an environment reset, a second could not write its final log because of a relative path (its integrity check had passed and all 16 protected inputs were re-checked), and two workers did not start on the first launch; none changed a forecast.
 
-{PENDING_P}
+**Frozen prospective forecasts.** Two forecast episodes were frozen before their targets existed and scored afterwards with the first complete actual vintage (retrieved {col1['retrieved_utc'][:10]}), without retuning: episode 1 was issued on {fz1['issued_utc'][:10]} for 31 October–11 November 2026 (leads 3–14, three states), and episode 2, a Chronos-2 competitor, on {fz2['issued_utc'][:10]} UTC for 1–11 November; episode 2 was observed on the public repository before its first target day. The scorer checks that the forecast file is byte-identical to the original freeze commit. Both episodes use ordinary calendar features only, so they do not test typed versus pooled festival flags, and the window contains Diwali 2026, which none of the models was given. All forecasts have MASE above 1 on this window (episode 1: {PRO['lo1']:.3f} to {PRO['hi1']:.3f}), but every forecasting model beats the last-value and weekly-repeat baselines; Chronos-2 with calendar features has the lowest error in episode 2 (Table 11). The TimesFM-3 80% intervals cover {PRO['cov_lo']:.2f} to {PRO['cov_hi']:.2f} of the 36 targets across its two arms and three interval calibrations. These are single 12-day episodes on one shared source, so no ranking or significance claim is made.
+
+Table 11. Frozen prospective episodes: MASE on all eligible targets (three states). Both episodes use the same forecast origin (29 October); episode 2 adds Chronos-2, and its other rows are the episode-1 forecasts restricted to the episode-2 targets.
+
+{chr(10).join(t_pro)}
 
 ## 8. Limitations
 
@@ -565,7 +588,7 @@ All leads, cohorts and registered contrasts are in the supplement CSV files.
 # guards
 used = re.findall(r"\{table\('([^']+)'\)\}", Path(__file__).read_text())
 assert sorted(used) == sorted(set(used)) and len(used) == 15, used
-assert md.count('[Pending') == 1
+assert md.count('[Pending') == 0
 OUT.mkdir(parents=True, exist_ok=False)
 shutil.copytree(V8/'figures', OUT/'figures')
 per_year_figure(OUT/'figures'/'per_year')
@@ -580,9 +603,9 @@ subprocess.run(['soffice', '-env:UserInstallation=file:///tmp/tsfm-journal-v9-lo
                check=True, capture_output=True)
 abstract = md.split('## Abstract\n\n', 1)[1].split('\n\n', 1)[0]
 json.dump(dict(created_utc=datetime.datetime.now(datetime.timezone.utc).isoformat(),
-               status='Journal-format draft v9 for supervisor review; not submitted; frozen-forecast section pending.',
+               status='Journal-format draft v9 for supervisor review; not submitted; not independently reviewed beyond an internal check.',
                base={'manuscript/integrated_review_v7/MANUSCRIPT.md': sha(V7/'MANUSCRIPT.md'), 'manuscript/journal_v8/MANUSCRIPT.md': sha(V8/'MANUSCRIPT.md')},
-               new_inputs={str(p.relative_to(ROOT)): sha(p) for d in (SA/'analysis', SB/'analysis', FD) for p in sorted(d.glob('*'))} | {str(HYP.relative_to(ROOT)): sha(HYP)},
+               new_inputs={str(p.relative_to(ROOT)): sha(p) for d in (SA/'analysis', SB/'analysis', FD, P1, P2, PI) for p in sorted(d.glob('*'))} | {str(HYP.relative_to(ROOT)): sha(HYP)},
                commits=COMMITS, commit_times_utc=CT, v7_tables_copied=used, abstract_words=len(abstract.split()),
                words_main_text=len(md.split('## Declarations')[0].split()),
                outputs={p.name: sha(p) for p in [OUT/'MANUSCRIPT.md', docx]}), open(OUT/'build.json', 'w'), indent=1)
