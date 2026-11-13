@@ -1,0 +1,94 @@
+Completed rich refits Uttar Pradesh 2017
+Completed rich refits Uttar Pradesh 2018
+Completed rich refits Uttar Pradesh 2019
+Completed rich refits Uttar Pradesh 2020
+Completed rich refits Uttar Pradesh 2021
+Completed rich refits Uttar Pradesh 2022
+Completed rich refits Uttar Pradesh 2023
+Completed rich refits Uttar Pradesh 2024
+Completed rich refits Uttar Pradesh 2025
+Completed rich refits Rajasthan 2017
+Completed rich refits Rajasthan 2018
+Completed rich refits Rajasthan 2019
+Completed rich refits Rajasthan 2020
+Completed rich refits Rajasthan 2021
+Completed rich refits Rajasthan 2022
+Completed rich refits Rajasthan 2023
+Completed rich refits Rajasthan 2024
+Completed rich refits Rajasthan 2025
+Completed rich refits Madhya Pradesh 2017
+Completed rich refits Madhya Pradesh 2018
+Completed rich refits Madhya Pradesh 2019
+Completed rich refits Madhya Pradesh 2020
+Completed rich refits Madhya Pradesh 2021
+Completed rich refits Madhya Pradesh 2022
+Completed rich refits Madhya Pradesh 2023
+Completed rich refits Madhya Pradesh 2024
+Completed rich refits Madhya Pradesh 2025
+Completed rich refits Gujarat 2017
+Completed rich refits Gujarat 2018
+Completed rich refits Gujarat 2019
+Completed rich refits Gujarat 2020
+Completed rich refits Gujarat 2021
+Completed rich refits Gujarat 2022
+Completed rich refits Gujarat 2023
+Completed rich refits Gujarat 2024
+Completed rich refits Gujarat 2025
+Completed rich refits Telangana 2017
+Completed rich refits Telangana 2018
+Completed rich refits Telangana 2019
+Completed rich refits Telangana 2020
+Completed rich refits Telangana 2021
+Completed rich refits Telangana 2022
+Completed rich refits Telangana 2023
+Completed rich refits Telangana 2024
+Completed rich refits Telangana 2025
+Completed rich refits Andhra Pradesh 2017
+Completed rich refits Andhra Pradesh 2018
+Completed rich refits Andhra Pradesh 2019
+Completed rich refits Andhra Pradesh 2020
+Completed rich refits Andhra Pradesh 2021
+Completed rich refits Andhra Pradesh 2022
+Completed rich refits Andhra Pradesh 2023
+Completed rich refits Andhra Pradesh 2024
+Completed rich refits Andhra Pradesh 2025
+Completed rich refits Tamil Nadu 2017
+Completed rich refits Tamil Nadu 2018
+Completed rich refits Tamil Nadu 2019
+Completed rich refits Tamil Nadu 2020
+Completed rich refits Tamil Nadu 2021
+Completed rich refits Tamil Nadu 2022
+Completed rich refits Tamil Nadu 2023
+Completed rich refits Tamil Nadu 2024
+Completed rich refits Tamil Nadu 2025
+{
+  "seconds": 1054.613783613,
+  "rows": 66570,
+  "selection_fits": 1512,
+  "deployment_fits": 2268,
+  "selected": 189,
+  "failures": [],
+  "checks": {
+    "scored_rows": 66528,
+    "cases_per_configuration": 66528,
+    "checks": [
+      "finite/unique predictions",
+      "matched cases",
+      "source labels",
+      "lead/date alignment"
+    ]
+  },
+  "packages": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scikit-learn": "1.8.0",
+    "lightgbm": "4.7.0"
+  },
+  "hashes": {
+    "src/robust_baselines.py": "568152c6351826389ae8248fe50fe5bcde5f8db82dfe715c691d6a5f63bca88c",
+    "src/forecasting.py": "8a6b9b1e8632a2bf77d9855a1d370ed23c350ffe731138787e30c609a59ec21e",
+    "src/extended_validation.py": "2312ef9ef5f78ad8bf47b47999576cd0875c7ba3adca53acfb5434b83b2f8218",
+    "results/new_states_v1_selection_tree/protocol.json": "127b1968f0da46bc22d3a3b793dc76721fae814472b7f409d149c9d1dfee51d8",
+    "data/external/latest_state_energy_GWh.csv": "74d22d5e85b022db13d97dad7c84dca5b9dc8e38d23570bf095d870e71a2f690"
+  }
+}
