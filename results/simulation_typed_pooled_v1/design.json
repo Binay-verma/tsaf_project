@@ -1,0 +1,60 @@
+{
+ "seed": 20261114,
+ "mu": -0.06,
+ "sigma": 2.0,
+ "phi": 0.7,
+ "z": [
+  -1.41,
+  -0.71,
+  0.0,
+  0.71,
+  1.41
+ ],
+ "base_doy": [
+  70,
+  110,
+  245,
+  280,
+  310
+ ],
+ "h_grid": [
+  0.0,
+  0.25,
+  0.5,
+  1.0,
+  2.0
+ ],
+ "omega_grid": [
+  0.0,
+  0.5
+ ],
+ "replications": {
+  "ridge": 200,
+  "lightgbm": 50,
+  "lightgbm_capacity2": 50
+ },
+ "lightgbm": {
+  "n_estimators": 200,
+  "learning_rate": 0.05,
+  "num_leaves": 15,
+  "subsample": 1.0,
+  "colsample_bytree": 1.0,
+  "verbose": -1,
+  "n_jobs": 1
+ },
+ "event_years": [
+  2017,
+  2018,
+  2019,
+  2020,
+  2021,
+  2022,
+  2023,
+  2024,
+  2025
+ ],
+ "days": [
+  "2015-01-01",
+  "2025-12-31"
+ ]
+}
