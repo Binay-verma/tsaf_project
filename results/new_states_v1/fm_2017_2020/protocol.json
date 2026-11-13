@@ -1,0 +1,144 @@
+{
+  "experiment": "new_states_v1/fm_2017_2020",
+  "created_utc": "2026-11-13T13:27:06.642186+00:00",
+  "author": "Binay Verma",
+  "status": "Registered before any parameter selection or forecast for these states; no outcome of these states has been evaluated in this project.",
+  "states": [
+    "Uttar Pradesh",
+    "Rajasthan",
+    "Madhya Pradesh",
+    "Gujarat",
+    "Telangana",
+    "Andhra Pradesh",
+    "Tamil Nadu"
+  ],
+  "scope": {
+    "Andhra Pradesh": [
+      "Holi",
+      "Ugadi_Gudi_Padwa",
+      "Ganesh_Chaturthi",
+      "Dussehra",
+      "Diwali"
+    ],
+    "Telangana": [
+      "Holi",
+      "Ugadi_Gudi_Padwa",
+      "Ganesh_Chaturthi",
+      "Dussehra",
+      "Diwali"
+    ],
+    "Tamil Nadu": [
+      "Ugadi_Gudi_Padwa",
+      "Ganesh_Chaturthi",
+      "Dussehra",
+      "Diwali"
+    ],
+    "Madhya Pradesh": [
+      "Holi",
+      "Ugadi_Gudi_Padwa",
+      "Dussehra",
+      "Diwali"
+    ],
+    "Gujarat": [
+      "Holi",
+      "Dussehra",
+      "Diwali"
+    ],
+    "Rajasthan": [
+      "Holi",
+      "Dussehra",
+      "Diwali"
+    ],
+    "Uttar Pradesh": [
+      "Holi",
+      "Dussehra",
+      "Diwali"
+    ]
+  },
+  "event_years": [
+    2017,
+    2018,
+    2019,
+    2020
+  ],
+  "calendar_years": [
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "arms": [
+    "calendar",
+    "day5",
+    "pooled_day5"
+  ],
+  "models": [
+    "chronos",
+    "timesfm"
+  ],
+  "parameter_selection": {
+    "ridge": "results/new_states_v1_selection_ridge",
+    "tree": "results/new_states_v1_selection_tree"
+  },
+  "hypotheses": {
+    "H1": "SARIMAX(1,0,0)(1,0,0,7): typed-day minus pooled-day event MASE at lead 1 is NEGATIVE (typed better).",
+    "H2": "TimesFM-3 (pinned weights): typed-day minus pooled-day event MASE at lead 1 is POSITIVE (pooled better).",
+    "H3": "LightGBM with minimum leaf size fixed at 2 (parameters otherwise from the pre-year selection): typed-day minus pooled-day event MASE at lead 1 is POSITIVE (pooled better)."
+  },
+  "reported_not_tested": [
+    "ridge",
+    "lightgbm (stable)",
+    "chronos",
+    "all arms, leads 7 and 14",
+    "zero and placebo controls (local models only; foundation runs use calendar, typed-day and pooled-day arms)"
+  ],
+  "test": "Per state, family and year: mean lead-1 MASE over the event cases, typed-day minus pooled-day. Cluster = family-year; cluster value = equal-weight mean over the states in that cluster. Statistic = mean over clusters. One-sided sign-flip p in the hypothesised direction, Monte Carlo with 1,000,000 sign draws (numpy default_rng seed 20261113), p = (k+1)/(N+1). Holm across H1-H3, alpha 0.05.",
+  "decision": "CONFIRMED if the Holm-adjusted p < 0.05 AND the year means (each year = mean of its family-year clusters) have the hypothesised sign in at least 6 of the 9 event years. CONTRADICTED if the overall mean has the opposite sign and its opposite-direction one-sided p < 0.05 (not Holm-adjusted). Otherwise NOT CONFIRMED.",
+  "sensitivity": "Pre-declared, reported alongside without changing the decision: (a) 2020-2021 removed (COVID); (b) only rows with an official or government-reproduction source.",
+  "conventions": [
+    "anchors = state-listed festival days as checked (review/new_states_v1/DESIGN_DRAFT.md conventions 1-6)",
+    "weekend festivals stay flagged; optional-only years get no flag",
+    "case rule, frames, placebos (seed 42), regression and SARIMAX code as Stage A",
+    "cases whose label is missing or non-positive are dropped before registration"
+  ],
+  "threads": 2,
+  "seed": 42,
+  "batch": 16,
+  "expected_tasks": 2073,
+  "input_hashes": {
+    "src/new_states_v1.py": "d0ab7f72a05ded25456e5f9a220b9ce11b7e33ca03a2c9461d3149c8cb3ec68b",
+    "src/new_states_analysis_v1.py": "7fbe9730acdecaffa50afa2fbb78a203ce4bd1533b27ea6fe6edebf2438b7d7b",
+    "src/test_new_states_v1.py": "1446d997d8b5930bca029874f7c6db4afeee1a201994a41af60fc7ee62f2ed08",
+    "src/longer_panel_stage_a_v1.py": "f31e3b2cc430928833b2b1b1de72e1e1123b59f5c2674e182e68d6a579e1e17c",
+    "src/breadth_model_engine_v1.py": "051861ddc30513087ec726a8215f42d700a4c26ca43584031cdcc41026e6914d",
+    "src/robust_baselines.py": "568152c6351826389ae8248fe50fe5bcde5f8db82dfe715c691d6a5f63bca88c",
+    "src/stable_tree_refit.py": "b52cb8b7b755b4afa81a742605a1adf161e6fcdea112faa20846dd834245c986",
+    "src/extended_validation.py": "2312ef9ef5f78ad8bf47b47999576cd0875c7ba3adca53acfb5434b83b2f8218",
+    "src/forecasting.py": "8a6b9b1e8632a2bf77d9855a1d370ed23c350ffe731138787e30c609a59ec21e",
+    "src/ziel_foundation_v1.py": "990b1a8daa451e1d98adf45de38bc68825a155f0ad2a43aeb5db8e86051adc89",
+    "src/festival_feature_design.py": "54e9dd42e3784b5f20208f08eb54ff823914fd342237b0fccda28bf08cb271c2",
+    "src/cluster_inference_v1.py": "b1920d31527c6b0d52dc542301288d05af82ec0b22e2d9329418e7372692c260",
+    "data/external/new_states_energy_GWh.csv": "6975394f0e5f33d939070f8cdee73dcd45e5fd51c621c0dc90f2695141766906",
+    "data/external/POSOCO_data.csv": "ccd6e643155ec00fbd4a7fcea95635c424189e9bcee1b2b2f8e85a08dc94010e",
+    "review/new_states_v1/calendar_entries_2015_2025.csv": "4b785cc0f3d84f50b9c4f228251d7488917ff7d5ff45aa5ed870460f9354edf8",
+    "review/new_states_v1/DESIGN_DRAFT.md": "52e4755262f3eea06c49c7c4114957c19cbeedb75f5939650dced74e140a101e",
+    "results/strong_refit_v1/protocol.json": "e0c7d8532de5faf31d16c6d8552e78ecc7f60eedfc3c977f0f93990ad8d37324",
+    "results/stable_tree_refit_v2/protocol.json": "4da8160ce45801e1b9e8ca134334a46bfd9d29f1f5ed6d28e76a988cb1fe34c3",
+    "results/feature_breadth_v1/event_window/protocol.json": "705c32713d427739ed872fb4dcaa7747393cb04f4f14562490554ac137af8a1b",
+    "results/mechanism_controls_v1/chronos_download.json": "b7bc0b9b2f018de37b60148e226546dd15e47965efdc246f500062721f3f3c15",
+    "results/second_model_audit_v1/weight_download.json": "33513d544578b60db98abd0ad667c97597e0b7b49062588a87fc980b012c4cf4"
+  },
+  "design_hashes": {
+    "window_cases.csv": "5ef61c9795ba871621f2994f203d94a0eff4ce6187b2f0339b73dda7d6b7546b",
+    "primary_cases.csv": "5ef61c9795ba871621f2994f203d94a0eff4ce6187b2f0339b73dda7d6b7546b",
+    "../anchors_2015_2025.csv": "6f8d528d6d77075994a4e209ac337b626cee805e314ff82ae2054a2fd40e1dd2",
+    "../placebo_anchors_2015_2025.csv": "a4ab69d786aeb94f575d1de8e8d6170b44d458295a8eaa64de415715265b15ff"
+  }
+}

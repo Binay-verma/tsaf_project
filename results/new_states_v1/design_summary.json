@@ -1,0 +1,30 @@
+{
+  "event_cases": 5157,
+  "dropped_missing_label": 0,
+  "by_year": {
+    "2017": 576,
+    "2018": 576,
+    "2019": 555,
+    "2020": 558,
+    "2021": 576,
+    "2022": 582,
+    "2023": 579,
+    "2024": 567,
+    "2025": 588
+  },
+  "by_state": {
+    "Andhra Pradesh": 882,
+    "Gujarat": 609,
+    "Madhya Pradesh": 762,
+    "Rajasthan": 600,
+    "Tamil Nadu": 756,
+    "Telangana": 945,
+    "Uttar Pradesh": 603
+  },
+  "clusters": 45,
+  "states_per_cluster": 5.33,
+  "foundation_tasks": {
+    "fm_2017_2020": 2073,
+    "fm_2021_2025": 2598
+  }
+}
