@@ -1,6 +1,6 @@
 {
- "created_utc": "2026-11-12T16:58:32.648372+00:00",
- "status": "Journal-format draft v9 for supervisor review; not submitted; two sections pending (foundation 2022-2023, frozen forecasts).",
+ "created_utc": "2026-11-13T03:47:44.566394+00:00",
+ "status": "Journal-format draft v9 for supervisor review; not submitted; frozen-forecast section pending.",
  "base": {
   "manuscript/integrated_review_v7/MANUSCRIPT.md": "139afd9a7649d69204a1e10a320a6513806bd484813302c94e63faeff9834941",
   "manuscript/journal_v8/MANUSCRIPT.md": "569a8c13353b51d2a11e5d2d82a6e8702d20b8a877f0b1b4702e305af71af410"
@@ -16,6 +16,12 @@
   "results/longer_panel_stage_b_v1/analysis/hypothesis_tests.csv": "2ae974ee183d5fcd19f2749d33c93f76c94e58c38d608110053b08c8c0b3b47d",
   "results/longer_panel_stage_b_v1/analysis/sensitivity_without_2020.csv": "b29a6beedbd7411e1bb83ae070c9799dfe1c3a23e6a14a576a05b868278a4806",
   "results/longer_panel_stage_b_v1/analysis/summary.json": "fe3fb679e000c2ac8ec383585b76d89ba4b939054e2af34e42935c2521025108",
+  "results/longer_panel_foundation_v1/analysis/controls.csv": "5ca329bee27e064dddb7b520ad83c121c709457910dd9968db68c2aef738df5f",
+  "results/longer_panel_foundation_v1/analysis/event_balanced.csv": "eee81eda85c327883621f5c2d76c07ce573dc652ed8f76bfc4c96b539a318254",
+  "results/longer_panel_foundation_v1/analysis/ordinary_balanced.csv": "7634e802f56bc694249a82f0dba8687c60c094358d4a70e31e2fcaf735597e39",
+  "results/longer_panel_foundation_v1/analysis/reproduction.json": "61641e8e18d2d9a40c21b46c940711f8534048d6c098658f6324892e68a28813",
+  "results/longer_panel_foundation_v1/analysis/summary.json": "68c340ba4d515bae20c09ae5a9fda778ed084306a44f67772ae613adbdd133c1",
+  "results/longer_panel_foundation_v1/analysis/typed_vs_pooled.csv": "374353facb1b600f216234f08a9d4e89a1affb0ea4ba8ed2f345e5fbee5eb8e6",
   "results/model_class_hypothesis_v1/registration.json": "1c61d16cf2ec9ef589576dddca6cb03fba9fdb08a51568e6a7ba7cfb212d7e3f"
  },
  "commits": {
@@ -23,14 +29,18 @@
   "Stage A results": "b2bebc3",
   "hypothesis": "dec1274",
   "Stage B protocol": "65d1880",
-  "Stage B results": "395c378"
+  "Stage B results": "395c378",
+  "foundation protocol": "5f71883",
+  "foundation results": "9064eea"
  },
  "commit_times_utc": {
   "Stage A protocol": "2026-11-11T13:23:06+00:00",
   "Stage A results": "2026-11-11T13:49:09+00:00",
   "hypothesis": "2026-11-11T14:13:31+00:00",
   "Stage B protocol": "2026-11-11T14:18:52+00:00",
-  "Stage B results": "2026-11-11T14:25:54+00:00"
+  "Stage B results": "2026-11-11T14:25:54+00:00",
+  "foundation protocol": "2026-11-11T14:22:10+00:00",
+  "foundation results": "2026-11-12T23:36:38+00:00"
  },
  "v7_tables_copied": [
   "Table 1",
@@ -49,10 +59,10 @@
   "Table A5",
   "Table 5"
  ],
- "abstract_words": 177,
- "words_main_text": 5256,
+ "abstract_words": 179,
+ "words_main_text": 5694,
  "outputs": {
-  "MANUSCRIPT.md": "4c05ad9bd5eccc35ded31c7a433794a1d4cb7bb757e9ca7d484e240d2c46ceb3",
-  "Typed_or_Pooled_Binay_Verma_v9.docx": "78b7654e9333de441375ca262e1452696d47354c74ded6581845c656b4f3694e"
+  "MANUSCRIPT.md": "64a7ec81754edd2c1c1f029a68d09465d849bd0b753ee990aafb10d6ac0fa0ba",
+  "Typed_or_Pooled_Binay_Verma_v9.docx": "b8ddc94d8415a55fdae458c0e9dfc4a087342545b68d66e79129d8268d6782d7"
  }
 }

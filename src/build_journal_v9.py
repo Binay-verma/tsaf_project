@@ -151,7 +151,7 @@ def s4(x):
     return f'{float(x):+.4f}'.replace('+-', '-').replace('-', '−')
 
 
-SHORT = {'ridge': 'Ridge', 'sarimax': 'SARIMAX', 'lightgbm': 'LGBM', 'lightgbm_capacity2': 'LGBM-2'}
+SHORT = {'ridge': 'Ridge', 'sarimax': 'SARIMAX', 'lightgbm': 'LGBM', 'lightgbm_capacity2': 'LGBM-2', 'chronos': 'Chronos-2', 'timesfm': 'TimesFM-3'}
 t_sa = ['| Model | Rep. | All years | 2022 | 2023 | 2024 | 2025 | Same sign | p | Holm p |',
         '| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |']
 for m in LOCAL:
@@ -203,7 +203,26 @@ SB_N = dict(h2=s4(h2['typed_minus_pooled']), h2p=f"{float(h2['p_one_sided']):.4f
             h2s=s4(h2s['typed_minus_pooled']), h2sh=f"{float(h2s['holm']):.4f}",
             h1b=s4(h1b['typed_minus_pooled']), h1bp=f"{float(h1b['p_one_sided']):.4f}", h1bs=s4(h1bs['typed_minus_pooled']), h1bsp=f"{float(h1bs['p_one_sided']):.4f}",
             ridge=s4(SBY['ridge']['mean']), lgb=f5(lgb_arms['calendar']))
-COMMITS = {'Stage A protocol': 'd60df30', 'Stage A results': 'b2bebc3', 'hypothesis': 'dec1274', 'Stage B protocol': '65d1880', 'Stage B results': '395c378'}
+# foundation models over Stage A (Kaggle run, exploratory)
+FD = ROOT/'results/longer_panel_foundation_v1/analysis'
+fs = json.load(open(FD/'summary.json'))
+for f, h in fs['outputs'].items():
+    assert sha(FD/f) == h, f
+assert fs['reproduction']['passed'] and fs['reproduction']['within_tolerance'] == fs['reproduction']['rows'] == 1584
+ftv = read(FD/'typed_vs_pooled.csv'); fct = read(FD/'controls.csv')
+t_fd = ['| Model | Rep. | Typed | Pooled | All years | 2022 | 2023 | 2024 | 2025 | Same sign | p | Holm p |', '| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |']
+for m in ['chronos', 'timesfm']:
+    for rep in ['day', 'window']:
+        r = g(ftv, model=m, representation=rep, lead=1)
+        t_fd.append(f"| {SHORT[m]} | {rep} | {f5(r['typed'])} | {f5(r['pooled'])} | {s4(r['typed_minus_pooled'])} | " + ' | '.join(s4(r[f'year_{y}']) for y in YA)
+                    + f" | {r['years_same_sign']}/4 | {float(r['p_signflip']):.4f} | {float(r['holm_primary']):.3f} |")
+fsup = [r for r in ftv if r['supported'] == 'True']
+assert len(fsup) == 1 and fsup[0]['model'] == 'timesfm' and fsup[0]['representation'] == 'day' and fsup[0]['lead'] == '1'
+FN = dict(tf=g(ftv, model='timesfm', representation='day', lead=1), ch=g(ftv, model='chronos', representation='day', lead=1),
+          tfc=g(fct, model='timesfm', lead=1), chc=g(fct, model='chronos', lead=1))
+f_gap = max(abs(float(FN[k][a])-float(FN[k]['calendar'])) for k in ['tfc', 'chc'] for a in ['zero5', 'placebo_day5', 'placebo_window5'])
+f_raw = sum(float(r['p_signflip']) < 0.05 for r in ftv)
+COMMITS = {'Stage A protocol': 'd60df30', 'Stage A results': 'b2bebc3', 'hypothesis': 'dec1274', 'Stage B protocol': '65d1880', 'Stage B results': '395c378', 'foundation protocol': '5f71883', 'foundation results': '9064eea'}
 for k, c in COMMITS.items():
     assert subprocess.run(['git', 'cat-file', '-e', c], cwd=ROOT).returncode == 0, k
 CT = {k: subprocess.run(['git', 'show', '-s', '--format=%cI', c], cwd=ROOT, capture_output=True, text=True).stdout.strip() for k, c in COMMITS.items()}
@@ -229,7 +248,7 @@ def per_year_figure(path):
 
 # ---------------- manuscript ----------------
 TITLE = 'Typed or pooled festival indicators? The answer depends on the model class: Indian electricity evidence with a registered follow-up test'
-PENDING_F = '**[Pending: foundation models on 2022–2023.]** A registered run (results/longer_panel_foundation_v1, commit 5f71883) extends Chronos-2 and TimesFM-3 to the Stage A years, with a reproduction check on 2024. Its results will be inserted here; until then, the foundation-model evidence is limited to 2024–2025 (Section 5.1).'
+
 PENDING_P = '**[Pending: frozen prospective forecasts.]** Forecasts frozen before their targets existed (31 October–11 November 2026) are to be scored with the first complete actual vintage from 12 November 2026. They do not test the typed-versus-pooled hypothesis directly.'
 md = f"""# {TITLE}
 
@@ -237,18 +256,18 @@ Binay Verma
 
 Affiliation: __________ . Corresponding author email: __________ .
 
-**Draft for supervisor review (journal format, version 9). Not submitted. Two marked sections are pending.**
+**Draft for supervisor review (journal format, version 9). Not submitted. One marked section is pending.**
 
 ## Abstract
 
-Forecasters who add festival indicators to a model must choose between one indicator per festival (typed) and one shared indicator (pooled). We compare the two for daily electricity in three Indian states, with matched zero-channel and placebo controls, for two foundation models and four local models. For the local models over four event years (1,056 festival-window cases, 20 family-year clusters), the better representation depends on the model class: LightGBM is better with a pooled flag (Holm p {float(SAN['lgb']['holm_primary']):.3f}), SARIMAX leans towards typed flags and Ridge shows no ordering. Stated as a hypothesis and committed to the repository before further data were evaluated, the SARIMAX preference held on Maharashtra event years 2019–2021 (Holm p {SB_N['h2h']}, all three years). The LightGBM test was uninformative, because the selected trees never split on the rare flags; the LightGBM advantage for pooling may reflect that only the pooled flag has enough flagged days to be used. Choosing the representation from last year's winner picked the worse one in {sa['follow_picked_worse']} of {sa['decision_cells']} cases, while averaging the two forecasts gave the smallest worst-case regret.
+Forecasters who add festival indicators to a model must choose between one indicator per festival (typed) and one shared indicator (pooled). We compare the two for daily electricity in three Indian states, with matched zero-channel and placebo controls, for two foundation models and four local models. Over four event years (1,056 festival-window cases, 20 family-year clusters), the better representation depends on the model: LightGBM (Holm p {float(SAN['lgb']['holm_primary']):.3f}) and TimesFM-3 (Holm p {float(FN['tf']['holm_primary']):.3f}) are better with a pooled flag, SARIMAX leans towards typed flags, and Ridge and Chronos-2 show no ordering. Stated as a hypothesis and committed to the repository before further data were evaluated, the SARIMAX preference held on Maharashtra event years 2019–2021 (Holm p {SB_N['h2h']}, all three years). The LightGBM test was uninformative, because the selected trees never split on the rare flags; the LightGBM advantage for pooling may reflect that only the pooled flag has enough flagged days to be used. Choosing the representation from last year's winner picked the worse one in {sa['follow_picked_worse']} of {sa['decision_cells']} cases, while averaging the two forecasts gave the smallest worst-case regret.
 
 **Keywords:** holiday effects; event covariates; load forecasting; time-series foundation models; forecast combination; pre-registration.
 
 ## Highlights
 
 - Typed and pooled festival flags compared with matched zero and placebo controls
-- SARIMAX prefers typed flags; LightGBM does better with one pooled flag
+- SARIMAX prefers typed flags; LightGBM and TimesFM-3 do better with a pooled flag
 - The SARIMAX preference held in a registered test on three further years
 - Trees ignore flags with fewer flagged days than their minimum leaf size
 - Averaging typed and pooled forecasts limits the worst-case loss
@@ -260,8 +279,8 @@ Holidays and festivals are rare, recurring and heterogeneous. A forecaster who a
 An earlier version of this study, with two event years and 10 family-year clusters, found that the ordering changed between years, models and data sources and that no ordering could be confirmed. This version doubles the evaluation period and adds a confirmatory step. Our contributions are:
 
 1. **A matched comparison.** Typed and pooled festival indicators are compared for two pinned TSFMs and four local models on identical cases, with a calendar baseline, an equal-dimension zero-channel control and weekday-shifted placebos, so that gains from adding channels and gains from festival information can be separated (Sections 3 and 4).
-2. **A model-class pattern over four years.** With 1,056 festival-window cases in 2022–2025 and hand-checked state calendars, the preferred representation depends on the model class (Section 5.2).
-3. **A registered follow-up test.** The pattern was written down as a hypothesis and committed before three further event years were evaluated; the SARIMAX part held, and the LightGBM part could not be tested because the selected trees did not use any festival flag (Section 5.3).
+2. **A model-class pattern over four years.** With 1,056 festival-window cases in 2022–2025 and hand-checked state calendars, the preferred representation depends on the model: SARIMAX leans towards typed flags, while LightGBM and TimesFM-3 do better with one pooled flag (Sections 5.2 and 5.3).
+3. **A registered follow-up test.** The pattern was written down as a hypothesis and committed before three further event years were evaluated; the SARIMAX part held, and the LightGBM part could not be tested because the selected trees did not use any festival flag (Section 5.4).
 4. **Decision rules for uncertain orderings.** Following last year's winner often picks the worse representation, and an equal-weight average of the two representations limits the worst case (Section 6).
 
 We do not propose a new architecture, claim causal holiday effects or claim contamination-free testing of pretrained models. Section 2 reviews related work, Section 3 the data and calendars, Section 4 the models and evaluation, Sections 5 and 6 the results, and Sections 7 to 9 reproducibility, limitations and conclusions.
@@ -284,7 +303,7 @@ The target is daily energy met/supplied in GWh for Delhi, Karnataka and Maharash
 
 ### 3.2 Festival calendars
 
-Five festival families are used: Holi, Dussehra, Ganesh Chaturthi, Ugadi/Gudi Padwa and Diwali, each in the states where it is a listed holiday; Diwali has a main anchor and a state-listed second day. Each calendar row records its source document and was checked by hand before use, and the code refuses unchecked rows. For 2022–2025, twelve retained annual state documents support an internal review of all 58 named dates: 54 match the declared family, two are explicit shared-national-main exceptions, one Karnataka 2025 date did not match, and one Maharashtra 2022 Gudi Padwa date could not be corroborated from the retained one-page schedule. The Karnataka notification labels Vijayadasami on 1 October 2025 while the original ledger used 2 October (Gandhi Jayanthi); a separately registered flag-only correction and recentering are reported in the supplement. Rows for 2017–2021 were added for the longer panel from state notifications or third-party reproductions of them (for Maharashtra, only 2019 is from the official document) and checked by the author before the corresponding stage was registered; the Maharashtra 2017–2019 rows were checked after the hypothesis of Section 5.3 had been formed. A check found, for example, that a reposted 2019 Maharashtra list gave 26 October for Laxmi Pujan, while the official date was 27 October. Visible notification dates are not certified first-publication histories, so it is not established that every flag was publicly known at each forecast origin.
+Five festival families are used: Holi, Dussehra, Ganesh Chaturthi, Ugadi/Gudi Padwa and Diwali, each in the states where it is a listed holiday; Diwali has a main anchor and a state-listed second day. Each calendar row records its source document and was checked by hand before use, and the code refuses unchecked rows. For 2022–2025, twelve retained annual state documents support an internal review of all 58 named dates: 54 match the declared family, two are explicit shared-national-main exceptions, one Karnataka 2025 date did not match, and one Maharashtra 2022 Gudi Padwa date could not be corroborated from the retained one-page schedule. The Karnataka notification labels Vijayadasami on 1 October 2025 while the original ledger used 2 October (Gandhi Jayanthi); a separately registered flag-only correction and recentering are reported in the supplement. Rows for 2017–2021 were added for the longer panel from state notifications or third-party reproductions of them (for Maharashtra, only 2019 is from the official document) and checked by the author before the corresponding stage was registered; the Maharashtra 2017–2019 rows were checked after the hypothesis of Section 5.4 had been formed. A check found, for example, that a reposted 2019 Maharashtra list gave 26 October for Laxmi Pujan, while the official date was 27 October. Visible notification dates are not certified first-publication histories, so it is not established that every flag was publicly known at each forecast origin.
 
 ### 3.3 Evaluation cohorts
 
@@ -295,8 +314,8 @@ Table 1. Evaluation cohorts.
 | Cohort | Role | States | Event years | Event cases | Ordinary cases | Clusters | Models |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | Two-year (Section 5.1) | exploratory | 3 | 2024–2025 | 528 | 216 | 10 | 6 |
-| Stage A (Section 5.2) | exploratory | 3 | 2022–2025 | {sad['event_cases']:,} | {sad['ordinary_cases']} | {sad['family_year_clusters']} | 4 local |
-| Stage B (Section 5.3) | confirmatory | Maharashtra | 2019–2021 | {sbd['event_cases']} | – | {sbd['clusters']} | 4 local |
+| Stage A (Sections 5.2–5.3) | exploratory | 3 | 2022–2025 | {sad['event_cases']:,} | {sad['ordinary_cases']} | {sad['family_year_clusters']} | 6 |
+| Stage B (Section 5.4) | confirmatory | Maharashtra | 2019–2021 | {sbd['event_cases']} | – | {sbd['clusters']} | 4 local |
 
 ### 3.4 NYC transit replication
 
@@ -357,39 +376,45 @@ Table 4. Stage A controls: lead-1 event MASE.
 
 {chr(10).join(t_sactl)}
 
-### 5.3 Stage B: confirmatory test on unseen years
+### 5.3 Foundation models over four years
+
+The foundation models were extended to the Stage A years by a separately registered run (results/longer_panel_foundation_v1; protocol committed before any of its forecasts, run on a hosted CPU notebook). It first re-forecast the 2024 event cases for three reference arms: all {fs['reproduction']['rows']:,} forecasts matched the stored ones within the registered tolerance (largest difference {fs['reproduction']['max_abs_difference']:.5f} GWh), so the new 2022–2023 forecasts were combined with the stored 2024–2025 ones. This analysis is exploratory: the registered model-class hypothesis concerns the local models only.
+
+Table 5 gives the lead-1 contrasts. TimesFM-3 is better with the pooled day flag ({s4(FN['tf']['typed_minus_pooled'])}, Holm p {float(FN['tf']['holm_primary']):.3f}, all four years), which passes the Stage A rule. The two new years agree with the 2024–2025 pattern noted in the earlier version as an expectation for future confirmation ({s4(FN['tf']['year_2022'])} in 2022 and {s4(FN['tf']['year_2023'])} in 2023), although that expectation was not registered as a hypothesis. The pooled day flag lowers TimesFM-3 MASE from {f5(FN['tfc']['calendar'])} (calendar) to {f5(FN['tfc']['pooled_day5'])}, while the typed flags give {f5(FN['tfc']['day5'])}. Chronos-2 shows no ordering ({s4(FN['ch']['typed_minus_pooled'])}, raw p {float(FN['ch']['p_signflip']):.4f}) and gains little from either flag. The zero-channel and placebo arms stay within {f_gap:.4f} of calendar for both models. Unlike the stable LightGBM, TimesFM-3 receives the flags as input channels and can in principle use typed flags, so its preference for pooling is not explained by a minimum leaf size.
+
+Table 5. Foundation models over Stage A (2022–2025, 20 clusters): lead-1 MASE and typed minus pooled contrast. Positive favours pooling. Holm over the four lead-1 cells. 2022–2023 forecasts from the registered extension; 2024–2025 from the stored runs.
+
+{chr(10).join(t_fd)}
+
+### 5.4 Stage B: registered test on further years
 
 Because the model-class pattern was found in the Stage A data, it was stated as a hypothesis before any new test data were used: H1, Stable LightGBM favours the pooled day flag; H2, SARIMAX favours typed day flags; H1b (secondary), the same as H1 for the leaf-2 LightGBM; H3, Ridge, reported only. The test data are Maharashtra event years 2019–2021, which had not been evaluated as targets by any model or arm; their 2020–2021 values were, however, training history for the 2022–2023 Stage A models, and Maharashtra is one of the Stage A states. Calendars for 2017–2021 were checked by hand ({sbd['event_cases']} cases, {sbd['clusters']} clusters, no missing labels). The decision rule was fixed in advance: one-sided exact sign-flip p over 15 clusters, Holm across H1 and H2, and the sign must hold in at least two of three years; the COVID year 2020 is removed as a pre-declared sensitivity.
 
-Table 5 gives the result. H2 is confirmed ({SB_N['h2']}, one-sided p {SB_N['h2p']}, Holm p {SB_N['h2h']}, all three years) and still holds without 2020 ({SB_N['h2s']}, Holm p {SB_N['h2sh']}). H1 is exactly zero, which makes the test uninformative rather than evidence against H1: for lead 1 the pre-year selection chose a minimum of 20 samples per leaf in all three years, while the pooled flag is set on at most 13 and a typed flag on at most four of the 730 training days, so no tree splits on any festival column and every arm gives the same forecast (balanced MASE {SB_N['lgb']} for all five arms, Table 6). The same mechanism explains the exact tie in Stage A's 2024. It could have been anticipated from that tie but was not written into the registration, so the registered decision stands. The leaf-2 LightGBM, whose trees can use the flags, favours pooling ({SB_N['h1b']}, unadjusted one-sided p {SB_N['h1bp']}, two of three years; 2019 has the opposite sign); the registration fixed a decision rule only for H1 and H2, so this secondary result is descriptive, and it does not hold without 2020 ({SB_N['h1bs']}, p {SB_N['h1bsp']}). Rich Ridge favours typed flags in Maharashtra ({SB_N['ridge']}), unlike Stage A. Figure 2 shows the yearly contrasts across both stages.
+Table 6 gives the result. H2 is confirmed ({SB_N['h2']}, one-sided p {SB_N['h2p']}, Holm p {SB_N['h2h']}, all three years) and still holds without 2020 ({SB_N['h2s']}, Holm p {SB_N['h2sh']}). H1 is exactly zero, which makes the test uninformative rather than evidence against H1: for lead 1 the pre-year selection chose a minimum of 20 samples per leaf in all three years, while the pooled flag is set on at most 13 and a typed flag on at most four of the 730 training days, so no tree splits on any festival column and every arm gives the same forecast (balanced MASE {SB_N['lgb']} for all five arms, Table 7). The same mechanism explains the exact tie in Stage A's 2024. It could have been anticipated from that tie but was not written into the registration, so the registered decision stands. The leaf-2 LightGBM, whose trees can use the flags, favours pooling ({SB_N['h1b']}, unadjusted one-sided p {SB_N['h1bp']}, two of three years; 2019 has the opposite sign); the registration fixed a decision rule only for H1 and H2, so this secondary result is descriptive, and it does not hold without 2020 ({SB_N['h1bs']}, p {SB_N['h1bsp']}). Rich Ridge favours typed flags in Maharashtra ({SB_N['ridge']}), unlike Stage A. Figure 2 shows the yearly contrasts across both stages.
 
-Table 5. Stage B (Maharashtra 2019–2021, 15 clusters): registered hypothesis tests at lead 1 (day flags), typed minus pooled MASE. H1 and H1b expect a positive value (pooling better), H2 a negative one. H1b is secondary and not Holm-adjusted. Decision rule: Holm p below 0.05 and the expected sign in at least two of three years.
+Table 6. Stage B (Maharashtra 2019–2021, 15 clusters): registered hypothesis tests at lead 1 (day flags), typed minus pooled MASE. H1 and H1b expect a positive value (pooling better), H2 a negative one. H1b is secondary and not Holm-adjusted. Decision rule: Holm p below 0.05 and the expected sign in at least two of three years.
 
 {chr(10).join(t_sb)}
 
-Table 6. Stage B controls: lead-1 event MASE (Maharashtra 2019–2021).
+Table 7. Stage B controls: lead-1 event MASE (Maharashtra 2019–2021).
 
 {chr(10).join(t_sbctl)}
 
 ![Figure 2. Lead-1 typed minus pooled MASE (day flags) by year for the local models. Positive values favour pooling. Stage B uses Maharashtra only; Stage A averages three states.](figures/per_year.png)
 
-### 5.4 Foundation models over four years
-
-{PENDING_F}
-
 ### 5.5 Closest-method comparators
 
-Ziel's designs (Table 7) improve on the calendar baseline in all 12 Indian local model/lead cells for each design in 2024–2025, but the additive typed and pooled day flags also do so in 22 of their 24 cells, and the replacing designs differ consistently from the additive flags they carry in only 3 (Rph) and 4 (RpH) of 12 cells. For SARIMAX and Rich Ridge the typed replacing design (RpH) has the lowest lead-1 MASE among the arms in Table 7, which agrees with the SARIMAX preference for typed flags. In NYC event windows hSun raises MASE relative to calendar in all 12 local cells, and Rph and RpH in 9 and 6 of 12 (Appendix Tables A7 and A8).
+Ziel's designs (Table 8) improve on the calendar baseline in all 12 Indian local model/lead cells for each design in 2024–2025, but the additive typed and pooled day flags also do so in 22 of their 24 cells, and the replacing designs differ consistently from the additive flags they carry in only 3 (Rph) and 4 (RpH) of 12 cells. For SARIMAX and Rich Ridge the typed replacing design (RpH) has the lowest lead-1 MASE among the arms in Table 8, which agrees with the SARIMAX preference for typed flags. In NYC event windows hSun raises MASE relative to calendar in all 12 local cells, and Rph and RpH in 9 and 6 of 12 (Appendix Tables A7 and A8).
 
-Table 7. Ziel adaptations on Indian festival windows (2024–2025): local-model lead-1 MASE. The first three columns equal Table 2.
+Table 8. Ziel adaptations on Indian festival windows (2024–2025): local-model lead-1 MASE. The first three columns equal Table 2.
 
 {table('Table A6')}
 
 ### 5.6 NYC replication
 
-Table 8 repeats the main comparison on NYC. Within NYC, 36 of 144 family/mode/step cells favour pooling, 96 favour separate identities and 12 tie. India (2024–2025) and NYC agree in sign in 22 of 36 cells, are opposite in 11 and tie in 3. SARIMAX typed-day flags improve on calendar while pooled-day flags worsen it, consistent with the Indian SARIMAX result, whereas pooling helps the NYC ordinary sample (Appendix Table A2); Rich Ridge also prefers typed flags in NYC, while Chronos-2 prefers pooled.
+Table 9 repeats the main comparison on NYC. Within NYC, 36 of 144 family/mode/step cells favour pooling, 96 favour separate identities and 12 tie. India (2024–2025) and NYC agree in sign in 22 of 36 cells, are opposite in 11 and tie in 3. SARIMAX typed-day flags improve on calendar while pooled-day flags worsen it, consistent with the Indian SARIMAX result, whereas pooling helps the NYC ordinary sample (Appendix Table A2); Rich Ridge also prefers typed flags in NYC, while Chronos-2 prefers pooled.
 
-Table 8. NYC event windows: decision lead 1 (model step 8), MASE.
+Table 9. NYC event windows: decision lead 1 (model step 8), MASE.
 
 {table('Table 4')}
 
@@ -397,11 +422,11 @@ Table 8. NYC event windows: decision lead 1 (model step 8), MASE.
 
 If the better representation is uncertain, choosing it from past performance may not help. Using stored forecasts only, we compare always-typed, always-pooled, an equal-weight average of the typed and pooled point forecasts, and a rule that uses each year whichever representation had the lower balanced MASE in the previous year. Regret is MASE minus that of the better representation in hindsight for the same cell; it can be negative for the average. The rules were chosen after the instability had been observed, so this analysis is exploratory.
 
-Over the {sa['decision_cells']} Stage A decision cells (four local models, two representations, three leads, three years with a previous year), following last year's winner picks the worse representation in {sa['follow_picked_worse']} cells. Mean regret is {mr['follow']:.4f} for the follow rule, {mr['typed']:.4f} for always-typed, {mr['pooled']:.4f} for always-pooled and {mr['average']:.4f} for the average; the largest regret is {xr['follow']:.3f}, {xr['typed']:.3f}, {xr['pooled']:.3f} and {xr['average']:.3f} respectively (Table 9). The follow rule is not useless: its mean regret is below that of either fixed choice; but it picks the worse representation in {sa['follow_picked_worse']} of {sa['decision_cells']} cells and has the same worst case as always-typed. No test was run on these differences. For the 2024–2025 cohort with all six models and for NYC (all cells and leads; lead 1 in Appendix Tables A11 and A12), the largest regret of the average is below that of both fixed choices (India {N['xc_i']} against {N['xt_i']} and {N['xp_i']}; NYC {N['xc_n']} against {N['xt_n']} and {N['xp_n']}, only narrowly), while in NYC always-typed has the lower mean regret ({N['mt_n']} against {N['mc_n']}).
+Over the {sa['decision_cells']} Stage A decision cells (four local models, two representations, three leads, three years with a previous year), following last year's winner picks the worse representation in {sa['follow_picked_worse']} cells. Mean regret is {mr['follow']:.4f} for the follow rule, {mr['typed']:.4f} for always-typed, {mr['pooled']:.4f} for always-pooled and {mr['average']:.4f} for the average; the largest regret is {xr['follow']:.3f}, {xr['typed']:.3f}, {xr['pooled']:.3f} and {xr['average']:.3f} respectively (Table 10). The follow rule is not useless: its mean regret is below that of either fixed choice; but it picks the worse representation in {sa['follow_picked_worse']} of {sa['decision_cells']} cells and has the same worst case as always-typed. No test was run on these differences. For the 2024–2025 cohort with all six models and for NYC (all cells and leads; lead 1 in Appendix Tables A11 and A12), the largest regret of the average is below that of both fixed choices (India {N['xc_i']} against {N['xt_i']} and {N['xp_i']}; NYC {N['xc_n']} against {N['xt_n']} and {N['xp_n']}, only narrowly), while in NYC always-typed has the lower mean regret ({N['mt_n']} against {N['mc_n']}).
 
-By construction, the absolute error of an equal-weight average is at most the mean of the two absolute errors, so the average cannot be worse than the worse representation; its advantage is in limiting the worst case, it is not shown to improve typical accuracy, and it is not a new method. Combined with the model-class result, a cautious reading is: typed flags suit SARIMAX; tree models can use rare flags only if their minimum leaf size allows it, and then did better with a pooled flag; and the average is a safe default when the choice is unclear.
+By construction, the absolute error of an equal-weight average is at most the mean of the two absolute errors, so the average cannot be worse than the worse representation; its advantage is in limiting the worst case, it is not shown to improve typical accuracy, and it is not a new method. Combined with the model-class result, a cautious reading is: typed flags suit SARIMAX; TimesFM-3 did better with a pooled flag; tree models can use rare flags only if their minimum leaf size allows it, and then did better with a pooled flag; and the average is a safe default when the choice is unclear.
 
-Table 9. Stage A decision rules over {sa['decision_cells']} cells (regret in MASE relative to the hindsight-better representation).
+Table 10. Stage A decision rules over {sa['decision_cells']} cells (regret in MASE relative to the hindsight-better representation).
 
 | Rule | Mean regret | Largest regret |
 | --- | --- | --- |
@@ -418,11 +443,11 @@ Both foundation models are compared on their native quantiles 0.1–0.9 for 2024
 
 ## 8. Limitations
 
-The evidence covers three states, five festival families and a few hundred festival days. Stage B uses one state that was also part of Stage A, its 2020–2021 values were Stage A training history, and its 15 clusters give limited power; the SARIMAX result is not yet shown for Delhi or Karnataka or for event years evaluated only after registration. The LightGBM hypothesis could not be tested in Stage B, the cause was visible in Stage A, and the LightGBM pooling advantage may reflect flag counts rather than representation. The registration order rests on local commit history (Section 4.4). Foundation models are evaluated on 2024–2025 only until the pending run is added. Weather, supply constraints, coincident observances, source revisions and calendar amendments are alternative explanations; local models are refitted monthly and foundation models are frozen; weight dates do not rule out correlated pretraining exposure [5]. The decision-rule analysis is retrospective and covers only simple rules. The reuse terms of the electricity compilation are unresolved.
+The evidence covers three states, five festival families and a few hundred festival days. Stage B uses one state that was also part of Stage A, its 2020–2021 values were Stage A training history, and its 15 clusters give limited power; the SARIMAX result is not yet shown for Delhi or Karnataka or for event years evaluated only after registration. The LightGBM hypothesis could not be tested in Stage B, the cause was visible in Stage A, and the LightGBM pooling advantage may reflect flag counts rather than representation. The registration order rests on local commit history (Section 4.4). The foundation-model results for 2022–2023 come from a hosted notebook with Python 3.13; they reproduced the stored 2024 forecasts within tolerance but not bit for bit, and the TimesFM-3 pooling preference was not registered as a hypothesis. Weather, supply constraints, coincident observances, source revisions and calendar amendments are alternative explanations; local models are refitted monthly and foundation models are frozen; weight dates do not rule out correlated pretraining exposure [5]. The decision-rule analysis is retrospective and covers only simple rules. The reuse terms of the electricity compilation are unresolved.
 
 ## 9. Conclusion
 
-Festival day flags clearly improve Ridge and SARIMAX over a plain calendar, beyond what zero or placebo channels give. Whether typed or pooled flags are better depends on the model class. SARIMAX prefers typed flags, and this held on three further event years under a test committed to the repository beforehand. Tree models did better with a pooled flag, but they can use a flag only if it has more flagged days than their minimum leaf size; with the larger minimum leaf size selected in Stage B they ignored festival flags altogether. A forecaster who cannot tell in advance which representation will win can average the two forecasts to limit the worst case. Testing the tree-model hypothesis needs a registered design in which the trees can use the flags.
+Festival day flags clearly improve Ridge and SARIMAX over a plain calendar, beyond what zero or placebo channels give. Whether typed or pooled flags are better depends on the model class. SARIMAX prefers typed flags, and this held on three further event years under a test committed to the repository beforehand. TimesFM-3 also did better with a pooled flag over four years, a pattern that a registered test on future years could check. Tree models did better with a pooled flag, but they can use a flag only if it has more flagged days than their minimum leaf size; with the larger minimum leaf size selected in Stage B they ignored festival flags altogether. A forecaster who cannot tell in advance which representation will win can average the two forecasts to limit the worst case. Testing the tree-model hypothesis needs a registered design in which the trees can use the flags.
 
 ## Declarations
 
@@ -540,12 +565,12 @@ All leads, cohorts and registered contrasts are in the supplement CSV files.
 # guards
 used = re.findall(r"\{table\('([^']+)'\)\}", Path(__file__).read_text())
 assert sorted(used) == sorted(set(used)) and len(used) == 15, used
-assert md.count('[Pending') == 2
+assert md.count('[Pending') == 1
 OUT.mkdir(parents=True, exist_ok=False)
 shutil.copytree(V8/'figures', OUT/'figures')
 per_year_figure(OUT/'figures'/'per_year')
 shutil.copytree(V8/'supplement', OUT/'supplement')
-for d, prefix in [(SA/'analysis', 'stage_a'), (SB/'analysis', 'stage_b')]:
+for d, prefix in [(SA/'analysis', 'stage_a'), (SB/'analysis', 'stage_b'), (FD, 'foundation_stage_a')]:
     for f in sorted(d.glob('*.csv')):
         shutil.copy2(f, OUT/'supplement'/f'{prefix}_{f.name}')
 (OUT/'MANUSCRIPT.md').write_text(md)
@@ -555,9 +580,9 @@ subprocess.run(['soffice', '-env:UserInstallation=file:///tmp/tsfm-journal-v9-lo
                check=True, capture_output=True)
 abstract = md.split('## Abstract\n\n', 1)[1].split('\n\n', 1)[0]
 json.dump(dict(created_utc=datetime.datetime.now(datetime.timezone.utc).isoformat(),
-               status='Journal-format draft v9 for supervisor review; not submitted; two sections pending (foundation 2022-2023, frozen forecasts).',
+               status='Journal-format draft v9 for supervisor review; not submitted; frozen-forecast section pending.',
                base={'manuscript/integrated_review_v7/MANUSCRIPT.md': sha(V7/'MANUSCRIPT.md'), 'manuscript/journal_v8/MANUSCRIPT.md': sha(V8/'MANUSCRIPT.md')},
-               new_inputs={str(p.relative_to(ROOT)): sha(p) for d in (SA/'analysis', SB/'analysis') for p in sorted(d.glob('*'))} | {str(HYP.relative_to(ROOT)): sha(HYP)},
+               new_inputs={str(p.relative_to(ROOT)): sha(p) for d in (SA/'analysis', SB/'analysis', FD) for p in sorted(d.glob('*'))} | {str(HYP.relative_to(ROOT)): sha(HYP)},
                commits=COMMITS, commit_times_utc=CT, v7_tables_copied=used, abstract_words=len(abstract.split()),
                words_main_text=len(md.split('## Declarations')[0].split()),
                outputs={p.name: sha(p) for p in [OUT/'MANUSCRIPT.md', docx]}), open(OUT/'build.json', 'w'), indent=1)
