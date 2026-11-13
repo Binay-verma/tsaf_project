@@ -1,0 +1,25 @@
+{
+  "scored_utc": "2026-11-13T11:51:12.716203+00:00",
+  "first_forecast_commit": "0e4ab330d6a798545f31476f79c59f55975eb8e3",
+  "actual_vintage_sha256": "2e73324f55cfff61ec4eb3d0c586f03a4b6754bbb7274c4d6fa9048b62b687ec",
+  "actuals_retrieved_utc": "2026-11-13T11:51:08.422963+00:00",
+  "point_rows": 264,
+  "native_rows": 132,
+  "models": 8,
+  "model_steps": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "same_vintage_as_original": true,
+  "future_arm_selection": false,
+  "limits": "Sameepisode/source/stalecontext withdifferentactualissuances; date/modelstepconfounded. No independentyear/source, festivalfeatureconfirmation, rowindependenttests or guaranteedcoverage."
+}

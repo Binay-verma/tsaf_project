@@ -1,0 +1,13 @@
+{
+  "retrieved_utc": "2026-11-13T11:51:08.422963+00:00",
+  "source_url": "https://robbieandrew.github.io/india/data/POSOCO_data.csv",
+  "metadata_url": "https://robbieandrew.github.io/india/data/POSOCO_metadata.json",
+  "raw_source_sha256": "20dd68ae1735e62e888517720da8a30f1be1d227e682195271b2fad3a91df896",
+  "metadata_sha256": "369f9c43b2382fdf2301cb3786240a9d4996db313cc5dbc99338d42b19b913f9",
+  "eligible_labels_sha256": "2e73324f55cfff61ec4eb3d0c586f03a4b6754bbb7274c4d6fa9048b62b687ec",
+  "original_freeze_commit": "cabd5982e1948652b9841d6c31a2380f6f314198",
+  "scored_predictions_sha256": "ede6300e62a49520af1eeb82e2c32acb5fbe180108ec09656b271340112fb89a",
+  "source_metadata_snapshot_sha256": "d4755acbce942d223752e26b09bc90678397ccc280a2ca6e60b80f126c26c740",
+  "original_forecast_git_blob": "cb088407fed27c6d64464688b945220af285aef7",
+  "warning": "First post-period source snapshot, not certified final/unimputed labels or human scientific approval. Do not retune forecasts on these scores."
+}

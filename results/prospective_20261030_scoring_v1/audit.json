@@ -1,0 +1,9 @@
+{
+  "scored_utc": "2026-11-13T11:51:08.969630+00:00",
+  "actuals_retrieved_utc": "2026-11-13T11:51:08.422963+00:00",
+  "source_url": "https://robbieandrew.github.io/india/data/POSOCO_data.csv",
+  "actuals_sha256": "2e73324f55cfff61ec4eb3d0c586f03a4b6754bbb7274c4d6fa9048b62b687ec",
+  "frozen_predictions_sha256": "ad084279882ffd3a65e290541f1e6cd5771cb4eb09d5f01ac84b694756eaf663",
+  "scored_rows": 216,
+  "warning": "One shared-source forecast episode; no retuning, independent-source or broad significance claim"
+}
