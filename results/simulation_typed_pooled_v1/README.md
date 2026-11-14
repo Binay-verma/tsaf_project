@@ -1,6 +1,6 @@
 # Simulation: when do typed event flags beat a pooled flag?
 
-Synthetic data only. The design is in `src/simulation_typed_pooled_v1.py` (committed as 02e14cd before the run). It is independent of the registered new-states study: it uses no real data and no new-states results.
+Synthetic data only. The design is in `src/simulation_typed_pooled_v1.py` (committed before the run: author time 2026-11-13 18:19 UTC, now commit c96d30e after a rebase that changed hashes and committer times, not content). It is independent of the registered new-states study: it uses no real data and no new-states results.
 
 ## Setup
 - **Data:** daily synthetic demand, 2015–2025, with five event families occurring one day per year at shifting dates.
