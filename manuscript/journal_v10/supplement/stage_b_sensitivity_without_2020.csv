@@ -1,0 +1,4 @@
+hypothesis,model,expected_sign,clusters,typed_minus_pooled,year_2019,year_2021,years_in_direction,p_one_sided,holm,decision
+H1,lightgbm,+,10,0.0,0.0,0.0,0,1.0,1.0,NOT CONFIRMED
+H2,sarimax,-,10,-0.07257003048187458,-0.08932476081030419,-0.055815300153444956,2,0.0068359375,0.013671875,CONFIRMED
+H1b (secondary),lightgbm_capacity2,+,10,0.05999310859003428,-0.008240251701804969,0.1282264688818735,1,0.0888671875,,NOT CONFIRMED

@@ -1,0 +1,74 @@
+{
+  "supplement/source_00_metrics_balanced.csv": {
+    "original": "results/calendar_recenter_recovery_v1/analysis/breadth/event_window/metrics_balanced.csv",
+    "sha256": "e6f4ca418cbfce3c476c9f74dce391f103394cd4a5b23b3fcd16b569f5a7c948"
+  },
+  "supplement/source_01_metrics_balanced.csv": {
+    "original": "results/calendar_recenter_recovery_v1/analysis/breadth/ordinary/metrics_balanced.csv",
+    "sha256": "78b6bff7e83332f8d23b8f8c7c576de9f556e1870465d806417cae428a1975ca"
+  },
+  "supplement/source_02_metrics_balanced.csv": {
+    "original": "results/calendar_recenter_recovery_v1/analysis/encoding/event_window/metrics_balanced.csv",
+    "sha256": "b33d77d4e4976d0263ff0e88eedf6faeea686555481e6b95940941626d655c77"
+  },
+  "supplement/source_03_metrics_balanced.csv": {
+    "original": "results/calendar_recenter_recovery_v1/analysis/encoding/ordinary/metrics_balanced.csv",
+    "sha256": "4a85ce8b823833f8be9e653546a8e21048f971ad375f86e6de59555177f7034e"
+  },
+  "supplement/source_04_native_uncertainty_balanced.csv": {
+    "original": "results/calendar_recenter_recovery_v1/analysis/breadth/event_window/native_uncertainty_balanced.csv",
+    "sha256": "3e1c6611c4197b87914c9bbab3f985b70819066e5d1de2653ec2b3ac24b52b1d"
+  },
+  "supplement/source_05_balanced.csv": {
+    "original": "results/calendar_recenter_recovery_v1/analysis/contrasts/breadth/event_window/balanced.csv",
+    "sha256": "1afef3969f6510df272c33eed916a631006b72a4ba5dde5a21bf6b92b164ca01"
+  },
+  "supplement/source_06_balanced.csv": {
+    "original": "results/calendar_recenter_recovery_v1/analysis/contrasts/breadth/ordinary/balanced.csv",
+    "sha256": "5b57b2e550ad6fe221370dfcf16cdc361e65b8e6aa56cbb1138e469fdb5888ae"
+  },
+  "supplement/source_07_metrics_balanced.csv": {
+    "original": "results/mta_holiday_recovery_v1/analysis/event_window/metrics_balanced.csv",
+    "sha256": "7ae676bf6973ba3d0e6b8e463cd780d2069abb4cb59b3636e1e4d7a760377c7f"
+  },
+  "supplement/source_08_metrics_balanced.csv": {
+    "original": "results/mta_holiday_recovery_v1/analysis/ordinary/metrics_balanced.csv",
+    "sha256": "76ffb4eb05d147596242ba54dfd9c0366c0f1751cfeaf39c4c8fd6a833254373"
+  },
+  "supplement/source_09_metrics.csv": {
+    "original": "results/neso_replication_v1/analysis/metrics.csv",
+    "sha256": "3064c1465b282ef9ac8df640035907d62ea9928bd5843926815d3070f724c351"
+  },
+  "supplement/source_10_metrics_balanced.csv": {
+    "original": "results/event_comparators_v1/metrics_balanced.csv",
+    "sha256": "6f1ee696db5e1646352acbfdefc7d2dcac2bf5fcf84ff144d3212d068671ad43"
+  },
+  "supplement/source_11_paired_seed_contrasts.csv": {
+    "original": "results/pooling_simulation_v1/paired_seed_contrasts.csv",
+    "sha256": "ef025d3aef07786dbbb5f8252fdcb1ea484899079d3d63ff4c3e4f7dc07a69c3"
+  },
+  "supplement/source_12_changes_balanced.csv": {
+    "original": "results/calendar_recenter_recovery_v1/analysis/breadth/event_window/changes_balanced.csv",
+    "sha256": "03f735f223af7eb4b67dab771e4c32cb8053f65fc0ba89efe0a7531d53058afd"
+  },
+  "supplement/source_13_composition_changes.csv": {
+    "original": "results/calendar_recenter_recovery_v1/analysis/breadth/event_window/composition_changes.csv",
+    "sha256": "6adeb1dc300217713695efd90996a5db0c44475a7b582596590d330857dbdfa7"
+  },
+  "supplement/source_14_associations.csv": {
+    "original": "results/event_support_v1/associations.csv",
+    "sha256": "150c80aac04645950ff416ef80b026c5834f9ef34ecbef69887ce09cbbd88247"
+  },
+  "supplement/source_15_moderators.csv": {
+    "original": "results/event_support_v1/moderators.csv",
+    "sha256": "493f3b78887cb6c3c5c755ee11e17441b7bd98c007a35417d714455927f0de70"
+  },
+  "supplement/source_16_paired_cases.csv": {
+    "original": "results/event_support_v1/paired_cases.csv",
+    "sha256": "a218954af655c869e6d7405c0b532227a8f9186644c31827e81d35f8dfa77b3a"
+  },
+  "supplement/source_17_cells.csv": {
+    "original": "results/event_support_v1/cells.csv",
+    "sha256": "3ab3496aa0c6c010f71bc40974d256c1685c32530efa324290c484420e305c3b"
+  }
+}

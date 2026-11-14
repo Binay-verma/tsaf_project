@@ -1,0 +1,7 @@
+model,sum,count
+chronos,4,7
+lightgbm,4,7
+lightgbm_capacity2,5,7
+ridge,5,7
+sarimax,5,7
+timesfm,4,7
