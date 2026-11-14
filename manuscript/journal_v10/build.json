@@ -1,5 +1,5 @@
 {
- "created_utc": "2026-11-14T22:09:03.014711+00:00",
+ "created_utc": "2026-11-14T22:12:15.509691+00:00",
  "status": "Journal-format draft v10 for supervisor review; not submitted. Revised after an internal referee-style check.",
  "base": {
   "manuscript/journal_v9/MANUSCRIPT.md": "f17c436394b07b76cb5d105e8a61c9032e9afb9d10e239d1439cb911a34a36a4"
@@ -13,7 +13,7 @@
   "results/new_states_v1/analysis/sensitivity_official_sources_only.csv": "c5e8de2a6414fa959b965dd410371948fedc5e0cee4cec0afad4ab5d38fe0212",
   "results/new_states_v1/analysis/sensitivity_without_2020_2021.csv": "9c1be4b1d3791c5473aa40fe9de5e99ceb3f45d0333e82fff2a6ed7e3138d4ab",
   "results/new_states_v1/analysis/summary.json": "aba4ba6202b49bbdeadde16ae4a36fcfd58ee799040565ee4a181ec812b6195a",
-  "results/new_states_v1_diagnostics/README.md": "cd19dc6ad922317b3fbe6188c16318ffd4d5146a36ab62a777fd35537be3e786",
+  "results/new_states_v1_diagnostics/README.md": "9af965ce06f2e117db15aaaeba0a56639188dbf543cc95e89378b5b87a1eda5d",
   "results/new_states_v1_diagnostics/against_controls.csv": "9f8e0df5d6821d0baf9ea96588e9d1db97c00ea3544438efc7d75c3f99125dca",
   "results/new_states_v1_diagnostics/by_horizon.csv": "eda035412e8ceac55d176fc745c25dafa744d946b24378cffbdb849db230daa8",
   "results/new_states_v1_diagnostics/leave_one_out.csv": "ba95a3c945be26f53f75d703e058703459f2dfbdee8d329f79527a55f85a8f7b",
@@ -51,14 +51,14 @@
   "results/new_states_v1_official_plus_confirmed/cells_kept.csv": "3d8b9d10da14935575b61b0090e25cea00acf8f95a993598cb6351346d86f4b6",
   "results/new_states_v1_official_plus_confirmed/tests.csv": "733e28922885b6f99e0b6218db17a28ffa5cc8524eeb4223ec9bd1b45f2136a7"
  },
- "abstract_words": 146,
- "words_main_text": 8601,
+ "abstract_words": 147,
+ "words_main_text": 8687,
  "outputs": {
-  "MANUSCRIPT.md": "a5a9e6874a3ce4f5c5c65f1ccf12a0d8bd9cb418b2e16ac8b364bca27ca4acf6",
-  "MANUSCRIPT_anonymised.md": "1d4bf846860ac774b977578efc8a5066af21ca17e0096c9c13296b6ab07b7d8c",
-  "Typed_or_Pooled_Binay_Verma_v10.docx": "e88cf4f6f31da1c8f1a47b764e9287a5640fa8b8d407b1dc317b43d8c23c3cb4",
-  "Typed_or_Pooled_Binay_Verma_v10.pdf": "934268a08de0d8176432e5397207fd25d0003fa62fa8e9e326cbe2d33311fdd4",
-  "Typed_or_Pooled_v10_anonymised.docx": "6dc3525bd43234d30a16ca394926c25e730f33d3ef06ecbd7661404d8b0b7040",
-  "Typed_or_Pooled_v10_anonymised.pdf": "dbbf2566f780e4bd8b28567a42f092f5f2210cae18b3ac06c5a7ab419480d2ec"
+  "MANUSCRIPT.md": "a83127b1c8a27c4cb93f7a50a3956f62b73958fbca58306218f5e5cf08d04d71",
+  "MANUSCRIPT_anonymised.md": "326df5219189a255adc6aaca2bc6d5a37138d1c04fad742a576bf5da41a38757",
+  "Typed_or_Pooled_Binay_Verma_v10.docx": "fdad76a46860c0f9378cfc27190cb48979564ad047024d9a752043579945d03a",
+  "Typed_or_Pooled_Binay_Verma_v10.pdf": "c57e231aac991889a17d9c9f6ef2cda3fbd044d2e53536564aaee97b16904397",
+  "Typed_or_Pooled_v10_anonymised.docx": "095eb0db0a20ddb63c479f177c90c0acf2d099534a61ce84b3aa6f353572791b",
+  "Typed_or_Pooled_v10_anonymised.pdf": "86c225eb969f3bbfced430cd030d20ef156e14568390deaf10871741070407c4"
  }
 }
