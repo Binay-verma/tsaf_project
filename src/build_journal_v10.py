@@ -119,6 +119,17 @@ assert above == ['Tamil Nadu', 'Gujarat']
 agree_other = {m: agree3[m] for m in ['chronos', 'timesfm', 'lightgbm']}
 assert all(v == (4, 7) for v in agree_other.values())
 
+S3 = ROOT/'results/simulation_typed_pooled_v3'
+v3 = {(r['model'], float(r['h'])): float(r['mean']) for r in read(S3/'summary.csv')}
+hv3 = min({h for _, h in v3}, key=lambda v: abs(v - h_cal))
+assert abs(v3[('ridge', hv3)] - (-0.0133)) < 0.001 and v3[('lgbm_leaf20', hv3)] == 0.0
+FM = {(r['design'][:4], r['model']): r for r in read(ROOT/'results/new_states_v1_family_mechanism/spearman.csv')}
+rho_r_same, rho_r_oot = FM[('same', 'ridge')], FM[('out ', 'ridge')]
+rho_s_same, rho_s_oot = FM[('same', 'sarimax')], FM[('out ', 'sarimax')]
+rho_t_oot = FM[('out ', 'timesfm')]
+fe = {(r['state'], r['family']): float(r['effect']) for r in read(ROOT/'results/new_states_v1_family_mechanism/family_effects_2017_2025.csv')}
+share5 = 0.524
+
 # ---------------- title, abstract, highlights ----------------
 rep('# Typed or pooled festival indicators? The answer depends on the model class: Indian electricity evidence with a registered follow-up test',
     '# Typed or pooled festival indicators? Evidence from ten Indian states with registered tests')
@@ -130,8 +141,8 @@ new_abs = ("Forecasters adding festival indicators must choose between one indic
            "seven further states over 2017–2025. As hypothesised, SARIMAX did better with typed indicators and a small-leaf LightGBM with a pooled "
            "indicator, but both effects were small, rested mainly on one state and did not survive restricting calendars to official sources. "
            "The expected pooling preference of TimesFM-3 was not confirmed. Trees cannot use an indicator active on fewer training days than "
-           "their minimum leaf size, which is why LightGBM with a larger leaf size ignored typed indicators. A simulation reproduces the "
-           "direction, not the size, of the local-model results.")
+           "their minimum leaf size, which is why LightGBM with a larger leaf size ignored typed indicators. A simulation matched to the "
+           "forecasting pipeline reproduces the sizes of the local-model differences.")
 rep(old_abs, new_abs)
 hl = ['- Typed and pooled festival flags compared with matched zero and placebo controls',
       '- Registered test in seven new states: SARIMAX prefers typed, leaf-2 trees pooled',
@@ -153,8 +164,9 @@ rep(md.split('3. **A registered follow-up test.**', 1)[1].split('\n', 1)[0].join
     '(Section 5.4), and three hypotheses were then registered and tested once on seven further states (Section 5.7). Two were '
     'confirmed, with small effects that rest mainly on one state, and one was not.')
 rep('4. **Decision rules for uncertain orderings.**', '4. **A mechanism for tree models.** Trees cannot use a flag that is set on fewer '
-    'training days than their minimum leaf size; a simulation calibrated to the original states reproduces this and the direction, though '
-    'not the size, of the Ridge result (Section 5.8).\n5. **Decision rules for uncertain orderings.**')
+    'training days than their minimum leaf size; a simulation calibrated to the original states and matched to the forecasting pipeline '
+    'reproduces this and the size of the Ridge result, and festival-level data show the linear-model gain growing with how much a '
+    'festival effect differs from the others (Sections 5.8 and 5.9).\n5. **Decision rules for uncertain orderings.**')
 rep('although that expectation was not registered as a hypothesis.', 'although that expectation was not registered as a hypothesis; '
     'registered later as H2, it did not replicate in seven further states (Section 5.7).')
 rep('### 5.4 Stage B: registered test on further years',
@@ -255,9 +267,9 @@ Table 13. Seven further states: lead-1 event MASE by arm. Foundation models were
 
 Tree models need a minimum number of training days on each side of a split. A typed flag is set on one training day per year, so a tree with minimum leaf size L cannot split on it until there are L training years, while the pooled flag is set about five times as often. In the empirical models the trees are trained on a 730-day window, in which a typed flag is set on at most about four days; Stable LightGBM's selected minimum leaf sizes (5 or 20 in the new states, 20 in Stage B) are never reached, which is why its typed arm equals its calendar arm in Stage B and in Table 13, while the pooled flag, set on up to about a dozen days, can be used.
 
-A synthetic study illustrates this and the trade-off for a linear model. It covers Ridge and LightGBM only, not SARIMAX or the foundation models. Daily series with weekly and annual cycles and autoregressive noise carry five festival families whose effects are μ(1 + h·z), where z takes five fixed values with mean 0 and standard deviation 1 and h measures how much the families differ, plus occurrence noise; models are trained and evaluated as in the empirical protocol. Calibrated to the three original states (mean effect {mu_cal*100:.1f}%, h {h_cal:.2f} with a 90% year-bootstrap band {h_lo:.2f}–{h_hi:.2f}), Ridge does better with typed flags once h exceeds about {hstar:.2f} (Figure 3, left), and the threshold rises when festival effects are small relative to noise. With L = 5 the simulated pooled advantage for LightGBM falls from about 0.6 MASE to near zero when five training years are reached, and with L = 20 typed flags are never usable (Figure 3, right). The simulation reproduces directions, not sizes: its Ridge typed advantage at the calibrated h ({abs(float(sA[hA]['mean'])):.2f} MASE) is an order of magnitude larger than the observed Ridge difference in the calibration states (Stage A, {s4(SAa['ridge'])}), and its tree pooled advantages (about 0.5–0.8) are far larger than observed ({s4(SAa['lightgbm'])} in Stage A, {s4(hz[('lightgbm', '1')]['typed_minus_pooled'])} in the new states). Its one-day effects and stylised seasonality are the likely reasons. It is an illustration of mechanism, not a calibrated predictor of effect size.
+A synthetic study illustrates this and the trade-off for a linear model. It covers Ridge and LightGBM only, not SARIMAX or the foundation models. Daily series with weekly and annual cycles and autoregressive noise carry five festival families whose effects are μ(1 + h·z), where z takes five fixed values with mean 0 and standard deviation 1 and h measures how much the families differ, plus occurrence noise; it is calibrated to the three original states (mean effect {mu_cal*100:.1f}%, h {h_cal:.2f} with a 90% year-bootstrap band {h_lo:.2f}–{h_hi:.2f}). A first version, with one-day effects, training on all earlier years and scoring on the festival day only, reproduced the directions but gave effects about ten times the observed ones ({abs(float(sA[hA]['mean'])):.2f} MASE for Ridge at the calibrated h). A second version matches the forecasting pipeline in three respects only: each festival's effect is spread over its window with the profile measured on the three original states (the day after a festival keeps about two thirds of the festival-day effect), models are refitted monthly on the previous 730 days, and every day of the ±3-day window is scored. It then reproduces the observed sizes as well (Figure 3): at the calibrated h, Ridge typed minus pooled is {s4(v3[('ridge', hv3)])} against {s4(SAa['ridge'])} observed in Stage A; a LightGBM with minimum leaf size 20 gives exactly zero in every replication, as Stable LightGBM's typed arm does; with leaf size 5 the pooled advantage is {s4(v3[('lgbm_leaf5', hv3)])}, so the empirical mix of selected leaf sizes (5 in {share5:.0%} of new-states fits, otherwise 20) implies about {s4(share5*v3[('lgbm_leaf5', hv3)])}, against {s4(SAa['lightgbm'])} observed in Stage A and {s4(hz[('lightgbm', '1')]['typed_minus_pooled'])} in the new states; and leaf size 2 gives {s4(v3[('lgbm_leaf2', hv3)])}, against {s4(SAa['lightgbm_capacity2'])}, {s4(SBb['lightgbm_capacity2'])} and {s4(H['H3']['typed_minus_pooled'])} in Stage A, Stage B and the new states. In this version Ridge typed flags start to win between h = 0.25 and h = {hv3:.2f}. The simulation was written after the registered analysis (its designs committed before each run), is stylised, and is calibrated to three states.
 
-![Figure 3. Simulation calibrated to the three original states. Left: Ridge typed minus pooled MASE against festival-effect heterogeneity h (shaded: calibrated 90% band). Right: LightGBM typed minus pooled MASE at the calibrated h ({h_cal:.2f}) by number of training years, for minimum leaf sizes 2, 5, 10 and 20. Positive values favour pooling.](figures/figure3_simulation.png)
+![Figure 3. Simulation calibrated to the three original states and matched to the forecasting pipeline. Left: Ridge typed minus pooled MASE against festival-effect heterogeneity h (shaded: calibrated 90% band; cross: observed Stage A value at the calibrated h). Right: LightGBM typed minus pooled MASE at the calibrated h for minimum leaf sizes 2, 5 and 20 (bars) and observed Stage A values (crosses). Positive values favour pooling.](figures/figure3_simulation.png)
 
 ### 5.9 Exploratory follow-ups
 
@@ -265,7 +277,9 @@ The analyses in this section were written after the registered test and are not 
 
 **Robustness and power.** Leaving out one state or one year at a time (unadjusted one-sided p), H1 keeps its sign in {kept['H1']} of 16 cases (p below 0.05 in {sig['H1']}) and H3 in {kept['H3']} of 16 ({sig['H3']}). Both depend most on Gujarat: without it, H1 shrinks from {s4(H['H1']['typed_minus_pooled'])} to {s4(gjo['H1'])} and H3 from {s4(H['H3']['typed_minus_pooled'])} to {s4(gjo['H3'])}, and all 44 Gujarat calendar rows come from secondary sources. H2 has no consistent sign ({kept['H2']} of 16). With 45 clusters, the minimum effect detectable with 80% power is about {float(pw['H1']['mde_80pct_one_sided_alpha05']):.3f} MASE for H1, larger than the observed {abs(float(H['H1']['typed_minus_pooled'])):.4f}.
 
-**Regions.** Table 16 splits the seven states into two groups, a split chosen after seeing the results and applied with all calendar rows. In Uttar Pradesh, Rajasthan, Madhya Pradesh and Gujarat, typed flags help SARIMAX ({s4(grp[(north, 'H1')]['typed_minus_pooled'])}), carried mainly by Gujarat ({s4(o2[('sarimax', 'Gujarat')])}), while Uttar Pradesh goes the other way ({s4(o2[('sarimax', 'Uttar Pradesh')])}); in Andhra Pradesh, Telangana and Tamil Nadu typed flags do not help SARIMAX ({s4(grp[(south, 'H1')]['typed_minus_pooled'])}), and there TimesFM-3 does better with typed flags ({s4(tf_south)}), the opposite of H2. The two groups also differ in festival mix: the southern states include Ganesh Chaturthi and Ugadi, the others mainly Holi, Dussehra and Diwali. This difference is not explained here.
+**Regions.** Table 16 splits the seven states into two groups, a split chosen after seeing the results and applied with all calendar rows. In Uttar Pradesh, Rajasthan, Madhya Pradesh and Gujarat, typed flags help SARIMAX ({s4(grp[(north, 'H1')]['typed_minus_pooled'])}), carried mainly by Gujarat ({s4(o2[('sarimax', 'Gujarat')])}), while Uttar Pradesh goes the other way ({s4(o2[('sarimax', 'Uttar Pradesh')])}); in Andhra Pradesh, Telangana and Tamil Nadu typed flags do not help SARIMAX ({s4(grp[(south, 'H1')]['typed_minus_pooled'])}), and there TimesFM-3 does better with typed flags ({s4(tf_south)}), the opposite of H2. The two groups also differ in festival mix: the southern states include Ganesh Chaturthi and Ugadi, the others mainly Holi, Dussehra and Diwali. The festival-level analysis below suggests why.
+
+**Festivals.** If typing helps because festivals differ, the gain should be largest for festivals whose effect differs most from the state's average festival effect. Across the 27 state-festival pairs, that deviation is correlated with the typed advantage for Ridge (Spearman ρ {float(rho_r_same['spearman']):.2f}, p {float(rho_r_same['p']):.4f}) and SARIMAX ({float(rho_s_same['spearman']):.2f}, p {float(rho_s_same['p']):.3f}), and not for the trees or Chronos-2. Measuring the effects on 2015–2020 and the gains on 2021–2025 keeps the Ridge relation ({float(rho_r_oot['spearman']):.2f}, p {float(rho_r_oot['p']):.3f}; {float(rho_r_oot['p_bonferroni6']):.2f} after Bonferroni over six models) and weakens the SARIMAX one ({float(rho_s_oot['spearman']):.2f}, p {float(rho_s_oot['p']):.2f}); for TimesFM-3 the relation reverses ({float(rho_t_oot['spearman']):+.2f}, p {float(rho_t_oot['p']):.3f}), so it does not use the flags like a regression. This accounts for Gujarat: it has the largest festival effects in the panel (Diwali {fe[('Gujarat', 'Diwali')]*100:.0f}%, Holi {fe[('Gujarat', 'Holi')]*100:.0f}%) but a small Dussehra effect ({fe[('Gujarat', 'Dussehra')]*100:.0f}%), so one shared flag fits it worst; Uttar Pradesh, where the typed flags do not help, has almost no festival effect.
 
 **Size and horizons.** Averaged over states, the effects are small (Table 14): relative to pooled flags, typed flags reduce Ridge's mean absolute error by {abs(float(phys['ridge']['typed_minus_pooled_GWh'])):.2f} GWh and SARIMAX's by {abs(float(phys['sarimax']['typed_minus_pooled_GWh'])):.2f} GWh per festival-window day, against mean demand of {float(phys['ridge']['mean_actual_GWh']):.0f} GWh. At leads 7 and 14, TimesFM-3 does better with typed flags ({s4(tf7['typed_minus_pooled'])} and {s4(tf14['typed_minus_pooled'])}; unadjusted two-sided p {float(tf7['p_two_sided']):.3f} and {float(tf14['p_two_sided']):.4f}, {bonf7:.3f} and {bonf14:.3f} after Bonferroni over the {ncells} model-lead cells), with the same sign in both separately run cohorts. This was not a registered horizon, and the foundation runs had no zero or placebo arm while the pooled arm carries four all-zero channels, so an encoding effect cannot be excluded.
 
@@ -301,7 +315,7 @@ rep(old_lim, 'The evidence covers ten states, five festival families and the yea
     'different pattern that is not explained here. Of the 331 calendar rows for these states, 241 come from secondary sources, and most could '
     'not be traced to the original documents. The TimesFM-3 preference for pooling seen in Stage A did not replicate. The per-state, regional '
     'and longer-lead findings were found after the registered test, and the foundation runs had no zero or placebo control. The simulation '
-    'covers Ridge and LightGBM only, reproduces direction but not size, and is calibrated to three states. The order of the Stage A and B '
+    'covers Ridge and LightGBM only, was written after the registered analysis, and is calibrated to three states. The order of the Stage A and B '
     'registrations rests on author commit timestamps; the new-states study is registered on OSF, recorded after local parameter selection had '
     'started but before any forecast with festival indicators. The foundation-model results for 2022–2023 come from a hosted notebook with '
     'Python 3.13; they reproduced the stored 2024 forecasts within tolerance but not bit for bit. Weather, supply constraints, coincident '
@@ -327,22 +341,26 @@ def figures(dest):
     import matplotlib
     matplotlib.use('Agg')
     import matplotlib.pyplot as plt
-    A = sorted(sA.values(), key=lambda r: float(r['h']))
+    R3 = sorted([(h, v) for (m, h), v in v3.items() if m == 'ridge'])
+    se3 = {(r['model'], float(r['h'])): float(r['mc_se']) for r in read(S3/'summary.csv')}
     fig, axes = plt.subplots(1, 2, figsize=(9.5, 3.6))
     ax = axes[0]
     ax.axvspan(h_lo, h_hi, color='0.88', label='calibrated h (90% band)')
-    ax.errorbar([float(r['h']) for r in A], [float(r['mean']) for r in A], yerr=[1.96*float(r['mc_se']) for r in A], marker='o', capsize=3, label='Ridge')
+    ax.errorbar([h for h, _ in R3], [v for _, v in R3], yerr=[1.96*se3[('ridge', h)] for h, _ in R3], marker='o', capsize=3, label='Ridge, simulated')
+    ax.plot([h_cal], [SAa['ridge']], 'kx', ms=9, mew=2, label='Ridge, observed (Stage A)')
     ax.axhline(0, color='grey', lw=.8)
     ax.set_xlabel('heterogeneity of festival effects, h'); ax.set_ylabel('typed minus pooled MASE\n(> 0: pooled better)')
     ax.set_title('Ridge'); ax.legend(fontsize=7)
     ax = axes[1]
-    hc = min({float(r['h']) for r in lby}, key=lambda v: abs(v - h_cal))
-    for lf in [2, 5, 10, 20]:
-        z = sorted([r for r in lby if float(r['h']) == hc and int(r['leaf']) == lf], key=lambda r: int(r['year']))
-        ax.plot([int(r['year']) - 2015 for r in z], [float(r['mean']) for r in z], marker='o', label=f'min leaf {lf}')
+    labels = ['leaf 2', 'leaf 5', 'leaf 20']
+    vals = [v3[('lgbm_leaf2', hv3)], v3[('lgbm_leaf5', hv3)], v3[('lgbm_leaf20', hv3)]]
+    ax.bar(labels, vals, color='C0', alpha=.7, label='simulated')
+    ax.plot([0], [SAa['lightgbm_capacity2']], 'kx', ms=9, mew=2, label='observed, Stage A')
+    ax.plot([1.5], [SAa['lightgbm']], 'kx', ms=9, mew=2)
+    ax.annotate('Stable LightGBM\n(leaf 5 or 20)', (1.5, SAa['lightgbm']), textcoords='offset points', xytext=(6, 6), fontsize=7)
+    ax.text(2, 0.002, '0 in every replication\n(typed flags never used)', ha='center', fontsize=7)
     ax.axhline(0, color='grey', lw=.8)
-    ax.set_xlabel('training years (= training days each typed flag is on)'); ax.set_ylabel('typed minus pooled MASE\n(> 0: pooled better)')
-    ax.set_title(f'LightGBM, h = {hc:.2f}'); ax.legend(fontsize=7)
+    ax.set_ylabel('typed minus pooled MASE\n(> 0: pooled better)'); ax.set_title(f'LightGBM, h = {hv3:.2f}'); ax.legend(fontsize=7)
     fig.tight_layout(); fig.savefig(dest/'figure3_simulation.png', dpi=200); plt.close(fig)
     fig, axes = plt.subplots(1, 2, figsize=(10, 4))
     ax = axes[0]
