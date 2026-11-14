@@ -1,5 +1,5 @@
 {
- "created_utc": "2026-11-14T23:23:08.095901+00:00",
+ "created_utc": "2026-11-14T23:55:45.330987+00:00",
  "status": "Journal-format draft v10 for supervisor review; not submitted. Revised after an internal referee-style check.",
  "base": {
   "manuscript/journal_v9/MANUSCRIPT.md": "f17c436394b07b76cb5d105e8a61c9032e9afb9d10e239d1439cb911a34a36a4"
@@ -51,14 +51,14 @@
   "results/new_states_v1_official_plus_confirmed/cells_kept.csv": "3d8b9d10da14935575b61b0090e25cea00acf8f95a993598cb6351346d86f4b6",
   "results/new_states_v1_official_plus_confirmed/tests.csv": "733e28922885b6f99e0b6218db17a28ffa5cc8524eeb4223ec9bd1b45f2136a7"
  },
- "abstract_words": 147,
- "words_main_text": 9122,
+ "abstract_words": 149,
+ "words_main_text": 9191,
  "outputs": {
-  "MANUSCRIPT.md": "f8fb737a62ed0e58f874c259a1cf3e38b4417b037b978b4b3d363e8493f2dcbc",
-  "MANUSCRIPT_anonymised.md": "5789332c23adbd6c279453988c586ce6057c29c15d91dfb3862c23f15f643d7a",
-  "Typed_or_Pooled_Binay_Verma_v10.docx": "417ef0980c70b3591307c750f4be5d569a6da007d81d442d4a638781dcdf2b47",
-  "Typed_or_Pooled_Binay_Verma_v10.pdf": "8798c842a878cc4fd851b00d0afe0279f0a58b5fc74aeffe1ff347bb095f70e6",
-  "Typed_or_Pooled_v10_anonymised.docx": "e59e3ed7a63cdc809fb39f455a654b9a34e29c63fb76abeccf658060a1385f4d",
-  "Typed_or_Pooled_v10_anonymised.pdf": "9ee445304880784d1a561564e3dd1beab30c331fce3b1a8359722276e7424ecd"
+  "MANUSCRIPT.md": "a99ab919031107b9823429c124bc5768ab291c9bc9e70aaa02f03bda2f4d1962",
+  "MANUSCRIPT_anonymised.md": "b3c38620270ac17529c6ccf0e7aeb7e1f8e634c92f39dd0958c9615f2258c310",
+  "Typed_or_Pooled_Binay_Verma_v10.docx": "4bc82de2a8d43f800cb3ddb6174114cf516669f5c7b6d906e6de9e60befe0fa5",
+  "Typed_or_Pooled_Binay_Verma_v10.pdf": "f9d556bd48b98215a6b7f4ede94cdf579867f183b5cdfcaabf5a9aed1aad17b6",
+  "Typed_or_Pooled_v10_anonymised.docx": "503550e7679afbeb9eab0ddce398a4cf51277f6583193cdc5ed953464f70b5c5",
+  "Typed_or_Pooled_v10_anonymised.pdf": "85c3c2b3c6f02a114f972780989363c02fe6cb96e573331f7e6c515c917d2099"
  }
 }
