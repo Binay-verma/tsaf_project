@@ -1,0 +1,14 @@
+{
+  "model": "chronos",
+  "completed_utc": "2026-11-14T18:29:16.628514+00:00",
+  "rows": 8676,
+  "arms": [
+    "calendar",
+    "day5",
+    "pooled_day5"
+  ],
+  "seconds": 17749.297618588997,
+  "weight_sha256": "ddcda3c7508bf2528087723e98a20707cc04b7f370ae275a9fd88078ddba4f42",
+  "predictions_sha256": "4c13a02d9594462f65925c4d1abc213878548cefd791abb90380cbe47515b10d",
+  "protocol_sha256": "2b175812e6190844e7cb8fa54f55f952cbca7ed142e3b954d84fbd50c180b14c"
+}
