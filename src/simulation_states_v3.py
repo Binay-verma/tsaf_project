@@ -13,6 +13,7 @@ Run: python src/simulation_states_v3.py
 """
 import json
 import sys
+import zlib
 from multiprocessing import Pool
 from pathlib import Path
 import numpy as np
@@ -27,13 +28,17 @@ import simulation_calibration_v2 as c2    # noqa: E402
 OUT = ROOT/'results/simulation_states_v3'
 H_GRID = [0., 0.15, 0.3, 0.45, 0.6, 0.8, 1.0, 1.5]
 REPS, SEED = 30, 20261116
+STABLE = '--stable-seed' in sys.argv
+if STABLE:
+    OUT = ROOT/'results/simulation_states_v3_seedcheck'   # rerun with a process-independent seed
 MODELS = {'ridge': 0, 'lgbm_leaf2': 2, 'lgbm_leaf5': 5}
 
 
 def task(t):
     state, params, model, h, rep = t
     s3.P0 = dict(params)                      # generator reads mu, phi, sigma, omega from P0
-    rng = np.random.default_rng([SEED, abs(hash(state)) % 10**6, int(round(h*1000)), rep, MODELS[model]])
+    key = zlib.crc32(state.encode()) % 10**6 if STABLE else abs(hash(state)) % 10**6   # hash() is randomised per process
+    rng = np.random.default_rng([SEED, key, int(round(h*1000)), rep, MODELS[model]])
     out = run_one(model, h, rng)
     return dict(state=state, model=model, h=h, rep=rep, typed_minus_pooled=out)
 
