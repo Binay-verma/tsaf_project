@@ -1,0 +1,25 @@
+{
+  "created_utc": "2026-11-14T21:28:46.484394+00:00",
+  "decisions": {
+    "H1": "CONFIRMED",
+    "H2": "NOT CONFIRMED",
+    "H3": "CONFIRMED"
+  },
+  "sensitivity_without_2020_2021": {
+    "H1": "NOT CONFIRMED",
+    "H2": "NOT CONFIRMED",
+    "H3": "CONFIRMED"
+  },
+  "sensitivity_official_sources_only": {
+    "H1": "NOT CONFIRMED",
+    "H2": "CONTRADICTED",
+    "H3": "NOT CONFIRMED"
+  },
+  "outputs": {
+    "all_models_lead1.csv": "60e040c41b11518825ce4fb009ff64473bd4d5923aab39fda90ecd1b3b358c3b",
+    "balanced.csv": "5e8cf7fdecb69922df081d639de13c49ac658c439c792728a644866314f99130",
+    "hypothesis_tests.csv": "229440e2dc204d81d322e3dbfaef6d4952c5172440029f2332962a002caf5ca7",
+    "sensitivity_official_sources_only.csv": "c5e8de2a6414fa959b965dd410371948fedc5e0cee4cec0afad4ab5d38fe0212",
+    "sensitivity_without_2020_2021.csv": "9c1be4b1d3791c5473aa40fe9de5e99ceb3f45d0333e82fff2a6ed7e3138d4ab"
+  }
+}
