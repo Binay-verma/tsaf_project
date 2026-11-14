@@ -61,5 +61,23 @@ def main():
     print(R.round(4).to_string(index=False))
 
 
+def within():
+    """Added after an internal review: within-state correlation (state means removed) and without Gujarat and Tamil Nadu."""
+    d = an.load()
+    rows = []
+    for label, ey, oy in [('same years 2017-2025', range(2017, 2026), range(2017, 2026)), ('out of time', range(2015, 2021), range(2021, 2026))]:
+        E = effects(ey)
+        for m in MODELS:
+            j = E.merge(observed(d, m, oy), on=['state', 'family'])
+            w = j.assign(dev_w=j.deviation - j.groupby('state').deviation.transform('mean'),
+                         y_w=j.typed_minus_pooled - j.groupby('state').typed_minus_pooled.transform('mean'))
+            r = stats.spearmanr(w.dev_w, w.y_w)
+            k = j[~j.state.isin(['Gujarat', 'Tamil Nadu'])]
+            r2 = stats.spearmanr(k.deviation, k.typed_minus_pooled)
+            rows.append(dict(design=label, model=m, within_state_spearman=r.statistic, within_p=r.pvalue,
+                             without_GJ_TN_spearman=r2.statistic, without_GJ_TN_p=r2.pvalue, pairs_without=len(k)))
+    pd.DataFrame(rows).to_csv(OUT/'within_state_and_without_GJ_TN.csv', index=False)
+
+
 if __name__ == '__main__':
-    main()
+    within() if sys.argv[1:] == ['within'] else main()
