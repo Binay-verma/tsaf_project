@@ -1,0 +1,14 @@
+{
+  "model": "timesfm",
+  "completed_utc": "2026-11-14T21:19:06.178129+00:00",
+  "rows": 8676,
+  "arms": [
+    "calendar",
+    "day5",
+    "pooled_day5"
+  ],
+  "seconds": 28072.777571277,
+  "weight_sha256": "a7592b0a8432baee54483254e5647856911ce69e09d09a9bb65904b2d98f17da",
+  "predictions_sha256": "942de59436157aaa74c7db3d3c0070c4e4ece52aa2cd684b9bf01e0a7b60aed6",
+  "protocol_sha256": "2b175812e6190844e7cb8fa54f55f952cbca7ed142e3b954d84fbd50c180b14c"
+}
