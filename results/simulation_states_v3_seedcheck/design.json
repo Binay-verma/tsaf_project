@@ -1,0 +1,20 @@
+{
+ "h_grid": [
+  0.0,
+  0.15,
+  0.3,
+  0.45,
+  0.6,
+  0.8,
+  1.0,
+  1.5
+ ],
+ "reps": 30,
+ "seed": 20261116,
+ "models": {
+  "ridge": 0,
+  "lgbm_leaf2": 2,
+  "lgbm_leaf5": 5
+ },
+ "calibration": "2015-2020 per state"
+}

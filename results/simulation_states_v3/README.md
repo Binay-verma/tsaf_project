@@ -34,3 +34,6 @@ These are compared with the observed 2021–2025 typed − pooled lead-1 MASE fr
 - the simulator was designed after the registered analysis;
 - SARIMAX and the foundation models are not simulated;
 - Uttar Pradesh had a positive mean effect in 2015–2020, so it has no threshold.
+
+## Note added later
+The seeds used Python's `hash(state)`, which is randomised per process, so this run cannot be reproduced exactly. A rerun with stable seeds is in results/simulation_states_v3_seedcheck (differences ≤ 0.008), and that rerun is the one cited in the paper. The `summary.json` direction counts for leaf 2 and TimesFM-3 use the Ridge target and are not meaningful.
