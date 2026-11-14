@@ -95,13 +95,17 @@ def sim_task(t):
 
 
 def observed():
+    return observed_years(range(2017, 2026))
+
+
+def observed_years(years):
     rows = []
     base = ROOT/'results/new_states_v1'
     for cohort, models in [('event_window', ['ridge', 'lightgbm', 'lightgbm_capacity2', 'sarimax']),
                            ('fm_2017_2020', ['chronos', 'timesfm']), ('fm_2021_2025', ['chronos', 'timesfm'])]:
         for m in models:
             p = pd.read_csv(base/cohort/m/'predictions.csv')
-            p = p[(p.horizon == 1) & p.arm.isin(['day5', 'pooled_day5'])]
+            p = p[(p.horizon == 1) & p.arm.isin(['day5', 'pooled_day5']) & p.year.isin(list(years))]
             p['MASE'] = (p.prediction - p.actual).abs()/p.mase_scale
             rows.append(p[['model', 'state', 'family', 'year', 'arm', 'MASE']])
     d = pd.concat(rows)
@@ -154,10 +158,16 @@ def figure(est, curve, obs):
     e = est.sort_values('h').reset_index(drop=True)
     for i, r in e.iterrows():
         col = 'C0' if r.panel == 'original' else 'C1'
-        ax.plot([r.h_lo, r.h_hi], [i, i], color=col, lw=1.2)
+        ax.plot([r.h_lo, min(r.h_hi, 2.4)], [i, i], color=col, lw=1.2)
+        if r.h_hi > 2.4:
+            ax.annotate('', xy=(2.5, i), xytext=(2.3, i), arrowprops=dict(arrowstyle='->', color=col))
         ax.plot(r.h, i, 'o', color=col)
-        ax.plot(r.h_crossover, i, 'k|', ms=10)
+        if np.isfinite(r.h_crossover):
+            ax.plot(r.h_crossover, i, 'k|', ms=10)
+        else:
+            ax.text(0.08, i+0.25, 'no festival effect (mean ~0)', fontsize=6)
     ax.set_yticks(range(len(e))); ax.set_yticklabels(e.state, fontsize=8)
+    ax.set_xlim(-0.05, 2.6)
     ax.set_xlabel('festival-effect heterogeneity h (dot, 90% band)\n| = simulated crossover for that state')
     ax.set_title('Where each state sits')
     ax.plot([], [], 'o', color='C0', label='original 3'); ax.plot([], [], 'o', color='C1', label='new 7'); ax.legend(fontsize=7)
@@ -167,9 +177,9 @@ def figure(est, curve, obs):
         x['margin'] = x.h - x.h_crossover
         ax.errorbar(x.margin, x.observed_typed_minus_pooled, yerr=1.96*x.se, fmt=mk, capsize=2, label=m, alpha=.8)
     ax.axhline(0, color='grey', lw=.8); ax.axvline(0, color='grey', lw=.8)
-    ax.set_xlabel('h minus crossover (> 0: simulation predicts typed for linear models)')
+    ax.set_xlabel('h minus crossover\n(> 0: simulation predicts typed)')
     ax.set_ylabel('observed typed minus pooled\nlead-1 MASE (< 0: typed better)')
-    ax.set_title('Exploratory: new states, after the registered test'); ax.legend(fontsize=7)
+    ax.set_title('Exploratory, 2017-2025 (same years)'); ax.legend(fontsize=7)
     fig.tight_layout(); fig.savefig(OUT/'states_on_curve.png', dpi=200)
 
 
