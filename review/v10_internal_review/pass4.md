@@ -1,0 +1,37 @@
+# Fourth pass on v10 (HEAD f8e4dfe), read-only
+
+## 1. Pass-3 items
+1. Section 4.4 simulation timing: FIXED (first version's design pre-dates the analysis; v3 and per-state designs after it, each committed before its run: 82bfaa7 < 07d9ba2; fbf0bbc 22:50:09 < 3c3a3e8 23:21).
+2. "Reproduces the sizes" overstated: MOSTLY FIXED in 5.8 (Stage A lead-1 mix 7/12 verified: rich_calendar rows 2022-2023 from longer_panel_stage_a_v1_selection_tree = 5/6 leaf 5, 2024-2025 from stable_tree_refit_v2 = 2/6; 7 x 0.0837/12 = +0.0488 vs +0.0429; the 2.6-4.5x tree overstatement in the new states is disclosed). Abstract and Contribution 4 are NOT fixed, see N1 and N5.
+3. v3 forking paths / in-sample: MOSTLY FIXED (post-hoc, in-sample and "after the mismatch had been seen" stated in 4.4, 5.8, Section 8). Not stated: mu was estimated with a one-day flag (simulation_calibration_v1) but v3 spreads it over a window with weights summing to 2.07 without recalibrating; now only worded "festival-day effect".
+4. Table 15 thresholds from the superseded simulator: FIXED (new Table 15 and Figure 4 use v3 per-state parameters; numbers below).
+5. Festival-level caveats: FIXED (within-state -0.35/-0.25, "mainly between states, carried by Gujarat and Tamil Nadu", circularity, "twelve correlations", TimesFM inference deleted, "fits it worst" deleted).
+6. Abstract "did not survive official sources": CHANGED, but the new wording is wrong, see N1.
+7. N5 "default LightGBM": FIXED (Section 9 "Stable LightGBM"); Abstract's "LightGBM with a larger leaf size" is fine.
+8. Figure 3 mixture marker (orange circle at +0.0488), Section 8, second-version naming: FIXED.
+
+## 2. Numbers verified in the changed passages
+- Table 15 (all 7 rows) and the 5.9 means (-0.0111/-0.0275, +0.0158/+0.0123, +0.0277/+0.0239), r and Spearman (0.88/0.79; 0.91/0.89; 0.82/0.36; 0.54), 5/7 Ridge direction, 5.8 values (-0.0133, 0, +0.0837, +0.0306, +0.0488): match predicted_vs_observed_2021_2025.csv, summary.json, state_level_correlations.csv, simulation_typed_pooled_v3/summary.csv.
+- 0.556 share: lead-1 leaf-5 share over all new-states selections is 35/63 = 0.556; for 2021-2025 only it is 19/35 = 0.543, so the choice is immaterial.
+- Festivals paragraph: -0.68, -0.50, -0.43, -0.26, within-state -0.35/-0.25 match spearman.csv and within_state_and_without_GJ_TN.csv (my own recomputation also agrees). Tamil Nadu "other festivals -0% to -5%": values -0.5%, -3.6%, -4.6%.
+
+## 3. The per-state simulation (src/simulation_states_v3.py)
+- P0 does reach the generator: task() sets s3.P0 in the worker before run_one(), generate() reads s3.P0 at call time, and s2.local_X/scale/fit_predict do not use P0. Fork-based Pool(2) is fine. No error here.
+- Seeds are NOT reproducible: the rng uses abs(hash(state)) and Python's str hash is randomised per process (checked: two runs give different hash('Gujarat')). The design.json seed 20261116 therefore does not fix the output; a rerun will differ by Monte Carlo noise (se about 0.002). Replace with a stable hash (e.g. zlib.crc32) and note that the committed numbers came from one unseeded-in-effect run.
+- Uttar Pradesh: mu > 0 (+0.031), so the Ridge grid is skipped, only h=0 is run, h* = NaN and the direction is set to "pooled" by default; the 5/7 agreement counts UP's default "pooled" as a hit. Also a positive-mu festival effect under mu(1+hz) is simulated as a positive demand effect, which is what 2015-2020 showed, but it is an artefact of a 6-year estimate (full-sample mean about 0). Mention.
+- h=0 duplicates: for states with h=0 the h=0 grid point and the state-h point use identical seeds, so the same replications are counted twice in the crossover curve (harmless to the means).
+- Four states have h = 0 (a boundary estimate after truncating variance), so their "prediction" is just the h=0 simulation; for these the agreement is mostly a statement about the sign of mu.
+- The metric "direction agreement" for leaf-2 and TimesFM in summary.json (5 and 4 of 7) compares the Ridge-direction prediction with the sign of the leaf-2/TimesFM outcome. For trees the typed sign is the wrong target (trees favour pooled in the typed states); do not cite those counts. The manuscript does not.
+- 'predicted_stable_mix_0556' = 0.556 x mean(leaf-5 prediction) is arithmetically right; it assumes one mix for all states and ignores that Stable LightGBM's leaf choice varies by state and year.
+- "Out of time" holds only for the per-state parameters (2015-2020). The simulator structure (window profile measured on 2017-2025 data, 730-day refits) was fixed after seeing 2021-2025 outcomes and the earlier mismatch; the manuscript says "designed after the registered analysis" but still labels the check "out of time" in Table 15's caption and the 5.9 text. Keep the label only with that qualification.
+- Robustness of the correlations (my recomputation from predicted_vs_observed_2021_2025.csv): Ridge r 0.88 -> 0.86 without Gujarat -> 0.26 (Spearman 0.40) without Gujarat and Tamil Nadu, i.e. two points against five clustered near zero. Leaf-2 r 0.91 -> 0.67 -> 0.96. Stable-mix r 0.82 -> 0.50 without Gujarat (Spearman -0.03). SARIMAX r 0.54 -> -0.04 without GJ+TN. The manuscript says agreement is "driven by Gujarat and Tamil Nadu", which is right for Ridge, SARIMAX and Stable, less so for leaf-2.
+- Tamil Nadu leaf-2: predicted +0.0071 (pooled), observed -0.0270 (typed): sign miss, visible in Table 15 and Figure 4 right but not mentioned in the text; Stable LightGBM in Tamil Nadu: predicted +0.0465, observed -0.0042.
+
+## 4. New errors and overclaims
+N1. **Abstract: "were not confirmed in two registered sensitivities" is false for H3.** H3 was confirmed without 2020-2021 (7/7 years, Holm 0.006) and not confirmed under official-only; H1 failed both. Say: "H1 was not significant without 2020-2021, and neither effect was confirmed in the official-sources-only subset (mainly two southern states)".
+N2. **Abstract last sentence: "predicted which states gain from typing for Ridge and trees".** (a) For trees nothing "gains from typing" (the simulated and observed tree differences are pooled advantages); (b) Ridge size agreement rests on Gujarat and Tamil Nadu (0.26 without them), the predicted direction is 5/7 with UP's default counted, and the mean is 2.5x too small (-0.011 vs -0.027); (c) Rajasthan is a large miss (+0.012 predicted vs -0.049 observed). Suggest: "reproduced the between-state ordering of Ridge and leaf-2 LightGBM differences, mainly through two states".
+N3. **Contribution 4 has a duplicated phrase** ("matched to the forecasting pipeline and to the forecasting pipeline") and the same overclaim as N2 ("predicts, out of time, which states gain ... for Ridge and trees").
+N4. **5.9 "States" omits two disclosures:** the Ridge mean underprediction (-0.0111 vs -0.0275 is in the text, but not called a 2.5x miss) and the leaf-2 sign miss in Tamil Nadu; "Rajasthan ... just below its threshold" (0.17 vs 0.32, about half) is generous. State "below".
+N5. **Reproducibility of the per-state run** (hash-seeded rng): see section 3; the README and manuscript describe it as a single fixed-seed run.
+N6. **mu recalibration** (item 3 above) still undisclosed: v3 effects total about twice the calibrated one-day mu on the festival window.
+N7. Minor: "Possible reasons are discussed below" (Regions) is vague; the same-years Spearman values appear without p-values while the out-of-time Ridge has an unadjusted p; fine, but add the number of tests next to the same-years pair as well.
