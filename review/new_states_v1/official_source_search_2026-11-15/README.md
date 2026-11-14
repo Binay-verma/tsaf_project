@@ -8,7 +8,9 @@ Goal: find the state government's own holiday notification for each row whose cu
 | Madhya Pradesh | 44 | 0 | 0 | 44 |
 | Rajasthan | 43 | 4 (2025) | 1 | 38 |
 | Gujarat | 44 | 0 | 0 | 44 |
-| AP, Telangana, Tamil Nadu | see found_AP_TS_TN.csv when added | | | |
+| Andhra Pradesh | 46 | 26 (third-party copies of the G.O., provisional) | 2 (both already blank: optional holiday) | 17 (+1 not listed) |
+| Telangana | 16 | 5 (provisional) | 0 | 11 |
+| Tamil Nadu | 4 | 0 | 0 | 4 |
 
 ## Why most rows were not found
 - **Blocked portals:** the official portals refuse automated access (robots.txt). These include gad.mp.gov.in, egazette.mp.gov.in, shasanadesh.up.gov.in, gad.gujarat.gov.in, egazette.gujarat.gov.in, rajasthan.gov.in and dop.rajasthan.gov.in content pages. The web archive is also blocked.
@@ -20,3 +22,6 @@ Rajasthan 2024 Diwali (row 181). A separate gazette dated 30 Oct 2024 declares 1
 
 ## What a person with a browser can do
 Open the image-only notifications listed in the `attempts` and `url` columns (for example MP GAD notifications No. 450/2021, 625/2022, 389/2023, 357/2024; the Rajasthan and Gujarat 2023–2025 PDFs) and read the dates. Rows confirmed this way could support a post-hoc, clearly labelled official-source sensitivity. With only 4 rows confirmed so far, that sensitivity was not run.
+
+## Amendments the AP/TS/TN search flagged
+AP 2015 Holi, AP 2023 Diwali, Telangana 2022 Diwali and Telangana 2023 Dussehra were all already recorded in the calendar before registration, and handled by conventions 1–6. Exploratory use of the provisional matches is in results/new_states_v1_official_plus_confirmed.
