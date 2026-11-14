@@ -1,5 +1,5 @@
 {
- "created_utc": "2026-11-14T23:55:45.330987+00:00",
+ "created_utc": "2026-11-14T23:56:49.915073+00:00",
  "status": "Journal-format draft v10 for supervisor review; not submitted. Revised after an internal referee-style check.",
  "base": {
   "manuscript/journal_v9/MANUSCRIPT.md": "f17c436394b07b76cb5d105e8a61c9032e9afb9d10e239d1439cb911a34a36a4"
@@ -20,12 +20,14 @@
   "results/new_states_v1_diagnostics/physical_units.csv": "db8270c4af1a280ca2dc492652d6ac5f82e08ef380dfa132f34349cbcf7e02d2",
   "results/new_states_v1_diagnostics/power.csv": "6fea50e48ab6c4e967fa6ee4c2356043cb668b281168c704d4d00e38510fbd4d",
   "results/new_states_v1_diagnostics/summary.json": "a1ab9f47fc8b852d3fa70b7534b16da922fc62145cabbf9929848b492871a620",
-  "results/simulation_typed_pooled_v2/README.md": "c8096819b15d9ea29ef89bf560decc25daad650016741f9fca00c3c77d9f7476",
+  "results/simulation_typed_pooled_v2/README.md": "60eb8c9024a1fa7bba56062539c7c03042c5966d599b59257d7f0e90b3c1bcea",
   "results/simulation_typed_pooled_v2/crossover.csv": "5a53b24e14b4a878b3d25e25bd45c693d6d1f8e6f1614f6bc018f352ce691742",
   "results/simulation_typed_pooled_v2/design.json": "18cb13bf3d4828af0552c83b56d2fd58be4a2d429e9ecd21d9be787865dbe20a",
   "results/simulation_typed_pooled_v2/leaf_by_year.csv": "6de102bd8be3f9a7a04b6f3ce181a11e77420215e1adc74d3eec48e0c0e32cec",
   "results/simulation_typed_pooled_v2/simulation_v2.png": "7b243a254a75e84a56021e6dbd66ad6ddfaba53fd6b9fd6e3ee07062d99cd804",
   "results/simulation_typed_pooled_v2/summary.csv": "5bab27447daa12122a9abc5c5cad9c981a2759be1977881275d5dc825c349ad3",
+  "results/simulation_typed_pooled_v2/summary_fm_partD.csv": "d5404360343fdda45642773a3a7633a7943b1587c0b55ff4ab567a06945b84f2",
+  "results/simulation_typed_pooled_v2/weights_identity.json": "704cf982bb595a1eaf343c810d5be0d15f8dd9e57d4e533a11c81f75cf85fedb",
   "results/simulation_calibration_v1/bootstrap.csv": "69d0a14cef4ed31b52ea6949cefba459294a6153518f7e07b27c0cd436a5c15a",
   "results/simulation_calibration_v1/calibration.json": "1fa4d5931e2beba061ce1a36561a4ba61a4caee311b4b54670fbf911b4d76f38",
   "results/simulation_calibration_v1/estimates_by_state.csv": "fed3e3a335e3eb1f66a17ad7062919e6817b1a1170049b58fd738543e5adbc0d",
@@ -52,13 +54,13 @@
   "results/new_states_v1_official_plus_confirmed/tests.csv": "733e28922885b6f99e0b6218db17a28ffa5cc8524eeb4223ec9bd1b45f2136a7"
  },
  "abstract_words": 149,
- "words_main_text": 9191,
+ "words_main_text": 9309,
  "outputs": {
-  "MANUSCRIPT.md": "a99ab919031107b9823429c124bc5768ab291c9bc9e70aaa02f03bda2f4d1962",
-  "MANUSCRIPT_anonymised.md": "b3c38620270ac17529c6ccf0e7aeb7e1f8e634c92f39dd0958c9615f2258c310",
-  "Typed_or_Pooled_Binay_Verma_v10.docx": "4bc82de2a8d43f800cb3ddb6174114cf516669f5c7b6d906e6de9e60befe0fa5",
-  "Typed_or_Pooled_Binay_Verma_v10.pdf": "f9d556bd48b98215a6b7f4ede94cdf579867f183b5cdfcaabf5a9aed1aad17b6",
-  "Typed_or_Pooled_v10_anonymised.docx": "503550e7679afbeb9eab0ddce398a4cf51277f6583193cdc5ed953464f70b5c5",
-  "Typed_or_Pooled_v10_anonymised.pdf": "85c3c2b3c6f02a114f972780989363c02fe6cb96e573331f7e6c515c917d2099"
+  "MANUSCRIPT.md": "63cd9231e4f0913d0deb0882b6eef1d22a5be2b9fd4f2c8996d530ad247e7cb3",
+  "MANUSCRIPT_anonymised.md": "8180bc9710934cb18ed22414c558683acd8e8e5473eed7a26e15711e4aaefbce",
+  "Typed_or_Pooled_Binay_Verma_v10.docx": "14bc985c70f0dac3cab6a32ed505abdc774d1d8f177c1c92d025ca48695842f0",
+  "Typed_or_Pooled_Binay_Verma_v10.pdf": "b9b03a77b91bc386c80826896ab82d50b3ab9cd56826c215ddc6b4cb0f383d7d",
+  "Typed_or_Pooled_v10_anonymised.docx": "5b93412ff4b466bb7f9398b9ef91263eda812375b91eb61a0e28a6bf3dce337c",
+  "Typed_or_Pooled_v10_anonymised.pdf": "e35ba1a3f50b494770a38f047091b2fb9942213c74cef751e006fa5a5a3a4457"
  }
 }

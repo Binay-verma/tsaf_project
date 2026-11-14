@@ -33,3 +33,16 @@ Each typed flag is on for one training day per training year; the pooled flag is
 - The generator's weekly and annual shapes are stylised, with five families at one day each.
 - The calibration uses three states. Its h band reflects year-to-year uncertainty only.
 - Results are about mechanisms. They are not evidence for or against the registered hypotheses H1–H3.
+
+## Part D: foundation models (run on Kaggle by the author; commit 4c62ea2; summary_fm_partD.csv)
+Chronos-2 and TimesFM-3 with the pinned weights, on the v2 generator, lead 1. Typed flags versus a pooled flag without padding, plus day-of-week covariates. 10 replications per h.
+
+| h | Chronos-2 typed − pooled | TimesFM-3 typed − pooled |
+|---|---|---|
+| 0 (identical effects) | +0.086 (se 0.008) | +0.269 (se 0.014) |
+| 0.46 (calibrated) | +0.067 (se 0.019) | +0.062 (se 0.038) |
+| 2 | −0.358 (se 0.043) | −1.192 (se 0.037) |
+
+**Reading.** Both foundation models use the flags, and in a heterogeneity-dependent way. They are better pooled when festivals are alike and much better typed when festivals differ strongly. At the calibrated heterogeneity the pooled flag is slightly better, which is consistent with the Stage A TimesFM-3 preference for pooling. The new states mix low-heterogeneity states with two strongly heterogeneous ones (Gujarat, Tamil Nadu), so the null H2 average is consistent with this pattern. This is exploratory.
+
+**Caveat.** This is the v2 generator, whose sizes are about ten times the observed ones. Only directions are informative. It was not rerun with the pipeline-matched v3 generator.
