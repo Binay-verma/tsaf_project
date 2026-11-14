@@ -166,7 +166,7 @@ def fm(worker):
             rng = np.random.default_rng([SEED, 999, int(round(h*1000)), rep])
             y, flags = generate(rng, P0['mu'], h, P0['phi'], P0['sigma'], P0['omega'])
             covs = {'typed': np.vstack([dow, flags.T.astype(np.float32)]),
-                    'pooled': np.vstack([dow, flags.max(axis=1)[None].astype(np.float32), np.zeros((4, len(y)), np.float32)])}
+                    'pooled': np.vstack([dow, flags.max(axis=1)[None].astype(np.float32)])}   # no all-zero padding columns for foundation models
             ev = [i for i in np.where(flags.sum(axis=1) > 0)[0] if DAYS[i].year in EVENT_YEARS]
             for arm, cov in covs.items():
                 inputs = [(y[i-730:i].astype(np.float32), cov[:, i-730:i+14]) for i in ev]
@@ -179,6 +179,7 @@ def fm(worker):
                     res = list(model.predict_batch([t for t, _ in inputs], horizon=14, past_future_covariates=[c for _, c in inputs],
                                                    return_quantiles=True, use_symmetric_averaging=False))
                     pred = [float(np.asarray(r.forecast).squeeze()[0]) for r in res]
+                assert len(pred) == len(ev) and np.isfinite(pred).all(), (worker, arm, h, rep)
                 for i, p in zip(ev, pred):
                     start = DAYS.get_loc(pd.Timestamp(DAYS[i].year, 1, 1))
                     rows.append(dict(part='D', model=worker, h=h, rep=rep, year=DAYS[i].year, family=int(np.argmax(flags[i])),
