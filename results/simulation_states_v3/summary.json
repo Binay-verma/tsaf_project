@@ -1,0 +1,17 @@
+{
+ "direction_agreement_of_7": {
+  "ridge": 5,
+  "sarimax": 5,
+  "lightgbm_capacity2": 5,
+  "timesfm": 4
+ },
+ "state_means": {
+  "predicted_ridge": -0.0110520450806119,
+  "observed_ridge": -0.027451483964267102,
+  "predicted_leaf2": 0.015835351693925238,
+  "observed_leaf2": 0.012290617431961335,
+  "predicted_leaf5": 0.04977383762592592,
+  "observed_stable_lgbm": 0.023939167947524907,
+  "predicted_stable_mix_0556": 0.02767425372001481
+ }
+}
