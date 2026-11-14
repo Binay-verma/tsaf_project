@@ -11,7 +11,14 @@ Rule followed: registered results, registered files and frozen forecasts were no
 | 5 | Per-state simulation agreement might be circular | Out-of-time check: calibrate on 2015–2020, score 2021–2025 | 7/7 (same years) falls to 5/7, not distinguishable from chance | Reported as "consistent, not demonstrated" |
 | 6 | H2 not confirmed; findings so far are post hoc | Exploratory horizons; prospective test drafted before 2027 data exist | TimesFM-3 typed better at leads 7 and 14 (both cohorts, high-heterogeneity states). Prospective test P1/P2 drafted (results/prospective_2027_v1) with honest power figures | Needs the author's approval and an OSF addendum (text ready) |
 | 7 | Simulation covers local models only | Foundation-model part D notebook written; zero-padding risk fixed before running | Running on Kaggle (author) | Pending the Kaggle run |
-| 8 | Paper did not include the new work | v10 builder: every new number read from result files and asserted | v10 PDF/Word built, 29 pages | Done; an independent referee-style check follows |
-| 9 | Journal format (IJF author guide, 2020 version) | Read the guide | Abstract must be 100–150 words without notation, ≥ 5 keywords, main paper anonymised, title page separate | Being applied in v10: 148-word abstract and an anonymised copy |
+| 8 | Paper did not include the new work | v10 builder: every new number read from result files and asserted | v10 built, then reviewed twice by a separate referee-style agent. Pass 1: tables and numbers correct, 18 text problems (overclaims about the simulation, Gujarat dependence, COVID reading, stale limitations, timing). Pass 2: 16 fixed, 2 mostly fixed, 6 smaller new issues, all then fixed | Done (30 pages); both review reports kept in review/v10_internal_review/ |
+| 9 | Journal format (IJF author guide, 2020 version) | Read the guide | Abstract must be 100–150 words without notation, ≥ 5 keywords, main paper anonymised, title page separate | Done: 147-word abstract; anonymised PDF/Word copy checked for identifiers |
 | 10 | Data reuse terms; declarations; affiliation; co-authorship decision | — | Cannot be done by me: needs the author or supervisor. Contacting anyone was not allowed. | Open (author) |
 | 11 | Commit history is the only timestamp before OSF (Stage A/B) | — | Already stated in the paper. The new-states study has OSF registration osf.io/yw7mr. | Stated |
+
+## Findings from tonight that change the story (all exploratory)
+- Both confirmed effects rest mainly on Gujarat. Without it, H1 goes from −0.0097 to −0.0029 and H3 from +0.0068 to +0.0011.
+- The southern states (AP, Telangana, Tamil Nadu) show a different pattern: no SARIMAX typed gain, and TimesFM-3 better with typed flags.
+- The effects shrank across stages. SARIMAX: −0.030 (Stage A), −0.054 (Stage B), −0.0097 (new states).
+- TimesFM-3 is better with typed flags at leads 7 and 14. This may be an encoding effect, because the foundation runs had no zero or placebo arm.
+- The simulation reproduces direction, not size.
