@@ -46,6 +46,7 @@ text = re.sub(r'\bTable(s?) A(\d+)', r'Table\1 S\2', text)
 text = re.sub(r'(?<=, )A(\d+)\b', r'S\1', text)
 text = re.sub(r'(?<= and )A(\d+)\b', r'S\1', text)
 supp = re.sub(r'\bTable(s?) A(\d+)', r'Table\1 S\2', supp)
+text = re.sub(r'Appendix (Tables? S\d)', r'Supplementary \1', text)
 assert not re.search(r'\bTables? A\d', text) and not re.search(r'\bA\d+\b', re.sub(r'\[[^\]]*\]', '', text.split('## References')[0])), 'stray A-table reference'
 
 # ---------------- second test ----------------
@@ -61,9 +62,9 @@ heads = set(re.findall(r'(?m)^##+ ((?:Appendix )?[A-Z]?[0-9.]+[0-9A-Z]?)', text)
 for m in re.finditer(r'\bSections? ((?:\d+(?:\.\d+)?)(?:(?:,\s*|\s+and\s+|\s+to\s+)\d+(?:\.\d+)?)*)', text.split('## References')[0]):
     for t in re.findall(r'\d+(?:\.\d+)?', m.group(1)):
         assert t in {h.rstrip('.') for h in heads} or t + '.' in heads, ('missing section', t)
-capt = set(re.findall(r'(?m)^Table ([A-Z]?\d+b?)\.', text)) | set(re.findall(r'(?m)^Table (S\d+)\.', supp))
-for m in re.finditer(r'\bTables? ((?:[A-Z]?\d+b?)(?:(?:,\s*|\s+and\s+|–)[A-Z]?\d+b?)*)', text + supp):
-    for t in re.findall(r'[A-Z]?\d+b?', m.group(1)):
+capt = set(re.findall(r'(?m)^Table ([A-Z]?\d+[bc]?)\.', text)) | set(re.findall(r'(?m)^Table (S\d+)\.', supp))
+for m in re.finditer(r'\bTables? ((?:[A-Z]?\d+[bc]?)(?:(?:,\s*|\s+and\s+|–)[A-Z]?\d+[bc]?)*)', text + supp):
+    for t in re.findall(r'[A-Z]?\d+[bc]?', m.group(1)):
         assert t in capt, ('missing table', t)
 cited = {int(x) for grp in re.findall(r'\[(\d+(?:,\s*\d+)*)\]', text.split('## References')[0]) for x in grp.split(',')}
 listed = {int(x) for x in re.findall(r'(?m)^\[(\d+)\]', text.split('## References')[1])}
