@@ -338,69 +338,69 @@ Festival day flags clearly improve Ridge and SARIMAX over a plain calendar, beyo
 
 ## References
 
-[1] Kreusel et al. (2026). On the Encoding of Calendar Features in Covariate-Informed Time Series Foundation Models. arXiv:2610.13676v1. https://arxiv.org/abs/2610.13676
+[1] Kreusel, A., Beichter, M., Nikoltchovska, A., Schäfer, B., Mikut, R., Zahn, F., & Hagenmeyer, V. (2026). On the encoding of calendar features in covariate-informed time series foundation models. arXiv:2610.13676 (v1, 9 Oct 2026). https://arxiv.org/abs/2610.13676
 
-[2] Alipour et al. Impact-driven event covariates for time-series foundation models. https://www.amazon.science/publications/impact-driven-event-covariates-for-time-series-foundation-models
+[2] Alipour, E., Zhang, S., Jin, T., & Moschos, A. (2025). Impact-driven event covariates for time-series foundation models. ICML 2025 Workshop on Foundation Models for Structured Data. https://www.amazon.science/publications/impact-driven-event-covariates-for-time-series-foundation-models
 
-[3] Sanyal, Mitra, McElroy and Roy (2017). Holiday Effects in Indian Manufacturing Series. U.S. Census Bureau RRS2017-04. https://www.census.gov/library/working-papers/2017/adrm/rrs2017-04.html
+[3] Sanyal, A., Mitra, P., McElroy, T. S., & Roy, A. (2017). Holiday effects in Indian manufacturing series (Research Report Series RRS2017-04). U.S. Census Bureau. https://www.census.gov/library/working-papers/2017/adrm/rrs2017-04.html
 
-[4] Kaljevic, Arzola and Zhang (2026). Benchmarking Time Series Foundation Models for Load Forecasting Under Covariate Uncertainty. arXiv:2610.07232v1. https://arxiv.org/abs/2610.07232
+[4] Kaljevic, T., Arzola, I., & Zhang, Y. (2026). Benchmarking time series foundation models for load forecasting under covariate uncertainty. arXiv:2610.07232 (v1, 5 Oct 2026). https://arxiv.org/abs/2610.07232
 
-[5] Meyer et al. Rethinking Evaluation in the Era of Time Series Foundation Models: (Un)known Information Leakage Challenges. arXiv:2510.13654v3. https://arxiv.org/abs/2510.13654
+[5] Meyer, M., Kaltenpoth, S., Zalipski, K., & Müller, O. (2025). Rethinking evaluation in the era of time series foundation models: (Un)known information leakage challenges. arXiv:2510.13654 (v3, 25 Feb 2026). https://arxiv.org/abs/2510.13654
 
-[6] Ansari et al. (2025). Chronos-2: From Univariate to Universal Forecasting. arXiv:2510.15821v1. https://arxiv.org/abs/2510.15821
+[6] Ansari, A. F., Shchur, O., Küken, J., Auer, A., Han, B., et al. (2025). Chronos-2: From univariate to universal forecasting. arXiv:2510.15821 (v1, 17 Oct 2025; 23 authors). https://arxiv.org/abs/2510.15821
 
-[7] Jain and Sen (2026). TimesFM-3: A zero-shot foundation model for multivariate forecasting. Google Research. https://research.google/blog/timesfm-3-a-zero-shot-foundation-model-for-multivariate-forecasting/
+[7] Jain, A., & Sen, R. (2026, August 31). TimesFM-3: A zero-shot foundation model for multivariate forecasting. Google Research blog. https://research.google/blog/timesfm-3-a-zero-shot-foundation-model-for-multivariate-forecasting/
 
-[8] Romano, Patterson and Candès (2019). Conformalized Quantile Regression. arXiv:1905.03222v1. https://arxiv.org/abs/1905.03222
+[8] Romano, Y., Patterson, E., & Candès, E. J. (2019). Conformalized quantile regression. Advances in Neural Information Processing Systems, 32. arXiv:1905.03222. https://arxiv.org/abs/1905.03222
 
-[9] Ziel (2018). Modeling public holidays in load forecasting: a German case study. Journal of Modern Power Systems and Clean Energy 6(2), 191–207. https://doi.org/10.1007/s40565-018-0385-5
+[9] Ziel, F. (2018). Modeling public holidays in load forecasting: A German case study. Journal of Modern Power Systems and Clean Energy, 6(2), 191–207. https://doi.org/10.1007/s40565-018-0385-5
 
-[10] Arora and Taylor (2018). Rule-based autoregressive moving average models for forecasting load on special days: A case study for France. European Journal of Operational Research 266(1), 259–268. https://doi.org/10.1016/j.ejor.2017.08.056
+[10] Arora, S., & Taylor, J. W. (2018). Rule-based autoregressive moving average models for forecasting load on special days: A case study for France. European Journal of Operational Research, 266(1), 259–268. https://doi.org/10.1016/j.ejor.2017.08.056
 
-[11] Bates and Granger (1969). The combination of forecasts. Operational Research Quarterly 20(4), 451–468. https://doi.org/10.1057/jors.1969.103
+[11] Bates, J. M., & Granger, C. W. J. (1969). The combination of forecasts. Operational Research Quarterly, 20(4), 451–468. https://doi.org/10.1057/jors.1969.103
 
-[12] Claeskens, Magnus, Vasnev and Wang (2016). The forecast combination puzzle: A simple theoretical explanation. International Journal of Forecasting 32(3), 754–762. https://doi.org/10.1016/j.ijforecast.2015.12.005
+[12] Claeskens, G., Magnus, J. R., Vasnev, A. L., & Wang, W. (2016). The forecast combination puzzle: A simple theoretical explanation. International Journal of Forecasting, 32(3), 754–762. https://doi.org/10.1016/j.ijforecast.2015.12.005
 
-[13] Hyndman and Koehler (2006). Another look at measures of forecast accuracy. International Journal of Forecasting 22(4), 679–688. https://doi.org/10.1016/j.ijforecast.2006.03.001
+[13] Hyndman, R. J., & Koehler, A. B. (2006). Another look at measures of forecast accuracy. International Journal of Forecasting, 22(4), 679–688. https://doi.org/10.1016/j.ijforecast.2006.03.001
 
-[14] Ke et al. (2017). LightGBM: A highly efficient gradient boosting decision tree. Advances in Neural Information Processing Systems 30, 3146–3154.
+[14] Ke, G., Meng, Q., Finley, T., Wang, T., Chen, W., Ma, W., Ye, Q., & Liu, T.-Y. (2017). LightGBM: A highly efficient gradient boosting decision tree. Advances in Neural Information Processing Systems, 30, 3146–3154.
 
-[15] Nosek, Ebersole, DeHaven and Mellor (2018). The preregistration revolution. Proceedings of the National Academy of Sciences 115(11), 2600–2606. https://doi.org/10.1073/pnas.1708274114
+[15] Nosek, B. A., Ebersole, C. R., DeHaven, A. C., & Mellor, D. T. (2018). The preregistration revolution. Proceedings of the National Academy of Sciences, 115(11), 2600–2606. https://doi.org/10.1073/pnas.1708274114
 
-[16] Holm (1979). A simple sequentially rejective multiple test procedure. Scandinavian Journal of Statistics 6(2), 65–70.
+[16] Holm, S. (1979). A simple sequentially rejective multiple test procedure. Scandinavian Journal of Statistics, 6(2), 65–70.
 
-[17] Hong, T., & Fan, S. (2016). Probabilistic electric load forecasting: A tutorial review. International Journal of Forecasting, 32(3), 914-938. https://doi.org/10.1016/j.ijforecast.2015.11.011
+[17] Hong, T., & Fan, S. (2016). Probabilistic electric load forecasting: A tutorial review. International Journal of Forecasting, 32(3), 914–938. https://doi.org/10.1016/j.ijforecast.2015.11.011
 
-[18] Arora, S., & Taylor, J. W. (2013). Short-term forecasting of anomalous load using rule-based triple seasonal methods. IEEE Transactions on Power Systems, 28(3), 3235-3242. https://doi.org/10.1109/TPWRS.2013.2252929
+[18] Arora, S., & Taylor, J. W. (2013). Short-term forecasting of anomalous load using rule-based triple seasonal methods. IEEE Transactions on Power Systems, 28(3), 3235–3242. https://doi.org/10.1109/TPWRS.2013.2252929
 
-[19] Charlton, N., & Singleton, C. (2014). A refined parametric model for short term load forecasting. International Journal of Forecasting, 30(2), 364-368. https://doi.org/10.1016/j.ijforecast.2013.07.003
+[19] Charlton, N., & Singleton, C. (2014). A refined parametric model for short term load forecasting. International Journal of Forecasting, 30(2), 364–368. https://doi.org/10.1016/j.ijforecast.2013.07.003
 
-[20] Ziel, F., & Liu, B. (2016). Lasso estimation for GEFCom2014 probabilistic electric load forecasting. International Journal of Forecasting, 32(3), 1029-1037. https://doi.org/10.1016/j.ijforecast.2016.01.001
+[20] Ziel, F., & Liu, B. (2016). Lasso estimation for GEFCom2014 probabilistic electric load forecasting. International Journal of Forecasting, 32(3), 1029–1037. https://doi.org/10.1016/j.ijforecast.2016.01.001
 
 [21] Banerjee, A., & Sarkar, S. (2010). Modeling regional electricity load in India (Working Paper Series No. 656). Indian Institute of Management Calcutta, May 2010. https://ir.iimcal.ac.in:8443/jspui/handle/123456789/384
 
-[22] Fernandes, R. S. S., Bichpuriya, Y. K., Rao, M. S. S., & Soman, S. A. (2011). Day ahead load forecasting models for holidays in Indian context. In 2011 International Conference on Power and Energy Systems (ICPES), pp. 1-5. IEEE. https://doi.org/10.1109/ICPES.2011.6156652
+[22] Fernandes, R. S. S., Bichpuriya, Y. K., Rao, M. S. S., & Soman, S. A. (2011). Day ahead load forecasting models for holidays in Indian context. In 2011 International Conference on Power and Energy Systems (ICPES), pp. 1–5. IEEE. https://doi.org/10.1109/ICPES.2011.6156652
 
-[23] Liu, L.-M. (1980). Note - Analysis of time series with calendar effects. Management Science, 26(1), 106-112. https://doi.org/10.1287/mnsc.26.1.106
+[23] Liu, L.-M. (1980). Note - Analysis of time series with calendar effects. Management Science, 26(1), 106–112. https://doi.org/10.1287/mnsc.26.1.106
 
-[24] Bell, W. R., & Hillmer, S. C. (1983). Modeling time series with calendar variation. Journal of the American Statistical Association, 78(383), 526-534. https://doi.org/10.1080/01621459.1983.10478005
+[24] Bell, W. R., & Hillmer, S. C. (1983). Modeling time series with calendar variation. Journal of the American Statistical Association, 78(383), 526–534. https://doi.org/10.1080/01621459.1983.10478005
 
-[25] Findley, D. F., Monsell, B. C., Bell, W. R., Otto, M. C., & Chen, B.-C. (1998). New capabilities and methods of the X-12-ARIMA seasonal-adjustment program. Journal of Business & Economic Statistics, 16(2), 127-152. https://doi.org/10.1080/07350015.1998.10524743
+[25] Findley, D. F., Monsell, B. C., Bell, W. R., Otto, M. C., & Chen, B.-C. (1998). New capabilities and methods of the X-12-ARIMA seasonal-adjustment program. Journal of Business & Economic Statistics, 16(2), 127–152. https://doi.org/10.1080/07350015.1998.10524743
 
 [26] Lin, J.-L., & Liu, T.-S. (2003). Modeling lunar calendar effects in Taiwan. Econometrics 0306005, EconWPA, University Library of Munich. (Earlier version: Modeling lunar calendar holiday effects in Taiwan, U.S. Census Bureau working paper, July 2002.) https://ideas.repec.org/p/wpa/wuwpem/0306005.html
 
 [27] Roberts, I., & White, G. (2015). Seasonal adjustment of Chinese economic statistics (Research Discussion Paper RDP 2015-13), Section 2: Seasonal adjustment with Chinese moving holiday effects. Reserve Bank of Australia. https://www.rba.gov.au/publications/rdp/2015/2015-13/seasonal-adjustment-with-chinese-moving-holiday-effects.html
 
-[28] Taylor, S. J., & Letham, B. (2018). Forecasting at scale. The American Statistician, 72(1), 37-45. https://doi.org/10.1080/00031305.2017.1380080
+[28] Taylor, S. J., & Letham, B. (2018). Forecasting at scale. The American Statistician, 72(1), 37–45. https://doi.org/10.1080/00031305.2017.1380080
 
 [29] Hyndman, R. J., & Athanasopoulos, G. Forecasting: Principles and Practice (3rd ed.). OTexts, Melbourne. Section 7.4 'Some useful predictors'. https://otexts.com/fpp3/ (accessed 15 Nov 2026). https://otexts.com/fpp3/useful-predictors.html
 
-[30] Das, A., Kong, W., Sen, R., & Zhou, Y. (2024). A decoder-only foundation model for time-series forecasting. In Proceedings of the 41st International Conference on Machine Learning (ICML 2024), PMLR 235, 10148-10167. https://proceedings.mlr.press/v235/das24c.html
+[30] Das, A., Kong, W., Sen, R., & Zhou, Y. (2024). A decoder-only foundation model for time-series forecasting. In Proceedings of the 41st International Conference on Machine Learning (ICML 2024), PMLR 235, 10148–10167. https://proceedings.mlr.press/v235/das24c.html
 
 [31] Ansari, A. F., Stella, L., Turkmen, A. C., Zhang, X., Mercado, P., Shen, H., Shchur, O., Rangapuram, S. S., Pineda Arango, S., Kapoor, S., Zschiegner, J., Maddix, D. C., Wang, H., Mahoney, M. W., Torkkola, K., Wilson, A. G., Bohlke-Schneider, M., & Wang, B. (2024). Chronos: Learning the language of time series. Transactions on Machine Learning Research. arXiv:2403.07815. https://openreview.net/forum?id=gerNCVqqtR
 
-[32] Woo, G., Liu, C., Kumar, A., Xiong, C., Savarese, S., & Sahoo, D. (2024). Unified training of universal time series forecasting transformers. In Proceedings of the 41st International Conference on Machine Learning (ICML 2024), PMLR 235, 53140-53164. https://proceedings.mlr.press/v235/woo24a.html
+[32] Woo, G., Liu, C., Kumar, A., Xiong, C., Savarese, S., & Sahoo, D. (2024). Unified training of universal time series forecasting transformers. In Proceedings of the 41st International Conference on Machine Learning (ICML 2024), PMLR 235, 53140–53164. https://proceedings.mlr.press/v235/woo24a.html
 
 [33] Ekambaram, V., Jati, A., Dayama, P., Mukherjee, S., Nguyen, N. H., Gifford, W. M., Reddy, C., & Kalagnanam, J. (2024). Tiny Time Mixers (TTMs): Fast pre-trained models for enhanced zero/few-shot forecasting of multivariate time series. arXiv:2401.03955 (v8); accepted at NeurIPS 2024. https://arxiv.org/abs/2401.03955
 
@@ -410,41 +410,41 @@ Festival day flags clearly improve Ridge and SARIMAX over a plain calendar, beyo
 
 [36] Shchur, O., Ansari, A. F., Turkmen, C., Stella, L., Erickson, N., Guerron, P., Bohlke-Schneider, M., & Wang, Y. (2025). fev-bench: A realistic benchmark for time series forecasting. arXiv:2509.26468 (v5, 4 Nov 2026). https://arxiv.org/abs/2509.26468
 
-[37] Efron, B., & Morris, C. (1975). Data analysis using Stein's estimator and its generalizations. Journal of the American Statistical Association, 70(350), 311-319. https://doi.org/10.1080/01621459.1975.10479864
+[37] Efron, B., & Morris, C. (1975). Data analysis using Stein's estimator and its generalizations. Journal of the American Statistical Association, 70(350), 311–319. https://doi.org/10.1080/01621459.1975.10479864
 
-[38] Micci-Barreca, D. (2001). A preprocessing scheme for high-cardinality categorical attributes in classification and prediction problems. ACM SIGKDD Explorations Newsletter, 3(1), 27-32. https://doi.org/10.1145/507533.507538
+[38] Micci-Barreca, D. (2001). A preprocessing scheme for high-cardinality categorical attributes in classification and prediction problems. ACM SIGKDD Explorations Newsletter, 3(1), 27–32. https://doi.org/10.1145/507533.507538
 
-[39] Pargent, F., Pfisterer, F., Thomas, J., & Bischl, B. (2022). Regularized target encoding outperforms traditional methods in supervised machine learning with high cardinality features. Computational Statistics, 37(5), 2671-2692. https://doi.org/10.1007/s00180-022-01207-6
+[39] Pargent, F., Pfisterer, F., Thomas, J., & Bischl, B. (2022). Regularized target encoding outperforms traditional methods in supervised machine learning with high cardinality features. Computational Statistics, 37(5), 2671–2692. https://doi.org/10.1007/s00180-022-01207-6
 
 [40] Probst, P., Wright, M. N., & Boulesteix, A.-L. (2019). Hyperparameters and tuning strategies for random forest. WIREs Data Mining and Knowledge Discovery, 9(3), e1301. https://doi.org/10.1002/widm.1301
 
 [41] LightGBM developers. LightGBM documentation: Parameters; Parameters Tuning (min_data_in_leaf, alias min_child_samples; categorical parameters). https://lightgbm.readthedocs.io/en/latest/ (accessed 15 Nov 2026). https://lightgbm.readthedocs.io/en/latest/Parameters.html
 
-[42] Diebold, F. X., & Mariano, R. S. (1995). Comparing predictive accuracy. Journal of Business & Economic Statistics, 13(3), 253-263. https://doi.org/10.1080/07350015.1995.10524599
+[42] Diebold, F. X., & Mariano, R. S. (1995). Comparing predictive accuracy. Journal of Business & Economic Statistics, 13(3), 253–263. https://doi.org/10.1080/07350015.1995.10524599
 
-[43] Hansen, P. R., Lunde, A., & Nason, J. M. (2011). The model confidence set. Econometrica, 79(2), 453-497. https://ideas.repec.org/a/ecm/emetrp/v79y2011i2p453-497.html
+[43] Hansen, P. R., Lunde, A., & Nason, J. M. (2011). The model confidence set. Econometrica, 79(2), 453–497. https://ideas.repec.org/a/ecm/emetrp/v79y2011i2p453-497.html
 
-[44] Cameron, A. C., Gelbach, J. B., & Miller, D. L. (2008). Bootstrap-based improvements for inference with clustered errors. The Review of Economics and Statistics, 90(3), 414-427. https://doi.org/10.1162/rest.90.3.414
+[44] Cameron, A. C., Gelbach, J. B., & Miller, D. L. (2008). Bootstrap-based improvements for inference with clustered errors. The Review of Economics and Statistics, 90(3), 414–427. https://doi.org/10.1162/rest.90.3.414
 
-[45] Canay, I. A., Romano, J. P., & Shaikh, A. M. (2017). Randomization tests under an approximate symmetry assumption. Econometrica, 85(3), 1013-1030. https://doi.org/10.3982/ECTA13081
+[45] Canay, I. A., Romano, J. P., & Shaikh, A. M. (2017). Randomization tests under an approximate symmetry assumption. Econometrica, 85(3), 1013–1030. https://doi.org/10.3982/ECTA13081
 
-[46] Hemerik, J., Goeman, J. J., & Finos, L. (2020). Robust testing in generalized linear models by sign flipping score contributions. Journal of the Royal Statistical Society: Series B, 82(3), 841-864. https://doi.org/10.1111/rssb.12369
+[46] Hemerik, J., Goeman, J. J., & Finos, L. (2020). Robust testing in generalized linear models by sign flipping score contributions. Journal of the Royal Statistical Society: Series B, 82(3), 841–864. https://doi.org/10.1111/rssb.12369
 
-[47] Franses, P. H. (2016). A note on the Mean Absolute Scaled Error. International Journal of Forecasting, 32(1), 20-22. https://doi.org/10.1016/j.ijforecast.2015.03.008
+[47] Franses, P. H. (2016). A note on the Mean Absolute Scaled Error. International Journal of Forecasting, 32(1), 20–22. https://doi.org/10.1016/j.ijforecast.2015.03.008
 
-[48] Petropoulos, F., Apiletti, D., Assimakopoulos, V., Babai, M. Z., Barrow, D. K., et al. (2022). Forecasting: theory and practice. International Journal of Forecasting, 38(3), 705-871. (80 authors.) https://doi.org/10.1016/j.ijforecast.2021.11.001
+[48] Petropoulos, F., Apiletti, D., Assimakopoulos, V., Babai, M. Z., Barrow, D. K., et al. (2022). Forecasting: theory and practice. International Journal of Forecasting, 38(3), 705–871. (80 authors.) https://doi.org/10.1016/j.ijforecast.2021.11.001
 
-[49] Hewamalage, H., Ackermann, K., & Bergmeir, C. (2023). Forecast evaluation for data scientists: common pitfalls and best practices. Data Mining and Knowledge Discovery, 37(2), 788-832. https://doi.org/10.1007/s10618-022-00894-5
+[49] Hewamalage, H., Ackermann, K., & Bergmeir, C. (2023). Forecast evaluation for data scientists: common pitfalls and best practices. Data Mining and Knowledge Discovery, 37(2), 788–832. https://doi.org/10.1007/s10618-022-00894-5
 
-[50] Boylan, J. E., Goodwin, P., Mohammadipour, M., & Syntetos, A. A. (2015). Reproducibility in forecasting research. International Journal of Forecasting, 31(1), 79-90. https://doi.org/10.1016/j.ijforecast.2014.05.008
+[50] Boylan, J. E., Goodwin, P., Mohammadipour, M., & Syntetos, A. A. (2015). Reproducibility in forecasting research. International Journal of Forecasting, 31(1), 79–90. https://doi.org/10.1016/j.ijforecast.2014.05.008
 
-[51] Makridakis, S., Spiliotis, E., & Assimakopoulos, V. (2020). The M4 Competition: 100,000 time series and 61 forecasting methods. International Journal of Forecasting, 36(1), 54-74. https://doi.org/10.1016/j.ijforecast.2019.04.014
+[51] Makridakis, S., Spiliotis, E., & Assimakopoulos, V. (2020). The M4 Competition: 100,000 time series and 61 forecasting methods. International Journal of Forecasting, 36(1), 54–74. https://doi.org/10.1016/j.ijforecast.2019.04.014
 
 [52] Kapoor, S., & Narayanan, A. (2023). Leakage and the reproducibility crisis in machine-learning-based science. Patterns, 4(9), 100804. https://doi.org/10.1016/j.patter.2023.100804
 
-[53] Morris, T. P., White, I. R., & Crowther, M. J. (2019). Using simulation studies to evaluate statistical methods. Statistics in Medicine, 38(11), 2074-2102. https://doi.org/10.1002/sim.8086
+[53] Morris, T. P., White, I. R., & Crowther, M. J. (2019). Using simulation studies to evaluate statistical methods. Statistics in Medicine, 38(11), 2074–2102. https://doi.org/10.1002/sim.8086
 
-[54] Smith, J., & Wallis, K. F. (2009). A simple explanation of the forecast combination puzzle. Oxford Bulletin of Economics and Statistics, 71(3), 331-355. https://doi.org/10.1111/j.1468-0084.2008.00541.x
+[54] Smith, J., & Wallis, K. F. (2009). A simple explanation of the forecast combination puzzle. Oxford Bulletin of Economics and Statistics, 71(3), 331–355. https://doi.org/10.1111/j.1468-0084.2008.00541.x
 
 ## Appendix A. Companion tables
 

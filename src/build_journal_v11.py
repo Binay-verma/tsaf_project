@@ -168,6 +168,40 @@ new_refs = '\n\n'.join(f"[{num[k]}] {lit[k]['citation']}" + (f" https://doi.org/
                        for k in NEW)
 refs_block = refs_block.rstrip('\n') + '\n\n' + new_refs + '\n\n'
 
+# one citation style for all references: the 16 v10 entries rewritten with full author initials (checked at the sources on
+# 15 Nov 2026), page ranges with en dashes throughout
+OLD_REFS = {
+    1: "Kreusel, A., Beichter, M., Nikoltchovska, A., Schäfer, B., Mikut, R., Zahn, F., & Hagenmeyer, V. (2026). On the encoding of calendar features in covariate-informed time series foundation models. arXiv:2610.13676 (v1, 9 Oct 2026). https://arxiv.org/abs/2610.13676",
+    2: "Alipour, E., Zhang, S., Jin, T., & Moschos, A. (2025). Impact-driven event covariates for time-series foundation models. ICML 2025 Workshop on Foundation Models for Structured Data. https://www.amazon.science/publications/impact-driven-event-covariates-for-time-series-foundation-models",
+    3: "Sanyal, A., Mitra, P., McElroy, T. S., & Roy, A. (2017). Holiday effects in Indian manufacturing series (Research Report Series RRS2017-04). U.S. Census Bureau. https://www.census.gov/library/working-papers/2017/adrm/rrs2017-04.html",
+    4: "Kaljevic, T., Arzola, I., & Zhang, Y. (2026). Benchmarking time series foundation models for load forecasting under covariate uncertainty. arXiv:2610.07232 (v1, 5 Oct 2026). https://arxiv.org/abs/2610.07232",
+    5: "Meyer, M., Kaltenpoth, S., Zalipski, K., & Müller, O. (2025). Rethinking evaluation in the era of time series foundation models: (Un)known information leakage challenges. arXiv:2510.13654 (v3, 25 Feb 2026). https://arxiv.org/abs/2510.13654",
+    6: "Ansari, A. F., Shchur, O., Küken, J., Auer, A., Han, B., et al. (2025). Chronos-2: From univariate to universal forecasting. arXiv:2510.15821 (v1, 17 Oct 2025; 23 authors). https://arxiv.org/abs/2510.15821",
+    7: "Jain, A., & Sen, R. (2026, August 31). TimesFM-3: A zero-shot foundation model for multivariate forecasting. Google Research blog. https://research.google/blog/timesfm-3-a-zero-shot-foundation-model-for-multivariate-forecasting/",
+    8: "Romano, Y., Patterson, E., & Candès, E. J. (2019). Conformalized quantile regression. Advances in Neural Information Processing Systems, 32. arXiv:1905.03222. https://arxiv.org/abs/1905.03222",
+    9: "Ziel, F. (2018). Modeling public holidays in load forecasting: A German case study. Journal of Modern Power Systems and Clean Energy, 6(2), 191–207. https://doi.org/10.1007/s40565-018-0385-5",
+    10: "Arora, S., & Taylor, J. W. (2018). Rule-based autoregressive moving average models for forecasting load on special days: A case study for France. European Journal of Operational Research, 266(1), 259–268. https://doi.org/10.1016/j.ejor.2017.08.056",
+    11: "Bates, J. M., & Granger, C. W. J. (1969). The combination of forecasts. Operational Research Quarterly, 20(4), 451–468. https://doi.org/10.1057/jors.1969.103",
+    12: "Claeskens, G., Magnus, J. R., Vasnev, A. L., & Wang, W. (2016). The forecast combination puzzle: A simple theoretical explanation. International Journal of Forecasting, 32(3), 754–762. https://doi.org/10.1016/j.ijforecast.2015.12.005",
+    13: "Hyndman, R. J., & Koehler, A. B. (2006). Another look at measures of forecast accuracy. International Journal of Forecasting, 22(4), 679–688. https://doi.org/10.1016/j.ijforecast.2006.03.001",
+    14: "Ke, G., Meng, Q., Finley, T., Wang, T., Chen, W., Ma, W., Ye, Q., & Liu, T.-Y. (2017). LightGBM: A highly efficient gradient boosting decision tree. Advances in Neural Information Processing Systems, 30, 3146–3154.",
+    15: "Nosek, B. A., Ebersole, C. R., DeHaven, A. C., & Mellor, D. T. (2018). The preregistration revolution. Proceedings of the National Academy of Sciences, 115(11), 2600–2606. https://doi.org/10.1073/pnas.1708274114",
+    16: "Holm, S. (1979). A simple sequentially rejective multiple test procedure. Scandinavian Journal of Statistics, 6(2), 65–70.",
+}
+_lines = refs_block.split('\n')
+for i, line in enumerate(_lines):
+    m = re.match(r'^\[(\d+)\] ', line)
+    if m and int(m.group(1)) in OLD_REFS:
+        k = int(m.group(1))
+        assert line.split('. ')[0].split(' (')[0].split()[1].rstrip(',') in OLD_REFS[k], (k, line[:60])   # same first author
+        _lines[i] = f'[{k}] ' + OLD_REFS.pop(k)
+    elif m:
+        url_at = line.find('http')
+        head, tail = (line[:url_at], line[url_at:]) if url_at > 0 else (line, '')
+        _lines[i] = re.sub(r'(?<=[ ,])(\d+)-(\d+)(?=[.,])', r'\1–\2', head) + tail
+assert not OLD_REFS, OLD_REFS
+refs_block = '\n'.join(_lines)
+
 # ---------------- section cross-references ----------------
 SEC = {'3.4': 'B.1', '3.5': '3.3', '3.3': '3.4', '5.5': 'Appendix C', '5.6': 'Appendix B.2', '5.7': '6', '5.8': '7', '5.9': '8',
        '6': '9', '7': '10', '8': '11', '9': '12'}
