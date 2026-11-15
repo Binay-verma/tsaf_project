@@ -13,7 +13,7 @@ This repository studies one forecasting choice: should festival information be g
 | **Registered confirmatory test** | **7 further states, 2017–2025** ([OSF yw7mr](https://osf.io/yw7mr)) | **done, run once** | **H1 SARIMAX typed better: confirmed; H2 TimesFM-3 pooled better: not confirmed; H3 leaf-2 LightGBM pooled better: confirmed.** Effects are small (≈ 0.01 MASE) and rest mainly on Gujarat; see the sensitivities. |
 | Independent recomputation | same | done | all effects and decisions reproduced |
 | Simulations | synthetic, calibrated | done (exploratory) | explain when typing helps; out-of-time per-state predictions track the leaf-2 trees (r 0.89); the Ridge agreement (r 0.88) rests on Gujarat and Tamil Nadu, Stable LightGBM agrees only in level (Spearman 0.36), and SARIMAX gets the direction at the calibrated heterogeneity but not the state pattern |
-| TimesFM encoding control | 7 states | code ready, needs Kaggle | tests whether TimesFM's lead-7/14 typed advantage is an encoding artefact |
+| TimesFM encoding control | 7 states | done (exploratory) | the lead-7/14 typed advantage survives without the zero padding (−0.060, −0.064), but rests on Gujarat and Tamil Nadu; no lead-1 difference ([results/new_states_v1_fm_control](results/new_states_v1_fm_control/)) |
 | Prospective 2027–2028 test | 7 states, official calendars only | **draft, needs author approval and OSF** | — |
 
 ## Start here

@@ -5,6 +5,7 @@ Run from the repository root: python src/build_journal_v11.py
 """
 import datetime, hashlib, json, re, shutil, subprocess
 from pathlib import Path
+import pandas as pd
 
 ROOT = Path(__file__).resolve().parents[1]
 V10 = ROOT/'manuscript/journal_v10'
@@ -308,6 +309,32 @@ appD = ('## Appendix D. Reproduction map\n\nEach row names the result folder and
 
 final = body_main + decl + refs_block + appA + appB + appC + appD
 final = final.replace('(journal format, version 10)', '(journal format, version 11)')
+# TimesFM-3 encoding control (exploratory, run after the registered analysis): results/new_states_v1_fm_control
+_fc = pd.read_csv(ROOT/'results/new_states_v1_fm_control/analysis/contrasts.csv')
+_lo = pd.read_csv(ROOT/'results/new_states_v1_fm_control/analysis/typed_vs_pooled1_leave_one_state_out.csv')
+_rp = json.load(open(ROOT/'results/new_states_v1_fm_control/analysis/reproduction.json'))
+assert _rp['max_abs_diff'] == 0.0
+def _g(h, lab): r = _fc[(_fc.horizon == h) & _fc.contrast.str.startswith(lab)].iloc[0]; return float(r['mean']), float(r.p_two_sided)
+def _l(h, st): return float(_lo[(_lo.horizon == h) & (_lo.left_out == st)].typed_minus_pooled1.iloc[0])
+def _lp(h, st): return float(_lo[(_lo.horizon == h) & (_lo.left_out == st)].p_one_sided_typed_better.iloc[0])
+_old = 'This was not a registered horizon, and the foundation runs had no zero or placebo arm while the pooled arm carries four all-zero channels, so an encoding effect cannot be excluded.'
+assert final.count(_old) == 1
+_new = (f"This was not a registered horizon. Because the registered pooled arm carries four all-zero channels, a control run was made afterwards "
+        f"(exploratory; it reproduced the registered pooled forecasts exactly) with the pooled flag alone and with five zero channels. The padding "
+        f"costs {s4(_g(7, 'padding')[0])} and {s4(_g(14, 'padding')[0])} at leads 7 and 14, but typed flags still beat the unpadded pooled flag "
+        f"({s4(_g(7, 'typed - pooled1')[0])} and {s4(_g(14, 'typed - pooled1')[0])}; two-sided p {_g(7, 'typed - pooled1')[1]:.3f} and {_g(14, 'typed - pooled1')[1]:.4f}), "
+        f"so the longer-lead advantage is not mainly an encoding artefact. It rests on Gujarat and Tamil Nadu: without Gujarat it is "
+        f"{s4(_l(7, 'Gujarat'))} and {s4(_l(14, 'Gujarat'))} (one-sided p {_lp(7, 'Gujarat'):.3f} and {_lp(14, 'Gujarat'):.3f}), and without Tamil Nadu "
+        f"{s4(_l(7, 'Tamil Nadu'))} at lead 7. At lead 1 typed and unpadded pooled flags do not differ ({s4(_g(1, 'typed - pooled1')[0])}, p {_g(1, 'typed - pooled1')[1]:.2f}), "
+        f"and both beat the zero arm by about {abs(_g(1, 'typed - zero5')[0]):.2f}.")
+final = final.replace(_old, _new)
+_old2 = 'and the foundation runs had no zero or placebo control.'
+assert final.count(_old2) == 1
+final = final.replace(_old2, 'and the foundation-model zero and unpadded controls were run only afterwards.')
+SRC_EXTRA = '| Section 6 TimesFM-3 encoding control | results/new_states_v1_fm_control/analysis | src/new_states_fm_control_v1.py analyse; src/new_states_fm_control_loso_v1.py |'
+_ar = '| Independent recomputation |'
+assert final.count(_ar) == 1
+final = final.replace(_ar, SRC_EXTRA + '\n' + _ar)
 _c = 'across its two arms and three interval calibrations.'
 assert final.count(_c) == 1
 final = final.replace(_c, 'across its two arms and three interval calibrations (native, and conformalised quantile recalibrations [8] on frozen and on expanding calibration windows).')
