@@ -1,0 +1,60 @@
+{
+ "predictions": {
+  "W1": {
+   "v1": true,
+   "v2": true
+  },
+  "W2": {
+   "v1": {
+    "decreasing": true,
+    "typed_used_at_2190": true
+   },
+   "v2": {
+    "decreasing": false,
+    "typed_used_at_2190": true
+   }
+  },
+  "W3": {
+   "v1": false,
+   "v2": false
+  },
+  "H1": {
+   "v1": true,
+   "v2": true
+  },
+  "H2": {
+   "v1": true,
+   "v2": true
+  },
+  "N1": {
+   "v1 moved_seed1 lgbm_leaf2": true,
+   "v1 moved_seed1 ridge": true,
+   "v1 moved_seed2 lgbm_leaf2": false,
+   "v1 moved_seed2 ridge": true,
+   "v2 moved_seed1 lgbm_leaf2": false,
+   "v2 moved_seed1 ridge": true,
+   "v2 moved_seed2 lgbm_leaf2": false,
+   "v2 moved_seed2 ridge": true
+  },
+  "A1": {
+   "v1": true,
+   "v2": false
+  }
+ },
+ "extra": {
+  "v1": {
+   "window_selected_typed_equals_calendar_share_by_W": {
+    "730": 1.0,
+    "1460": 0.714,
+    "2190": 0.457
+   }
+  },
+  "v2": {
+   "window_selected_typed_equals_calendar_share_by_W": {
+    "730": 1.0,
+    "1460": 0.914,
+    "2190": 0.743
+   }
+  }
+ }
+}
