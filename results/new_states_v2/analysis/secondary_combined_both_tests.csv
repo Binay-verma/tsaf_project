@@ -1,0 +1,3 @@
+analysis,model,clusters,statistic,years_in_direction,p_one_sided
+"R1 combined (both tests, 14 states)",sarimax,45,-0.0056089632477677315,6,0.029083970916029083
+"R2 combined (both tests, 14 states)",lightgbm_capacity2,45,0.008860632894668903,8,0.00048999951000049

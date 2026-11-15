@@ -1,0 +1,36 @@
+{
+  "created_utc": "2026-11-15T19:26:12.113223+00:00",
+  "decisions": {
+    "R1": "NOT CONFIRMED",
+    "R2": "CONFIRMED",
+    "M1": "NOT CONFIRMED",
+    "M2": "NOT CONFIRMED"
+  },
+  "sensitivity_without_2020_2021": {
+    "R1": "NOT CONFIRMED",
+    "R2": "CONFIRMED",
+    "M1": "NOT CONFIRMED",
+    "M2": "NOT CONFIRMED"
+  },
+  "sensitivity_author_checked_rows_only": {
+    "R1": "NOT CONFIRMED",
+    "R2": "NOT CONFIRMED",
+    "M1": "NOT CONFIRMED",
+    "M2": "NOT CONFIRMED"
+  },
+  "sensitivity_first_test_h": {
+    "R1": "NOT CONFIRMED",
+    "R2": "CONFIRMED",
+    "M1": "NOT CONFIRMED",
+    "M2": "NOT CONFIRMED"
+  },
+  "outputs": {
+    "all_models_lead1.csv": "0c9a963dec722e737dc166223571f5d941dd6b202c4e315858ea1e7ea465237b",
+    "balanced.csv": "6970f7429ad58375c5a3bc006be78bdc37e7560796da05461f64e9cc28e1aae9",
+    "hypothesis_tests.csv": "dbf5151429af5d9db6209cdaf1a5eafe6afe009a8a0ac48437d669c4514096af",
+    "secondary_combined_both_tests.csv": "af2a4fd655da8b84e7d7956e3267a379117aa90ced2b048de066d19549b91cff",
+    "sensitivity_author_checked_rows_only.csv": "57e01711a6ff25ab8cf2d9b23136eb40e8bacedf038816c335f5f015a15f2429",
+    "sensitivity_first_test_h.csv": "4e90b8e04fbb8e363de946f772c46835cdb53a4a788c45ded90a0d1e92b58cc7",
+    "sensitivity_without_2020_2021.csv": "7fa25df4397feada9fbb3f6257b2ec5d9145fa62e4ada2cde619e39a93223c59"
+  }
+}
