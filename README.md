@@ -9,7 +9,7 @@ This repository studies one forecasting choice: should festival information be g
 | Step | States and years | Status | Result |
 |---|---|---|---|
 | Exploratory (Stage A) | Delhi, Karnataka, Maharashtra, 2022–2025 | done | which representation is better depends on the model |
-| Registered follow-up (Stage B) | Maharashtra 2019–2021 | done | model-class pattern held for local models |
+| Registered follow-up (Stage B) | Maharashtra 2019–2021 | done | SARIMAX typed better: confirmed; Stable LightGBM pooled better: not confirmed (difference exactly 0: its trees cannot use typed flags); leaf-2 LightGBM pooled better: confirmed (secondary) |
 | **Registered confirmatory test** | **7 further states, 2017–2025** ([OSF yw7mr](https://osf.io/yw7mr)) | **done, run once** | **H1 SARIMAX typed better: confirmed; H2 TimesFM-3 pooled better: not confirmed; H3 leaf-2 LightGBM pooled better: confirmed.** Effects are small (≈ 0.01 MASE) and rest mainly on Gujarat; see the sensitivities. |
 | Independent recomputation | same | done | all effects and decisions reproduced |
 | Simulations | synthetic, calibrated | done (exploratory) | explain when typing helps; out-of-time per-state predictions agree with observed sizes for Ridge and trees |
