@@ -1,0 +1,26 @@
+{
+  "event_cases": 3969,
+  "dropped_missing_label": 0,
+  "by_year": {
+    "2017": 441,
+    "2018": 441,
+    "2019": 441,
+    "2020": 441,
+    "2021": 441,
+    "2022": 441,
+    "2023": 441,
+    "2024": 441,
+    "2025": 441
+  },
+  "by_state": {
+    "Bihar": 567,
+    "Chhattisgarh": 567,
+    "Haryana": 567,
+    "Kerala": 378,
+    "Odisha": 756,
+    "Punjab": 567,
+    "West Bengal": 567
+  },
+  "clusters": 36,
+  "states_per_cluster": 5.25
+}

@@ -38,7 +38,7 @@ def main():
             d = dec.loc[r.row]
             date = d.final_date
             if d.basis.startswith('PROPOSED'):
-                by, method = 'rule (author confirmation pending)', 'Holi-day rule: later of two reference days, adopted after two spot-check errors'
+                by, method = 'rule (not checked by the author)', 'Holi-day rule: later of two reference days, adopted after two spot-check errors'
             elif d.basis.startswith('author ok, no date entered'):
                 by, method = 'Binay Verma', 'author ok; date set by the main-festival-day rule (author may veto)'
             else:

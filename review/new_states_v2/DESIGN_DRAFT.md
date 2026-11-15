@@ -1,6 +1,6 @@
-# Second registered test, seven more states: design DRAFT (not registered)
+# Second registered test, seven more states: design (frozen for registration)
 
-Status: draft written on 15 November 2026; design (R1, R2, M1, M2 and the state rule) approved by the author on the evening of 15 November 2026. Not yet registered. Calendar procedure below added after approval, before any parameter selection or forecast. No parameter selection or forecast for these states has been made. No electricity outcome for them has been evaluated. The only use of their data so far is a count of missing or zero days.
+Status: draft written on 15 November 2026; design (R1, R2, M1, M2 and the state rule) approved by the author on the evening of 15 November 2026. Not yet registered. Calendar procedure, power and the three changes in 'Changes approved on 15 November 2026 (night)' added after approval, before any parameter selection or forecast. The final, registered wording of every hypothesis and test is in src/new_states_v2.py (HYPOTHESES, TEST, DECISION) and src/new_states_v2_analysis.py; where this file and the code differ, the code is registered. No parameter selection or forecast for these states has been made. No electricity outcome for them has been evaluated. The only use of their data so far is a count of missing or zero days.
 
 ## Why
 The first registered test (osf.io/yw7mr) confirmed H1 (SARIMAX typed better) and H3 (leaf-2 LightGBM pooled better). Both rest mainly on Gujarat, and the follow-ups suggest why: typing helps where a state's festivals differ strongly in effect. That explanation was found after looking at the data. This test checks it, and replicates H1 and H3, on states the project has never used.
@@ -13,24 +13,25 @@ Data quality (counted 15 Nov 2026): missing or zero days are 8 (2015), 3 (2016),
 ## Families and calendars
 These are the same five families and the same unchanged code: Holi, Dussehra, Ganesh_Chaturthi, Ugadi_Gudi_Padwa and Diwali. Durga Puja enters through its Dussehra (Vijaya Dashami) day. Festivals outside the five (Onam, Chhath, Bihu, Vishu, Pongal) are not added, because that would change the registered code.
 
-Calendar conventions 1–6 of review/new_states_v1/DESIGN_DRAFT.md apply unchanged. Every row is checked by the author before registration. A family is in scope where the state notifies it as a public holiday in most years.
+Calendar conventions 1–6 of review/new_states_v1/DESIGN_DRAFT.md apply unchanged. How each calendar row was settled is recorded per row (check_method); see 'Calendar procedure' below. A family is in scope where the state notifies it as a public holiday in most years.
 
 ## Hypotheses (lead 1, day flags, typed minus pooled event MASE; registered pipeline unchanged)
 - **R1 (replicates H1):** SARIMAX typed better. Event years 2017–2025, with the same test and decision rule as osf.io/yw7mr: family-year clusters, sign-flip, Holm, at least 6 of 9 years.
 - **R2 (replicates H3):** leaf-2 LightGBM pooled better. Same rule.
-- **M1 (mechanism):** each state's festival-effect heterogeneity h is estimated from 2015–2020 demand only, with the method of src/simulation_calibration_v3_timesplit.py. In the three states with the highest h, Ridge typed − pooled < 0 over 2021–2025 (state-family-year units, sign-flip).
-- **M2 (mechanism, gradient):** across the seven states, the early-period h (2015–2020) is negatively rank-correlated with the mean Ridge typed − pooled lead-1 MASE over 2021–2025 (higher h, more typed-favouring). One-sided permutation test over all 7! = 5040 orderings (Spearman correlation). The three-versus-four split first drafted here was dropped: it allows only 35 assignments, so its smallest possible p (1/35 = 0.029) could not pass a Holm correction over four hypotheses.
+- **M1 (mechanism):** each state's festival-effect heterogeneity is estimated from 2015–2020 demand only (src/new_states_v2_early_h_v1.py) as h_abs, the between-family SD of log festival effects net of sampling noise. In the three states with the highest h_abs (Chhattisgarh, West Bengal, Haryana), Ridge typed − pooled < 0 over 2021–2025 (state-family-year units, sign-flip; at least 4 of 5 year means negative).
+- **M2 (mechanism, gradient):** across the seven states, h_abs (2015–2020) is negatively rank-correlated with the mean Ridge typed − pooled lead-1 MASE over 2021–2025 (higher h, more typed-favouring). One-sided permutation test over all 7! = 5040 orderings (Spearman correlation). The three-versus-four split first drafted here was dropped: it allows only 35 assignments, so its smallest possible p (1/35 = 0.029) could not pass a Holm correction over four hypotheses.
 - Holm across R1, R2, M1 and M2.
 
 Secondary, reported but not used for decisions: Ridge and Stable LightGBM at lead 1; leads 7 and 14; zero and placebo controls; the 2020–2021 and official-source sensitivities, as before.
 
+Pre-declared sensitivities, reported without changing decisions: 2020–2021 removed; only calendar rows settled by the author one by one; M1/M2 with the first-test h.
+
 TimesFM-3 and Chronos-2 are left out of the confirmatory set because of time. They may be run afterwards as exploratory.
 
-## Still open (author)
-1. Approve the state rule and hypotheses. M1 and M2 can be changed now, before registration, but not after.
-2. Check every calendar row.
-3. Register on OSF before any selection or forecast.
-4. Power: computed from the first test's spread once the calendar fixes the number of clusters, and added here before registration.
+## Changes approved on 15 November 2026 (night), before any selection or forecast
+1. **Heterogeneity measure.** The first test's h divides the spread by the mean festival effect. In Bihar the 2015–2020 mean effect is +0.7%, so h is 2.41 although the spread is small (h_abs 0.016). M1 and M2 therefore use h_abs. This was decided after seeing the 2015–2020 values of both measures (no 2021–2025 data, no forecast). The first-test h is a registered sensitivity.
+2. **Power stated.** If the true effects equal the first test's, R1 passes in about 18–34% and R2 in about 19–36% of simulated replications (review/new_states_v2/power/). A NOT CONFIRMED R1 or R2 is therefore weak evidence against the first test.
+3. **Combined secondary analysis.** R1 and R2 statistics recomputed over family-year clusters containing the states of both tests (14 states; equal weight per state; 45 clusters, because the same family-year is one cluster in both tests). Reported, not used for decisions.
 
 ## Timeline
 - Calendar candidates: 1–2 days (machine search).
@@ -49,4 +50,7 @@ TimesFM-3 and Chronos-2 are left out of the confirmatory set because of time. Th
 - The author filled the short workbook: 22 decision rows and 21 spot-check rows (triage/author_decisions.csv).
 - Spot-check found 2 errors in 21 (Odisha 2020 Holi and West Bengal 2020 Holi: the triage date was the earlier of two reference days, the states hold Holi on the later day). Rule adopted: for Holi the state's Holi (Rangwali) day is used, not the eve. Five more matched Holi rows with the same pattern (Odisha 2018, 2023; West Bengal 2016, 2017, 2023) are proposed for the later day and wait for the author's confirmation.
 - Open: Kerala 2015 Dussehra (no author status); Chhattisgarh 2022 Dussehra (spot-check, no status).
-- Resolved on 15 November 2026: Kerala 2015 Dussehra = 23 Oct (author, from a screenshot of a regional-holiday list); Chhattisgarh 2022 Dussehra = 5 Oct (author). Only the five proposed Holi rows await confirmation.
+- Resolved on 15 November 2026: Kerala 2015 Dussehra = 23 Oct (author, from a screenshot of a regional-holiday list); Chhattisgarh 2022 Dussehra = 5 Oct (author). The five Holi rows were not checked one by one; as announced to the author, they take the later day under the Holi-day rule and are marked as set by rule (check_method).
+
+## Bihar Holi
+Bihar's entries use the day after the main Holi day in 2017, 2019 and 2024 (author-entered) and the main day in the other years. Bihar notifies Holi over two days; the author's entries were kept.

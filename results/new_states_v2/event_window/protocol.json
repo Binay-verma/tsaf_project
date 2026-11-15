@@ -1,0 +1,151 @@
+{
+  "experiment": "new_states_v2/event_window",
+  "created_utc": "2026-11-15T17:51:58.022966+00:00",
+  "author": "Binay Verma",
+  "status": "Registered before any parameter selection or forecast for these states; no outcome of these states has been evaluated in this project.",
+  "states": [
+    "Punjab",
+    "Haryana",
+    "West Bengal",
+    "Kerala",
+    "Bihar",
+    "Odisha",
+    "Chhattisgarh"
+  ],
+  "scope": {
+    "Bihar": [
+      "Holi",
+      "Dussehra",
+      "Diwali"
+    ],
+    "Chhattisgarh": [
+      "Holi",
+      "Dussehra",
+      "Diwali"
+    ],
+    "Haryana": [
+      "Holi",
+      "Dussehra",
+      "Diwali"
+    ],
+    "Punjab": [
+      "Holi",
+      "Dussehra",
+      "Diwali"
+    ],
+    "West Bengal": [
+      "Holi",
+      "Dussehra",
+      "Diwali"
+    ],
+    "Kerala": [
+      "Dussehra",
+      "Diwali"
+    ],
+    "Odisha": [
+      "Holi",
+      "Dussehra",
+      "Ganesh_Chaturthi",
+      "Diwali"
+    ]
+  },
+  "event_years": [
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "calendar_years": [
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "arms": [
+    "calendar",
+    "zero5",
+    "day5",
+    "pooled_day5",
+    "placebo_day5"
+  ],
+  "models": [
+    "ridge",
+    "lightgbm",
+    "lightgbm_capacity2",
+    "sarimax"
+  ],
+  "parameter_selection": {
+    "ridge": "results/new_states_v2_selection_ridge",
+    "tree": "results/new_states_v2_selection_tree"
+  },
+  "hypotheses": {
+    "R1": "SARIMAX(1,0,0)(1,0,0,7): typed-day minus pooled-day event MASE at lead 1 is NEGATIVE (typed better). Replicates H1 of osf.io/yw7mr.",
+    "R2": "LightGBM with minimum leaf size fixed at 2: typed-day minus pooled-day event MASE at lead 1 is POSITIVE (pooled better). Replicates H3 of osf.io/yw7mr.",
+    "M1": "Ridge: in the three states with the highest early-period absolute festival-effect dispersion (h_abs, 2015-2020 demand only: Chhattisgarh, West Bengal, Haryana), typed-day minus pooled-day lead-1 MASE over 2021-2025 is NEGATIVE.",
+    "M2": "Across the seven states, h_abs is NEGATIVELY rank-correlated (Spearman) with the state mean Ridge typed-day minus pooled-day lead-1 MASE over 2021-2025."
+  },
+  "reported_not_tested": [
+    "ridge and lightgbm (stable) at lead 1 against the R1/R2 rule",
+    "all arms, leads 7 and 14",
+    "zero and placebo controls",
+    "combined first + second test: R1/R2 statistic over the 45 family-year clusters with all 14 states"
+  ],
+  "power": "review/new_states_v2/power/README.md: about 18-34% (R1) and 19-36% (R2) if the effect equals the first test; stated before any forecast.",
+  "test": "R1, R2: per state, family and year, mean lead-1 MASE over the event cases, typed-day minus pooled-day. Cluster = family-year; cluster value = equal-weight mean over the states in that cluster. Statistic = mean over clusters. One-sided sign-flip p in the hypothesised direction, Monte Carlo with 1,000,000 sign draws (numpy default_rng seed 20261116), p = (k+1)/(N+1). M1: units = state-family-year values of Ridge typed minus pooled lead-1 MASE, 2021-2025, in the three named states; statistic = mean over units; same one-sided sign-flip (seed 20261116). M2: Spearman correlation (average ranks for ties) between h_abs and the state mean of the M1 unit values over 2021-2025, one-sided exact permutation p over all 5040 orderings of the outcome, p = share of orderings with correlation <= observed. Holm across R1, R2, M1, M2, alpha 0.05.",
+  "decision": "R1, R2: CONFIRMED if the Holm-adjusted p < 0.05 AND the year means (each year = mean of its family-year clusters) have the hypothesised sign in at least 6 of the 9 event years. M1: CONFIRMED if the Holm-adjusted p < 0.05 AND the year means (2021-2025) are negative in at least 4 of 5 years. M2: CONFIRMED if the Holm-adjusted p < 0.05. CONTRADICTED (any) if the statistic has the opposite sign and its opposite-direction one-sided p < 0.05 (not Holm-adjusted). Otherwise NOT CONFIRMED.",
+  "sensitivity": "Pre-declared, reported alongside without changing the decision: (a) 2020-2021 removed (COVID); (b) only rows checked by the author one by one (check_method not triage); (c) M1/M2 with the first-test h instead of h_abs.",
+  "conventions": [
+    "anchors = main festival day per family and year (review/new_states_v2/DESIGN_DRAFT.md); conventions 1-6 of review/new_states_v1/DESIGN_DRAFT.md",
+    "weekend festivals stay flagged; optional-only years get no flag",
+    "case rule, frames, placebos (seed 42), regression and SARIMAX code as Stage A",
+    "cases whose label is missing or non-positive are dropped before registration"
+  ],
+  "threads": 2,
+  "seed": 42,
+  "batch": 16,
+  "expected_tasks": 3720,
+  "input_hashes": {
+    "src/new_states_v2.py": "a4656e1bd1a02b732fbaeac53c35dcb719c7496888143bce7493e2eda91277ce",
+    "src/new_states_v2_analysis.py": "9d4e23980efb006efb0fea6c9dd700869424765e40a24c70b8a2c7c90d1cfb1a",
+    "src/test_new_states_v2.py": "4631e6625b4d4ab77a764d8b8a22341390acd0b2b15cb472a92590a92b365fb7",
+    "src/new_states_v1.py": "d0ab7f72a05ded25456e5f9a220b9ce11b7e33ca03a2c9461d3149c8cb3ec68b",
+    "src/longer_panel_stage_a_v1.py": "f31e3b2cc430928833b2b1b1de72e1e1123b59f5c2674e182e68d6a579e1e17c",
+    "src/breadth_model_engine_v1.py": "051861ddc30513087ec726a8215f42d700a4c26ca43584031cdcc41026e6914d",
+    "src/robust_baselines.py": "568152c6351826389ae8248fe50fe5bcde5f8db82dfe715c691d6a5f63bca88c",
+    "src/stable_tree_refit.py": "b52cb8b7b755b4afa81a742605a1adf161e6fcdea112faa20846dd834245c986",
+    "src/extended_validation.py": "2312ef9ef5f78ad8bf47b47999576cd0875c7ba3adca53acfb5434b83b2f8218",
+    "src/forecasting.py": "8a6b9b1e8632a2bf77d9855a1d370ed23c350ffe731138787e30c609a59ec21e",
+    "src/ziel_foundation_v1.py": "990b1a8daa451e1d98adf45de38bc68825a155f0ad2a43aeb5db8e86051adc89",
+    "src/festival_feature_design.py": "54e9dd42e3784b5f20208f08eb54ff823914fd342237b0fccda28bf08cb271c2",
+    "src/cluster_inference_v1.py": "b1920d31527c6b0d52dc542301288d05af82ec0b22e2d9329418e7372692c260",
+    "data/external/new_states_v2_energy_GWh.csv": "7fdfd738056ff967b97f84c0fd2b28096fa0ec644258f715946c585395726edf",
+    "data/external/POSOCO_data.csv": "ccd6e643155ec00fbd4a7fcea95635c424189e9bcee1b2b2f8e85a08dc94010e",
+    "review/new_states_v2/calendar_entries_2015_2025.csv": "269bc4b0ddc63143b626d2b37c7d79e7f80709454e62ec0400935ef1d0e4579a",
+    "review/new_states_v2/DESIGN_DRAFT.md": "57a8af6eb112a4b62c47830bf3f5e929429a8ab29f87294b0888a463072dceec",
+    "review/new_states_v2/power/early_heterogeneity_2015_2020.csv": "34149d19650772f99b58c63e191d8ffc085f10e4126ba15d1aa33d189056ae44",
+    "src/new_states_v2_early_h_v1.py": "1c43ea740362f6cb8e78c997b716d9e51a67de57dcccb2b2683a89462941c204",
+    "src/new_states_v2_calendar_build_v1.py": "e05aca233ad85f5d4503b1aa0f95bf060c14e7b71cebf68a3205dcee95a69b1c",
+    "src/new_states_v2_power_v1.py": "ea63bfc760822225d813619474fd72956457a36b4498367d66517766dfeff380",
+    "results/strong_refit_v1/protocol.json": "e0c7d8532de5faf31d16c6d8552e78ecc7f60eedfc3c977f0f93990ad8d37324",
+    "results/stable_tree_refit_v2/protocol.json": "4da8160ce45801e1b9e8ca134334a46bfd9d29f1f5ed6d28e76a988cb1fe34c3",
+    "results/feature_breadth_v1/event_window/protocol.json": "705c32713d427739ed872fb4dcaa7747393cb04f4f14562490554ac137af8a1b"
+  },
+  "design_hashes": {
+    "window_cases.csv": "30453df6bc796b9be38d2cf7d233c1581d8a9e30c31d639828c2a0444540e0c4",
+    "primary_cases.csv": "30453df6bc796b9be38d2cf7d233c1581d8a9e30c31d639828c2a0444540e0c4",
+    "../anchors_2015_2025.csv": "580db80d6329f61498dfb6d437f62c8a1c4bf9eed75be365ea48e86275c69f87",
+    "../placebo_anchors_2015_2025.csv": "c7e7d44d0b18c0b0a818fbae0ca48bc3335306b82e9be6c5bd629f464ae56d08"
+  }
+}
