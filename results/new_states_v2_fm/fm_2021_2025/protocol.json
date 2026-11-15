@@ -1,0 +1,46 @@
+{
+  "experiment": "new_states_v2_fm/fm_2021_2025",
+  "created_utc": "2026-11-15T20:11:48.336102+00:00",
+  "author": "Binay Verma",
+  "status": "EXPLORATORY; prediction committed before any run; not part of the registered second test.",
+  "states": [
+    "Punjab",
+    "Haryana",
+    "West Bengal",
+    "Kerala",
+    "Bihar",
+    "Odisha",
+    "Chhattisgarh"
+  ],
+  "arms": [
+    "day5",
+    "pooled1"
+  ],
+  "models": [
+    "timesfm"
+  ],
+  "threads": 2,
+  "seed": 42,
+  "batch": 16,
+  "expected_tasks": 2065,
+  "input_hashes": {
+    "src/new_states_v2_fm_v1.py": "a7d2962128936e2a4feeb2e340c914b963484f836b2904e8a05419aa73f9f9a8",
+    "src/new_states_v2.py": "a4656e1bd1a02b732fbaeac53c35dcb719c7496888143bce7493e2eda91277ce",
+    "src/longer_panel_stage_a_v1.py": "f31e3b2cc430928833b2b1b1de72e1e1123b59f5c2674e182e68d6a579e1e17c",
+    "src/breadth_model_engine_v1.py": "051861ddc30513087ec726a8215f42d700a4c26ca43584031cdcc41026e6914d",
+    "src/ziel_foundation_v1.py": "990b1a8daa451e1d98adf45de38bc68825a155f0ad2a43aeb5db8e86051adc89",
+    "src/forecasting.py": "8a6b9b1e8632a2bf77d9855a1d370ed23c350ffe731138787e30c609a59ec21e",
+    "src/extended_validation.py": "2312ef9ef5f78ad8bf47b47999576cd0875c7ba3adca53acfb5434b83b2f8218",
+    "src/festival_feature_design.py": "54e9dd42e3784b5f20208f08eb54ff823914fd342237b0fccda28bf08cb271c2",
+    "data/external/new_states_v2_energy_GWh.csv": "7fdfd738056ff967b97f84c0fd2b28096fa0ec644258f715946c585395726edf",
+    "results/new_states_v2/anchors_2015_2025.csv": "580db80d6329f61498dfb6d437f62c8a1c4bf9eed75be365ea48e86275c69f87",
+    "results/new_states_v2/placebo_anchors_2015_2025.csv": "c7e7d44d0b18c0b0a818fbae0ca48bc3335306b82e9be6c5bd629f464ae56d08",
+    "results/new_states_v2_fm/PREDICTION.md": "fc6548c8c668338aad409eb23ff7ade0fc1afc6d6c1e6c401a31cc450957290b",
+    "results/mechanism_controls_v1/chronos_download.json": "b7bc0b9b2f018de37b60148e226546dd15e47965efdc246f500062721f3f3c15",
+    "results/second_model_audit_v1/weight_download.json": "33513d544578b60db98abd0ad667c97597e0b7b49062588a87fc980b012c4cf4"
+  },
+  "design_hashes": {
+    "primary_cases.csv": "93a8f14606a74ec566df60d21533a5b0f309fd74d7ca534f55f656ddd5b4fafa",
+    "window_cases.csv": "93a8f14606a74ec566df60d21533a5b0f309fd74d7ca534f55f656ddd5b4fafa"
+  }
+}
