@@ -9,10 +9,10 @@ This repository studies one forecasting choice: should festival information be g
 | Step | States and years | Status | Result |
 |---|---|---|---|
 | Exploratory (Stage A) | Delhi, Karnataka, Maharashtra, 2022–2025 | done | which representation is better depends on the model |
-| Registered follow-up (Stage B) | Maharashtra 2019–2021 | done | SARIMAX typed better: confirmed; Stable LightGBM pooled better: not confirmed (difference exactly 0: its trees cannot use typed flags); leaf-2 LightGBM pooled better: confirmed (secondary) |
+| Registered follow-up (Stage B) | Maharashtra 2019–2021 | done | SARIMAX typed better: confirmed; Stable LightGBM pooled better: not confirmed (difference exactly 0: its trees cannot use typed flags); leaf-2 LightGBM pooled better: descriptive only (secondary; unadjusted p 0.020, 2 of 3 years) |
 | **Registered confirmatory test** | **7 further states, 2017–2025** ([OSF yw7mr](https://osf.io/yw7mr)) | **done, run once** | **H1 SARIMAX typed better: confirmed; H2 TimesFM-3 pooled better: not confirmed; H3 leaf-2 LightGBM pooled better: confirmed.** Effects are small (≈ 0.01 MASE) and rest mainly on Gujarat; see the sensitivities. |
 | Independent recomputation | same | done | all effects and decisions reproduced |
-| Simulations | synthetic, calibrated | done (exploratory) | explain when typing helps; out-of-time per-state predictions agree with observed sizes for Ridge and trees |
+| Simulations | synthetic, calibrated | done (exploratory) | explain when typing helps; out-of-time per-state predictions track the leaf-2 trees (r 0.89); the Ridge agreement (r 0.88) rests on Gujarat and Tamil Nadu, Stable LightGBM agrees only in level (Spearman 0.36), and SARIMAX gets the direction at the calibrated heterogeneity but not the state pattern |
 | TimesFM encoding control | 7 states | code ready, needs Kaggle | tests whether TimesFM's lead-7/14 typed advantage is an encoding artefact |
 | Prospective 2027–2028 test | 7 states, official calendars only | **draft, needs author approval and OSF** | — |
 
@@ -20,11 +20,11 @@ This repository studies one forecasting choice: should festival information be g
 
 | Read | Where |
 | --- | --- |
-| Current paper (journal format, v10; anonymised copy for submission) | [manuscript/journal_v10/](manuscript/journal_v10/) |
+| Current paper (journal format, v11; anonymised copy for submission) | [manuscript/journal_v11/](manuscript/journal_v11/) (v10 kept in manuscript/journal_v10/) |
 | Registered study: protocol, registration, results | [results/new_states_v1/](results/new_states_v1/) (REGISTRATION.md, OSF_REGISTRATION.md, analysis/) |
 | Independent recomputation | [results/new_states_v1_independent_check/](results/new_states_v1_independent_check/) |
 | Everything tried overnight on 15 Nov, and the outcome | [review/OVERNIGHT_AUDIT_2026-11-15.md](review/OVERNIGHT_AUDIT_2026-11-15.md) |
-| Internal referee-style reviews of v10 | [review/v10_internal_review/](review/v10_internal_review/) |
+| Internal referee-style reviews | [review/v10_internal_review/](review/v10_internal_review/) (passes 1–4), [review/v11_internal_review/](review/v11_internal_review/) (pass 5) |
 | Kaggle runbooks (foundation models) | [docs/reproduction/](docs/reproduction/) (NEW_STATES_KAGGLE.md, NEW_STATES_FM_CONTROL_KAGGLE.md, SIMULATION_FM_KAGGLE.md) |
 | Project rules (integrity, frozen forecasts, data rights) | [docs/PROJECT_GUIDELINES.md](docs/PROJECT_GUIDELINES.md) |
 

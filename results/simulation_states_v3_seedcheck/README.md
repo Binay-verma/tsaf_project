@@ -7,7 +7,7 @@ The original run (results/simulation_states_v3) seeded each state with Python's 
 ## State-level agreement, predicted (2015–2020 parameters) vs observed 2021–2025 (`state_level_correlations.csv`)
 | | Ridge → Ridge | Ridge → SARIMAX | Leaf 2 → leaf 2 | Stable mix → Stable LightGBM |
 |---|---|---|---|---|
-| All 7 states, Pearson (Spearman) | 0.89 (0.75) | 0.55 (0.64) | 0.89 (0.86) | 0.80 (0.36) |
+| All 7 states, Pearson (Spearman) | 0.88 (0.75) | 0.55 (0.64) | 0.89 (0.86) | 0.80 (0.36) |
 | Without Gujarat | 0.86 (0.60) | 0.44 | 0.65 (0.77) | 0.45 (−0.03) |
 | Without Gujarat and Tamil Nadu | 0.32 (0.30) | 0.03 | 0.92 (0.90) | 0.97 (0.70) |
 

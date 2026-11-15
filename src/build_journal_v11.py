@@ -71,17 +71,17 @@ def c(*keys):
 
 related = f"""## 2. Related work
 
-**Holidays in load forecasting.** Load-forecasting reviews and competition models treat holidays as a standard source of error and include special treatment for them {c('HongFan2016', 'CharltonSingleton2014', 'ZielLiu2016')}. Ziel [9] compared one shared holiday dummy, grouped dummies and a separate dummy for each holiday for German load. He reported that many additional per-holiday dummies did not seem to improve on one additional dummy, with univariate results mixed by holiday type; in his multivariate comparison three models were not significantly worse than the best model forecast, M-RpH (a replacing design with one dummy per holiday), and the holiday-as-Saturday and holiday-as-Sunday designs were in most cases significantly worse than the best approach. Arora and Taylor treat special days with rule-based seasonal models {c('ArsoraTaylor2013')} [10]. For India, evidence is sparse: a regional study found no significant effect of a single pooled national-holiday dummy on hourly northern-grid load {c('BanerjeeSarkar2010')}, and day-ahead holiday load forecasting in the Indian context has been addressed at a conference {c('Fernandes2011')}; moving Indian holidays have been modelled in manufacturing statistics [3].
+**Holidays in load forecasting.** Load forecasting is reviewed in {c('HongFan2016')}, and competition models include special treatment of public holidays {c('CharltonSingleton2014', 'ZielLiu2016')}. Ziel [9] compared one shared holiday dummy, grouped dummies and a separate dummy for each holiday for German load. He reported that many additional per-holiday dummies did not seem to improve on one additional dummy, with univariate results mixed by holiday type; in his multivariate comparison three models were not significantly worse than the best model forecast, M-RpH (a replacing design with one dummy per holiday), and the holiday-as-Saturday and holiday-as-Sunday designs were in most cases significantly worse than the best approach. Arora and Taylor treat special days with rule-based seasonal models [10, {num['ArsoraTaylor2013']}]. For India, evidence is sparse: a regional study found no significant effect of a single pooled national-holiday dummy on hourly northern-grid load {c('BanerjeeSarkar2010')}, and day-ahead holiday load forecasting in the Indian context has been addressed at a conference {c('Fernandes2011')}; moving Indian holidays have been modelled in manufacturing statistics [3].
 
-**Moving holidays in official statistics.** Festivals that follow lunar or lunisolar calendars move between months, and calendar adjustment has long used holiday-specific regressors for them {c('Liu1980', 'BellHillmer1983', 'Findley1998')}. Practice for Asian lunar holidays gives each festival its own before, during and after regressors, chosen by information criteria {c('LinLiu2003', 'RobertsWhite2015')}, and drops those that are not significant {c('RobertsWhite2015')}, so "typed" in practice rarely means "keep every dummy". Forecasting software follows the same pattern: Prophet gives each named holiday its own effect with a shrinkage prior {c('TaylorLetham2018')}, and textbook regression models use one dummy per holiday {c('HyndmanAthanasopoulos2021')}.
+**Moving holidays in official statistics.** Festivals that follow lunar or lunisolar calendars move between months, and calendar adjustment has long used holiday-specific regressors for them {c('Liu1980', 'BellHillmer1983', 'Findley1998')}. For Taiwan's three main lunar holidays each festival gets its own before, during and after regressors, chosen by information criteria {c('LinLiu2003')}; for Chinese New Year the windows are chosen in the same way and insignificant holiday regressors are dropped {c('RobertsWhite2015')}, so "typed" in practice need not mean "keep every dummy". Forecasting software follows the same pattern: the Prophet procedure {c('TaylorLetham2018')}, as implemented, gives each named holiday its own effect with a prior scale that shrinks it, and textbook regression models use one dummy per holiday {c('HyndmanAthanasopoulos2021')}.
 
-**Foundation models and covariates.** Pretrained time-series models such as TimesFM, Chronos and Moirai were introduced as univariate forecasters {c('Das2024', 'Ansari2024', 'Woo2024')}; covariate support came later and differs between models, from exogenous inputs added during fine-tuning {c('Ekambaram2024')} to adapters that inject covariates such as holidays into a pretrained model {c('PinedaArango2025')} and the native covariate interfaces of Chronos-2 and TimesFM-3 [6, 7]. Benchmarks now include tasks with covariates {c('Aksu2024', 'Shchur2025')}. Closest to our question, Kreusel et al. [1] examine calendar encodings in Chronos-2 and TimesFM-3, Alipour et al. [2] learn event representations from residual responses, and Kaljevic et al. [4] benchmark foundation models for load forecasting under covariate uncertainty; Meyer et al. [5] show how information leakage can affect their evaluation.
+**Foundation models and covariates.** Pretrained time-series models such as TimesFM and Chronos were introduced without covariate inputs, and Moirai for a varying number of variates {c('Das2024', 'Ansari2024', 'Woo2024')}; support for known future covariates came later and differs between models, from exogenous inputs added during fine-tuning {c('Ekambaram2024')} to adapters that inject covariates such as holidays into a pretrained model {c('PinedaArango2025')} and the native covariate interfaces of Chronos-2 and TimesFM-3 [6, 7]. General benchmarks have followed {c('Aksu2024')}, and some now include tasks with covariates {c('Shchur2025')}. Closest to our question, Kreusel et al. [1] examine calendar encodings in Chronos-2 and TimesFM-3, Alipour et al. [2] learn event representations from residual responses, and Kaljevic et al. [4] benchmark foundation models for load forecasting under covariate uncertainty; Meyer et al. [5] show how information leakage can affect their evaluation.
 
-**Typed, pooled, or in between.** Typed and pooled indicators are the two ends of a familiar trade-off. Pooling categories reduces variance at the cost of bias when the categories differ, and shrinkage estimators sit between the two {c('EfronMorris1975')}; for categorical features with many levels, regularised encodings outperform both plain dummy and integer encodings {c('MicciBarreca2001', 'Pargent2022')}. Our setting has few categories but very few occurrences of each, which is where this trade-off bites. For tree ensembles the minimum number of observations in a leaf is a central tuning parameter {c('Probst2019')}, and in LightGBM it limits which splits are possible {c('LightGBMDocs')}; Section 7 shows how it decides whether typed flags can be used at all.
+**Typed, pooled, or in between.** Typed and pooled indicators are the two ends of a familiar trade-off. Pooling categories reduces variance at the cost of bias when the categories differ, and shrinkage estimators sit between the two, improving accuracy on average although they can worsen it for individual categories {c('EfronMorris1975')}; for categorical features with many levels, target encoding {c('MicciBarreca2001')} in regularised form outperforms integer and indicator (dummy) encodings {c('Pargent2022')}. Our setting has few categories but very few occurrences of each, which is where this trade-off bites. For random forests the minimum node size is an important tuning parameter {c('Probst2019')}, and in LightGBM the minimum number of rows in a leaf limits which splits are possible {c('LightGBMDocs')}; Section 7 shows how it decides whether typed flags can be used at all.
 
-**Evaluation and inference.** We compare forecasts with the mean absolute scaled error [13], which can be used in tests of equal accuracy {c('Franses2016')}, rather than the usual pairwise tests {c('DieboldMariano1995')} or model confidence sets {c('HansenLundeNason2011')}, because our unit of evidence is a festival-year cluster and there are few of them. With few clusters, conventional cluster-robust tests over-reject {c('CameronGelbachMiller2008')}, and randomisation tests based on sign changes are an established alternative {c('CanayRomanoShaikh2017', 'HemerikGoemanFinos2020')}; we adjust for multiple hypotheses with Holm's procedure [16]. Forecasting-practice reviews stress such evaluation choices {c('Petropoulos2022', 'Hewamalage2023')}.
+**Evaluation and inference.** We compare forecasts with the mean absolute scaled error [13], which can be used in tests of equal accuracy {c('Franses2016')}, rather than the usual pairwise tests {c('DieboldMariano1995')} or model confidence sets {c('HansenLundeNason2011')}, because our unit of evidence is a festival-year cluster and there are few of them. With few clusters, conventional cluster-robust tests over-reject {c('CameronGelbachMiller2008')}, and randomisation tests based on sign changes are an established alternative when cluster-level differences can be taken as symmetric about zero under the null {c('CanayRomanoShaikh2017', 'HemerikGoemanFinos2020')}; we adjust for multiple hypotheses with Holm's procedure [16]. Forecasting-practice reviews stress such evaluation choices {c('Petropoulos2022', 'Hewamalage2023')}.
 
-**Combination, replication and simulation.** Averaging forecasts goes back to Bates and Granger [11], and simple equal weights often perform as well as estimated weights [12], a result that a simulation can explain {c('SmithWallis2009')}; we use equal weights only as a hedge between two representations. Reproducibility in forecasting research is uneven {c('Boylan2015')}, large comparisons such as the M4 competition make their code public {c('Makridakis2020M4')}, and leakage undermines many machine-learning results {c('KapoorNarayanan2023')}; registering hypotheses before testing them separates hypotheses formed from data from those tested on new data [15]. We report our simulations following the usual structure of aims, data-generating mechanisms, methods and performance measures {c('Morris2019')}.
+**Combination, replication and simulation.** Averaging forecasts goes back to Bates and Granger [11], and simple equal weights often perform as well as estimated weights [12], a result that a simulation can explain {c('SmithWallis2009')}; we use equal weights only as a hedge between two representations. Published forecasting results do not always replicate {c('Boylan2015')}, large open comparisons such as the M4 competition {c('Makridakis2020M4')} set common benchmarks, and leakage undermines many machine-learning results {c('KapoorNarayanan2023')}; registering hypotheses before testing them separates hypotheses formed from data from those tested on new data [15]. We report our simulations following the usual structure of aims, data-generating mechanisms, methods and performance measures {c('Morris2019')}.
 
 Our study does not introduce typed or pooled indicators, which are established. It examines how that choice behaves under a fixed channel budget with zero and placebo controls, across model classes, with a registered test on new states, and why the answer differs between models and festivals.
 
@@ -99,6 +99,7 @@ def s4(x):
     return ('+' if x > 0 else '−' if x < 0 else '') + f'{abs(x):.4f}'
 
 
+SAa_sar = next(float(r.split(',')[5]) for r in (ROOT/'results/longer_panel_stage_a_v1/analysis/typed_vs_pooled.csv').read_text().splitlines() if r.startswith('sarimax,day,1,'))
 sar_st = {line.split(',')[0]: line.split(',') for line in (SAR/'per_state_predicted_vs_observed_2021_2025.csv').read_text().splitlines()[1:]}
 assert sar_cal[0.25] > 0 and sar_cal[0.462] < 0 and sar_cal[0.0] > 0
 sar_par = (f"SARIMAX, the model of the confirmed H1, was added to the pipeline-matched simulation afterwards, with the registered "
@@ -110,7 +111,10 @@ sar_par = (f"SARIMAX, the model of the confirmed H1, was added to the pipeline-m
            f"parameters it predicts an average of {s4(sar_sum['mean_predicted'])} against {s4(sar_sum['mean_observed'])} observed for "
            f"2021–2025, with a state-level correlation of {sar_sum['pearson']:.2f} (Spearman {sar_sum['spearman']:.2f}, not significant), and the "
            f"observed SARIMAX favours typed flags in Rajasthan and Madhya Pradesh where the simulation predicts a pooled advantage. The "
-           f"simulation therefore accounts for the direction of H1 at the calibrated heterogeneity but not for its distribution across states.")
+           f"simulated gain at the calibrated h is also about {abs(SAa_sar/sar_cal[0.462]):.1f} times smaller than the observed Stage A value "
+           f"({s4(SAa_sar)}), and Tamil Nadu is over-predicted ({s4(sar_st['Tamil Nadu'][2])} against {s4(sar_st['Tamil Nadu'][4])} observed). "
+           f"With seven states this is supporting evidence, not a test: the simulation accounts for the direction of H1 at the calibrated "
+           f"heterogeneity but not for its size or its distribution across states.")
 
 # ---------------- reassemble ----------------
 intro = body('1.')
@@ -128,6 +132,14 @@ sec5_intro = ("## 5. Where the hypotheses came from\n\nThis section summarises t
               "registered follow-up on further Maharashtra years. It is the basis of the hypotheses tested in Section 6, not the main evidence.\n\n")
 s6 = re.sub(r'^### 5\.7 Registered test in seven further states', '## 6. Registered test in seven further states', blocks['5.7'])
 s7 = re.sub(r'^### 5\.8 A mechanism, and a simulation', '## 7. Mechanism and simulations', blocks['5.8'])
+_t = 'Tree models need a minimum number of training days on each side of a split.'
+assert s7.count(_t) == 1
+s7 = s7.replace(_t, 'Tree models need a minimum number of training rows on each side of a split; because each tree model is fitted to one state, a row is a day.')
+_o = ', or −9.9% when the neighbouring days are modelled as well, so the window profile below adds neighbouring-day effects without changing the festival-day effect;'
+assert s7.count(_o) == 1
+_wp = json.load(open(ROOT/'results/window_profile_v1/summary.json'))['festival_day_effect_three_state_mean']
+s7 = s7.replace(_o, f'; {100*_wp:.1f}% in a regression that also models the neighbouring days, whose relative profile the generator uses;'.replace('-', '−'))
+s7 = s7.replace('festival-day effect -9.6%', 'festival-day effect −9.6%')
 anchor = 'In this version Ridge typed flags start to win between'
 i = s7.index(anchor)
 j = s7.index('\n', i)
@@ -224,28 +236,28 @@ def renum(text):
 body_main, decl, appA, appB, appC = (renum(x) for x in (body_main, decl, appA, appB, appC))
 
 # ---------------- reproduction map (Appendix D) ----------------
-SRC = {  # v10 table/figure label -> (result folders, how to reproduce)
-    'T1': ('results/longer_panel_stage_a_v1, longer_panel_stage_b_v1, new_states_v1/design_summary.json', 'folder README / run.json'),
-    'T2': ('results/calendar_recenter_recovery_v1/analysis/breadth', 'folder README'),
-    'F1': ('results/calendar_recenter_recovery_v1/analysis/breadth', 'src/figures_journal_v8.py'),
-    'T3': ('results/longer_panel_stage_a_v1/analysis', 'src/longer_panel_stage_a_v1.py, longer_panel_analysis_v1'),
-    'T4': ('results/longer_panel_stage_a_v1/analysis', 'as Table above'),
-    'T5': ('results/longer_panel_foundation_v1/analysis', 'src/longer_panel_foundation_v1.py, longer_panel_foundation_analysis_v1.py'),
-    'T6': ('results/longer_panel_stage_b_v1/analysis', 'src/longer_panel_stage_b_v1.py, longer_panel_analysis_stage_b_v1.py'),
-    'T7': ('results/longer_panel_stage_b_v1/analysis', 'as Table above'),
-    'F2': ('results/longer_panel_stage_a_v1, longer_panel_stage_b_v1', 'src/build_journal_v9.py'),
-    'T12': ('results/new_states_v1/analysis', 'src/new_states_v1.py; src/new_states_analysis_v1.py (registered)'),
+SRC = {  # v10 table/figure label -> (result folders, script that wrote them)
+    'T1': ('results/longer_panel_stage_a_v1, longer_panel_stage_b_v1, new_states_v1/design_summary.json', 'src/longer_panel_stage_a_v1.py, longer_panel_stage_b_v1.py, new_states_v1.py'),
+    'T2': ('results/calendar_recenter_recovery_v1/analysis/breadth', 'src/continue_pipeline_recovery_v2.py'),
+    'F1': ('results/calendar_recenter_recovery_v1/analysis/breadth', 'src/build_integrated_review.py'),
+    'T3': ('results/longer_panel_stage_a_v1/analysis', 'src/longer_panel_stage_a_v1.py (forecasts), longer_panel_analysis_stage_a_v1.py (tests)'),
+    'T4': ('results/longer_panel_stage_a_v1/analysis', 'src/longer_panel_stage_a_v1.py (forecasts), longer_panel_analysis_stage_a_v1.py (tests)'),
+    'T5': ('results/longer_panel_foundation_v1/analysis', 'src/longer_panel_foundation_v1.py (hosted notebook), longer_panel_foundation_analysis_v1.py'),
+    'T6': ('results/longer_panel_stage_b_v1/analysis', 'src/longer_panel_stage_b_v1.py (forecasts), longer_panel_analysis_stage_b_v1.py (tests)'),
+    'T7': ('results/longer_panel_stage_b_v1/analysis', 'src/longer_panel_stage_b_v1.py (forecasts), longer_panel_analysis_stage_b_v1.py (tests)'),
+    'F2': ('results/longer_panel_stage_a_v1, longer_panel_stage_b_v1', 'drawn by src/build_journal_v9.py'),
+    'T12': ('results/new_states_v1/analysis', 'src/new_states_v1.py (forecasts); src/new_states_analysis_v1.py (registered tests)'),
     'T12b': ('results/new_states_v1/analysis', 'src/new_states_analysis_v1.py (registered)'),
-    'T13': ('results/new_states_v1/analysis/balanced.csv', 'src/new_states_analysis_v1.py'),
-    'F3': ('results/simulation_typed_pooled_v3, longer_panel_stage_a_v1', 'src/simulation_typed_pooled_v3.py'),
+    'T13': ('results/new_states_v1/analysis/balanced.csv', 'src/new_states_analysis_v1.py (registered)'),
+    'F3': ('results/simulation_typed_pooled_v3, window_profile_v1, longer_panel_stage_a_v1', 'src/simulation_typed_pooled_v3.py, window_profile_v1.py; drawn by src/build_journal_v10.py'),
     'T14': ('results/new_states_v1_diagnostics', 'src/new_states_diagnostics_v1.py'),
     'T15': ('results/simulation_states_v3_seedcheck', 'src/simulation_states_v3.py --stable-seed'),
-    'T16': ('results/new_states_v1_official_plus_confirmed', 'see folder README'),
-    'F4': ('results/simulation_states_v3_seedcheck', 'src/simulation_states_v3.py --stable-seed'),
-    'T10': ('results/longer_panel_stage_a_v1/analysis (decision rules)', 'src/longer_panel_stage_a_v1.py'),
-    'T11': ('results/prospective_20261030_scoring_v1, prospective_chronos_20261031_scoring_v1', 'folder README'),
-    'T8': ('results/ziel_replacing_v2', 'folder README'),
-    'T9': ('results/mta_holiday_recovery_v1/analysis', 'folder README'),
+    'T16': ('results/new_states_v1_official_plus_confirmed', 'src/new_states_official_plus_confirmed_v1.py (rerun reproduces it exactly)'),
+    'F4': ('results/simulation_states_v3_seedcheck', 'src/simulation_states_v3.py --stable-seed; drawn by src/build_journal_v10.py'),
+    'T10': ('results/longer_panel_stage_a_v1/analysis/decision_rules.csv', 'src/longer_panel_analysis_stage_a_v1.py'),
+    'T11': ('results/prospective_20261030_scoring_v1, prospective_chronos_20261031_scoring_v1, prospective_interval_20261030_scoring_v1', 'src/collect_prospective_actuals.py, score_chronos_competitor.py, score_interval_annex.py'),
+    'T8': ('results/ziel_replacing_v2', 'src/ziel_replacing_v2.py, ziel_replacing_analysis_v2.py'),
+    'T9': ('results/mta_holiday_recovery_v1/analysis', 'src/continue_pipeline_recovery_v2.py'),
 }
 rows = ['| Paper item | Result files | How to reproduce |', '| --- | --- | --- |']
 for lab, (files, how) in SRC.items():
@@ -253,10 +265,11 @@ for lab, (files, how) in SRC.items():
     new = ('Table ' + tmap[old]) if kind == 'T' else ('Figure ' + fmap[old])
     rows.append(f'| {new} | {files} | {how} |')
 rows.append('| Section 7 SARIMAX simulation | results/simulation_sarimax_v3 | src/simulation_sarimax_v3.py |')
+rows.append('| Section 7 window profile (−9.9%) | results/window_profile_v1 | src/window_profile_v1.py |')
 rows.append('| Section 8 festival-level analysis | results/new_states_v1_family_mechanism | src/new_states_family_mechanism_v1.py |')
 rows.append('| Independent recomputation | results/new_states_v1_independent_check | indep.py in that folder |')
 rows.append('| This manuscript | manuscript/journal_v11 | src/build_journal_v11.py (from journal_v10) |')
-appD = ('## Appendix D. Reproduction map\n\nEach result folder contains the inputs, outputs and a README or run record with the command that produced it; '
+appD = ('## Appendix D. Reproduction map\n\nEach row names the result folder and the script that wrote it; '
         'foundation-model runs were made in a hosted notebook following docs/reproduction/.\n\n' + '\n'.join(rows) + '\n')
 
 final = body_main + decl + refs_block + appA + appB + appC + appD
