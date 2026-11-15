@@ -1,29 +1,52 @@
-# TSFM India: festival covariates in foundation and local forecasting models
+# Typed or pooled festival indicators? Indian electricity, ten states, registered tests
 
-B.Tech(H) CSE (Data Science), RV University. Research in progress.
+B.Tech(H) CSE (Data Science), RV University. Author: Binay Verma. Research in progress; paper not yet submitted.
 
-This repository studies how festival information should be given to forecasting models for **daily electricity supplied (GWh)** in Delhi, Karnataka and Maharashtra. Two pretrained time-series foundation models (Chronos-2, TimesFM-3) and four local models (Ridge, SARIMAX, LightGBM and a leaf-2 tree variant) are compared on the same cases with matched input designs: calendar only, typed festival flags (one per festival), pooled flags (one shared flag), ±3-day windows, zero channels and fake-date placebos.
+This repository studies one forecasting choice: should festival information be given to a model as **one indicator per festival (typed)** or **one shared indicator (pooled)**? The data are **daily electricity supplied (GWh)** in Indian states. Two pretrained time-series foundation models (Chronos-2, TimesFM-3) and four local models (Ridge, SARIMAX, LightGBM, and a LightGBM with minimum leaf size 2) are compared on the same cases with matched inputs: calendar only, typed and pooled flags, zero channels and fake-date placebos.
 
-**Main findings so far (historical data, exploratory):**
+## Where things stand (15 November 2026)
 
-- Festival day flags usually lower next-day error versus calendar-only inputs.
-- The better encoding (typed vs pooled) is **not stable**: it flips between 2024 and 2025 in 19 of 36 model/representation/lead comparisons and differs between India and a separate NYC holiday check in 11 of 36.
-- A document-level calendar check corrected one festival date (Karnataka 2025 Vijayadashami: 1 Oct, not 2 Oct).
-- Native 80% prediction intervals under-cover festival periods.
-
-Forecasts for 31 Oct–11 Nov 2026 were frozen before outcomes and are scored from 12 Nov 2026. A 52-week rolling confirmation study is registered but not yet activated.
+| Step | States and years | Status | Result |
+|---|---|---|---|
+| Exploratory (Stage A) | Delhi, Karnataka, Maharashtra, 2022–2025 | done | which representation is better depends on the model |
+| Registered follow-up (Stage B) | Maharashtra 2019–2021 | done | model-class pattern held for local models |
+| **Registered confirmatory test** | **7 further states, 2017–2025** ([OSF yw7mr](https://osf.io/yw7mr)) | **done, run once** | **H1 SARIMAX typed better: confirmed; H2 TimesFM-3 pooled better: not confirmed; H3 leaf-2 LightGBM pooled better: confirmed.** Effects are small (≈ 0.01 MASE) and rest mainly on Gujarat; see the sensitivities. |
+| Independent recomputation | same | done | all effects and decisions reproduced |
+| Simulations | synthetic, calibrated | done (exploratory) | explain when typing helps; out-of-time per-state predictions agree with observed sizes for Ridge and trees |
+| TimesFM encoding control | 7 states | code ready, needs Kaggle | tests whether TimesFM's lead-7/14 typed advantage is an encoding artefact |
+| Prospective 2027–2028 test | 7 states, official calendars only | **draft, needs author approval and OSF** | — |
 
 ## Start here
 
 | Read | Where |
 | --- | --- |
-| Current paper draft (journal format, v8) | [manuscript/journal_v8/](manuscript/journal_v8/) |
-| Full project report (Word/PDF) | [manuscript/project_report_v1/](manuscript/project_report_v1/) |
-| Current status and next steps | [docs/status/CURRENT_RESEARCH_STATUS.md](docs/status/CURRENT_RESEARCH_STATUS.md), [docs/status/HANDOFF.md](docs/status/HANDOFF.md) |
-| Seven-task journal ledger | [review/journal_seven_tasks_20261031_v1/SEVEN_TASK_LEDGER.md](review/journal_seven_tasks_20261031_v1/SEVEN_TASK_LEDGER.md) |
-| Viva slides | [presentation/viva_update_v2/](presentation/viva_update_v2/) |
-| Setup and reproduction | [docs/reproduction/ENVIRONMENT_SETUP.md](docs/reproduction/ENVIRONMENT_SETUP.md) |
+| Current paper (journal format, v10; anonymised copy for submission) | [manuscript/journal_v10/](manuscript/journal_v10/) |
+| Registered study: protocol, registration, results | [results/new_states_v1/](results/new_states_v1/) (REGISTRATION.md, OSF_REGISTRATION.md, analysis/) |
+| Independent recomputation | [results/new_states_v1_independent_check/](results/new_states_v1_independent_check/) |
+| Everything tried overnight on 15 Nov, and the outcome | [review/OVERNIGHT_AUDIT_2026-11-15.md](review/OVERNIGHT_AUDIT_2026-11-15.md) |
+| Internal referee-style reviews of v10 | [review/v10_internal_review/](review/v10_internal_review/) |
+| Kaggle runbooks (foundation models) | [docs/reproduction/](docs/reproduction/) (NEW_STATES_KAGGLE.md, NEW_STATES_FM_CONTROL_KAGGLE.md, SIMULATION_FM_KAGGLE.md) |
 | Project rules (integrity, frozen forecasts, data rights) | [docs/PROJECT_GUIDELINES.md](docs/PROJECT_GUIDELINES.md) |
+
+## Studies in this repository (newest first)
+
+| Folder | What | Kind |
+|---|---|---|
+| results/simulation_sarimax_v3 | SARIMAX added to the pipeline-matched simulation | exploratory |
+| results/simulation_states_v3_seedcheck (and _v3) | per-state, out-of-time simulation predictions (stable seeds) | exploratory |
+| results/simulation_typed_pooled_v3 | simulation matched to the forecasting pipeline | exploratory |
+| results/new_states_v1_family_mechanism | festival-level heterogeneity check | exploratory |
+| results/new_states_v1_official_plus_confirmed | state groups; official-source sensitivity explained | exploratory |
+| results/new_states_v1_diagnostics | leave-one-out, horizons, GWh, power, controls | exploratory |
+| results/prospective_2027_v1 | prospective test, draft registration and analysis code | draft |
+| results/new_states_v1_independent_check | recomputation from registration text | check |
+| results/new_states_v1 (analysis/) | **registered confirmatory study, seven states** | **confirmatory** |
+| results/simulation_typed_pooled_v1, _v2, simulation_calibration_v1–v3 | first simulations and calibrations | exploratory |
+| results/longer_panel_stage_b_v1 | Stage B registered follow-up | confirmatory |
+| results/longer_panel_stage_a_v1, longer_panel_foundation_v1 | Stage A | exploratory |
+| review/new_states_v1 | calendar for the seven states, evidence, official-source search | data |
+
+Reuse terms of the GRID-INDIA/POSOCO compilation (curated by Robbie Andrew) are not yet resolved; see docs/PROJECT_GUIDELINES.md.
 
 ## System architecture
 
