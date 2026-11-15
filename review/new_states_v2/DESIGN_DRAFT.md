@@ -19,7 +19,7 @@ Calendar conventions 1–6 of review/new_states_v1/DESIGN_DRAFT.md apply unchang
 - **R1 (replicates H1):** SARIMAX typed better. Event years 2017–2025, with the same test and decision rule as osf.io/yw7mr: family-year clusters, sign-flip, Holm, at least 6 of 9 years.
 - **R2 (replicates H3):** leaf-2 LightGBM pooled better. Same rule.
 - **M1 (mechanism):** each state's festival-effect heterogeneity h is estimated from 2015–2020 demand only, with the method of src/simulation_calibration_v3_timesplit.py. In the three states with the highest h, Ridge typed − pooled < 0 over 2021–2025 (state-family-year units, sign-flip).
-- **M2 (mechanism, contrast):** the mean typed − pooled over 2021–2025 is lower (more typed-favouring) in the three highest-h states than in the other four. This uses a permutation test over the assignment of states to groups.
+- **M2 (mechanism, gradient):** across the seven states, the early-period h (2015–2020) is negatively rank-correlated with the mean Ridge typed − pooled lead-1 MASE over 2021–2025 (higher h, more typed-favouring). One-sided permutation test over all 7! = 5040 orderings (Spearman correlation). The three-versus-four split first drafted here was dropped: it allows only 35 assignments, so its smallest possible p (1/35 = 0.029) could not pass a Holm correction over four hypotheses.
 - Holm across R1, R2, M1 and M2.
 
 Secondary, reported but not used for decisions: Ridge and Stable LightGBM at lead 1; leads 7 and 14; zero and placebo controls; the 2020–2021 and official-source sensitivities, as before.
