@@ -44,3 +44,8 @@ TimesFM-3 and Chronos-2 are left out of the confirmatory set because of time. Th
 - Each counted festival day was compared with the dates the author verified for the same family and year in the first study (src/new_states_v2_calendar_triage_v1.py). Of 231 counted days, 209 match, 11 differ by one day and 11 have no date (weekend or conflicting sources). The author checks the 22 non-matching rows one by one and a random sample of 21 matching rows (3 per state, seed 20261115).
 - Agreement with other states corroborates the festival day, not the state's own notification. The registration will say so.
 - Weekend rule (convention 3 of the first study) applies unchanged.
+
+## Calendar check result (15 November 2026, evening)
+- The author filled the short workbook: 22 decision rows and 21 spot-check rows (triage/author_decisions.csv).
+- Spot-check found 2 errors in 21 (Odisha 2020 Holi and West Bengal 2020 Holi: the triage date was the earlier of two reference days, the states hold Holi on the later day). Rule adopted: for Holi the state's Holi (Rangwali) day is used, not the eve. Five more matched Holi rows with the same pattern (Odisha 2018, 2023; West Bengal 2016, 2017, 2023) are proposed for the later day and wait for the author's confirmation.
+- Open: Kerala 2015 Dussehra (no author status); Chhattisgarh 2022 Dussehra (spot-check, no status).
