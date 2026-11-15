@@ -1,0 +1,26 @@
+{
+  "started_utc": "2026-11-15T19:47:18.408403+00:00",
+  "leaves": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    8,
+    10,
+    20
+  ],
+  "arms": [
+    "calendar",
+    "day5",
+    "pooled_day5"
+  ],
+  "inputs": {
+    "results/new_states_v1/anchors_2015_2025.csv": "6f8d528d6d77075994a4e209ac337b626cee805e314ff82ae2054a2fd40e1dd2",
+    "results/new_states_v1/placebo_anchors_2015_2025.csv": "a4ab69d786aeb94f575d1de8e8d6170b44d458295a8eaa64de415715265b15ff",
+    "results/new_states_v1/event_window/primary_cases.csv": "ceee3110d90452473d137dd1ef26901df714ce98ca7853b650c7f24e3e6d69b6",
+    "results/new_states_v1_selection_tree/selected.csv": "c0cdff9ae504980e999e7feaa6523d5de7e3e8727b65d69b7f2070d46f54b2d0",
+    "src/leaf_size_experiment_v1.py": "25407c00ad96eb904132932aef5801e17fe1effd2c8bdd042fb49ff069f49237"
+  }
+}

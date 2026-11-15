@@ -1,0 +1,153 @@
+{
+ "reproduction": {
+  "v1": {
+   "leaf2_calendar_max_abs_diff": 0.0,
+   "leaf2_calendar_n": 1719,
+   "selected_calendar_max_abs_diff": 0.0,
+   "selected_calendar_n": 1719,
+   "leaf2_day5_max_abs_diff": 0.0,
+   "leaf2_day5_n": 1719,
+   "selected_day5_max_abs_diff": 0.0,
+   "selected_day5_n": 1719,
+   "leaf2_pooled_day5_max_abs_diff": 0.0,
+   "leaf2_pooled_day5_n": 1719,
+   "selected_pooled_day5_max_abs_diff": 0.0,
+   "selected_pooled_day5_n": 1719
+  },
+  "v2": {
+   "leaf2_calendar_max_abs_diff": 0.0,
+   "leaf2_calendar_n": 1323,
+   "selected_calendar_max_abs_diff": 0.0,
+   "selected_calendar_n": 1323,
+   "leaf2_day5_max_abs_diff": 0.0,
+   "leaf2_day5_n": 1323,
+   "selected_day5_max_abs_diff": 0.0,
+   "selected_day5_n": 1323,
+   "leaf2_pooled_day5_max_abs_diff": 0.0,
+   "leaf2_pooled_day5_n": 1323,
+   "selected_pooled_day5_max_abs_diff": 0.0,
+   "selected_pooled_day5_n": 1323
+  }
+ },
+ "results": {
+  "v1": {
+   "P1": {
+    "fits": 1501,
+    "equal": 1501,
+    "held": true
+   },
+   "P1b": {
+    "fits": 1332,
+    "equal": 1195,
+    "held": false
+   },
+   "P2": {
+    "share_by_leaf": {
+     "1": 0.418,
+     "2": 0.473,
+     "3": 0.776,
+     "4": 0.814,
+     "5": 1.0,
+     "6": 1.0,
+     "8": 1.0,
+     "10": 1.0,
+     "20": 1.0
+    },
+    "held": true
+   },
+   "P3": {
+    "typed_minus_pooled_by_leaf": {
+     "1": 0.00862,
+     "2": 0.00679,
+     "3": 0.02139,
+     "4": 0.02184,
+     "5": 0.02693,
+     "6": 0.0252,
+     "8": 0.02187,
+     "10": 0.00021,
+     "20": 0.0
+    },
+    "held": false
+   },
+   "P4": {
+    "pooled_equals_calendar_by_leaf": {
+     "1": 0.169,
+     "2": 0.152,
+     "3": 0.169,
+     "4": 0.177,
+     "5": 0.173,
+     "6": 0.169,
+     "8": 0.287,
+     "10": 0.878,
+     "20": 1.0
+    },
+    "held": true
+   },
+   "typed_max_count_distribution": {
+    "2": 148,
+    "3": 20,
+    "4": 69
+   },
+   "pooled_count_median": 8.0
+  },
+  "v2": {
+   "P1": {
+    "fits": 1314,
+    "equal": 1314,
+    "held": true
+   },
+   "P1b": {
+    "fits": 1620,
+    "equal": 1473,
+    "held": false
+   },
+   "P2": {
+    "share_by_leaf": {
+     "1": 0.587,
+     "2": 0.614,
+     "3": 0.989,
+     "4": 1.0,
+     "5": 1.0,
+     "6": 1.0,
+     "8": 1.0,
+     "10": 1.0,
+     "20": 1.0
+    },
+    "held": true
+   },
+   "P3": {
+    "typed_minus_pooled_by_leaf": {
+     "1": 0.01459,
+     "2": 0.01475,
+     "3": 0.02153,
+     "4": 0.02232,
+     "5": 0.02214,
+     "6": 0.01776,
+     "8": 0.0,
+     "10": 0.0,
+     "20": 0.0
+    },
+    "held": false
+   },
+   "P4": {
+    "pooled_equals_calendar_by_leaf": {
+     "1": 0.455,
+     "2": 0.476,
+     "3": 0.471,
+     "4": 0.471,
+     "5": 0.492,
+     "6": 0.54,
+     "8": 1.0,
+     "10": 1.0,
+     "20": 1.0
+    },
+    "held": false
+   },
+   "typed_max_count_distribution": {
+    "2": 180,
+    "3": 9
+   },
+   "pooled_count_median": 6.0
+  }
+ }
+}
