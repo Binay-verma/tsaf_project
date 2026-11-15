@@ -1,6 +1,6 @@
 # Prospective test, festivals of 2027 and 2028: registration DRAFT
 
-**Status: draft for the author's approval.** Revised on 15 November 2026 after the TimesFM-3 encoding control (results/new_states_v1_fm_control): P2 now compares typed flags with the pooled flag without zero padding, and TimesFM-3 gets an unpadded pooled arm and a zero arm. Still before any 2027 data or notification existed. The draft was first written on 15 November 2026, after the registered new-states analysis and its exploratory follow-ups, and before any 2027 data or 2027 holiday notification existed. It becomes binding when the author approves it and records it on OSF as an addendum to osf.io/yw7mr. Until then, the commit history timestamps it.
+**Status: draft for the author's approval.** Revised on 15 November 2026 after the TimesFM-3 encoding control (results/new_states_v1_fm_control): P2 now compares typed flags with the pooled flag without zero padding, and TimesFM-3 gets an unpadded pooled arm and a zero arm. Still before any 2027 demand data existed. The draft was first written on 15 November 2026, after the registered new-states analysis and its exploratory follow-ups, and before any 2027 demand data existed. Correction of 15 November 2026 (evening): an earlier wording said no 2027 holiday notification existed. That is wrong for Tamil Nadu, whose 2027 list (G.O. (Ms.) No. 613) had been published by 30 October 2026 according to a news item the author has not verified against the order. Other states may also have published. The author had not opened any 2027 notification when this was written, and calendar dates are inputs to the forecasts, not outcomes, so this does not affect the test. It becomes binding when the author approves it and records it on OSF as an addendum to osf.io/yw7mr. Until then, the commit history timestamps it.
 
 ## Why this test exists
 The registered study (results/new_states_v1/analysis) found small average effects: H1 SARIMAX typed better, CONFIRMED; H2 TimesFM-3 pooled better at lead 1, NOT CONFIRMED; H3 leaf-2 LightGBM pooled better, CONFIRMED. Exploratory work after it suggested two things (results/simulation_calibration_v2, results/new_states_v1_diagnostics):
@@ -55,7 +55,7 @@ Because the observed effects were selected after looking, the true effects are p
 
 ## Still to do before 2027 data exists
 - Extend src/new_states_v1.py to event years 2027–2028 (configuration only) and commit it.
-- Obtain the 2027 official notifications (usually published in December 2026) and enter them.
+- Obtain the 2027 official notifications (Tamil Nadu's is already published; the others usually appear by December 2026) and enter them before the festival, each with document number, URL and quoted line.
 - The author records this draft on OSF.
 
 The analysis code is src/prospective_2027_analysis_v1.py (written now; tested on synthetic data only).
