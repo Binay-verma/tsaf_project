@@ -1,6 +1,6 @@
 # Prospective test, festivals of 2027 and 2028: registration DRAFT
 
-**Status: draft for the author's approval.** It was written on 15 November 2026, after the registered new-states analysis and its exploratory follow-ups, and before any 2027 data or 2027 holiday notification existed. It becomes binding when the author approves it and records it on OSF as an addendum to osf.io/yw7mr. Until then, the commit history timestamps it.
+**Status: draft for the author's approval.** Revised on 15 November 2026 after the TimesFM-3 encoding control (results/new_states_v1_fm_control): P2 now compares typed flags with the pooled flag without zero padding, and TimesFM-3 gets an unpadded pooled arm and a zero arm. Still before any 2027 data or notification existed. The draft was first written on 15 November 2026, after the registered new-states analysis and its exploratory follow-ups, and before any 2027 data or 2027 holiday notification existed. It becomes binding when the author approves it and records it on OSF as an addendum to osf.io/yw7mr. Until then, the commit history timestamps it.
 
 ## Why this test exists
 The registered study (results/new_states_v1/analysis) found small average effects: H1 SARIMAX typed better, CONFIRMED; H2 TimesFM-3 pooled better at lead 1, NOT CONFIRMED; H3 leaf-2 LightGBM pooled better, CONFIRMED. Exploratory work after it suggested two things (results/simulation_calibration_v2, results/new_states_v1_diagnostics):
@@ -21,6 +21,7 @@ Both were found after looking at the data, so neither is a confirmed result. Thi
 **Models and arms.** Exactly the registered pipeline (src/new_states_v1.py and the registered parameter selections), with the event years extended to 2027–2028 and no other change:
 - ridge, SARIMAX, leaf-2 LightGBM (lightgbm_capacity2), TimesFM-3;
 - day flags typed (day5) vs pooled (pooled_day5);
+- TimesFM-3 additionally: pooled flag without zero padding (pooled1) and five zero channels (zero5), as in src/new_states_fm_control_v1.py;
 - leads 1, 7, 14.
 
 **Data.** The same Grid-India daily state energy series. A festival's data is downloaded only after its forecasts are frozen.
@@ -29,13 +30,14 @@ Both were found after looking at the data, so neither is a confirmed result. Thi
 
 ## Hypotheses (Holm across P1 and P2; one-sided sign-flip over units, 1,000,000 draws, seed 20271101)
 - **P1:** in the "typed" states, ridge typed − pooled lead-1 MASE < 0.
-- **P2:** in the "typed" states, TimesFM-3 typed − pooled MASE, averaged over leads 7 and 14, < 0.
+- **P2:** in the "typed" states, TimesFM-3 typed − unpadded pooled (pooled1) MASE, averaged over leads 7 and 14, < 0. (The registered pooled arm carries four zero channels, which alone cost about 0.015–0.018 at these leads, so comparing against it would make P2 too easy.)
 
 **Decision.** CONFIRMED if Holm p < 0.05 and the mean is in the stated direction. CONTRADICTED if the mean is in the opposite direction with one-sided p < 0.05. Otherwise NOT CONFIRMED.
 
 ## Secondary (reported, not used for decisions)
 - SARIMAX in the "typed" states (lead 1).
-- In the "pooled" states: ridge and TimesFM-3 (leads 7/14), where the expectation is no typed advantage.
+- In the "pooled" states: ridge and TimesFM-3 (leads 7/14, against pooled1), where the expectation is no typed advantage.
+- TimesFM-3 in the "typed" states, typed against zero5 (does festival information help at all) and against the padded pooled arm (continuity with the registered contrast).
 - Default LightGBM against the zero-flag arm, where the expectation is no effect of typed flags.
 - All results with 2027 alone, as an interim description, not a decision.
 
@@ -47,7 +49,7 @@ Both were found after looking at the data, so neither is a confirmed result. Thi
 | Hypothesis | MDE, 2 years | MDE, 3 years | Observed (post hoc, likely inflated) |
 |---|---|---|---|
 | P1 | 0.057 | 0.046 | −0.075 |
-| P2 | ≈ 0.27 | — | −0.30 |
+| P2 | ≈ 0.27 | — | −0.30 against the padded arm; about −0.26 against the unpadded arm (state means for Rajasthan, Gujarat and Tamil Nadu, leads 7 and 14, results/new_states_v1_fm_control), carried by Gujarat and Tamil Nadu |
 
 Because the observed effects were selected after looking, the true effects are probably smaller, so power is probably below 80%. A NOT CONFIRMED result is a likely outcome and will be reported as such. The analysis is run once, after the last 2028 festival's data is available. If notifications are missing for more than a third of planned units, the test is extended to 2029 under the same rules. That decision is taken before looking at any outcome.
 

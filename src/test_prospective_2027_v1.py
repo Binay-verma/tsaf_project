@@ -19,7 +19,10 @@ def fake(effect_typed_states, seed=0):
                     for h in [1, 7, 14]:
                         base = abs(rng.normal(1, .2))
                         eff = effect_typed_states if st in p.TYPED_STATES else 0.
-                        for arm, val in [('pooled_day5', base), ('day5', base + eff + rng.normal(0, .02))]:
+                        arms = [('pooled_day5', base), ('day5', base + eff + rng.normal(0, .02))]
+                        if m == 'timesfm':
+                            arms += [('pooled1', base - .015), ('zero5', base + .05)]
+                        for arm, val in arms:
                             rows.append(dict(family=f, state=st, year=y, horizon=h, model=m, arm=arm, MASE=val))
     return pd.DataFrame(rows)
 
@@ -41,6 +44,11 @@ class T(unittest.TestCase):
     def test_units(self):
         u = p.units(fake(0.), 'ridge', [1], p.TYPED_STATES)
         self.assertEqual(len(u), 10*2)
+
+    def test_p2_uses_unpadded_pooled(self):
+        r = p.evaluate(fake(-0.1)).set_index('test')
+        self.assertEqual(r.loc['P2', 'against'], 'pooled1')
+        self.assertEqual(len(r), 7)
 
     def test_holm(self):
         np.testing.assert_allclose(p.holm([0.01, 0.04]), [0.02, 0.04])

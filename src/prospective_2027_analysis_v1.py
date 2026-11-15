@@ -17,10 +17,15 @@ TYPED_STATES = ['Rajasthan', 'Gujarat', 'Tamil Nadu']
 POOLED_STATES = ['Uttar Pradesh', 'Madhya Pradesh', 'Telangana', 'Andhra Pradesh']
 YEARS = [2027, 2028]
 DRAWS, SEED, ALPHA = 1_000_000, 20271101, 0.05
-PRIMARY = {'P1': ('ridge', [1], TYPED_STATES), 'P2': ('timesfm', [7, 14], TYPED_STATES)}
-SECONDARY = {'S1_sarimax_typed_states': ('sarimax', [1], TYPED_STATES),
-             'S2_ridge_pooled_states': ('ridge', [1], POOLED_STATES),
-             'S3_timesfm_pooled_states': ('timesfm', [7, 14], POOLED_STATES)}
+# (model, horizons, states, comparison arm). Revised 15 Nov 2026, before any 2027 data: P2 compares typed flags with the pooled
+# flag WITHOUT zero padding (pooled1), because the encoding control (results/new_states_v1_fm_control) showed the padding
+# alone costs about 0.015-0.018 MASE at leads 7 and 14.
+PRIMARY = {'P1': ('ridge', [1], TYPED_STATES, 'pooled_day5'), 'P2': ('timesfm', [7, 14], TYPED_STATES, 'pooled1')}
+SECONDARY = {'S1_sarimax_typed_states': ('sarimax', [1], TYPED_STATES, 'pooled_day5'),
+             'S2_ridge_pooled_states': ('ridge', [1], POOLED_STATES, 'pooled_day5'),
+             'S3_timesfm_pooled_states': ('timesfm', [7, 14], POOLED_STATES, 'pooled1'),
+             'S4_timesfm_typed_vs_zero_typed_states': ('timesfm', [7, 14], TYPED_STATES, 'zero5'),
+             'S5_timesfm_typed_vs_padded_pooled_typed_states': ('timesfm', [7, 14], TYPED_STATES, 'pooled_day5')}
 
 
 def signflip(v, draws=DRAWS, seed=SEED):
@@ -42,11 +47,13 @@ def holm(p):
     return out
 
 
-def units(d, model, horizons, states, years=YEARS):
-    """State-family-year typed minus pooled MASE, averaged over the given horizons."""
-    x = d[(d.model == model) & d.horizon.isin(horizons) & d.state.isin(states) & d.year.isin(years) & d.arm.isin(['day5', 'pooled_day5'])]
+def units(d, model, horizons, states, years=YEARS, against='pooled_day5'):
+    """State-family-year typed (day5) minus comparison-arm MASE, averaged over the given horizons."""
+    x = d[(d.model == model) & d.horizon.isin(horizons) & d.state.isin(states) & d.year.isin(years) & d.arm.isin(['day5', against])]
     s = x.groupby(['state', 'family', 'year', 'arm']).MASE.mean().unstack('arm')
-    return (s['day5'] - s['pooled_day5']).dropna()
+    if against not in s or 'day5' not in s:
+        return pd.Series(dtype=float)
+    return (s['day5'] - s[against]).dropna()
 
 
 def test(u):
@@ -56,9 +63,9 @@ def test(u):
 
 def evaluate(d, years=YEARS):
     rows = []
-    for name, (m, hz, st) in {**PRIMARY, **SECONDARY}.items():
-        u = units(d, m, hz, st, years)
-        rows.append(dict(test=name, model=m, horizons=str(hz), states=';'.join(st), **test(u)))
+    for name, (m, hz, st, against) in {**PRIMARY, **SECONDARY}.items():
+        u = units(d, m, hz, st, years, against)
+        rows.append(dict(test=name, model=m, horizons=str(hz), states=';'.join(st), against=against, **test(u)))
     r = pd.DataFrame(rows)
     prim = r.test.isin(PRIMARY)
     r.loc[prim, 'holm'] = holm(r.loc[prim, 'p_typed_better'].values)
