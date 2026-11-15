@@ -16,6 +16,7 @@ Cell 2: change only `COHORT` (fm_2017_2020 in the first notebook, fm_2021_2025 i
 ```bash
 %%bash
 set -e
+set -o pipefail
 COHORT=fm_2017_2020
 cd /kaggle/working
 rm -rf tsaf_project
