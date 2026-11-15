@@ -84,7 +84,7 @@ def leaf_window():
                                 (('v1', 'lgbm_selected'), BLUE, 'o', '--'), (('v2', 'lgbm_selected'), ORANGE, 's', '--')]:
         g = w[(w.test == t) & (w.model == m)].sort_values('W')
         ax.plot(g.W/365, g.typed_minus_pooled, color=col, lw=2, ls=ls, marker=mk, ms=6, mec='white')
-    ax.axhline(0, color=MUTED, lw=1); ax.set_xticks([2, 4, 6]); ax.set_xlabel('Training window (years), event years 2021–2025')
+    ax.axhline(0, color=MUTED, lw=1); ax.set_xticks([2, 4, 6]); ax.set_xlabel('Training window (years)')
     ax.set_title('LightGBM, training window', fontsize=9, loc='left'); ax.grid(color=GRID, lw=0.8); ax.set_axisbelow(True)
     h = [plt.Line2D([], [], color=MUTED, lw=2, ls='-', label='leaf 2'), plt.Line2D([], [], color=MUTED, lw=2, ls='--', label='tuned leaf')]
     ax.legend(handles=h, frameon=False)
