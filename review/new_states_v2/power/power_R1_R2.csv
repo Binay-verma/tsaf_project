@@ -1,0 +1,7 @@
+hypothesis,model,scenario,first_test_effect,first_test_clusters,power_holm_worst_0_0125,power_holm_best_0_05,median_p
+R1,sarimax,first-test effect,-0.0097,45,0.1775,0.3405,0.099375
+R1,sarimax,half effect,-0.0097,45,0.0535,0.14,0.26937500000000003
+R1,sarimax,no effect,-0.0097,45,0.0055,0.0315,0.5061249999999999
+R2,lightgbm_capacity2,first-test effect,0.0068,45,0.1875,0.359,0.096375
+R2,lightgbm_capacity2,half effect,0.0068,45,0.0485,0.135,0.271125
+R2,lightgbm_capacity2,no effect,0.0068,45,0.0105,0.04,0.5125
