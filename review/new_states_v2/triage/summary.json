@@ -1,0 +1,45 @@
+{
+ "in_scope_anchor_rows": 231,
+ "by_comparison": {
+  "match": 209,
+  "off_by_one": 11,
+  "no_date": 11
+ },
+ "by_state": {
+  "Bihar": {
+   "match": 30,
+   "no_date": 0,
+   "off_by_one": 3
+  },
+  "Chhattisgarh": {
+   "match": 33,
+   "no_date": 0,
+   "off_by_one": 0
+  },
+  "Haryana": {
+   "match": 32,
+   "no_date": 1,
+   "off_by_one": 0
+  },
+  "Kerala": {
+   "match": 18,
+   "no_date": 3,
+   "off_by_one": 1
+  },
+  "Odisha": {
+   "match": 34,
+   "no_date": 6,
+   "off_by_one": 4
+  },
+  "Punjab": {
+   "match": 31,
+   "no_date": 1,
+   "off_by_one": 1
+  },
+  "West Bengal": {
+   "match": 31,
+   "no_date": 0,
+   "off_by_one": 2
+  }
+ }
+}

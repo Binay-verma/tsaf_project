@@ -1,6 +1,6 @@
 # Second registered test, seven more states: design DRAFT (not registered)
 
-Status: draft written on 15 November 2026. Nothing here is registered. No parameter selection or forecast for these states has been made. No electricity outcome for them has been evaluated. The only use of their data so far is a count of missing or zero days.
+Status: draft written on 15 November 2026; design (R1, R2, M1, M2 and the state rule) approved by the author on the evening of 15 November 2026. Not yet registered. Calendar procedure below added after approval, before any parameter selection or forecast. No parameter selection or forecast for these states has been made. No electricity outcome for them has been evaluated. The only use of their data so far is a count of missing or zero days.
 
 ## Why
 The first registered test (osf.io/yw7mr) confirmed H1 (SARIMAX typed better) and H3 (leaf-2 LightGBM pooled better). Both rest mainly on Gujarat, and the follow-ups suggest why: typing helps where a state's festivals differ strongly in effect. That explanation was found after looking at the data. This test checks it, and replicates H1 and H3, on states the project has never used.
@@ -38,3 +38,9 @@ TimesFM-3 and Chronos-2 are left out of the confirmatory set because of time. Th
 - Registration: same day.
 - Local runs: under a day.
 - Analysis: run once.
+
+## Calendar procedure (added 15 November 2026, before any forecast; the author checks it before registration)
+- Only the main festival day of each family and year is used. The extra days some states add (second Holi day, Bhai Dooj, Vishwakarma Day) are not used. The first study did use extra Diwali days, so this differs slightly.
+- Each counted festival day was compared with the dates the author verified for the same family and year in the first study (src/new_states_v2_calendar_triage_v1.py). Of 231 counted days, 209 match, 11 differ by one day and 11 have no date (weekend or conflicting sources). The author checks the 22 non-matching rows one by one and a random sample of 21 matching rows (3 per state, seed 20261115).
+- Agreement with other states corroborates the festival day, not the state's own notification. The registration will say so.
+- Weekend rule (convention 3 of the first study) applies unchanged.
