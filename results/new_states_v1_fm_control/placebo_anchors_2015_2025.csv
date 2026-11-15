@@ -1,0 +1,329 @@
+state,year,family,date,original_date,shift_days
+Andhra Pradesh,2015,Diwali,2015-09-30,2015-11-11,-42
+Andhra Pradesh,2015,Dussehra,2015-11-26,2015-10-22,35
+Andhra Pradesh,2015,Ganesh_Chaturthi,2015-10-15,2015-09-17,28
+Andhra Pradesh,2015,Holi,2015-02-06,2015-03-06,-28
+Andhra Pradesh,2015,Ugadi_Gudi_Padwa,2015-02-21,2015-03-21,-28
+Andhra Pradesh,2016,Diwali,2016-12-11,2016-10-30,42
+Andhra Pradesh,2016,Dussehra,2016-09-13,2016-10-11,-28
+Andhra Pradesh,2016,Ganesh_Chaturthi,2016-08-08,2016-09-05,-28
+Andhra Pradesh,2016,Holi,2016-02-17,2016-03-23,-35
+Andhra Pradesh,2016,Ugadi_Gudi_Padwa,2016-02-26,2016-04-08,-42
+Andhra Pradesh,2017,Diwali,2017-11-16,2017-10-19,28
+Andhra Pradesh,2017,Dussehra,2017-11-11,2017-09-30,42
+Andhra Pradesh,2017,Ganesh_Chaturthi,2017-07-28,2017-08-25,-28
+Andhra Pradesh,2017,Holi,2017-04-16,2017-03-12,35
+Andhra Pradesh,2017,Ugadi_Gudi_Padwa,2017-05-03,2017-03-29,35
+Andhra Pradesh,2018,Diwali,2018-12-12,2018-11-07,35
+Andhra Pradesh,2018,Dussehra,2018-11-15,2018-10-18,28
+Andhra Pradesh,2018,Ganesh_Chaturthi,2018-08-02,2018-09-13,-42
+Andhra Pradesh,2018,Holi,2018-04-13,2018-03-02,42
+Andhra Pradesh,2018,Ugadi_Gudi_Padwa,2018-02-18,2018-03-18,-28
+Andhra Pradesh,2019,Diwali,2019-11-24,2019-10-27,28
+Andhra Pradesh,2019,Dussehra,2019-11-05,2019-10-08,28
+Andhra Pradesh,2019,Ganesh_Chaturthi,2019-07-22,2019-09-02,-42
+Andhra Pradesh,2019,Ugadi_Gudi_Padwa,2019-05-18,2019-04-06,42
+Andhra Pradesh,2020,Diwali,2020-12-19,2020-11-14,35
+Andhra Pradesh,2020,Dussehra,2020-11-22,2020-10-25,28
+Andhra Pradesh,2020,Ganesh_Chaturthi,2020-07-25,2020-08-22,-28
+Andhra Pradesh,2020,Ugadi_Gudi_Padwa,2020-04-29,2020-03-25,35
+Andhra Pradesh,2021,Diwali,2021-12-02,2021-11-04,28
+Andhra Pradesh,2021,Dussehra,2021-11-12,2021-10-15,28
+Andhra Pradesh,2021,Ganesh_Chaturthi,2021-08-13,2021-09-10,-28
+Andhra Pradesh,2021,Holi,2021-02-22,2021-03-29,-35
+Andhra Pradesh,2021,Ugadi_Gudi_Padwa,2021-03-02,2021-04-13,-42
+Andhra Pradesh,2022,Diwali,2022-11-21,2022-10-24,28
+Andhra Pradesh,2022,Dussehra,2022-11-16,2022-10-05,42
+Andhra Pradesh,2022,Ganesh_Chaturthi,2022-07-20,2022-08-31,-42
+Andhra Pradesh,2022,Holi,2022-04-29,2022-03-18,42
+Andhra Pradesh,2022,Ugadi_Gudi_Padwa,2022-05-07,2022-04-02,35
+Andhra Pradesh,2023,Diwali,2023-10-08,2023-11-12,-35
+Andhra Pradesh,2023,Dussehra,2023-11-27,2023-10-23,35
+Andhra Pradesh,2023,Ganesh_Chaturthi,2023-08-07,2023-09-18,-42
+Andhra Pradesh,2023,Holi,2023-04-12,2023-03-08,35
+Andhra Pradesh,2023,Ugadi_Gudi_Padwa,2023-04-26,2023-03-22,35
+Andhra Pradesh,2024,Diwali,2024-10-03,2024-10-31,-28
+Andhra Pradesh,2024,Ganesh_Chaturthi,2024-07-27,2024-09-07,-42
+Andhra Pradesh,2024,Holi,2024-05-06,2024-03-25,42
+Andhra Pradesh,2024,Ugadi_Gudi_Padwa,2024-03-12,2024-04-09,-28
+Andhra Pradesh,2025,Diwali,2025-12-01,2025-10-20,42
+Andhra Pradesh,2025,Dussehra,2025-11-06,2025-10-02,35
+Andhra Pradesh,2025,Ganesh_Chaturthi,2025-09-24,2025-08-27,28
+Andhra Pradesh,2025,Holi,2025-04-18,2025-03-14,35
+Andhra Pradesh,2025,Ugadi_Gudi_Padwa,2025-02-23,2025-03-30,-35
+Gujarat,2015,Diwali,2015-10-14,2015-11-11,-28
+Gujarat,2015,Diwali,2015-10-15,2015-11-12,-28
+Gujarat,2015,Dussehra,2015-09-24,2015-10-22,-28
+Gujarat,2015,Holi,2015-02-06,2015-03-06,-28
+Gujarat,2016,Diwali,2016-09-18,2016-10-30,-42
+Gujarat,2016,Diwali,2016-09-19,2016-10-31,-42
+Gujarat,2016,Dussehra,2016-11-08,2016-10-11,28
+Gujarat,2016,Holi,2016-02-11,2016-03-24,-42
+Gujarat,2017,Diwali,2017-11-23,2017-10-19,35
+Gujarat,2017,Diwali,2017-11-24,2017-10-20,35
+Gujarat,2017,Dussehra,2017-11-04,2017-09-30,35
+Gujarat,2017,Holi,2017-04-24,2017-03-13,42
+Gujarat,2018,Diwali,2018-12-12,2018-11-07,35
+Gujarat,2018,Diwali,2018-12-13,2018-11-08,35
+Gujarat,2018,Dussehra,2018-09-20,2018-10-18,-28
+Gujarat,2018,Holi,2018-04-13,2018-03-02,42
+Gujarat,2019,Diwali,2019-09-29,2019-10-27,-28
+Gujarat,2019,Diwali,2019-09-30,2019-10-28,-28
+Gujarat,2019,Dussehra,2019-09-03,2019-10-08,-35
+Gujarat,2019,Holi,2019-05-02,2019-03-21,42
+Gujarat,2020,Diwali,2020-10-10,2020-11-14,-35
+Gujarat,2020,Diwali,2020-10-12,2020-11-16,-35
+Gujarat,2020,Dussehra,2020-09-13,2020-10-25,-42
+Gujarat,2020,Holi,2020-02-11,2020-03-10,-28
+Gujarat,2021,Diwali,2021-12-09,2021-11-04,35
+Gujarat,2021,Diwali,2021-12-10,2021-11-05,35
+Gujarat,2021,Dussehra,2021-09-10,2021-10-15,-35
+Gujarat,2021,Holi,2021-03-01,2021-03-29,-28
+Gujarat,2022,Diwali,2022-09-12,2022-10-24,-42
+Gujarat,2022,Diwali,2022-09-14,2022-10-26,-42
+Gujarat,2022,Dussehra,2022-11-09,2022-10-05,35
+Gujarat,2022,Holi,2022-02-18,2022-03-18,-28
+Gujarat,2023,Diwali,2023-10-08,2023-11-12,-35
+Gujarat,2023,Diwali,2023-10-10,2023-11-14,-35
+Gujarat,2023,Dussehra,2023-09-19,2023-10-24,-35
+Gujarat,2023,Holi,2023-04-05,2023-03-08,28
+Gujarat,2024,Diwali,2024-12-05,2024-10-31,35
+Gujarat,2024,Diwali,2024-12-07,2024-11-02,35
+Gujarat,2024,Dussehra,2024-11-23,2024-10-12,42
+Gujarat,2024,Holi,2024-02-26,2024-03-25,-28
+Gujarat,2025,Diwali,2025-09-08,2025-10-20,-42
+Gujarat,2025,Diwali,2025-09-10,2025-10-22,-42
+Gujarat,2025,Dussehra,2025-11-06,2025-10-02,35
+Gujarat,2025,Holi,2025-04-11,2025-03-14,28
+Madhya Pradesh,2015,Diwali,2015-12-16,2015-11-11,35
+Madhya Pradesh,2015,Dussehra,2015-09-10,2015-10-22,-42
+Madhya Pradesh,2015,Holi,2015-01-30,2015-03-06,-35
+Madhya Pradesh,2015,Ugadi_Gudi_Padwa,2015-04-25,2015-03-21,35
+Madhya Pradesh,2016,Diwali,2016-12-04,2016-10-30,35
+Madhya Pradesh,2016,Dussehra,2016-09-13,2016-10-11,-28
+Madhya Pradesh,2016,Holi,2016-04-27,2016-03-23,35
+Madhya Pradesh,2016,Ugadi_Gudi_Padwa,2016-05-20,2016-04-08,42
+Madhya Pradesh,2017,Diwali,2017-09-21,2017-10-19,-28
+Madhya Pradesh,2017,Dussehra,2017-11-11,2017-09-30,42
+Madhya Pradesh,2017,Holi,2017-02-06,2017-03-13,-35
+Madhya Pradesh,2017,Ugadi_Gudi_Padwa,2017-02-22,2017-03-29,-35
+Madhya Pradesh,2018,Diwali,2018-12-12,2018-11-07,35
+Madhya Pradesh,2018,Dussehra,2018-11-16,2018-10-19,28
+Madhya Pradesh,2018,Holi,2018-01-19,2018-03-02,-42
+Madhya Pradesh,2018,Ugadi_Gudi_Padwa,2018-04-22,2018-03-18,35
+Madhya Pradesh,2019,Diwali,2019-09-22,2019-10-27,-35
+Madhya Pradesh,2019,Dussehra,2019-11-12,2019-10-08,35
+Madhya Pradesh,2019,Holi,2019-02-07,2019-03-21,-42
+Madhya Pradesh,2019,Ugadi_Gudi_Padwa,2019-05-11,2019-04-06,35
+Madhya Pradesh,2020,Diwali,2020-12-19,2020-11-14,35
+Madhya Pradesh,2020,Dussehra,2020-11-29,2020-10-25,35
+Madhya Pradesh,2020,Holi,2020-04-07,2020-03-10,28
+Madhya Pradesh,2020,Ugadi_Gudi_Padwa,2020-02-26,2020-03-25,-28
+Madhya Pradesh,2021,Diwali,2021-12-09,2021-11-04,35
+Madhya Pradesh,2021,Dussehra,2021-09-10,2021-10-15,-35
+Madhya Pradesh,2021,Holi,2021-05-03,2021-03-29,35
+Madhya Pradesh,2021,Ugadi_Gudi_Padwa,2021-05-11,2021-04-13,28
+Madhya Pradesh,2022,Diwali,2022-09-26,2022-10-24,-28
+Madhya Pradesh,2022,Dussehra,2022-11-02,2022-10-05,28
+Madhya Pradesh,2022,Holi,2022-04-15,2022-03-18,28
+Madhya Pradesh,2022,Ugadi_Gudi_Padwa,2022-02-19,2022-04-02,-42
+Madhya Pradesh,2023,Diwali,2023-10-01,2023-11-12,-42
+Madhya Pradesh,2023,Dussehra,2023-09-19,2023-10-24,-35
+Madhya Pradesh,2023,Holi,2023-01-25,2023-03-08,-42
+Madhya Pradesh,2023,Ugadi_Gudi_Padwa,2023-02-22,2023-03-22,-28
+Madhya Pradesh,2024,Diwali,2024-12-05,2024-10-31,35
+Madhya Pradesh,2024,Diwali,2024-12-06,2024-11-01,35
+Madhya Pradesh,2024,Dussehra,2024-11-09,2024-10-12,28
+Madhya Pradesh,2024,Holi,2024-02-26,2024-03-25,-28
+Madhya Pradesh,2024,Ugadi_Gudi_Padwa,2024-05-21,2024-04-09,42
+Madhya Pradesh,2025,Diwali,2025-11-17,2025-10-20,28
+Madhya Pradesh,2025,Diwali,2025-11-18,2025-10-21,28
+Madhya Pradesh,2025,Dussehra,2025-08-21,2025-10-02,-42
+Madhya Pradesh,2025,Holi,2025-04-18,2025-03-14,35
+Madhya Pradesh,2025,Ugadi_Gudi_Padwa,2025-04-27,2025-03-30,28
+Rajasthan,2015,Diwali,2015-12-09,2015-11-11,28
+Rajasthan,2015,Dussehra,2015-11-19,2015-10-22,28
+Rajasthan,2015,Holi,2015-04-03,2015-03-06,28
+Rajasthan,2016,Diwali,2016-09-18,2016-10-30,-42
+Rajasthan,2016,Diwali,2016-09-19,2016-10-31,-42
+Rajasthan,2016,Dussehra,2016-11-08,2016-10-11,28
+Rajasthan,2016,Holi,2016-04-28,2016-03-24,35
+Rajasthan,2017,Diwali,2017-09-14,2017-10-19,-35
+Rajasthan,2017,Diwali,2017-09-15,2017-10-20,-35
+Rajasthan,2017,Dussehra,2017-10-28,2017-09-30,28
+Rajasthan,2017,Holi,2017-01-30,2017-03-13,-42
+Rajasthan,2018,Diwali,2018-10-10,2018-11-07,-28
+Rajasthan,2018,Diwali,2018-10-11,2018-11-08,-28
+Rajasthan,2018,Dussehra,2018-09-21,2018-10-19,-28
+Rajasthan,2018,Holi,2018-04-13,2018-03-02,42
+Rajasthan,2019,Diwali,2019-09-22,2019-10-27,-35
+Rajasthan,2019,Diwali,2019-09-23,2019-10-28,-35
+Rajasthan,2019,Dussehra,2019-09-03,2019-10-08,-35
+Rajasthan,2019,Holi,2019-02-21,2019-03-21,-28
+Rajasthan,2020,Diwali,2020-12-26,2020-11-14,42
+Rajasthan,2020,Diwali,2020-12-27,2020-11-15,42
+Rajasthan,2020,Dussehra,2020-12-06,2020-10-25,42
+Rajasthan,2020,Holi,2020-01-28,2020-03-10,-42
+Rajasthan,2021,Diwali,2021-09-30,2021-11-04,-35
+Rajasthan,2021,Diwali,2021-10-01,2021-11-05,-35
+Rajasthan,2021,Dussehra,2021-11-19,2021-10-15,35
+Rajasthan,2021,Holi,2021-02-15,2021-03-29,-42
+Rajasthan,2022,Diwali,2022-12-05,2022-10-24,42
+Rajasthan,2022,Diwali,2022-12-06,2022-10-25,42
+Rajasthan,2022,Dussehra,2022-08-31,2022-10-05,-35
+Rajasthan,2022,Holi,2022-04-29,2022-03-18,42
+Rajasthan,2023,Diwali,2023-10-08,2023-11-12,-35
+Rajasthan,2023,Diwali,2023-10-09,2023-11-13,-35
+Rajasthan,2023,Dussehra,2023-09-26,2023-10-24,-28
+Rajasthan,2023,Holi,2023-04-04,2023-03-07,28
+Rajasthan,2024,Diwali,2024-09-19,2024-10-31,-42
+Rajasthan,2024,Diwali,2024-09-21,2024-11-02,-42
+Rajasthan,2024,Dussehra,2024-11-09,2024-10-12,28
+Rajasthan,2024,Holi,2024-04-22,2024-03-25,28
+Rajasthan,2025,Diwali,2025-11-24,2025-10-20,35
+Rajasthan,2025,Diwali,2025-11-26,2025-10-22,35
+Rajasthan,2025,Dussehra,2025-11-13,2025-10-02,42
+Rajasthan,2025,Holi,2025-04-11,2025-03-14,28
+Tamil Nadu,2015,Diwali,2015-10-13,2015-11-10,-28
+Tamil Nadu,2015,Dussehra,2015-11-19,2015-10-22,28
+Tamil Nadu,2015,Ganesh_Chaturthi,2015-08-20,2015-09-17,-28
+Tamil Nadu,2015,Ugadi_Gudi_Padwa,2015-04-25,2015-03-21,35
+Tamil Nadu,2016,Diwali,2016-09-24,2016-10-29,-35
+Tamil Nadu,2016,Dussehra,2016-09-13,2016-10-11,-28
+Tamil Nadu,2016,Ganesh_Chaturthi,2016-08-01,2016-09-05,-35
+Tamil Nadu,2016,Ugadi_Gudi_Padwa,2016-02-26,2016-04-08,-42
+Tamil Nadu,2017,Diwali,2017-09-06,2017-10-18,-42
+Tamil Nadu,2017,Dussehra,2017-09-02,2017-09-30,-28
+Tamil Nadu,2017,Ganesh_Chaturthi,2017-09-22,2017-08-25,28
+Tamil Nadu,2017,Ugadi_Gudi_Padwa,2017-05-03,2017-03-29,35
+Tamil Nadu,2018,Diwali,2018-12-11,2018-11-06,35
+Tamil Nadu,2018,Dussehra,2018-11-16,2018-10-19,28
+Tamil Nadu,2018,Ganesh_Chaturthi,2018-08-16,2018-09-13,-28
+Tamil Nadu,2018,Ugadi_Gudi_Padwa,2018-02-04,2018-03-18,-42
+Tamil Nadu,2019,Diwali,2019-12-08,2019-10-27,42
+Tamil Nadu,2019,Dussehra,2019-11-12,2019-10-08,35
+Tamil Nadu,2019,Ganesh_Chaturthi,2019-09-30,2019-09-02,28
+Tamil Nadu,2019,Ugadi_Gudi_Padwa,2019-02-23,2019-04-06,-42
+Tamil Nadu,2020,Diwali,2020-10-17,2020-11-14,-28
+Tamil Nadu,2020,Dussehra,2020-11-30,2020-10-26,35
+Tamil Nadu,2020,Ganesh_Chaturthi,2020-07-25,2020-08-22,-28
+Tamil Nadu,2020,Ugadi_Gudi_Padwa,2020-02-26,2020-03-25,-28
+Tamil Nadu,2021,Diwali,2021-09-23,2021-11-04,-42
+Tamil Nadu,2021,Dussehra,2021-09-17,2021-10-15,-28
+Tamil Nadu,2021,Ganesh_Chaturthi,2021-08-06,2021-09-10,-35
+Tamil Nadu,2021,Ugadi_Gudi_Padwa,2021-03-09,2021-04-13,-35
+Tamil Nadu,2022,Diwali,2022-11-28,2022-10-24,35
+Tamil Nadu,2022,Dussehra,2022-11-09,2022-10-05,35
+Tamil Nadu,2022,Ganesh_Chaturthi,2022-09-28,2022-08-31,28
+Tamil Nadu,2022,Ugadi_Gudi_Padwa,2022-03-05,2022-04-02,-28
+Tamil Nadu,2023,Diwali,2023-12-24,2023-11-12,42
+Tamil Nadu,2023,Dussehra,2023-09-26,2023-10-24,-28
+Tamil Nadu,2023,Ganesh_Chaturthi,2023-08-14,2023-09-18,-35
+Tamil Nadu,2023,Ugadi_Gudi_Padwa,2023-02-08,2023-03-22,-42
+Tamil Nadu,2024,Diwali,2024-10-03,2024-10-31,-28
+Tamil Nadu,2024,Dussehra,2024-11-23,2024-10-12,42
+Tamil Nadu,2024,Ganesh_Chaturthi,2024-08-03,2024-09-07,-35
+Tamil Nadu,2024,Ugadi_Gudi_Padwa,2024-05-21,2024-04-09,42
+Tamil Nadu,2025,Diwali,2025-09-22,2025-10-20,-28
+Tamil Nadu,2025,Dussehra,2025-11-06,2025-10-02,35
+Tamil Nadu,2025,Ganesh_Chaturthi,2025-07-23,2025-08-27,-35
+Tamil Nadu,2025,Ugadi_Gudi_Padwa,2025-02-23,2025-03-30,-35
+Telangana,2015,Diwali,2015-12-16,2015-11-11,35
+Telangana,2015,Dussehra,2015-12-03,2015-10-22,42
+Telangana,2015,Ganesh_Chaturthi,2015-08-13,2015-09-17,-35
+Telangana,2015,Holi,2015-04-10,2015-03-06,35
+Telangana,2015,Ugadi_Gudi_Padwa,2015-02-14,2015-03-21,-35
+Telangana,2016,Diwali,2016-12-04,2016-10-30,35
+Telangana,2016,Dussehra,2016-11-22,2016-10-11,42
+Telangana,2016,Ganesh_Chaturthi,2016-08-01,2016-09-05,-35
+Telangana,2016,Holi,2016-04-27,2016-03-23,35
+Telangana,2016,Ugadi_Gudi_Padwa,2016-03-04,2016-04-08,-35
+Telangana,2017,Diwali,2017-09-06,2017-10-18,-42
+Telangana,2017,Dussehra,2017-09-02,2017-09-30,-28
+Telangana,2017,Ganesh_Chaturthi,2017-07-21,2017-08-25,-35
+Telangana,2017,Holi,2017-04-23,2017-03-12,42
+Telangana,2017,Ugadi_Gudi_Padwa,2017-02-15,2017-03-29,-42
+Telangana,2018,Diwali,2018-10-10,2018-11-07,-28
+Telangana,2018,Dussehra,2018-11-22,2018-10-18,35
+Telangana,2018,Ganesh_Chaturthi,2018-08-09,2018-09-13,-35
+Telangana,2018,Holi,2018-04-05,2018-03-01,35
+Telangana,2018,Ugadi_Gudi_Padwa,2018-02-11,2018-03-18,-35
+Telangana,2019,Diwali,2019-12-01,2019-10-27,35
+Telangana,2019,Dussehra,2019-11-12,2019-10-08,35
+Telangana,2019,Ganesh_Chaturthi,2019-08-05,2019-09-02,-28
+Telangana,2019,Holi,2019-02-14,2019-03-21,-35
+Telangana,2019,Ugadi_Gudi_Padwa,2019-03-09,2019-04-06,-28
+Telangana,2020,Diwali,2020-12-26,2020-11-14,42
+Telangana,2020,Dussehra,2020-09-13,2020-10-25,-42
+Telangana,2020,Ganesh_Chaturthi,2020-09-26,2020-08-22,35
+Telangana,2020,Holi,2020-02-10,2020-03-09,-28
+Telangana,2020,Ugadi_Gudi_Padwa,2020-04-29,2020-03-25,35
+Telangana,2021,Diwali,2021-12-02,2021-11-04,28
+Telangana,2021,Dussehra,2021-11-12,2021-10-15,28
+Telangana,2021,Ganesh_Chaturthi,2021-08-06,2021-09-10,-35
+Telangana,2021,Holi,2021-04-26,2021-03-29,28
+Telangana,2021,Ugadi_Gudi_Padwa,2021-03-02,2021-04-13,-42
+Telangana,2022,Diwali,2022-11-21,2022-10-24,28
+Telangana,2022,Dussehra,2022-08-24,2022-10-05,-42
+Telangana,2022,Ganesh_Chaturthi,2022-09-28,2022-08-31,28
+Telangana,2022,Holi,2022-04-15,2022-03-18,28
+Telangana,2022,Ugadi_Gudi_Padwa,2022-02-19,2022-04-02,-42
+Telangana,2023,Diwali,2023-12-17,2023-11-12,35
+Telangana,2023,Dussehra,2023-11-21,2023-10-24,28
+Telangana,2023,Ganesh_Chaturthi,2023-10-16,2023-09-18,28
+Telangana,2023,Holi,2023-01-24,2023-03-07,-42
+Telangana,2023,Ugadi_Gudi_Padwa,2023-02-15,2023-03-22,-35
+Telangana,2024,Diwali,2024-10-03,2024-10-31,-28
+Telangana,2024,Dussehra,2024-08-31,2024-10-12,-42
+Telangana,2024,Ganesh_Chaturthi,2024-08-03,2024-09-07,-35
+Telangana,2024,Holi,2024-04-22,2024-03-25,28
+Telangana,2024,Ugadi_Gudi_Padwa,2024-02-27,2024-04-09,-42
+Telangana,2025,Diwali,2025-11-24,2025-10-20,35
+Telangana,2025,Dussehra,2025-09-04,2025-10-02,-28
+Telangana,2025,Ganesh_Chaturthi,2025-07-16,2025-08-27,-42
+Telangana,2025,Holi,2025-04-11,2025-03-14,28
+Telangana,2025,Ugadi_Gudi_Padwa,2025-05-04,2025-03-30,35
+Uttar Pradesh,2015,Diwali,2015-10-07,2015-11-11,-35
+Uttar Pradesh,2015,Diwali,2015-10-08,2015-11-12,-35
+Uttar Pradesh,2015,Dussehra,2015-09-17,2015-10-22,-35
+Uttar Pradesh,2015,Holi,2015-04-17,2015-03-06,42
+Uttar Pradesh,2016,Diwali,2016-12-11,2016-10-30,42
+Uttar Pradesh,2016,Diwali,2016-12-12,2016-10-31,42
+Uttar Pradesh,2016,Dussehra,2016-11-08,2016-10-11,28
+Uttar Pradesh,2016,Holi,2016-02-25,2016-03-24,-28
+Uttar Pradesh,2017,Diwali,2017-09-21,2017-10-19,-28
+Uttar Pradesh,2017,Diwali,2017-09-22,2017-10-20,-28
+Uttar Pradesh,2017,Dussehra,2017-10-28,2017-09-30,28
+Uttar Pradesh,2017,Holi,2017-04-10,2017-03-13,28
+Uttar Pradesh,2018,Diwali,2018-10-03,2018-11-07,-35
+Uttar Pradesh,2018,Diwali,2018-10-04,2018-11-08,-35
+Uttar Pradesh,2018,Dussehra,2018-09-07,2018-10-19,-42
+Uttar Pradesh,2018,Holi,2018-01-19,2018-03-02,-42
+Uttar Pradesh,2019,Diwali,2019-12-08,2019-10-27,42
+Uttar Pradesh,2019,Diwali,2019-12-09,2019-10-28,42
+Uttar Pradesh,2019,Dussehra,2019-09-10,2019-10-08,-28
+Uttar Pradesh,2019,Holi,2019-02-21,2019-03-21,-28
+Uttar Pradesh,2020,Diwali,2020-10-17,2020-11-14,-28
+Uttar Pradesh,2020,Diwali,2020-10-18,2020-11-15,-28
+Uttar Pradesh,2020,Dussehra,2020-11-29,2020-10-25,35
+Uttar Pradesh,2020,Holi,2020-01-28,2020-03-10,-42
+Uttar Pradesh,2021,Diwali,2021-09-23,2021-11-04,-42
+Uttar Pradesh,2021,Diwali,2021-09-24,2021-11-05,-42
+Uttar Pradesh,2021,Dussehra,2021-09-10,2021-10-15,-35
+Uttar Pradesh,2021,Holi,2021-03-01,2021-03-29,-28
+Uttar Pradesh,2022,Diwali,2022-11-28,2022-10-24,35
+Uttar Pradesh,2022,Diwali,2022-11-30,2022-10-26,35
+Uttar Pradesh,2022,Dussehra,2022-09-07,2022-10-05,-28
+Uttar Pradesh,2022,Holi,2022-02-18,2022-03-18,-28
+Uttar Pradesh,2023,Diwali,2023-12-24,2023-11-12,42
+Uttar Pradesh,2023,Diwali,2023-12-25,2023-11-13,42
+Uttar Pradesh,2023,Dussehra,2023-09-12,2023-10-24,-42
+Uttar Pradesh,2023,Holi,2023-04-05,2023-03-08,28
+Uttar Pradesh,2024,Diwali,2024-11-28,2024-10-31,28
+Uttar Pradesh,2024,Diwali,2024-11-30,2024-11-02,28
+Uttar Pradesh,2024,Dussehra,2024-09-15,2024-10-13,-28
+Uttar Pradesh,2024,Holi,2024-04-29,2024-03-25,35
+Uttar Pradesh,2025,Diwali,2025-09-15,2025-10-20,-35
+Uttar Pradesh,2025,Diwali,2025-09-17,2025-10-22,-35
+Uttar Pradesh,2025,Dussehra,2025-11-13,2025-10-02,42
+Uttar Pradesh,2025,Holi,2025-02-07,2025-03-14,-35
