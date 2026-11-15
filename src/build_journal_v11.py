@@ -99,17 +99,24 @@ def s4(x):
     return ('+' if x > 0 else '−' if x < 0 else '') + f'{abs(x):.4f}'
 
 
-sar_par = (f"SARIMAX, the model of the confirmed H1, was added to the pipeline-matched simulation after the other models, with the registered "
+sar_st = {line.split(',')[0]: line.split(',') for line in (SAR/'per_state_predicted_vs_observed_2021_2025.csv').read_text().splitlines()[1:]}
+assert sar_cal[0.25] > 0 and sar_cal[0.462] < 0 and sar_cal[0.0] > 0
+sar_par = (f"SARIMAX, the model of the confirmed H1, was added to the pipeline-matched simulation afterwards, with the registered "
            f"specification (one fit per year on the previous 730 days, a first-order autoregression with a weekly seasonal term, parameters "
-           f"then held fixed). At the three-state calibration it does better with typed flags at every heterogeneity level above zero "
-           f"({s4(sar_cal[0.25])} at h = 0.25, {s4(sar_cal[0.462])} at the calibrated h, {s4(sar_cal[2.0])} at h = 2; {s4(sar_cal[0.0])} at h = 0), "
-           f"in the direction of H1. Run for each further state with its 2015–2020 parameters, it predicts an average of "
-           f"{s4(sar_sum['mean_predicted'])} against {s4(sar_sum['mean_observed'])} observed for 2021–2025, with a state-level correlation of "
-           f"{sar_sum['pearson']:.2f} (Spearman {sar_sum['spearman']:.2f}).")
+           f"then held fixed). At the three-state calibration it does better with a pooled flag when festival effects are alike "
+           f"({s4(sar_cal[0.0])} at h = 0, {s4(sar_cal[0.25])} at h = 0.25) and with typed flags from the calibrated heterogeneity upwards "
+           f"({s4(sar_cal[0.462])} at h = {0.462:.2f}, {s4(sar_cal[1.0])} at h = 1, {s4(sar_cal[2.0])} at h = 2), the direction of H1 at the measured "
+           f"heterogeneity. Its per-state predictions are weaker than for Ridge and the trees: with each further state's 2015–2020 "
+           f"parameters it predicts an average of {s4(sar_sum['mean_predicted'])} against {s4(sar_sum['mean_observed'])} observed for "
+           f"2021–2025, with a state-level correlation of {sar_sum['pearson']:.2f} (Spearman {sar_sum['spearman']:.2f}, not significant), and the "
+           f"observed SARIMAX favours typed flags in Rajasthan and Madhya Pradesh where the simulation predicts a pooled advantage. The "
+           f"simulation therefore accounts for the direction of H1 at the calibrated heterogeneity but not for its distribution across states.")
 
 # ---------------- reassemble ----------------
 intro = body('1.')
-intro = intro.replace('5. **Decision rules for uncertain orderings.**', '5. **Decision rules for uncertain orderings.**', 1)
+_old_road = re.search(r' Section 2 reviews related work, Section 3[^\n]*', intro)
+assert _old_road, 'old roadmap not found'
+intro = intro.replace(_old_road.group(0), '')
 roadmap = ("\nSection 2 reviews related work, Sections 3 and 4 describe the data, models and tests, and Section 5 summarises the exploratory "
            "stages in which the hypotheses were formed. The main evidence is the registered test on seven further states in Section 6. "
            "Section 7 explains the pattern with a mechanism and simulations, Section 8 reports exploratory follow-ups, Section 9 turns the "
@@ -254,6 +261,9 @@ appD = ('## Appendix D. Reproduction map\n\nEach result folder contains the inpu
 
 final = body_main + decl + refs_block + appA + appB + appC + appD
 final = final.replace('(journal format, version 10)', '(journal format, version 11)')
+_c = 'across its two arms and three interval calibrations.'
+assert final.count(_c) == 1
+final = final.replace(_c, 'across its two arms and three interval calibrations (native, and conformalised quantile recalibrations [8] on frozen and on expanding calibration windows).')
 
 # ---------------- checks ----------------
 heads = set(re.findall(r'(?m)^##+ ((?:Appendix )?[A-Z]?[0-9.]+[0-9A-Z]?)', final))

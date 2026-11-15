@@ -1,0 +1,65 @@
+{
+ "created_utc": "2026-11-15T06:06:47.941213+00:00",
+ "status": "Journal-format draft v11 (v10 reorganised; no result number changed); not submitted.",
+ "base": {
+  "manuscript/journal_v10/MANUSCRIPT.md": "63cd9231e4f0913d0deb0882b6eef1d22a5be2b9fd4f2c8996d530ad247e7cb3"
+ },
+ "inputs": {
+  "review/literature_2026-11-15/references.json": "499ec8b3fb4a9bd18606014a0274e8478fd7dbb38f906515b43f15bfb9fb5b72",
+  "results/simulation_sarimax_v3/design.json": "9054cb403dc0f69d7d4ed47b27dfc9159548816d85b7e2d7c8211b3ee2db2a7f",
+  "results/simulation_sarimax_v3/per_state_predicted_vs_observed_2021_2025.csv": "d51ae7eef07c8bae40473aa5187d2fddafc5dd43382dc329f0f425faa65196c6",
+  "results/simulation_sarimax_v3/raw.csv": "07647895db12598b3ea5356c6118ca029ba1a2a38d19522fd35ace61edc31ca1",
+  "results/simulation_sarimax_v3/summary.csv": "996ad2ad9ee7a7b1bcc497e7fee5d8576865e0b197672b74b8b13abc9d49eecc",
+  "results/simulation_sarimax_v3/summary.json": "60ea0c81beb2ef84dc767b2d450b39b15dfe945f535910d6c3819fbf0b3bc0fe"
+ },
+ "table_map_v10_to_v11": {
+  "1": "1",
+  "2": "2",
+  "3": "3",
+  "4": "4",
+  "5": "5",
+  "6": "6",
+  "7": "7",
+  "12": "8",
+  "12b": "8b",
+  "13": "9",
+  "14": "10",
+  "15": "11",
+  "16": "12",
+  "10": "13",
+  "11": "14",
+  "9": "B1",
+  "8": "C1"
+ },
+ "figure_map": {
+  "1": "1",
+  "2": "2",
+  "3": "3",
+  "4": "4"
+ },
+ "section_map": {
+  "3.4": "B.1",
+  "3.5": "3.3",
+  "3.3": "3.4",
+  "5.5": "Appendix C",
+  "5.6": "Appendix B.2",
+  "5.7": "6",
+  "5.8": "7",
+  "5.9": "8",
+  "6": "9",
+  "7": "10",
+  "8": "11",
+  "9": "12"
+ },
+ "uncited_references": [],
+ "abstract_words": 149,
+ "words_main_text": 9541,
+ "outputs": {
+  "MANUSCRIPT.md": "1700376418b0c1bf743dddc29a9c3e0e3b5151f497993eec97eeed95422a4d3b",
+  "MANUSCRIPT_anonymised.md": "ed3a33621d05b1fbe40f75661325b28462bf6189486e15b5d88c31010d7f799d",
+  "Typed_or_Pooled_Binay_Verma_v11.docx": "a5239ed84f7c210d4a947c8a6dd82646e4be9b77bbb6542fa2a1e99a254a2239",
+  "Typed_or_Pooled_Binay_Verma_v11.pdf": "aa444e777c3f0ef44aee36db175e0ae1ac4e81db79bbcec790a7b4e0609d4fb5",
+  "Typed_or_Pooled_v11_anonymised.docx": "f16179b8379c996ab2ff0673841a27326dfbf87266bdde97fa1360588dc2709e",
+  "Typed_or_Pooled_v11_anonymised.pdf": "c1fc94c9f1021c4a5c283d58243fe2751a9f1bb9a2c1ac6f01f7af01067f4665"
+ }
+}
