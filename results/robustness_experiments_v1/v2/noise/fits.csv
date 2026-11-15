@@ -1,0 +1,1513 @@
+state,year,refit,W,model,arm,ledger,training_n
+Bihar,2017,2017-03-01,730,ridge,day5,moved_seed1,719
+Bihar,2017,2017-03-01,730,ridge,pooled_day5,moved_seed1,719
+Bihar,2017,2017-03-01,730,lgbm_leaf2,day5,moved_seed1,719
+Bihar,2017,2017-03-01,730,lgbm_leaf2,pooled_day5,moved_seed1,719
+Bihar,2017,2017-03-01,730,ridge,day5,moved_seed2,719
+Bihar,2017,2017-03-01,730,ridge,pooled_day5,moved_seed2,719
+Bihar,2017,2017-03-01,730,lgbm_leaf2,day5,moved_seed2,719
+Bihar,2017,2017-03-01,730,lgbm_leaf2,pooled_day5,moved_seed2,719
+Bihar,2017,2017-09-01,730,ridge,day5,moved_seed1,725
+Bihar,2017,2017-09-01,730,ridge,pooled_day5,moved_seed1,725
+Bihar,2017,2017-09-01,730,lgbm_leaf2,day5,moved_seed1,725
+Bihar,2017,2017-09-01,730,lgbm_leaf2,pooled_day5,moved_seed1,725
+Bihar,2017,2017-09-01,730,ridge,day5,moved_seed2,725
+Bihar,2017,2017-09-01,730,ridge,pooled_day5,moved_seed2,725
+Bihar,2017,2017-09-01,730,lgbm_leaf2,day5,moved_seed2,725
+Bihar,2017,2017-09-01,730,lgbm_leaf2,pooled_day5,moved_seed2,725
+Bihar,2017,2017-10-01,730,ridge,day5,moved_seed1,727
+Bihar,2017,2017-10-01,730,ridge,pooled_day5,moved_seed1,727
+Bihar,2017,2017-10-01,730,lgbm_leaf2,day5,moved_seed1,727
+Bihar,2017,2017-10-01,730,lgbm_leaf2,pooled_day5,moved_seed1,727
+Bihar,2017,2017-10-01,730,ridge,day5,moved_seed2,727
+Bihar,2017,2017-10-01,730,ridge,pooled_day5,moved_seed2,727
+Bihar,2017,2017-10-01,730,lgbm_leaf2,day5,moved_seed2,727
+Bihar,2017,2017-10-01,730,lgbm_leaf2,pooled_day5,moved_seed2,727
+Bihar,2018,2018-02-01,730,ridge,day5,moved_seed1,727
+Bihar,2018,2018-02-01,730,ridge,pooled_day5,moved_seed1,727
+Bihar,2018,2018-02-01,730,lgbm_leaf2,day5,moved_seed1,727
+Bihar,2018,2018-02-01,730,lgbm_leaf2,pooled_day5,moved_seed1,727
+Bihar,2018,2018-02-01,730,ridge,day5,moved_seed2,727
+Bihar,2018,2018-02-01,730,ridge,pooled_day5,moved_seed2,727
+Bihar,2018,2018-02-01,730,lgbm_leaf2,day5,moved_seed2,727
+Bihar,2018,2018-02-01,730,lgbm_leaf2,pooled_day5,moved_seed2,727
+Bihar,2018,2018-03-01,730,ridge,day5,moved_seed1,727
+Bihar,2018,2018-03-01,730,ridge,pooled_day5,moved_seed1,727
+Bihar,2018,2018-03-01,730,lgbm_leaf2,day5,moved_seed1,727
+Bihar,2018,2018-03-01,730,lgbm_leaf2,pooled_day5,moved_seed1,727
+Bihar,2018,2018-03-01,730,ridge,day5,moved_seed2,727
+Bihar,2018,2018-03-01,730,ridge,pooled_day5,moved_seed2,727
+Bihar,2018,2018-03-01,730,lgbm_leaf2,day5,moved_seed2,727
+Bihar,2018,2018-03-01,730,lgbm_leaf2,pooled_day5,moved_seed2,727
+Bihar,2018,2018-10-01,730,ridge,day5,moved_seed1,730
+Bihar,2018,2018-10-01,730,ridge,pooled_day5,moved_seed1,730
+Bihar,2018,2018-10-01,730,lgbm_leaf2,day5,moved_seed1,730
+Bihar,2018,2018-10-01,730,lgbm_leaf2,pooled_day5,moved_seed1,730
+Bihar,2018,2018-10-01,730,ridge,day5,moved_seed2,730
+Bihar,2018,2018-10-01,730,ridge,pooled_day5,moved_seed2,730
+Bihar,2018,2018-10-01,730,lgbm_leaf2,day5,moved_seed2,730
+Bihar,2018,2018-10-01,730,lgbm_leaf2,pooled_day5,moved_seed2,730
+Bihar,2018,2018-11-01,730,ridge,day5,moved_seed1,730
+Bihar,2018,2018-11-01,730,ridge,pooled_day5,moved_seed1,730
+Bihar,2018,2018-11-01,730,lgbm_leaf2,day5,moved_seed1,730
+Bihar,2018,2018-11-01,730,lgbm_leaf2,pooled_day5,moved_seed1,730
+Bihar,2018,2018-11-01,730,ridge,day5,moved_seed2,730
+Bihar,2018,2018-11-01,730,ridge,pooled_day5,moved_seed2,730
+Bihar,2018,2018-11-01,730,lgbm_leaf2,day5,moved_seed2,730
+Bihar,2018,2018-11-01,730,lgbm_leaf2,pooled_day5,moved_seed2,730
+Bihar,2019,2019-03-01,730,ridge,day5,moved_seed1,730
+Bihar,2019,2019-03-01,730,ridge,pooled_day5,moved_seed1,730
+Bihar,2019,2019-03-01,730,lgbm_leaf2,day5,moved_seed1,730
+Bihar,2019,2019-03-01,730,lgbm_leaf2,pooled_day5,moved_seed1,730
+Bihar,2019,2019-03-01,730,ridge,day5,moved_seed2,730
+Bihar,2019,2019-03-01,730,ridge,pooled_day5,moved_seed2,730
+Bihar,2019,2019-03-01,730,lgbm_leaf2,day5,moved_seed2,730
+Bihar,2019,2019-03-01,730,lgbm_leaf2,pooled_day5,moved_seed2,730
+Bihar,2019,2019-10-01,730,ridge,day5,moved_seed1,729
+Bihar,2019,2019-10-01,730,ridge,pooled_day5,moved_seed1,729
+Bihar,2019,2019-10-01,730,lgbm_leaf2,day5,moved_seed1,729
+Bihar,2019,2019-10-01,730,lgbm_leaf2,pooled_day5,moved_seed1,729
+Bihar,2019,2019-10-01,730,ridge,day5,moved_seed2,729
+Bihar,2019,2019-10-01,730,ridge,pooled_day5,moved_seed2,729
+Bihar,2019,2019-10-01,730,lgbm_leaf2,day5,moved_seed2,729
+Bihar,2019,2019-10-01,730,lgbm_leaf2,pooled_day5,moved_seed2,729
+Bihar,2020,2020-03-01,730,ridge,day5,moved_seed1,729
+Bihar,2020,2020-03-01,730,ridge,pooled_day5,moved_seed1,729
+Bihar,2020,2020-03-01,730,lgbm_leaf2,day5,moved_seed1,729
+Bihar,2020,2020-03-01,730,lgbm_leaf2,pooled_day5,moved_seed1,729
+Bihar,2020,2020-03-01,730,ridge,day5,moved_seed2,729
+Bihar,2020,2020-03-01,730,ridge,pooled_day5,moved_seed2,729
+Bihar,2020,2020-03-01,730,lgbm_leaf2,day5,moved_seed2,729
+Bihar,2020,2020-03-01,730,lgbm_leaf2,pooled_day5,moved_seed2,729
+Bihar,2020,2020-10-01,730,ridge,day5,moved_seed1,728
+Bihar,2020,2020-10-01,730,ridge,pooled_day5,moved_seed1,728
+Bihar,2020,2020-10-01,730,lgbm_leaf2,day5,moved_seed1,728
+Bihar,2020,2020-10-01,730,lgbm_leaf2,pooled_day5,moved_seed1,728
+Bihar,2020,2020-10-01,730,ridge,day5,moved_seed2,728
+Bihar,2020,2020-10-01,730,ridge,pooled_day5,moved_seed2,728
+Bihar,2020,2020-10-01,730,lgbm_leaf2,day5,moved_seed2,728
+Bihar,2020,2020-10-01,730,lgbm_leaf2,pooled_day5,moved_seed2,728
+Bihar,2020,2020-11-01,730,ridge,day5,moved_seed1,728
+Bihar,2020,2020-11-01,730,ridge,pooled_day5,moved_seed1,728
+Bihar,2020,2020-11-01,730,lgbm_leaf2,day5,moved_seed1,728
+Bihar,2020,2020-11-01,730,lgbm_leaf2,pooled_day5,moved_seed1,728
+Bihar,2020,2020-11-01,730,ridge,day5,moved_seed2,728
+Bihar,2020,2020-11-01,730,ridge,pooled_day5,moved_seed2,728
+Bihar,2020,2020-11-01,730,lgbm_leaf2,day5,moved_seed2,728
+Bihar,2020,2020-11-01,730,lgbm_leaf2,pooled_day5,moved_seed2,728
+Bihar,2021,2021-03-01,730,ridge,day5,moved_seed1,728
+Bihar,2021,2021-03-01,730,ridge,pooled_day5,moved_seed1,728
+Bihar,2021,2021-03-01,730,lgbm_leaf2,day5,moved_seed1,728
+Bihar,2021,2021-03-01,730,lgbm_leaf2,pooled_day5,moved_seed1,728
+Bihar,2021,2021-03-01,730,ridge,day5,moved_seed2,728
+Bihar,2021,2021-03-01,730,ridge,pooled_day5,moved_seed2,728
+Bihar,2021,2021-03-01,730,lgbm_leaf2,day5,moved_seed2,728
+Bihar,2021,2021-03-01,730,lgbm_leaf2,pooled_day5,moved_seed2,728
+Bihar,2021,2021-04-01,730,ridge,day5,moved_seed1,728
+Bihar,2021,2021-04-01,730,ridge,pooled_day5,moved_seed1,728
+Bihar,2021,2021-04-01,730,lgbm_leaf2,day5,moved_seed1,728
+Bihar,2021,2021-04-01,730,lgbm_leaf2,pooled_day5,moved_seed1,728
+Bihar,2021,2021-04-01,730,ridge,day5,moved_seed2,728
+Bihar,2021,2021-04-01,730,ridge,pooled_day5,moved_seed2,728
+Bihar,2021,2021-04-01,730,lgbm_leaf2,day5,moved_seed2,728
+Bihar,2021,2021-04-01,730,lgbm_leaf2,pooled_day5,moved_seed2,728
+Bihar,2021,2021-10-01,730,ridge,day5,moved_seed1,729
+Bihar,2021,2021-10-01,730,ridge,pooled_day5,moved_seed1,729
+Bihar,2021,2021-10-01,730,lgbm_leaf2,day5,moved_seed1,729
+Bihar,2021,2021-10-01,730,lgbm_leaf2,pooled_day5,moved_seed1,729
+Bihar,2021,2021-10-01,730,ridge,day5,moved_seed2,729
+Bihar,2021,2021-10-01,730,ridge,pooled_day5,moved_seed2,729
+Bihar,2021,2021-10-01,730,lgbm_leaf2,day5,moved_seed2,729
+Bihar,2021,2021-10-01,730,lgbm_leaf2,pooled_day5,moved_seed2,729
+Bihar,2021,2021-11-01,730,ridge,day5,moved_seed1,729
+Bihar,2021,2021-11-01,730,ridge,pooled_day5,moved_seed1,729
+Bihar,2021,2021-11-01,730,lgbm_leaf2,day5,moved_seed1,729
+Bihar,2021,2021-11-01,730,lgbm_leaf2,pooled_day5,moved_seed1,729
+Bihar,2021,2021-11-01,730,ridge,day5,moved_seed2,729
+Bihar,2021,2021-11-01,730,ridge,pooled_day5,moved_seed2,729
+Bihar,2021,2021-11-01,730,lgbm_leaf2,day5,moved_seed2,729
+Bihar,2021,2021-11-01,730,lgbm_leaf2,pooled_day5,moved_seed2,729
+Bihar,2022,2022-03-01,730,ridge,day5,moved_seed1,729
+Bihar,2022,2022-03-01,730,ridge,pooled_day5,moved_seed1,729
+Bihar,2022,2022-03-01,730,lgbm_leaf2,day5,moved_seed1,729
+Bihar,2022,2022-03-01,730,lgbm_leaf2,pooled_day5,moved_seed1,729
+Bihar,2022,2022-03-01,730,ridge,day5,moved_seed2,729
+Bihar,2022,2022-03-01,730,ridge,pooled_day5,moved_seed2,729
+Bihar,2022,2022-03-01,730,lgbm_leaf2,day5,moved_seed2,729
+Bihar,2022,2022-03-01,730,lgbm_leaf2,pooled_day5,moved_seed2,729
+Bihar,2022,2022-10-01,730,ridge,day5,moved_seed1,730
+Bihar,2022,2022-10-01,730,ridge,pooled_day5,moved_seed1,730
+Bihar,2022,2022-10-01,730,lgbm_leaf2,day5,moved_seed1,730
+Bihar,2022,2022-10-01,730,lgbm_leaf2,pooled_day5,moved_seed1,730
+Bihar,2022,2022-10-01,730,ridge,day5,moved_seed2,730
+Bihar,2022,2022-10-01,730,ridge,pooled_day5,moved_seed2,730
+Bihar,2022,2022-10-01,730,lgbm_leaf2,day5,moved_seed2,730
+Bihar,2022,2022-10-01,730,lgbm_leaf2,pooled_day5,moved_seed2,730
+Bihar,2023,2023-03-01,730,ridge,day5,moved_seed1,730
+Bihar,2023,2023-03-01,730,ridge,pooled_day5,moved_seed1,730
+Bihar,2023,2023-03-01,730,lgbm_leaf2,day5,moved_seed1,730
+Bihar,2023,2023-03-01,730,lgbm_leaf2,pooled_day5,moved_seed1,730
+Bihar,2023,2023-03-01,730,ridge,day5,moved_seed2,730
+Bihar,2023,2023-03-01,730,ridge,pooled_day5,moved_seed2,730
+Bihar,2023,2023-03-01,730,lgbm_leaf2,day5,moved_seed2,730
+Bihar,2023,2023-03-01,730,lgbm_leaf2,pooled_day5,moved_seed2,730
+Bihar,2023,2023-10-01,730,ridge,day5,moved_seed1,730
+Bihar,2023,2023-10-01,730,ridge,pooled_day5,moved_seed1,730
+Bihar,2023,2023-10-01,730,lgbm_leaf2,day5,moved_seed1,730
+Bihar,2023,2023-10-01,730,lgbm_leaf2,pooled_day5,moved_seed1,730
+Bihar,2023,2023-10-01,730,ridge,day5,moved_seed2,730
+Bihar,2023,2023-10-01,730,ridge,pooled_day5,moved_seed2,730
+Bihar,2023,2023-10-01,730,lgbm_leaf2,day5,moved_seed2,730
+Bihar,2023,2023-10-01,730,lgbm_leaf2,pooled_day5,moved_seed2,730
+Bihar,2023,2023-11-01,730,ridge,day5,moved_seed1,730
+Bihar,2023,2023-11-01,730,ridge,pooled_day5,moved_seed1,730
+Bihar,2023,2023-11-01,730,lgbm_leaf2,day5,moved_seed1,730
+Bihar,2023,2023-11-01,730,lgbm_leaf2,pooled_day5,moved_seed1,730
+Bihar,2023,2023-11-01,730,ridge,day5,moved_seed2,730
+Bihar,2023,2023-11-01,730,ridge,pooled_day5,moved_seed2,730
+Bihar,2023,2023-11-01,730,lgbm_leaf2,day5,moved_seed2,730
+Bihar,2023,2023-11-01,730,lgbm_leaf2,pooled_day5,moved_seed2,730
+Bihar,2024,2024-03-01,730,ridge,day5,moved_seed1,730
+Bihar,2024,2024-03-01,730,ridge,pooled_day5,moved_seed1,730
+Bihar,2024,2024-03-01,730,lgbm_leaf2,day5,moved_seed1,730
+Bihar,2024,2024-03-01,730,lgbm_leaf2,pooled_day5,moved_seed1,730
+Bihar,2024,2024-03-01,730,ridge,day5,moved_seed2,730
+Bihar,2024,2024-03-01,730,ridge,pooled_day5,moved_seed2,730
+Bihar,2024,2024-03-01,730,lgbm_leaf2,day5,moved_seed2,730
+Bihar,2024,2024-03-01,730,lgbm_leaf2,pooled_day5,moved_seed2,730
+Bihar,2024,2024-10-01,730,ridge,day5,moved_seed1,730
+Bihar,2024,2024-10-01,730,ridge,pooled_day5,moved_seed1,730
+Bihar,2024,2024-10-01,730,lgbm_leaf2,day5,moved_seed1,730
+Bihar,2024,2024-10-01,730,lgbm_leaf2,pooled_day5,moved_seed1,730
+Bihar,2024,2024-10-01,730,ridge,day5,moved_seed2,730
+Bihar,2024,2024-10-01,730,ridge,pooled_day5,moved_seed2,730
+Bihar,2024,2024-10-01,730,lgbm_leaf2,day5,moved_seed2,730
+Bihar,2024,2024-10-01,730,lgbm_leaf2,pooled_day5,moved_seed2,730
+Bihar,2024,2024-11-01,730,ridge,day5,moved_seed1,730
+Bihar,2024,2024-11-01,730,ridge,pooled_day5,moved_seed1,730
+Bihar,2024,2024-11-01,730,lgbm_leaf2,day5,moved_seed1,730
+Bihar,2024,2024-11-01,730,lgbm_leaf2,pooled_day5,moved_seed1,730
+Bihar,2024,2024-11-01,730,ridge,day5,moved_seed2,730
+Bihar,2024,2024-11-01,730,ridge,pooled_day5,moved_seed2,730
+Bihar,2024,2024-11-01,730,lgbm_leaf2,day5,moved_seed2,730
+Bihar,2024,2024-11-01,730,lgbm_leaf2,pooled_day5,moved_seed2,730
+Bihar,2025,2025-03-01,730,ridge,day5,moved_seed1,730
+Bihar,2025,2025-03-01,730,ridge,pooled_day5,moved_seed1,730
+Bihar,2025,2025-03-01,730,lgbm_leaf2,day5,moved_seed1,730
+Bihar,2025,2025-03-01,730,lgbm_leaf2,pooled_day5,moved_seed1,730
+Bihar,2025,2025-03-01,730,ridge,day5,moved_seed2,730
+Bihar,2025,2025-03-01,730,ridge,pooled_day5,moved_seed2,730
+Bihar,2025,2025-03-01,730,lgbm_leaf2,day5,moved_seed2,730
+Bihar,2025,2025-03-01,730,lgbm_leaf2,pooled_day5,moved_seed2,730
+Bihar,2025,2025-09-01,730,ridge,day5,moved_seed1,730
+Bihar,2025,2025-09-01,730,ridge,pooled_day5,moved_seed1,730
+Bihar,2025,2025-09-01,730,lgbm_leaf2,day5,moved_seed1,730
+Bihar,2025,2025-09-01,730,lgbm_leaf2,pooled_day5,moved_seed1,730
+Bihar,2025,2025-09-01,730,ridge,day5,moved_seed2,730
+Bihar,2025,2025-09-01,730,ridge,pooled_day5,moved_seed2,730
+Bihar,2025,2025-09-01,730,lgbm_leaf2,day5,moved_seed2,730
+Bihar,2025,2025-09-01,730,lgbm_leaf2,pooled_day5,moved_seed2,730
+Bihar,2025,2025-10-01,730,ridge,day5,moved_seed1,730
+Bihar,2025,2025-10-01,730,ridge,pooled_day5,moved_seed1,730
+Bihar,2025,2025-10-01,730,lgbm_leaf2,day5,moved_seed1,730
+Bihar,2025,2025-10-01,730,lgbm_leaf2,pooled_day5,moved_seed1,730
+Bihar,2025,2025-10-01,730,ridge,day5,moved_seed2,730
+Bihar,2025,2025-10-01,730,ridge,pooled_day5,moved_seed2,730
+Bihar,2025,2025-10-01,730,lgbm_leaf2,day5,moved_seed2,730
+Bihar,2025,2025-10-01,730,lgbm_leaf2,pooled_day5,moved_seed2,730
+Chhattisgarh,2017,2017-03-01,730,ridge,day5,moved_seed1,719
+Chhattisgarh,2017,2017-03-01,730,ridge,pooled_day5,moved_seed1,719
+Chhattisgarh,2017,2017-03-01,730,lgbm_leaf2,day5,moved_seed1,719
+Chhattisgarh,2017,2017-03-01,730,lgbm_leaf2,pooled_day5,moved_seed1,719
+Chhattisgarh,2017,2017-03-01,730,ridge,day5,moved_seed2,719
+Chhattisgarh,2017,2017-03-01,730,ridge,pooled_day5,moved_seed2,719
+Chhattisgarh,2017,2017-03-01,730,lgbm_leaf2,day5,moved_seed2,719
+Chhattisgarh,2017,2017-03-01,730,lgbm_leaf2,pooled_day5,moved_seed2,719
+Chhattisgarh,2017,2017-09-01,730,ridge,day5,moved_seed1,725
+Chhattisgarh,2017,2017-09-01,730,ridge,pooled_day5,moved_seed1,725
+Chhattisgarh,2017,2017-09-01,730,lgbm_leaf2,day5,moved_seed1,725
+Chhattisgarh,2017,2017-09-01,730,lgbm_leaf2,pooled_day5,moved_seed1,725
+Chhattisgarh,2017,2017-09-01,730,ridge,day5,moved_seed2,725
+Chhattisgarh,2017,2017-09-01,730,ridge,pooled_day5,moved_seed2,725
+Chhattisgarh,2017,2017-09-01,730,lgbm_leaf2,day5,moved_seed2,725
+Chhattisgarh,2017,2017-09-01,730,lgbm_leaf2,pooled_day5,moved_seed2,725
+Chhattisgarh,2017,2017-10-01,730,ridge,day5,moved_seed1,727
+Chhattisgarh,2017,2017-10-01,730,ridge,pooled_day5,moved_seed1,727
+Chhattisgarh,2017,2017-10-01,730,lgbm_leaf2,day5,moved_seed1,727
+Chhattisgarh,2017,2017-10-01,730,lgbm_leaf2,pooled_day5,moved_seed1,727
+Chhattisgarh,2017,2017-10-01,730,ridge,day5,moved_seed2,727
+Chhattisgarh,2017,2017-10-01,730,ridge,pooled_day5,moved_seed2,727
+Chhattisgarh,2017,2017-10-01,730,lgbm_leaf2,day5,moved_seed2,727
+Chhattisgarh,2017,2017-10-01,730,lgbm_leaf2,pooled_day5,moved_seed2,727
+Chhattisgarh,2018,2018-02-01,730,ridge,day5,moved_seed1,727
+Chhattisgarh,2018,2018-02-01,730,ridge,pooled_day5,moved_seed1,727
+Chhattisgarh,2018,2018-02-01,730,lgbm_leaf2,day5,moved_seed1,727
+Chhattisgarh,2018,2018-02-01,730,lgbm_leaf2,pooled_day5,moved_seed1,727
+Chhattisgarh,2018,2018-02-01,730,ridge,day5,moved_seed2,727
+Chhattisgarh,2018,2018-02-01,730,ridge,pooled_day5,moved_seed2,727
+Chhattisgarh,2018,2018-02-01,730,lgbm_leaf2,day5,moved_seed2,727
+Chhattisgarh,2018,2018-02-01,730,lgbm_leaf2,pooled_day5,moved_seed2,727
+Chhattisgarh,2018,2018-03-01,730,ridge,day5,moved_seed1,727
+Chhattisgarh,2018,2018-03-01,730,ridge,pooled_day5,moved_seed1,727
+Chhattisgarh,2018,2018-03-01,730,lgbm_leaf2,day5,moved_seed1,727
+Chhattisgarh,2018,2018-03-01,730,lgbm_leaf2,pooled_day5,moved_seed1,727
+Chhattisgarh,2018,2018-03-01,730,ridge,day5,moved_seed2,727
+Chhattisgarh,2018,2018-03-01,730,ridge,pooled_day5,moved_seed2,727
+Chhattisgarh,2018,2018-03-01,730,lgbm_leaf2,day5,moved_seed2,727
+Chhattisgarh,2018,2018-03-01,730,lgbm_leaf2,pooled_day5,moved_seed2,727
+Chhattisgarh,2018,2018-10-01,730,ridge,day5,moved_seed1,730
+Chhattisgarh,2018,2018-10-01,730,ridge,pooled_day5,moved_seed1,730
+Chhattisgarh,2018,2018-10-01,730,lgbm_leaf2,day5,moved_seed1,730
+Chhattisgarh,2018,2018-10-01,730,lgbm_leaf2,pooled_day5,moved_seed1,730
+Chhattisgarh,2018,2018-10-01,730,ridge,day5,moved_seed2,730
+Chhattisgarh,2018,2018-10-01,730,ridge,pooled_day5,moved_seed2,730
+Chhattisgarh,2018,2018-10-01,730,lgbm_leaf2,day5,moved_seed2,730
+Chhattisgarh,2018,2018-10-01,730,lgbm_leaf2,pooled_day5,moved_seed2,730
+Chhattisgarh,2018,2018-11-01,730,ridge,day5,moved_seed1,730
+Chhattisgarh,2018,2018-11-01,730,ridge,pooled_day5,moved_seed1,730
+Chhattisgarh,2018,2018-11-01,730,lgbm_leaf2,day5,moved_seed1,730
+Chhattisgarh,2018,2018-11-01,730,lgbm_leaf2,pooled_day5,moved_seed1,730
+Chhattisgarh,2018,2018-11-01,730,ridge,day5,moved_seed2,730
+Chhattisgarh,2018,2018-11-01,730,ridge,pooled_day5,moved_seed2,730
+Chhattisgarh,2018,2018-11-01,730,lgbm_leaf2,day5,moved_seed2,730
+Chhattisgarh,2018,2018-11-01,730,lgbm_leaf2,pooled_day5,moved_seed2,730
+Chhattisgarh,2019,2019-03-01,730,ridge,day5,moved_seed1,730
+Chhattisgarh,2019,2019-03-01,730,ridge,pooled_day5,moved_seed1,730
+Chhattisgarh,2019,2019-03-01,730,lgbm_leaf2,day5,moved_seed1,730
+Chhattisgarh,2019,2019-03-01,730,lgbm_leaf2,pooled_day5,moved_seed1,730
+Chhattisgarh,2019,2019-03-01,730,ridge,day5,moved_seed2,730
+Chhattisgarh,2019,2019-03-01,730,ridge,pooled_day5,moved_seed2,730
+Chhattisgarh,2019,2019-03-01,730,lgbm_leaf2,day5,moved_seed2,730
+Chhattisgarh,2019,2019-03-01,730,lgbm_leaf2,pooled_day5,moved_seed2,730
+Chhattisgarh,2019,2019-10-01,730,ridge,day5,moved_seed1,729
+Chhattisgarh,2019,2019-10-01,730,ridge,pooled_day5,moved_seed1,729
+Chhattisgarh,2019,2019-10-01,730,lgbm_leaf2,day5,moved_seed1,729
+Chhattisgarh,2019,2019-10-01,730,lgbm_leaf2,pooled_day5,moved_seed1,729
+Chhattisgarh,2019,2019-10-01,730,ridge,day5,moved_seed2,729
+Chhattisgarh,2019,2019-10-01,730,ridge,pooled_day5,moved_seed2,729
+Chhattisgarh,2019,2019-10-01,730,lgbm_leaf2,day5,moved_seed2,729
+Chhattisgarh,2019,2019-10-01,730,lgbm_leaf2,pooled_day5,moved_seed2,729
+Chhattisgarh,2020,2020-03-01,730,ridge,day5,moved_seed1,729
+Chhattisgarh,2020,2020-03-01,730,ridge,pooled_day5,moved_seed1,729
+Chhattisgarh,2020,2020-03-01,730,lgbm_leaf2,day5,moved_seed1,729
+Chhattisgarh,2020,2020-03-01,730,lgbm_leaf2,pooled_day5,moved_seed1,729
+Chhattisgarh,2020,2020-03-01,730,ridge,day5,moved_seed2,729
+Chhattisgarh,2020,2020-03-01,730,ridge,pooled_day5,moved_seed2,729
+Chhattisgarh,2020,2020-03-01,730,lgbm_leaf2,day5,moved_seed2,729
+Chhattisgarh,2020,2020-03-01,730,lgbm_leaf2,pooled_day5,moved_seed2,729
+Chhattisgarh,2020,2020-10-01,730,ridge,day5,moved_seed1,728
+Chhattisgarh,2020,2020-10-01,730,ridge,pooled_day5,moved_seed1,728
+Chhattisgarh,2020,2020-10-01,730,lgbm_leaf2,day5,moved_seed1,728
+Chhattisgarh,2020,2020-10-01,730,lgbm_leaf2,pooled_day5,moved_seed1,728
+Chhattisgarh,2020,2020-10-01,730,ridge,day5,moved_seed2,728
+Chhattisgarh,2020,2020-10-01,730,ridge,pooled_day5,moved_seed2,728
+Chhattisgarh,2020,2020-10-01,730,lgbm_leaf2,day5,moved_seed2,728
+Chhattisgarh,2020,2020-10-01,730,lgbm_leaf2,pooled_day5,moved_seed2,728
+Chhattisgarh,2020,2020-11-01,730,ridge,day5,moved_seed1,728
+Chhattisgarh,2020,2020-11-01,730,ridge,pooled_day5,moved_seed1,728
+Chhattisgarh,2020,2020-11-01,730,lgbm_leaf2,day5,moved_seed1,728
+Chhattisgarh,2020,2020-11-01,730,lgbm_leaf2,pooled_day5,moved_seed1,728
+Chhattisgarh,2020,2020-11-01,730,ridge,day5,moved_seed2,728
+Chhattisgarh,2020,2020-11-01,730,ridge,pooled_day5,moved_seed2,728
+Chhattisgarh,2020,2020-11-01,730,lgbm_leaf2,day5,moved_seed2,728
+Chhattisgarh,2020,2020-11-01,730,lgbm_leaf2,pooled_day5,moved_seed2,728
+Chhattisgarh,2021,2021-03-01,730,ridge,day5,moved_seed1,728
+Chhattisgarh,2021,2021-03-01,730,ridge,pooled_day5,moved_seed1,728
+Chhattisgarh,2021,2021-03-01,730,lgbm_leaf2,day5,moved_seed1,728
+Chhattisgarh,2021,2021-03-01,730,lgbm_leaf2,pooled_day5,moved_seed1,728
+Chhattisgarh,2021,2021-03-01,730,ridge,day5,moved_seed2,728
+Chhattisgarh,2021,2021-03-01,730,ridge,pooled_day5,moved_seed2,728
+Chhattisgarh,2021,2021-03-01,730,lgbm_leaf2,day5,moved_seed2,728
+Chhattisgarh,2021,2021-03-01,730,lgbm_leaf2,pooled_day5,moved_seed2,728
+Chhattisgarh,2021,2021-04-01,730,ridge,day5,moved_seed1,728
+Chhattisgarh,2021,2021-04-01,730,ridge,pooled_day5,moved_seed1,728
+Chhattisgarh,2021,2021-04-01,730,lgbm_leaf2,day5,moved_seed1,728
+Chhattisgarh,2021,2021-04-01,730,lgbm_leaf2,pooled_day5,moved_seed1,728
+Chhattisgarh,2021,2021-04-01,730,ridge,day5,moved_seed2,728
+Chhattisgarh,2021,2021-04-01,730,ridge,pooled_day5,moved_seed2,728
+Chhattisgarh,2021,2021-04-01,730,lgbm_leaf2,day5,moved_seed2,728
+Chhattisgarh,2021,2021-04-01,730,lgbm_leaf2,pooled_day5,moved_seed2,728
+Chhattisgarh,2021,2021-10-01,730,ridge,day5,moved_seed1,729
+Chhattisgarh,2021,2021-10-01,730,ridge,pooled_day5,moved_seed1,729
+Chhattisgarh,2021,2021-10-01,730,lgbm_leaf2,day5,moved_seed1,729
+Chhattisgarh,2021,2021-10-01,730,lgbm_leaf2,pooled_day5,moved_seed1,729
+Chhattisgarh,2021,2021-10-01,730,ridge,day5,moved_seed2,729
+Chhattisgarh,2021,2021-10-01,730,ridge,pooled_day5,moved_seed2,729
+Chhattisgarh,2021,2021-10-01,730,lgbm_leaf2,day5,moved_seed2,729
+Chhattisgarh,2021,2021-10-01,730,lgbm_leaf2,pooled_day5,moved_seed2,729
+Chhattisgarh,2021,2021-11-01,730,ridge,day5,moved_seed1,729
+Chhattisgarh,2021,2021-11-01,730,ridge,pooled_day5,moved_seed1,729
+Chhattisgarh,2021,2021-11-01,730,lgbm_leaf2,day5,moved_seed1,729
+Chhattisgarh,2021,2021-11-01,730,lgbm_leaf2,pooled_day5,moved_seed1,729
+Chhattisgarh,2021,2021-11-01,730,ridge,day5,moved_seed2,729
+Chhattisgarh,2021,2021-11-01,730,ridge,pooled_day5,moved_seed2,729
+Chhattisgarh,2021,2021-11-01,730,lgbm_leaf2,day5,moved_seed2,729
+Chhattisgarh,2021,2021-11-01,730,lgbm_leaf2,pooled_day5,moved_seed2,729
+Chhattisgarh,2022,2022-03-01,730,ridge,day5,moved_seed1,729
+Chhattisgarh,2022,2022-03-01,730,ridge,pooled_day5,moved_seed1,729
+Chhattisgarh,2022,2022-03-01,730,lgbm_leaf2,day5,moved_seed1,729
+Chhattisgarh,2022,2022-03-01,730,lgbm_leaf2,pooled_day5,moved_seed1,729
+Chhattisgarh,2022,2022-03-01,730,ridge,day5,moved_seed2,729
+Chhattisgarh,2022,2022-03-01,730,ridge,pooled_day5,moved_seed2,729
+Chhattisgarh,2022,2022-03-01,730,lgbm_leaf2,day5,moved_seed2,729
+Chhattisgarh,2022,2022-03-01,730,lgbm_leaf2,pooled_day5,moved_seed2,729
+Chhattisgarh,2022,2022-10-01,730,ridge,day5,moved_seed1,730
+Chhattisgarh,2022,2022-10-01,730,ridge,pooled_day5,moved_seed1,730
+Chhattisgarh,2022,2022-10-01,730,lgbm_leaf2,day5,moved_seed1,730
+Chhattisgarh,2022,2022-10-01,730,lgbm_leaf2,pooled_day5,moved_seed1,730
+Chhattisgarh,2022,2022-10-01,730,ridge,day5,moved_seed2,730
+Chhattisgarh,2022,2022-10-01,730,ridge,pooled_day5,moved_seed2,730
+Chhattisgarh,2022,2022-10-01,730,lgbm_leaf2,day5,moved_seed2,730
+Chhattisgarh,2022,2022-10-01,730,lgbm_leaf2,pooled_day5,moved_seed2,730
+Chhattisgarh,2023,2023-03-01,730,ridge,day5,moved_seed1,730
+Chhattisgarh,2023,2023-03-01,730,ridge,pooled_day5,moved_seed1,730
+Chhattisgarh,2023,2023-03-01,730,lgbm_leaf2,day5,moved_seed1,730
+Chhattisgarh,2023,2023-03-01,730,lgbm_leaf2,pooled_day5,moved_seed1,730
+Chhattisgarh,2023,2023-03-01,730,ridge,day5,moved_seed2,730
+Chhattisgarh,2023,2023-03-01,730,ridge,pooled_day5,moved_seed2,730
+Chhattisgarh,2023,2023-03-01,730,lgbm_leaf2,day5,moved_seed2,730
+Chhattisgarh,2023,2023-03-01,730,lgbm_leaf2,pooled_day5,moved_seed2,730
+Chhattisgarh,2023,2023-10-01,730,ridge,day5,moved_seed1,730
+Chhattisgarh,2023,2023-10-01,730,ridge,pooled_day5,moved_seed1,730
+Chhattisgarh,2023,2023-10-01,730,lgbm_leaf2,day5,moved_seed1,730
+Chhattisgarh,2023,2023-10-01,730,lgbm_leaf2,pooled_day5,moved_seed1,730
+Chhattisgarh,2023,2023-10-01,730,ridge,day5,moved_seed2,730
+Chhattisgarh,2023,2023-10-01,730,ridge,pooled_day5,moved_seed2,730
+Chhattisgarh,2023,2023-10-01,730,lgbm_leaf2,day5,moved_seed2,730
+Chhattisgarh,2023,2023-10-01,730,lgbm_leaf2,pooled_day5,moved_seed2,730
+Chhattisgarh,2023,2023-11-01,730,ridge,day5,moved_seed1,730
+Chhattisgarh,2023,2023-11-01,730,ridge,pooled_day5,moved_seed1,730
+Chhattisgarh,2023,2023-11-01,730,lgbm_leaf2,day5,moved_seed1,730
+Chhattisgarh,2023,2023-11-01,730,lgbm_leaf2,pooled_day5,moved_seed1,730
+Chhattisgarh,2023,2023-11-01,730,ridge,day5,moved_seed2,730
+Chhattisgarh,2023,2023-11-01,730,ridge,pooled_day5,moved_seed2,730
+Chhattisgarh,2023,2023-11-01,730,lgbm_leaf2,day5,moved_seed2,730
+Chhattisgarh,2023,2023-11-01,730,lgbm_leaf2,pooled_day5,moved_seed2,730
+Chhattisgarh,2024,2024-03-01,730,ridge,day5,moved_seed1,730
+Chhattisgarh,2024,2024-03-01,730,ridge,pooled_day5,moved_seed1,730
+Chhattisgarh,2024,2024-03-01,730,lgbm_leaf2,day5,moved_seed1,730
+Chhattisgarh,2024,2024-03-01,730,lgbm_leaf2,pooled_day5,moved_seed1,730
+Chhattisgarh,2024,2024-03-01,730,ridge,day5,moved_seed2,730
+Chhattisgarh,2024,2024-03-01,730,ridge,pooled_day5,moved_seed2,730
+Chhattisgarh,2024,2024-03-01,730,lgbm_leaf2,day5,moved_seed2,730
+Chhattisgarh,2024,2024-03-01,730,lgbm_leaf2,pooled_day5,moved_seed2,730
+Chhattisgarh,2024,2024-10-01,730,ridge,day5,moved_seed1,730
+Chhattisgarh,2024,2024-10-01,730,ridge,pooled_day5,moved_seed1,730
+Chhattisgarh,2024,2024-10-01,730,lgbm_leaf2,day5,moved_seed1,730
+Chhattisgarh,2024,2024-10-01,730,lgbm_leaf2,pooled_day5,moved_seed1,730
+Chhattisgarh,2024,2024-10-01,730,ridge,day5,moved_seed2,730
+Chhattisgarh,2024,2024-10-01,730,ridge,pooled_day5,moved_seed2,730
+Chhattisgarh,2024,2024-10-01,730,lgbm_leaf2,day5,moved_seed2,730
+Chhattisgarh,2024,2024-10-01,730,lgbm_leaf2,pooled_day5,moved_seed2,730
+Chhattisgarh,2024,2024-11-01,730,ridge,day5,moved_seed1,730
+Chhattisgarh,2024,2024-11-01,730,ridge,pooled_day5,moved_seed1,730
+Chhattisgarh,2024,2024-11-01,730,lgbm_leaf2,day5,moved_seed1,730
+Chhattisgarh,2024,2024-11-01,730,lgbm_leaf2,pooled_day5,moved_seed1,730
+Chhattisgarh,2024,2024-11-01,730,ridge,day5,moved_seed2,730
+Chhattisgarh,2024,2024-11-01,730,ridge,pooled_day5,moved_seed2,730
+Chhattisgarh,2024,2024-11-01,730,lgbm_leaf2,day5,moved_seed2,730
+Chhattisgarh,2024,2024-11-01,730,lgbm_leaf2,pooled_day5,moved_seed2,730
+Chhattisgarh,2025,2025-03-01,730,ridge,day5,moved_seed1,730
+Chhattisgarh,2025,2025-03-01,730,ridge,pooled_day5,moved_seed1,730
+Chhattisgarh,2025,2025-03-01,730,lgbm_leaf2,day5,moved_seed1,730
+Chhattisgarh,2025,2025-03-01,730,lgbm_leaf2,pooled_day5,moved_seed1,730
+Chhattisgarh,2025,2025-03-01,730,ridge,day5,moved_seed2,730
+Chhattisgarh,2025,2025-03-01,730,ridge,pooled_day5,moved_seed2,730
+Chhattisgarh,2025,2025-03-01,730,lgbm_leaf2,day5,moved_seed2,730
+Chhattisgarh,2025,2025-03-01,730,lgbm_leaf2,pooled_day5,moved_seed2,730
+Chhattisgarh,2025,2025-09-01,730,ridge,day5,moved_seed1,730
+Chhattisgarh,2025,2025-09-01,730,ridge,pooled_day5,moved_seed1,730
+Chhattisgarh,2025,2025-09-01,730,lgbm_leaf2,day5,moved_seed1,730
+Chhattisgarh,2025,2025-09-01,730,lgbm_leaf2,pooled_day5,moved_seed1,730
+Chhattisgarh,2025,2025-09-01,730,ridge,day5,moved_seed2,730
+Chhattisgarh,2025,2025-09-01,730,ridge,pooled_day5,moved_seed2,730
+Chhattisgarh,2025,2025-09-01,730,lgbm_leaf2,day5,moved_seed2,730
+Chhattisgarh,2025,2025-09-01,730,lgbm_leaf2,pooled_day5,moved_seed2,730
+Chhattisgarh,2025,2025-10-01,730,ridge,day5,moved_seed1,730
+Chhattisgarh,2025,2025-10-01,730,ridge,pooled_day5,moved_seed1,730
+Chhattisgarh,2025,2025-10-01,730,lgbm_leaf2,day5,moved_seed1,730
+Chhattisgarh,2025,2025-10-01,730,lgbm_leaf2,pooled_day5,moved_seed1,730
+Chhattisgarh,2025,2025-10-01,730,ridge,day5,moved_seed2,730
+Chhattisgarh,2025,2025-10-01,730,ridge,pooled_day5,moved_seed2,730
+Chhattisgarh,2025,2025-10-01,730,lgbm_leaf2,day5,moved_seed2,730
+Chhattisgarh,2025,2025-10-01,730,lgbm_leaf2,pooled_day5,moved_seed2,730
+Haryana,2017,2017-03-01,730,ridge,day5,moved_seed1,719
+Haryana,2017,2017-03-01,730,ridge,pooled_day5,moved_seed1,719
+Haryana,2017,2017-03-01,730,lgbm_leaf2,day5,moved_seed1,719
+Haryana,2017,2017-03-01,730,lgbm_leaf2,pooled_day5,moved_seed1,719
+Haryana,2017,2017-03-01,730,ridge,day5,moved_seed2,719
+Haryana,2017,2017-03-01,730,ridge,pooled_day5,moved_seed2,719
+Haryana,2017,2017-03-01,730,lgbm_leaf2,day5,moved_seed2,719
+Haryana,2017,2017-03-01,730,lgbm_leaf2,pooled_day5,moved_seed2,719
+Haryana,2017,2017-09-01,730,ridge,day5,moved_seed1,725
+Haryana,2017,2017-09-01,730,ridge,pooled_day5,moved_seed1,725
+Haryana,2017,2017-09-01,730,lgbm_leaf2,day5,moved_seed1,725
+Haryana,2017,2017-09-01,730,lgbm_leaf2,pooled_day5,moved_seed1,725
+Haryana,2017,2017-09-01,730,ridge,day5,moved_seed2,725
+Haryana,2017,2017-09-01,730,ridge,pooled_day5,moved_seed2,725
+Haryana,2017,2017-09-01,730,lgbm_leaf2,day5,moved_seed2,725
+Haryana,2017,2017-09-01,730,lgbm_leaf2,pooled_day5,moved_seed2,725
+Haryana,2017,2017-10-01,730,ridge,day5,moved_seed1,727
+Haryana,2017,2017-10-01,730,ridge,pooled_day5,moved_seed1,727
+Haryana,2017,2017-10-01,730,lgbm_leaf2,day5,moved_seed1,727
+Haryana,2017,2017-10-01,730,lgbm_leaf2,pooled_day5,moved_seed1,727
+Haryana,2017,2017-10-01,730,ridge,day5,moved_seed2,727
+Haryana,2017,2017-10-01,730,ridge,pooled_day5,moved_seed2,727
+Haryana,2017,2017-10-01,730,lgbm_leaf2,day5,moved_seed2,727
+Haryana,2017,2017-10-01,730,lgbm_leaf2,pooled_day5,moved_seed2,727
+Haryana,2018,2018-02-01,730,ridge,day5,moved_seed1,727
+Haryana,2018,2018-02-01,730,ridge,pooled_day5,moved_seed1,727
+Haryana,2018,2018-02-01,730,lgbm_leaf2,day5,moved_seed1,727
+Haryana,2018,2018-02-01,730,lgbm_leaf2,pooled_day5,moved_seed1,727
+Haryana,2018,2018-02-01,730,ridge,day5,moved_seed2,727
+Haryana,2018,2018-02-01,730,ridge,pooled_day5,moved_seed2,727
+Haryana,2018,2018-02-01,730,lgbm_leaf2,day5,moved_seed2,727
+Haryana,2018,2018-02-01,730,lgbm_leaf2,pooled_day5,moved_seed2,727
+Haryana,2018,2018-03-01,730,ridge,day5,moved_seed1,727
+Haryana,2018,2018-03-01,730,ridge,pooled_day5,moved_seed1,727
+Haryana,2018,2018-03-01,730,lgbm_leaf2,day5,moved_seed1,727
+Haryana,2018,2018-03-01,730,lgbm_leaf2,pooled_day5,moved_seed1,727
+Haryana,2018,2018-03-01,730,ridge,day5,moved_seed2,727
+Haryana,2018,2018-03-01,730,ridge,pooled_day5,moved_seed2,727
+Haryana,2018,2018-03-01,730,lgbm_leaf2,day5,moved_seed2,727
+Haryana,2018,2018-03-01,730,lgbm_leaf2,pooled_day5,moved_seed2,727
+Haryana,2018,2018-10-01,730,ridge,day5,moved_seed1,730
+Haryana,2018,2018-10-01,730,ridge,pooled_day5,moved_seed1,730
+Haryana,2018,2018-10-01,730,lgbm_leaf2,day5,moved_seed1,730
+Haryana,2018,2018-10-01,730,lgbm_leaf2,pooled_day5,moved_seed1,730
+Haryana,2018,2018-10-01,730,ridge,day5,moved_seed2,730
+Haryana,2018,2018-10-01,730,ridge,pooled_day5,moved_seed2,730
+Haryana,2018,2018-10-01,730,lgbm_leaf2,day5,moved_seed2,730
+Haryana,2018,2018-10-01,730,lgbm_leaf2,pooled_day5,moved_seed2,730
+Haryana,2018,2018-11-01,730,ridge,day5,moved_seed1,730
+Haryana,2018,2018-11-01,730,ridge,pooled_day5,moved_seed1,730
+Haryana,2018,2018-11-01,730,lgbm_leaf2,day5,moved_seed1,730
+Haryana,2018,2018-11-01,730,lgbm_leaf2,pooled_day5,moved_seed1,730
+Haryana,2018,2018-11-01,730,ridge,day5,moved_seed2,730
+Haryana,2018,2018-11-01,730,ridge,pooled_day5,moved_seed2,730
+Haryana,2018,2018-11-01,730,lgbm_leaf2,day5,moved_seed2,730
+Haryana,2018,2018-11-01,730,lgbm_leaf2,pooled_day5,moved_seed2,730
+Haryana,2019,2019-03-01,730,ridge,day5,moved_seed1,730
+Haryana,2019,2019-03-01,730,ridge,pooled_day5,moved_seed1,730
+Haryana,2019,2019-03-01,730,lgbm_leaf2,day5,moved_seed1,730
+Haryana,2019,2019-03-01,730,lgbm_leaf2,pooled_day5,moved_seed1,730
+Haryana,2019,2019-03-01,730,ridge,day5,moved_seed2,730
+Haryana,2019,2019-03-01,730,ridge,pooled_day5,moved_seed2,730
+Haryana,2019,2019-03-01,730,lgbm_leaf2,day5,moved_seed2,730
+Haryana,2019,2019-03-01,730,lgbm_leaf2,pooled_day5,moved_seed2,730
+Haryana,2019,2019-10-01,730,ridge,day5,moved_seed1,729
+Haryana,2019,2019-10-01,730,ridge,pooled_day5,moved_seed1,729
+Haryana,2019,2019-10-01,730,lgbm_leaf2,day5,moved_seed1,729
+Haryana,2019,2019-10-01,730,lgbm_leaf2,pooled_day5,moved_seed1,729
+Haryana,2019,2019-10-01,730,ridge,day5,moved_seed2,729
+Haryana,2019,2019-10-01,730,ridge,pooled_day5,moved_seed2,729
+Haryana,2019,2019-10-01,730,lgbm_leaf2,day5,moved_seed2,729
+Haryana,2019,2019-10-01,730,lgbm_leaf2,pooled_day5,moved_seed2,729
+Haryana,2020,2020-03-01,730,ridge,day5,moved_seed1,729
+Haryana,2020,2020-03-01,730,ridge,pooled_day5,moved_seed1,729
+Haryana,2020,2020-03-01,730,lgbm_leaf2,day5,moved_seed1,729
+Haryana,2020,2020-03-01,730,lgbm_leaf2,pooled_day5,moved_seed1,729
+Haryana,2020,2020-03-01,730,ridge,day5,moved_seed2,729
+Haryana,2020,2020-03-01,730,ridge,pooled_day5,moved_seed2,729
+Haryana,2020,2020-03-01,730,lgbm_leaf2,day5,moved_seed2,729
+Haryana,2020,2020-03-01,730,lgbm_leaf2,pooled_day5,moved_seed2,729
+Haryana,2020,2020-10-01,730,ridge,day5,moved_seed1,728
+Haryana,2020,2020-10-01,730,ridge,pooled_day5,moved_seed1,728
+Haryana,2020,2020-10-01,730,lgbm_leaf2,day5,moved_seed1,728
+Haryana,2020,2020-10-01,730,lgbm_leaf2,pooled_day5,moved_seed1,728
+Haryana,2020,2020-10-01,730,ridge,day5,moved_seed2,728
+Haryana,2020,2020-10-01,730,ridge,pooled_day5,moved_seed2,728
+Haryana,2020,2020-10-01,730,lgbm_leaf2,day5,moved_seed2,728
+Haryana,2020,2020-10-01,730,lgbm_leaf2,pooled_day5,moved_seed2,728
+Haryana,2020,2020-11-01,730,ridge,day5,moved_seed1,728
+Haryana,2020,2020-11-01,730,ridge,pooled_day5,moved_seed1,728
+Haryana,2020,2020-11-01,730,lgbm_leaf2,day5,moved_seed1,728
+Haryana,2020,2020-11-01,730,lgbm_leaf2,pooled_day5,moved_seed1,728
+Haryana,2020,2020-11-01,730,ridge,day5,moved_seed2,728
+Haryana,2020,2020-11-01,730,ridge,pooled_day5,moved_seed2,728
+Haryana,2020,2020-11-01,730,lgbm_leaf2,day5,moved_seed2,728
+Haryana,2020,2020-11-01,730,lgbm_leaf2,pooled_day5,moved_seed2,728
+Haryana,2021,2021-03-01,730,ridge,day5,moved_seed1,728
+Haryana,2021,2021-03-01,730,ridge,pooled_day5,moved_seed1,728
+Haryana,2021,2021-03-01,730,lgbm_leaf2,day5,moved_seed1,728
+Haryana,2021,2021-03-01,730,lgbm_leaf2,pooled_day5,moved_seed1,728
+Haryana,2021,2021-03-01,730,ridge,day5,moved_seed2,728
+Haryana,2021,2021-03-01,730,ridge,pooled_day5,moved_seed2,728
+Haryana,2021,2021-03-01,730,lgbm_leaf2,day5,moved_seed2,728
+Haryana,2021,2021-03-01,730,lgbm_leaf2,pooled_day5,moved_seed2,728
+Haryana,2021,2021-04-01,730,ridge,day5,moved_seed1,728
+Haryana,2021,2021-04-01,730,ridge,pooled_day5,moved_seed1,728
+Haryana,2021,2021-04-01,730,lgbm_leaf2,day5,moved_seed1,728
+Haryana,2021,2021-04-01,730,lgbm_leaf2,pooled_day5,moved_seed1,728
+Haryana,2021,2021-04-01,730,ridge,day5,moved_seed2,728
+Haryana,2021,2021-04-01,730,ridge,pooled_day5,moved_seed2,728
+Haryana,2021,2021-04-01,730,lgbm_leaf2,day5,moved_seed2,728
+Haryana,2021,2021-04-01,730,lgbm_leaf2,pooled_day5,moved_seed2,728
+Haryana,2021,2021-10-01,730,ridge,day5,moved_seed1,729
+Haryana,2021,2021-10-01,730,ridge,pooled_day5,moved_seed1,729
+Haryana,2021,2021-10-01,730,lgbm_leaf2,day5,moved_seed1,729
+Haryana,2021,2021-10-01,730,lgbm_leaf2,pooled_day5,moved_seed1,729
+Haryana,2021,2021-10-01,730,ridge,day5,moved_seed2,729
+Haryana,2021,2021-10-01,730,ridge,pooled_day5,moved_seed2,729
+Haryana,2021,2021-10-01,730,lgbm_leaf2,day5,moved_seed2,729
+Haryana,2021,2021-10-01,730,lgbm_leaf2,pooled_day5,moved_seed2,729
+Haryana,2021,2021-11-01,730,ridge,day5,moved_seed1,729
+Haryana,2021,2021-11-01,730,ridge,pooled_day5,moved_seed1,729
+Haryana,2021,2021-11-01,730,lgbm_leaf2,day5,moved_seed1,729
+Haryana,2021,2021-11-01,730,lgbm_leaf2,pooled_day5,moved_seed1,729
+Haryana,2021,2021-11-01,730,ridge,day5,moved_seed2,729
+Haryana,2021,2021-11-01,730,ridge,pooled_day5,moved_seed2,729
+Haryana,2021,2021-11-01,730,lgbm_leaf2,day5,moved_seed2,729
+Haryana,2021,2021-11-01,730,lgbm_leaf2,pooled_day5,moved_seed2,729
+Haryana,2022,2022-03-01,730,ridge,day5,moved_seed1,729
+Haryana,2022,2022-03-01,730,ridge,pooled_day5,moved_seed1,729
+Haryana,2022,2022-03-01,730,lgbm_leaf2,day5,moved_seed1,729
+Haryana,2022,2022-03-01,730,lgbm_leaf2,pooled_day5,moved_seed1,729
+Haryana,2022,2022-03-01,730,ridge,day5,moved_seed2,729
+Haryana,2022,2022-03-01,730,ridge,pooled_day5,moved_seed2,729
+Haryana,2022,2022-03-01,730,lgbm_leaf2,day5,moved_seed2,729
+Haryana,2022,2022-03-01,730,lgbm_leaf2,pooled_day5,moved_seed2,729
+Haryana,2022,2022-10-01,730,ridge,day5,moved_seed1,730
+Haryana,2022,2022-10-01,730,ridge,pooled_day5,moved_seed1,730
+Haryana,2022,2022-10-01,730,lgbm_leaf2,day5,moved_seed1,730
+Haryana,2022,2022-10-01,730,lgbm_leaf2,pooled_day5,moved_seed1,730
+Haryana,2022,2022-10-01,730,ridge,day5,moved_seed2,730
+Haryana,2022,2022-10-01,730,ridge,pooled_day5,moved_seed2,730
+Haryana,2022,2022-10-01,730,lgbm_leaf2,day5,moved_seed2,730
+Haryana,2022,2022-10-01,730,lgbm_leaf2,pooled_day5,moved_seed2,730
+Haryana,2023,2023-03-01,730,ridge,day5,moved_seed1,730
+Haryana,2023,2023-03-01,730,ridge,pooled_day5,moved_seed1,730
+Haryana,2023,2023-03-01,730,lgbm_leaf2,day5,moved_seed1,730
+Haryana,2023,2023-03-01,730,lgbm_leaf2,pooled_day5,moved_seed1,730
+Haryana,2023,2023-03-01,730,ridge,day5,moved_seed2,730
+Haryana,2023,2023-03-01,730,ridge,pooled_day5,moved_seed2,730
+Haryana,2023,2023-03-01,730,lgbm_leaf2,day5,moved_seed2,730
+Haryana,2023,2023-03-01,730,lgbm_leaf2,pooled_day5,moved_seed2,730
+Haryana,2023,2023-10-01,730,ridge,day5,moved_seed1,730
+Haryana,2023,2023-10-01,730,ridge,pooled_day5,moved_seed1,730
+Haryana,2023,2023-10-01,730,lgbm_leaf2,day5,moved_seed1,730
+Haryana,2023,2023-10-01,730,lgbm_leaf2,pooled_day5,moved_seed1,730
+Haryana,2023,2023-10-01,730,ridge,day5,moved_seed2,730
+Haryana,2023,2023-10-01,730,ridge,pooled_day5,moved_seed2,730
+Haryana,2023,2023-10-01,730,lgbm_leaf2,day5,moved_seed2,730
+Haryana,2023,2023-10-01,730,lgbm_leaf2,pooled_day5,moved_seed2,730
+Haryana,2023,2023-11-01,730,ridge,day5,moved_seed1,730
+Haryana,2023,2023-11-01,730,ridge,pooled_day5,moved_seed1,730
+Haryana,2023,2023-11-01,730,lgbm_leaf2,day5,moved_seed1,730
+Haryana,2023,2023-11-01,730,lgbm_leaf2,pooled_day5,moved_seed1,730
+Haryana,2023,2023-11-01,730,ridge,day5,moved_seed2,730
+Haryana,2023,2023-11-01,730,ridge,pooled_day5,moved_seed2,730
+Haryana,2023,2023-11-01,730,lgbm_leaf2,day5,moved_seed2,730
+Haryana,2023,2023-11-01,730,lgbm_leaf2,pooled_day5,moved_seed2,730
+Haryana,2024,2024-03-01,730,ridge,day5,moved_seed1,730
+Haryana,2024,2024-03-01,730,ridge,pooled_day5,moved_seed1,730
+Haryana,2024,2024-03-01,730,lgbm_leaf2,day5,moved_seed1,730
+Haryana,2024,2024-03-01,730,lgbm_leaf2,pooled_day5,moved_seed1,730
+Haryana,2024,2024-03-01,730,ridge,day5,moved_seed2,730
+Haryana,2024,2024-03-01,730,ridge,pooled_day5,moved_seed2,730
+Haryana,2024,2024-03-01,730,lgbm_leaf2,day5,moved_seed2,730
+Haryana,2024,2024-03-01,730,lgbm_leaf2,pooled_day5,moved_seed2,730
+Haryana,2024,2024-10-01,730,ridge,day5,moved_seed1,730
+Haryana,2024,2024-10-01,730,ridge,pooled_day5,moved_seed1,730
+Haryana,2024,2024-10-01,730,lgbm_leaf2,day5,moved_seed1,730
+Haryana,2024,2024-10-01,730,lgbm_leaf2,pooled_day5,moved_seed1,730
+Haryana,2024,2024-10-01,730,ridge,day5,moved_seed2,730
+Haryana,2024,2024-10-01,730,ridge,pooled_day5,moved_seed2,730
+Haryana,2024,2024-10-01,730,lgbm_leaf2,day5,moved_seed2,730
+Haryana,2024,2024-10-01,730,lgbm_leaf2,pooled_day5,moved_seed2,730
+Haryana,2024,2024-11-01,730,ridge,day5,moved_seed1,730
+Haryana,2024,2024-11-01,730,ridge,pooled_day5,moved_seed1,730
+Haryana,2024,2024-11-01,730,lgbm_leaf2,day5,moved_seed1,730
+Haryana,2024,2024-11-01,730,lgbm_leaf2,pooled_day5,moved_seed1,730
+Haryana,2024,2024-11-01,730,ridge,day5,moved_seed2,730
+Haryana,2024,2024-11-01,730,ridge,pooled_day5,moved_seed2,730
+Haryana,2024,2024-11-01,730,lgbm_leaf2,day5,moved_seed2,730
+Haryana,2024,2024-11-01,730,lgbm_leaf2,pooled_day5,moved_seed2,730
+Haryana,2025,2025-03-01,730,ridge,day5,moved_seed1,730
+Haryana,2025,2025-03-01,730,ridge,pooled_day5,moved_seed1,730
+Haryana,2025,2025-03-01,730,lgbm_leaf2,day5,moved_seed1,730
+Haryana,2025,2025-03-01,730,lgbm_leaf2,pooled_day5,moved_seed1,730
+Haryana,2025,2025-03-01,730,ridge,day5,moved_seed2,730
+Haryana,2025,2025-03-01,730,ridge,pooled_day5,moved_seed2,730
+Haryana,2025,2025-03-01,730,lgbm_leaf2,day5,moved_seed2,730
+Haryana,2025,2025-03-01,730,lgbm_leaf2,pooled_day5,moved_seed2,730
+Haryana,2025,2025-09-01,730,ridge,day5,moved_seed1,730
+Haryana,2025,2025-09-01,730,ridge,pooled_day5,moved_seed1,730
+Haryana,2025,2025-09-01,730,lgbm_leaf2,day5,moved_seed1,730
+Haryana,2025,2025-09-01,730,lgbm_leaf2,pooled_day5,moved_seed1,730
+Haryana,2025,2025-09-01,730,ridge,day5,moved_seed2,730
+Haryana,2025,2025-09-01,730,ridge,pooled_day5,moved_seed2,730
+Haryana,2025,2025-09-01,730,lgbm_leaf2,day5,moved_seed2,730
+Haryana,2025,2025-09-01,730,lgbm_leaf2,pooled_day5,moved_seed2,730
+Haryana,2025,2025-10-01,730,ridge,day5,moved_seed1,730
+Haryana,2025,2025-10-01,730,ridge,pooled_day5,moved_seed1,730
+Haryana,2025,2025-10-01,730,lgbm_leaf2,day5,moved_seed1,730
+Haryana,2025,2025-10-01,730,lgbm_leaf2,pooled_day5,moved_seed1,730
+Haryana,2025,2025-10-01,730,ridge,day5,moved_seed2,730
+Haryana,2025,2025-10-01,730,ridge,pooled_day5,moved_seed2,730
+Haryana,2025,2025-10-01,730,lgbm_leaf2,day5,moved_seed2,730
+Haryana,2025,2025-10-01,730,lgbm_leaf2,pooled_day5,moved_seed2,730
+Kerala,2017,2017-09-01,730,ridge,day5,moved_seed1,725
+Kerala,2017,2017-09-01,730,ridge,pooled_day5,moved_seed1,725
+Kerala,2017,2017-09-01,730,lgbm_leaf2,day5,moved_seed1,725
+Kerala,2017,2017-09-01,730,lgbm_leaf2,pooled_day5,moved_seed1,725
+Kerala,2017,2017-09-01,730,ridge,day5,moved_seed2,725
+Kerala,2017,2017-09-01,730,ridge,pooled_day5,moved_seed2,725
+Kerala,2017,2017-09-01,730,lgbm_leaf2,day5,moved_seed2,725
+Kerala,2017,2017-09-01,730,lgbm_leaf2,pooled_day5,moved_seed2,725
+Kerala,2017,2017-10-01,730,ridge,day5,moved_seed1,727
+Kerala,2017,2017-10-01,730,ridge,pooled_day5,moved_seed1,727
+Kerala,2017,2017-10-01,730,lgbm_leaf2,day5,moved_seed1,727
+Kerala,2017,2017-10-01,730,lgbm_leaf2,pooled_day5,moved_seed1,727
+Kerala,2017,2017-10-01,730,ridge,day5,moved_seed2,727
+Kerala,2017,2017-10-01,730,ridge,pooled_day5,moved_seed2,727
+Kerala,2017,2017-10-01,730,lgbm_leaf2,day5,moved_seed2,727
+Kerala,2017,2017-10-01,730,lgbm_leaf2,pooled_day5,moved_seed2,727
+Kerala,2018,2018-10-01,730,ridge,day5,moved_seed1,730
+Kerala,2018,2018-10-01,730,ridge,pooled_day5,moved_seed1,730
+Kerala,2018,2018-10-01,730,lgbm_leaf2,day5,moved_seed1,730
+Kerala,2018,2018-10-01,730,lgbm_leaf2,pooled_day5,moved_seed1,730
+Kerala,2018,2018-10-01,730,ridge,day5,moved_seed2,730
+Kerala,2018,2018-10-01,730,ridge,pooled_day5,moved_seed2,730
+Kerala,2018,2018-10-01,730,lgbm_leaf2,day5,moved_seed2,730
+Kerala,2018,2018-10-01,730,lgbm_leaf2,pooled_day5,moved_seed2,730
+Kerala,2018,2018-11-01,730,ridge,day5,moved_seed1,730
+Kerala,2018,2018-11-01,730,ridge,pooled_day5,moved_seed1,730
+Kerala,2018,2018-11-01,730,lgbm_leaf2,day5,moved_seed1,730
+Kerala,2018,2018-11-01,730,lgbm_leaf2,pooled_day5,moved_seed1,730
+Kerala,2018,2018-11-01,730,ridge,day5,moved_seed2,730
+Kerala,2018,2018-11-01,730,ridge,pooled_day5,moved_seed2,730
+Kerala,2018,2018-11-01,730,lgbm_leaf2,day5,moved_seed2,730
+Kerala,2018,2018-11-01,730,lgbm_leaf2,pooled_day5,moved_seed2,730
+Kerala,2019,2019-10-01,730,ridge,day5,moved_seed1,729
+Kerala,2019,2019-10-01,730,ridge,pooled_day5,moved_seed1,729
+Kerala,2019,2019-10-01,730,lgbm_leaf2,day5,moved_seed1,729
+Kerala,2019,2019-10-01,730,lgbm_leaf2,pooled_day5,moved_seed1,729
+Kerala,2019,2019-10-01,730,ridge,day5,moved_seed2,729
+Kerala,2019,2019-10-01,730,ridge,pooled_day5,moved_seed2,729
+Kerala,2019,2019-10-01,730,lgbm_leaf2,day5,moved_seed2,729
+Kerala,2019,2019-10-01,730,lgbm_leaf2,pooled_day5,moved_seed2,729
+Kerala,2020,2020-10-01,730,ridge,day5,moved_seed1,728
+Kerala,2020,2020-10-01,730,ridge,pooled_day5,moved_seed1,728
+Kerala,2020,2020-10-01,730,lgbm_leaf2,day5,moved_seed1,728
+Kerala,2020,2020-10-01,730,lgbm_leaf2,pooled_day5,moved_seed1,728
+Kerala,2020,2020-10-01,730,ridge,day5,moved_seed2,728
+Kerala,2020,2020-10-01,730,ridge,pooled_day5,moved_seed2,728
+Kerala,2020,2020-10-01,730,lgbm_leaf2,day5,moved_seed2,728
+Kerala,2020,2020-10-01,730,lgbm_leaf2,pooled_day5,moved_seed2,728
+Kerala,2020,2020-11-01,730,ridge,day5,moved_seed1,728
+Kerala,2020,2020-11-01,730,ridge,pooled_day5,moved_seed1,728
+Kerala,2020,2020-11-01,730,lgbm_leaf2,day5,moved_seed1,728
+Kerala,2020,2020-11-01,730,lgbm_leaf2,pooled_day5,moved_seed1,728
+Kerala,2020,2020-11-01,730,ridge,day5,moved_seed2,728
+Kerala,2020,2020-11-01,730,ridge,pooled_day5,moved_seed2,728
+Kerala,2020,2020-11-01,730,lgbm_leaf2,day5,moved_seed2,728
+Kerala,2020,2020-11-01,730,lgbm_leaf2,pooled_day5,moved_seed2,728
+Kerala,2021,2021-10-01,730,ridge,day5,moved_seed1,729
+Kerala,2021,2021-10-01,730,ridge,pooled_day5,moved_seed1,729
+Kerala,2021,2021-10-01,730,lgbm_leaf2,day5,moved_seed1,729
+Kerala,2021,2021-10-01,730,lgbm_leaf2,pooled_day5,moved_seed1,729
+Kerala,2021,2021-10-01,730,ridge,day5,moved_seed2,729
+Kerala,2021,2021-10-01,730,ridge,pooled_day5,moved_seed2,729
+Kerala,2021,2021-10-01,730,lgbm_leaf2,day5,moved_seed2,729
+Kerala,2021,2021-10-01,730,lgbm_leaf2,pooled_day5,moved_seed2,729
+Kerala,2021,2021-11-01,730,ridge,day5,moved_seed1,729
+Kerala,2021,2021-11-01,730,ridge,pooled_day5,moved_seed1,729
+Kerala,2021,2021-11-01,730,lgbm_leaf2,day5,moved_seed1,729
+Kerala,2021,2021-11-01,730,lgbm_leaf2,pooled_day5,moved_seed1,729
+Kerala,2021,2021-11-01,730,ridge,day5,moved_seed2,729
+Kerala,2021,2021-11-01,730,ridge,pooled_day5,moved_seed2,729
+Kerala,2021,2021-11-01,730,lgbm_leaf2,day5,moved_seed2,729
+Kerala,2021,2021-11-01,730,lgbm_leaf2,pooled_day5,moved_seed2,729
+Kerala,2022,2022-10-01,730,ridge,day5,moved_seed1,730
+Kerala,2022,2022-10-01,730,ridge,pooled_day5,moved_seed1,730
+Kerala,2022,2022-10-01,730,lgbm_leaf2,day5,moved_seed1,730
+Kerala,2022,2022-10-01,730,lgbm_leaf2,pooled_day5,moved_seed1,730
+Kerala,2022,2022-10-01,730,ridge,day5,moved_seed2,730
+Kerala,2022,2022-10-01,730,ridge,pooled_day5,moved_seed2,730
+Kerala,2022,2022-10-01,730,lgbm_leaf2,day5,moved_seed2,730
+Kerala,2022,2022-10-01,730,lgbm_leaf2,pooled_day5,moved_seed2,730
+Kerala,2023,2023-10-01,730,ridge,day5,moved_seed1,730
+Kerala,2023,2023-10-01,730,ridge,pooled_day5,moved_seed1,730
+Kerala,2023,2023-10-01,730,lgbm_leaf2,day5,moved_seed1,730
+Kerala,2023,2023-10-01,730,lgbm_leaf2,pooled_day5,moved_seed1,730
+Kerala,2023,2023-10-01,730,ridge,day5,moved_seed2,730
+Kerala,2023,2023-10-01,730,ridge,pooled_day5,moved_seed2,730
+Kerala,2023,2023-10-01,730,lgbm_leaf2,day5,moved_seed2,730
+Kerala,2023,2023-10-01,730,lgbm_leaf2,pooled_day5,moved_seed2,730
+Kerala,2023,2023-11-01,730,ridge,day5,moved_seed1,730
+Kerala,2023,2023-11-01,730,ridge,pooled_day5,moved_seed1,730
+Kerala,2023,2023-11-01,730,lgbm_leaf2,day5,moved_seed1,730
+Kerala,2023,2023-11-01,730,lgbm_leaf2,pooled_day5,moved_seed1,730
+Kerala,2023,2023-11-01,730,ridge,day5,moved_seed2,730
+Kerala,2023,2023-11-01,730,ridge,pooled_day5,moved_seed2,730
+Kerala,2023,2023-11-01,730,lgbm_leaf2,day5,moved_seed2,730
+Kerala,2023,2023-11-01,730,lgbm_leaf2,pooled_day5,moved_seed2,730
+Kerala,2024,2024-10-01,730,ridge,day5,moved_seed1,730
+Kerala,2024,2024-10-01,730,ridge,pooled_day5,moved_seed1,730
+Kerala,2024,2024-10-01,730,lgbm_leaf2,day5,moved_seed1,730
+Kerala,2024,2024-10-01,730,lgbm_leaf2,pooled_day5,moved_seed1,730
+Kerala,2024,2024-10-01,730,ridge,day5,moved_seed2,730
+Kerala,2024,2024-10-01,730,ridge,pooled_day5,moved_seed2,730
+Kerala,2024,2024-10-01,730,lgbm_leaf2,day5,moved_seed2,730
+Kerala,2024,2024-10-01,730,lgbm_leaf2,pooled_day5,moved_seed2,730
+Kerala,2024,2024-11-01,730,ridge,day5,moved_seed1,730
+Kerala,2024,2024-11-01,730,ridge,pooled_day5,moved_seed1,730
+Kerala,2024,2024-11-01,730,lgbm_leaf2,day5,moved_seed1,730
+Kerala,2024,2024-11-01,730,lgbm_leaf2,pooled_day5,moved_seed1,730
+Kerala,2024,2024-11-01,730,ridge,day5,moved_seed2,730
+Kerala,2024,2024-11-01,730,ridge,pooled_day5,moved_seed2,730
+Kerala,2024,2024-11-01,730,lgbm_leaf2,day5,moved_seed2,730
+Kerala,2024,2024-11-01,730,lgbm_leaf2,pooled_day5,moved_seed2,730
+Kerala,2025,2025-09-01,730,ridge,day5,moved_seed1,730
+Kerala,2025,2025-09-01,730,ridge,pooled_day5,moved_seed1,730
+Kerala,2025,2025-09-01,730,lgbm_leaf2,day5,moved_seed1,730
+Kerala,2025,2025-09-01,730,lgbm_leaf2,pooled_day5,moved_seed1,730
+Kerala,2025,2025-09-01,730,ridge,day5,moved_seed2,730
+Kerala,2025,2025-09-01,730,ridge,pooled_day5,moved_seed2,730
+Kerala,2025,2025-09-01,730,lgbm_leaf2,day5,moved_seed2,730
+Kerala,2025,2025-09-01,730,lgbm_leaf2,pooled_day5,moved_seed2,730
+Kerala,2025,2025-10-01,730,ridge,day5,moved_seed1,730
+Kerala,2025,2025-10-01,730,ridge,pooled_day5,moved_seed1,730
+Kerala,2025,2025-10-01,730,lgbm_leaf2,day5,moved_seed1,730
+Kerala,2025,2025-10-01,730,lgbm_leaf2,pooled_day5,moved_seed1,730
+Kerala,2025,2025-10-01,730,ridge,day5,moved_seed2,730
+Kerala,2025,2025-10-01,730,ridge,pooled_day5,moved_seed2,730
+Kerala,2025,2025-10-01,730,lgbm_leaf2,day5,moved_seed2,730
+Kerala,2025,2025-10-01,730,lgbm_leaf2,pooled_day5,moved_seed2,730
+Odisha,2017,2017-03-01,730,ridge,day5,moved_seed1,719
+Odisha,2017,2017-03-01,730,ridge,pooled_day5,moved_seed1,719
+Odisha,2017,2017-03-01,730,lgbm_leaf2,day5,moved_seed1,719
+Odisha,2017,2017-03-01,730,lgbm_leaf2,pooled_day5,moved_seed1,719
+Odisha,2017,2017-03-01,730,ridge,day5,moved_seed2,719
+Odisha,2017,2017-03-01,730,ridge,pooled_day5,moved_seed2,719
+Odisha,2017,2017-03-01,730,lgbm_leaf2,day5,moved_seed2,719
+Odisha,2017,2017-03-01,730,lgbm_leaf2,pooled_day5,moved_seed2,719
+Odisha,2017,2017-08-01,730,ridge,day5,moved_seed1,725
+Odisha,2017,2017-08-01,730,ridge,pooled_day5,moved_seed1,725
+Odisha,2017,2017-08-01,730,lgbm_leaf2,day5,moved_seed1,725
+Odisha,2017,2017-08-01,730,lgbm_leaf2,pooled_day5,moved_seed1,725
+Odisha,2017,2017-08-01,730,ridge,day5,moved_seed2,725
+Odisha,2017,2017-08-01,730,ridge,pooled_day5,moved_seed2,725
+Odisha,2017,2017-08-01,730,lgbm_leaf2,day5,moved_seed2,725
+Odisha,2017,2017-08-01,730,lgbm_leaf2,pooled_day5,moved_seed2,725
+Odisha,2017,2017-09-01,730,ridge,day5,moved_seed1,725
+Odisha,2017,2017-09-01,730,ridge,pooled_day5,moved_seed1,725
+Odisha,2017,2017-09-01,730,lgbm_leaf2,day5,moved_seed1,725
+Odisha,2017,2017-09-01,730,lgbm_leaf2,pooled_day5,moved_seed1,725
+Odisha,2017,2017-09-01,730,ridge,day5,moved_seed2,725
+Odisha,2017,2017-09-01,730,ridge,pooled_day5,moved_seed2,725
+Odisha,2017,2017-09-01,730,lgbm_leaf2,day5,moved_seed2,725
+Odisha,2017,2017-09-01,730,lgbm_leaf2,pooled_day5,moved_seed2,725
+Odisha,2017,2017-10-01,730,ridge,day5,moved_seed1,727
+Odisha,2017,2017-10-01,730,ridge,pooled_day5,moved_seed1,727
+Odisha,2017,2017-10-01,730,lgbm_leaf2,day5,moved_seed1,727
+Odisha,2017,2017-10-01,730,lgbm_leaf2,pooled_day5,moved_seed1,727
+Odisha,2017,2017-10-01,730,ridge,day5,moved_seed2,727
+Odisha,2017,2017-10-01,730,ridge,pooled_day5,moved_seed2,727
+Odisha,2017,2017-10-01,730,lgbm_leaf2,day5,moved_seed2,727
+Odisha,2017,2017-10-01,730,lgbm_leaf2,pooled_day5,moved_seed2,727
+Odisha,2018,2018-02-01,730,ridge,day5,moved_seed1,727
+Odisha,2018,2018-02-01,730,ridge,pooled_day5,moved_seed1,727
+Odisha,2018,2018-02-01,730,lgbm_leaf2,day5,moved_seed1,727
+Odisha,2018,2018-02-01,730,lgbm_leaf2,pooled_day5,moved_seed1,727
+Odisha,2018,2018-02-01,730,ridge,day5,moved_seed2,727
+Odisha,2018,2018-02-01,730,ridge,pooled_day5,moved_seed2,727
+Odisha,2018,2018-02-01,730,lgbm_leaf2,day5,moved_seed2,727
+Odisha,2018,2018-02-01,730,lgbm_leaf2,pooled_day5,moved_seed2,727
+Odisha,2018,2018-03-01,730,ridge,day5,moved_seed1,727
+Odisha,2018,2018-03-01,730,ridge,pooled_day5,moved_seed1,727
+Odisha,2018,2018-03-01,730,lgbm_leaf2,day5,moved_seed1,727
+Odisha,2018,2018-03-01,730,lgbm_leaf2,pooled_day5,moved_seed1,727
+Odisha,2018,2018-03-01,730,ridge,day5,moved_seed2,727
+Odisha,2018,2018-03-01,730,ridge,pooled_day5,moved_seed2,727
+Odisha,2018,2018-03-01,730,lgbm_leaf2,day5,moved_seed2,727
+Odisha,2018,2018-03-01,730,lgbm_leaf2,pooled_day5,moved_seed2,727
+Odisha,2018,2018-09-01,730,ridge,day5,moved_seed1,730
+Odisha,2018,2018-09-01,730,ridge,pooled_day5,moved_seed1,730
+Odisha,2018,2018-09-01,730,lgbm_leaf2,day5,moved_seed1,730
+Odisha,2018,2018-09-01,730,lgbm_leaf2,pooled_day5,moved_seed1,730
+Odisha,2018,2018-09-01,730,ridge,day5,moved_seed2,730
+Odisha,2018,2018-09-01,730,ridge,pooled_day5,moved_seed2,730
+Odisha,2018,2018-09-01,730,lgbm_leaf2,day5,moved_seed2,730
+Odisha,2018,2018-09-01,730,lgbm_leaf2,pooled_day5,moved_seed2,730
+Odisha,2018,2018-10-01,730,ridge,day5,moved_seed1,730
+Odisha,2018,2018-10-01,730,ridge,pooled_day5,moved_seed1,730
+Odisha,2018,2018-10-01,730,lgbm_leaf2,day5,moved_seed1,730
+Odisha,2018,2018-10-01,730,lgbm_leaf2,pooled_day5,moved_seed1,730
+Odisha,2018,2018-10-01,730,ridge,day5,moved_seed2,730
+Odisha,2018,2018-10-01,730,ridge,pooled_day5,moved_seed2,730
+Odisha,2018,2018-10-01,730,lgbm_leaf2,day5,moved_seed2,730
+Odisha,2018,2018-10-01,730,lgbm_leaf2,pooled_day5,moved_seed2,730
+Odisha,2018,2018-11-01,730,ridge,day5,moved_seed1,730
+Odisha,2018,2018-11-01,730,ridge,pooled_day5,moved_seed1,730
+Odisha,2018,2018-11-01,730,lgbm_leaf2,day5,moved_seed1,730
+Odisha,2018,2018-11-01,730,lgbm_leaf2,pooled_day5,moved_seed1,730
+Odisha,2018,2018-11-01,730,ridge,day5,moved_seed2,730
+Odisha,2018,2018-11-01,730,ridge,pooled_day5,moved_seed2,730
+Odisha,2018,2018-11-01,730,lgbm_leaf2,day5,moved_seed2,730
+Odisha,2018,2018-11-01,730,lgbm_leaf2,pooled_day5,moved_seed2,730
+Odisha,2019,2019-03-01,730,ridge,day5,moved_seed1,730
+Odisha,2019,2019-03-01,730,ridge,pooled_day5,moved_seed1,730
+Odisha,2019,2019-03-01,730,lgbm_leaf2,day5,moved_seed1,730
+Odisha,2019,2019-03-01,730,lgbm_leaf2,pooled_day5,moved_seed1,730
+Odisha,2019,2019-03-01,730,ridge,day5,moved_seed2,730
+Odisha,2019,2019-03-01,730,ridge,pooled_day5,moved_seed2,730
+Odisha,2019,2019-03-01,730,lgbm_leaf2,day5,moved_seed2,730
+Odisha,2019,2019-03-01,730,lgbm_leaf2,pooled_day5,moved_seed2,730
+Odisha,2019,2019-08-01,730,ridge,day5,moved_seed1,729
+Odisha,2019,2019-08-01,730,ridge,pooled_day5,moved_seed1,729
+Odisha,2019,2019-08-01,730,lgbm_leaf2,day5,moved_seed1,729
+Odisha,2019,2019-08-01,730,lgbm_leaf2,pooled_day5,moved_seed1,729
+Odisha,2019,2019-08-01,730,ridge,day5,moved_seed2,729
+Odisha,2019,2019-08-01,730,ridge,pooled_day5,moved_seed2,729
+Odisha,2019,2019-08-01,730,lgbm_leaf2,day5,moved_seed2,729
+Odisha,2019,2019-08-01,730,lgbm_leaf2,pooled_day5,moved_seed2,729
+Odisha,2019,2019-09-01,730,ridge,day5,moved_seed1,729
+Odisha,2019,2019-09-01,730,ridge,pooled_day5,moved_seed1,729
+Odisha,2019,2019-09-01,730,lgbm_leaf2,day5,moved_seed1,729
+Odisha,2019,2019-09-01,730,lgbm_leaf2,pooled_day5,moved_seed1,729
+Odisha,2019,2019-09-01,730,ridge,day5,moved_seed2,729
+Odisha,2019,2019-09-01,730,ridge,pooled_day5,moved_seed2,729
+Odisha,2019,2019-09-01,730,lgbm_leaf2,day5,moved_seed2,729
+Odisha,2019,2019-09-01,730,lgbm_leaf2,pooled_day5,moved_seed2,729
+Odisha,2019,2019-10-01,730,ridge,day5,moved_seed1,729
+Odisha,2019,2019-10-01,730,ridge,pooled_day5,moved_seed1,729
+Odisha,2019,2019-10-01,730,lgbm_leaf2,day5,moved_seed1,729
+Odisha,2019,2019-10-01,730,lgbm_leaf2,pooled_day5,moved_seed1,729
+Odisha,2019,2019-10-01,730,ridge,day5,moved_seed2,729
+Odisha,2019,2019-10-01,730,ridge,pooled_day5,moved_seed2,729
+Odisha,2019,2019-10-01,730,lgbm_leaf2,day5,moved_seed2,729
+Odisha,2019,2019-10-01,730,lgbm_leaf2,pooled_day5,moved_seed2,729
+Odisha,2020,2020-03-01,730,ridge,day5,moved_seed1,729
+Odisha,2020,2020-03-01,730,ridge,pooled_day5,moved_seed1,729
+Odisha,2020,2020-03-01,730,lgbm_leaf2,day5,moved_seed1,729
+Odisha,2020,2020-03-01,730,lgbm_leaf2,pooled_day5,moved_seed1,729
+Odisha,2020,2020-03-01,730,ridge,day5,moved_seed2,729
+Odisha,2020,2020-03-01,730,ridge,pooled_day5,moved_seed2,729
+Odisha,2020,2020-03-01,730,lgbm_leaf2,day5,moved_seed2,729
+Odisha,2020,2020-03-01,730,lgbm_leaf2,pooled_day5,moved_seed2,729
+Odisha,2020,2020-08-01,730,ridge,day5,moved_seed1,729
+Odisha,2020,2020-08-01,730,ridge,pooled_day5,moved_seed1,729
+Odisha,2020,2020-08-01,730,lgbm_leaf2,day5,moved_seed1,729
+Odisha,2020,2020-08-01,730,lgbm_leaf2,pooled_day5,moved_seed1,729
+Odisha,2020,2020-08-01,730,ridge,day5,moved_seed2,729
+Odisha,2020,2020-08-01,730,ridge,pooled_day5,moved_seed2,729
+Odisha,2020,2020-08-01,730,lgbm_leaf2,day5,moved_seed2,729
+Odisha,2020,2020-08-01,730,lgbm_leaf2,pooled_day5,moved_seed2,729
+Odisha,2020,2020-10-01,730,ridge,day5,moved_seed1,728
+Odisha,2020,2020-10-01,730,ridge,pooled_day5,moved_seed1,728
+Odisha,2020,2020-10-01,730,lgbm_leaf2,day5,moved_seed1,728
+Odisha,2020,2020-10-01,730,lgbm_leaf2,pooled_day5,moved_seed1,728
+Odisha,2020,2020-10-01,730,ridge,day5,moved_seed2,728
+Odisha,2020,2020-10-01,730,ridge,pooled_day5,moved_seed2,728
+Odisha,2020,2020-10-01,730,lgbm_leaf2,day5,moved_seed2,728
+Odisha,2020,2020-10-01,730,lgbm_leaf2,pooled_day5,moved_seed2,728
+Odisha,2020,2020-11-01,730,ridge,day5,moved_seed1,728
+Odisha,2020,2020-11-01,730,ridge,pooled_day5,moved_seed1,728
+Odisha,2020,2020-11-01,730,lgbm_leaf2,day5,moved_seed1,728
+Odisha,2020,2020-11-01,730,lgbm_leaf2,pooled_day5,moved_seed1,728
+Odisha,2020,2020-11-01,730,ridge,day5,moved_seed2,728
+Odisha,2020,2020-11-01,730,ridge,pooled_day5,moved_seed2,728
+Odisha,2020,2020-11-01,730,lgbm_leaf2,day5,moved_seed2,728
+Odisha,2020,2020-11-01,730,lgbm_leaf2,pooled_day5,moved_seed2,728
+Odisha,2021,2021-03-01,730,ridge,day5,moved_seed1,728
+Odisha,2021,2021-03-01,730,ridge,pooled_day5,moved_seed1,728
+Odisha,2021,2021-03-01,730,lgbm_leaf2,day5,moved_seed1,728
+Odisha,2021,2021-03-01,730,lgbm_leaf2,pooled_day5,moved_seed1,728
+Odisha,2021,2021-03-01,730,ridge,day5,moved_seed2,728
+Odisha,2021,2021-03-01,730,ridge,pooled_day5,moved_seed2,728
+Odisha,2021,2021-03-01,730,lgbm_leaf2,day5,moved_seed2,728
+Odisha,2021,2021-03-01,730,lgbm_leaf2,pooled_day5,moved_seed2,728
+Odisha,2021,2021-04-01,730,ridge,day5,moved_seed1,728
+Odisha,2021,2021-04-01,730,ridge,pooled_day5,moved_seed1,728
+Odisha,2021,2021-04-01,730,lgbm_leaf2,day5,moved_seed1,728
+Odisha,2021,2021-04-01,730,lgbm_leaf2,pooled_day5,moved_seed1,728
+Odisha,2021,2021-04-01,730,ridge,day5,moved_seed2,728
+Odisha,2021,2021-04-01,730,ridge,pooled_day5,moved_seed2,728
+Odisha,2021,2021-04-01,730,lgbm_leaf2,day5,moved_seed2,728
+Odisha,2021,2021-04-01,730,lgbm_leaf2,pooled_day5,moved_seed2,728
+Odisha,2021,2021-09-01,730,ridge,day5,moved_seed1,729
+Odisha,2021,2021-09-01,730,ridge,pooled_day5,moved_seed1,729
+Odisha,2021,2021-09-01,730,lgbm_leaf2,day5,moved_seed1,729
+Odisha,2021,2021-09-01,730,lgbm_leaf2,pooled_day5,moved_seed1,729
+Odisha,2021,2021-09-01,730,ridge,day5,moved_seed2,729
+Odisha,2021,2021-09-01,730,ridge,pooled_day5,moved_seed2,729
+Odisha,2021,2021-09-01,730,lgbm_leaf2,day5,moved_seed2,729
+Odisha,2021,2021-09-01,730,lgbm_leaf2,pooled_day5,moved_seed2,729
+Odisha,2021,2021-10-01,730,ridge,day5,moved_seed1,729
+Odisha,2021,2021-10-01,730,ridge,pooled_day5,moved_seed1,729
+Odisha,2021,2021-10-01,730,lgbm_leaf2,day5,moved_seed1,729
+Odisha,2021,2021-10-01,730,lgbm_leaf2,pooled_day5,moved_seed1,729
+Odisha,2021,2021-10-01,730,ridge,day5,moved_seed2,729
+Odisha,2021,2021-10-01,730,ridge,pooled_day5,moved_seed2,729
+Odisha,2021,2021-10-01,730,lgbm_leaf2,day5,moved_seed2,729
+Odisha,2021,2021-10-01,730,lgbm_leaf2,pooled_day5,moved_seed2,729
+Odisha,2021,2021-11-01,730,ridge,day5,moved_seed1,729
+Odisha,2021,2021-11-01,730,ridge,pooled_day5,moved_seed1,729
+Odisha,2021,2021-11-01,730,lgbm_leaf2,day5,moved_seed1,729
+Odisha,2021,2021-11-01,730,lgbm_leaf2,pooled_day5,moved_seed1,729
+Odisha,2021,2021-11-01,730,ridge,day5,moved_seed2,729
+Odisha,2021,2021-11-01,730,ridge,pooled_day5,moved_seed2,729
+Odisha,2021,2021-11-01,730,lgbm_leaf2,day5,moved_seed2,729
+Odisha,2021,2021-11-01,730,lgbm_leaf2,pooled_day5,moved_seed2,729
+Odisha,2022,2022-03-01,730,ridge,day5,moved_seed1,729
+Odisha,2022,2022-03-01,730,ridge,pooled_day5,moved_seed1,729
+Odisha,2022,2022-03-01,730,lgbm_leaf2,day5,moved_seed1,729
+Odisha,2022,2022-03-01,730,lgbm_leaf2,pooled_day5,moved_seed1,729
+Odisha,2022,2022-03-01,730,ridge,day5,moved_seed2,729
+Odisha,2022,2022-03-01,730,ridge,pooled_day5,moved_seed2,729
+Odisha,2022,2022-03-01,730,lgbm_leaf2,day5,moved_seed2,729
+Odisha,2022,2022-03-01,730,lgbm_leaf2,pooled_day5,moved_seed2,729
+Odisha,2022,2022-08-01,730,ridge,day5,moved_seed1,729
+Odisha,2022,2022-08-01,730,ridge,pooled_day5,moved_seed1,729
+Odisha,2022,2022-08-01,730,lgbm_leaf2,day5,moved_seed1,729
+Odisha,2022,2022-08-01,730,lgbm_leaf2,pooled_day5,moved_seed1,729
+Odisha,2022,2022-08-01,730,ridge,day5,moved_seed2,729
+Odisha,2022,2022-08-01,730,ridge,pooled_day5,moved_seed2,729
+Odisha,2022,2022-08-01,730,lgbm_leaf2,day5,moved_seed2,729
+Odisha,2022,2022-08-01,730,lgbm_leaf2,pooled_day5,moved_seed2,729
+Odisha,2022,2022-09-01,730,ridge,day5,moved_seed1,729
+Odisha,2022,2022-09-01,730,ridge,pooled_day5,moved_seed1,729
+Odisha,2022,2022-09-01,730,lgbm_leaf2,day5,moved_seed1,729
+Odisha,2022,2022-09-01,730,lgbm_leaf2,pooled_day5,moved_seed1,729
+Odisha,2022,2022-09-01,730,ridge,day5,moved_seed2,729
+Odisha,2022,2022-09-01,730,ridge,pooled_day5,moved_seed2,729
+Odisha,2022,2022-09-01,730,lgbm_leaf2,day5,moved_seed2,729
+Odisha,2022,2022-09-01,730,lgbm_leaf2,pooled_day5,moved_seed2,729
+Odisha,2022,2022-10-01,730,ridge,day5,moved_seed1,730
+Odisha,2022,2022-10-01,730,ridge,pooled_day5,moved_seed1,730
+Odisha,2022,2022-10-01,730,lgbm_leaf2,day5,moved_seed1,730
+Odisha,2022,2022-10-01,730,lgbm_leaf2,pooled_day5,moved_seed1,730
+Odisha,2022,2022-10-01,730,ridge,day5,moved_seed2,730
+Odisha,2022,2022-10-01,730,ridge,pooled_day5,moved_seed2,730
+Odisha,2022,2022-10-01,730,lgbm_leaf2,day5,moved_seed2,730
+Odisha,2022,2022-10-01,730,lgbm_leaf2,pooled_day5,moved_seed2,730
+Odisha,2023,2023-03-01,730,ridge,day5,moved_seed1,730
+Odisha,2023,2023-03-01,730,ridge,pooled_day5,moved_seed1,730
+Odisha,2023,2023-03-01,730,lgbm_leaf2,day5,moved_seed1,730
+Odisha,2023,2023-03-01,730,lgbm_leaf2,pooled_day5,moved_seed1,730
+Odisha,2023,2023-03-01,730,ridge,day5,moved_seed2,730
+Odisha,2023,2023-03-01,730,ridge,pooled_day5,moved_seed2,730
+Odisha,2023,2023-03-01,730,lgbm_leaf2,day5,moved_seed2,730
+Odisha,2023,2023-03-01,730,lgbm_leaf2,pooled_day5,moved_seed2,730
+Odisha,2023,2023-09-01,730,ridge,day5,moved_seed1,730
+Odisha,2023,2023-09-01,730,ridge,pooled_day5,moved_seed1,730
+Odisha,2023,2023-09-01,730,lgbm_leaf2,day5,moved_seed1,730
+Odisha,2023,2023-09-01,730,lgbm_leaf2,pooled_day5,moved_seed1,730
+Odisha,2023,2023-09-01,730,ridge,day5,moved_seed2,730
+Odisha,2023,2023-09-01,730,ridge,pooled_day5,moved_seed2,730
+Odisha,2023,2023-09-01,730,lgbm_leaf2,day5,moved_seed2,730
+Odisha,2023,2023-09-01,730,lgbm_leaf2,pooled_day5,moved_seed2,730
+Odisha,2023,2023-10-01,730,ridge,day5,moved_seed1,730
+Odisha,2023,2023-10-01,730,ridge,pooled_day5,moved_seed1,730
+Odisha,2023,2023-10-01,730,lgbm_leaf2,day5,moved_seed1,730
+Odisha,2023,2023-10-01,730,lgbm_leaf2,pooled_day5,moved_seed1,730
+Odisha,2023,2023-10-01,730,ridge,day5,moved_seed2,730
+Odisha,2023,2023-10-01,730,ridge,pooled_day5,moved_seed2,730
+Odisha,2023,2023-10-01,730,lgbm_leaf2,day5,moved_seed2,730
+Odisha,2023,2023-10-01,730,lgbm_leaf2,pooled_day5,moved_seed2,730
+Odisha,2023,2023-11-01,730,ridge,day5,moved_seed1,730
+Odisha,2023,2023-11-01,730,ridge,pooled_day5,moved_seed1,730
+Odisha,2023,2023-11-01,730,lgbm_leaf2,day5,moved_seed1,730
+Odisha,2023,2023-11-01,730,lgbm_leaf2,pooled_day5,moved_seed1,730
+Odisha,2023,2023-11-01,730,ridge,day5,moved_seed2,730
+Odisha,2023,2023-11-01,730,ridge,pooled_day5,moved_seed2,730
+Odisha,2023,2023-11-01,730,lgbm_leaf2,day5,moved_seed2,730
+Odisha,2023,2023-11-01,730,lgbm_leaf2,pooled_day5,moved_seed2,730
+Odisha,2024,2024-03-01,730,ridge,day5,moved_seed1,730
+Odisha,2024,2024-03-01,730,ridge,pooled_day5,moved_seed1,730
+Odisha,2024,2024-03-01,730,lgbm_leaf2,day5,moved_seed1,730
+Odisha,2024,2024-03-01,730,lgbm_leaf2,pooled_day5,moved_seed1,730
+Odisha,2024,2024-03-01,730,ridge,day5,moved_seed2,730
+Odisha,2024,2024-03-01,730,ridge,pooled_day5,moved_seed2,730
+Odisha,2024,2024-03-01,730,lgbm_leaf2,day5,moved_seed2,730
+Odisha,2024,2024-03-01,730,lgbm_leaf2,pooled_day5,moved_seed2,730
+Odisha,2024,2024-09-01,730,ridge,day5,moved_seed1,730
+Odisha,2024,2024-09-01,730,ridge,pooled_day5,moved_seed1,730
+Odisha,2024,2024-09-01,730,lgbm_leaf2,day5,moved_seed1,730
+Odisha,2024,2024-09-01,730,lgbm_leaf2,pooled_day5,moved_seed1,730
+Odisha,2024,2024-09-01,730,ridge,day5,moved_seed2,730
+Odisha,2024,2024-09-01,730,ridge,pooled_day5,moved_seed2,730
+Odisha,2024,2024-09-01,730,lgbm_leaf2,day5,moved_seed2,730
+Odisha,2024,2024-09-01,730,lgbm_leaf2,pooled_day5,moved_seed2,730
+Odisha,2024,2024-10-01,730,ridge,day5,moved_seed1,730
+Odisha,2024,2024-10-01,730,ridge,pooled_day5,moved_seed1,730
+Odisha,2024,2024-10-01,730,lgbm_leaf2,day5,moved_seed1,730
+Odisha,2024,2024-10-01,730,lgbm_leaf2,pooled_day5,moved_seed1,730
+Odisha,2024,2024-10-01,730,ridge,day5,moved_seed2,730
+Odisha,2024,2024-10-01,730,ridge,pooled_day5,moved_seed2,730
+Odisha,2024,2024-10-01,730,lgbm_leaf2,day5,moved_seed2,730
+Odisha,2024,2024-10-01,730,lgbm_leaf2,pooled_day5,moved_seed2,730
+Odisha,2024,2024-11-01,730,ridge,day5,moved_seed1,730
+Odisha,2024,2024-11-01,730,ridge,pooled_day5,moved_seed1,730
+Odisha,2024,2024-11-01,730,lgbm_leaf2,day5,moved_seed1,730
+Odisha,2024,2024-11-01,730,lgbm_leaf2,pooled_day5,moved_seed1,730
+Odisha,2024,2024-11-01,730,ridge,day5,moved_seed2,730
+Odisha,2024,2024-11-01,730,ridge,pooled_day5,moved_seed2,730
+Odisha,2024,2024-11-01,730,lgbm_leaf2,day5,moved_seed2,730
+Odisha,2024,2024-11-01,730,lgbm_leaf2,pooled_day5,moved_seed2,730
+Odisha,2025,2025-03-01,730,ridge,day5,moved_seed1,730
+Odisha,2025,2025-03-01,730,ridge,pooled_day5,moved_seed1,730
+Odisha,2025,2025-03-01,730,lgbm_leaf2,day5,moved_seed1,730
+Odisha,2025,2025-03-01,730,lgbm_leaf2,pooled_day5,moved_seed1,730
+Odisha,2025,2025-03-01,730,ridge,day5,moved_seed2,730
+Odisha,2025,2025-03-01,730,ridge,pooled_day5,moved_seed2,730
+Odisha,2025,2025-03-01,730,lgbm_leaf2,day5,moved_seed2,730
+Odisha,2025,2025-03-01,730,lgbm_leaf2,pooled_day5,moved_seed2,730
+Odisha,2025,2025-08-01,730,ridge,day5,moved_seed1,730
+Odisha,2025,2025-08-01,730,ridge,pooled_day5,moved_seed1,730
+Odisha,2025,2025-08-01,730,lgbm_leaf2,day5,moved_seed1,730
+Odisha,2025,2025-08-01,730,lgbm_leaf2,pooled_day5,moved_seed1,730
+Odisha,2025,2025-08-01,730,ridge,day5,moved_seed2,730
+Odisha,2025,2025-08-01,730,ridge,pooled_day5,moved_seed2,730
+Odisha,2025,2025-08-01,730,lgbm_leaf2,day5,moved_seed2,730
+Odisha,2025,2025-08-01,730,lgbm_leaf2,pooled_day5,moved_seed2,730
+Odisha,2025,2025-09-01,730,ridge,day5,moved_seed1,730
+Odisha,2025,2025-09-01,730,ridge,pooled_day5,moved_seed1,730
+Odisha,2025,2025-09-01,730,lgbm_leaf2,day5,moved_seed1,730
+Odisha,2025,2025-09-01,730,lgbm_leaf2,pooled_day5,moved_seed1,730
+Odisha,2025,2025-09-01,730,ridge,day5,moved_seed2,730
+Odisha,2025,2025-09-01,730,ridge,pooled_day5,moved_seed2,730
+Odisha,2025,2025-09-01,730,lgbm_leaf2,day5,moved_seed2,730
+Odisha,2025,2025-09-01,730,lgbm_leaf2,pooled_day5,moved_seed2,730
+Odisha,2025,2025-10-01,730,ridge,day5,moved_seed1,730
+Odisha,2025,2025-10-01,730,ridge,pooled_day5,moved_seed1,730
+Odisha,2025,2025-10-01,730,lgbm_leaf2,day5,moved_seed1,730
+Odisha,2025,2025-10-01,730,lgbm_leaf2,pooled_day5,moved_seed1,730
+Odisha,2025,2025-10-01,730,ridge,day5,moved_seed2,730
+Odisha,2025,2025-10-01,730,ridge,pooled_day5,moved_seed2,730
+Odisha,2025,2025-10-01,730,lgbm_leaf2,day5,moved_seed2,730
+Odisha,2025,2025-10-01,730,lgbm_leaf2,pooled_day5,moved_seed2,730
+Punjab,2017,2017-03-01,730,ridge,day5,moved_seed1,719
+Punjab,2017,2017-03-01,730,ridge,pooled_day5,moved_seed1,719
+Punjab,2017,2017-03-01,730,lgbm_leaf2,day5,moved_seed1,719
+Punjab,2017,2017-03-01,730,lgbm_leaf2,pooled_day5,moved_seed1,719
+Punjab,2017,2017-03-01,730,ridge,day5,moved_seed2,719
+Punjab,2017,2017-03-01,730,ridge,pooled_day5,moved_seed2,719
+Punjab,2017,2017-03-01,730,lgbm_leaf2,day5,moved_seed2,719
+Punjab,2017,2017-03-01,730,lgbm_leaf2,pooled_day5,moved_seed2,719
+Punjab,2017,2017-09-01,730,ridge,day5,moved_seed1,725
+Punjab,2017,2017-09-01,730,ridge,pooled_day5,moved_seed1,725
+Punjab,2017,2017-09-01,730,lgbm_leaf2,day5,moved_seed1,725
+Punjab,2017,2017-09-01,730,lgbm_leaf2,pooled_day5,moved_seed1,725
+Punjab,2017,2017-09-01,730,ridge,day5,moved_seed2,725
+Punjab,2017,2017-09-01,730,ridge,pooled_day5,moved_seed2,725
+Punjab,2017,2017-09-01,730,lgbm_leaf2,day5,moved_seed2,725
+Punjab,2017,2017-09-01,730,lgbm_leaf2,pooled_day5,moved_seed2,725
+Punjab,2017,2017-10-01,730,ridge,day5,moved_seed1,727
+Punjab,2017,2017-10-01,730,ridge,pooled_day5,moved_seed1,727
+Punjab,2017,2017-10-01,730,lgbm_leaf2,day5,moved_seed1,727
+Punjab,2017,2017-10-01,730,lgbm_leaf2,pooled_day5,moved_seed1,727
+Punjab,2017,2017-10-01,730,ridge,day5,moved_seed2,727
+Punjab,2017,2017-10-01,730,ridge,pooled_day5,moved_seed2,727
+Punjab,2017,2017-10-01,730,lgbm_leaf2,day5,moved_seed2,727
+Punjab,2017,2017-10-01,730,lgbm_leaf2,pooled_day5,moved_seed2,727
+Punjab,2018,2018-02-01,730,ridge,day5,moved_seed1,727
+Punjab,2018,2018-02-01,730,ridge,pooled_day5,moved_seed1,727
+Punjab,2018,2018-02-01,730,lgbm_leaf2,day5,moved_seed1,727
+Punjab,2018,2018-02-01,730,lgbm_leaf2,pooled_day5,moved_seed1,727
+Punjab,2018,2018-02-01,730,ridge,day5,moved_seed2,727
+Punjab,2018,2018-02-01,730,ridge,pooled_day5,moved_seed2,727
+Punjab,2018,2018-02-01,730,lgbm_leaf2,day5,moved_seed2,727
+Punjab,2018,2018-02-01,730,lgbm_leaf2,pooled_day5,moved_seed2,727
+Punjab,2018,2018-03-01,730,ridge,day5,moved_seed1,727
+Punjab,2018,2018-03-01,730,ridge,pooled_day5,moved_seed1,727
+Punjab,2018,2018-03-01,730,lgbm_leaf2,day5,moved_seed1,727
+Punjab,2018,2018-03-01,730,lgbm_leaf2,pooled_day5,moved_seed1,727
+Punjab,2018,2018-03-01,730,ridge,day5,moved_seed2,727
+Punjab,2018,2018-03-01,730,ridge,pooled_day5,moved_seed2,727
+Punjab,2018,2018-03-01,730,lgbm_leaf2,day5,moved_seed2,727
+Punjab,2018,2018-03-01,730,lgbm_leaf2,pooled_day5,moved_seed2,727
+Punjab,2018,2018-10-01,730,ridge,day5,moved_seed1,730
+Punjab,2018,2018-10-01,730,ridge,pooled_day5,moved_seed1,730
+Punjab,2018,2018-10-01,730,lgbm_leaf2,day5,moved_seed1,730
+Punjab,2018,2018-10-01,730,lgbm_leaf2,pooled_day5,moved_seed1,730
+Punjab,2018,2018-10-01,730,ridge,day5,moved_seed2,730
+Punjab,2018,2018-10-01,730,ridge,pooled_day5,moved_seed2,730
+Punjab,2018,2018-10-01,730,lgbm_leaf2,day5,moved_seed2,730
+Punjab,2018,2018-10-01,730,lgbm_leaf2,pooled_day5,moved_seed2,730
+Punjab,2018,2018-11-01,730,ridge,day5,moved_seed1,730
+Punjab,2018,2018-11-01,730,ridge,pooled_day5,moved_seed1,730
+Punjab,2018,2018-11-01,730,lgbm_leaf2,day5,moved_seed1,730
+Punjab,2018,2018-11-01,730,lgbm_leaf2,pooled_day5,moved_seed1,730
+Punjab,2018,2018-11-01,730,ridge,day5,moved_seed2,730
+Punjab,2018,2018-11-01,730,ridge,pooled_day5,moved_seed2,730
+Punjab,2018,2018-11-01,730,lgbm_leaf2,day5,moved_seed2,730
+Punjab,2018,2018-11-01,730,lgbm_leaf2,pooled_day5,moved_seed2,730
+Punjab,2019,2019-03-01,730,ridge,day5,moved_seed1,730
+Punjab,2019,2019-03-01,730,ridge,pooled_day5,moved_seed1,730
+Punjab,2019,2019-03-01,730,lgbm_leaf2,day5,moved_seed1,730
+Punjab,2019,2019-03-01,730,lgbm_leaf2,pooled_day5,moved_seed1,730
+Punjab,2019,2019-03-01,730,ridge,day5,moved_seed2,730
+Punjab,2019,2019-03-01,730,ridge,pooled_day5,moved_seed2,730
+Punjab,2019,2019-03-01,730,lgbm_leaf2,day5,moved_seed2,730
+Punjab,2019,2019-03-01,730,lgbm_leaf2,pooled_day5,moved_seed2,730
+Punjab,2019,2019-10-01,730,ridge,day5,moved_seed1,729
+Punjab,2019,2019-10-01,730,ridge,pooled_day5,moved_seed1,729
+Punjab,2019,2019-10-01,730,lgbm_leaf2,day5,moved_seed1,729
+Punjab,2019,2019-10-01,730,lgbm_leaf2,pooled_day5,moved_seed1,729
+Punjab,2019,2019-10-01,730,ridge,day5,moved_seed2,729
+Punjab,2019,2019-10-01,730,ridge,pooled_day5,moved_seed2,729
+Punjab,2019,2019-10-01,730,lgbm_leaf2,day5,moved_seed2,729
+Punjab,2019,2019-10-01,730,lgbm_leaf2,pooled_day5,moved_seed2,729
+Punjab,2020,2020-03-01,730,ridge,day5,moved_seed1,729
+Punjab,2020,2020-03-01,730,ridge,pooled_day5,moved_seed1,729
+Punjab,2020,2020-03-01,730,lgbm_leaf2,day5,moved_seed1,729
+Punjab,2020,2020-03-01,730,lgbm_leaf2,pooled_day5,moved_seed1,729
+Punjab,2020,2020-03-01,730,ridge,day5,moved_seed2,729
+Punjab,2020,2020-03-01,730,ridge,pooled_day5,moved_seed2,729
+Punjab,2020,2020-03-01,730,lgbm_leaf2,day5,moved_seed2,729
+Punjab,2020,2020-03-01,730,lgbm_leaf2,pooled_day5,moved_seed2,729
+Punjab,2020,2020-10-01,730,ridge,day5,moved_seed1,728
+Punjab,2020,2020-10-01,730,ridge,pooled_day5,moved_seed1,728
+Punjab,2020,2020-10-01,730,lgbm_leaf2,day5,moved_seed1,728
+Punjab,2020,2020-10-01,730,lgbm_leaf2,pooled_day5,moved_seed1,728
+Punjab,2020,2020-10-01,730,ridge,day5,moved_seed2,728
+Punjab,2020,2020-10-01,730,ridge,pooled_day5,moved_seed2,728
+Punjab,2020,2020-10-01,730,lgbm_leaf2,day5,moved_seed2,728
+Punjab,2020,2020-10-01,730,lgbm_leaf2,pooled_day5,moved_seed2,728
+Punjab,2020,2020-11-01,730,ridge,day5,moved_seed1,728
+Punjab,2020,2020-11-01,730,ridge,pooled_day5,moved_seed1,728
+Punjab,2020,2020-11-01,730,lgbm_leaf2,day5,moved_seed1,728
+Punjab,2020,2020-11-01,730,lgbm_leaf2,pooled_day5,moved_seed1,728
+Punjab,2020,2020-11-01,730,ridge,day5,moved_seed2,728
+Punjab,2020,2020-11-01,730,ridge,pooled_day5,moved_seed2,728
+Punjab,2020,2020-11-01,730,lgbm_leaf2,day5,moved_seed2,728
+Punjab,2020,2020-11-01,730,lgbm_leaf2,pooled_day5,moved_seed2,728
+Punjab,2021,2021-03-01,730,ridge,day5,moved_seed1,728
+Punjab,2021,2021-03-01,730,ridge,pooled_day5,moved_seed1,728
+Punjab,2021,2021-03-01,730,lgbm_leaf2,day5,moved_seed1,728
+Punjab,2021,2021-03-01,730,lgbm_leaf2,pooled_day5,moved_seed1,728
+Punjab,2021,2021-03-01,730,ridge,day5,moved_seed2,728
+Punjab,2021,2021-03-01,730,ridge,pooled_day5,moved_seed2,728
+Punjab,2021,2021-03-01,730,lgbm_leaf2,day5,moved_seed2,728
+Punjab,2021,2021-03-01,730,lgbm_leaf2,pooled_day5,moved_seed2,728
+Punjab,2021,2021-04-01,730,ridge,day5,moved_seed1,728
+Punjab,2021,2021-04-01,730,ridge,pooled_day5,moved_seed1,728
+Punjab,2021,2021-04-01,730,lgbm_leaf2,day5,moved_seed1,728
+Punjab,2021,2021-04-01,730,lgbm_leaf2,pooled_day5,moved_seed1,728
+Punjab,2021,2021-04-01,730,ridge,day5,moved_seed2,728
+Punjab,2021,2021-04-01,730,ridge,pooled_day5,moved_seed2,728
+Punjab,2021,2021-04-01,730,lgbm_leaf2,day5,moved_seed2,728
+Punjab,2021,2021-04-01,730,lgbm_leaf2,pooled_day5,moved_seed2,728
+Punjab,2021,2021-10-01,730,ridge,day5,moved_seed1,729
+Punjab,2021,2021-10-01,730,ridge,pooled_day5,moved_seed1,729
+Punjab,2021,2021-10-01,730,lgbm_leaf2,day5,moved_seed1,729
+Punjab,2021,2021-10-01,730,lgbm_leaf2,pooled_day5,moved_seed1,729
+Punjab,2021,2021-10-01,730,ridge,day5,moved_seed2,729
+Punjab,2021,2021-10-01,730,ridge,pooled_day5,moved_seed2,729
+Punjab,2021,2021-10-01,730,lgbm_leaf2,day5,moved_seed2,729
+Punjab,2021,2021-10-01,730,lgbm_leaf2,pooled_day5,moved_seed2,729
+Punjab,2021,2021-11-01,730,ridge,day5,moved_seed1,729
+Punjab,2021,2021-11-01,730,ridge,pooled_day5,moved_seed1,729
+Punjab,2021,2021-11-01,730,lgbm_leaf2,day5,moved_seed1,729
+Punjab,2021,2021-11-01,730,lgbm_leaf2,pooled_day5,moved_seed1,729
+Punjab,2021,2021-11-01,730,ridge,day5,moved_seed2,729
+Punjab,2021,2021-11-01,730,ridge,pooled_day5,moved_seed2,729
+Punjab,2021,2021-11-01,730,lgbm_leaf2,day5,moved_seed2,729
+Punjab,2021,2021-11-01,730,lgbm_leaf2,pooled_day5,moved_seed2,729
+Punjab,2022,2022-03-01,730,ridge,day5,moved_seed1,729
+Punjab,2022,2022-03-01,730,ridge,pooled_day5,moved_seed1,729
+Punjab,2022,2022-03-01,730,lgbm_leaf2,day5,moved_seed1,729
+Punjab,2022,2022-03-01,730,lgbm_leaf2,pooled_day5,moved_seed1,729
+Punjab,2022,2022-03-01,730,ridge,day5,moved_seed2,729
+Punjab,2022,2022-03-01,730,ridge,pooled_day5,moved_seed2,729
+Punjab,2022,2022-03-01,730,lgbm_leaf2,day5,moved_seed2,729
+Punjab,2022,2022-03-01,730,lgbm_leaf2,pooled_day5,moved_seed2,729
+Punjab,2022,2022-10-01,730,ridge,day5,moved_seed1,730
+Punjab,2022,2022-10-01,730,ridge,pooled_day5,moved_seed1,730
+Punjab,2022,2022-10-01,730,lgbm_leaf2,day5,moved_seed1,730
+Punjab,2022,2022-10-01,730,lgbm_leaf2,pooled_day5,moved_seed1,730
+Punjab,2022,2022-10-01,730,ridge,day5,moved_seed2,730
+Punjab,2022,2022-10-01,730,ridge,pooled_day5,moved_seed2,730
+Punjab,2022,2022-10-01,730,lgbm_leaf2,day5,moved_seed2,730
+Punjab,2022,2022-10-01,730,lgbm_leaf2,pooled_day5,moved_seed2,730
+Punjab,2023,2023-03-01,730,ridge,day5,moved_seed1,730
+Punjab,2023,2023-03-01,730,ridge,pooled_day5,moved_seed1,730
+Punjab,2023,2023-03-01,730,lgbm_leaf2,day5,moved_seed1,730
+Punjab,2023,2023-03-01,730,lgbm_leaf2,pooled_day5,moved_seed1,730
+Punjab,2023,2023-03-01,730,ridge,day5,moved_seed2,730
+Punjab,2023,2023-03-01,730,ridge,pooled_day5,moved_seed2,730
+Punjab,2023,2023-03-01,730,lgbm_leaf2,day5,moved_seed2,730
+Punjab,2023,2023-03-01,730,lgbm_leaf2,pooled_day5,moved_seed2,730
+Punjab,2023,2023-10-01,730,ridge,day5,moved_seed1,730
+Punjab,2023,2023-10-01,730,ridge,pooled_day5,moved_seed1,730
+Punjab,2023,2023-10-01,730,lgbm_leaf2,day5,moved_seed1,730
+Punjab,2023,2023-10-01,730,lgbm_leaf2,pooled_day5,moved_seed1,730
+Punjab,2023,2023-10-01,730,ridge,day5,moved_seed2,730
+Punjab,2023,2023-10-01,730,ridge,pooled_day5,moved_seed2,730
+Punjab,2023,2023-10-01,730,lgbm_leaf2,day5,moved_seed2,730
+Punjab,2023,2023-10-01,730,lgbm_leaf2,pooled_day5,moved_seed2,730
+Punjab,2023,2023-11-01,730,ridge,day5,moved_seed1,730
+Punjab,2023,2023-11-01,730,ridge,pooled_day5,moved_seed1,730
+Punjab,2023,2023-11-01,730,lgbm_leaf2,day5,moved_seed1,730
+Punjab,2023,2023-11-01,730,lgbm_leaf2,pooled_day5,moved_seed1,730
+Punjab,2023,2023-11-01,730,ridge,day5,moved_seed2,730
+Punjab,2023,2023-11-01,730,ridge,pooled_day5,moved_seed2,730
+Punjab,2023,2023-11-01,730,lgbm_leaf2,day5,moved_seed2,730
+Punjab,2023,2023-11-01,730,lgbm_leaf2,pooled_day5,moved_seed2,730
+Punjab,2024,2024-03-01,730,ridge,day5,moved_seed1,730
+Punjab,2024,2024-03-01,730,ridge,pooled_day5,moved_seed1,730
+Punjab,2024,2024-03-01,730,lgbm_leaf2,day5,moved_seed1,730
+Punjab,2024,2024-03-01,730,lgbm_leaf2,pooled_day5,moved_seed1,730
+Punjab,2024,2024-03-01,730,ridge,day5,moved_seed2,730
+Punjab,2024,2024-03-01,730,ridge,pooled_day5,moved_seed2,730
+Punjab,2024,2024-03-01,730,lgbm_leaf2,day5,moved_seed2,730
+Punjab,2024,2024-03-01,730,lgbm_leaf2,pooled_day5,moved_seed2,730
+Punjab,2024,2024-10-01,730,ridge,day5,moved_seed1,730
+Punjab,2024,2024-10-01,730,ridge,pooled_day5,moved_seed1,730
+Punjab,2024,2024-10-01,730,lgbm_leaf2,day5,moved_seed1,730
+Punjab,2024,2024-10-01,730,lgbm_leaf2,pooled_day5,moved_seed1,730
+Punjab,2024,2024-10-01,730,ridge,day5,moved_seed2,730
+Punjab,2024,2024-10-01,730,ridge,pooled_day5,moved_seed2,730
+Punjab,2024,2024-10-01,730,lgbm_leaf2,day5,moved_seed2,730
+Punjab,2024,2024-10-01,730,lgbm_leaf2,pooled_day5,moved_seed2,730
+Punjab,2024,2024-11-01,730,ridge,day5,moved_seed1,730
+Punjab,2024,2024-11-01,730,ridge,pooled_day5,moved_seed1,730
+Punjab,2024,2024-11-01,730,lgbm_leaf2,day5,moved_seed1,730
+Punjab,2024,2024-11-01,730,lgbm_leaf2,pooled_day5,moved_seed1,730
+Punjab,2024,2024-11-01,730,ridge,day5,moved_seed2,730
+Punjab,2024,2024-11-01,730,ridge,pooled_day5,moved_seed2,730
+Punjab,2024,2024-11-01,730,lgbm_leaf2,day5,moved_seed2,730
+Punjab,2024,2024-11-01,730,lgbm_leaf2,pooled_day5,moved_seed2,730
+Punjab,2025,2025-03-01,730,ridge,day5,moved_seed1,730
+Punjab,2025,2025-03-01,730,ridge,pooled_day5,moved_seed1,730
+Punjab,2025,2025-03-01,730,lgbm_leaf2,day5,moved_seed1,730
+Punjab,2025,2025-03-01,730,lgbm_leaf2,pooled_day5,moved_seed1,730
+Punjab,2025,2025-03-01,730,ridge,day5,moved_seed2,730
+Punjab,2025,2025-03-01,730,ridge,pooled_day5,moved_seed2,730
+Punjab,2025,2025-03-01,730,lgbm_leaf2,day5,moved_seed2,730
+Punjab,2025,2025-03-01,730,lgbm_leaf2,pooled_day5,moved_seed2,730
+Punjab,2025,2025-09-01,730,ridge,day5,moved_seed1,730
+Punjab,2025,2025-09-01,730,ridge,pooled_day5,moved_seed1,730
+Punjab,2025,2025-09-01,730,lgbm_leaf2,day5,moved_seed1,730
+Punjab,2025,2025-09-01,730,lgbm_leaf2,pooled_day5,moved_seed1,730
+Punjab,2025,2025-09-01,730,ridge,day5,moved_seed2,730
+Punjab,2025,2025-09-01,730,ridge,pooled_day5,moved_seed2,730
+Punjab,2025,2025-09-01,730,lgbm_leaf2,day5,moved_seed2,730
+Punjab,2025,2025-09-01,730,lgbm_leaf2,pooled_day5,moved_seed2,730
+Punjab,2025,2025-10-01,730,ridge,day5,moved_seed1,730
+Punjab,2025,2025-10-01,730,ridge,pooled_day5,moved_seed1,730
+Punjab,2025,2025-10-01,730,lgbm_leaf2,day5,moved_seed1,730
+Punjab,2025,2025-10-01,730,lgbm_leaf2,pooled_day5,moved_seed1,730
+Punjab,2025,2025-10-01,730,ridge,day5,moved_seed2,730
+Punjab,2025,2025-10-01,730,ridge,pooled_day5,moved_seed2,730
+Punjab,2025,2025-10-01,730,lgbm_leaf2,day5,moved_seed2,730
+Punjab,2025,2025-10-01,730,lgbm_leaf2,pooled_day5,moved_seed2,730
+West Bengal,2017,2017-03-01,730,ridge,day5,moved_seed1,719
+West Bengal,2017,2017-03-01,730,ridge,pooled_day5,moved_seed1,719
+West Bengal,2017,2017-03-01,730,lgbm_leaf2,day5,moved_seed1,719
+West Bengal,2017,2017-03-01,730,lgbm_leaf2,pooled_day5,moved_seed1,719
+West Bengal,2017,2017-03-01,730,ridge,day5,moved_seed2,719
+West Bengal,2017,2017-03-01,730,ridge,pooled_day5,moved_seed2,719
+West Bengal,2017,2017-03-01,730,lgbm_leaf2,day5,moved_seed2,719
+West Bengal,2017,2017-03-01,730,lgbm_leaf2,pooled_day5,moved_seed2,719
+West Bengal,2017,2017-09-01,730,ridge,day5,moved_seed1,725
+West Bengal,2017,2017-09-01,730,ridge,pooled_day5,moved_seed1,725
+West Bengal,2017,2017-09-01,730,lgbm_leaf2,day5,moved_seed1,725
+West Bengal,2017,2017-09-01,730,lgbm_leaf2,pooled_day5,moved_seed1,725
+West Bengal,2017,2017-09-01,730,ridge,day5,moved_seed2,725
+West Bengal,2017,2017-09-01,730,ridge,pooled_day5,moved_seed2,725
+West Bengal,2017,2017-09-01,730,lgbm_leaf2,day5,moved_seed2,725
+West Bengal,2017,2017-09-01,730,lgbm_leaf2,pooled_day5,moved_seed2,725
+West Bengal,2017,2017-10-01,730,ridge,day5,moved_seed1,727
+West Bengal,2017,2017-10-01,730,ridge,pooled_day5,moved_seed1,727
+West Bengal,2017,2017-10-01,730,lgbm_leaf2,day5,moved_seed1,727
+West Bengal,2017,2017-10-01,730,lgbm_leaf2,pooled_day5,moved_seed1,727
+West Bengal,2017,2017-10-01,730,ridge,day5,moved_seed2,727
+West Bengal,2017,2017-10-01,730,ridge,pooled_day5,moved_seed2,727
+West Bengal,2017,2017-10-01,730,lgbm_leaf2,day5,moved_seed2,727
+West Bengal,2017,2017-10-01,730,lgbm_leaf2,pooled_day5,moved_seed2,727
+West Bengal,2018,2018-02-01,730,ridge,day5,moved_seed1,727
+West Bengal,2018,2018-02-01,730,ridge,pooled_day5,moved_seed1,727
+West Bengal,2018,2018-02-01,730,lgbm_leaf2,day5,moved_seed1,727
+West Bengal,2018,2018-02-01,730,lgbm_leaf2,pooled_day5,moved_seed1,727
+West Bengal,2018,2018-02-01,730,ridge,day5,moved_seed2,727
+West Bengal,2018,2018-02-01,730,ridge,pooled_day5,moved_seed2,727
+West Bengal,2018,2018-02-01,730,lgbm_leaf2,day5,moved_seed2,727
+West Bengal,2018,2018-02-01,730,lgbm_leaf2,pooled_day5,moved_seed2,727
+West Bengal,2018,2018-03-01,730,ridge,day5,moved_seed1,727
+West Bengal,2018,2018-03-01,730,ridge,pooled_day5,moved_seed1,727
+West Bengal,2018,2018-03-01,730,lgbm_leaf2,day5,moved_seed1,727
+West Bengal,2018,2018-03-01,730,lgbm_leaf2,pooled_day5,moved_seed1,727
+West Bengal,2018,2018-03-01,730,ridge,day5,moved_seed2,727
+West Bengal,2018,2018-03-01,730,ridge,pooled_day5,moved_seed2,727
+West Bengal,2018,2018-03-01,730,lgbm_leaf2,day5,moved_seed2,727
+West Bengal,2018,2018-03-01,730,lgbm_leaf2,pooled_day5,moved_seed2,727
+West Bengal,2018,2018-10-01,730,ridge,day5,moved_seed1,730
+West Bengal,2018,2018-10-01,730,ridge,pooled_day5,moved_seed1,730
+West Bengal,2018,2018-10-01,730,lgbm_leaf2,day5,moved_seed1,730
+West Bengal,2018,2018-10-01,730,lgbm_leaf2,pooled_day5,moved_seed1,730
+West Bengal,2018,2018-10-01,730,ridge,day5,moved_seed2,730
+West Bengal,2018,2018-10-01,730,ridge,pooled_day5,moved_seed2,730
+West Bengal,2018,2018-10-01,730,lgbm_leaf2,day5,moved_seed2,730
+West Bengal,2018,2018-10-01,730,lgbm_leaf2,pooled_day5,moved_seed2,730
+West Bengal,2018,2018-11-01,730,ridge,day5,moved_seed1,730
+West Bengal,2018,2018-11-01,730,ridge,pooled_day5,moved_seed1,730
+West Bengal,2018,2018-11-01,730,lgbm_leaf2,day5,moved_seed1,730
+West Bengal,2018,2018-11-01,730,lgbm_leaf2,pooled_day5,moved_seed1,730
+West Bengal,2018,2018-11-01,730,ridge,day5,moved_seed2,730
+West Bengal,2018,2018-11-01,730,ridge,pooled_day5,moved_seed2,730
+West Bengal,2018,2018-11-01,730,lgbm_leaf2,day5,moved_seed2,730
+West Bengal,2018,2018-11-01,730,lgbm_leaf2,pooled_day5,moved_seed2,730
+West Bengal,2019,2019-03-01,730,ridge,day5,moved_seed1,730
+West Bengal,2019,2019-03-01,730,ridge,pooled_day5,moved_seed1,730
+West Bengal,2019,2019-03-01,730,lgbm_leaf2,day5,moved_seed1,730
+West Bengal,2019,2019-03-01,730,lgbm_leaf2,pooled_day5,moved_seed1,730
+West Bengal,2019,2019-03-01,730,ridge,day5,moved_seed2,730
+West Bengal,2019,2019-03-01,730,ridge,pooled_day5,moved_seed2,730
+West Bengal,2019,2019-03-01,730,lgbm_leaf2,day5,moved_seed2,730
+West Bengal,2019,2019-03-01,730,lgbm_leaf2,pooled_day5,moved_seed2,730
+West Bengal,2019,2019-10-01,730,ridge,day5,moved_seed1,729
+West Bengal,2019,2019-10-01,730,ridge,pooled_day5,moved_seed1,729
+West Bengal,2019,2019-10-01,730,lgbm_leaf2,day5,moved_seed1,729
+West Bengal,2019,2019-10-01,730,lgbm_leaf2,pooled_day5,moved_seed1,729
+West Bengal,2019,2019-10-01,730,ridge,day5,moved_seed2,729
+West Bengal,2019,2019-10-01,730,ridge,pooled_day5,moved_seed2,729
+West Bengal,2019,2019-10-01,730,lgbm_leaf2,day5,moved_seed2,729
+West Bengal,2019,2019-10-01,730,lgbm_leaf2,pooled_day5,moved_seed2,729
+West Bengal,2020,2020-03-01,730,ridge,day5,moved_seed1,729
+West Bengal,2020,2020-03-01,730,ridge,pooled_day5,moved_seed1,729
+West Bengal,2020,2020-03-01,730,lgbm_leaf2,day5,moved_seed1,729
+West Bengal,2020,2020-03-01,730,lgbm_leaf2,pooled_day5,moved_seed1,729
+West Bengal,2020,2020-03-01,730,ridge,day5,moved_seed2,729
+West Bengal,2020,2020-03-01,730,ridge,pooled_day5,moved_seed2,729
+West Bengal,2020,2020-03-01,730,lgbm_leaf2,day5,moved_seed2,729
+West Bengal,2020,2020-03-01,730,lgbm_leaf2,pooled_day5,moved_seed2,729
+West Bengal,2020,2020-10-01,730,ridge,day5,moved_seed1,728
+West Bengal,2020,2020-10-01,730,ridge,pooled_day5,moved_seed1,728
+West Bengal,2020,2020-10-01,730,lgbm_leaf2,day5,moved_seed1,728
+West Bengal,2020,2020-10-01,730,lgbm_leaf2,pooled_day5,moved_seed1,728
+West Bengal,2020,2020-10-01,730,ridge,day5,moved_seed2,728
+West Bengal,2020,2020-10-01,730,ridge,pooled_day5,moved_seed2,728
+West Bengal,2020,2020-10-01,730,lgbm_leaf2,day5,moved_seed2,728
+West Bengal,2020,2020-10-01,730,lgbm_leaf2,pooled_day5,moved_seed2,728
+West Bengal,2020,2020-11-01,730,ridge,day5,moved_seed1,728
+West Bengal,2020,2020-11-01,730,ridge,pooled_day5,moved_seed1,728
+West Bengal,2020,2020-11-01,730,lgbm_leaf2,day5,moved_seed1,728
+West Bengal,2020,2020-11-01,730,lgbm_leaf2,pooled_day5,moved_seed1,728
+West Bengal,2020,2020-11-01,730,ridge,day5,moved_seed2,728
+West Bengal,2020,2020-11-01,730,ridge,pooled_day5,moved_seed2,728
+West Bengal,2020,2020-11-01,730,lgbm_leaf2,day5,moved_seed2,728
+West Bengal,2020,2020-11-01,730,lgbm_leaf2,pooled_day5,moved_seed2,728
+West Bengal,2021,2021-03-01,730,ridge,day5,moved_seed1,728
+West Bengal,2021,2021-03-01,730,ridge,pooled_day5,moved_seed1,728
+West Bengal,2021,2021-03-01,730,lgbm_leaf2,day5,moved_seed1,728
+West Bengal,2021,2021-03-01,730,lgbm_leaf2,pooled_day5,moved_seed1,728
+West Bengal,2021,2021-03-01,730,ridge,day5,moved_seed2,728
+West Bengal,2021,2021-03-01,730,ridge,pooled_day5,moved_seed2,728
+West Bengal,2021,2021-03-01,730,lgbm_leaf2,day5,moved_seed2,728
+West Bengal,2021,2021-03-01,730,lgbm_leaf2,pooled_day5,moved_seed2,728
+West Bengal,2021,2021-04-01,730,ridge,day5,moved_seed1,728
+West Bengal,2021,2021-04-01,730,ridge,pooled_day5,moved_seed1,728
+West Bengal,2021,2021-04-01,730,lgbm_leaf2,day5,moved_seed1,728
+West Bengal,2021,2021-04-01,730,lgbm_leaf2,pooled_day5,moved_seed1,728
+West Bengal,2021,2021-04-01,730,ridge,day5,moved_seed2,728
+West Bengal,2021,2021-04-01,730,ridge,pooled_day5,moved_seed2,728
+West Bengal,2021,2021-04-01,730,lgbm_leaf2,day5,moved_seed2,728
+West Bengal,2021,2021-04-01,730,lgbm_leaf2,pooled_day5,moved_seed2,728
+West Bengal,2021,2021-10-01,730,ridge,day5,moved_seed1,729
+West Bengal,2021,2021-10-01,730,ridge,pooled_day5,moved_seed1,729
+West Bengal,2021,2021-10-01,730,lgbm_leaf2,day5,moved_seed1,729
+West Bengal,2021,2021-10-01,730,lgbm_leaf2,pooled_day5,moved_seed1,729
+West Bengal,2021,2021-10-01,730,ridge,day5,moved_seed2,729
+West Bengal,2021,2021-10-01,730,ridge,pooled_day5,moved_seed2,729
+West Bengal,2021,2021-10-01,730,lgbm_leaf2,day5,moved_seed2,729
+West Bengal,2021,2021-10-01,730,lgbm_leaf2,pooled_day5,moved_seed2,729
+West Bengal,2021,2021-11-01,730,ridge,day5,moved_seed1,729
+West Bengal,2021,2021-11-01,730,ridge,pooled_day5,moved_seed1,729
+West Bengal,2021,2021-11-01,730,lgbm_leaf2,day5,moved_seed1,729
+West Bengal,2021,2021-11-01,730,lgbm_leaf2,pooled_day5,moved_seed1,729
+West Bengal,2021,2021-11-01,730,ridge,day5,moved_seed2,729
+West Bengal,2021,2021-11-01,730,ridge,pooled_day5,moved_seed2,729
+West Bengal,2021,2021-11-01,730,lgbm_leaf2,day5,moved_seed2,729
+West Bengal,2021,2021-11-01,730,lgbm_leaf2,pooled_day5,moved_seed2,729
+West Bengal,2022,2022-03-01,730,ridge,day5,moved_seed1,729
+West Bengal,2022,2022-03-01,730,ridge,pooled_day5,moved_seed1,729
+West Bengal,2022,2022-03-01,730,lgbm_leaf2,day5,moved_seed1,729
+West Bengal,2022,2022-03-01,730,lgbm_leaf2,pooled_day5,moved_seed1,729
+West Bengal,2022,2022-03-01,730,ridge,day5,moved_seed2,729
+West Bengal,2022,2022-03-01,730,ridge,pooled_day5,moved_seed2,729
+West Bengal,2022,2022-03-01,730,lgbm_leaf2,day5,moved_seed2,729
+West Bengal,2022,2022-03-01,730,lgbm_leaf2,pooled_day5,moved_seed2,729
+West Bengal,2022,2022-10-01,730,ridge,day5,moved_seed1,730
+West Bengal,2022,2022-10-01,730,ridge,pooled_day5,moved_seed1,730
+West Bengal,2022,2022-10-01,730,lgbm_leaf2,day5,moved_seed1,730
+West Bengal,2022,2022-10-01,730,lgbm_leaf2,pooled_day5,moved_seed1,730
+West Bengal,2022,2022-10-01,730,ridge,day5,moved_seed2,730
+West Bengal,2022,2022-10-01,730,ridge,pooled_day5,moved_seed2,730
+West Bengal,2022,2022-10-01,730,lgbm_leaf2,day5,moved_seed2,730
+West Bengal,2022,2022-10-01,730,lgbm_leaf2,pooled_day5,moved_seed2,730
+West Bengal,2023,2023-03-01,730,ridge,day5,moved_seed1,730
+West Bengal,2023,2023-03-01,730,ridge,pooled_day5,moved_seed1,730
+West Bengal,2023,2023-03-01,730,lgbm_leaf2,day5,moved_seed1,730
+West Bengal,2023,2023-03-01,730,lgbm_leaf2,pooled_day5,moved_seed1,730
+West Bengal,2023,2023-03-01,730,ridge,day5,moved_seed2,730
+West Bengal,2023,2023-03-01,730,ridge,pooled_day5,moved_seed2,730
+West Bengal,2023,2023-03-01,730,lgbm_leaf2,day5,moved_seed2,730
+West Bengal,2023,2023-03-01,730,lgbm_leaf2,pooled_day5,moved_seed2,730
+West Bengal,2023,2023-10-01,730,ridge,day5,moved_seed1,730
+West Bengal,2023,2023-10-01,730,ridge,pooled_day5,moved_seed1,730
+West Bengal,2023,2023-10-01,730,lgbm_leaf2,day5,moved_seed1,730
+West Bengal,2023,2023-10-01,730,lgbm_leaf2,pooled_day5,moved_seed1,730
+West Bengal,2023,2023-10-01,730,ridge,day5,moved_seed2,730
+West Bengal,2023,2023-10-01,730,ridge,pooled_day5,moved_seed2,730
+West Bengal,2023,2023-10-01,730,lgbm_leaf2,day5,moved_seed2,730
+West Bengal,2023,2023-10-01,730,lgbm_leaf2,pooled_day5,moved_seed2,730
+West Bengal,2023,2023-11-01,730,ridge,day5,moved_seed1,730
+West Bengal,2023,2023-11-01,730,ridge,pooled_day5,moved_seed1,730
+West Bengal,2023,2023-11-01,730,lgbm_leaf2,day5,moved_seed1,730
+West Bengal,2023,2023-11-01,730,lgbm_leaf2,pooled_day5,moved_seed1,730
+West Bengal,2023,2023-11-01,730,ridge,day5,moved_seed2,730
+West Bengal,2023,2023-11-01,730,ridge,pooled_day5,moved_seed2,730
+West Bengal,2023,2023-11-01,730,lgbm_leaf2,day5,moved_seed2,730
+West Bengal,2023,2023-11-01,730,lgbm_leaf2,pooled_day5,moved_seed2,730
+West Bengal,2024,2024-03-01,730,ridge,day5,moved_seed1,730
+West Bengal,2024,2024-03-01,730,ridge,pooled_day5,moved_seed1,730
+West Bengal,2024,2024-03-01,730,lgbm_leaf2,day5,moved_seed1,730
+West Bengal,2024,2024-03-01,730,lgbm_leaf2,pooled_day5,moved_seed1,730
+West Bengal,2024,2024-03-01,730,ridge,day5,moved_seed2,730
+West Bengal,2024,2024-03-01,730,ridge,pooled_day5,moved_seed2,730
+West Bengal,2024,2024-03-01,730,lgbm_leaf2,day5,moved_seed2,730
+West Bengal,2024,2024-03-01,730,lgbm_leaf2,pooled_day5,moved_seed2,730
+West Bengal,2024,2024-10-01,730,ridge,day5,moved_seed1,730
+West Bengal,2024,2024-10-01,730,ridge,pooled_day5,moved_seed1,730
+West Bengal,2024,2024-10-01,730,lgbm_leaf2,day5,moved_seed1,730
+West Bengal,2024,2024-10-01,730,lgbm_leaf2,pooled_day5,moved_seed1,730
+West Bengal,2024,2024-10-01,730,ridge,day5,moved_seed2,730
+West Bengal,2024,2024-10-01,730,ridge,pooled_day5,moved_seed2,730
+West Bengal,2024,2024-10-01,730,lgbm_leaf2,day5,moved_seed2,730
+West Bengal,2024,2024-10-01,730,lgbm_leaf2,pooled_day5,moved_seed2,730
+West Bengal,2024,2024-11-01,730,ridge,day5,moved_seed1,730
+West Bengal,2024,2024-11-01,730,ridge,pooled_day5,moved_seed1,730
+West Bengal,2024,2024-11-01,730,lgbm_leaf2,day5,moved_seed1,730
+West Bengal,2024,2024-11-01,730,lgbm_leaf2,pooled_day5,moved_seed1,730
+West Bengal,2024,2024-11-01,730,ridge,day5,moved_seed2,730
+West Bengal,2024,2024-11-01,730,ridge,pooled_day5,moved_seed2,730
+West Bengal,2024,2024-11-01,730,lgbm_leaf2,day5,moved_seed2,730
+West Bengal,2024,2024-11-01,730,lgbm_leaf2,pooled_day5,moved_seed2,730
+West Bengal,2025,2025-03-01,730,ridge,day5,moved_seed1,730
+West Bengal,2025,2025-03-01,730,ridge,pooled_day5,moved_seed1,730
+West Bengal,2025,2025-03-01,730,lgbm_leaf2,day5,moved_seed1,730
+West Bengal,2025,2025-03-01,730,lgbm_leaf2,pooled_day5,moved_seed1,730
+West Bengal,2025,2025-03-01,730,ridge,day5,moved_seed2,730
+West Bengal,2025,2025-03-01,730,ridge,pooled_day5,moved_seed2,730
+West Bengal,2025,2025-03-01,730,lgbm_leaf2,day5,moved_seed2,730
+West Bengal,2025,2025-03-01,730,lgbm_leaf2,pooled_day5,moved_seed2,730
+West Bengal,2025,2025-09-01,730,ridge,day5,moved_seed1,730
+West Bengal,2025,2025-09-01,730,ridge,pooled_day5,moved_seed1,730
+West Bengal,2025,2025-09-01,730,lgbm_leaf2,day5,moved_seed1,730
+West Bengal,2025,2025-09-01,730,lgbm_leaf2,pooled_day5,moved_seed1,730
+West Bengal,2025,2025-09-01,730,ridge,day5,moved_seed2,730
+West Bengal,2025,2025-09-01,730,ridge,pooled_day5,moved_seed2,730
+West Bengal,2025,2025-09-01,730,lgbm_leaf2,day5,moved_seed2,730
+West Bengal,2025,2025-09-01,730,lgbm_leaf2,pooled_day5,moved_seed2,730
+West Bengal,2025,2025-10-01,730,ridge,day5,moved_seed1,730
+West Bengal,2025,2025-10-01,730,ridge,pooled_day5,moved_seed1,730
+West Bengal,2025,2025-10-01,730,lgbm_leaf2,day5,moved_seed1,730
+West Bengal,2025,2025-10-01,730,lgbm_leaf2,pooled_day5,moved_seed1,730
+West Bengal,2025,2025-10-01,730,ridge,day5,moved_seed2,730
+West Bengal,2025,2025-10-01,730,ridge,pooled_day5,moved_seed2,730
+West Bengal,2025,2025-10-01,730,lgbm_leaf2,day5,moved_seed2,730
+West Bengal,2025,2025-10-01,730,lgbm_leaf2,pooled_day5,moved_seed2,730
