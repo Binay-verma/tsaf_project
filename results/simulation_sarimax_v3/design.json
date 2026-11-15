@@ -1,0 +1,19 @@
+{
+ "h_grid": [
+  0.0,
+  0.25,
+  0.462,
+  1.0,
+  2.0
+ ],
+ "reps": 20,
+ "seed": 20261117,
+ "calibration": {
+  "mu": -0.0960445714596893,
+  "h": 0.4618175703842358,
+  "phi": 0.9187692664316858,
+  "sigma": 3.566794665473259,
+  "omega": 0.20568193282001881
+ },
+ "specification": "SARIMAX(1,0,0)(1,0,0,7), no trend, Fourier(3) + flags, 730-day fit per year, fixed parameters"
+}
