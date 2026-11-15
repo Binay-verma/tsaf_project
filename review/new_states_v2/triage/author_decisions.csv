@@ -13,7 +13,7 @@ row,state,year,family,triage_date,final_date,basis
 14,Bihar,2017,Holi,2017-03-14,2017-03-14,author ok (decide)
 26,Bihar,2019,Holi,2019-03-22,2019-03-22,author-entered date (decide sheet)
 56,Bihar,2024,Holi,2024-03-26,2024-03-26,author-entered date (decide sheet)
-189,Kerala,2015,Dussehra,2015-10-23,,OPEN: no author status
+189,Kerala,2015,Dussehra,2015-10-23,2015-10-23,"author-entered via screenshot (officeholidays list: Friday 23 Oct, Vijayasami, Regional Holiday, Assam/Kerala/Odisha/Sikkim, Dussehra)"
 244,Odisha,2015,Dussehra,2015-10-23,2015-10-23,author-entered date (decide sheet)
 284,Odisha,2022,Holi,2022-03-19,2022-03-19,author-entered date (decide sheet)
 288,Odisha,2023,Ganesh_Chaturthi,2023-09-19,2023-09-19,author-entered date (decide sheet)
@@ -25,7 +25,7 @@ row,state,year,family,triage_date,final_date,basis
 16,Bihar,2018,Diwali,2018-11-07,2018-11-07,author ok (spot)
 61,Bihar,2025,Dussehra,2025-10-02,2025-10-02,author ok (spot)
 82,Chhattisgarh,2018,Dussehra,2018-10-19,2018-10-19,author ok (spot)
-102,Chhattisgarh,2022,Dussehra,2022-10-05,,OPEN: no author status
+102,Chhattisgarh,2022,Dussehra,2022-10-05,2022-10-05,author confirmed 5 October 2022
 120,Chhattisgarh,2025,Holi,2025-03-14,2025-03-14,author ok (spot)
 144,Haryana,2018,Holi,2018-03-02,2018-03-02,author ok (spot)
 148,Haryana,2019,Dussehra,2019-10-08,2019-10-08,author ok (spot)

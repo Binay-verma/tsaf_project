@@ -49,3 +49,4 @@ TimesFM-3 and Chronos-2 are left out of the confirmatory set because of time. Th
 - The author filled the short workbook: 22 decision rows and 21 spot-check rows (triage/author_decisions.csv).
 - Spot-check found 2 errors in 21 (Odisha 2020 Holi and West Bengal 2020 Holi: the triage date was the earlier of two reference days, the states hold Holi on the later day). Rule adopted: for Holi the state's Holi (Rangwali) day is used, not the eve. Five more matched Holi rows with the same pattern (Odisha 2018, 2023; West Bengal 2016, 2017, 2023) are proposed for the later day and wait for the author's confirmation.
 - Open: Kerala 2015 Dussehra (no author status); Chhattisgarh 2022 Dussehra (spot-check, no status).
+- Resolved on 15 November 2026: Kerala 2015 Dussehra = 23 Oct (author, from a screenshot of a regional-holiday list); Chhattisgarh 2022 Dussehra = 5 Oct (author). Only the five proposed Holi rows await confirmation.
