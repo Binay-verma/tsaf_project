@@ -56,6 +56,8 @@ if (SECOND/'summary.json').exists():
     SECOND_TEXT = st.build(SECOND)
     for old, new in SECOND_TEXT['replacements']:
         text = one(text, old, new)
+    for old, new in SECOND_TEXT['supp_replacements']:
+        supp = one(supp, old, new)
 
 # ---------------- checks ----------------
 heads = set(re.findall(r'(?m)^##+ ((?:Appendix )?[A-Z]?[0-9.]+[0-9A-Z]?)', text))

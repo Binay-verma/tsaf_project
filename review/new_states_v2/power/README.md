@@ -1,4 +1,4 @@
-# Power and early heterogeneity, second test (computed 15-16 Nov 2026, before registration)
+# Power and early heterogeneity, second test (computed and committed on 15 Nov 2026, commit a6d8c75 at 17:41 UTC, before the OSF registration)
 
 No forecast and no 2021-2025 outcome of the seven new states was used.
 
