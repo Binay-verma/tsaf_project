@@ -2,6 +2,8 @@
 
 What replicates when festival indicators are tested on new states? Typed versus pooled indicators in Indian electricity forecasting
 
+**Names.** Sections S1 to S9 come from the previous draft and use its model names: "Stable LightGBM" and "LGBM" are the tuned LightGBM of the main paper; "Tree leaf minimum 2" and "LGBM-2" are the leaf-2 LightGBM; "Rich Ridge" is Ridge. Hypothesis labels H1-H3 in Section S3 refer to Stage B and in Sections S5 and S9 to the first state-level test, as in Table 3 of the main paper.
+
 ## S1. Companion tables
 
 Table S1. 2024–2025 seasonal ordinary sample: lead-1 MASE.
@@ -554,6 +556,33 @@ Table S32. Ridge with fixed penalties for every arm, 730-day window, event years
 | second | 10 | 0.5670 | 0.5397 | 0.5397 | 0.5397 | +0.0000 |
 | second | 100 | 0.6168 | 0.5850 | 0.5879 | 0.5845 | −0.0029 |
 | second | 1000 | 0.7779 | 0.7540 | 0.7576 | 0.7479 | −0.0036 |
+
+## S11. Second registered test: sensitivities, all models, mixed model
+
+Table S33. Registered sensitivities of the second test (statistic and decision).
+
+| Analysis | R1 SARIMAX | R2 leaf-2 LightGBM | M1 | M2 |
+| --- | --- | --- | --- | --- |
+| Without 2020–2021 | +0.0010 (not confirmed) | +0.0164 (confirmed) | −0.0129 (not confirmed) | −0.47 (not confirmed) |
+| Rows checked one by one only | +0.0010 (not confirmed) | +0.0040 (not confirmed) | −0.0180 (not confirmed) | −0.56 (not confirmed) |
+
+Table S34. Second test, all local models at lead 1 (reported, not tested): typed minus pooled MASE over 36 clusters, two-sided sign-flip p.
+
+| Model | Typed − pooled | Clusters | Two-sided p |
+| --- | --- | --- | --- |
+| Ridge | −0.0011 | 36 | 0.812 |
+| Tuned LightGBM | +0.0119 | 36 | < 0.0001 |
+| Leaf-2 LightGBM | +0.0147 | 36 | < 0.0001 |
+| SARIMAX | −0.0008 | 36 | 0.820 |
+
+Table S35. Linear mixed model over the fourteen states of both tests (typed minus pooled lead-1 MASE per state-family-year; crossed random effects for state and family-year; REML; descriptive). The Ridge fit did not converge and is shown for completeness only.
+
+| Model | Estimate | 95% interval | p (two-sided) | SD state | SD family-year | Converged |
+| --- | --- | --- | --- | --- | --- | --- |
+| Ridge | −0.0106 | −0.0366 to +0.0153 | 0.423 | 0.0398 | 0.0309 | no |
+| SARIMAX | −0.0064 | −0.0189 to +0.0061 | 0.315 | 0.0207 | 0.0089 | yes |
+| Leaf-2 LightGBM | +0.0146 | +0.0012 to +0.0279 | 0.032 | 0.0238 | 0.0087 | yes |
+| Tuned LightGBM | +0.0203 | +0.0002 to +0.0404 | 0.048 | 0.0373 | 0.0028 | yes |
 
 ## References cited in the supplement
 
