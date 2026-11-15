@@ -1,0 +1,505 @@
+model,mode,schedule,state,year,horizon,MASE,MAE_GWh,n,scope
+lightgbm,rich_calendar,monthly,Bihar,2017,1,1.061277452580937,3.938535367887742,352,all
+lightgbm,rich_calendar,monthly,Bihar,2017,7,1.621737934830062,6.018475374408568,352,all
+lightgbm,rich_calendar,monthly,Bihar,2017,14,1.6670497134054996,6.186633137552647,352,all
+lightgbm,rich_calendar,monthly,Bihar,2018,1,0.9327039139980576,4.437433181910982,352,all
+lightgbm,rich_calendar,monthly,Bihar,2018,7,1.533920250816039,7.297780696769417,352,all
+lightgbm,rich_calendar,monthly,Bihar,2018,14,1.3348300014915475,6.350588704446258,352,all
+lightgbm,rich_calendar,monthly,Bihar,2019,1,1.026340558415584,5.817349389193725,351,all
+lightgbm,rich_calendar,monthly,Bihar,2019,7,1.4351428616780733,8.134461199386923,351,all
+lightgbm,rich_calendar,monthly,Bihar,2019,14,1.5602867543858339,8.84378301448568,351,all
+lightgbm,rich_calendar,monthly,Bihar,2020,1,0.7022495352333639,5.230054548325372,352,all
+lightgbm,rich_calendar,monthly,Bihar,2020,7,1.4892829486227859,11.091543202801349,352,all
+lightgbm,rich_calendar,monthly,Bihar,2020,14,1.4031916634380632,10.450372087605224,352,all
+lightgbm,rich_calendar,monthly,Bihar,2021,1,0.6611927870935426,5.553375691208892,352,all
+lightgbm,rich_calendar,monthly,Bihar,2021,7,1.1384925074004146,9.562228654993552,352,all
+lightgbm,rich_calendar,monthly,Bihar,2021,14,1.083740491071046,9.102365022988788,352,all
+lightgbm,rich_calendar,monthly,Bihar,2022,1,0.6273758720301104,5.415010803371124,352,all
+lightgbm,rich_calendar,monthly,Bihar,2022,7,0.9908003884705905,8.55180290914193,352,all
+lightgbm,rich_calendar,monthly,Bihar,2022,14,1.1133847886323247,9.60985419991376,352,all
+lightgbm,rich_calendar,monthly,Bihar,2023,1,0.6188892122689664,5.454014683225062,352,all
+lightgbm,rich_calendar,monthly,Bihar,2023,7,1.062496581111113,9.363342968948073,352,all
+lightgbm,rich_calendar,monthly,Bihar,2023,14,1.1600563723433437,10.223097062774018,352,all
+lightgbm,rich_calendar,monthly,Bihar,2024,1,0.65749710084326,6.356987529771286,353,all
+lightgbm,rich_calendar,monthly,Bihar,2024,7,1.106844595712223,10.701487935556228,353,all
+lightgbm,rich_calendar,monthly,Bihar,2024,14,1.107954803503884,10.712221940433196,353,all
+lightgbm,rich_calendar,monthly,Bihar,2025,1,0.5549456077069839,6.580075269699904,352,all
+lightgbm,rich_calendar,monthly,Bihar,2025,7,1.0455210435546873,12.396903529106815,352,all
+lightgbm,rich_calendar,monthly,Bihar,2025,14,1.101823432705046,13.06448960119788,352,all
+lightgbm,rich_calendar,monthly,Chhattisgarh,2017,1,0.5578042360696384,2.7085732370291615,352,all
+lightgbm,rich_calendar,monthly,Chhattisgarh,2017,7,1.0534393721517308,5.11526715958242,352,all
+lightgbm,rich_calendar,monthly,Chhattisgarh,2017,14,1.1983113253634932,5.81873312468587,352,all
+lightgbm,rich_calendar,monthly,Chhattisgarh,2018,1,0.7331566903022118,3.16054953145761,352,all
+lightgbm,rich_calendar,monthly,Chhattisgarh,2018,7,1.3485412710650146,5.813397789030478,352,all
+lightgbm,rich_calendar,monthly,Chhattisgarh,2018,14,1.560419005080452,6.72677699135728,352,all
+lightgbm,rich_calendar,monthly,Chhattisgarh,2019,1,0.6987681796236503,3.2659438901580065,351,all
+lightgbm,rich_calendar,monthly,Chhattisgarh,2019,7,1.5110021178522708,7.062210728418246,351,all
+lightgbm,rich_calendar,monthly,Chhattisgarh,2019,14,1.6641098890453676,7.777814850708307,351,all
+lightgbm,rich_calendar,monthly,Chhattisgarh,2020,1,0.5183380441234592,2.9427366380174136,352,all
+lightgbm,rich_calendar,monthly,Chhattisgarh,2020,7,1.1172335297317193,6.342818317962339,352,all
+lightgbm,rich_calendar,monthly,Chhattisgarh,2020,14,1.2917412102270152,7.333542712652206,352,all
+lightgbm,rich_calendar,monthly,Chhattisgarh,2021,1,0.6497692080502473,4.0266712938935845,352,all
+lightgbm,rich_calendar,monthly,Chhattisgarh,2021,7,1.4228429769607616,8.817470726625963,352,all
+lightgbm,rich_calendar,monthly,Chhattisgarh,2021,14,1.59686986248956,9.895929132537878,352,all
+lightgbm,rich_calendar,monthly,Chhattisgarh,2022,1,0.5612227020416396,3.7288227903748545,352,all
+lightgbm,rich_calendar,monthly,Chhattisgarh,2022,7,1.6135765779086426,10.720772869366936,352,all
+lightgbm,rich_calendar,monthly,Chhattisgarh,2022,14,1.8984644770098489,12.613598100787765,352,all
+lightgbm,rich_calendar,monthly,Chhattisgarh,2023,1,0.55385811301743,3.715905323393704,352,all
+lightgbm,rich_calendar,monthly,Chhattisgarh,2023,7,1.3998069575419267,9.391484936305151,352,all
+lightgbm,rich_calendar,monthly,Chhattisgarh,2023,14,1.5503233618263885,10.401318853680861,352,all
+lightgbm,rich_calendar,monthly,Chhattisgarh,2024,1,0.5249244977845694,3.8756998023425684,353,all
+lightgbm,rich_calendar,monthly,Chhattisgarh,2024,7,1.5410534097060713,11.37813232303812,353,all
+lightgbm,rich_calendar,monthly,Chhattisgarh,2024,14,1.8780650148231945,13.866406002114225,353,all
+lightgbm,rich_calendar,monthly,Chhattisgarh,2025,1,0.39582196498932976,3.4997559847185187,352,all
+lightgbm,rich_calendar,monthly,Chhattisgarh,2025,7,1.078002666210452,9.531422246146073,352,all
+lightgbm,rich_calendar,monthly,Chhattisgarh,2025,14,1.2203327074234815,10.78986785452448,352,all
+lightgbm,rich_calendar,monthly,Haryana,2017,1,0.5274093038671741,6.2119185697279935,352,all
+lightgbm,rich_calendar,monthly,Haryana,2017,7,1.1266114168052341,13.269425339304444,352,all
+lightgbm,rich_calendar,monthly,Haryana,2017,14,1.024859947317071,12.07097882314322,352,all
+lightgbm,rich_calendar,monthly,Haryana,2018,1,0.5626187371317638,7.175232906843183,352,all
+lightgbm,rich_calendar,monthly,Haryana,2018,7,1.0299703638313884,13.135497913403903,352,all
+lightgbm,rich_calendar,monthly,Haryana,2018,14,1.143286813092573,14.580654041282843,352,all
+lightgbm,rich_calendar,monthly,Haryana,2019,1,0.5191155428435068,7.200556200498468,351,all
+lightgbm,rich_calendar,monthly,Haryana,2019,7,1.0104715591160658,14.016065114455571,351,all
+lightgbm,rich_calendar,monthly,Haryana,2019,14,0.9761731127509667,13.540317674321361,351,all
+lightgbm,rich_calendar,monthly,Haryana,2020,1,0.5775178927472966,8.216293393404534,352,all
+lightgbm,rich_calendar,monthly,Haryana,2020,7,1.2433398279651289,17.688880193252572,352,all
+lightgbm,rich_calendar,monthly,Haryana,2020,14,1.415030099389062,20.131501730226407,352,all
+lightgbm,rich_calendar,monthly,Haryana,2021,1,0.597550983666772,9.061166710322782,352,all
+lightgbm,rich_calendar,monthly,Haryana,2021,7,1.1520070558927673,17.468849136283257,352,all
+lightgbm,rich_calendar,monthly,Haryana,2021,14,1.405938538886297,21.319425176313654,352,all
+lightgbm,rich_calendar,monthly,Haryana,2022,1,0.4854716348135641,8.280893694301161,352,all
+lightgbm,rich_calendar,monthly,Haryana,2022,7,1.1275955900493206,19.233871851127,352,all
+lightgbm,rich_calendar,monthly,Haryana,2022,14,1.3930030642871352,23.761038676600425,352,all
+lightgbm,rich_calendar,monthly,Haryana,2023,1,0.47404999923607966,8.032492020250851,352,all
+lightgbm,rich_calendar,monthly,Haryana,2023,7,1.0461172702176766,17.72582773718218,352,all
+lightgbm,rich_calendar,monthly,Haryana,2023,14,1.2578831495375964,21.314073151251986,352,all
+lightgbm,rich_calendar,monthly,Haryana,2024,1,0.6089000503652029,10.098182031675584,353,all
+lightgbm,rich_calendar,monthly,Haryana,2024,7,1.1995520308345387,19.893732570013825,353,all
+lightgbm,rich_calendar,monthly,Haryana,2024,14,1.5192579556438646,25.195832025242016,353,all
+lightgbm,rich_calendar,monthly,Haryana,2025,1,0.6524499134886192,10.299919058905276,352,all
+lightgbm,rich_calendar,monthly,Haryana,2025,7,1.3089027967053288,20.663031112923573,352,all
+lightgbm,rich_calendar,monthly,Haryana,2025,14,1.5008562384052098,23.69330956298203,352,all
+lightgbm,rich_calendar,monthly,Kerala,2017,1,0.6567479988539154,1.6513324148072912,352,all
+lightgbm,rich_calendar,monthly,Kerala,2017,7,0.9492410273398847,2.3867792222386317,352,all
+lightgbm,rich_calendar,monthly,Kerala,2017,14,1.021752997631941,2.5691038996092144,352,all
+lightgbm,rich_calendar,monthly,Kerala,2018,1,0.8068422749423938,2.149216263476259,352,all
+lightgbm,rich_calendar,monthly,Kerala,2018,7,1.2954180933342807,3.4506541373209796,352,all
+lightgbm,rich_calendar,monthly,Kerala,2018,14,1.5227010915128454,4.056076450042375,352,all
+lightgbm,rich_calendar,monthly,Kerala,2019,1,0.9061719410021057,2.672392548554204,351,all
+lightgbm,rich_calendar,monthly,Kerala,2019,7,1.5357139014498022,4.528975353625544,351,all
+lightgbm,rich_calendar,monthly,Kerala,2019,14,1.6433320203774733,4.846352052349721,351,all
+lightgbm,rich_calendar,monthly,Kerala,2020,1,0.5076017455309013,1.828281515907348,352,all
+lightgbm,rich_calendar,monthly,Kerala,2020,7,1.0874309746196131,3.9167122024822105,352,all
+lightgbm,rich_calendar,monthly,Kerala,2020,14,1.1222434374182546,4.042099837214238,352,all
+lightgbm,rich_calendar,monthly,Kerala,2021,1,0.5996445915160892,2.1215242168270203,352,all
+lightgbm,rich_calendar,monthly,Kerala,2021,7,1.1514803786802092,4.073902346713096,352,all
+lightgbm,rich_calendar,monthly,Kerala,2021,14,1.3411180672448442,4.744834686310757,352,all
+lightgbm,rich_calendar,monthly,Kerala,2022,1,0.6032234744840079,1.9442871461212006,352,all
+lightgbm,rich_calendar,monthly,Kerala,2022,7,1.1911774694923678,3.8393582820434293,352,all
+lightgbm,rich_calendar,monthly,Kerala,2022,14,1.4789683351843246,4.7669549433215685,352,all
+lightgbm,rich_calendar,monthly,Kerala,2023,1,0.686827073507473,2.3941100838914706,352,all
+lightgbm,rich_calendar,monthly,Kerala,2023,7,1.4861841258296422,5.18047196945486,352,all
+lightgbm,rich_calendar,monthly,Kerala,2023,14,1.5460368787366354,5.389103930556111,352,all
+lightgbm,rich_calendar,monthly,Kerala,2024,1,0.700241600339627,2.574884248153419,353,all
+lightgbm,rich_calendar,monthly,Kerala,2024,7,1.4242309277578207,5.237092140538186,353,all
+lightgbm,rich_calendar,monthly,Kerala,2024,14,1.5575243970553139,5.727230478947919,353,all
+lightgbm,rich_calendar,monthly,Kerala,2025,1,0.5979240816139691,2.234863238160893,352,all
+lightgbm,rich_calendar,monthly,Kerala,2025,7,0.9071804755941982,3.3907721023882953,352,all
+lightgbm,rich_calendar,monthly,Kerala,2025,14,0.9777093845860837,3.6543882884233043,352,all
+lightgbm,rich_calendar,monthly,Odisha,2017,1,0.5832578230544684,2.6948841128261303,352,all
+lightgbm,rich_calendar,monthly,Odisha,2017,7,0.9554082392975496,4.414367683681645,352,all
+lightgbm,rich_calendar,monthly,Odisha,2017,14,1.072850162279582,4.956996277613892,352,all
+lightgbm,rich_calendar,monthly,Odisha,2018,1,1.1051208056800226,4.816908705594431,352,all
+lightgbm,rich_calendar,monthly,Odisha,2018,7,1.9854712629339928,8.65410710030867,352,all
+lightgbm,rich_calendar,monthly,Odisha,2018,14,2.27454108792019,9.914080624781281,352,all
+lightgbm,rich_calendar,monthly,Odisha,2019,1,0.8355182041964924,4.728825022921227,351,all
+lightgbm,rich_calendar,monthly,Odisha,2019,7,1.3177460801734486,7.458114744218192,351,all
+lightgbm,rich_calendar,monthly,Odisha,2019,14,1.2724030403048294,7.201484427285425,351,all
+lightgbm,rich_calendar,monthly,Odisha,2020,1,0.4674728169790482,3.455667988814051,352,all
+lightgbm,rich_calendar,monthly,Odisha,2020,7,0.9220463505515487,6.8159814690286336,352,all
+lightgbm,rich_calendar,monthly,Odisha,2020,14,0.8972250009213134,6.632496268946486,352,all
+lightgbm,rich_calendar,monthly,Odisha,2021,1,0.7262503485459988,5.043955132822392,352,all
+lightgbm,rich_calendar,monthly,Odisha,2021,7,1.438564492446776,9.991120513883478,352,all
+lightgbm,rich_calendar,monthly,Odisha,2021,14,1.7888642870792524,12.424023232209953,352,all
+lightgbm,rich_calendar,monthly,Odisha,2022,1,0.6643774963113952,4.906349485589492,352,all
+lightgbm,rich_calendar,monthly,Odisha,2022,7,1.2532236888203094,9.2549091971203,352,all
+lightgbm,rich_calendar,monthly,Odisha,2022,14,1.4431642558805189,10.657597892421391,352,all
+lightgbm,rich_calendar,monthly,Odisha,2023,1,0.5844071882811543,4.407222342163438,352,all
+lightgbm,rich_calendar,monthly,Odisha,2023,7,0.9235913010936225,6.965130304402305,352,all
+lightgbm,rich_calendar,monthly,Odisha,2023,14,0.9041522575040453,6.818533566825805,352,all
+lightgbm,rich_calendar,monthly,Odisha,2024,1,0.5952224428228833,4.407842001540843,353,all
+lightgbm,rich_calendar,monthly,Odisha,2024,7,1.0660532582618691,7.894518065146922,353,all
+lightgbm,rich_calendar,monthly,Odisha,2024,14,1.180038644380942,8.738621943546892,353,all
+lightgbm,rich_calendar,monthly,Odisha,2025,1,0.49881851200867117,4.217018599809162,352,all
+lightgbm,rich_calendar,monthly,Odisha,2025,7,0.8599284101627975,7.269846673408546,352,all
+lightgbm,rich_calendar,monthly,Odisha,2025,14,0.8776309921812213,7.419504546641291,352,all
+lightgbm,rich_calendar,monthly,Punjab,2017,1,0.506841765666556,8.273884538129339,352,all
+lightgbm,rich_calendar,monthly,Punjab,2017,7,0.9485464491255503,15.484445700318576,352,all
+lightgbm,rich_calendar,monthly,Punjab,2017,14,0.9680371472305894,15.802619530126288,352,all
+lightgbm,rich_calendar,monthly,Punjab,2018,1,0.5455629223593341,9.441814771230831,352,all
+lightgbm,rich_calendar,monthly,Punjab,2018,7,1.0475784328165494,18.129973859322174,352,all
+lightgbm,rich_calendar,monthly,Punjab,2018,14,1.1848730828589733,20.506071283933654,352,all
+lightgbm,rich_calendar,monthly,Punjab,2019,1,0.5049527801100954,9.309988311789203,351,all
+lightgbm,rich_calendar,monthly,Punjab,2019,7,0.9154484728118054,16.87843877216588,351,all
+lightgbm,rich_calendar,monthly,Punjab,2019,14,1.0088373143432379,18.60028100644292,351,all
+lightgbm,rich_calendar,monthly,Punjab,2020,1,0.5956450728623651,11.323452414962562,352,all
+lightgbm,rich_calendar,monthly,Punjab,2020,7,1.2484162338568838,23.732894742523403,352,all
+lightgbm,rich_calendar,monthly,Punjab,2020,14,1.4063342735295328,26.73498019435859,352,all
+lightgbm,rich_calendar,monthly,Punjab,2021,1,0.5299709185653652,10.60015546576984,352,all
+lightgbm,rich_calendar,monthly,Punjab,2021,7,0.9318201294374919,18.63769858336658,352,all
+lightgbm,rich_calendar,monthly,Punjab,2021,14,1.2776869522571526,25.555516078456343,352,all
+lightgbm,rich_calendar,monthly,Punjab,2022,1,0.5206127153084608,10.82368998603435,352,all
+lightgbm,rich_calendar,monthly,Punjab,2022,7,1.1324656648887585,23.544291017405705,352,all
+lightgbm,rich_calendar,monthly,Punjab,2022,14,1.2258386659169906,25.48554290480237,352,all
+lightgbm,rich_calendar,monthly,Punjab,2023,1,0.6173838791282598,12.572856184122763,352,all
+lightgbm,rich_calendar,monthly,Punjab,2023,7,1.295517444775103,26.38286334942626,352,all
+lightgbm,rich_calendar,monthly,Punjab,2023,14,1.5532733567139496,31.631992976831512,352,all
+lightgbm,rich_calendar,monthly,Punjab,2024,1,0.630173854381779,13.884708566179201,353,all
+lightgbm,rich_calendar,monthly,Punjab,2024,7,1.532377775226025,33.76309358815985,353,all
+lightgbm,rich_calendar,monthly,Punjab,2024,14,1.436320672672718,31.646654028837467,353,all
+lightgbm,rich_calendar,monthly,Punjab,2025,1,0.5109864486975056,11.978002953299569,352,all
+lightgbm,rich_calendar,monthly,Punjab,2025,7,1.2871687002776946,30.17244494960763,352,all
+lightgbm,rich_calendar,monthly,Punjab,2025,14,1.16116275007489,27.218746965033507,352,all
+lightgbm,rich_calendar,monthly,West Bengal,2017,1,0.5711920941661147,5.210559321774683,352,all
+lightgbm,rich_calendar,monthly,West Bengal,2017,7,1.046855646322117,9.549683026442285,352,all
+lightgbm,rich_calendar,monthly,West Bengal,2017,14,1.1210671422118172,10.226659135951365,352,all
+lightgbm,rich_calendar,monthly,West Bengal,2018,1,0.7105588472962511,6.811355667157411,352,all
+lightgbm,rich_calendar,monthly,West Bengal,2018,7,1.0293223812340553,9.866995339553396,352,all
+lightgbm,rich_calendar,monthly,West Bengal,2018,14,1.1372825263579698,10.901891955245416,352,all
+lightgbm,rich_calendar,monthly,West Bengal,2019,1,0.6349479734791942,7.036505737077936,351,all
+lightgbm,rich_calendar,monthly,West Bengal,2019,7,1.1240871783718975,12.457155877274074,351,all
+lightgbm,rich_calendar,monthly,West Bengal,2019,14,1.1326236355409975,12.551757060919966,351,all
+lightgbm,rich_calendar,monthly,West Bengal,2020,1,0.6206038228420461,7.949754212211607,352,all
+lightgbm,rich_calendar,monthly,West Bengal,2020,7,1.1719872439973302,15.012815240097837,352,all
+lightgbm,rich_calendar,monthly,West Bengal,2020,14,1.1465394923245453,14.68683695313597,352,all
+lightgbm,rich_calendar,monthly,West Bengal,2021,1,0.4600806054460735,6.0602662003597665,352,all
+lightgbm,rich_calendar,monthly,West Bengal,2021,7,0.997397891273113,13.137908134449788,352,all
+lightgbm,rich_calendar,monthly,West Bengal,2021,14,1.0377663966178825,13.669649498037053,352,all
+lightgbm,rich_calendar,monthly,West Bengal,2022,1,0.5392114138292471,6.508678133919469,352,all
+lightgbm,rich_calendar,monthly,West Bengal,2022,7,1.143700348765934,13.805303932468687,352,all
+lightgbm,rich_calendar,monthly,West Bengal,2022,14,1.1897903252437454,14.361643828843711,352,all
+lightgbm,rich_calendar,monthly,West Bengal,2023,1,0.7763862493499925,8.893756838681197,352,all
+lightgbm,rich_calendar,monthly,West Bengal,2023,7,1.311843166812629,15.02758987022898,352,all
+lightgbm,rich_calendar,monthly,West Bengal,2023,14,1.3846303558546953,15.861390779059137,352,all
+lightgbm,rich_calendar,monthly,West Bengal,2024,1,0.6473693708153189,9.153211943736993,353,all
+lightgbm,rich_calendar,monthly,West Bengal,2024,7,1.2049147672606588,17.036394886871538,353,all
+lightgbm,rich_calendar,monthly,West Bengal,2024,14,1.1320497820635695,16.006150511938813,353,all
+lightgbm,rich_calendar,monthly,West Bengal,2025,1,0.4801033729055511,8.402644392435134,352,all
+lightgbm,rich_calendar,monthly,West Bengal,2025,7,0.8869478791347106,15.523131149631922,352,all
+lightgbm,rich_calendar,monthly,West Bengal,2025,14,0.9081212620328397,15.893702191449716,352,all
+lightgbm,rich_calendar,monthly,Bihar,2020,1,0.2850423532683385,2.1228736814771105,7,event
+lightgbm,rich_calendar,monthly,Bihar,2020,7,2.3436968445823587,17.45485290756434,7,event
+lightgbm,rich_calendar,monthly,Bihar,2020,14,1.1263913715734046,8.388881758582121,7,event
+lightgbm,rich_calendar,monthly,Bihar,2021,1,0.23625692463909,1.9843281532726016,7,event
+lightgbm,rich_calendar,monthly,Bihar,2021,7,0.5161096718672379,4.334818772516081,7,event
+lightgbm,rich_calendar,monthly,Bihar,2021,14,0.4146512213477835,3.4826665655036573,7,event
+lightgbm,rich_calendar,monthly,Bihar,2022,1,0.55522118997972,4.7922288312937535,7,event
+lightgbm,rich_calendar,monthly,Bihar,2022,7,0.40333830398467413,3.481296254545112,7,event
+lightgbm,rich_calendar,monthly,Bihar,2022,14,0.33587131209502213,2.8989747049910295,7,event
+lightgbm,rich_calendar,monthly,Bihar,2023,1,0.1555022820679528,1.3703773031756035,7,event
+lightgbm,rich_calendar,monthly,Bihar,2023,7,0.31457464332387336,2.772216237811977,7,event
+lightgbm,rich_calendar,monthly,Bihar,2023,14,0.7126365262716906,6.280170991894989,7,event
+lightgbm,rich_calendar,monthly,Bihar,2024,1,0.5741530545017184,5.551178557238397,7,event
+lightgbm,rich_calendar,monthly,Bihar,2024,7,1.669590754372944,16.142379322673843,7,event
+lightgbm,rich_calendar,monthly,Bihar,2024,14,1.1447370131368053,11.067849436971246,7,event
+lightgbm,rich_calendar,monthly,Bihar,2025,1,0.27839001336924823,3.3009131288946736,7,event
+lightgbm,rich_calendar,monthly,Bihar,2025,7,0.4241708197273778,5.029458531168639,7,event
+lightgbm,rich_calendar,monthly,Bihar,2025,14,0.5536907468000852,6.565196191271814,7,event
+lightgbm,rich_calendar,monthly,Chhattisgarh,2020,1,0.43700282279170255,2.4809759424872064,7,event
+lightgbm,rich_calendar,monthly,Chhattisgarh,2020,7,0.6606377176791528,3.750608002463351,7,event
+lightgbm,rich_calendar,monthly,Chhattisgarh,2020,14,0.7267388450197904,4.125880879777403,7,event
+lightgbm,rich_calendar,monthly,Chhattisgarh,2021,1,0.3417636016049843,2.1179361330616535,7,event
+lightgbm,rich_calendar,monthly,Chhattisgarh,2021,7,0.6315474415599827,3.9137495623905636,7,event
+lightgbm,rich_calendar,monthly,Chhattisgarh,2021,14,1.9253560353711447,11.931583987208915,7,event
+lightgbm,rich_calendar,monthly,Chhattisgarh,2022,1,0.47931333547716815,3.184608324923476,7,event
+lightgbm,rich_calendar,monthly,Chhattisgarh,2022,7,1.5404282386579793,10.234767592880974,7,event
+lightgbm,rich_calendar,monthly,Chhattisgarh,2022,14,1.7957567569385424,11.931197182300128,7,event
+lightgbm,rich_calendar,monthly,Chhattisgarh,2023,1,0.45176994220243033,3.0309826537224467,7,event
+lightgbm,rich_calendar,monthly,Chhattisgarh,2023,7,2.0026291741752575,13.435896729145123,7,event
+lightgbm,rich_calendar,monthly,Chhattisgarh,2023,14,2.027179487002383,13.600607935826362,7,event
+lightgbm,rich_calendar,monthly,Chhattisgarh,2024,1,0.6278544156196422,4.635667119341838,7,event
+lightgbm,rich_calendar,monthly,Chhattisgarh,2024,7,1.4675327058312535,10.835303442545179,7,event
+lightgbm,rich_calendar,monthly,Chhattisgarh,2024,14,1.5753319275669344,11.631222520692543,7,event
+lightgbm,rich_calendar,monthly,Chhattisgarh,2025,1,0.3992115993260973,3.529726259502106,7,event
+lightgbm,rich_calendar,monthly,Chhattisgarh,2025,7,1.645405437136992,14.548251575841205,7,event
+lightgbm,rich_calendar,monthly,Chhattisgarh,2025,14,1.029473243501495,9.102337575301226,7,event
+lightgbm,rich_calendar,monthly,Haryana,2020,1,0.555981019097218,7.90989029333096,7,event
+lightgbm,rich_calendar,monthly,Haryana,2020,7,1.0965778609276138,15.60091132628445,7,event
+lightgbm,rich_calendar,monthly,Haryana,2020,14,1.190240142207104,16.933435898340623,7,event
+lightgbm,rich_calendar,monthly,Haryana,2021,1,0.5476479344115466,8.304444922534367,7,event
+lightgbm,rich_calendar,monthly,Haryana,2021,7,1.0789805605156002,16.36148714212724,7,event
+lightgbm,rich_calendar,monthly,Haryana,2021,14,1.643391288971986,24.920120369129023,7,event
+lightgbm,rich_calendar,monthly,Haryana,2022,1,0.6372876417354743,10.870483124992452,7,event
+lightgbm,rich_calendar,monthly,Haryana,2022,7,0.8935832027600771,15.242224217509756,7,event
+lightgbm,rich_calendar,monthly,Haryana,2022,14,0.7567056782755422,12.907446759644841,7,event
+lightgbm,rich_calendar,monthly,Haryana,2023,1,0.7305984973176042,12.379551965336798,7,event
+lightgbm,rich_calendar,monthly,Haryana,2023,7,1.5896382025534044,26.93546292094225,7,event
+lightgbm,rich_calendar,monthly,Haryana,2023,14,1.2406901041252876,21.022747341103837,7,event
+lightgbm,rich_calendar,monthly,Haryana,2024,1,0.9588247901892669,15.901439426728762,7,event
+lightgbm,rich_calendar,monthly,Haryana,2024,7,1.6518433315732468,27.394667876988162,7,event
+lightgbm,rich_calendar,monthly,Haryana,2024,14,2.3206387152303085,38.486172175702976,7,event
+lightgbm,rich_calendar,monthly,Haryana,2025,1,0.831898842782287,13.132794669309098,7,event
+lightgbm,rich_calendar,monthly,Haryana,2025,7,3.1367877353835936,49.51898852536419,7,event
+lightgbm,rich_calendar,monthly,Haryana,2025,14,3.8623369886233667,60.9728923839156,7,event
+lightgbm,rich_calendar,monthly,Kerala,2020,1,0.5175028450976459,1.863943326538248,7,event
+lightgbm,rich_calendar,monthly,Kerala,2020,7,0.43912629487283594,1.581646428786779,7,event
+lightgbm,rich_calendar,monthly,Kerala,2020,14,0.4277279640329307,1.5405918859876806,7,event
+lightgbm,rich_calendar,monthly,Kerala,2021,1,0.4134515497561297,1.462778932224816,7,event
+lightgbm,rich_calendar,monthly,Kerala,2021,7,0.5048640914325737,1.7861937076302934,7,event
+lightgbm,rich_calendar,monthly,Kerala,2021,14,0.8145630798349571,2.8818992524119103,7,event
+lightgbm,rich_calendar,monthly,Kerala,2022,1,0.37059807425227925,1.1944977319762435,7,event
+lightgbm,rich_calendar,monthly,Kerala,2022,7,0.9306246710259533,2.9995543314801836,7,event
+lightgbm,rich_calendar,monthly,Kerala,2022,14,0.9038355793270589,2.9132087417450094,7,event
+lightgbm,rich_calendar,monthly,Kerala,2023,1,0.3985793614378475,1.3893495251668924,7,event
+lightgbm,rich_calendar,monthly,Kerala,2023,7,0.4324068145653071,1.5072636985719043,7,event
+lightgbm,rich_calendar,monthly,Kerala,2023,14,0.3953790329322965,1.378193967905911,7,event
+lightgbm,rich_calendar,monthly,Kerala,2024,1,0.3776954501690789,1.3888378879059584,7,event
+lightgbm,rich_calendar,monthly,Kerala,2024,7,0.4544762289736415,1.67117132512096,7,event
+lightgbm,rich_calendar,monthly,Kerala,2024,14,0.7752050766877375,2.850535215393801,7,event
+lightgbm,rich_calendar,monthly,Kerala,2025,1,0.6629377378479254,2.477865041840553,7,event
+lightgbm,rich_calendar,monthly,Kerala,2025,7,0.5813779023905186,2.1730185177096013,7,event
+lightgbm,rich_calendar,monthly,Kerala,2025,14,0.39559793355090805,1.478627983002257,7,event
+lightgbm,rich_calendar,monthly,Odisha,2020,1,0.24372512197909904,1.8016728919891847,7,event
+lightgbm,rich_calendar,monthly,Odisha,2020,7,1.805948529058352,13.349992330340088,7,event
+lightgbm,rich_calendar,monthly,Odisha,2020,14,1.2047728245349272,8.905961442727122,7,event
+lightgbm,rich_calendar,monthly,Odisha,2021,1,0.41993321253201893,2.916520848539485,7,event
+lightgbm,rich_calendar,monthly,Odisha,2021,7,1.5567881352982251,10.812207555528815,7,event
+lightgbm,rich_calendar,monthly,Odisha,2021,14,1.9909675638205626,13.827671247140975,7,event
+lightgbm,rich_calendar,monthly,Odisha,2022,1,0.7532876409377659,5.562940421876746,7,event
+lightgbm,rich_calendar,monthly,Odisha,2022,7,0.80774924705517,5.965132962476078,7,event
+lightgbm,rich_calendar,monthly,Odisha,2022,14,0.6020018229868314,4.445712491669048,7,event
+lightgbm,rich_calendar,monthly,Odisha,2023,1,0.347516461423035,2.6207451649556788,7,event
+lightgbm,rich_calendar,monthly,Odisha,2023,7,0.5375423433443377,4.0537978877602585,7,event
+lightgbm,rich_calendar,monthly,Odisha,2023,14,0.39365848978453666,2.9687186026296097,7,event
+lightgbm,rich_calendar,monthly,Odisha,2024,1,0.23835661054655247,1.765118724907755,7,event
+lightgbm,rich_calendar,monthly,Odisha,2024,7,0.3059475671671496,2.2656547196589583,7,event
+lightgbm,rich_calendar,monthly,Odisha,2024,14,0.7087074063441492,5.248240065800685,7,event
+lightgbm,rich_calendar,monthly,Odisha,2025,1,0.3947719548585792,3.3374075665674416,7,event
+lightgbm,rich_calendar,monthly,Odisha,2025,7,0.543876579295185,4.597940123859132,7,event
+lightgbm,rich_calendar,monthly,Odisha,2025,14,0.7057872401962427,5.966735090544903,7,event
+lightgbm,rich_calendar,monthly,Punjab,2020,1,0.48040145856672334,9.13262495401497,7,event
+lightgbm,rich_calendar,monthly,Punjab,2020,7,0.8627224800076377,16.40070134843923,7,event
+lightgbm,rich_calendar,monthly,Punjab,2020,14,0.8005637944916473,15.219039735367218,7,event
+lightgbm,rich_calendar,monthly,Punjab,2021,1,0.5685246654722135,11.371284025251601,7,event
+lightgbm,rich_calendar,monthly,Punjab,2021,7,0.5695393537460568,11.391579201977805,7,event
+lightgbm,rich_calendar,monthly,Punjab,2021,14,0.5533749005623969,11.068267656450388,7,event
+lightgbm,rich_calendar,monthly,Punjab,2022,1,0.5199798825388331,10.810533208433565,7,event
+lightgbm,rich_calendar,monthly,Punjab,2022,7,0.7407493688632566,15.400395130910466,7,event
+lightgbm,rich_calendar,monthly,Punjab,2022,14,0.5768862846104457,11.993633882182607,7,event
+lightgbm,rich_calendar,monthly,Punjab,2023,1,0.6215799072586945,12.658307165290237,7,event
+lightgbm,rich_calendar,monthly,Punjab,2023,7,0.8619542965874192,17.553466772702883,7,event
+lightgbm,rich_calendar,monthly,Punjab,2023,14,0.860649587128444,17.526896716463444,7,event
+lightgbm,rich_calendar,monthly,Punjab,2024,1,0.6084141825705853,13.405274677430318,7,event
+lightgbm,rich_calendar,monthly,Punjab,2024,7,0.9611616667368006,21.177409273375606,7,event
+lightgbm,rich_calendar,monthly,Punjab,2024,14,0.8807756691844638,19.40625335972578,7,event
+lightgbm,rich_calendar,monthly,Punjab,2025,1,0.5115321747640833,11.990795285569478,7,event
+lightgbm,rich_calendar,monthly,Punjab,2025,7,1.9287467831643146,45.211638633073555,7,event
+lightgbm,rich_calendar,monthly,Punjab,2025,14,1.6776505027242727,39.32570565708221,7,event
+lightgbm,rich_calendar,monthly,West Bengal,2020,1,0.6565479973193223,8.410188618088483,7,event
+lightgbm,rich_calendar,monthly,West Bengal,2020,7,1.1780373228740806,15.090314988350114,7,event
+lightgbm,rich_calendar,monthly,West Bengal,2020,14,1.617347030776563,20.717744392297057,7,event
+lightgbm,rich_calendar,monthly,West Bengal,2021,1,0.2658649937598263,3.5020225075112137,7,event
+lightgbm,rich_calendar,monthly,West Bengal,2021,7,0.5905565146010779,7.778918829602071,7,event
+lightgbm,rich_calendar,monthly,West Bengal,2021,14,0.6819973675413183,8.983394532003222,7,event
+lightgbm,rich_calendar,monthly,West Bengal,2022,1,0.6429799315331758,7.7612404218214,7,event
+lightgbm,rich_calendar,monthly,West Bengal,2022,7,0.6160200709674081,7.435815086864567,7,event
+lightgbm,rich_calendar,monthly,West Bengal,2022,14,0.48525103121599295,5.857336650031605,7,event
+lightgbm,rich_calendar,monthly,West Bengal,2023,1,0.6620822330656683,7.584367179386553,7,event
+lightgbm,rich_calendar,monthly,West Bengal,2023,7,0.7779102666441837,8.911214952144478,7,event
+lightgbm,rich_calendar,monthly,West Bengal,2023,14,0.6521345776219228,7.470413552946458,7,event
+lightgbm,rich_calendar,monthly,West Bengal,2024,1,0.5406963282129651,7.644952499220925,7,event
+lightgbm,rich_calendar,monthly,West Bengal,2024,7,0.9357600351954013,13.230792676883956,7,event
+lightgbm,rich_calendar,monthly,West Bengal,2024,14,0.5074995407609589,7.175580228770883,7,event
+lightgbm,rich_calendar,monthly,West Bengal,2025,1,0.41860579164153305,7.326329716224596,7,event
+lightgbm,rich_calendar,monthly,West Bengal,2025,7,1.3335139038702084,23.33881359503303,7,event
+lightgbm,rich_calendar,monthly,West Bengal,2025,14,0.9799899049753803,17.151528492394824,7,event
+lightgbm,rich_calendar,monthly,Bihar,2017,1,1.061277452580937,3.938535367887742,352,non_event
+lightgbm,rich_calendar,monthly,Bihar,2017,7,1.621737934830062,6.018475374408568,352,non_event
+lightgbm,rich_calendar,monthly,Bihar,2017,14,1.6670497134054996,6.186633137552647,352,non_event
+lightgbm,rich_calendar,monthly,Bihar,2018,1,0.9327039139980576,4.437433181910982,352,non_event
+lightgbm,rich_calendar,monthly,Bihar,2018,7,1.533920250816039,7.297780696769417,352,non_event
+lightgbm,rich_calendar,monthly,Bihar,2018,14,1.3348300014915475,6.350588704446258,352,non_event
+lightgbm,rich_calendar,monthly,Bihar,2019,1,1.026340558415584,5.817349389193725,351,non_event
+lightgbm,rich_calendar,monthly,Bihar,2019,7,1.4351428616780733,8.134461199386923,351,non_event
+lightgbm,rich_calendar,monthly,Bihar,2019,14,1.5602867543858339,8.84378301448568,351,non_event
+lightgbm,rich_calendar,monthly,Bihar,2020,1,0.7107146084906252,5.293098797797656,345,non_event
+lightgbm,rich_calendar,monthly,Bihar,2020,7,1.4719470145018672,10.962432571110504,345,non_event
+lightgbm,rich_calendar,monthly,Bihar,2020,14,1.4088079012440127,10.492199427614388,345,non_event
+lightgbm,rich_calendar,monthly,Bihar,2021,1,0.6698146741578358,5.625791148500353,345,non_event
+lightgbm,rich_calendar,monthly,Bihar,2021,7,1.1511205649329719,9.668292043913384,345,non_event
+lightgbm,rich_calendar,monthly,Bihar,2021,14,1.0973162153842717,9.21638789024211,345,non_event
+lightgbm,rich_calendar,monthly,Bihar,2022,1,0.6288398800717125,5.427646959326316,345,non_event
+lightgbm,rich_calendar,monthly,Bihar,2022,7,1.002719909025377,8.654682754307663,345,non_event
+lightgbm,rich_calendar,monthly,Bihar,2022,14,1.1291604243881541,9.74601697227451,345,non_event
+lightgbm,rich_calendar,monthly,Bihar,2023,1,0.6282912659252189,5.536871093834762,345,non_event
+lightgbm,rich_calendar,monthly,Bihar,2023,7,1.0776718088343324,9.497075975087066,345,non_event
+lightgbm,rich_calendar,monthly,Bihar,2023,14,1.1691344561766817,10.303098461313594,345,non_event
+lightgbm,rich_calendar,monthly,Bihar,2024,1,0.6591832520698229,6.373290023435246,346,non_event
+lightgbm,rich_calendar,monthly,Bihar,2024,7,1.0954595578202433,10.5914120982446,346,non_event
+lightgbm,rich_calendar,monthly,Bihar,2024,14,1.107210654754085,10.705027164491675,346,non_event
+lightgbm,rich_calendar,monthly,Bihar,2025,1,0.5605568806355755,6.646608994295953,345,non_event
+lightgbm,rich_calendar,monthly,Bihar,2025,7,1.0581281495453863,12.546387920369328,345,non_event
+lightgbm,rich_calendar,monthly,Bihar,2025,14,1.1129449654625378,13.196359322558699,345,non_event
+lightgbm,rich_calendar,monthly,Chhattisgarh,2017,1,0.5578042360696384,2.7085732370291615,352,non_event
+lightgbm,rich_calendar,monthly,Chhattisgarh,2017,7,1.0534393721517308,5.11526715958242,352,non_event
+lightgbm,rich_calendar,monthly,Chhattisgarh,2017,14,1.1983113253634932,5.81873312468587,352,non_event
+lightgbm,rich_calendar,monthly,Chhattisgarh,2018,1,0.7331566903022118,3.16054953145761,352,non_event
+lightgbm,rich_calendar,monthly,Chhattisgarh,2018,7,1.3485412710650146,5.813397789030478,352,non_event
+lightgbm,rich_calendar,monthly,Chhattisgarh,2018,14,1.560419005080452,6.72677699135728,352,non_event
+lightgbm,rich_calendar,monthly,Chhattisgarh,2019,1,0.6987681796236503,3.2659438901580065,351,non_event
+lightgbm,rich_calendar,monthly,Chhattisgarh,2019,7,1.5110021178522708,7.062210728418246,351,non_event
+lightgbm,rich_calendar,monthly,Chhattisgarh,2019,14,1.6641098890453676,7.777814850708307,351,non_event
+lightgbm,rich_calendar,monthly,Chhattisgarh,2020,1,0.5199883239765674,2.952105695607882,345,non_event
+lightgbm,rich_calendar,monthly,Chhattisgarh,2020,7,1.1264977925849597,6.3954138895811585,345,non_event
+lightgbm,rich_calendar,monthly,Chhattisgarh,2020,14,1.3032050263326689,7.39862570636271,345,non_event
+lightgbm,rich_calendar,monthly,Chhattisgarh,2021,1,0.656018597166528,4.06539925367858,345,non_event
+lightgbm,rich_calendar,monthly,Chhattisgarh,2021,7,1.4388982486935311,8.91696651836407,345,non_event
+lightgbm,rich_calendar,monthly,Chhattisgarh,2021,14,1.5902049256484845,9.854625990559045,345,non_event
+lightgbm,rich_calendar,monthly,Chhattisgarh,2022,1,0.56288463121831,3.7398648230072014,345,non_event
+lightgbm,rich_calendar,monthly,Chhattisgarh,2022,7,1.6150607471108298,10.730633845991289,345,non_event
+lightgbm,rich_calendar,monthly,Chhattisgarh,2022,14,1.900548401764919,12.627443916525197,345,non_event
+lightgbm,rich_calendar,monthly,Chhattisgarh,2023,1,0.5559294672078793,3.729802305097178,345,non_event
+lightgbm,rich_calendar,monthly,Chhattisgarh,2023,7,1.387575782131975,9.309424407175065,345,non_event
+lightgbm,rich_calendar,monthly,Chhattisgarh,2023,14,1.540648020156151,10.336405741869214,345,non_event
+lightgbm,rich_calendar,monthly,Chhattisgarh,2024,1,0.522842100602935,3.8603247410159938,346,non_event
+lightgbm,rich_calendar,monthly,Chhattisgarh,2024,7,1.542540822790244,11.389114410215722,346,non_event
+lightgbm,rich_calendar,monthly,Chhattisgarh,2024,14,1.8841896726578589,13.91162647717189,346,non_event
+lightgbm,rich_calendar,monthly,Chhattisgarh,2025,1,0.39575318979988805,3.4991478921866777,345,non_event
+lightgbm,rich_calendar,monthly,Chhattisgarh,2025,7,1.0664901462206382,9.429631506123274,345,non_event
+lightgbm,rich_calendar,monthly,Chhattisgarh,2025,14,1.224205218285667,10.824107599320316,345,non_event
+lightgbm,rich_calendar,monthly,Haryana,2017,1,0.5274093038671741,6.2119185697279935,352,non_event
+lightgbm,rich_calendar,monthly,Haryana,2017,7,1.1266114168052341,13.269425339304444,352,non_event
+lightgbm,rich_calendar,monthly,Haryana,2017,14,1.024859947317071,12.07097882314322,352,non_event
+lightgbm,rich_calendar,monthly,Haryana,2018,1,0.5626187371317638,7.175232906843183,352,non_event
+lightgbm,rich_calendar,monthly,Haryana,2018,7,1.0299703638313884,13.135497913403903,352,non_event
+lightgbm,rich_calendar,monthly,Haryana,2018,14,1.143286813092573,14.580654041282843,352,non_event
+lightgbm,rich_calendar,monthly,Haryana,2019,1,0.5191155428435068,7.200556200498468,351,non_event
+lightgbm,rich_calendar,monthly,Haryana,2019,7,1.0104715591160658,14.016065114455571,351,non_event
+lightgbm,rich_calendar,monthly,Haryana,2019,14,0.9761731127509667,13.540317674321361,351,non_event
+lightgbm,rich_calendar,monthly,Haryana,2020,1,0.5779548727923706,8.22251026789878,345,non_event
+lightgbm,rich_calendar,monthly,Haryana,2020,7,1.2463176070064699,17.73124477895917,345,non_event
+lightgbm,rich_calendar,monthly,Haryana,2020,14,1.4195910550420294,20.196390022467572,345,non_event
+lightgbm,rich_calendar,monthly,Haryana,2021,1,0.5985635093038345,9.076520485727185,345,non_event
+lightgbm,rich_calendar,monthly,Haryana,2021,7,1.1534887529004199,17.491317350657436,345,non_event
+lightgbm,rich_calendar,monthly,Haryana,2021,14,1.4011206570005004,21.246367592691314,345,non_event
+lightgbm,rich_calendar,monthly,Haryana,2022,1,0.48239131003543834,8.22835130005525,345,non_event
+lightgbm,rich_calendar,monthly,Haryana,2022,7,1.1323436674725804,19.314861803113434,345,non_event
+lightgbm,rich_calendar,monthly,Haryana,2022,14,1.405913446032298,23.98125648361112,345,non_event
+lightgbm,rich_calendar,monthly,Haryana,2023,1,0.46884466739094727,7.944290803973745,345,non_event
+lightgbm,rich_calendar,monthly,Haryana,2023,7,1.0350893092717344,17.538965574033423,345,non_event
+lightgbm,rich_calendar,monthly,Haryana,2023,14,1.2582319939372664,21.319984109718764,345,non_event
+lightgbm,rich_calendar,monthly,Haryana,2024,1,0.601820648114427,9.980775090157167,346,non_event
+lightgbm,rich_calendar,monthly,Haryana,2024,7,1.1904016287964723,19.741979543572146,346,non_event
+lightgbm,rich_calendar,monthly,Haryana,2024,14,1.5030450501030985,24.926952311215352,346,non_event
+lightgbm,rich_calendar,monthly,Haryana,2025,1,0.648808920720342,10.242440423331866,345,non_event
+lightgbm,rich_calendar,monthly,Haryana,2025,7,1.2718152762104074,20.077547919047966,345,non_event
+lightgbm,rich_calendar,monthly,Haryana,2025,14,1.4529421362268704,22.93691223038338,345,non_event
+lightgbm,rich_calendar,monthly,Kerala,2017,1,0.6567479988539154,1.6513324148072912,352,non_event
+lightgbm,rich_calendar,monthly,Kerala,2017,7,0.9492410273398847,2.3867792222386317,352,non_event
+lightgbm,rich_calendar,monthly,Kerala,2017,14,1.021752997631941,2.5691038996092144,352,non_event
+lightgbm,rich_calendar,monthly,Kerala,2018,1,0.8068422749423938,2.149216263476259,352,non_event
+lightgbm,rich_calendar,monthly,Kerala,2018,7,1.2954180933342807,3.4506541373209796,352,non_event
+lightgbm,rich_calendar,monthly,Kerala,2018,14,1.5227010915128454,4.056076450042375,352,non_event
+lightgbm,rich_calendar,monthly,Kerala,2019,1,0.9061719410021057,2.672392548554204,351,non_event
+lightgbm,rich_calendar,monthly,Kerala,2019,7,1.5357139014498022,4.528975353625544,351,non_event
+lightgbm,rich_calendar,monthly,Kerala,2019,14,1.6433320203774733,4.846352052349721,351,non_event
+lightgbm,rich_calendar,monthly,Kerala,2020,1,0.5074008536556341,1.8275579429380253,345,non_event
+lightgbm,rich_calendar,monthly,Kerala,2020,7,1.1005849826144753,3.964090348615161,345,non_event
+lightgbm,rich_calendar,monthly,Kerala,2020,14,1.1363350557188263,4.09285507100724,345,non_event
+lightgbm,rich_calendar,monthly,Kerala,2021,1,0.6034224213489,2.134890063181268,345,non_event
+lightgbm,rich_calendar,monthly,Kerala,2021,7,1.1646001294359585,4.120319623448109,345,non_event
+lightgbm,rich_calendar,monthly,Kerala,2021,14,1.351801791627074,4.782633376273922,345,non_event
+lightgbm,rich_calendar,monthly,Kerala,2022,1,0.6079434101408835,1.9595002646690691,345,non_event
+lightgbm,rich_calendar,monthly,Kerala,2022,7,1.1964640480119761,3.8563977824896405,345,non_event
+lightgbm,rich_calendar,monthly,Kerala,2022,14,1.490637695448095,4.8045671850926865,345,non_event
+lightgbm,rich_calendar,monthly,Kerala,2023,1,0.6926755778103348,2.4144965300105197,345,non_event
+lightgbm,rich_calendar,monthly,Kerala,2023,7,1.507565114753846,5.25500083292205,345,non_event
+lightgbm,rich_calendar,monthly,Kerala,2023,14,1.5693835596659986,5.470484712406984,345,non_event
+lightgbm,rich_calendar,monthly,Kerala,2024,1,0.7067671004875861,2.59887940573068,346,non_event
+lightgbm,rich_calendar,monthly,Kerala,2024,7,1.4438502424731074,5.309235047208477,346,non_event
+lightgbm,rich_calendar,monthly,Kerala,2024,14,1.5733516665425193,5.785429516071846,346,non_event
+lightgbm,rich_calendar,monthly,Kerala,2025,1,0.5966049639512512,2.2299327667818853,345,non_event
+lightgbm,rich_calendar,monthly,Kerala,2025,7,0.9137909625867366,3.4154801461353994,345,non_event
+lightgbm,rich_calendar,monthly,Kerala,2025,14,0.989520341563609,3.698534149692717,345,non_event
+lightgbm,rich_calendar,monthly,Odisha,2017,1,0.5832578230544684,2.6948841128261303,352,non_event
+lightgbm,rich_calendar,monthly,Odisha,2017,7,0.9554082392975496,4.414367683681645,352,non_event
+lightgbm,rich_calendar,monthly,Odisha,2017,14,1.072850162279582,4.956996277613892,352,non_event
+lightgbm,rich_calendar,monthly,Odisha,2018,1,1.1051208056800226,4.816908705594431,352,non_event
+lightgbm,rich_calendar,monthly,Odisha,2018,7,1.9854712629339928,8.65410710030867,352,non_event
+lightgbm,rich_calendar,monthly,Odisha,2018,14,2.27454108792019,9.914080624781281,352,non_event
+lightgbm,rich_calendar,monthly,Odisha,2019,1,0.8355182041964924,4.728825022921227,351,non_event
+lightgbm,rich_calendar,monthly,Odisha,2019,7,1.3177460801734486,7.458114744218192,351,non_event
+lightgbm,rich_calendar,monthly,Odisha,2019,14,1.2724030403048294,7.201484427285425,351,non_event
+lightgbm,rich_calendar,monthly,Odisha,2020,1,0.472012625283395,3.489227309619194,345,non_event
+lightgbm,rich_calendar,monthly,Odisha,2020,7,0.9041121034514108,6.6834073356107195,345,non_event
+lightgbm,rich_calendar,monthly,Odisha,2020,14,0.8909849001523416,6.586367990058183,345,non_event
+lightgbm,rich_calendar,monthly,Odisha,2021,1,0.7324654788419346,5.087120466126683,345,non_event
+lightgbm,rich_calendar,monthly,Odisha,2021,7,1.4361657518671813,9.974460776806616,345,non_event
+lightgbm,rich_calendar,monthly,Odisha,2021,14,1.7847636408845011,12.395543417414249,345,non_event
+lightgbm,rich_calendar,monthly,Odisha,2022,1,0.6625735223624544,4.89302735065033,345,non_event
+lightgbm,rich_calendar,monthly,Odisha,2022,7,1.262262300682211,9.321658280142069,345,non_event
+lightgbm,rich_calendar,monthly,Odisha,2022,14,1.460231319736333,10.78363614692941,345,non_event
+lightgbm,rich_calendar,monthly,Odisha,2023,1,0.5892136667971162,4.443469705179248,345,non_event
+lightgbm,rich_calendar,monthly,Odisha,2023,7,0.9314241784972311,7.024200817203738,345,non_event
+lightgbm,rich_calendar,monthly,Odisha,2023,14,0.9145101020664702,6.896645754505148,345,non_event
+lightgbm,rich_calendar,monthly,Odisha,2024,1,0.6024422717995721,4.461307501357118,346,non_event
+lightgbm,rich_calendar,monthly,Odisha,2024,7,1.0814311190643635,8.008396803350436,346,non_event
+lightgbm,rich_calendar,monthly,Odisha,2024,14,1.1895742474626114,8.809236605813435,346,non_event
+lightgbm,rich_calendar,monthly,Odisha,2025,1,0.5009296015740353,4.234865780193776,345,non_event
+lightgbm,rich_calendar,monthly,Odisha,2025,7,0.8663410560064883,7.324059270066071,345,non_event
+lightgbm,rich_calendar,monthly,Odisha,2025,14,0.8811176770041048,7.448981028359189,345,non_event
+lightgbm,rich_calendar,monthly,Punjab,2017,1,0.506841765666556,8.273884538129339,352,non_event
+lightgbm,rich_calendar,monthly,Punjab,2017,7,0.9485464491255503,15.484445700318576,352,non_event
+lightgbm,rich_calendar,monthly,Punjab,2017,14,0.9680371472305894,15.802619530126288,352,non_event
+lightgbm,rich_calendar,monthly,Punjab,2018,1,0.5455629223593341,9.441814771230831,352,non_event
+lightgbm,rich_calendar,monthly,Punjab,2018,7,1.0475784328165494,18.129973859322174,352,non_event
+lightgbm,rich_calendar,monthly,Punjab,2018,14,1.1848730828589733,20.506071283933654,352,non_event
+lightgbm,rich_calendar,monthly,Punjab,2019,1,0.5049527801100954,9.309988311789203,351,non_event
+lightgbm,rich_calendar,monthly,Punjab,2019,7,0.9154484728118054,16.87843877216588,351,non_event
+lightgbm,rich_calendar,monthly,Punjab,2019,14,1.0088373143432379,18.60028100644292,351,non_event
+lightgbm,rich_calendar,monthly,Punjab,2020,1,0.5979833490944505,11.367903986633962,345,non_event
+lightgbm,rich_calendar,monthly,Punjab,2020,7,1.2562419042248394,23.881663883852653,345,non_event
+lightgbm,rich_calendar,monthly,Punjab,2020,14,1.4186252687563887,26.968636957294645,345,non_event
+lightgbm,rich_calendar,monthly,Punjab,2021,1,0.5291886686281246,10.584509379055717,345,non_event
+lightgbm,rich_calendar,monthly,Punjab,2021,7,0.939170753871811,18.784721295452727,345,non_event
+lightgbm,rich_calendar,monthly,Punjab,2021,14,1.292383138813278,25.84946024933762,345,non_event
+lightgbm,rich_calendar,monthly,Punjab,2022,1,0.5206255553936416,10.82395693514509,345,non_event
+lightgbm,rich_calendar,monthly,Punjab,2022,7,1.1404135317646382,23.70952948466793,345,non_event
+lightgbm,rich_calendar,monthly,Punjab,2022,14,1.239005815682631,25.75929178352219,345,non_event
+lightgbm,rich_calendar,monthly,Punjab,2023,1,0.6172987423256131,12.571122396099074,345,non_event
+lightgbm,rich_calendar,monthly,Punjab,2023,7,1.3043143782165922,26.562010526345283,345,non_event
+lightgbm,rich_calendar,monthly,Punjab,2023,14,1.5673265926185835,31.91818333573753,345,non_event
+lightgbm,rich_calendar,monthly,Punjab,2024,1,0.630614078955994,13.894408095720365,346,non_event
+lightgbm,rich_calendar,monthly,Punjab,2024,7,1.5439341704844778,34.017717259268196,346,non_event
+lightgbm,rich_calendar,monthly,Punjab,2024,14,1.4475600224542724,31.89429219266343,346,non_event
+lightgbm,rich_calendar,monthly,Punjab,2025,1,0.5109753759947055,11.977743398731775,345,non_event
+lightgbm,rich_calendar,monthly,Punjab,2025,7,1.2741511739582558,29.86730188936339,345,non_event
+lightgbm,rich_calendar,monthly,Punjab,2025,14,1.1506832884269316,26.973098527803533,345,non_event
+lightgbm,rich_calendar,monthly,West Bengal,2017,1,0.5711920941661147,5.210559321774683,352,non_event
+lightgbm,rich_calendar,monthly,West Bengal,2017,7,1.046855646322117,9.549683026442285,352,non_event
+lightgbm,rich_calendar,monthly,West Bengal,2017,14,1.1210671422118172,10.226659135951365,352,non_event
+lightgbm,rich_calendar,monthly,West Bengal,2018,1,0.7105588472962511,6.811355667157411,352,non_event
+lightgbm,rich_calendar,monthly,West Bengal,2018,7,1.0293223812340553,9.866995339553396,352,non_event
+lightgbm,rich_calendar,monthly,West Bengal,2018,14,1.1372825263579698,10.901891955245416,352,non_event
+lightgbm,rich_calendar,monthly,West Bengal,2019,1,0.6349479734791942,7.036505737077936,351,non_event
+lightgbm,rich_calendar,monthly,West Bengal,2019,7,1.1240871783718975,12.457155877274074,351,non_event
+lightgbm,rich_calendar,monthly,West Bengal,2019,14,1.1326236355409975,12.551757060919966,351,non_event
+lightgbm,rich_calendar,monthly,West Bengal,2020,1,0.6198745207512028,7.940412064845989,345,non_event
+lightgbm,rich_calendar,monthly,West Bengal,2020,7,1.171864488773744,15.011242781437645,345,non_event
+lightgbm,rich_calendar,monthly,West Bengal,2020,14,1.1369868756023305,14.564470715239949,345,non_event
+lightgbm,rich_calendar,monthly,West Bengal,2021,1,0.46402121205999736,6.112172594127708,345,non_event
+lightgbm,rich_calendar,monthly,West Bengal,2021,7,1.00565264384327,13.246641250780028,345,non_event
+lightgbm,rich_calendar,monthly,West Bengal,2021,14,1.0449848986571173,13.764732932130492,345,non_event
+lightgbm,rich_calendar,monthly,West Bengal,2022,1,0.53710596564395,6.483263826628704,345,non_event
+lightgbm,rich_calendar,monthly,West Bengal,2022,7,1.1544069051270636,13.934539938031671,345,non_event
+lightgbm,rich_calendar,monthly,West Bengal,2022,14,1.2040853254124242,14.534194988993521,345,non_event
+lightgbm,rich_calendar,monthly,West Bengal,2023,1,0.7787054612746019,8.92032416510167,345,non_event
+lightgbm,rich_calendar,monthly,West Bengal,2023,7,1.322676587975467,15.151690230885768,345,non_event
+lightgbm,rich_calendar,monthly,West Bengal,2023,14,1.3994925890362298,16.031642490893304,345,non_event
+lightgbm,rich_calendar,monthly,West Bengal,2024,1,0.6495274959546729,9.183725863134717,346,non_event
+lightgbm,rich_calendar,monthly,West Bengal,2024,7,1.2103600942099562,17.11338683909672,346,non_event
+lightgbm,rich_calendar,monthly,West Bengal,2024,14,1.1446851915696918,16.18480366795666,346,non_event
+lightgbm,rich_calendar,monthly,West Bengal,2025,1,0.48135114991670513,8.424482661227811,345,non_event
+lightgbm,rich_calendar,monthly,West Bengal,2025,7,0.8778871192125411,15.364552085522334,345,non_event
+lightgbm,rich_calendar,monthly,West Bengal,2025,14,0.9066630576832809,15.868181078097207,345,non_event
