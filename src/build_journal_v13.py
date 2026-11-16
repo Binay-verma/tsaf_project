@@ -116,7 +116,17 @@ assert c714.p_one_sided_typed_better >= 0.05
 FM_SECOND = (f"averaged over leads 7 and 14, typed flags were again better ({f4(c714['mean'])}, negative in {int(c714.years_negative)} of 9 years), "
              f"but by about a third of the first test's size and with a one-sided p of {c714.p_one_sided_typed_better:.3f}, so the prediction (p below 0.05) failed; "
              f"at lead 1 the difference was {f4(c1['mean'])}, as predicted.")
+yb = pd.read_csv(R/'inference_extras_v1/year_block_and_leave_one_state_out.csv').set_index('hypothesis')
+lv = pd.read_csv(R/'inference_extras_v1/leaf2_by_typed_usability.csv').set_index(['test', 'fits'])
+u1, u2 = lv.loc[('first', 'typed flags usable')], lv.loc[('second', 'typed flags usable')]
+YEAR_BLOCK = (f"Because clusters in the same year share weather and data, we also treated each event year as one unit (an exact test over all sign assignments of the nine year means; exploratory): "
+              f"the one-sided p is {yb.loc['H1', 'year_block_p']:.3f} for H1, {yb.loc['H3', 'year_block_p']:.3f} for H3, {yb.loc['R2', 'year_block_p']:.3f} for R2 and {yb.loc['R1', 'year_block_p']:.2f} for R1, so with Holm's adjustment within each registration the same three hypotheses would be confirmed (the TimesFM-3 hypothesis, H2, has a negative estimate and a larger p in any case). "
+              f"Dropping any one second-test state leaves R2 between {f4(yb.loc['R2', 'loso_min'])} and {f4(yb.loc['R2', 'loso_max'])}, whereas dropping Gujarat reduces the first test's H3 to {f4(yb.loc['H3', 'loso_min'])}.")
+LEAF2_VARIANCE = (f"In the fits where the leaf-2 trees could use the typed flags, the typed flags did improve on the calendar arm, but the pooled flag improved more "
+                  f"(case-level lead-1 MASE, second test: calendar {u2.calendar:.3f}, typed {u2.typed:.3f}, pooled {u2.pooled:.3f}; first test: {u1.calendar:.3f}, {u1.typed:.3f}, {u1.pooled:.3f}). "
+                  f"This is consistent with a variance explanation, examined only after the fact: a leaf built on two festival days averages two noisy days, whereas the pooled flag averages six to eight.")
 TOK = {
+    '«YEAR_BLOCK»': YEAR_BLOCK, '«LEAF2_VARIANCE»': LEAF2_VARIANCE,
     '«FM_SECOND»': FM_SECOND,
     '«HIGHLIGHT_WINDOW»': 'Longer windows shrank the trees’ pooled advantage; passing both flags did as well',
     '«CONTRIB_WINDOW»': 'and on the length of the training window',
