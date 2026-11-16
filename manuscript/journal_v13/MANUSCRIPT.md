@@ -176,7 +176,7 @@ Table 5. Training-window experiment (exploratory, predictions committed before t
 
 **Heterogeneity.** Exploratory analyses after the first test suggested that typing helps Ridge where a state's festival effects differ strongly; a simulation matched to the pipeline, built after that test, reproduced the differences between states mainly through Gujarat and Tamil Nadu (Supplementary Sections S4 and S5). The second registered test did not confirm this out of sample (M1 −0.0081, interval −0.0247 to 0.0085; M2 ρ −0.43). We treat it as an unconfirmed explanation.
 
-**Foundation models at longer leads.** In the first test, TimesFM-3 did better with typed flags at leads 7 and 14 (−0.078 and −0.079), also against a pooled flag without zero padding (−0.060 and −0.064). This was not a registered horizon, rests mainly on Gujarat and Tamil Nadu, and is the subject of the 2027–2028 registration (Table 1).
+**Foundation models at longer leads.** In the first test, TimesFM-3 did better with typed flags at leads 7 and 14 (−0.078 and −0.079), also against a pooled flag without zero padding (−0.060 and −0.064). This was not a registered horizon and rests mainly on Gujarat and Tamil Nadu. We checked it on the seven second-test states with a prediction committed before the hosted runs: averaged over leads 7 and 14, typed flags were again better (−0.0189, negative in 6 of 9 years), but by about a third of the first test's size and with a one-sided p of 0.066, so the prediction (p below 0.05) failed; at lead 1 the difference was +0.0056, as predicted. The 2027–2028 registration tests it on future data (Table 1).
 
 ## 8. What should a forecaster do?
 

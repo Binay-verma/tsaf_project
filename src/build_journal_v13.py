@@ -110,7 +110,14 @@ DR_MAX = (f"{dr.loc['typed', 'largest_regret']:.3f}, {dr.loc['pooled', 'largest_
           f"{dr.loc['average', 'largest_regret']:.3f} respectively")
 assert int(dr.loc['follow', 'follow_picked_worse_cells']) == 59 and int(dr.loc['follow', 'cells']) == 192
 
+fmc = pd.read_csv(R/'new_states_v2_fm/analysis/contrasts.csv').set_index('contrast')
+c714, c1 = fmc.loc['typed - pooled1, leads 7 and 14'], fmc.loc['typed - pooled1, lead 1']
+assert c714.p_one_sided_typed_better >= 0.05
+FM_SECOND = (f"averaged over leads 7 and 14, typed flags were again better ({f4(c714['mean'])}, negative in {int(c714.years_negative)} of 9 years), "
+             f"but by about a third of the first test's size and with a one-sided p of {c714.p_one_sided_typed_better:.3f}, so the prediction (p below 0.05) failed; "
+             f"at lead 1 the difference was {f4(c1['mean'])}, as predicted.")
 TOK = {
+    '«FM_SECOND»': FM_SECOND,
     '«HIGHLIGHT_WINDOW»': 'Longer windows shrank the trees’ pooled advantage; passing both flags did as well',
     '«CONTRIB_WINDOW»': 'and on the length of the training window',
     '«SCORECARD_TABLE»': SCORECARD, '«LEAF_TABLE»': LEAF, '«WINDOW_SECTION»': WINDOW_SECTION, '«HYBRID_NOISE_ALPHA_SECTION»': OTHER,
