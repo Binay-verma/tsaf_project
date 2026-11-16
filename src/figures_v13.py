@@ -45,7 +45,7 @@ def shrinkage():
         ax.set_title(name, fontsize=9, color=INK, loc='left')
         ax.grid(axis='y', color=GRID, lw=0.8); ax.set_axisbelow(True)
     axes[0].set_ylabel('Typed − pooled MASE\n(positive favours pooled)')
-    fig.tight_layout(); fig.savefig(OUT/'shrinkage.png', dpi=300); plt.close(fig)
+    fig.tight_layout(); fig.savefig(OUT/'shrinkage.png', dpi=300); fig.savefig(OUT/'figure1.pdf'); plt.close(fig)
 
 
 def forest():
@@ -65,7 +65,7 @@ def forest():
         ax.grid(axis='x', color=GRID, lw=0.8); ax.set_axisbelow(True)
     h = [plt.Line2D([], [], color=BLUE, marker='o', lw=2, label='First test'), plt.Line2D([], [], color=ORANGE, marker='s', lw=2, label='Second test')]
     fig.legend(handles=h, loc='lower center', ncol=2, frameon=False, bbox_to_anchor=(0.5, -0.01))
-    fig.tight_layout(rect=(0, 0.06, 1, 1)); fig.savefig(OUT/'forest.png', dpi=300); plt.close(fig)
+    fig.tight_layout(rect=(0, 0.06, 1, 1)); fig.savefig(OUT/'forest.png', dpi=300); fig.savefig(OUT/'figure2.pdf'); plt.close(fig)
 
 
 def leaf_window():
@@ -88,7 +88,7 @@ def leaf_window():
     ax.set_title('LightGBM, training window', fontsize=9, loc='left'); ax.grid(color=GRID, lw=0.8); ax.set_axisbelow(True)
     h = [plt.Line2D([], [], color=MUTED, lw=2, ls='-', label='leaf 2'), plt.Line2D([], [], color=MUTED, lw=2, ls='--', label='tuned leaf')]
     ax.legend(handles=h, frameon=False)
-    fig.tight_layout(); fig.savefig(OUT/'leaf_window.png', dpi=300); plt.close(fig)
+    fig.tight_layout(); fig.savefig(OUT/'leaf_window.png', dpi=300); fig.savefig(OUT/'figure3.pdf'); plt.close(fig)
 
 
 if __name__ == '__main__':

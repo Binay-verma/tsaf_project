@@ -1,0 +1,5 @@
+Figure 1. Typed minus pooled lead-1 MASE for the three exploratory patterns that were registered, by stage (TimesFM-3 was tested once; its open circle is the Stage A point estimate without interval), from the exploratory stage to the two registered state-level tests (95% intervals over clusters). Positive values favour pooling.
+
+Figure 2. Per-state lead-1 typed minus pooled MASE in the fourteen states of the two registered tests, with 95% intervals over family-years (exploratory summary of registered forecasts). Left: SARIMAX. Right: leaf-2 LightGBM. Positive values favour pooling.
+
+Figure 3. Typed minus pooled lead-1 MASE for LightGBM. Left: by minimum leaf size, 730-day window, all event years (blue circles: first test; orange squares: second test). Right: by training window, event years 2021–2025, for the leaf-2 (solid) and tuned (dashed) LightGBM, same colours. Both experiments are exploratory, with predictions committed before they were run.

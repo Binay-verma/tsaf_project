@@ -74,7 +74,7 @@ Table 1. Cohorts and registration sequence.
 | Stage | Role | States | Event years | Event cases | Clusters | Models | Fixed before forecasts |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | Stage A | exploratory | 3 | 2022–2025 | 1,056 | 20 | 6 | – |
-| Stage B | registered (repository) | Maharashtra | 2019–2021 | 327 | 15 | 4 local | hypotheses H1–H2, rule |
+| Stage B (Maharashtra) | registered (repository) | 1 | 2019–2021 | 327 | 15 | 4 local | hypotheses H1–H2, rule |
 | First test | registered (osf.io/yw7mr) | 7 | 2017–2025 | 5,157 | 45 | 6 | H1–H3, rule, script |
 | Second test | registered (osf.io/f9tv4) | 7 | 2017–2025 | 3,969 | 36 | 4 local | R1, R2, M1, M2, rule, script, power |
 | 2027–2028 | registered (osf.io/xr25s) | 3 + 4 | 2027–2028 | – | – | 4 | P1, P2; not yet observed |

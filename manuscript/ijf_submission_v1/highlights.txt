@@ -1,0 +1,5 @@
+Typed and pooled festival flags compared in 17 Indian states with controls
+Most exploratory effects shrank or vanished in two registered tests
+Small-leaf LightGBM preferred one pooled flag in both registered tests
+A tree cannot use a flag set on fewer training days than its leaf size
+Longer windows shrank the trees’ pooled advantage; passing both flags did as well
